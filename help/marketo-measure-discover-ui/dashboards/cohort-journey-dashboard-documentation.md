@@ -3,7 +3,7 @@ unique-page-id: 42762648
 description: Kohort Journey Dashboard Documentation - [!DNL Marketo Measure] - Produktdokumentation
 title: Kohort Journey Dashboard Documentation
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
+source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Varje kontrollpanel har två paneler:
 >
 >På alla Discover-paneler kan bara ett personobjekt, antingen lead eller kontakt, rapporteras. Detta anges i [!UICONTROL Settings] > [!UICONTROL Reporting] > [!UICONTROL Attribution Settings] > [!UICONTROL Default Dashboard Object].
 
-Kontrollpanelen har stöd för följande filter:
+Kontrollpanelerna har stöd för följande filter:
 
 * Kohortfas: välj startkohortfas. Poster i alla följande steg utvecklas från posterna i kohortfasen.
 * Kohortdatumintervall: Välj tidsram för den markerade kohortscenen. Tillsammans med kohortscenen definieras startdatauppsättningen.
@@ -53,8 +53,6 @@ För alla filter används&quot;AND&quot;-logik.
 >[!NOTE]
 >
 >Segmentfilter gäller endast för LC-scenen och efter. Om kohortscenen är okänd eller känd och ett av segmentfiltren har ett värde returnerar instrumentpanelen inga resultat.
-
-![](assets/cohort-journey-dashboard-documentation-3.png)
 
 Stegen är Okänd, Känd, LC, valda trattfaser i Öppet lead/kontaktsteg (Inställningar > CRM > Stage Mapping), OC, valda trattfaser i Öppna säljprojektsstadier (Inställningar > CRM > Stage Mapping) och avtal (stängda Won-affärsmöjligheter).
 
