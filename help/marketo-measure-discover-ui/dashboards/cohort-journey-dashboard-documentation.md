@@ -3,18 +3,32 @@ unique-page-id: 42762648
 description: Kohort Journey Dashboard Documentation - [!DNL Marketo Measure] - Produktdokumentation
 title: Kohort Journey Dashboard Documentation
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # Kohort Journey Dashboard Documentation {#cohort-journey-dashboard-documentation}
 
-Med kontrollpanelen Kohort Journey kan marknadsförarna visa förloppet från en startkohortfas för en vald tidsram och mäta konverteringsgraden.
+Med kontrollpanelerna Kohort Impact och Funnel kan marknadsförarna visa förloppet från en startkohortfas för en vald tidsram och mäta konverteringsgraden.
 
-Den här instrumentpanelen har två paneler:
+Den största skillnaden är hur vi räknar varje enhet från kohortfasen.
+
+* Kohorttratt: Resultatet av varje fas härleds direkt från det föregående steget.
+
+   * Endast poster som genomgick varje fas längre ned i tratten efter den angivna kohortstarttiden räknas.
+
+![](assets/cohort-journey-dashboard-documentation-1.png)
+
+* Kohortpåverkan: Resultatet av varje fas härleds från kohortfasen, inte från det tidigare stadiet.
+
+   * Alla poster i varje fas räknas så länge som de inträffar efter den angivna kohortens starttid. Den här instrumentpanelen kommer naturligtvis att ha fler poster än Funnel Dashboard eftersom vi tittar på hur enheterna påverkades från kohortfasen, inte bara rörelsen genom tratten.
+
+![](assets/cohort-journey-dashboard-documentation-2.png)
+
+Varje kontrollpanel har två paneler:
 
 * Kohortintäkter: Det totala affärsmöjlighetsbeloppet från alla möjligheter i avtalsfasen i Cohort Journey-gruppen.
 * Kohort Journey: Förloppet till varje resefas från startkohortsteget för en vald tidsram.
@@ -40,7 +54,7 @@ För alla filter används&quot;AND&quot;-logik.
 >
 >Segmentfilter gäller endast för LC-scenen och efter. Om kohortscenen är okänd eller känd och ett av segmentfiltren har ett värde returnerar instrumentpanelen inga resultat.
 
-![](assets/one-2.png)
+![](assets/cohort-journey-dashboard-documentation-3.png)
 
 Stegen är Okänd, Känd, LC, valda trattfaser i Öppet lead/kontaktsteg (Inställningar > CRM > Stage Mapping), OC, valda trattfaser i Öppna säljprojektsstadier (Inställningar > CRM > Stage Mapping) och avtal (stängda Won-affärsmöjligheter).
 
