@@ -2,16 +2,16 @@
 description: data warehouse Access - Direct Share - produktdokumentation
 title: data warehouse Access - direktdelning
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 36ee02b2dfc2651987f72fc7f02fe629717f02a0
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # data warehouse Access - direktdelning {#data-warehouse-access-direct-share}
 
-**Krav**
+## Krav {#requirements}
 
 För att [!DNL Marketo Measure] om du vill lägga upp en direktdelning till data warehouse måste du uppfylla följande krav.
 
@@ -19,17 +19,23 @@ För att [!DNL Marketo Measure] om du vill lägga upp en direktdelning till data
 * Din Snowflake-instans finns i Azure East US 2 Snowflake.
 * Du anger [!DNL Marketo Measure] med ditt konto-ID för Snowflake.
 
-**Begränsningar**
+## Begränsningar {#limitations}
 
-[!DNL Marketo Measure] kommer endast att kunna ställa in Snowflake Direct Shares med konton i Azure East US 2 på grund av nuvarande begränsningar för Snowflake Direct Share. Om du vill att dina data ska vara tillgängliga i andra Snowflake-regioner rekommenderar vi att du skapar en kopia av data i ett Snowflake-konto som finns i Azure East US 2 och använder [Snowflake-databasreplikering](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target=&quot;_blank&quot;} om du vill kopiera data i valfritt Snowflake-region/konto.
+[!DNL Marketo Measure] kommer endast att kunna ställa in Snowflake Direct Shares med konton i Azure East US 2 på grund av nuvarande begränsningar för Snowflake Direct Share. Om du vill att dina data ska vara tillgängliga i andra Snowflake-regioner rekommenderar vi att du skapar en kopia av data i ett Snowflake-konto som finns i Azure East US 2 och använder [Snowflake-databasreplikering](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} för att kopiera data i valfritt Snowflake-land/konto.
 
-**Åtkomst till resursen**
+## Ange konto-ID för Snowflake {#enter-snowflake-account-id}
 
-När resursen har skapats för konto-ID:t måste du slutföra [konfigurationssteg](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target=&quot;_blank&quot;} i din Snowflake-instans för att få åtkomst till data.
+Öppna **Inställningar** i Marketo Mät-appen och navigera till **data warehouse** sida. I **Direktdelning** -avsnittet, ange [Snowflake account id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} i rutan och klicka **Anslut**.
+
+![](assets/data-warehouse-access-direct-share-1.png)
+
+## Åtkomst till resursen {#accessing-the-share}
+
+När resursen har skapats för konto-ID:t måste du slutföra [konfigurationssteg](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} i din Snowflake-instans för att få tillgång till data.
 
 >[!NOTE]
 >
->Du kan välja valfritt databasnamn. Du kan tilldela behörigheter till valfri regel, så länge den finns i din Snowflake-instans.
+>Du kan välja valfritt databasnamn. Du kan tilldela behörigheter till vilken roll du vill, så länge den finns i din Snowflake-instans.
 
 * Använd rollen Kontoadministratör
 
@@ -56,4 +62,4 @@ GRANT IMPORTED PRIVILEGES ON DATABASE <database_name> TO ROLE <role_name>
 GRANT IMPORTED PRIVILEGES ON ALL SCHEMAS IN DATABASE <database_name> TO ROLE <role_name>
 ```
 
-Mer detaljerade anvisningar och steg för att utföra dessa steg från användargränssnittet i Snowflake finns i [Snowflake dokumentation direkt](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target=&quot;_blank&quot;}.
+Mer detaljerade anvisningar och steg för att utföra dessa steg från användargränssnittet i Snowflake finns i [Snowflake dokumentation direkt](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.
