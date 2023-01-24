@@ -3,9 +3,9 @@ unique-page-id: 18874763
 description: "[!DNL Microsoft Dynamics] Installationshandbok för CRM - Marketo-mått - produktdokumentation"
 title: "[!DNL Microsoft Dynamics] Installationshandbok för CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 9de82556ca543aa8e6c53242eacae5c87019886c
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -138,11 +138,11 @@ När du lägger till en användare i deras respektive grupp ser du deras [Identi
 
 >[!NOTE]
 >
->För att vara [!DNL Marketo Measure] administratör (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}) måste en användare läggas till som användare _och_ en administratör till [!DNL Marketo Measure] produktprofil i [!DNL Marketo Measure] produktkort.
+>För att vara [!DNL Marketo Measure] administratör (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}) måste en användare läggas till som användare _och_ en administratör till [!DNL Marketo Measure] produktprofil i [!DNL Marketo Measure] produktkort.
 
 **Logga in på[!DNL Marketo Measure]**
 
-När en användare har lagts till i en produktprofil kan han/hon komma åt sin [!DNL Marketo Measure] genom att välja **Logga in med Adobe ID** option at [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+När en användare har lagts till i en produktprofil kan han/hon komma åt sin [!DNL Marketo Measure] genom att välja **Logga in med Adobe ID** option at [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 ![](assets/microsoft-dynamics-crm-installation-guide-15.png)
 
@@ -217,3 +217,7 @@ För att [!DNL Marketo Measure] för att spåra dina webbaktiviteter finns det f
    >Som standard [!DNL Marketo Measure] exporterar 200 poster per API-kredit varje gång ett jobb skickar data till din CRM. För de flesta kunder ger detta den optimala balansen mellan API-krediter som används av [!DNL Marketo Measure] och CPU-resurskrav för CRM. För kunder med komplexa CRM-konfigurationer, till exempel arbetsflöden och utlösare, kan en mindre gruppstorlek vara användbar för att förbättra CRM-prestanda. I detta syfte [!DNL Marketo Measure] gör att kunderna kan konfigurera batchstorleken för CRM-export. Den här inställningen är tillgänglig på sidan Inställningar > CRM > Allmänt i dialogrutan [!DNL Marketo Measure] webbprogram och kunder kan välja mellan gruppstorlekar på 200 (standard), 100, 50 eller 25.
    >
    >När du ändrar den här inställningen bör du tänka på att mindre gruppstorlekar förbrukar fler API-krediter från din CRM. Du bör bara minska batchstorleken om du har CPU-timeout eller hög CPU-belastning i CRM.
+
+   >[!NOTE]
+   >
+   >När du inaktiverar Marketo Measurement-export av data till Dynamics tas inga befintliga data bort. Kontakta Dynamics Support om du behöver hjälp med att ta bort befintliga data.
