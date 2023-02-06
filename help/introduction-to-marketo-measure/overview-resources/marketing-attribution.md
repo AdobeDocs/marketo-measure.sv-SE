@@ -1,20 +1,20 @@
 ---
 unique-page-id: 18874566
-description: Marknadsattribuering - Marketo-mått - produktdokumentation
+description: Marknadsattribuering - Marketo Measure - produktdokumentation
 title: Marknadsattribuering
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # Marknadsattribuering {#marketing-attribution}
 
-## Välkommen till Marketo Measurement {#welcome-to-marketo-measure}
+## Välkommen till Marketo Measure {#welcome-to-marketo-measure}
 
-Marketo Measurement ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för deras företag. Marketo Measurement är en marknadsföringsattribueringslösning som automatiskt spårar och rapporterar kanalernas resultat, vilket ger er insyn i vilka kanaler som ökar kundengagemanget och gör att ni kan optimera era era marknadsföringsutgifter i enlighet med detta.
+Marketo Measure ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget. Marketo Measure är en marknadsföringsattribueringslösning som automatiskt håller reda på och rapporterar om kanalernas prestanda, vilket ger er insyn i vilka kanaler som ökar kundengagemanget och gör att ni kan optimera era era marknadsföringsutgifter i enlighet med detta.
 
 ## Marknadsattribuering {#marketing-attribution-1}
 
@@ -24,7 +24,7 @@ Marketo Measurement ger marknadsförarna insikt i vilka marknadsföringssatsning
 
 ![](assets/1.png)
 
-Dessa milstolpar utgör grunden för Marketo Mät **attribueringsmodeller**. Marketo Measurement erbjuder sex attribueringsmodeller. Varje modell fokuserar på olika faser i kundresan och erbjuder en allmän struktur för att attribuera intäktskrediter till era marknadsföringskontaktytor. Vilken modell du använder beror på vilka steg i resan du är mest intresserad av att mäta och hur mycket data du vill rapportera om. De attribueringsmodeller som Marketo Measurement erbjuder är:
+Dessa milstolpar utgör grunden för Marketo Measure **attribueringsmodeller**. Marketo Measure erbjuder sex attribueringsmodeller. Varje modell fokuserar på olika faser i kundresan och erbjuder en allmän struktur för att attribuera intäktskrediter till era marknadsföringskontaktytor. Vilken modell du använder beror på vilka steg i resan du är mest intresserad av att mäta och hur mycket data du vill rapportera om. De attribueringsmodeller som Marketo Measure erbjuder är:
 
 * Första beröring
 * Skapa leads

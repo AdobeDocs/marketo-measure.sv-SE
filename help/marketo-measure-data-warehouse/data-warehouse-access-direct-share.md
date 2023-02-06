@@ -25,7 +25,7 @@ För att [!DNL Marketo Measure] om du vill lägga upp en direktdelning till data
 
 ## Ange konto-ID för Snowflake {#enter-snowflake-account-id}
 
-Öppna **Inställningar** i Marketo Mät-appen och navigera till **data warehouse** sida. I **Direktdelning** -avsnittet, ange [Snowflake account id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} i rutan och klicka **Anslut**.
+Öppna **Inställningar** i Marketo Measure och navigera till **data warehouse** sida. I **Direktdelning** -avsnittet, ange [Snowflake account id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} i rutan och klicka **Anslut**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 

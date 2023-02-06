@@ -696,7 +696,7 @@ Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en
 
 **Kostnad per lead**
 
-`11.` Den totala utgiften från de leads som skapas dividerat med det totala antalet klick, vilket ger CPL-nivån.
+`11.` Den totala utgiften från de leads som skapas dividerat med det totala antalet klick, vilket ger CPL-frekvensen.
 
 **Besök**
 

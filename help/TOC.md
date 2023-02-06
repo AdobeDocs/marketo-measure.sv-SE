@@ -3,11 +3,11 @@ cloud: Experience Cloud
 product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] Guide"
-user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för deras företag."
+user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget."
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

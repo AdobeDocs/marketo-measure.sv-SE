@@ -5,14 +5,14 @@ title: Marknadsföringskanalkostnader
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
 
 # Marknadsföringskanalkostnader {#marketing-channel-costs}
 
-En av de mest grundläggande fördelarna med att använda [!DNL Marketo Measure] är möjligheten att knyta samman marknadsföringssatsningar direkt till intäktseffekten - med så mycket granularitet som önskas. Det är möjligt att se avkastningen på investeringar på kontaktytpunktsnivå. För att dra nytta av denna förmån behöver kanalkostnaderna bara överföras till [!DNL Marketo Measure] app. ROI-rapporter skapas automatiskt och är tillgängliga i **Kontrollpanel för marknadsföringsavkastning** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+En av de mest grundläggande fördelarna med att använda [!DNL Marketo Measure] är möjligheten att knyta samman marknadsföringssatsningar direkt till intäktseffekten - med så mycket granularitet som önskas. Det är möjligt att se avkastningen på investeringar på kontaktytpunktsnivå. För att dra nytta av denna förmån behöver kanalkostnaderna bara överföras till [!DNL Marketo Measure] app. ROI-rapporter skapas automatiskt och är tillgängliga i **Kontrollpanel för marknadsföringsavkastning** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klicka här om du vill gå direkt till instruktionerna.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 

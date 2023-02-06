@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874672
-description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interact - Marketo-mått - produktdokumentation
+description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interact - Marketo Measure - produktdokumentation
 title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interagera
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9

@@ -5,7 +5,7 @@ title: UTM-parametrar
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Att tagga URL:er är ett enkelt och effektivt sätt att samla in data om era digitala marknadsföringssatsningar. Det är processen att lägga till parametrar i slutet av URL:er som samlar in och registrerar data. De vanligaste parametrarna är UTM-moduler (Urchin Tracking Modules), som stöds av Google. Det finns fem huvudsakliga UTM-parametrar: Medel, Källa, Kampanj, Innehåll och Term. Dessa diskuteras mer ingående i nästa avsnitt.
 
-UTM-parametrar kan läggas till manuellt i URL-adresser eller läggas till via automatisk taggning med vissa plattformar, till exempel AdWords. Automatisk taggning automatiserar processen att lägga till parametrar till URL-adresser. Det finns också möjlighet att [URL-verktyg](https://ga-dev-tools.appspot.com/campaign-url-builder/){target=&quot;_blank&quot;} om du vill att taggar URL-adresser ska gå snabbare manuellt. Med ett URL-verktyg behöver du bara ange vilka värden som ska användas för varje parameter så formaterar verktyget URL:en åt dig.
+UTM-parametrar kan läggas till manuellt i URL-adresser eller läggas till via automatisk taggning med vissa plattformar, till exempel AdWords. Automatisk taggning automatiserar processen att lägga till parametrar till URL-adresser. Det finns också möjlighet att [URL-verktyg](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} om du vill att taggar URL-adresser ska gå snabbare manuellt. Med ett URL-verktyg behöver du bara ange vilka värden som ska användas för varje parameter så formaterar verktyget URL:en åt dig.
 
 ## Vad är UTM-parametrar? {#what-are-utm-parameters}
 

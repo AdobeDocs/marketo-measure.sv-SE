@@ -5,7 +5,7 @@ title: Förstå [!DNL Marketo Measure] AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ På grund av [!DNL Marketo Measure] parametrar:
 **If [!DNL Marketo Measure] söker efter en spårningsmall:**
 
 * [!DNL Marketo Measure] lägger till parametrarna i spårningsmallen.
-* Om en omdirigering från tredje part hittas i en spårningsmall som Kenshoo eller Marin, [!DNL Marketo Measure] kommer inte att vidta några åtgärder. I stället måste du [add [!DNL Marketo Measure] parametrar till tredjepartsverktyget i ditt konto](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* Om en omdirigering från tredje part hittas i en spårningsmall som Kenshoo eller Marin, [!DNL Marketo Measure] kommer inte att vidta några åtgärder. I stället måste du [add [!DNL Marketo Measure] parametrar till tredjepartsverktyget i ditt konto](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 Om ingen spårningsmall hittas [!DNL Marketo Measure] kommer att:
 
@@ -40,7 +40,7 @@ Om ingen spårningsmall hittas [!DNL Marketo Measure] kommer att:
 
 ## Spårningsmallar {#tracking-templates}
 
-Som förklaras av [!DNL Google AdWords]är en spårningsmall den URL som används för att nå en landningssida. Den spårningsinformation som samlas in används för att förstå er annonstrafik. [Klicka här](https://support.google.com/adwords/answer/7197008?hl=en){target=&quot;_blank&quot;} om du vill ha mer information från Google.
+Som förklaras av [!DNL Google AdWords]är en spårningsmall den URL som används för att nå en landningssida. Den spårningsinformation som samlas in används för att förstå er annonstrafik. [Klicka här](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} för mer information från Google.
 
 [!DNL Marketo Measure] rekommenderar att du använder en kontonivå, kampanjnivå eller spårningsmall på annonsnivå, eftersom det gör det möjligt att lägga till och ta bort parametrar för alla annonser utan risk för avbrott eller borttagning av annonshistorik.
 
@@ -108,6 +108,6 @@ S: 4 timmar
 
 >[!NOTE]
 >
->När ändringarna är klara är du klar. Du kan kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} om det finns några frågor under installationen.
+>När ändringarna är klara är du klar. Du kan kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om det finns några frågor under installationen.
 
-[Klicka här](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;} för instruktioner från Google om hur du skapar spårningsmallar på kontonivå.
+[Klicka här](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} om du vill ha instruktioner från Google om hur du skapar spårningsmallar på kontonivå.

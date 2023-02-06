@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Marketo Measurement Cookies {#marketo-measure-cookies}
+# Marketo Measure Cookies {#marketo-measure-cookies}
 
 Läs om de olika [!DNL Marketo Measure] Cookies som läses in på din plats när du använder [!DNL Marketo Measure] JavaScript till landningssidorna. Den här informationen kan vara användbar för webbutvecklingsteamet under implementeringen.
 

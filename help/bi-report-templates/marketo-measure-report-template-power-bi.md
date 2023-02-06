@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] Rapportmall - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2557'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ## Komma igång {#getting-started}
 
-Du kan komma åt rapportmallen för Power BI [här](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+Du kan komma åt rapportmallen för Power BI [här](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Öppna Adobe [!DNL Marketo Measure] Power BI-fil för rapportmall.
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-Du hittar information om server, lager och schema i [!DNL Marketo Measure] Gränssnitt på [!DNL Data Warehouse] informationssida. Instruktioner för hur du hittar den här sidan finns i detalj [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Du hittar information om server, lager och schema i [!DNL Marketo Measure] Gränssnitt på [!DNL Data Warehouse] informationssida. Instruktioner för hur du hittar den här sidan finns i detalj [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 Parametrarna QueryFilterStartDate och QueryFilterEndDate används för att begränsa mängden data som importeras. De här parametrarna måste ha SQL-format som de används i de frågor som skickas till [!DNL Snowflake]. Om du t.ex. vill begränsa data till de senaste två åren, kommer QueryFilterStartDate att vara datalägd (year,-2,current_date()). Dessa parametrar jämförs med datetime-datatyper, så det rekommenderas att du använder dateadd (day,1,current_date()) för QueryFilterEndDate för att returnera alla data till den aktuella tiden.
 
 ## Dataanslutning {#data-connection}
 
-De parametrar som anges när filen öppnas används för att strukturera interna frågor som importerar tabeller från data warehouse. Du måste fortfarande skapa en dataanslutning till [!DNL Snowflake] -instans. För detta behöver du samma server- och lagerställenamn tillsammans med ditt användarnamn och lösenord. Information om var du hittar ditt användarnamn och återställer lösenordet finns, om det behövs, dokumenterad [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+De parametrar som anges när filen öppnas används för att strukturera interna frågor som importerar tabeller från data warehouse. Du måste fortfarande skapa en dataanslutning till [!DNL Snowflake] -instans. För detta behöver du samma server- och lagerställenamn tillsammans med ditt användarnamn och lösenord. Information om var du hittar ditt användarnamn och återställer lösenordet finns, om det behövs, dokumenterad [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Dataimport {#data-import}
 
@@ -105,7 +105,7 @@ Eftersom segmentnamn kan anpassas har de generiska kolumnnamn i Snowflake data w
 
 ### Konvertering av skiftlägeskänsligt ID {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] data har ett par tabeller där ID-värden (primärnyckel) är skiftlägeskänsliga, nämligen Touchpoint och Campaign. Datamotorn som driver Power BI-modelleringslagret är skiftlägeskänslig, vilket resulterar i&quot;duplicerade&quot; ID-värden. För att bevara skiftlägeskänsligheten för dessa nyckelvärden har vi implementerat transformeringssteg som kopplar osynliga tecken till gemena tecken och bevarar ID:ts unika karaktär när det utvärderas i datamotolken. Mer information om problemet och de detaljerade stegen om den metod vi har använt finns [här] (https://blog.crossjoin.co.uk/2019){target=&quot;_blank&quot;}. Dessa skiftlägeskänsliga ID-värden är märkta som&quot;ID för koppling&quot; och används som kopplingsnycklar i relationslagret. Vi har dolt kopplings-ID:n från rapporteringslagret, så att de ursprungliga ID-värdena är synliga för rapportering, eftersom de osynliga tecknen kan störa klippta/klistra in funktioner och filtrering.
+[!DNL Marketo Measure] data har ett par tabeller där ID-värden (primärnyckel) är skiftlägeskänsliga, nämligen Touchpoint och Campaign. Datamotorn som driver Power BI-modelleringslagret är skiftlägeskänslig, vilket resulterar i&quot;duplicerade&quot; ID-värden. För att bevara skiftlägeskänsligheten för dessa nyckelvärden har vi implementerat transformeringssteg som kopplar osynliga tecken till gemena tecken och bevarar ID:ts unika karaktär när det utvärderas i datamotolken. Mer information om problemet och de detaljerade stegen om den metod vi har använt finns [här] (https://blog.crossjoin.co.uk/2019/10/06/power-bi-and-case-sensitive/){target="_blank"}. Dessa skiftlägeskänsliga ID-värden är märkta som&quot;ID för koppling&quot; och används som kopplingsnycklar i relationslagret. Vi har dolt kopplings-ID:n från rapporteringslagret, så att de ursprungliga ID-värdena är synliga för rapportering, eftersom de osynliga tecknen kan störa klippta/klistra in funktioner och filtrering.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -125,7 +125,7 @@ Registret för konverteringsgrad lagras i [!DNL Snowflake] innehåller ett datum
 
 Klicka på bilden nedan för att se vilken version den har.
 
-[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
 
 ### Relationer och dataflöde {#relationships-and-data-flow}
 
@@ -178,7 +178,7 @@ Definitioner har lagts till i Power BI-modellen för tabeller, anpassade kolumne
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-Visa definitioner för kolumner som kommer direkt från [!DNL Snowflake], se [data warehouse dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}
+Visa definitioner för kolumner som kommer direkt från [!DNL Snowflake], se [data warehouse dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Skillnader mellan mallar och Upptäck {#discrepancies-between-templates-and-discover}
 

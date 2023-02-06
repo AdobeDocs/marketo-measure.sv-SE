@@ -5,7 +5,7 @@ title: Salesforce-sandlåda till produktionsmigrering
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ Om du valde att testa [!DNL Marketo Measure] i en [!DNL Salesforce] I sandlådem
 
 * Installera de två [!DNL Marketo Measure] paket till produktion med &quot;[!UICONTROL All Users]&quot; inställning
 
-   * [Baskaket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;}
-   * [Tilläggspaket för instrumentpanel](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}
+   * [Baskaket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [Tilläggspaket för instrumentpanel](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Mer information om [!DNL Marketo Measure] relation med [!DNL Salesforce], ta en titt på [den här artikeln](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Lite av [!DNL Salesforce] måste konfigureras. De specifika åtgärdsobjekten beskrivs nedan [Steg 4 nedan](#salesforce-configuration)
@@ -51,7 +51,7 @@ Om du valde att testa [!DNL Marketo Measure] i en [!DNL Salesforce] I sandlådem
 
 [Behörighetsuppsättningar](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Dela rapporter](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target=&quot;_blank&quot;}
+[Dela rapporter](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
 [Dölja onödiga rapporttyper](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

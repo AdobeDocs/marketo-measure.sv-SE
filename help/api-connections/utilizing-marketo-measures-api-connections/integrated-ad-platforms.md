@@ -5,7 +5,7 @@ title: Integrerade annonsplattformar
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ Spårningsmallen är ett verktyg som Google tillhandahåller för att lägga til
 [!DNL Marketo Measure] Söker efter spårningsmallar i [!DNL AdWords] konto:
 
 * *Alternativ A*: Spårningsmall hittades. [!DNL Marketo Measure] lägger till dess parametrar i mallen.
-* *Alternativ B*: Omdirigering från tredje part hittades. Om en omdirigering från tredje part hittas i spårningsmallen, [!DNL Marketo Measure] kan inte utföra någon åtgärd. Du måste lägga till [!DNL Marketo Measure] -taggar i tredjepartssystemet. Ett exempel på en omdirigering från tredje part är ett budhanteringsverktyg som Kenshoo eller Marin. Läs mer om hur [budhanteringsverktyg påverkar [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* *Alternativ B*: Omdirigering från tredje part hittades. Om en omdirigering från tredje part hittas i spårningsmallen, [!DNL Marketo Measure] kan inte utföra någon åtgärd. Du måste lägga till [!DNL Marketo Measure] -taggar i tredjepartssystemet. Ett exempel på en omdirigering från tredje part är ett budhanteringsverktyg som Kenshoo eller Marin. Läs mer om hur [budhanteringsverktyg påverkar [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Alternativ C*: Ingen spårningsmall hittades. [!DNL Marketo Measure] söker igenom alla dina URL:er för annonsmål efter [!DNL Marketo Measure] parametrar. Baserat på skanningen, om:
    * Parametrar hittades: installationen är klar!
    * Det gick inte att hitta parametrarna: [!DNL Marketo Measure] kommer att lägga till sina parametrar i slutet av URL:erna för annonsmålet. [!DNL Marketo Measure] lägger till nya annonser inom två timmar efter att de har skapats. Tänk på att parametrarna inte läggs till i en mall.
 
-Läs mer om våra [[!DNL AdWords] funktioner för automatisk taggning](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target=&quot;_blank&quot;}.
+Läs mer om våra [[!DNL AdWords] funktioner för automatisk taggning](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## Aktivera [!DNL Marketo Measure] Automatisk taggning för ord {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -51,7 +51,7 @@ Före aktivering [!DNL Marketo Measure] automatisk taggning, **Kontrollera att d
 
 När du har en spårningsmall på plats följer du instruktionerna nedan för att aktivera [!DNL Marketo Measure] Automatisk taggning. Obs! [!DNL Marketo Measure] kommer även att tagga alla pausade annonser i ditt konto automatiskt.
 
-1. Logga in på [!DNL Marketo Measure] konto [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+1. Logga in på [!DNL Marketo Measure] konto [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 1. Gå till [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections].
 
@@ -67,7 +67,7 @@ När du har en spårningsmall på plats följer du instruktionerna nedan för at
 
 ## Ställa in en spårningsmall i AdWords med [!DNL Marketo Measure] Parametrar {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-Kom ihåg att du bör lägga till spårningsmallar på [!UICONTROL Account], [!UICONTROL Campaign] eller Lägg till gruppnivå i AdWords. Om du lägger till spårningsmallar på nyckelord-, webbplatslänks- eller annonsnivå måste din annons gå igenom gransknings- och godkännandeprocessen och du riskerar att starta om din annons. Läs mer om [skapa spårningsmallar](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;}.
+Kom ihåg att du bör lägga till spårningsmallar på [!UICONTROL Account], [!UICONTROL Campaign] eller Lägg till gruppnivå i AdWords. Om du lägger till spårningsmallar på nyckelord-, webbplatslänks- eller annonsnivå måste din annons gå igenom gransknings- och godkännandeprocessen och du riskerar att starta om din annons. Läs mer om [skapa spårningsmallar](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Logga in på [!DNL Google AdWords] Konto.
 1. Gå till [!UICONTROL Campaigns] vy från det vänstra navigeringsfältet
@@ -96,21 +96,21 @@ UTM-taggar kan se svåra att skapa i början, men det finns många verktyg som d
 
 **[!DNL Google URL]Builder**
 
-Google URL Builder är standardverktyg för att skapa korrekt formaterade URL:er med UTM-taggar. Ange bara URL-adressen och det önskade värdet för varje parameter och klicka på &quot;[!UICONTROL Generate URL]&quot;. Det här är ett idealiskt verktyg om du bara har en handfull URL:er att tagga. Öppna verktyget [här](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;}.
+Google URL Builder är standardverktyg för att skapa korrekt formaterade URL:er med UTM-taggar. Ange bara URL-adressen och det önskade värdet för varje parameter och klicka på &quot;[!UICONTROL Generate URL]&quot;. Det här är ett idealiskt verktyg om du bara har en handfull URL:er att tagga. Öppna verktyget [här](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
 
 **Google-kalkylblad genererat av EpikOne**
 
-Det här kalkylbladet innehåller en formel som automatiskt genererar taggade mål-URL:er. Det här är ett bra verktyg om du behöver tagga ett stort antal länkar. Öppna kalkylbladet [här](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target=&quot;_blank&quot;}.
+Det här kalkylbladet innehåller en formel som automatiskt genererar taggade mål-URL:er. Det här är ett bra verktyg om du behöver tagga ett stort antal länkar. Öppna kalkylbladet [här](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
 
 **Rafflecopter Link Tagging Tool**
 
 Kalkylbladet som skapas av Rafflecopter är en modifierad version av [!DNL EpikOne's] kalkylblad. Den innehåller också en formel som automatiskt genererar taggade mållänkar som du kan använda.
 
-Vart och ett av dessa verktyg innehåller detaljerade anvisningar om hur du använder och ändrar dem efter behov. Verktyget är tillgängligt [här](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;}.
+Vart och ett av dessa verktyg innehåller detaljerade anvisningar om hur du använder och ändrar dem efter behov. Verktyget är tillgängligt [här](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}.
 
 **Fantastisk UTM Builder**
 
-Det här verktyget är ett Chrome-tillägg som gör att du snabbt kan generera UTM-taggar. Hitta den [här](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target=&quot;_blank&quot;}.
+Det här verktyget är ett Chrome-tillägg som gör att du snabbt kan generera UTM-taggar. Hitta den [här](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target="_blank"}.
 
 ## Bing Ads {#bing-ads}
 
@@ -136,17 +136,17 @@ Du kan använda en spårningsmall om du vill, men det är inte nödvändigt för
 
 Automatisk taggning ska aktiveras med [!DNL Marketo Measure] så att den anpassade [!DNL Marketo Measure] parametrar kan läggas till automatiskt. Det finns ingen risk för att Bing Ads förlorar historik över tidigare annonseringar.
 
-Besök [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls)På webbplatsen {target=&quot;_blank&quot;} finns mer information om hur du lägger till taggar på plattformen.
+Besök [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls){target="_blank"} för mer information om hur du lägger till taggar på deras plattform.
 
 ## Facebook Ads {#facebook-ads}
 
-The [!DNL Marketo Measure] integrering med [!DNL Facebook] gör att den automatiskt kan hämta annonsinformation och tagga URL:en med sina parametrar. [!DNL Marketo Measure] kommer att hämta in information om Campaign och Ad Set via vår automatiska taggning. Ad Set fyller i vårt fält för annonsgruppnamn. Mer information om hur du konfigurerar URL-taggar finns på [!DNL Facebook] -plattformen, besök [!DNL Facebook] [företag](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target=&quot;_blank&quot;} sida.
+The [!DNL Marketo Measure] integrering med [!DNL Facebook] gör att den automatiskt kan hämta annonsinformation och tagga URL:en med sina parametrar. [!DNL Marketo Measure] kommer att hämta in information om Campaign och Ad Set via vår automatiska taggning. Ad Set fyller i vårt fält för annonsgruppnamn. Mer information om hur du konfigurerar URL-taggar finns på [!DNL Facebook] -plattformen, besök [!DNL Facebook] [företag](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} sida.
 
 Innan du aktiverar automatisk taggning med [!DNL Facebook Ads]är det viktigt att exportera den tidigare prestandahistoriken som en CSV-fil. Vid den här tidpunkten, när [!DNL Marketo Measure] taggar [!DNL Facebook Ads] med parametern _bf, [!DNL Facebook] läser annonserna som helt nya och raderar prestandahistoriken. Därför är det viktigt att du exporterar ett register över tidigare prestanda om det är något av värde för dig och din organisation.
 
 Observera att du kan ansluta [!DNL Facebook] kontot när som helst till [!DNL Marketo Measure] och inga data går förlorade. Det är bara när automatisk taggning är aktiverat som prestandahistoriken rensas.
 
-[Läs den här artikeln](https://www.facebook.com/business/help/393890194130036){target=&quot;_blank&quot;} från Facebook för mer information om export [!DNL Facebook] Annonsrapporter.
+[Läs den här artikeln](https://www.facebook.com/business/help/393890194130036){target="_blank"} från Facebook om du vill ha mer information om export [!DNL Facebook] Annonsrapporter.
 
 ## linkedIn Sponsored Content {#linkedin-sponsored-content}
 

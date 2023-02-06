@@ -1,7 +1,7 @@
 ---
 unique-page-id: 35586069
-description: Säkerställa samtycke för GDPR i Marketo-åtgärd JS - Marketo-åtgärd - Produktdokumentation
-title: Säkerställa samtycke för GDPR i Marketo-åtgärd Js
+description: Säkerställa samtycke för GDPR i Marketo Measure JS - Marketo Measure - produktdokumentation
+title: Säkerställa samtycke för GDPR i Marketo Measure JS
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 source-git-commit: c7d3bbce1f0c6a99409822c06c43961c93cd9458
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Säkerställa samtycke för GDPR i Marketo-åtgärd Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
+# Säkerställa samtycke för GDPR i Marketo Measure JS {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 Den allmänna dataskyddsförordningen (GDPR) är en EU-lagstiftning som trädde i kraft den 25 maj 2018.
 

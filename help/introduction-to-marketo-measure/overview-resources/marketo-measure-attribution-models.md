@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874568
-description: Marketo Measurement Models - Marketo measure - Product Documentation
-title: Marketo Measurement Attribution Models
+description: Marketo Measure attribueringsmodeller - Marketo Measure - produktdokumentation
+title: Marketo Measure attribueringsmodeller
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
 workflow-type: tm+mt
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# Marketo Measurement Attribution Models {#marketo-measure-attribution-models}
+# Marketo Measure attribueringsmodeller {#marketo-measure-attribution-models}
 
-Marketo Measurement erbjuder sex typer av attribueringsmodeller:
+Marketo Measure erbjuder sex typer av attribueringsmodeller:
 
 * Första beröring
 * Skapa leads
@@ -21,7 +21,7 @@ Marketo Measurement erbjuder sex typer av attribueringsmodeller:
 * Fullständig sökväg
 * Anpassad modell
 
-Dessa modeller varierar i komplexitet. First Touch och Lead Creation är våra enkla modeller med en knapptryckning. De återstående fyra är våra mer komplexa multitouch-modeller. Strukturen i Marketo Mät:s attribueringsmodeller återspeglar de fyra viktigaste kontaktytorna under kundresan:
+Dessa modeller varierar i komplexitet. First Touch och Lead Creation är våra enkla modeller med en knapptryckning. De återstående fyra är våra mer komplexa multitouch-modeller. Strukturen i Marketo Measure attribueringsmodeller återspeglar de fyra viktigaste kontaktytorna som uppstår under kundresan:
 
 * Första beröring (FT)
 * Skapa leads (LC)
@@ -69,7 +69,7 @@ Kate första besök på www.adobe.com via en Adwords och får 50 % av attribueri
 
 Tre av milstolpepunkterna ingår i W-Shaped-modellen. I den här modellen tillskrivs kontaktytorna FT, LC och OC 30 % av attribueringskrediten. De återstående 10 % fördelas proportionellt till eventuella mellanliggande kontaktytor som inträffar mellan de tre milstolppunkterna.
 
-Kate och Austin talar om Marketo Measurement för sin medarbetare Hillary. Hon hittar en del av innehållet genom en Google-sökning och fyller i ett formulär. Senare får Austin ett e-postmeddelande om registrering av ett webbinarium och fyller i registreringsformuläret på webbplatsen. Kate har en konversation med en säljare om Marketo Measurement-produkten.
+Kate och Austin talar om Marketo Measure för sin kollega Hillary. Hon hittar en del av innehållet genom en Google-sökning och fyller i ett formulär. Senare får Austin ett e-postmeddelande om registrering av ett webbinarium och fyller i registreringsformuläret på webbplatsen. Kate har en konversation med en säljare om Marketo Measure.
 
 Hillary får ett mejl med en länk till prissidan och besöker sidan. Sedan skapas ett säljprojekt för deras konto. Hillary&#39;s web visit to the pricing page receive credit for the Opportunity Creation eftersom det var den närmsta marknadsföringsinteraktionen till datumet för att skapa säljprojekt. Var och en av milstolpepunkterna tilldelas 30 % av attribueringskrediten och de mellanliggande kontaktytorna tilldelas de återstående 10 %.
 
@@ -79,10 +79,10 @@ Hillary får ett mejl med en länk till prissidan och besöker sidan. Sedan skap
 
 Den fullständiga banmodellen innehåller alla fyra milstolpepunkterna. FT, LC, OC och CW får var och en 22,5 % av intäktskrediten, och de återstående 10 % fördelas jämnt mellan de mellanliggande kontakterna.
 
-Efter att affärsmöjligheten har skapats bestämmer Kate, Austin och Hillary sig för att lägga Marketo Measurement på sin marknadschef Elizabeth. Elizabeth deltar i en konferens där Marketo Measurement är värd för ett evenemang. Kate ser en Linkedin-post om en fallstudie och fyller i ett formulär för att ladda ned innehållet. Elizabeth håller en säljmiddag hos Marketo Measurement. Efter middagen bestämmer hon sig för att köpa Marketo Measurement och blir kund. I det här scenariot skulle försäljningsmiddagen tillskrivas 22,5 % av intäktskrediten från den slutna affären. Kontaktpunkterna FT, LC och OC får också 22,5 % av krediten. De mellanliggande kontaktytorna tilldelas också de återstående 10 % av intäktskrediten.
+Efter det att affärsmöjligheten har skapats bestämmer Kate, Austin och Hillary sig för att skicka Marketo Measure till sin marknadschef Elizabeth. Elizabeth deltar i en konferens där Marketo Measure är värd för ett evenemang. Kate ser en Linkedin-post om en fallstudie och fyller i ett formulär för att ladda ned innehållet. Elizabeth håller en säljmiddag hos Marketo Measure. Efter middagen bestämmer hon sig för att köpa Marketo Measure och blir kund. I det här scenariot skulle försäljningsmiddagen tillskrivas 22,5 % av intäktskrediten från den slutna affären. Kontaktpunkterna FT, LC och OC får också 22,5 % av krediten. De mellanliggande kontaktytorna tilldelas också de återstående 10 % av intäktskrediten.
 
 ![](assets/6.png)
 
 **Anpassad attributmodell**
 
-Marketo Measurement erbjuder också en modell för anpassad attribuering som gör att användarna kan välja vilka kontaktytor eller anpassade stadier som ska ingå i modellen. Dessutom kan användarna styra den procentandel av attribueringskrediten som tilldelats dessa kontaktytor och faser.
+Marketo Measure erbjuder också en modell för anpassad attribuering som gör att användare kan välja vilka kontaktytor eller anpassade stadier som ska ingå i modellen. Dessutom kan användarna styra den procentandel av attribueringskrediten som tilldelats dessa kontaktytor och faser.

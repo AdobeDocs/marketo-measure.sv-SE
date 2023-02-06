@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] Underhåll"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Uppdatera minnet om hur du överför kostnadsinformation genom att läsa [den h�
 
 **Uppdatera lista med domäner som ska spåras (1x/månad)**
 
-Marketo Measurement spårar alla sidor och underdomäner där Javascript är aktivt, men bara för domäner som vi känner till. Om du nyligen har debiterat en ny domän, expanderat internationellt eller ändrat din primära domän kontaktar du [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} så att vi kan uppdatera ditt konto.
+Marketo Measure spårar alla sidor och underdomäner där Javascript är aktivt, men bara för domäner som vi känner till. Om du nyligen har debiterat en ny domän, expanderat internationellt eller ändrat din primära domän kontaktar du [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} så att vi kan uppdatera ditt konto.
 
 **Granska anpassad kanalmappning för precision (1x/månad)**
 
-Under introduktionen ställer ni in anpassad kanalmappning för era marknadsföringssatsningar online och offline. I takt med att er marknadsföringsstrategi och användningen av Marketo Measurement utvecklas vill ni hålla ett öga på mappningslogiken för att se till att alla era kontaktytor kategoriseras korrekt.
+Under introduktionen ställer ni in anpassad kanalmappning för era marknadsföringssatsningar online och offline. Efterhand som er marknadsföringsstrategi och användning av Marketo Measure utvecklas vill ni hålla ett öga på mappningslogiken för att se till att alla era kontaktytor kategoriseras på rätt sätt.
 
 Kom ihåg: [!DNL Marketo Measure] bearbetar om data när du redigerar mappningslogik, så att du inte kan ändra dessa regler mer än en gång var 7:e dag.
 

@@ -26,7 +26,7 @@ När en besökare kommer till er webbplats [!DNL Marketo Measure] förväntar si
 
 Som kund skapar du en e-postmall på samma sätt som du brukar göra. När det är dags att lägga till i landningssidan för den åtgärd som du vill spåra, måste du fastställa antingen variabelkoden, variabelkoden eller makrot som din Marketing Automation-plattform accepterar för att dynamiskt visa värdet för varje individ.
 
-Marketo Measurement godtar följande värden: E-postadress, Salesforce-lead-ID eller Salesforce-kontakt-ID.
+Marketo Measure godtar följande värden: E-postadress, Salesforce-lead-ID eller Salesforce-kontakt-ID.
 
 ## Exempel på taggar {#tag-examples}
 

@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874586
-description: Ordlista för Marketo-mätfält - Marketo-åtgärd - Produktdokumentation
-title: Ordlista för Marketo-mätfält
+description: Ordlista över Marketo Measure-fält - Marketo Measure - produktdokumentation
+title: Ordlista för Marketo Measure-fält
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
 workflow-type: tm+mt
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Ordlista för Marketo-mätfält {#glossary-of-marketo-measure-fields}
+# Ordlista för Marketo Measure-fält {#glossary-of-marketo-measure-fields}
 
-I den här artikeln finns en ordlista med alla Marketo-mätfält som har lagts till i Salesforce från Marketo mätbaspaket. Du hittar även information om vilket objekt som fältet kan hittas på och hur varje fält fylls i med information.
+I den här artikeln finns en ordlista med alla Marketo Measure-fält som har lagts till i Salesforce från Marketo Measure baspaket. Du hittar även information om vilket objekt som fältet kan hittas på och hur varje fält fylls i med information.
 
-Om du vill se vilket objekt varje Marketo-mätfält relaterar till kan du [klicka här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Om du vill se vilket objekt varje Marketo Measure-fält relaterar till kan du [klicka här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ [K](#k) ・ [L](#l) ・ [M](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ B ・ X ・ Y ・ Z
 
@@ -48,7 +48,7 @@ Om inget av ovanstående anges är fältet tomt.
 
 `3)` Om kontaktytan kommer från en Salesforce-kampanj visas namnet på Salesforce-kampanjen här.
 
-`4)` Detta fylls i med det kampanjnamn som definierats för kontaktpunkter som skapats från aktiviteter som skapats i ditt Marketo-mätkonto.
+`4)` Detta fylls i med det kampanjnamn som definierats för kontaktpunkter som skapats från aktiviteter som skapats i ditt Marketo Measure-konto.
 
 Om inget av ovanstående anges är fältet tomt.
 
@@ -126,9 +126,9 @@ I det här fältet visas den procentuella intäkt som tilldelats en kontaktyta e
 
 ## B {#b}
 
-**Mät säljprojektsbelopp för Marketo** | Salesforce-möjlighet
+**Marketo Measure säljprojektsbelopp** | Salesforce-möjlighet
 
-Om du använder ett anpassat beloppsfält för att rapportera säljprojektsinkomster, kan Marketo-mått inte läsa dessa anpassade beloppsfält. Mät säljprojektsbelopp för Marketo är ett dolt fält som används för att skapa ett arbetsflöde som gör att Marketo-mått kan läsa anpassade beloppsfält i säljprojektet.
+Om du använder ett anpassat beloppsfält för att rapportera säljprojektsintäkter kan Marketo Measure inte läsa dessa anpassade beloppsfält. Marketo Measure Opportunity Amount är ett dolt fält som används för att skapa ett arbetsflöde som gör att Marketo Measure kan läsa anpassade beloppsfält i säljprojektet.
 
 **Webbläsare** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -196,29 +196,29 @@ I det här fältet visas, i decimalform, den procentandel kredit som ges till en
 
 ## D {#d}
 
-Rapportdatum | Marketo Measurement ABTest, Marketo Measurement Event
+Rapportdatum | Marketo Measure ABTest, Marketo Measure Event
 
-Marketo Measurement Event - det datum då en användare utförde en specifik åtgärd på din webbplats och aktiverade en Event
+Marketo Measure Event - det datum då en användare utförde en specifik åtgärd på din webbplats och aktiverade en händelse
 
-Marketo Measurement ABTest - det datum då en användare deltog i ett A/B-test på er webbplats
+Marketo Measure ABTest - det datum då en användare deltog i ett A/B-test på er webbplats
 
 [Klicka här om du vill gå tillbaka till sidans överkant](#top)
 
 ## E {#e}
 
-**Händelsenamn** | Marketo-mäthändelse
+**Händelsenamn** | Marketo Measure Event
 
 I det här fältet visas namnet på den åtgärd som utlöste händelsen (t.ex. sidvyn).
 
-**Händelsevärde** | Marketo-mäthändelse
+**Händelsevärde** | Marketo Measure Event
 
 Beskrivning av händelsen (t.ex. hemsida)
 
-**Experimentnamn** | Marketo Measurement ABTest
+**Experimentnamn** | Marketo Measure ABTest
 
 I det här fältet visas namnet på experimentet (dvs. testknappen)
 
-**Experiment-ID** |Marketo Åtgärd AB Test
+**Experiment-ID** |Marketo Measure AB Test
 
 Unik identifieringskod för varje experiment
 
@@ -288,7 +288,7 @@ I det här fältet visas en förkortad version av URL:en (inga UTM-parametrar) f
 
 I det här fältet visas hela URL-adressen (inklusive UTM-parametrar) för den första webbsidan som besöktes under en webbsession.
 
-**Lead** | Buyer Touchpoint, Marketo Measurement Person
+**Lead** | Buyer Touchpoint, Marketo Measure Person
 
 I det här fältet visas namnet på det lead som en kontaktyta tillhör.
 
@@ -298,7 +298,7 @@ I det här fältet visas namnet på det lead som en kontaktyta tillhör.
 
 **Marknadsföringskanal** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-I det här fältet visas den allmänna gruppen av marknadsföringsaktiviteter eller marknadsföringskanal som kontaktytan tillhör (t.ex. Betald sökning, Direkt, Socialt osv.). Touchpoints grupperas efter hur kanalerna har konfigurerats i Marketo Mät App. Mer information om marknadsföringskanaler, eller om hur du konfigurerar dina kanaler, finns på [klicka här](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+I det här fältet visas den allmänna gruppen av marknadsföringsaktiviteter eller marknadsföringskanal som kontaktytan tillhör (t.ex. Betald sökning, Direkt, Socialt osv.). Kontaktpunkterna grupperas efter hur kanalerna har konfigurerats i Marketo Measure App. Mer information om marknadsföringskanaler, eller om hur du konfigurerar dina kanaler, finns på [klicka här](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **Marknadsföringskanal - sökväg** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -316,7 +316,7 @@ I det här fältet visas marknadsföringskanalen och den delkanal som en kontakt
 
 `4)` Detta fylls i med aktivitetstypvärdet från den relaterade aktivitet som genererade kontaktpunkten.
 
-Om inget av det ovanstående anges ett mellanvärde automatiskt i Marketo Measurement.
+Om inget av ovanstående anges, anger Marketo Measure automatiskt ett mellanvärde.
 
 [Klicka här om du vill gå tillbaka till sidans överkant](#top)
 
@@ -392,7 +392,7 @@ Om kontaktytan kommer från betald eller organisk sökning visas den sökfras so
 
 **Segment** | Buyer Attribution Touchpoint
 
-I det här fältet visas de segment som kontaktytan tillhör. Detta beror på hur du har konfigurerat segmenteringsreglerna i Marketo-mätappen.
+I det här fältet visas de segment som kontaktytan tillhör. Detta beror på hur du har konfigurerat segmenteringsreglerna i Marketo Measure-appen.
 
 [Klicka här om du vill gå tillbaka till sidans överkant](#top)
 
@@ -462,7 +462,7 @@ U
 
 Det unika ID som är kopplat till varje kontaktyta
 
-**Användar-ID** | Marketo Measurement ABTest
+**Användar-ID** | Marketo Measure ABTest
 
 Optimizelys unika identifieringskod för varje användning
 
@@ -470,11 +470,11 @@ Optimizelys unika identifieringskod för varje användning
 
 ## V {#v}
 
-**Variation** | Marketo Measurement ABTest
+**Variation** | Marketo Measure ABTest
 
 Namnet på variationen av A/B-provningen
 
-**Variations-ID** | Marketo Measurement ABTest
+**Variations-ID** | Marketo Measure ABTest
 
 Den unika identifieringskoden för varje A/B-testvariation.
 

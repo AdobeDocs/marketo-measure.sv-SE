@@ -52,7 +52,7 @@ Lead 1 konverteras sedan till en kontakt med ett säljprojekt, vilket anses vara
 
 ## Scenarier med flera leads {#scenarios-with-multiple-leads}
 
-I följande scenarier kan Boomerang Stages bli mer komplicerat, eftersom vi tittar på hur flera leads kan påverka säljprojektsresan.
+I följande scenarier kan Boomerang Stages bli mer komplicerat eftersom vi tittar på hur flera leads kan påverka säljprojektsresan.
 
 Den översta raden (märkt Lead 1, i blått) representerar de enskilda Leads resa och hur deras kontaktytor visas på Lead-posten. Detsamma gäller för lead 2 (i rosa) och lead 3 (i orange). Poängen (märkt säljprojekt) visar hur båda dessa leads kontaktytor översätts till säljprojektet. Hur kontaktytorna utvecklas förklaras i kronologisk händelse, från vänster till höger.
 

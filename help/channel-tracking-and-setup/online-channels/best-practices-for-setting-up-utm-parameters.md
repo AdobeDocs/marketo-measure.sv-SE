@@ -5,7 +5,7 @@ title: Metodtips för att konfigurera UTM-parametrar
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 UTM-parametrar är ett bra sätt att segmentera och minska era marknadsföringsdata. [!DNL Marketo Measure] använder och hämtar alla UTM-parametrar för att fylla i fält i Salesforce och i [!DNL Marketo Measure] app. Med den här informationen får du en detaljerad förståelse för var era leads, affärsmöjligheter och avslutade/vunna avtal kommer ifrån.
 
-Du kan använda [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;} för att konfigurera UTM-parametrarna och lägga till dem i länkarna i marknadsföringsarbetet. Använd den här [Google kalkylblad](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;} om du vill ha ett enklare sätt att hålla reda på alla UTM-länkar.
+Du kan använda [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} om du vill ha ett enklare sätt att hålla reda på alla UTM-länkar.
 
 ## Värden på hög nivå för varje parameter {#high-level-values-for-each-parameter}
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 Observera att termer/kanal inte dupliceras och utm_term används inte i det här fallet.
 
-Om du har några frågor kan du kontakta din Customer Success Manager eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Om du har några frågor kan du kontakta din Customer Success Manager eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

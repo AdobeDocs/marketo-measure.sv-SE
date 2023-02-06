@@ -5,7 +5,7 @@ title: Varför ska du aldrig ta bort kontaktpunkter?
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ När en kontaktyta tas bort skapas ett hål i attribueringsinformationen. Vanlig
 
 ![](assets/1.png)
 
-Om kontaktytor har tagits bort från din SFDC kan du kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} om du vill begära att dina data importeras på nytt.
+Om kontaktytor har tagits bort från din SFDC kan du kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} för att begära en återimport av dina data.

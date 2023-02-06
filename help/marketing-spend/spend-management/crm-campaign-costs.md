@@ -5,7 +5,7 @@ title: CRM-kampanjkostnader
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Alla ändringar av kostnaderna eller distributionen måste göras i CRM så att 
 
 **Jag har fyllt i startdatum, slutdatum och kostnad, men varför visas inte mina kostnader i [!DNL Marketo Measure]?**
 
-Kontrollera att du antingen har angett Enable Buyer Touchpoint-värdet Inkludera alla kampanjmedlemmar, eller åtminstone Inkludera kampanjmedlemmar med svar, eller att du har skapat en anpassad kampanjsynkroniseringsregel som inkluderar den här kampanjen. Om du har bekräftat detta och fortfarande inte ser kampanjen, ber vi dig kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} så att vi kan kontrollera att era kampanjer importeras på rätt sätt.
+Kontrollera att du antingen har angett Enable Buyer Touchpoint-värdet Inkludera alla kampanjmedlemmar, eller åtminstone Inkludera kampanjmedlemmar med svar, eller att du har skapat en anpassad kampanjsynkroniseringsregel som inkluderar den här kampanjen. Om du har bekräftat detta och fortfarande inte ser kampanjen, ber vi dig kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} så att vi kan kontrollera att era kampanjer importeras på rätt sätt.
 
 **Jag måste ändra distributionen av min kampanj så att jag kan väga den tyngre under vissa månader. Hur ska jag göra det?**
 

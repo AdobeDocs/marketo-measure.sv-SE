@@ -72,7 +72,7 @@ Vi rekommenderar att du lägger till [!DNL Marketo Measure] fält till din SFDC-
 
 1. Klicka på växeln i dialogrutan [!DNL VisualForce] och ändra höjden till 100 och aktivera rullningslister.
 
-1. Gå tillbaka till menyn och välj [!UICONTROL Canvas Apps] och skapa ett nytt avsnitt som kallas&quot;Marketo Measurement Insights&quot; under Touchpoints [!DNL VisualForce] som du just skapade.
+1. Gå tillbaka till menyn och välj [!UICONTROL Canvas Apps] och skapa ett nytt avsnitt som kallas&quot;Marketo Measure Insights&quot; under Touchpoints [!DNL VisualForce] som du just skapade.
 
    >[!NOTE]
    >

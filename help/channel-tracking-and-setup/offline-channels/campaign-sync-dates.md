@@ -5,7 +5,7 @@ title: Synkroniseringsdatum för kampanj
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Det kan finnas tillfällen då ett marknadsföringsteam kanske missar att lägga
 
 Om du är ny [!DNL Marketo Measure] kan du vara intresserad av att få med marknadsföringsdata som du har spårat via SFDC Campaigns. Om du däremot aktiverar kontaktpunkter för SFDC-kampanjer online kan du stöta på problem med dubbelräkningsattribuering eftersom [!DNL Marketo Measure] skapar automatiskt kontaktytor för er onlinemarknadsföring. För att undvika dubbelräkning av data kan du använda slutdatum för slutdatum för kampanjpunkten för att ange en gräns för de slutdatum för slutpunkter som skapas av [!DNL Marketo Measure] på SFDC-kampanjen. Om du till exempel vill lägga till retroaktiva konverteringar för en social kampanj har du spårat i SFDC, men du är införstådd med att du har lagt till [!DNL Marketo Measure] JavaScript (som skapar onlinekontaktytor) den 1 juli, kan du redigera Social SFDC-kampanjen så att den innehåller ett slutdatum för slutpunkten som är lika med 1 juli och aktivera Buyer Touchpoints för den kampanjen.
 
-Det kan finnas många andra användningsområden för slutdatum för slutpunkter. Om du behöver hjälp med att ta reda på en viss situation kan du kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Det kan finnas många andra användningsområden för slutdatum för slutpunkter. Om du behöver hjälp med att ta reda på en viss situation kan du kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

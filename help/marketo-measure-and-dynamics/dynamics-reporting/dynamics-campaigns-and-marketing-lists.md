@@ -72,7 +72,7 @@ Om du vill aktivera en marknadsföringslista för kontaktytor finns det en separ
 
 ## Kontaktpunktsdatum {#touchpoint-date-1}
 
-Slutpunktsdatumet för en marknadsföringslista är vanligtvis det datum då ListMember skapades, så det datum då lead eller kontakt lades till i marknadsföringslistan. Den kan åsidosättas om det anpassade fältet från den installerade lösningen med etiketten&quot;Buyer Touchpoint Date&quot; (Köparens slutpunktsdatum) fylls i. Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
+Slutpunktsdatumet för en marknadsföringslista är vanligtvis det datum då ListMember skapades, så det datum då lead eller kontakt lades till i marknadsföringslistan. Det kan åsidosättas om det anpassade fältet från den installerade lösningen med etiketten&quot;Buyer Touchpoint Date&quot; (Köparens slutpunktsdatum) fylls i. Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
 
 ![](assets/8.png)
 

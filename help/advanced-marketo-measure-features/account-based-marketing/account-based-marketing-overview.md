@@ -5,16 +5,16 @@ title: Kontobaserad marknadsföring - översikt
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
 
 # Kontobaserad marknadsföring - översikt {#account-based-marketing-overview}
 
-Nedan följer en kort översikt över ABM, komponenterna i [!DNL Marketo Measure] ABM-funktionen och hur du lägger till den i [!DNL Salesforce] sidlayout. Läs mer om ABM här: [den här sidan](https://www.marketo.com/account-based-marketing/){target=&quot;_blank&quot;}.
+Nedan följer en kort översikt över ABM, komponenterna i [!DNL Marketo Measure] ABM-funktionen och hur du lägger till den i [!DNL Salesforce] sidlayout. Läs mer om ABM här: [den här sidan](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
-Navigera direkt till instruktionerna för att konfigurera ABM i [!DNL Salesforce] instans, tack [klicka här](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target=&quot;_blank&quot;}.
+Navigera direkt till instruktionerna för att konfigurera ABM i [!DNL Salesforce] instans, tack [klicka här](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## Vad är ABM? {#what-is-abm}
 

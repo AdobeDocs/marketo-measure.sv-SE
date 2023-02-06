@@ -5,7 +5,7 @@ title: Definition av [!DNL Marketo Measure] Webbsessioner
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -65,4 +65,4 @@ _Men_, om Haleys första webbsession kom från Web Direct och sedan besöker hon
 
 ## Google Analytics sessioner {#google-analytics-sessions}
 
-Det finns vissa likheter med hur [!DNL Marketo Measure] och Google Analytics definierar sessioner. Mer information om hur Google Analytics definierar sessioner finns på: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target=&quot;_blank&quot;}
+Det finns vissa likheter med hur [!DNL Marketo Measure] och Google Analytics definierar sessioner. Mer information om hur Google Analytics definierar sessioner finns på: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

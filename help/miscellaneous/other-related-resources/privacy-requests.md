@@ -4,7 +4,7 @@ title: Sekretessförfrågningar
 exl-id: 883e475f-9868-412a-b505-230556f38484
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ I det här dokumentet finns en översikt över hur du hanterar enskilda sekretes
 
 Du kan skicka enskilda förfrågningar för att få åtkomst till och ta bort konsumentdata från [!DNL Marketo Measure] på två sätt:
 
-* Via [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=&quot;_blank&quot;}.
-* Via **[!DNL Privacy Service]API**. Läs dokumentationen [här](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=&quot;_blank&quot;} och API-referensen [här](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target=&quot;_blank&quot;}.
+* Via [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Via **[!DNL Privacy Service]API**. Läs dokumentationen [här](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-The [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;} stöder två typer av begäranden: dataåtkomst och borttagning av data.
+The [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} har stöd för två typer av begäranden: dataåtkomst och borttagning av data.
 
 Låt oss se hur du kan skapa förfrågningar om åtkomst och borttagning.
 
-## Nödvändig konfiguration för att skicka begäranden om Marketo-mått {#required-setup-to-send-requests-for-marketo-measure}
+## Nödvändig konfiguration för att skicka begäranden för Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
 För att göra förfrågningar om åtkomst- och borttagningsdata för [!DNL Marketo Measure]måste du:
 

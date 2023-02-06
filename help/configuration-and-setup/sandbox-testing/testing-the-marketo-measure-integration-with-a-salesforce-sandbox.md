@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874765
-description: Testa integrationen av Marketo-mått i en Salesforce-sandlåda - [!DNL Marketo Measure] - Produktdokumentation
-title: Testa integrationen av Marketo-mått i en Salesforce-sandlåda
+description: Testa Marketo Measure-integrationen med en Salesforce-sandlåda - [!DNL Marketo Measure] - Produktdokumentation
+title: Testa Marketo Measure-integrationen med en Salesforce-sandlåda
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# Testa integrationen av Marketo-mått i en Salesforce-sandlåda {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
+# Testa Marketo Measure-integrationen med en Salesforce-sandlåda {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
 >

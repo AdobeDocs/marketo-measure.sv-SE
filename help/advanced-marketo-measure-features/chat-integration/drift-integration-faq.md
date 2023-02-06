@@ -5,14 +5,14 @@ title: Vanliga frågor om integrering av drivrutiner
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Vanliga frågor om integrering av drivrutiner {#drift-integration-faq}
 
-Som en del av [!DNL Marketo Measure] integrering med Drift har vi skissat upp några av de vanligaste frågorna. Om det finns frågor som inte beskrivs nedan kontaktar du din Customer Success Manager eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Som en del av [!DNL Marketo Measure] integrering med Drift har vi skissat upp några av de vanligaste frågorna. Om det finns frågor som inte beskrivs nedan kontaktar du din Customer Success Manager eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **Hur är integreringen aktiverad?**
 

@@ -5,7 +5,7 @@ title: Skapa en kampanjlistvy för [!DNL Salesforce] Kampanjer
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ I kampanjlistvyn som kan skapas kan du ha en&quot;gå till&quot;-plats där du k
 1. Ge vyn namnet&quot;Kampanjer att synkronisera med [!DNL Marketo Measure].&quot;
 1. Vi vill att den här listan bara ska visa de kampanjer som vi vill synkronisera med [!DNL Marketo Measure] så vi behöver ett par filter:
 
-   * **Typ** [LIKA MED] &#39;Alla kampanjtyper som vi har mappat till era offlinekanaler&#39;. Se din implementeringsplan eller fliken Offlinekanaler i [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} -> Mitt konto -> Inställningar -> Offlinekanaler). Du kan välja vilka typer du vill använda (de som mappas till en offline-marknadsföringskanal) via förstoringsglaset.
+   * **Typ** [LIKA MED] &#39;Alla kampanjtyper som vi har mappat till era offlinekanaler&#39;. Se din implementeringsplan eller fliken Offlinekanaler i [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mitt konto -> Inställningar -> Offlinekanaler). Du kan välja vilka typer du vill använda (de som mappas till en offline-marknadsföringskanal) via förstoringsglaset.
 
       * Välj max 3 typer för varje filter. Det finns en gräns för hur många tecken du kan ha i ett filterfält. Börja med 3 typer per filter och lägg till ytterligare rader med Type-filter om det behövs.
    * **Skapad den** [STÖRRE ELLER LIKA] din [!DNL Marketo Measure] startdatum. Du hittar startdatumet på kontrollpanelen för avkastning på investering i [!DNL Marketo Measure] App. Välj &quot;Sedan skapad den&quot; i datumintervallet för strecket så visas startdatumet.
@@ -39,4 +39,4 @@ I kampanjlistvyn som kan skapas kan du ha en&quot;gå till&quot;-plats där du k
 
 >[!MORELIKETHIS]
 >
->[Felsöka vanliga problem med infogad redigering i listvyn](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target=&quot;_blank&quot;}
+>[Felsöka vanliga problem med infogad redigering i listvyn](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}

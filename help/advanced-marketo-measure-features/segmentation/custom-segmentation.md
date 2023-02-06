@@ -5,7 +5,7 @@ title: Anpassad segmentering
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Innan du använder den här funktionen bör du ta reda på vilken kontaktpunktsi
 
 Steg 2 - Logga in och hitta segmentfunktionen.
 
-* Gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} och logga in
+* Gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} och logga in
 * Under [!UICONTROL My Account] flik, välja [!UICONTROL Settings]
 * Välj [!UICONTROL Segments] från alternativen på sidlisten till vänster, under [!UICONTROL Reporting] section
 

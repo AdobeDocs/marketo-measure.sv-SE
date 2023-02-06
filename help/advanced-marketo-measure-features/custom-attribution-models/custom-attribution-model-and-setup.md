@@ -5,7 +5,7 @@ title: Anpassad attributmodell och inställningar
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ The [!DNL Marketo Measure] Med en anpassad attribueringsmodell kan användarna v
 
    För att börja bygga upp en anpassad attribueringsmodell måste ni välja vilka faser som är viktiga för ert marknadsföringsteam. Förutom [!DNL Marketo Measure] milstolpesteg (FT, LC, OC, Closed) kan du lägga till upp till sex ytterligare lead-/kontaktstatuslägen eller säljprojektsfaser i din anpassade modell. Det är till exempel vanligt att MQL-scenen inkluderas i den anpassade modellen. Marknadsföringsteamen vill ofta veta vilka satsningar eller kanaler som driver övergångar till MQL-steget.
 
-   Logga in på [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. Gå till [!UICONTROL My Account] > [!UICONTROL Settings] > och under CRM väljer du **[!UICONTROL Stage Mapping]**.
+   Logga in på [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Gå till [!UICONTROL My Account] > [!UICONTROL Settings] > och under CRM väljer du **[!UICONTROL Stage Mapping]**.
 
    Här väljer du vilka leads/kontakttillfällen och säljprojektsfaser som ska inkluderas **[!UICONTROL Include in Model]** box.
 

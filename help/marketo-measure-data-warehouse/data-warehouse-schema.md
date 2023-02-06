@@ -1,6 +1,6 @@
 ---
 unique-page-id: 35586140
-description: data warehouse Schema - Marketo-åtgärd - Produktdokumentation
+description: data warehouse Schema - Marketo Measure - produktdokumentation
 title: data warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d

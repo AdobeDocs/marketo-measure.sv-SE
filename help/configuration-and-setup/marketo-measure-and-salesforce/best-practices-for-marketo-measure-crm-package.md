@@ -4,7 +4,7 @@ title: Bästa praxis för [!DNL Marketo Measure] CRM-paket
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 source-git-commit: 00268f49ff6e5dfc105fa7ea21837375eae49647
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -49,12 +49,12 @@ Andra orsaker till det kan utlösa en granskning...
 
 >[!NOTE]
 >
->När du inaktiverar Marketo Measurement-export av data till Salesforce tas inga befintliga data bort. Följ stegen i [den här Salesforce-hjälpartikeln](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target=&quot;_blank&quot;}.
+>När du inaktiverar Marketo Measure export av data till Salesforce tas inga befintliga data bort. Följ stegen i [den här Salesforce-hjälpartikeln](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [Uppdatera Buyer TouchPoint-paket](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] Behörighetsuppsättningar](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [Dela rapporter och instrumentpanelsmapp](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0)
->* [Koppla Marketo-mått till Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+>* [Anslut Marketo Measure till Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
 

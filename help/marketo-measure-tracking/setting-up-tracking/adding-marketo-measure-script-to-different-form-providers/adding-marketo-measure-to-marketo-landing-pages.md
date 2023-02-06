@@ -5,7 +5,7 @@ title: Lägger till [!DNL Marketo Measure] till Marketo landningssidor
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Exempel i skärmbild nedan
 
 * Det är troligt att du använder flera mallsidor för landningssidor. Se till att du lägger till koden i alla mallar som har formulär.
 
-* Ibland när du redigerar mallen för landningssidor måste du godkänna de sidor som landningssidan används av på nytt. Den här artikeln förklarar [massgodkänna](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target=&quot;_blank&quot;}.
+* Ibland när du redigerar mallen för landningssidor måste du godkänna de sidor som landningssidan används av på nytt. Den här artikeln förklarar [massgodkänna](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

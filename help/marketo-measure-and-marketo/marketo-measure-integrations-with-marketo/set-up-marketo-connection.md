@@ -38,7 +38,7 @@ Så här konfigurerar du anslutningen till Marketo.
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. Stillbild i Marketo Engage, markera **LaunchPoint** i trädet till vänster. Hitta den anpassade tjänst som du vill ansluta till Marketo Measurement och klicka på **Visa detaljer**.
+1. Stillbild i Marketo Engage, markera **LaunchPoint** i trädet till vänster. Hitta den anpassade tjänst du vill ansluta till Marketo Measure och klicka på **Visa detaljer**.
 
    ![](assets/set-up-marketo-connection-6.png)
 

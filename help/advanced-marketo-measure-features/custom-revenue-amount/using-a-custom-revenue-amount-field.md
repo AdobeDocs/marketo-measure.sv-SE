@@ -5,7 +5,7 @@ title: Använda fältet Anpassat intäktsbelopp
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,4 @@ Här börjar vi skapa arbetsflödet.
 
    Detta kan uppnås genom att du kör dina affärsmöjligheter via Data Loader i SFDC. Mer information om hur du använder Data Loader i [den här artikeln](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Om du har några frågor kan du kontakta din Customer Success Manager eller [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Om du har några frågor kan du kontakta din Customer Success Manager eller [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

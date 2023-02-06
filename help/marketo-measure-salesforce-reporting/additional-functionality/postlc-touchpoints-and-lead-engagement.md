@@ -1,11 +1,11 @@
 ---
 unique-page-id: 18874562
-description: PostLC Touchpoints och Lead Engagement - Marketo Measurement - Produktdokumentation
+description: PostLC Touchpoints och Lead Engagement - Marketo Measure - produktdokumentation
 title: PostLC Touchpoints och Lead Engagement
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Följ instruktionerna nedan för att justera PostLC-kontaktpunktsinställningarn
 
 **Leads**
 
-1. Logga in på [!DNL Marketo Measure] konto [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} och gå till [!UICONTROL Settings].
+1. Logga in på [!DNL Marketo Measure] konto [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} och gå till [!UICONTROL Settings].
 
 1. Välj under CRM **[!UICONTROL Leads]**.
 
@@ -46,7 +46,7 @@ Följ instruktionerna nedan för att justera PostLC-kontaktpunktsinställningarn
 
 **Kontakter**
 
-1. Logga in på [!DNL Marketo Measure] konto [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} och gå till [!UICONTROL Settings].
+1. Logga in på [!DNL Marketo Measure] konto [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} och gå till [!UICONTROL Settings].
 
 1. Välj under CRM **[!UICONTROL Contacts]**.
 

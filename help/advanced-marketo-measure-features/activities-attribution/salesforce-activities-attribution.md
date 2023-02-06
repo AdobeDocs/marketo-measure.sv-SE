@@ -5,14 +5,14 @@ title: Salesforce-aktivitetsattribuering
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
 
 # Salesforce-aktivitetsattribuering {#salesforce-activities-attribution}
 
-The [!DNL Marketo Measure] Salesforce-integrering för aktiviteter kommer att föra in specifika uppgifter för aktivitet och händelse i din attribueringsmodell. Börja spåra saker som e-post eller telefonsamtal till försäljning som inte fick någon kredit. Om du vill konfigurera din aktivitetsregel måste du gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. Därifrån går du till **[!UICONTROL Settings]** och klicka på **[!UICONTROL Activities]** -fliken.
+The [!DNL Marketo Measure] Salesforce-integrering för aktiviteter kommer att föra in specifika uppgifter för aktivitet och händelse i din attribueringsmodell. Börja spåra saker som e-post eller telefonsamtal till försäljning som inte fick någon kredit. Om du vill konfigurera din aktivitetsregel måste du gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Därifrån går du till **[!UICONTROL Settings]** och klicka på **[!UICONTROL Activities]** -fliken.
 
 Du håller på att göra ditt säljteam väldigt glada! Låt oss ta dig igenom en kort självstudiekurs.
 
@@ -61,7 +61,7 @@ Glöm inte att ange olika regler för aktiviteter eller händelser. Du måste ve
 
 ![](assets/5.png)
 
-Du vill förmodligen placera dessa nya kontaktytor i rätt ställe [Marknadsföringskanal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target=&quot;_blank&quot;}. Du kan göra det genom att definiera kanalen med den nya Campaign-mappningen som du nyss skapade. Kanske skapar du en ny rad för BDR-kanalen där Campaign börjar med Outbound.
+Du vill förmodligen placera dessa nya kontaktytor i rätt ställe [Marknadsföringskanal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. Du kan göra det genom att definiera kanalen med den nya Campaign-mappningen som du nyss skapade. Kanske skapar du en ny rad för BDR-kanalen där Campaign börjar med Outbound.
 
 >[!TIP]
 >
@@ -84,7 +84,7 @@ Du vill förmodligen placera dessa nya kontaktytor i rätt ställe [Marknadsför
 
 ![](assets/6.png)
 
-Och sist men inte minst har ni möjlighet att ange kostnader för era nya kanaler. Våra [Marknadsföringsutgift - överföring](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend)Med {target=&quot;_blank&quot;} kan du ange din utgift på kanalnivå, delkanalsnivå eller kampanjnivå. Med nya [!DNL Marketo Measure] I kampanjer kan ni lägga till de relaterade kostnaderna per månad och sedan se avkastningen för varje kampanj!
+Och sist men inte minst har ni möjlighet att ange kostnader för era nya kanaler. Våra [Marknadsföringsutgift - överföring](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} gör att du kan ange dina utgifter på kanalnivå, delkanalsnivå eller kampanjnivå. Med nya [!DNL Marketo Measure] I kampanjer kan ni lägga till de relaterade kostnaderna per månad och sedan se avkastningen för varje kampanj!
 
 ![](assets/7.png)
 

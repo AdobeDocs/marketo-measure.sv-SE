@@ -5,7 +5,7 @@ title: Återauktoriserar anslutna konton
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Om din CRM-plattform kopplas från, [!DNL Marketo Measure] kommer inte att kunna
 
 ## Återauktoriserar frånkopplade konton {#re-authorizing-disconnected-accounts}
 
-1. Gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} och logga in.
+1. Gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} och logga in.
 1. Välj **[!UICONTROL Settings]** under [!UICONTROL My Account] i det övre vänstra hörnet.
 1. Gå till avsnittet Integrationer till vänster och klicka på **[!UICONTROL Connections]**.
 1. Markera den röda nyckelsymbolen bredvid det konto som ska återanslutas.

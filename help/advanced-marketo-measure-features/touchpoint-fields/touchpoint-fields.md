@@ -5,7 +5,7 @@ title: Touchpoint-fält
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1942'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Om du vill skapa ett beräkningsfält måste du tänka på att det finns tre oli
 
 Extraheringar
 
-Operatorn extract hämtar värdet från ett fält från en annan plats, till exempel: ett kampanjfält, ett Lead-fält eller i ett mer avancerat användningsfall, [extrahera egna parametrar från landningssidan](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;}. Sedan placeras det i ett Touchpoint-fält (se [Mappa till exempel](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;} #2).
+Operatorn extract hämtar värdet från ett fält från en annan plats, till exempel: ett kampanjfält, ett Lead-fält eller i ett mer avancerat användningsfall, [extrahera egna parametrar från landningssidan](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} 2).
 
 **Exempel 1**
 
@@ -220,7 +220,7 @@ Ytterligare arbete krävs för att visa de nya fälten i [!DNL Marketo Measure] 
 
 **Hur verifierar jag att mitt extraheringsuttryck är giltigt och drar rätt värde?**
 
-Det finns ett onlineverktyg ([https://regex101.com/](https://regex101.com/){target=&quot;_blank&quot;}) som du kan köra och testa uttrycket. Uttrycket blir grönt om det är giltigt eller rött om det är ogiltigt. Dessutom är förklaringsrutan längst upp till höger användbar och informerar dig om vad du extraherar.
+Det finns ett onlineverktyg ([https://regex101.com/](https://regex101.com/){target="_blank"}) som du kan köra och testa uttrycket. Uttrycket blir grönt om det är giltigt eller rött om det är ogiltigt. Dessutom är förklaringsrutan längst upp till höger användbar och informerar dig om vad du extraherar.
 
 ![](assets/twelve.png)
 

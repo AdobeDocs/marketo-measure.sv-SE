@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] [!DNL Salesforce] Paketinstallation och konfigura
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ The [!DNL Marketo Measure] Baspaketet innehåller:
 
 Följ stegen nedan för att installera [!DNL Marketo Measure Salesforce] baspaket.
 
-1. Gå till [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;} och logga in.
+1. Gå till [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} och logga in.
 
 1. Installera i [!DNL Marketo Measure] paket i sandlåda eller produktion.
 
@@ -41,17 +41,17 @@ Följ stegen nedan för att installera [!DNL Marketo Measure Salesforce] baspake
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-När du är klar med installationen kan du uppdatera [[!DNL Salesforce] sidlayout](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target=&quot;_blank&quot;} med [!DNL Marketo Measure] fält om så önskas.
+När du är klar med installationen kan du uppdatera [[!DNL Salesforce] sidlayout](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} med [!DNL Marketo Measure] fält om så önskas.
 
 >[!NOTE]
 >
->Läs om [!DNL Marketo Measure] Behörighetsuppsättningar har skapats och [hur de kommer att användas](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target=&quot;_blank&quot;}.
+>Läs om [!DNL Marketo Measure] Behörighetsuppsättningar har skapats och [hur de kommer att användas](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
 ## Installera [!DNL Marketo Measure] Instrumentpanelspaket {#install-marketo-measure-dashboard-package}
 
 The [!UICONTROL Dashboard] Tilläggspaketet innehåller tre fördefinierade kontrollpaneler. Vi rekommenderar installation [!UICONTROL within] Produktion för alla användare.
 
-1. Installera paketet från [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}.
+1. Installera paketet från [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
 
 1. Välj **[!UICONTROL Install for All Users]**.
 

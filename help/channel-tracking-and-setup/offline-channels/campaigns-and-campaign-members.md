@@ -5,7 +5,7 @@ title: Kampanjmedlemmar och kampanjmedlemmar
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Kontaktpunktsdatumet för gruppuppdatering ingår i den installerade [!DNL Marke
 
 Om ett stort antal Campaign-medlemsposter behöver uppdateras kan du använda [!UICONTROL Bulk Update Touchpoint Date] för massredigering.
 
-Om det finns unika användningsområden som det här gränssnittet inte täcker kan du även använda [Datainläsare](https://dataloader.io/){target=&quot;_blank&quot;} om du vill exportera posterna, göra ändringarna och överföra posterna tillbaka till.
+Om det finns unika användningsområden som det här gränssnittet inte täcker kan du även använda [Datainläsare](https://dataloader.io/){target="_blank"} om du vill exportera posterna, göra ändringarna och överföra posterna tillbaka till.
 
 Börja med att söka efter posterna och filtrera dem som du vill ange ett datum för Buyer Touchpoint för.
 
@@ -117,7 +117,7 @@ För att komma runt problemet [!DNL Marketo Measure] skapade en [!DNL Marketo Me
 
 >[!CAUTION]
 >
->Kom ihåg att den här utlösaren inte spårar några kampanjmedlemmar som har tagits bort tidigare, så det här fungerar bara framåt. Om du behöver ta bort ett stort antal kontaktytor för tidigare kampanjmedlemmar kontaktar du [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+>Kom ihåg att den här utlösaren inte spårar några kampanjmedlemmar som har tagits bort tidigare, så det här fungerar bara framåt. Om du behöver ta bort ett stort antal kontaktytor för tidigare kampanjmedlemmar kontaktar du [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

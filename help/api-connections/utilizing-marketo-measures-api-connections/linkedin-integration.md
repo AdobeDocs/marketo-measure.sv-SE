@@ -18,7 +18,7 @@ The [!DNL Marketo Measure] integrering med LinkedIn finns i två delar:
 
 Sponsrat innehåll: Integreringen med Sponsrat innehåll tillåter [!DNL Marketo Measure] att tagga mål-URL:er på [!DNL LinkedIn] annonser, som i slutänden tillåter [!DNL Marketo Measure] för att följa en användare genom hela deras kontaktyta och kartlägga aktiviteten tillbaka till den specifika [!DNL LinkedIn] Campaign och Creative. Detta ger kunderna insikter om avkastningen på deras [!DNL LinkedIn] aktivitet.
 
-Lead Gen Forms: Genom integrationen med LinkedIn Lead Gen Forms får Marketo Measurement insikt i formulär som skickats in via LinkedIn. Dessa formulärfyllningar matchas mot leads från CRM eller [!DNL Marketo Engage] så att de är berättigade till attribuering. Med insikt i den kampanj, det kreativa och det formulär som bidrog till att generera formulären kan team nu optimera sina utgifter för marknadsföring och annonsering i LinkedIn ytterligare.
+Lead Gen Forms: Genom integrationen med LinkedIn Lead Gen Forms får Marketo Measure insikt i formulär som har skickats in via LinkedIn. Dessa formulärfyllningar matchas mot leads från CRM eller [!DNL Marketo Engage] så att de är berättigade till attribuering. Med insikt i den kampanj, det kreativa och det formulär som bidrog till att generera formulären kan team nu optimera sina utgifter för marknadsföring och annonsering i LinkedIn ytterligare.
 
 ## Tillgänglighet {#availability}
 

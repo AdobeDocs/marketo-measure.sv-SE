@@ -5,20 +5,20 @@ title: Lägger till [!DNL Marketo Measure] Skript via [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
 # Lägger till [!DNL Marketo Measure] Skript via [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 
-När du installerar [!DNL Marketo Measure] javascript, vi rekommenderar starkt [hårdkoda skriptet](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target=&quot;_blank&quot;} direkt till din plats. Om det inte är möjligt kan du även använda [!DNL Google Tag Manager] (GTM) för att läsa in [!DNL Marketo Measure] JS. Observera att [!DNL Marketo Measure] JS som läses in via GTM är känsligt för fördröjning. Latens orsakar en fördröjning av skriptinläsningstiden, vilket kan leda till att cirka 3-5 % av alla formulärinskickade formulär saknas.
+När du installerar [!DNL Marketo Measure] javascript, vi rekommenderar starkt [hårdkoda skriptet](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} direkt in på webbplatsen. Om det inte är möjligt kan du även använda [!DNL Google Tag Manager] (GTM) för att läsa in [!DNL Marketo Measure] JS. Observera att [!DNL Marketo Measure] JS som läses in via GTM är känsligt för fördröjning. Latens orsakar en fördröjning av skriptinläsningstiden, vilket kan leda till att cirka 3-5 % av alla formulärinskickade formulär saknas.
 
 Om du lägger till vårt skript via GTM, vänligen ange [!DNL Marketo Measure] skript med högsta prioritet i din startordning och se till att det inte finns några synkrona skript framför [!DNL Marketo Measure] för att minska eventuella effekter från GTM-fördröjning.
 
 >[!NOTE]
 >
->Använd den här [supportartikel av Google](https://support.google.com/tagmanager/answer/2772421?hl=en){target=&quot;_blank&quot;} om du vill veta mer.
+>Använd den här [supportartikel av Google](https://support.google.com/tagmanager/answer/2772421?hl=en){target="_blank"} om du vill veta mer.
 
 ## Lägga till [!DNL Marketo Measure] JS via [!DNL Google Tag Manager] {#how-to-add-marketo-measure-js-via-google-tag-manager}
 

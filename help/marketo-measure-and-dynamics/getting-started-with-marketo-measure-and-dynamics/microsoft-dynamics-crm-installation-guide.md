@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874763
-description: "[!DNL Microsoft Dynamics] Installationshandbok för CRM - Marketo-mått - produktdokumentation"
+description: '"[!DNL Microsoft Dynamics] Installationshandbok för CRM - Marketo Measure - produktdokumentation'
 title: "[!DNL Microsoft Dynamics] Installationshandbok för CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 source-git-commit: 9de82556ca543aa8e6c53242eacae5c87019886c
@@ -220,4 +220,4 @@ För att [!DNL Marketo Measure] för att spåra dina webbaktiviteter finns det f
 
    >[!NOTE]
    >
-   >När du inaktiverar Marketo Measurement-export av data till Dynamics tas inga befintliga data bort. Kontakta Dynamics Support om du behöver hjälp med att ta bort befintliga data.
+   >När du inaktiverar Marketo Measure export av data till Dynamics tas inga befintliga data bort. Kontakta Dynamics Support om du behöver hjälp med att ta bort befintliga data.

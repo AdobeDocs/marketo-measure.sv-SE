@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874791
 description: Beviljande [!DNL Salesforce] Åtkomst till [!DNL Marketo Measure] Support - [!DNL Marketo Measure] - Produktdokumentation
-title: Beviljande [!DNL Salesforce] Tillgång till Marketo Mät Support
+title: Beviljande [!DNL Salesforce] Tillgång till Marketo Measure Support
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# Beviljande [!DNL Salesforce] Tillgång till Marketo Mät Support {#granting-salesforce-access-to-marketo-measure-support}
+# Beviljande [!DNL Salesforce] Tillgång till Marketo Measure Support {#granting-salesforce-access-to-marketo-measure-support}
 
 I vissa fall [!DNL Marketo Measure] Supporten kan begära åtkomst till din [!DNL Salesforce] -miljö för att hjälpa till med diagnostisk felsökning eller Salesforce-konfiguration under implementeringen.
 

@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] Rapportmall - tabell"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2297'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Komma igång {#getting-started}
 
-Du kommer åt [!DNL Tableau] rapportmall [här](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+Du kommer åt [!DNL Tableau] rapportmall [här](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Öppna [!DNL Adobe Marketo] Mät tabellarbetsboksfilen för rapportmallen.
 
@@ -23,7 +23,7 @@ Du måste uppdatera befintliga anslutningsdata till din specifika anslutningsinf
 
 ## Dataanslutning {#data-connection}
 
-Du måste skapa en dataanslutning till din Snowflake-instans. För detta behöver du servernamnet tillsammans med ditt användarnamn och lösenord. Information om var du hittar den här informationen och återställer ditt lösenord, om det behövs, finns dokumenterad [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Du måste skapa en dataanslutning till din Snowflake-instans. För detta behöver du servernamnet tillsammans med ditt användarnamn och lösenord. Information om var du hittar den här informationen och återställer ditt lösenord, om det behövs, finns dokumenterad [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -109,7 +109,7 @@ Det andra alternativet är att byta namn på kolumnerna direkt i [!DNL Tableau] 
 
 Klicka på bilden nedan för att se vilken version den har.
 
-[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"}
 
 ### Relationer och dataflöde {#relationships-and-data-flow}
 
@@ -152,7 +152,7 @@ Definitioner har lagts till i [!DNL Tableau model] för parametrar, anpassade ko
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-Visa definitioner för kolumner som kommer direkt från [!DNL Snowflake], se [data warehouse dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}.
+Visa definitioner för kolumner som kommer direkt från [!DNL Snowflake], se [data warehouse dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Skillnader mellan mallar och Upptäck {#discrepancies-between-templates-and-discover}
 

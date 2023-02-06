@@ -5,7 +5,7 @@ title: Rekommenderas [!DNL Salesforce] Behörigheter för [!DNL Marketo Measure]
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,4 @@ Om den dedikerade användaren inte har åtkomst till leads i köer kan den inte 
 
 Fältnivåsäkerhet och fälttillgänglighet är relaterade men har vissa viktiga skillnader. Fältnivåsäkerhet definierar fältsynlighet för en viss profil medan Fälttillgänglighet avgör om ett fält kan redigeras baserat på fältnivåsäkerhet och sidlayoutskonfiguration. Använda [!DNL Marketo Measure] paketets behörighetsgrupper du kommer att få de nödvändiga säkerhetsinställningarna för fältobjekt. I vissa fall måste den anslutna användaren ha [!DNL Marketo Measure] fält på sidlayouten. [!DNL Marketo Measure] -fält i layouten tillåter [!DNL Marketo Measure] data att mappa till [!DNL Salesforce]. Detta beror på din [!DNL Salesforce] miljö.
 
-Alla organisationer [!DNL Salesforce] har individuella behov, men vi förser dig med våra krav för att balansera [!DNL Marketo Measure] med era säkerhetsprotokoll. Tveka inte att nå ut till [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Alla organisationer [!DNL Salesforce] har individuella behov, men vi förser dig med våra krav för att balansera [!DNL Marketo Measure] med era säkerhetsprotokoll. Tveka inte att nå ut till [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
