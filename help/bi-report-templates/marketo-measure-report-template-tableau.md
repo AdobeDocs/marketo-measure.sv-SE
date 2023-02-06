@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] Rapportmall - tabell - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Rapportmall - tabell"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 1b0d043e9015f2f8e2f6a3a2a49849bb792c7f21
 workflow-type: tm+mt
-source-wordcount: '2297'
+source-wordcount: '2296'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Du kommer åt [!DNL Tableau] rapportmall [här](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
-Öppna [!DNL Adobe Marketo] Mät tabellarbetsboksfilen för rapportmallen.
+Öppna [!DNL Adobe Marketo Measure] Arbetsboksfil för rapportmallsurfning.
 
 Du måste uppdatera befintliga anslutningsdata till din specifika anslutningsinformation för Snowflake. Klicka på [!UICONTROL Edit Connection] och följer de steg som beskrivs i [[!UICONTROL Data Connection]](#data-connection) i denna dokumentation.
 
