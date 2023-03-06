@@ -3,9 +3,9 @@ unique-page-id: 18874730
 description: Kontobaserad marknadsföring - översikt [!DNL Marketo Measure] - Produktdokumentation
 title: Kontobaserad marknadsföring - översikt
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ Mappning av lead-till-konto är en viktig del i ett effektivt ABM-tillvägagång
 * Lead-företagsnamn till kontonamn
 * Lead-företag till webbplatsens kontodomän
 * Matchning av domänen på leadens e-postadress till kontot via kontaktens e-postadress
+
+>[!NOTE]
+>
+>Varje lead försöker matchas mot ett konto i den förmånsordning som anges i ovanstående metoder. När en matchning har gjorts anges AccountId omedelbart på Lead och matchas inte med en annan metod. Om Lead redan har ett giltigt AccountId hoppas Lead över.
 
 ## Prediktiv engagemangspoäng {#predictive-engagement-score}
 
