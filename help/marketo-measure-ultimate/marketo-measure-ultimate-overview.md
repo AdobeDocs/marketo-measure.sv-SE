@@ -1,12 +1,10 @@
 ---
 description: '''[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure] - Produktdokumentation'
 title: '''[!DNL Marketo Measure] Ultimate Overview'
-hide: true
-hidefromtoc: true
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 604db0227cc48e09743db317cc72488755586a48
+source-git-commit: 59d42e5065ec0db7143208743fd053f5e6c1af7b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -28,29 +26,29 @@ ht-degree: 0%
 
 * Integrering med RTCDP (B2B eller B2P Edition), som ger en integrerad B2B-attribueringslösning för RTCDP-kunder som RTCDP och [!DNL Marketo Measure] båda fungerar från centraliserade Adobe Experience Platform-data (AEP).
 
-**Marketo Measure Tiers 1-3**
+**[!DNL Marketo Measure]Nivåer 1-3**
 
 ![](assets/marketo-measure-ultimate-overview-1.png)
 
-**Marketo Measure Ultimate**
+**[!DNL Marketo Measure Ultimate]**
 
 ![](assets/marketo-measure-ultimate-overview-2.png)
 
 ## Nyheter i [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
-**RUBRIKRUBRIK - Importera B2B-data via AEP**
+**Importera B2B-data via AEP**
 
 Marknadsförarna förväntas hämta sina B2B-data (t.ex. konto, säljprojekt, kontakt, lead, kampanj, kampanjmedlem, aktivitet) via AEP. Anslutningarna för direkt CRM och Marketo Engage är inte längre tillgängliga för Ultimate. Marknadsförarna kommer att fortsätta att hämta in annonsplattformsdata via direktanslutningar och spåra webbaktiviteter via [!DNL Marketo Measure] javascript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
-**RUBRIKRUBRIK - Standardvalutainställning**
+**Standardinställning för valuta**
 
-KORT INTRO?
+[!DNL Marketo Measure Ultimate] anger standardvalutan till USD tills användaren ändrar den. Om du anger en ny standardvaluta uppdateras data utan ombearbetning. Så länge den valda valutan finns som mål-ISO-kod behöver du inte skicka konverteringsgrader.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
-**RUBRIKRUBRIK - Marketo Measure Ultimate Sandbox**
+**[!DNL Marketo Measure Ultimate]Sandbox**
 
 [!DNL Marketo Measure Ultimate] -instansen måste mappas till en AEP-sandlåda innan du skapar [!DNL Marketo Measure] måldataflöden i AEP.
 
@@ -64,7 +62,7 @@ Data för en viss enhet (t.ex. Konto) från en viss datakälla kan bara gå till
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
-**HUVUDTITEL - Stage mapping**
+**Stage Mapping**
 
 Alla [!DNL Marketo Measure Ultimate] regler är datauppsättningsspecifika. Regler för Stage Mapping måste skapas för alla datamängder och alla markerade steg.
 
