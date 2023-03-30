@@ -3,16 +3,16 @@ unique-page-id: 27656441
 description: Vanliga frågor om integrering av drivrutiner - [!DNL Marketo Measure] - Produktdokumentation
 title: Vanliga frågor om integrering av drivrutiner
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
 # Vanliga frågor om integrering av drivrutiner {#drift-integration-faq}
 
-Som en del av [!DNL Marketo Measure] integrering med Drift har vi skissat upp några av de vanligaste frågorna. Om det finns frågor som inte beskrivs nedan kontaktar du din Customer Success Manager eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Som en del av [!DNL Marketo Measure] integrering med Drift har vi skissat upp några av de vanligaste frågorna. Om du har frågor som inte beskrivs nedan kan du kontakta kontoteamet (din kontoansvarige) på Adobe eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **Hur är integreringen aktiverad?**
 

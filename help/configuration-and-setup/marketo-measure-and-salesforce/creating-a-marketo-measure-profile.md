@@ -3,9 +3,9 @@ unique-page-id: 18874698
 description: Skapa en [!DNL Marketo Measure] Profil - [!DNL Marketo Measure] - Produktdokumentation
 title: Skapa en [!DNL Marketo Measure] Profil
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Lär dig hur du skapar en [!DNL Marketo Measure] profil. Skapa en [!DNL Marketo 
 
    Klar!
 
-   Om du har några frågor om hur du skapar en dedikerad [!DNL Marketo Measure] profil, kontakta din Customer Success Manager eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   Om du har några frågor om hur du skapar en dedikerad [!DNL Marketo Measure] kan du kontakta kontoteamet (din kontoansvarige) på Adobe eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

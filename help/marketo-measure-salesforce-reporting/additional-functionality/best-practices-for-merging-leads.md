@@ -3,9 +3,9 @@ unique-page-id: 18874734
 description: Bästa metoder för att sammanfoga leads - [!DNL Marketo Measure] - Produktdokumentation
 title: Metodtips för att sammanfoga leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Om det finns flera poster med [!DNL Marketo Measure] ska du se till att den Öve
 
 Därifrån ska du vara fri att sammanfoga leads och [!DNL Marketo Measure] data överförs till det nya registret.
 
-Om du har några frågor kan du kontakta din Customer Success Manager eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Om du har några frågor kan du kontakta kontoteamet (din kontoansvarige) på Adobe eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 ![](assets/1.jpg)

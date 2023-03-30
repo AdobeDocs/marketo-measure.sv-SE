@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] Integrering med Adobe Analytics - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Integrering med [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Integreringen av B2B-kundattribut möjliggör för användare av [!DNL Marketo M
 
 1. Klicka på **[!UICONTROL Set Up New Customer Attributes Connection]** och följ instruktionerna för att konfigurera integreringen av kundattribut. Användargränssnittet uppmanar dig att ange den anslutningsinformation för alias-ID och FTP som du fick när du skapade kundattributskällan i din Core Services Console samt att välja den uppsättning kontoattribut som du vill synkronisera med [!DNL Adobe Analytics] konto.
 
-   Du måste också ange ditt Adobe IMS-org-ID. Detta ID visas i det nedre högra hörnet av Adobe Experience Cloud Admin Console. Om du vill ha mer hjälp med att hitta det här ID:t kontaktar du din Customer Success Manager.
+   Du måste också ange ditt Adobe IMS-org-ID. Detta ID visas i det nedre högra hörnet av Adobe Experience Cloud Admin Console. Om du vill ha mer hjälp med att hitta det här ID:t kontaktar du kontoteamet (din kontoansvarige) på Adobe.
 
 1. När du har skapat anslutningen i [!DNL Marketo Measure] måste du gå tillbaka till Experience Cloud-konsolen för att kunna [validera schemat](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). Du behöver inte bekymra dig om FTP-filöverföringen, [!DNL Marketo Measure] har automatiserat den delen åt dig. Allt du behöver göra är att gå till schemaskärmen Visa/redigera för den Customer Attribute Source du skapade i steg 1 och tala om för Adobe vilka datatyper som finns för vart och ett av attributen [!DNL Marketo Measure] har överförts åt dig. Du kan också skapa nya visningsvänliga namn för de överförda attributen om du vill.
 

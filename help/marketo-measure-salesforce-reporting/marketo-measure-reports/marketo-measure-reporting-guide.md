@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] Rapporteringsguide - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Rapportguide"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '6392'
+source-wordcount: '6395'
 ht-degree: 0%
 
 ---
@@ -557,7 +557,7 @@ När man vill mäta marknadsföringens påverkan på avgivna erbjudanden eller s
 
 >[!NOTE]
 >
->Custom Attribution Model är en extra funktion som inte är tillgänglig för alla kunder. Kontakta din Customer Success Manager om du vill veta mer om hur du lägger till den här funktionen i ditt konto.
+>Custom Attribution Model är en extra funktion som inte är tillgänglig för alla kunder. Kontakta kontogruppen på Adobe (din kontohanterare) om du vill veta mer om hur du lägger till den här funktionen i ditt konto.
 
 Vanligtvis måste marknadsförarna veta, &quot;varifrån kommer mina affärsmöjligheter?&quot;. På samma sätt som vid rapportering på leads besvarades den här frågan historiskt med ett enda endimensionellt värde (till exempel Primär kampanjkälla). Vi vet dock att mycket mer går in på att utveckla ett säljprojekt än en enda kontaktyta från en enda kontakt. Det finns vanligtvis flera kontaktytor från olika kanaler och från flera intressenter som påverkar möjligheterna att skapa. Med [!DNL Marketo Measure]kan vi identifiera alla kontaktytor från ett konto för att få en bättre förståelse för var ett säljprojekt kommer ifrån. Utöver detta kan vi dock fortsätta att identifiera alla kontaktytor som har inträffat efter att affärsmöjligheten har skapats och fram till den punkt där affärsmöjligheten har stängts. Detta gör att vi inte bara kan använda en strategi där flera kontaktytor tas för att förstå var ett säljprojekt kommer ifrån, utan även vad som påverkade det att avsluta och slutligen representera slutna vinstintäkter. Detta ger insikt i olika frågor, till exempel &quot;vad påverkar marknadsföringen på att påverka avtal att sluta?&quot;, &quot;vilken marknadsföring driver stängda Vinner Revenue?&quot; och slutligen, &quot;vilket av mina marknadsföringssatsningar får störst avkastning?&quot;
 
