@@ -3,22 +3,24 @@ unique-page-id: 27656735
 description: Översikt - [!DNL Marketo Measure] - Produktdokumentation
 title: Översikt
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: bf047695c4ea82c4fbf1e9079b7443a5c9821e42
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
 
 # Översikt {#overview}
 
-Idag [!DNL Marketo Measure] applikationen stöder bara en enda valuta (som antas vara USD), medan vi vet och är medvetna om att vi har kunder runt om i världen som behöver rapportera sina egna företags- och användarvalutor. Den här funktionen gör det möjligt för användare att växla mellan olika valutor när de tittar på antingen rapporterade utgifter eller försäljningsintäkter.
+Idag [!DNL Marketo Measure] applikationen stöder bara en enda valuta (som antas vara USD), medan vi vet och är medvetna om att vi har kunder runt om i världen som behöver rapportera sina egna företags- och användarvalutor. Med den här funktionen kan användare växla mellan samma valutor som används i deras CRM när de visar rapporterade utgifter eller försäljningsintäkter i [!DNL Marketo Measure].
 
 ## Tillgänglighet {#availability}
 
 Steg 2 och högre.
 
 ## Krav {#requirements}
+
+[!DNL Marketo Measure] hämtar automatiskt valutainställningen från kundens CRM. Manuell konfiguration i [!DNL Marketo Measure] för att matcha CRM krävs inte längre. Valutainställningen finns på sidan Allmänt under CRM.
 
 I [!DNL Salesforce]måste kunden aktivera Aktivera flera valutor. Alternativt kan kunden även välja&quot;Ja, jag vill aktivera avancerad valutahantering&quot;.
 
