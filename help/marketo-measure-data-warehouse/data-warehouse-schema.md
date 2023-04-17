@@ -3,9 +3,9 @@ unique-page-id: 35586140
 description: data warehouse Schema - Marketo Measure - produktdokumentation
 title: data warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: d1f1a3d1d0dd3111b984fbe9d0a8e8d3ed9289d2
+source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
 workflow-type: tm+mt
-source-wordcount: '22622'
+source-wordcount: '22610'
 ht-degree: 3%
 
 ---
@@ -4331,10 +4331,10 @@ Kontakter som har importerats från källsystemet.
         <p>tal(38,19)</p>
       </td>
       <td>
-        <p>The [!DNL Marketo Measure] algoritm för beräkning av om en kontakt kommer att hjälpa ett säljprojekt att stängas baserat på ålder och fas</p>
+        <p>Den här funktionen har tagits bort. Använd inte den här kolumnen.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>Ej tillämpligt</p>
       </td>
     </tr>
     <tr>
@@ -9557,10 +9557,10 @@ Leads som importerats från källsystemet.
         <p>tal(38,19)</p>
       </td>
       <td>
-        <p>The [!DNL Marketo Measure] algoritm för beräkning av om en lead ska konverteras baserat på ålder och stadium.</p>
+        <p>Den här funktionen har tagits bort. Använd inte den här kolumnen.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>Ej tillämpligt</p>
       </td>
     </tr>
     <tr>
@@ -10175,10 +10175,10 @@ Möjligheter som importerats från källsystemet.
         <p>tal(38,19)</p>
       </td>
       <td>
-        <p>The [!DNL Marketo Measure] algoritm för beräkning av om en affärsmöjlighet stängs baserat på ålder och stadium.</p>
+        <p>Den här funktionen har tagits bort. Använd inte den här kolumnen.</p>
       </td>
       <td>
-        <p>0.8225108385086060000</p>
+        <p>Ej tillämpligt</p>
       </td>
     </tr>
     <tr>
