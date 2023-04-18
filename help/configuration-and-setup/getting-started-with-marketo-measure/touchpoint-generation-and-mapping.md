@@ -3,9 +3,9 @@ unique-page-id: 18874554
 description: Generering och mappning av pekpunkter - [!DNL Marketo Measure] - Produktdokumentation
 title: Generering och mappning av kontaktpunkter
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 950dbfacf48cbb81acad9c40033c25a765287bee
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ För att du ska få ut så mycket som möjligt av [!DNL Marketo Measure]bör du 
 Genereringsmetoder för kontaktpunkter
 
 Processen för att skapa kontaktytor besvarar frågan&quot;Hur är [!DNL Marketo Measure] kommer du att veta att det här hände?&quot; Beroende på vilka funktioner du har och vilka typer av interaktioner dina presumtiva kunder kan ha, finns det upp till tre sätt [!DNL Marketo Measure] kan fortsätta med en interaktion och skapa en kontaktyta som representerar den.
+
+>[!IMPORTANT]
+>
+>[!DNL Marketo Measure] genererar bara en kontaktpunkt per session. Om fler än ett formulär har fyllts i hämtas endast den första formulärfyllningen.
 
 | **Typ av interaktion** | **Exempel** | **Genereringsmetod för kontaktpunkt** |
 |---|---|---|
