@@ -1,9 +1,7 @@
 ---
 description: "[!DNL Salesforce] Paketkonsolidering - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Salesforce] Paketkonsolidering"
-hide: true
-hidefromtoc: true
-source-git-commit: 502a08b9a670c0b9a997a0fbb238a4db865f79d2
+source-git-commit: e0a471a8e74cdba23a01bea02054c82ede82de9b
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -36,7 +34,7 @@ Vi är medvetna om att denna förändring kan kräva justeringar, och vi sträva
       * V2_EXT-fråga:
          * bizible2_ext_Ad_Content_FT__c contains Outreach
 
-![](assets/salesforce-package-consolidation-1.png)
+![](assets/package-consolidation-1.png)
 
 * Motsvarande fråga i det konsoliderade paketet:
    * bizible2_Touchpoint_Position__c innehåller FT AND
