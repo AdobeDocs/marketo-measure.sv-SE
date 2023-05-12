@@ -2,16 +2,16 @@
 description: Adobe Experience Cloud-gränssnitt - [!DNL Marketo Measure] - Produktdokumentation
 title: Adobe Experience Cloud Interface
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
+source-git-commit: a14b977fc4c3d2f3eccd2c03bc8d96c2a71e6bc6
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Cloud Interface {#unified-shell-overview}
 
-Adobe Experience Cloud Interface anpassar gränssnittets utseende och känsla för Adobe Experience Cloud program och tjänster. Men det är mer än bara en ny design. Det är ett ensidigt program som levererar användarupplevelser i en enda instans.
+Adobe Experience Cloud Interface anpassar utseendet och känslan i Adobe Experience Cloud program och tjänster. Men det är mer än bara en ny design. Det är ett ensidigt program som levererar användarupplevelser i en enda instans.
 
 ## Användarflöde {#user-flow}
 
