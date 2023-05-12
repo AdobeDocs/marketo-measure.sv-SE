@@ -2,16 +2,16 @@
 description: Domänhantering - [!DNL Marketo Measure] - Produktdokumentation
 title: Domänhantering
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
 
 # Domänhantering {#domain-management}
 
-För IMS-aktiverade klientorganisationer som körs [!DNL Marketo Measure] i det enhetliga skalet, [!DNL Marketo Measure] har ett gränssnitt som gör att användare kan hantera sina egna domänlistor. [!DNL Marketo Measure] användare måste först verifiera alla domäner de vill spåra i [Adobe Admin Console](https://adminconsole.adobe.com/). När domänerna har verifierats i Admin Console kan användarna hantera om [!DNL Marketo Measure] använder dessa domäner för att spåra webbplatstrafik.
+För IMS-aktiverade klientorganisationer som körs [!DNL Marketo Measure] i Experience Cloud-gränssnittet, [!DNL Marketo Measure] har ett gränssnitt som gör att användare kan hantera sina egna domänlistor. [!DNL Marketo Measure] användare måste först verifiera alla domäner de vill spåra i [Adobe Admin Console](https://adminconsole.adobe.com/). När domänerna har verifierats i Admin Console kan användarna hantera om [!DNL Marketo Measure] använder dessa domäner för att spåra webbplatstrafik.
 
 ## Lägga till domäner i Admin Console {#adding-domains-in-admin-console}
 

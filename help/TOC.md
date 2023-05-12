@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget."
-source-git-commit: 5a27c4fc89925ae143affa2de14eca3b8a51bd11
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 2%
    + [[!DNL Marketo Measure] Integrering med Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] Integrering med Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
    + [Domänhantering](marketo-measure-and-adobe/domain-management.md)
-   + [Översikt över enhetligt gränssnitt](marketo-measure-and-adobe/unified-shell-overview.md)
+   + [Adobe Experience Cloud Interface Overview](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
 + [!DNL Marketo Measure] och Dynamics {#marketo-measure-and-dynamics}
    + Komma igång med [!DNL Marketo Measure] och Dynamics {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure] Dynamics-schema](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)

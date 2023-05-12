@@ -1,21 +1,19 @@
 ---
-description: Enhetlig gränssnittsöversikt - [!DNL Marketo Measure] - Produktdokumentation
-title: Översikt över enhetligt gränssnitt
+description: Adobe Experience Cloud-gränssnitt - [!DNL Marketo Measure] - Produktdokumentation
+title: Adobe Experience Cloud Interface
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: f0ad2b309172bf44ccea033e57d9aae3616532fc
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# Översikt över enhetligt gränssnitt {#unified-shell-overview}
+# Adobe Experience Cloud Interface {#unified-shell-overview}
 
-Enhetligt gränssnitt anpassar &quot;skalets&quot; utseende och känsla i Adobe Experience Cloud program och tjänster. Men det är mer än bara en ny design. Det är ett ensidigt program som levererar användarupplevelser i en enda instans.
+Adobe Experience Cloud Interface anpassar gränssnittets utseende och känsla för Adobe Experience Cloud program och tjänster. Men det är mer än bara en ny design. Det är ett ensidigt program som levererar användarupplevelser i en enda instans.
 
 ## Användarflöde {#user-flow}
-
-**Enhetligt gränssnittsflöde**
 
 Om du redan är inloggad på en Adobe Experience Cloud-produkt klickar du på menyikonen och väljer **[!DNL Marketo Measure]**.
 
@@ -69,7 +67,7 @@ Klicka på din profilikon om du vill ändra språk eller andra inställningar f�
 
 Bokmärken omdirigeras. Om du till exempel navigerar till https://apps.marketo-measure.com/Discover/391 omdirigeras du till https://experience.adobe.com/marketo-measure/Discover/391 när autentiseringen är klar.
 
-**Jag kan inte logga in på [!DNL Marketo Measure] via det enhetliga gränssnittet. Vad kan problemet vara?**
+**Jag kan inte logga in på [!DNL Marketo Measure] via Experience Cloud-gränssnittet. Vad kan problemet vara?**
 
 Om du kan logga in på Adobe Experience Cloud, men se en sida som följande, kan problemet finnas på [!DNL Marketo Measure] sida:
 
