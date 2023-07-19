@@ -3,9 +3,9 @@ unique-page-id: 18874604
 description: Anpassad segmentering - [!DNL Marketo Measure] - Produktdokumentation
 title: Anpassad segmentering
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+source-git-commit: 7d037783805567370daa412629d58a5dee175722
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Med funktionen för anpassad segmentering kan du filtrera Touchpoints efter en k
 
 >[!NOTE]
 >
->Med anpassad segmentering kan du filtrera Touchpoints efter kategorier (filternamn) och regler (filtervärden). Steg 1 får ett segment, nivå 2 och upp får tio.
+>Med anpassad segmentering kan du filtrera Touchpoints efter kategorier (filternamn) och regler (filtervärden). Tier 1-kunder får ett segment, nivå 2 och upp, och får tio.
 
 **När är funktionen för anpassad segmentering användbar?**
 
