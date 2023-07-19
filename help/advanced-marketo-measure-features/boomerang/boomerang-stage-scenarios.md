@@ -3,14 +3,18 @@ unique-page-id: 18874692
 description: Scenarier i Boomerang - [!DNL Marketo Measure] - Produktdokumentation
 title: Scenarier i Boomerang
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1707'
 ht-degree: 0%
 
 ---
 
 # Scenarier i Boomerang {#boomerang-stage-scenarios}
+
+>[!AVAILABILITY]
+>
+>Funktionen Boomerang är bara aktiverad för Tier 3-kunder. Om du vill begära en högre kontonivå kontaktar du kontoteamet (din kontoansvarige) på Adobe.
 
 Nedan följer några exempel på Boomerang Stage-scenarier för att få en förståelse för hur [!DNL Marketo Measure] kommer att skapa kontaktytor i varje situation.
 
@@ -52,7 +56,7 @@ Lead 1 konverteras sedan till en kontakt med ett säljprojekt, vilket anses vara
 
 ## Scenarier med flera leads {#scenarios-with-multiple-leads}
 
-I följande scenarier kan Boomerang Stages bli mer komplicerat eftersom vi tittar på hur flera leads kan påverka säljprojektsresan.
+I följande scenarier kan Boomerang Stages bli mer komplicerat, eftersom vi tittar på hur flera leads kan påverka säljprojektsresan.
 
 Den översta raden (märkt Lead 1, i blått) representerar de enskilda Leads resa och hur deras kontaktytor visas på Lead-posten. Detsamma gäller för lead 2 (i rosa) och lead 3 (i orange). Poängen (märkt säljprojekt) visar hur båda dessa leads kontaktytor översätts till säljprojektet. Hur kontaktytorna utvecklas förklaras i kronologisk händelse, från vänster till höger.
 

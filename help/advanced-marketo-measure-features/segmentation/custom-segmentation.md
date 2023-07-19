@@ -3,9 +3,9 @@ unique-page-id: 18874604
 description: Anpassad segmentering - [!DNL Marketo Measure] - Produktdokumentation
 title: Anpassad segmentering
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ Segment ger möjlighet att filtrera data i [!DNL Marketo Measure] Instrumentpane
 **Varför anpassad segmentering?**
 
 Med funktionen för anpassad segmentering kan du filtrera Touchpoints efter en kategori och upp till fem segment. Beroende på vilket objekt ditt ROI-tankstreck pekar på (Lead eller Kontakt) kan du skapa segment baserat på fälten som finns i lead-/kontaktobjektet. Du kan också skapa segment baserat på de fält som finns i objektet säljprojekt.
+
+>[!NOTE]
+>
+>Med anpassad segmentering kan du filtrera Touchpoints efter kategorier (filternamn) och regler (filtervärden). Steg 1 får ett segment, nivå 2 och upp får tio.
 
 **När är funktionen för anpassad segmentering användbar?**
 

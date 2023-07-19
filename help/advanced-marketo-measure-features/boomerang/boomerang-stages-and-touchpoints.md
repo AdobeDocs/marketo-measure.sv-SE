@@ -3,14 +3,18 @@ unique-page-id: 18874558
 description: Boomerang Stages och Touchpoints - [!DNL Marketo Measure] - Produktdokumentation
 title: Boomerang Stages och Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
 
 # Boomerang Stages och Touchpoints {#boomerang-stages-and-touchpoints}
+
+>[!AVAILABILITY]
+>
+>Funktionen Boomerang är bara aktiverad för Tier 3-kunder. Om du vill begära en högre kontonivå kontaktar du kontoteamet (din kontoansvarige) på Adobe.
 
 [!DNL Marketo Measure] har släppt vår funktion på Boomerang Stage! Funktionen Boomerang Stage skapades för att ge större insyn i kundresan för [!DNL Marketo Measure] kunder med långa säljcykler. Med den här funktionen kan marknadsförare skapa kontaktytor för alla scenövergångar som inträffar i säljprojektsresan, som när en kontakt-MQL, sedan går över till SAL och sedan återgår till MQL-steget. När kontakter&quot;återgår till MQL-stadiet&quot; eller&quot;omdirigera&quot; anser vi att MQL är ett boomerang-stadium. Funktionen Boomerang Stage fungerar tillsammans med [!DNL Marketo Measure] Anpassade steg.
 

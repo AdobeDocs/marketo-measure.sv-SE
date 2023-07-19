@@ -3,14 +3,18 @@ unique-page-id: 18874767
 description: Konfigurera Boomerang-stadier - [!DNL Marketo Measure] - Produktdokumentation
 title: Konfigurera Boomerang Stages
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 # Konfigurera Boomerang Stages {#setting-up-boomerang-stages}
+
+>[!AVAILABILITY]
+>
+>Funktionen Boomerang är bara aktiverad för Tier 3-kunder. Om du vill begära en högre kontonivå kontaktar du kontoteamet (din kontoansvarige) på Adobe.
 
 Aktivera [!UICONTROL Boomerang] Du måste vara kontoadministratör för ditt konto. Eller så kan det aktiveras genom att man når ut till [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. När funktionen har aktiverats följer du dessa anvisningar för att konfigurera dem.
 
