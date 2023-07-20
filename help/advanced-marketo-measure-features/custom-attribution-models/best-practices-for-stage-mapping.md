@@ -2,9 +2,9 @@
 description: Metodtips för scenmappning - [!DNL Marketo Measure] - Produktdokumentation
 title: Metodtips för scenmappning
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: b8388c4f89734f55ec779ef23b75b34b07da6f58
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Oavsett om du utvärderar din Stage Mapping för första gången eller bara gran
 * Observera att avsnittet säljprojektsfas är uppdelat i Förlorat, Öppna och Vunnet. validera att faserna finns i rätt fasavsnitt
    * Om du har en scen i ett felaktigt scenavsnitt kan det resultera i mycket felaktigt [!DNL Marketo Measure] intäktsdata för pipeline
 * Undvik att använda duplicerade scennamn (systemet identifierar dem och tar automatiskt bort ett).
+* Om du vill ange en regel som kontrollerar om det finns NULL-värden lämnar du värdetextrutan tom.
 
 ## Bästa praxis för underhåll {#best-practices-for-maintenance}
 
