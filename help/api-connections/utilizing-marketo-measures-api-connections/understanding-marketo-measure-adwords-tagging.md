@@ -3,9 +3,9 @@ unique-page-id: 18874678
 description: Förstå [!DNL Marketo Measure] AdWords Tagging - [!DNL Marketo Measure] - Produktdokumentation
 title: Förstå [!DNL Marketo Measure] AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -105,6 +105,10 @@ S: 6 timmar
 **F: Hur lång tid tar det att importera annonsdata?**
 
 S: 4 timmar
+
+**F: För dynamiska sökannonser, kan vi spåra kombinationen av rubrik, beskrivning osv. i det projekt som vi serverade?**
+
+S: Vi kan inte hämta enskilda kreativa detaljer för dynamiska sökannonser, men om autotagging är aktiverat kan vi ändå få det kreativa ID:t och de intäktsgivande attributen.
 
 >[!NOTE]
 >

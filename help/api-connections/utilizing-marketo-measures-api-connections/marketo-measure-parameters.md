@@ -3,9 +3,9 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Parametrar - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Parametrar"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Exempel på en URL med [!DNL Marketo Measure] parametrar:
    * Nyckelordsmatchningstyper hjälper dig att styra vilka sökningar som utlöser din annons. Du kan till exempel använda en bred matchning för att visa annonsen för en bred publik eller använda exakt matchning för att hona in specifika kundgrupper.
    * De tre matchningstyperna är: Bred, suddig och exakt.
 
->[!NOTE]
+>[!TIP]
 >
 >Mer information om matchningstyper finns i [här är en relevant AdWords-artikel](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
@@ -49,6 +49,10 @@ Exempel på en URL med [!DNL Marketo Measure] parametrar:
 
 * `_bg={adgroupID}`
    * Representerar ID:t för annonskoncern som annonsen tillhör
+
+>[!NOTE]
+>
+>Vi stöder inte parametrar för omdirigerings-URL.
 
 ## Parametrar för Bing Ads {#bing-ads-parameters}
 
