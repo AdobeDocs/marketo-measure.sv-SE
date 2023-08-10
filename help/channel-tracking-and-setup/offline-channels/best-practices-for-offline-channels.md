@@ -3,7 +3,7 @@ description: Bästa praxis för offlinekanaler - [!DNL Marketo Measure] - Produk
 title: Bästa praxis för offlinekanaler
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -72,9 +72,9 @@ Om ditt team nyligen har haft något av ovanstående: [!DNL Marketo Measure] rek
 >
 >* [Inställningar för offlinekanal](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Synkronisering av anpassad kampanj - appsynkronisering](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Synkronisera offlinekampanjer - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
->* [Offlinekampanj- och kampanjmedlemmar - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
->* [Kampanjsynkroniseringsdatum - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/campaign-sync-dates.md)
+>* [Synkronisera offlinekampanjer - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [Offlinekampanj- och kampanjmedlemmar - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+>* [Kampanjsynkroniseringsdatum - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
 >* [Konfigurationer för flera kampanjposttyper](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Skapa en kampanjlistvy](/help/channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Synkroniserar historiska data](/help/channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
+>* [Skapa en kampanjlistvy](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Synkroniserar historiska data](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)

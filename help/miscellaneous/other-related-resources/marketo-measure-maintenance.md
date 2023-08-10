@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Underhåll - [!DNL Marketo Measure] - Produ
 title: "[!DNL Marketo Measure] Underhåll"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 **Synkronisera kontaktytor för köpare för nya offlinekampanjer (2x/månad)**
 
-Som du lärde dig under introduktionen, [!DNL Marketo Measure] får information om era offlinemarknadsföringssatsningar genom att synkronisera med era CRM-kampanjer. När ni lanserar nya kampanjer måste ni se till att aktivera Buyer Touchpoints för varje kampanj efter behov. Checka ut [den här artikeln](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)för mer information.
+Som du lärde dig under introduktionen, [!DNL Marketo Measure] får information om era offlinemarknadsföringssatsningar genom att synkronisera med era CRM-kampanjer. När ni lanserar nya kampanjer måste ni se till att aktivera Buyer Touchpoints för varje kampanj efter behov. Checka ut [den här artikeln](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)för mer information.
 
 **Ladda upp utgifter för alla kanaler (1x/månad)**
 

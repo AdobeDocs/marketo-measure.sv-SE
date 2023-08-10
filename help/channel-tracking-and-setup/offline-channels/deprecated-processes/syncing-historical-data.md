@@ -4,7 +4,7 @@ description: Synkroniserar historiska data - [!DNL Marketo Measure] - Produktdok
 title: Synkroniserar historiska data
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Om informationen finns på annat håll (t.ex. fortfarande bor i Marketing Automa
 
 Som ett resultat av detta kan du massange datumet för alla i den marknadsföringslistan som ska användas för slutpunktsdatumet. Om du vill ha mer korrekta historiska datum skapar du flera marknadsföringslistor för samma kampanj - var och en med ett eget Touchpoint-datum. Om Campaign har en kort tidsperiod kanske det är värt besväret att skapa en marknadsföringslista för varje dag. Om Campaign har en längre tidsrymd kan det vara bra att skapa en marknadsföringslista varje vecka.
 
-Mer information om synkronisering av marknadsföringslistor finns här: [[!DNL Dynamics] Kampanjer och marknadsföringslistor](/help/marketo-measure-and-dynamics/dynamics-reporting/dynamics-campaigns-and-marketing-lists.md)
+Mer information om synkronisering av marknadsföringslistor finns här: [[!DNL Dynamics] Kampanjer och marknadsföringslistor](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
 >

@@ -4,7 +4,7 @@ description: Anpassad kanalinställning offline - [!DNL Marketo Measure] - Produ
 title: Anpassad kanalinställning offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Alla befintliga kampanjtyper måste inkluderas i din kanalkarta och&quot;NULL&qu
 
 Ta dig tid att gå in [!DNL Salesforce] för att fastställa antalet och typen av befintliga posttyper, som du vill inkludera, och om du behöver skapa ytterligare kampanjer baserat på informationen ovan. När du har fyllt i all nödvändig information är du redo att överföra.
 
-Läs mer om [synka offline [!DNL Salesforce] Kampanjer med [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md).
+Läs mer om [synka offline [!DNL Salesforce] Kampanjer med [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md).
 
 ## Hantera SFDC-kampanjer för onlinemarknadsföring {#handling-sfdc-campaigns-for-online-marketing-efforts}
 

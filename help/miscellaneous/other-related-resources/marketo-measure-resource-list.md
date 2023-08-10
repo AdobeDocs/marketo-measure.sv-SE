@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Resurslista - [!DNL Marketo Measure] - Prod
 title: "[!DNL Marketo Measure] Resurslista"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Här är olika länkar till relevanta artiklar/videoklipp som hjälper dig att k
 * [Inställningar för offlinekanal](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [Vad är UTM-parametrar?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [UTM Best Practices](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [Synkronisera SFDC-kampanjer med Buyer Touchpoints](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
+* [Synkronisera SFDC-kampanjer med Buyer Touchpoints](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
 * [Överför marknadsföringsutgifter](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Återanslut annonskonton](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Lägger till [!DNL Marketo Measure] Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
