@@ -4,9 +4,9 @@ description: Synkroniserar offlinekampanjer - [!DNL Marketo Measure] - Produktdo
 title: Synkronisera offlinekampanjer
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Synkronisera offlinekampanjer {#syncing-offline-campaigns}
 
 Det kan vara svårt att spåra offlinekampanjer korrekt och förstå hur de står sig jämfört med era digitala marknadsföringssatsningar. [!DNL Marketo Measure] gör det möjligt att spåra och tilldela kontaktytor till offlinekampanjer i [!DNL Salesforce], även i situationer när en [!DNL Salesforce] kampanjen skapas inte förrän några veckor efter evenemanget.
+
+>[!NOTE]
+>
+>Den här artikeln handlar om en föråldrad process. Vi uppmuntrar användarna att använda [ny, förbättrad process i appen](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Innan du synkroniserar {#before-you-sync}
 

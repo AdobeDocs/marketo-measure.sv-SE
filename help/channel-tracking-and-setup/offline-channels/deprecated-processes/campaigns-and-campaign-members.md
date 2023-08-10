@@ -4,9 +4,9 @@ description: Kampanjmedlemmar och kampanjmedlemmar - [!DNL Marketo Measure] - Pr
 title: Kampanjmedlemmar och kampanjmedlemmar
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Kampanjmedlemmar och kampanjmedlemmar {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] Kampanjer är avsedda att spåra listor med leads och kontakter som är kopplade till ett marknadsföringsprogram eller en aktivitet. Detta har till exempel varit webbinarier, registreringar eller besök. Marknadsförarna kan välja om en Campaign ska tillskrivas en kontaktyta eller inte.
+
+>[!NOTE]
+>
+>Den här artikeln handlar om en föråldrad process. Vi uppmuntrar användarna att använda [ny, förbättrad process i appen](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Aktivera kontaktpunkter {#enabling-touchpoints}
 

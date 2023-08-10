@@ -4,9 +4,9 @@ description: Synkroniserar historiska data - [!DNL Marketo Measure] - Produktdok
 title: Synkroniserar historiska data
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Synkroniserar historiska data {#syncing-historical-data}
 
 [!DNL Marketo Measure] är en lösning som innehåller de mest detaljerade, användbara data. Vi förstår dock att du kan ha befintliga data som du vill ha attribuering för. Det går att generera kontaktytor för historiska data, men det är viktigt att ta hänsyn till några faktorer innan du går vidare med den här processen.
+
+>[!NOTE]
+>
+>Den här artikeln handlar om en föråldrad process. Vi uppmuntrar användarna att använda [ny, förbättrad process i appen](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Faktorer att tänka på {#factors-to-consider}
 
