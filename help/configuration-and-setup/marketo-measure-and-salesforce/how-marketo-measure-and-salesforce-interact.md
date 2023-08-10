@@ -4,9 +4,9 @@ description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interact - Marketo
 title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interagera
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -721,6 +721,20 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
   </tr> 
  </tbody> 
 </table>
+
+>[!NOTE]
+>
+>För att säkerställa precisionen för Marketo Measure-tagning av borttagningshändelser i Salesforce-kontot krävs replikeringsbar behörighet för objekten nedan. Replikerbara behörigheter levereras som standard med följande objekt:
+>
+>* Konto
+>* Campaign
+>* Kampanjmedlem
+>* Kontakt
+>* Händelse
+>* Lead
+>* Möjligheter
+>* Uppgift
+
 
 ## [!DNL Marketo Measure] Egna objekt i [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
