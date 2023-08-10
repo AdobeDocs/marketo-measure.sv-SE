@@ -4,7 +4,7 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget."
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: faa04b417c5f0512d294bf2483aef3061b10d621
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 2%
@@ -81,13 +81,13 @@ ht-degree: 2%
       + [Anpassad kanalinställning offline](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [Synkronisering av anpassad kampanj](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
       + [Konfigurationer för flera kampanjposttyper](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-         + Föråldrade processer {#deprecated-processes}
-            + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
-            + [Synkroniseringsdatum för kampanj](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
-            + [Skapa en kampanjlistvy för [!DNL Salesforce] Kampanjer](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-            + [Dynamics-kampanjer och marknadsföringslistor](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
-            + [Synkroniserar historiska data](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
-            + [Synkronisera offlinekampanjer](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+      + Föråldrade processer {#deprecated-processes}
+         + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+         + [Synkroniseringsdatum för kampanj](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+         + [Skapa en kampanjlistvy för [!DNL Salesforce] Kampanjer](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Dynamics-kampanjer och marknadsföringslistor](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
+         + [Synkroniserar historiska data](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+         + [Synkronisera offlinekampanjer](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
 + API-anslutningar {#api-connections}
    + Använder [!DNL Marketo Measure]API-anslutningar {#utilizing-marketo-measures-api-connections}
       + [Integrerade annonsplattformar](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
