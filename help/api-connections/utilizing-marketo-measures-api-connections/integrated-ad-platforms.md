@@ -3,7 +3,8 @@ unique-page-id: 18874594
 description: Integrerade annonsplattformar - [!DNL Marketo Measure] - Produktdokumentation
 title: Integrerade annonsplattformar
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: APIs, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -26,9 +27,9 @@ När du har klickat på [!UICONTROL Set up New Ads Connection] visas ett fönste
 
 ![](assets/select-account-type.png)
 
-## Google AdWords {#google-adwords}
+## Google AdWord {#google-adwords}
 
-När du skapar annonser i [!DNL Google AdWords]kan du tagga kampanjer på något av tre sätt: manuell taggning, automatisk taggning eller genom att skapa en spårningsmall. När du taggar din AdWords-URL manuellt måste du definiera och lägga till parametrarna i slutet av annonsernas URL:er. Manuell taggning gör att andra plattformar än Google enkelt kan läsa data som samlats in med parametrarna.
+När du skapar dina annonser i [!DNL Google AdWords]kan du tagga kampanjer på något av tre sätt: manuell taggning, automatisk taggning eller genom att skapa en spårningsmall. När du taggar din AdWords-URL manuellt måste du definiera och lägga till parametrarna i slutet av annonsernas URL:er. Manuell taggning gör att andra plattformar än Google enkelt kan läsa data som samlats in med parametrarna.
 
 Spårningsmallen är ett verktyg som Google tillhandahåller för att lägga till det som anropar ValueTrack-parametrar. De fungerar på samma sätt som UTM och andra taggningsparametrar.
 
@@ -47,11 +48,11 @@ Läs mer om våra [[!DNL AdWords] funktioner för automatisk taggning](/help/api
 
 ## Aktivera [!DNL Marketo Measure] Automatisk taggning för ord {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
-Före aktivering [!DNL Marketo Measure] automatisk taggning, **Kontrollera att du har en spårningsmall aktiverad på konto-, kampanj- eller annonsgruppsnivå i ditt Adwords-konto. Detta krävs för alla Adwords-konton som har [!DNL Marketo Measure] autotaggning har aktiverats.** Om du aktiverar en spårningsmall förhindras alla förluster i data för annonshistorik. Observera att aktivering av spårningsmallar på nyckelords-, sigillänks- eller annonsnivå gör att annonsen går igenom gransknings- och godkännandeprocessen och kan starta om annonsernas prestandahistorik. Om ingen spårningsmall är aktiverad alls [!DNL Marketo Measure] kommer att lägga till [!DNL Marketo Measure] spårningsparametrar direkt till annonsens &quot;Final URL&quot;, som också kan resultera i förlust av annonshistorik.
+Före aktivering [!DNL Marketo Measure] automatisk taggning, **Kontrollera att du har en spårningsmall aktiverad på konto-, kampanj- eller annonsgruppsnivå i ditt Adwords-konto. Detta krävs för alla Adwords-konton som har [!DNL Marketo Measure] autotaggning har aktiverats.** Om du aktiverar en spårningsmall förhindras alla förluster i data för annonshistorik. Observera att aktivering av spårningsmallar på nyckelords-, sigillänks- eller annonsnivå gör att annonsen går igenom gransknings- och godkännandeprocessen och kan starta om annonsernas prestandahistorik. Om ingen spårningsmall är aktiverad alls [!DNL Marketo Measure] kommer att lägga till [!DNL Marketo Measure] spårningsparametrar direkt till annonsens &quot;Final URL&quot;, som också kan resultera i förlust av annonshistorikdata.
 
 När du har en spårningsmall på plats följer du instruktionerna nedan för att aktivera [!DNL Marketo Measure] Automatisk taggning. Obs! [!DNL Marketo Measure] kommer även att tagga alla pausade annonser i ditt konto automatiskt.
 
-1. Logga in på [!DNL Marketo Measure] konto [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+1. Logga in på [!DNL Marketo Measure] konto på [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 1. Gå till [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections].
 
@@ -67,13 +68,13 @@ När du har en spårningsmall på plats följer du instruktionerna nedan för at
 
 ## Ställa in en spårningsmall i AdWords med [!DNL Marketo Measure] Parametrar {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-Kom ihåg att du bör lägga till spårningsmallar på [!UICONTROL Account], [!UICONTROL Campaign] eller Lägg till gruppnivå i AdWords. Om du lägger till spårningsmallar på nyckelord-, webbplatslänks- eller annonsnivå måste din annons gå igenom gransknings- och godkännandeprocessen och du riskerar att starta om din annons. Läs mer om [skapa spårningsmallar](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
+Kom ihåg att du bör lägga till spårningsmallar på [!UICONTROL Account], [!UICONTROL Campaign] eller Lägg till gruppnivå i AdWords. Om du lägger till spårningsmallar på nyckelord-, webbplatslänks- eller annonsnivå måste annonsen gå igenom gransknings- och godkännandeprocessen och du riskerar att starta om annonsernas prestandahistorik. Läs mer om [skapa spårningsmallar](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Logga in på [!DNL Google AdWords] Konto.
 1. Gå till [!UICONTROL Campaigns] vy från det vänstra navigeringsfältet
 1. Navigera till[!UICONTROL Settings]&quot;, även i det vänstra navigeringsfältet
 1. Växla till[!UICONTROL Account Settings]&quot; längst upp
-1. Expandera &quot;[!UICONTROL Tracking]&quot;
+1. Expandera[!UICONTROL Tracking]&quot;
 1. Klistra in en av följande textsträngar i spårningsmallen för att ange mallens värde:
 
    * Om du har frågetecken i ALLA URL:er använder du följande URL-text:
@@ -134,7 +135,7 @@ Det är viktigt att notera att [!DNL Bing Ads] Med kan du lägga till ännu fler
 
 Du kan använda en spårningsmall om du vill, men det är inte nödvändigt för [!DNL Bing Ads] och [!DNL Marketo Measure] att integrera. Det beror på att [!DNL Bing] tillåter att annonser redigeras utan att historiken ändras, så [!DNL Marketo Measure] kan uppdatera mål-URL:en.
 
-Automatisk taggning ska aktiveras med [!DNL Marketo Measure] så att den anpassade [!DNL Marketo Measure] parametrar kan läggas till automatiskt. Det finns ingen risk för att Bing Ads förlorar historik över tidigare annonseringar.
+Automatisk taggning ska aktiveras med [!DNL Marketo Measure] så att den [!DNL Marketo Measure] parametrar kan läggas till automatiskt. Det finns ingen risk för att Bing Ads förlorar tidigare annonseringsinsatser.
 
 Besök [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls){target="_blank"} för mer information om hur du lägger till taggar på deras plattform.
 
@@ -142,15 +143,15 @@ Besök [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post
 
 The [!DNL Marketo Measure] integrering med [!DNL Facebook] gör att den automatiskt kan hämta annonsinformation och tagga URL:en med sina parametrar. [!DNL Marketo Measure] kommer att hämta in information om Campaign och Ad Set via vår automatiska taggning. Ad Set fyller i vårt fält för annonsgruppnamn. Mer information om hur du konfigurerar URL-taggar finns på [!DNL Facebook] -plattformen, besök [!DNL Facebook] [företag](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} sida.
 
-Innan du aktiverar automatisk taggning med [!DNL Facebook Ads]är det viktigt att exportera den tidigare prestandahistoriken som en CSV-fil. Vid den här tidpunkten, när [!DNL Marketo Measure] taggar [!DNL Facebook Ads] med parametern _bf, [!DNL Facebook] läser annonserna som helt nya och raderar prestandahistoriken. Därför är det viktigt att du exporterar ett register över tidigare prestanda om det är något av värde för dig och din organisation.
+Innan du aktiverar automatisk taggning med [!DNL Facebook Ads]är det viktigt att exportera den tidigare prestandahistoriken som en CSV-fil. Vid den här tidpunkten [!DNL Marketo Measure] taggar [!DNL Facebook Ads] med parametern _bf, [!DNL Facebook] läser annonserna som helt nya och raderar prestandahistoriken. Därför är det viktigt att du exporterar ett register över tidigare prestanda om det är något av värde för dig och din organisation.
 
 Observera att du kan ansluta [!DNL Facebook] kontot när som helst till [!DNL Marketo Measure] och inga data går förlorade. Det är bara när automatisk taggning är aktiverat som prestandahistoriken rensas.
 
 [Läs den här artikeln](https://www.facebook.com/business/help/393890194130036){target="_blank"} från Facebook om du vill ha mer information om export [!DNL Facebook] Annonsrapporter.
 
-## linkedIn Sponsored Content {#linkedin-sponsored-content}
+## LinkedIn Sponsored Content {#linkedin-sponsored-content}
 
-Tack vare LinkedIn-integreringen kan [!DNL Marketo Measure] att tagga mål-URL:er på [!DNL LinkedIn] Sponsrat innehåll, som i slutänden tillåter [!DNL Marketo Measure] för att följa en användare genom hela deras kontaktyta och kartlägga aktiviteten tillbaka till den specifika [!DNL LinkedIn] Campaign och Creative. Detta ger kunderna insikter om avkastningen på deras [!DNL LinkedIn] aktivitet. [!DNL Marketo Measure] söker efter kreatörer med en unik [!DNL LinkedIn] Dela och lägga till en `?_bl={creativeId}` till slutet av den.
+Tack vare LinkedIn-integreringen kan [!DNL Marketo Measure] att tagga mål-URL:er på [!DNL LinkedIn] Sponsrat innehåll, som i slutänden tillåter [!DNL Marketo Measure] för att följa en användare genom hela deras kontaktyta och kartlägga aktiviteten tillbaka till den specifika [!DNL LinkedIn] Campaign och Creative. Detta ger kunderna insikter om avkastningen på deras [!DNL LinkedIn] aktivitet. [!DNL Marketo Measure] söker efter kreatörer med en unik [!DNL LinkedIn] Dela och lägga till en `?_bl={creativeId}` -parametern till slutet av den.
 
 För [!DNL LinkedIn] Resurser kan användas för flera kampanjer och kreatörer, vi ber att kunderna inte kopierar/klonar/duplicerar befintliga kreatörer så att de kan bibehålla sin unika karaktär. Om aktier hittas och endast kan användas på en Creative-medlem, [!DNL Marketo Measure] Du kan tagga webbgalleriet som det är utan att behöva återskapa några Creative- eller Shares-objekt och all annonshistorik (visningar, klickningar, delningar) finns kvar.
 

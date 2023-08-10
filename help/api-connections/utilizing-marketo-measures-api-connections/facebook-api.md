@@ -3,7 +3,8 @@ unique-page-id: 18874680
 description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: APIs, Integration, UTM Parameters
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Liknar våra AdWords &amp; [!DNL Bing Ads] integreringar, vår [!DNL Facebook] i
 * Tagga alla automatiskt [!DNL Facebook] Ads with a [!DNL Marketo Measure] parameter (_bf)
 * Ladda ned kostnadsinformation för alla aktiva Facebook-annonser
 
-## Så här konfigurerar du [!DNL Facebook] Integrering {#how-to-configure-the-facebook-integration}
+## Konfigurera [!DNL Facebook] Integrering {#how-to-configure-the-facebook-integration}
 
 När det gäller konfiguration finns det sju steg att slutföra i [!DNL Marketo Measure] app.
 
@@ -43,13 +44,13 @@ När det gäller konfiguration finns det sju steg att slutföra i [!DNL Marketo 
 
 >[!NOTE]
 >
->Om du aktiverar automatisk taggning återställer vi konverteringshistoriken och det sociala beviset för alla annonser som vi taggar. Vi rekommenderar [exportera dessa data som en CSV-fil](https://www.facebook.com/business/help/205067636197240) innan du aktiverar automatisk taggning.
+>Om du aktiverar automatisk taggning återställer vi konverteringshistoriken och det sociala beviset för alla annonser som vi taggar. Vi rekommenderar [exportera dessa data som en CSV](https://www.facebook.com/business/help/205067636197240) innan du aktiverar automatisk taggning.
 
 ![](assets/2-2.png)
 
 När du har aktiverat integreringen [!DNL Marketo Measure] börjar ladda ned annonskostnad till [!DNL Marketo Measure Marketing ROI] Instrumentpanel.
 
-För att integreringen ska fungera på rätt sätt måste du aktivera automatisk taggning på [!DNL Facebook] konto. Detta gör att vårt system kan lägga till en _bf-parameter för alla annonslänkar. Den här processen lägger till den nya parametern ovanpå andra spårningsparametrar som du redan har lagt till i [!DNL Facebook] annonser.
+För att integreringen ska fungera på rätt sätt måste du aktivera automatisk taggning på din [!DNL Facebook] konto. Detta gör att vårt system kan lägga till en _bf-parameter för alla annonslänkar. Den här processen lägger till den nya parametern ovanpå andra spårningsparametrar som du redan har lagt till i din [!DNL Facebook] annonser.
 
 ![](assets/3.gif)
 
@@ -123,37 +124,37 @@ För att integreringen ska fungera på rätt sätt måste du aktivera automatisk
   </tr> 
   <tr> 
    <td><p>Kontonamn (Data warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Kontonamn]</p></td> 
+   <td><p>[[!DNL Facebook] Kontonamn</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Vanliga frågor {#faq}
 
-**F: Vad [!DNL Facebook] Ads supported by [!DNL Marketo Measure]?**
+**Fråga: Vad [!DNL Facebook] Annonserna stöds av [!DNL Marketo Measure]?**
 
-S: Carousel, en bild. Inte video, bildspel eller samling just nu.
+A: Carousel, en bild. Inte video, bildspel eller samling just nu.
 
-**F: Vad är sociala bevis?**
+**Fråga: Vad är socialt bevis?**
 
-S: Sociala bevis är synligt engagemang som gilla-markeringar, klickningar, kommentarer och delningar.
+S: Det sociala korrekturet är ett synligt engagemang som gilla-markeringar, klickningar, kommentarer och delningar.
 
 **F: Vad händer när [!DNL Marketo Measure] taggar annonsen?**
 
 S: [!DNL Facebook] tillåter inte att annonser redigeras så [!DNL Marketo Measure] måste ta bort den kreativa delen, som innehåller mål-URL:en, och sedan återskapa annonsen med de nya parametrarna.
 
-**F: Varför gör det [!DNL Marketo Measure] uppdatera alla [!DNL Facebook] Ads?**
+**F: Varför gör det? [!DNL Marketo Measure] uppdatera alla [!DNL Facebook] Ads?**
 
-S: The [!DNL Marketo Measure] processen är att tagga alla annonser om de återaktiveras.
+A: [!DNL Marketo Measure] processen är att tagga alla annonser om de återaktiveras.
 
 **F: Vilken behörighet behöver den anslutna användaren?**
 
-S: ads_hantering, e-post
+A: ads_management, e-post
 
 **F: Hur lång tid tar det att importera utgiftsdata?**
 
-S: 1 timme
+A: 1 timme
 
 **F: Hur lång tid tar det att importera annonsdata?**
 
-S: 4 timmar
+A: 4 timmar

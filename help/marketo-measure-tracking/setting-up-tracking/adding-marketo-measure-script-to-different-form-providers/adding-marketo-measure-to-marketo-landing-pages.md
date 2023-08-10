@@ -3,7 +3,8 @@ unique-page-id: 18874755
 description: Lägger till [!DNL Marketo Measure] till [!DNL Marketo] Landningssidor - [!DNL Marketo Measure] - Produktdokumentation
 title: Lägger till [!DNL Marketo Measure] till Marketo landningssidor
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
-source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Lär dig hur du lägger till spårning i [!DNL Marketo Engage] Landningssidor n�
 >
 >Om du distribuerar JavaScript via en tagghanteringsleverantör som [!DNL Google Tag Manager]behöver du inte lägga till manuellt [!DNL Marketo Measure] JS till [!DNL Marketo Engage].
 
-## Så här lägger du till [!DNL Marketo Measure] Skript till [!DNL Marketo Engage] Landningssidor {#how-to-add-marketo-measure-script-to-marketo-engage-landing-pages}
+## Lägga till [!DNL Marketo Measure] Skript till [!DNL Marketo Engage] Landningssidor {#how-to-add-marketo-measure-script-to-marketo-engage-landing-pages}
 
 1. Logga in på [!DNL Marketo Engage] konto.
 1. Välj landningssida och klicka på **[!UICONTROL Edit Draft]**.
@@ -35,7 +36,7 @@ Exempel i skärmbild nedan
 
 ## Ytterligare information {#additional-notes}
 
-* Du kanske redan har andra spårningskodfragment på plats, till exempel en [!DNL Google Analytics] kod. Det finns inga problem med detta, se till att separera dem med ett semikolon `;` och ett enda utrymme. Ett exempel på hur detta skulle se ut är:
+* Du kanske redan har andra spårningskodfragment på plats, som [!DNL Google Analytics] kod. Det finns inga problem med detta, se till att separera dem med ett semikolon `;` och ett enda utrymme. Ett exempel på hur detta skulle se ut är:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`
 

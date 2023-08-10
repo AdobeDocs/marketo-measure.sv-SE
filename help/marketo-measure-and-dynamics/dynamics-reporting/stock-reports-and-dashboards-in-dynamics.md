@@ -3,7 +3,8 @@ unique-page-id: 18874612
 description: Stock-rapporter och instrumentpaneler i Dynamics - [!DNL Marketo Measure] - Produktdokumentation
 title: Stock-rapporter och instrumentpaneler i Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 0%

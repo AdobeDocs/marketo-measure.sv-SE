@@ -3,7 +3,8 @@ unique-page-id: 18874539
 description: Skapa anpassad [!DNL Marketo Measure] Rapporttyper - [!DNL Marketo Measure] - Produktdokumentation
 title: Skapa anpassad [!DNL Marketo Measure] Rapporttyper
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Lär dig hur du skapar egna [!DNL Marketo Measure] [!DNL Salesforce] rapporttype
    * [!UICONTROL Report Type Focus] > [!UICONTROL [!UICONTROL Primary Object]]: Lead
    * Identifiering > [!UICONTROL Report Type Label]: Leads med Buyer Touchpoints (Custom)
    * [!UICONTROL Store in Category]: Andra rapporter
-   * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Distribuerad
+   * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Distribuerat
 
    ![](assets/2.png)
 
@@ -52,7 +53,7 @@ Lär dig hur du skapar egna [!DNL Marketo Measure] [!DNL Salesforce] rapporttype
    * [!UICONTROL Report Type Focus] > [!UICONTROL Primary Object]: [!DNL Marketo Measure] Personer
    * [!UICONTROL Identification] > [!UICONTROL Report Type Label]: [!DNL Marketo Measure] Person med Buyer Touchpoints (Custom)
    * [!UICONTROL Store in Category]: Andra rapporter
-   * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Distribuerad
+   * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Distribuerat
 
    ![](assets/5.png)
 
@@ -73,9 +74,9 @@ Lär dig hur du skapar egna [!DNL Marketo Measure] [!DNL Salesforce] rapporttype
 1. Definiera den anpassade rapporttypen.
 
    * [!UICONTROL Report Type Focus] > [!UICONTROL Primary Object]: Möjligheter
-   * [!UICONTROL Identification] > [!UICONTROL Report Type Label]: Möjligheter med Buyer Attribution Touchpoint (anpassad)
+   * [!UICONTROL Identification] > [!UICONTROL Report Type Label]: Affärsmöjligheter med Buyer Attribution Touchpoint (anpassad)
    * [!UICONTROL Store in Category]: Andra rapporter
-   * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Distribuerad
+   * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Distribuerat
 
    ![](assets/8.png)
 
@@ -93,6 +94,6 @@ Lär dig hur du skapar egna [!DNL Marketo Measure] [!DNL Salesforce] rapporttype
 
    ![](assets/10.png)
 
-1. Kontrollera att de anpassade fält som du vill lägga till i rapporten visas i avsnittet Egenskaper för fältlayout. Om det finns andra fält som du vill lägga till använder du kommandot[!UICONTROL Add fields related via lookup]&quot;.
+1. Kontrollera att de anpassade fält som du vill lägga till i rapporten visas i avsnittet Egenskaper för fältlayout. Om det finns andra fält som du vill lägga till använder du[!UICONTROL Add fields related via lookup]&quot;.
 
    ![](assets/11.png)

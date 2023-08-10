@@ -3,7 +3,8 @@ unique-page-id: 18874730
 description: Kontobaserad marknadsföring - översikt [!DNL Marketo Measure] - Produktdokumentation
 title: Kontobaserad marknadsföring - översikt
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
+feature: Account-based Marketing
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -27,9 +28,9 @@ För att vår kontobaserade marknadsföringsmodell ska kunna börja fylla i din 
 
 >[!NOTE]
 >
->Ovannämnda &quot;dåliga&quot; konton måste vara öppna i minst 12 månader utan att ackumulera en Closed Won op. det är vår grundläggande riktlinje för om en Opp har blivit inaktuell för modellens syften eller inte.
+>Ovannämnda &quot;dåliga&quot; konton måste vara öppna i minst 12 månader utan att ackumulera en Closed Won op; det är vår grundläggande riktlinje för om en Opp har gått vilse eller inte för modellens syften.
 
-## Lead-till-konto-mappning {#lead-to-account-mapping}
+## Lead till konto-mappning {#lead-to-account-mapping}
 
 Mappning av lead-till-konto är en viktig del i ett effektivt ABM-tillvägagångssätt. Med lead-to-account-mappning grupperas potentiella kunder eller leads i samma företagskonto som de interagerar med ert varumärke. På så sätt kan ni inrikta er på och sälja till personer från samma företag på ett konsekvent sätt. Det finns ingen ytterligare [!DNL Salesforce] konfiguration krävs för att du ska kunna utnyttja den här funktionen. The [!DNL Marketo Measure] Lead till kontomappning fem olika matchningsmetoder:
 
@@ -37,7 +38,7 @@ Mappning av lead-till-konto är en viktig del i ett effektivt ABM-tillvägagång
 * Lead-e-postdomän till kontots webbplatsdomän
 * Lead-företagsnamn till kontonamn
 * Lead-företag till webbplatsens kontodomän
-* Matchning av domänen på leadens e-postadress till kontot via kontaktens e-postadress
+* Matcha domänen på leadens e-postadress till kontot via kontaktens e-postadress
 
 >[!NOTE]
 >

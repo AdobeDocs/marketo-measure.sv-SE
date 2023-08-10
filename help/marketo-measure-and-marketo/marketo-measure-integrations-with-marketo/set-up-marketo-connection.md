@@ -3,7 +3,8 @@ unique-page-id: 42762762
 description: Konfigurera Marketo Connection - [!DNL Marketo Measure] - Produktdokumentation
 title: Konfigurera Marketo Connection
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
-source-git-commit: ff3ebd557ffe745e1297d053be1390093dc4033c
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%

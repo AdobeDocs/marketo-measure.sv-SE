@@ -3,7 +3,8 @@ unique-page-id: 18874708
 description: Attribut för Salesforce-aktiviteter - [!DNL Marketo Measure] - Produktdokumentation
 title: Salesforce-aktivitetsattribuering
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution, Salesforce
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Du håller på att göra ditt säljteam väldigt glada! Låt oss ta dig igenom e
 
 ![](assets/1.png)
 
-Till att börja med introducerar vi ett nytt koncept som kallas [!DNL Marketo Measure] Campaign. För varje regel som du definierar ska du spara posterna i en [!DNL Marketo Measure] Kampanj som du kan namnge. Lägg till flera kampanjer efter behov. Tänk dig att mäta effektiviteten i en utgående försäljningskampanj bredvid en betald mediekampanj!
+Vi introducerar ett nytt koncept som kallas [!DNL Marketo Measure] Campaign. För varje regel som du definierar ska du spara posterna i en [!DNL Marketo Measure] Kampanj som du kan namnge. Lägg till flera kampanjer efter behov. Tänk dig att mäta effektiviteten i en utgående försäljningskampanj bredvid en betald mediekampanj!
 
 Du kommer att använda den här [!DNL Marketo Measure] Kampanjnamn som anger vilken kanal den ska mappas till. Om du fortfarande funderar på utgående försäljning kanske alla utgående försäljningskampanjer ska placeras i en BDR-kanal.
 
@@ -90,4 +91,4 @@ Och sist men inte minst har ni möjlighet att ange kostnader för era nya kanale
 
 >[!MORELIKETHIS]
 >
->[Vanliga frågor om aktivitetsattribuering](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>[Vanliga frågor om aktivitetsattribut](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

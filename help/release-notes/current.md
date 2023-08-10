@@ -1,7 +1,9 @@
 ---
 description: Aktuell versionsinformation - [!DNL Marketo Measure] - Produktdokumentation
 title: Aktuell versionsinformation
-source-git-commit: 8e8ddd80d69102455fa678a32f31a9fe8319822c
+exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
+feature: Release Notes
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -21,8 +23,8 @@ Här nedan hittar du alla nya och uppdaterade funktioner för 2023-utgåvorna.
 * Vi sammanfogar alla Salesforce-paket till ett enda, heltäckande paket för en förbättrad användarupplevelse och förenklad användning. Paketen V1, V2_EXT och Reporting dras tillbaka nästa kvartal. Det nya paketet innehåller alla tidigare funktioner, vilket ger effektivare spårning och djupare kundinsikter.
 * Kunder som redan har installerat V2-paketet måste uppdatera det till den nya konsoliderade versionen.
 * Vi har lagt till två nya fält för att förbättra dina rapporteringsfunktioner:
-   * form_name: Detta fält är nu tillgängligt i BT/BAT-objekt och gör det möjligt för användare att skapa rapporter baserade på formulärnamn.
-   * user_touchpoint_id: I det här fältet kan användare skapa rapporter med unika kontaktpunkter.
+   * form_name: Detta fält är nu tillgängligt i BT/BAT-objekt och gör att användare kan skapa rapporter baserade på formulärnamn.
+   * user_touchpoint_id: Det här fältet gör att användare kan skapa rapporter med unika användarkontaktytor.
 * [Den här artikeln](/help/configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md){target="_blank"} innehåller guider om hur du återskapar rapporter och instrumentpaneler från äldre rapportpaket.
 
 **Versionsuppdateringar för Salesforce API**

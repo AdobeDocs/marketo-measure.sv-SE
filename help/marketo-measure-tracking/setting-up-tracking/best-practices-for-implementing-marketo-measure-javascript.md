@@ -2,7 +2,8 @@
 description: Bästa praxis för implementering [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure] - Produktdokumentation
 title: Bästa praxis för implementering [!DNL Marketo Measure] JavaScript
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
-source-git-commit: cf144eb4bc9282ae6a260acd3735f24644292a19
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -11,13 +12,13 @@ ht-degree: 0%
 
 # Bästa praxis för implementering [!DNL Marketo Measure] JavaScript {#best-practices-for-implementing-marketo-measure-javascript}
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 The [!DNL Marketo Measure] JavaScript spårar era webbbesökare digitala marknadsföringsinteraktioner och är nyckeln till [!DNL Marketo Measure] möjlighet att skapa online-data för kontaktpunkter. Med [!DNL Marketo Measure] JavaScript-kod som används korrekt och omfattande på hela webbplatsen/platserna säkerställer att de sessionsdata som samlas in genererar korrekta kontaktpunktsdata.
 
 Inkonsekvenser i distributionen av [!DNL Marketo Measure] JavaScript orsakar avbrott i sessionsdata vilket kan resultera i följande:
 
-* Felaktig kanal-/delkanalsattribuering
+* Felaktig attribuering av kanaler/delkanaler
 * Förlorade källdata
 * Höga nivåer av felaktig direkttrafik
 * Inkonsekvent rapportering
@@ -33,7 +34,7 @@ När det gäller implementering och hantering av [!DNL Marketo Measure] JavaScri
 * Distribuera JavaScript på ALLA sidor.
    * Om du bara placerar JavaScript på vissa sidor uppstår avbrott i sessionsdata, vilket kan orsaka felaktiga [!DNL Marketo Measure] data
 * För ett formulär på din webbplats som du inte vill skapa kontaktpunkter från måste du lägga till [!DNL Marketo Measure] Exkludera skript
-   * Detta exkluderingsskript säkerställer att [!DNL Marketo Measure] sessionsdata kommer inte att avbrytas och källdata finns kvar
+   * Detta exkluderingsskript säkerställer att [!DNL Marketo Measure] sessionsdata kommer inte att avbrytas och källdata finns kvar på plats
       * Exempel på vanliga formulär som ska undertryckas är:
          * Kundinloggningar
          * Glömt lösenordsformulär
@@ -51,4 +52,4 @@ Andra orsaker till detta kan utlösa en granskning av JavaScript-konfigurationen
 * Ändringar och uppdateringar av webbplatsstrukturen
 * Webbplatsmigreringar
 * Ändringar i din domän
-* Förvärv av andra företag och deras webbegenskaper
+* Förvärv av andra företag och deras webbresurser

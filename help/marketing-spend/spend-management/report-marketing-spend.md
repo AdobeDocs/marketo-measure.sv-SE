@@ -3,7 +3,8 @@ unique-page-id: 27656737
 description: Utgift för rapportmarknadsföring - [!DNL Marketo Measure] - Produktdokumentation
 title: Utgift för rapportmarknadsföring
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Reporting, Spend Management
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -34,5 +35,5 @@ Eftersom våra marknadsföringsutgifter historiskt sett bara har varit i en enda
 
 1. Hämta den aktuella utgiftsfilen till en CSV-fil
 1. Valutakolumnen visar &quot;[!UICONTROL USD]&quot; som den antagna valutan. Du kan antingen ersätta alla förekomster av[!UICONTROL USD]&quot; eller använd Sök+Ersätt för att ändra alla &quot;[!UICONTROL USD]&quot; till er egen företagsvaluta, som &quot;[!UICONTROL EUR]&quot; eller &quot;[!UICONTROL GBP]&quot;, till exempel.
-1. Spara filen och överför den sedan tillbaka till [!DNL Marketo Measure].
+1. Spara filen och ladda upp den igen [!DNL Marketo Measure].
 1. Alla rapporterade kostnader visas nu som ny valuta.

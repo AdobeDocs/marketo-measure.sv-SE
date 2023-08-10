@@ -3,7 +3,8 @@ unique-page-id: 18874797
 description: Lägger till [!DNL Marketo Measure] Skript via [!DNL Google Tag Manager] - [!DNL Marketo Measure] - Produktdokumentation
 title: Lägger till [!DNL Marketo Measure] Skript via [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
-source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%

@@ -3,7 +3,8 @@ unique-page-id: 18874634
 description: Duplicera poster i min rapport - [!DNL Marketo Measure] - Produktdokumentation
 title: Duplicera poster i min rapport
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -34,4 +35,4 @@ Om du vill förstå antalet kontakter kan du sedan använda fälten Antal - för
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universitet: SFDC-rapporter för lager](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] Universitet: Stock SFDC-rapporter](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)

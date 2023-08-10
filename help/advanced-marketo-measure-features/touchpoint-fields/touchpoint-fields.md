@@ -3,7 +3,8 @@ unique-page-id: 37355835
 description: Touchpoint-fält - [!DNL Marketo Measure] - Produktdokumentation
 title: Touchpoint-fält
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 0%
@@ -24,17 +25,17 @@ Historiskt sett, när kunderna är med [!DNL Marketo Measure] och om vi inte har
 
 ## Aktivera funktionen {#enabling-the-feature}
 
-Från [!DNL Marketo Measure] Navigera till sidan Touchpoint Fields på menyn Inställningar. Därifrån kan du aktivera funktionen genom att välja **Ja** under **Aktivera beräkningsfält**. När det är aktiverat kan du skapa Touchpoint-fält.
+Från [!DNL Marketo Measure] Gå till sidan med kontaktpunktsfält på inställningsmenyn. Därifrån kan du aktivera funktionen genom att välja **Ja** under **Aktivera beräkningsfält**. När det är aktiverat kan du skapa Touchpoint-fält.
 
 ![](assets/one.png)
 
 ## Använda {#how-to}
 
-Om du vill skapa ett beräkningsfält måste du tänka på att det finns tre olika åtgärder som en användare kan utföra: extraherar, mappar till och sammanfogar. De kallas också operatorer för att definiera ett beräkningsfält.
+Om du vill skapa ett beräkningsfält bör du tänka på att det finns tre olika åtgärder som en användare kan utföra: extrahera, mappa till och sammanfoga. De kallas också operatorer för att definiera ett beräkningsfält.
 
 Extraheringar
 
-Operatorn extract hämtar värdet från ett fält från en annan plats, till exempel: ett kampanjfält, ett Lead-fält eller i ett mer avancerat användningsfall, [extrahera egna parametrar från landningssidan](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} 2).
+Extraheringsoperatorn hämtar värdet från ett fält från en annan plats, t.ex. ett kampanjfält, ett Lead-fält eller i ett mer avancerat fall, [extrahera egna parametrar från landningssidan](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} 2).
 
 **Exempel 1**
 
@@ -101,7 +102,7 @@ När landningssidorna blir mer komplicerade och du har flera spårningsparametra
 * Skapa ett beräkningsfält och ge det etiketten&quot;Målland&quot;
 * Definiera regeln genom att börja söka efter fältet Touchpoint.Session.LandingPage
 * Använd operatorn &quot;extracts&quot; eftersom vi måste ta ut värdet från parametern
-* För att extrahera värdet &quot;US&quot; definierar vi värdet som &quot;country=(\w{2})&quot;
+* För att extrahera &quot;US&quot;-värdet definierar vi värdet som &quot;country=(\w{2})&quot;
 
    * **(** markerar början av extraheringen
    * **)** markerar slutet av extraheringen
@@ -136,7 +137,7 @@ Nu när vi har lärt oss att extrahera och mappa till fält kan vi kombinera des
 
 **Mål:** Skapa flera beräkningsfält, där det första numret mappar till en region, det andra till en produkt, det tredje till ett initiativ, det fjärde till en persona och det femte till en Media Platform. Mappa sedan det numeriska värdet till ett&quot;eget namn&quot;.
 
-* Skapa ett beräkningsfält och ge det etiketten&quot;Region&quot;
+* Skapa ett beräkningsfält och ge det etiketten Region
 * Definiera regeln genom att börja söka efter fältet Touchpoint.Session.LandingPage
 * Använd operatorn &quot;[!UICONTROL extracts]&quot; eftersom vi måste dra ut värdet från parametern
 * För att extrahera värdet &quot;04&quot; definierar vi värdet som &quot;BZ=(\d{2})-\d{2}-\d{2}-\d{2}-\d{2}&quot;
@@ -144,20 +145,20 @@ Nu när vi har lärt oss att extrahera och mappa till fält kan vi kombinera des
    * **(** markerar början av extraheringen
 
       * Observera, att eftersom vi bara extraherar de 4 första siffrorna har bara den öppna parentesen
+
    * **)** markerar slutet av extraheringen
 
       * Observera, att eftersom vi bara extraherar de 4 första siffrorna har bara den avslutande parentesen
+
    * **\d** anger att vi extraherar en&quot;siffra&quot;
    * **{2}** är antalet tecken vi extraherar
-
-
 
 * Klicka på [!UICONTROL Save]. Du måste spara det nya fältet innan det kan användas för nästa regel!
 * Därefter ska vi mappa alla möjliga värden för de första siffrorna till de egna namnen
 * Skapa ett beräkningsfält och ge det etiketten&quot;Region_Name&quot;
 * Definiera regeln genom att börja med att söka efter det extraherade fältet. I det här fallet Touchpoint.Region
 * Använd operatorn &quot;[!UICONTROL maps to]&quot; eftersom vi vill skapa en mappning för varje nummer till dess värde
-* Du får en tabell med en lista över varje mappning. Till slut kommer det att se ut ungefär så här:
+* Du kommer att få en tabell med en lista över varje mappning. Till slut kommer det att se ut ungefär så här:
 * Baserat på mappningen och URL:en ovan är&quot;Region_Value&quot; för en kontaktyta med denna landningssida&quot;EMEA&quot;
 * Upprepa extraheringen och mappningen för de återstående fyra sifferuppsättningarna
 
@@ -216,7 +217,7 @@ Precis som i Extract-exemplet nr 4 måste du skapa flera fält för att extraher
 
 **Varför ser jag inte mina nya fält i [!DNL Marketo Measure] schema?**
 
-Ytterligare arbete krävs för att visa de nya fälten i [!DNL Marketo Measure] data warehouse schema. För närvarande visas fält med inställningar och konfiguration så att du kan använda Touchpoint-fält när du skapar segment eller skapar regler för borttagning av pekpunkter.
+Ytterligare arbete krävs för att visa de nya fälten i [!DNL Marketo Measure] Data warehouse schema. För närvarande visas fält med inställningar och konfiguration så att du kan använda Touchpoint-fält när du skapar segment eller skapar regler för borttagning av pekpunkter.
 
 **Hur verifierar jag att mitt extraheringsuttryck är giltigt och drar rätt värde?**
 

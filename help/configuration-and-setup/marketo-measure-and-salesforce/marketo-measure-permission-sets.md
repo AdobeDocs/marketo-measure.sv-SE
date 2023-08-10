@@ -3,7 +3,8 @@ unique-page-id: 18874789
 description: "[!DNL Marketo Measure] Behörighetsuppsättningar - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Behörighetsuppsättningar"
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -18,10 +19,10 @@ Lär dig hur du får tillgång till och tilldelar [!DNL Marketo Measure] Behöri
 
 Tre behörighetsgrupper ingår i [!DNL Marketo Measure] Salesforce-paket. Dessa behörighetsgrupper ger åtkomst till [!DNL Marketo Measure] för administratörer, marknadsförare och standardanvändare.
 
-Så här får du åtkomst till och tilldelar behörighetsuppsättningar i Salesforce:
+Så här öppnar och tilldelar du behörighetsuppsättningar i Salesforce:
 
 1. Klicka på **[!UICONTROL Setup]**.
-1. Klicka på i den vänstra marginalen **[!UICONTROL Users]** sedan **[!UICONTROL Permission Sets]**.
+1. Klicka på i vänstermarginalen **[!UICONTROL Users]** sedan **[!UICONTROL Permission Sets]**.
 1. Välj [!DNL Marketo Measure] Behörighetsuppsättning som du vill tilldela.
 1. Klicka **[!UICONTROL Manage Assignments]** sedan **[!UICONTROL Add Assignments]**.
 1. Välj användare för behörighetsgruppen och klicka på **[!UICONTROL Assign]**.
@@ -51,4 +52,4 @@ Inkommande säljutvecklingsteam och kontoansvariga kan ha nytta av [!DNL Marketo
 
 >[!NOTE]
 >
->Dessutom måste användaren som vi är anslutna via ha&quot;marknadsföringsanvändare&quot; [!DNL Salesforce] Profil aktiverad på användarnivå för att vi ska kunna komma åt Campaign-objektet. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Manage Users]** > **[!UICONTROL Profiles]** > **[!UICONTROL Marketing User]** > **Tilldelade användare**.
+>Dessutom måste användaren som vi är anslutna via ha&quot;marknadsföringsanvändare&quot; [!DNL Salesforce] Profil aktiverad på användarnivå för att vi ska kunna komma åt Campaign-objektet. Om du vill kontrollera detta klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Manage Users]** > **[!UICONTROL Profiles]** > **[!UICONTROL Marketing User]** > **Tilldelade användare**.

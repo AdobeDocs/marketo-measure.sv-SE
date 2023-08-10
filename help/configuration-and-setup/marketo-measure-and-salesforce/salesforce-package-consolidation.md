@@ -1,8 +1,9 @@
 ---
-description: '''[!DNL Salesforce] Paketkonsolidering - [!DNL Marketo Measure] - Produktdokumentation'
+description: '[!DNL Salesforce] Paketkonsolidering - [!DNL Marketo Measure] - Produktdokumentation'
 title: '[!DNL Salesforce] Paketkonsolidering'
 exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
-source-git-commit: dd3795288b1d579b078a32c78c9f08fd67a5f0e1
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 0%
@@ -23,10 +24,10 @@ Det nya konsoliderade V2-paketet innehåller alla funktioner och funktioner som 
 
 Vi har lagt till två nya fält för att förbättra dina rapporteringsfunktioner:
 
-* form_name: Detta fält är nu tillgängligt i BT/BAT-objekt och gör det möjligt för användare att skapa rapporter baserade på formulärnamn.
-* user_touchpoint_id: I det här fältet kan användare skapa rapporter med unika kontaktpunkter.
+* form_name: Detta fält är nu tillgängligt i BT/BAT-objekt och gör att användare kan skapa rapporter baserade på formulärnamn.
+* user_touchpoint_id: Det här fältet gör att användare kan skapa rapporter med unika användarkontaktytor.
 
-## Support och övergång {#support-and-transition}
+## Support och övergångar {#support-and-transition}
 
 Vi är medvetna om att denna förändring kan kräva justeringar, och vi strävar efter att stödja dig under hela processen. Våra [supportteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} är lätt tillgängliga för att svara på eventuella frågor och bidra till en smidig övergång till det nya konsoliderade paketet.
 

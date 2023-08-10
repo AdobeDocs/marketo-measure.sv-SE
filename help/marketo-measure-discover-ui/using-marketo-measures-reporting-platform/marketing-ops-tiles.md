@@ -3,7 +3,8 @@ unique-page-id: 34406495
 description: Marknadsföringsgrupper - [!DNL Marketo Measure] - Produktdokumentation
 title: Marknadsföringsgrupper
 exl-id: e7978a79-6f6e-4bfd-9962-b35b7d46a9ac
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -140,29 +141,29 @@ Visar följande data relaterade till angivna konton.
 
 * Detaljerad information: Se Skapad den per timme, minut, tid
 
--Webbplats: Värdet som finns i webbplatsfältet på kontot
+-Webbplats: Värdet finns i webbplatsfältet på kontot
 
 -Engagement Rating: Predictive Engagement Score (PES) ifylld av [!DNL Marketo Measure]^1
 
--Affärsmöjligheter: Antal affärsmöjligheter som är kopplade till kontot
+-Affärsmöjligheter: Antal affärsmöjligheter kopplade till kontot
 
 * Detaljerad information: Se information om associerade säljprojekt
 
--Kontakter: Antal kontakter som finns listade på det här kontot
+-Kontakter: Antal kontakter som visas på det här kontot
 
 * Detaljerad information: Se information för associerade kontakter
 
--Leads: Antal leads som har mappats till det här kontot via lead-till-konto-mappning^1
+-Leads: Antal leads som har mappats till det här kontot via lead-till-kontomappning^1
 
 * Detaljerad information: Se information om leads som har mappats till kontot
 
--Attribution Touchpoints: Antal kontaktpunkter för Buyer Attribution för kontot
+-Attribution Touchpoints: Number of Buyer Attribution Touchpoints for the account
 
-* Detaljerad information: Se Information om Buyer Attribution Touchpoint (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
+* Detaljerad information: Se Kontaktpunktsinformation för Buyer-attribut (ID, E-post, Slutpunktsdatum, Kontonamn, Kampanj, Kanal, Subkanal, Marknadsföringsberöringstyp, Attributionsmodell)
 
 -Touchpoints: Antal kontaktpunkter som kontakterna på det här kontot har^2
 
-* Detaljerad information: Se Kontaktpunkter på kontouchpunktsinformation (ID, e-post, slutpunktsdatum, kontonamn, kampanj, kanal, subkanal, marknadsföringsberöringstyp)
+* Detaljerad information: Se Touchpoints på kontouchpoint-informationen (ID, e-post, slutpunktsdatum, kontonamn, kampanj, kanal, subkanal, typ av marknadsföringsberöring)
 
 >[!NOTE]
 >
@@ -176,11 +177,11 @@ Visar följande data för angivna säljprojekt.
 
 -Affärsmöjlighets-ID: Affärsmöjlighets-ID i CRM
 
--Affärsmöjlighetens namn: Affärsmöjlighetsnamn i CRM
+-Affärsmöjlighetens namn: Affärsmöjlighetens namn i CRM
 
 -Kontonamn: Kontonamn som är associerat med affärsmöjligheten
 
--Skapad: Skapat datum för affärsmöjligheten i CRM
+-Skapad: Skapad den i CRM
 
 Detaljerad information: Se Skapad den per timme, minut, tid
 
@@ -194,33 +195,33 @@ Detaljerad information: Se stängningsdatum per timme, minut, tid
 
 Detaljerad information: Se information för associerade kontakter
 
--Attribution Touchpoints: Antal relaterade kontaktpunkter för Buyer Attribution
+-Attribution Touchpoints: Number of related Buyer Attribution Touchpoints
 
-Detaljerad information: Se Information om Buyer Attribution Touchpoint (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
+Detaljerad information: Se Kontaktpunktsinformation för Buyer-attribut (ID, E-post, Slutpunktsdatum, Kontonamn, Kampanj, Kanal, Subkanal, Marknadsföringsberöringstyp, Attributionsmodell)
 
 ## Kontaktpanel {#contacts-tile}
 
 ![](assets/three-1.png)
 
-Visar följande data som är relaterade till angivna kontakter.
+Visar följande data som är relaterade till angiven(e) kontakt(er).
 
 -Kontakt-ID: Kontakt-ID i CRM
 
 -E-post: E-postadress till kontaktpost
 
--Skapad: Skapat datum för kontakten i CRM
+-Skapad: Skapad den här kontaktens datum i CRM
 
 * Detaljerad information: Se Skapad den per timme, minut, tid
 
--Kontonamn: Kontonamn som är associerat med kontakten
+-Kontonamn: Kontonamnet som är associerat med kontakten
 
--Attribution Touchpoints: Antal kontaktpunkter för Buyer Attribution för kontakten
+-Attribution Touchpoints: Number of Buyer Attribution Touchpoints for the contact
 
-* Detaljerad information: Se Information om Buyer Attribution Touchpoint (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
+* Detaljerad information: Se Kontaktpunktsinformation för Buyer-attribut (ID, E-post, Slutpunktsdatum, Kontonamn, Kampanj, Kanal, Subkanal, Marknadsföringsberöringstyp, Attributionsmodell)
 
--Touchpoints: Antal kontaktpunkter för köpare för kontakten
+-Touchpoints: Antal kontaktytor för köparen för kontakten
 
-* Detaljerad information: Se Kontakter på kontouchpunktsinformation (ID, e-post, slutpunktsdatum, kontonamn, kampanj, kanal, subkanal, marknadsföringsberöringstyp)
+* Detaljerad information: Se Kontakter på kontouchpoint-informationen (ID, e-post, slutpunktsdatum, kontonamn, kampanj, kanal, subkanal, typ av marknadsföringsberöring)
 
 ## Leads-panel {#leads-tile}
 
@@ -230,19 +231,19 @@ Visar följande data relaterade till angivna lead(er).
 
 -Lead-ID: Lead-ID i CRM
 
--E-post: E-postadress för lead-post
+-E-post: Leadpostens e-postadress
 
--Skapad: När lead skapades i CRM
+-Skapad: När leadet skapades i CRM
 
 * Detaljerad information: Se Skapad den per timme, minut, tid
 
--Företag (från Lead): Det företag som anges på posten i CRM ifylld av kund
+-Företag (från Lead): Det företag som anges i posten i CRM ifylld av kund
 
 -Kontonamn: Kontonamnet [!DNL Marketo Measure] fylls i baserat på vår lead-to-Account Mapping
 
--Touchpoints: Antalet kontaktpunkter som är kopplade till leadet (lead(n)
+-Touchpoints: Antalet kontaktytor som är associerade med leadet (leads)
 
-* Detaljerad information: Se Kontakter på kontouchpunktsinformation (ID, e-post, slutpunktsdatum, kontonamn, kampanj, kanal, subkanal, marknadsföringsberöringstyp)
+* Detaljerad information: Se Kontakter på kontouchpoint-informationen (ID, e-post, slutpunktsdatum, kontonamn, kampanj, kanal, subkanal, typ av marknadsföringsberöring)
 
 ## Kampanjpanel {#campaigns-tile}
 
@@ -254,14 +255,14 @@ Visar följande data som är relaterade till angivna kampanjer.
 
 -Kampanjnamn: Kampanjnamn i CRM
 
--Kampanjutgift: Utgifterna [!DNL Marketo Measure] har registrerats som är associerad med kampanjen
+-Kampanjutgifter: Utgifterna [!DNL Marketo Measure] har registrerats som är associerad med kampanjen
 
 -Attribution Model: Detta visar lämplig attribuering baserat på vald modell
 
--Attribution Touchpoints: Antal slutpunkter för Buyer Attribution som är associerade med kampanjen/kampanjerna
+-Attribution Touchpoints: Antalet Touchpoints för Buyer Attribution som är associerat med kampanjen/kampanjerna
 
-* Detaljerad information: Se Information om Buyer Attribution Touchpoint (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
+* Detaljerad information: Se Kontaktpunktsinformation för Buyer-attribut (ID, E-post, Slutpunktsdatum, Kontonamn, Kampanj, Kanal, Subkanal, Marknadsföringsberöringstyp, Attributionsmodell)
 
 -Touchpoints: Antalet kontaktytor som är associerade med kampanjer
 
-* Detaljerad information: Se Kontakter på kontouchpunktsinformation (ID, e-post, slutpunktsdatum, kontonamn, kampanj, kanal, subkanal, marknadsföringsberöringstyp)
+* Detaljerad information: Se Kontakter på kontouchpoint-informationen (ID, e-post, slutpunktsdatum, kontonamn, kampanj, kanal, subkanal, typ av marknadsföringsberöring)

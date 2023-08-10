@@ -3,7 +3,8 @@ unique-page-id: 18874570
 description: Marketo Measure Framework - Marketo Measure - Produktdokumentation
 title: Marketo Measure Framework
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
-source-git-commit: 7eb5ef616e3ae77d53056496f9a1b301ce59d6ee
+feature: Fundamentals
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -61,4 +62,4 @@ Med det här menyalternativet kan du konfigurera dina inställningar för attrib
 
 **Kontrollpanel för marknadsföringsavkastning**
 
-Menyalternativet för Dashboard för marknadsföringsavkastning är där du kan visualisera dina data när det gäller kanalprestanda, aktivitet och kostnader.
+Menyalternativet för Dashboard för marknadsföringsavkastning är där du kan visualisera dina data när det gäller kanalprestanda, -aktivitet och -kostnader.

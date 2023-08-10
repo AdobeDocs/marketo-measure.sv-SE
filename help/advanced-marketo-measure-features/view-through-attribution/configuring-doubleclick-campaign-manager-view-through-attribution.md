@@ -3,7 +3,8 @@ unique-page-id: 18874781
 description: Konfigurera dubbelklickning av Campaign Manager-vy via attribut - [!DNL Marketo Measure] - Produktdokumentation
 title: Konfigurera dubbelklickning av Campaign Manager-vy via attribut
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Please [klicka här](/help/advanced-marketo-measure-features/view-through-attrib
 
 Om du använder hierarkin Överordnad och Underordnad i DCM måste taggen användas på alla nivåer för att spåra intrycket.
 
-## Så här lägger du till bildtaggen {#how-to-add-the-image-tag}
+## Lägga till bildtaggen {#how-to-add-the-image-tag}
 
 Du lägger till taggen i Dubbelklicka under inställningen Advertiser och du vill skapa en Impression-händelsetagg.
 
@@ -54,12 +55,12 @@ S: Ja. Det är inte en JavaScript-tagg, utan en image-tagg.
 
 **F: Vilka behörigheter behöver den anslutna användaren?**
 
-S: dfatrafficking, dfareporting, userinfo.email
+A: dfatrafficking, dfareporting, userinfo.email
 
 **F: Hur lång tid tar det att importera utgiftsdata?**
 
-S: Upp till 6 timmar
+A: Upp till 6 timmar
 
 **F: Hur lång tid tar det att importera annonsdata?**
 
-S: Upp till 6 timmar
+A: Upp till 6 timmar

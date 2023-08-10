@@ -3,7 +3,8 @@ unique-page-id: 42762600
 description: Dokumentation för instrumentpanel för ögonblicksbild - [!DNL Marketo Measure] - Produktdokumentation
 title: Dokumentation för instrumentpanel för ögonblicksbild
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Den här instrumentpanelen har två paneler:
 Den här instrumentpanelen har stöd för följande filter (alla filter gäller båda plattorna):
 
 * Datum för ögonblicksbild: välj datum för ögonblicksbilden.
-* ID/namn för CRM-konto: filtrera posterna efter CRM-konto-ID:n eller namn.
+* ID/namn för CRM-konto: filtrera posterna efter ID eller namn för CRM-konto.
 
 >[!NOTE]
 >
@@ -37,7 +38,7 @@ Den här instrumentpanelen har stöd för följande filter (alla filter gäller 
 * Delkanal: filtrera posterna efter delkanaler. En post kopplas till en underkanal om någon av dess kontaktytor är kopplad till underkanalen.
 * Campaign: filtrera posterna efter kampanjer. En post associeras med en kampanj om någon av dess kontaktytor är associerad med kampanjen.
 * Kampanjkälla: filtrera posterna efter kampanjkällor. Exempel på kampanjkällor är [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], osv. En post kopplas till en kampanjkälla om någon av dess kontaktytor är kopplad till kampanjkällan.
-* ID/namn för annonskonto: filtrera posterna efter annonskonto-ID:n eller namn. En post kopplas till ett annonskonto om någon av dess kontaktytor är kopplad till en kampanj från de valda annonskontona.
+* ID/namn för annonskonto: filtrera posterna efter ID eller namn för annonskonto. En post kopplas till ett annonskonto om någon av dess kontaktytor är kopplad till en kampanj från de valda annonskontona.
 
 >[!NOTE]
 >

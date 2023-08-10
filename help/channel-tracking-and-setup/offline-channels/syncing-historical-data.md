@@ -3,7 +3,8 @@ unique-page-id: 42762310
 description: Synkroniserar historiska data - [!DNL Marketo Measure] - Produktdokumentation
 title: Synkroniserar historiska data
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 0%
@@ -58,7 +59,7 @@ Kanalmappningskomponenten för historiska onlinedata kan vara lite besvärlig. V
 |---|---|---|
 | Betalsökning - AdWords | Betalsökning | AdWords |
 | Betalsökning - Bing | Betalsökning | Bing |
-| Betalsökning - Yahoo | Betalsökning | Yahoo |
+| Betald sökning - Yahoo | Betalsökning | Yahoo |
 
 Onlinedata som läggs till på det här sättet är i sig mindre detaljerade än onlinedata [!DNL Marketo Measure] spårar via JavaScript. Till exempel kommer fält som formulär-URL, landningssida, referenssida osv. inte att fyllas i. Därför rekommenderas att kampanjerna delas upp i varje källa om möjligt. Som du ser i exemplet ovan måste du ha flera Campaign-typer för varje källa för att kunna rapportera exakt.
 
@@ -96,23 +97,23 @@ Mer information om synkronisering av marknadsföringslistor finns här: [[!DNL D
 >
 >Om du av någon anledning har en kampanjspårning online-aktivitet som är aktiv efter JavaScript-livedatumet måste du ange &quot;[!UICONTROL Touchpoint End Date]till det datum då JS blev aktiv. Detta för att undvika att ha dubbla kontaktytor för samma interaktion.
 
-Att tänka på: Onlinedata som läggs till på det här sättet är i sig mindre detaljerade än onlinedata [!DNL Marketo Measure] spårar via JavaScript. Till exempel fält som: Formulär-URL, landningssida, referenssida osv. fylls inte i. Därför rekommenderas att kampanjerna delas upp i varje källa om möjligt. Nedan visas ett exempel på en perfekt mappning.
+Att tänka på: Onlinedata som läggs till på det här sättet är i sig mindre detaljerade än onlinedata [!DNL Marketo Measure] spårar via JavaScript. Fält som t.ex. formulär-URL, landningssida, referenssida osv. fylls inte i. Därför rekommenderas att kampanjerna delas upp i varje källa om möjligt. Nedan visas ett exempel på en perfekt mappning.
 
-| Dynamics Campaign-typ | Kanal | Delkanal |
+| Dynamics-kampanjtyp | Kanal | Delkanal |
 |---|---|---|
 | Betalsökning - AdWords | Betalsökning | AdWords |
 | Betalsökning - Bing | Betalsökning | Bing |
-| Betalsökning - Yahoo | Betalsökning | Yahoo |
+| Betald sökning - Yahoo | Betalsökning | Yahoo |
 
 Om du inte har ett sätt att identifiera en källa eller om det inte är värt besväret kan du använda en Campaign-typ som är mappad till en kanal som kallas&quot;gammal digital&quot; eller&quot;historik webbplats&quot;.
 
 **Offline:**
 
-För att få kontaktytor för tidigare offlinemarknadsföringsaktiviteter måste data organiseras i [!DNL Dynamics] och synkas till [!DNL Marketo Measure]. Processen är densamma som för aktuella offlinekanaler (synkronisera kampanjen via marknadsföringslistor eller kampanjsvar). Nedan visas ett exempel på kanalmappning.
+För att få kontaktytor för tidigare offlinemarknadsföringsaktiviteter måste data organiseras i [!DNL Dynamics] kampanjer och synkroniseras med [!DNL Marketo Measure]. Processen är densamma som för aktuella offlinekanaler (synkronisera kampanjen via marknadsföringslistor eller kampanjsvar). Nedan visas ett exempel på kanalmappning.
 
-| Dynamics Campaign-typ | Kanal | Delkanal |
+| Dynamics-kampanjtyp | Kanal | Delkanal |
 |---|---|---|
-| Evenemang - sponsrade konferenser | Händelser | Sponsrade konferenser |
+| Event - sponsrade konferenser | Händelser | Sponsrade konferenser |
 | Evenemang - partnerevent | Händelser | Partnerevent |
 | Händelser - Hosted Events | Händelser | Hosted Events |
 | Webbinarium - Partner Webinar | Webbinarium | Partner Webinar |

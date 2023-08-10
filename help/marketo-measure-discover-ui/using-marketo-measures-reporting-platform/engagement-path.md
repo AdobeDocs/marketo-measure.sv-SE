@@ -3,7 +3,8 @@ unique-page-id: 35586105
 description: Engagement Path - [!DNL Marketo Measure] - Produktdokumentation
 title: Åtagandesökväg
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -18,13 +19,13 @@ Med Engagement Path kan ni få en komplett bild av alla ärenden - lead, kontakt
 
 ## Platsbeskrivning {#tile-description}
 
-**Händelsetyp:** Typen av kontaktyta (Session, CRM Campaign, CRM Event, CRM Task, Impression)
+**Typ av händelse:** Typen av kontaktyta (Session, CRM Campaign, CRM Event, CRM Task, Impression)
 
 **Pekpunktsposition:** Kontaktpunktsposition för lead/kontakt
 
-**Touchpoint-position för Buyer-attribut:** Slutpunktsposition för köparattribut för affärsmöjligheten
+**Touchpoint-position för Buyer-attribut:** Affärsmöjlighetens slutpunktsposition för köparattribut
 
-**Kontaktpunktsdatum:** För onlinekällor: datum och tid då ärendet inträffade. För offlinehändelser: datum och tid som angetts i Salesforce-kampanjen. Kontaktpunkt för aktiviteter: beröringspunktens datumfält refereras i aktivitetskonfigurationen
+**Kontaktpunktsdatum:** För onlinekällor: datum och tid då engagemanget inträffade. För offlinehändelser: datum och tid angivet i Salesforce-kampanjen. För aktiviteter: kontaktyta: kontaktpunktsdatumfält refereras i aktivitetskonfigurationen
 
 **E-post:** E-postadressen som är kopplad till engagemanget
 
@@ -48,7 +49,7 @@ Med Engagement Path kan ni få en komplett bild av alla ärenden - lead, kontakt
 
 **Första interaktionen med personen:** I den här kolumnen visas Ja eller Nej om kontaktytan var den person som först interagerade
 
-**Attribuerad intäkt:** I den här kolumnen visas intäkten som tilldelats den kontaktytan baserat på vald attribueringsmodell
+**Attribuerad omsättning:** I den här kolumnen visas intäkten som tilldelats den kontaktytan baserat på vald attribueringsmodell
 
 ## Filterbeskrivning {#filter-description}
 
@@ -84,7 +85,7 @@ Med Engagement Path kan ni få en komplett bild av alla ärenden - lead, kontakt
   </tr> 
   <tr> 
    <td><p>Händelsetyp</p></td> 
-   <td><p>Filtrera resan efter typ av händelse som användarkontaktytan baseras på. Tillåter flera värden genom att lägga till filter med plustecknet "+" till höger. Tillåtna värden: "Session", "CRM Campaign", "CRM Event", "CRM Task", "Impression".</p></td> 
+   <td><p>Filtrera resan efter typ av händelse som användarkontaktytan baseras på. Tillåter flera värden genom att lägga till filter med plustecknet "+" till höger. Tillåtna värden: Session, CRM Campaign, CRM Event, CRM Task, Impression.</p></td> 
   </tr> 
   <tr> 
    <td><p>Leadfaser</p></td> 

@@ -3,7 +3,8 @@ unique-page-id: 18874795
 description: Lägger till [!DNL Marketo Measure] Skript - [!DNL Marketo Measure] - Produktdokumentation
 title: Lägger till [!DNL Marketo Measure] Skript
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
-source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Lägger till [!DNL Marketo Measure] Skript {#adding-marketo-measure-script}
 
-[!DNL Marketo Measure] JavaScript som du vill spåra av [!DNL Marketo Measure] ska läggas till i alla webbegenskaper så snart som möjligt. När JavaScript har distribuerats [!DNL Marketo Measure] kommer att börja samla in dina digitala data. I den här artikeln beskrivs metoderna för distribution [!DNL Marketo Measure] JavaScript och andra överväganden att ta hänsyn till.
+[!DNL Marketo Measure] JavaScript som du vill spåra av [!DNL Marketo Measure] ska läggas till i alla webbegenskaper så snart som möjligt. När JavaScript har distribuerats [!DNL Marketo Measure] kommer att börja samla in dina digitala data. I den här artikeln beskrivs metoderna för distribution [!DNL Marketo Measure] JavaScript och andra överväganden att beakta.
 
 >[!NOTE]
 >
@@ -37,7 +38,7 @@ Maskinkodning av JavaScript i `<head>` på sidorna säkerställer att [!DNL Mark
 
 ## Tag Management Systems {#tag-management-systems}
 
-Om tillägg [!DNL Marketo Measure] JavaScript via hårdkodning är inte möjligt. Ett annat alternativ är att lägga till [!DNL Marketo Measure] skript med ett Tag Management-system som [!DNL Google Tag Manager] (GTM) eller Tealium.
+Om du lägger till [!DNL Marketo Measure] JavaScript via hårdkodning är inte möjligt. Ett annat alternativ är att lägga till [!DNL Marketo Measure] skript med ett Tag Management-system som [!DNL Google Tag Manager] (GTM) eller Team.
 
 Observera att tagghanteringssystem används för att distribuera [!DNL Marketo Measure] JS kan resultera i en potentiell 5-10-procentig dataförlust på grund av fördröjning vid skriptinläsning. Om tagghanteringsverktyget inte läses in tillräckligt snabbt, [!DNL Marketo Measure] JS kan inte heller läsa in tillräckligt snabbt och kan förlora den första referensinformationen.
 
@@ -55,11 +56,11 @@ Mer information kan [hittades här](/help/marketo-measure-tracking/setting-up-tr
 
 Om du använder en separat eller internationell domän måste du dock se till att [!DNL Marketo Measure] Konsulten vet. Domänerna måste läggas till manuellt i ditt konto på [!DNL Marketo Measure] avsluta så att [!DNL Marketo Measure] kan koppla data från ytterligare domäner till ditt konto. Skicka därför separata/internationella domäner till [!DNL Marketo Measure] Konsult.
 
-Om du använder någon tredjepartssida kan du diskutera din användning med [!DNL Marketo Measure] Konsult. I allmänhet vill du veta om du kan lägga till en anpassad version av [!DNL Marketo Measure] JavaScript för att spåra sidorna om det är lämpligt. Om detta inte är möjligt kommer spårning via CRM Campaign-kontaktytorna att utforskas med [!DNL Marketo Measure] Konsult.
+Om du använder någon tredjepartssida kan du diskutera din användning med [!DNL Marketo Measure] Konsult. Du vill veta om du kan lägga till en anpassad version av [!DNL Marketo Measure] JavaScript för att spåra sidorna om det är lämpligt. Om detta inte är möjligt kommer spårning via CRM Campaign-kontaktytorna att utforskas med [!DNL Marketo Measure] Konsult.
 
 Har du formulär som INTE ska spåras av [!DNL Marketo Measure] eftersom de inte nödvändigtvis är användbara för attribuering (t.ex. för att avbeställa prenumerationer, kundinloggningar osv.)? I så fall vill du lägga till exkluderingskoden [i den här artikeln](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} till varje formulär
 
-Har du några osäkra sidor? I så fall vill du skydda dem när navigeringen mellan en säker/osäker sida bryter spårningssessionen.
+Har du några sidor som inte är säkra? I så fall vill du skydda dem när navigeringen mellan en säker/osäker sida bryter spårningssessionen.
 
 Kom ihåg att ha en konversation med webbteamet så att de vet [!DNL Marketo Measure] JavaScript ska alltid finnas på rätt webbegenskaper. Om nya sidor/formulär/platser introduceras måste du se till att distribuera [!DNL Marketo Measure] JavaScript är en del av protokollet.
 
@@ -69,7 +70,7 @@ Om en [!DNL Web Application Firewall (WAF)] -varningen aktiveras under JavaScrip
 
 ## Forms to Pay Extra Attention To {#forms-to-pay-extra-attention-to}
 
-**Skicka flera formulär**
+**Inlämning av flera formulär**
 
 * Problem: Om du har flera länkade formulär som en del av en enda formulärinlämning, är det möjligt att det första formuläret genererar en kontaktyta även om det fullständiga formuläret inte har skickats.
 * Lösning: Du måste tvinga ett av formulären att rapportera användaren till [!DNL Marketo Measure] baserat på cachelagrade data och diskutera övergivningsmetoder. I allmänhet [rapportanvändarkod](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} kan lösa det här.
@@ -77,13 +78,13 @@ Om en [!DNL Web Application Firewall (WAF)] -varningen aktiveras under JavaScrip
 **Kontoinloggning (inte skapande)**
 
 * Problem: [!DNL Marketo Measure] rekommenderar att du inte skapar kontaktytor för efterföljande kontoinloggningar eftersom dessa tenderar att späda ut attribueringsartikeln.
-* Lösning: Lägg till Uteslut kod i inloggningsformuläret för konto/kund/partner.
+* Lösning: Lägg till undantagskod i inloggningsformuläret för konto/kund/partner.
 
 >[!NOTE]
 >
 >Vi rekommenderar att du skapar en kontaktyta för att skapa ett konto eller en testversion.
 
-**Ladda ned mediefil**
+**Ladda ned resurs**
 
 * Problem: Om dina resurser är grupperade, [!DNL Marketo Measure] spårar hämtningar när formulär fylls i. Om resurserna inte är grupperade finns det begränsningar för vad vi kan rapportera om utan anpassning.
 * Lösning: Hämta resursen om du vill att den ska spåras av [!DNL Marketo Measure] JavaScript. Om detta inte är ett alternativ och du fortfarande vill ha en kontaktyta för det, bör du överväga att synkronisera en CRM-kampanj i stället.
@@ -91,22 +92,22 @@ Om en [!DNL Web Application Firewall (WAF)] -varningen aktiveras under JavaScrip
 **iFrames**
 
 * Problem: iFrames fungerar i stort sett som sidor på sidor.
-* Lösning: The [!DNL Marketo Measure] JS måste distribueras direkt i iFrame-huvudet för att vi ska kunna koppla till formuläret korrekt.
+* Lösning: [!DNL Marketo Measure] JS måste distribueras direkt i iFrame-huvudet för att vi ska kunna koppla till formuläret korrekt.
 
 **Ljuslådor**
 
 * Ljuslådor är vanligtvis popup-fönster som innehåller iFrames
-* Lösning: den [!DNL Marketo Measure] JS måste distribueras inom rubriken för den värdbaserade iFrame.
+* Lösning: [!DNL Marketo Measure] JS måste distribueras inom rubriken för den värdbaserade iFrame.
 
 **Flera formulär på en sida**
 
 * Problem: Om det finns flera formulär på en sida kanske du inte kan se vilket formulär som fylldes i med [!DNL Marketo Measure] Formulär-URL-fält.
-* Lösning: Om du behöver veta vilket formulär som fylldes i kan du testa att skapa dynamiska URL-hashar med webbteamet.
+* Lösning: Om du behöver veta vilket formulär som fylldes i kan du utforska hur du konfigurerar dynamiska URL-hashar med webbteamet.
 
 **Forms ordnade i `<div>` format**
 
 * Problem: [!DNL Marketo Measure] JS har svårt att identifiera formulär som ordnats i `<div>` så att man kan behöva skapa egen kod.
-* Lösning: Dessa [rapportanvändarmallar](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} kan användas av ditt webbutvecklingsteam för att lägga till den kod som behövs.
+* Lösning: [rapportanvändarmallar](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} kan användas av ditt webbutvecklingsteam för att lägga till den kod som behövs.
 
 **Chatt**
 
@@ -116,7 +117,7 @@ Om en [!DNL Web Application Firewall (WAF)] -varningen aktiveras under JavaScrip
 **Andra domänen**
 
 * Problem: [!DNL Marketo Measure] JavaScript är domänspecifikt, så extra steg måste vidtas för alla separata eller internationella domäner. Observera att [!DNL Marketo Measure] JS kan hantera underdomäner på samma rotdomän.
-* Lösning: Om du äger flera rotdomäner vill du bli spårad av [!DNL Marketo Measure] försäkra dig om att du lägger till JS i domänerna OCH låter [!DNL Marketo Measure] Konsulten vet vilka domäner som manuellt ska kopplas till din [!DNL Marketo Measure] konto.
+* Lösning: Om du äger flera rotdomäner vill du att de ska spåras av [!DNL Marketo Measure] se till att lägga till JS i domänerna OCH låta [!DNL Marketo Measure] Konsulten vet vilka domäner som manuellt ska kopplas till din [!DNL Marketo Measure] konto.
 
 ## Testning [!DNL Marketo Measure] JavaScript {#testing-marketo-measure-javascript}
 
@@ -130,10 +131,10 @@ Så här testar du ett formulär själv:
 
    a. Ett bra tillvägagångssätt är att använda ett falskt e-postmeddelande som innehåller något som tyder på att det är ett test och tidpunkten på dagen. Till exempel: testing830am@test.com.
 
-1. Registrera URL-adressen till sidan som du skickar formuläret och det e-postmeddelande som används.
+1. Registrera URL-adressen till den sida som du skickar formuläret och det e-postmeddelande som används.
 
 1. Leta reda på den post som skapats i CRM (lead eller kontakt) för den formuläröverföringen och kontrollera att en kontaktyta skapats på rätt sätt.
 
-   a. Du kan använda en [!DNL Marketo Measure] Stock-rapport, till exempel Leads med Buyer Touchpoints, eller se sidlayouten Lead/Kontakt om du valde att uppdatera sidlayouten med [!DNL Marketo Measure] information.
+   a. Använd en [!DNL Marketo Measure] Stock-rapport, till exempel Leads med Buyer Touchpoints, eller se sidlayouten Lead/Kontakt om du valde att uppdatera sidlayouten med [!DNL Marketo Measure] information.
 
    b. Observera att detta kan ta lite tid innan data bearbetas.

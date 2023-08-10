@@ -3,7 +3,8 @@ unique-page-id: 18874769
 description: "[!DNL Marketo Measure] Insights Configuration - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Konfiguration av insikter"
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -26,4 +27,4 @@ The [!DNL Marketo Measure] Insikter från Canvas-appen bör läggas till i leads
 
    ![](assets/2-1.png)
 
-1. Markera alla profiler som ska ha åtkomst till [!DNL Marketo Measure] Insikter och klick **[!UICONTROL Save]**.
+1. Markera alla profiler som ska ha åtkomst till [!DNL Marketo Measure] Insikter och klickningar **[!UICONTROL Save]**.

@@ -3,7 +3,8 @@ unique-page-id: 18874686
 description: Konfigurationer för flera kampanjposttyper - [!DNL Marketo Measure] - Produktdokumentation
 title: Konfigurationer för flera kampanjposttyper
 exl-id: 10499556-a591-4630-9149-ae676e6494af
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

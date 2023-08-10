@@ -3,7 +3,8 @@ unique-page-id: 18874616
 description: Typ av rapportering för kontakter utan affärsmöjligheter - [!DNL Marketo Measure] - Produktdokumentation
 title: Typ av rapportering för kontakter utan affärsmöjligheter
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -30,7 +31,7 @@ För att kunna rapportera om kontakter med Buyer Touchpoints som inte är koppla
 
    ![](assets/3.jpg)
 
-1. Därifrån kommer du att länka kontaktobjektet till Buyer Touchpoints-objektet. Se till att du väljer knappen &quot;Varje &quot;A&quot;-post måste ha minst en relaterad &quot;B&quot;-post.&quot;
+1. Därifrån kommer du att länka Kontaktobjektet till Buyer Touchpoints-objektet. Se till att du väljer knappen &quot;Varje A-post måste ha minst en relaterad B-post.&quot;
 
    ![](assets/4.jpg)
 

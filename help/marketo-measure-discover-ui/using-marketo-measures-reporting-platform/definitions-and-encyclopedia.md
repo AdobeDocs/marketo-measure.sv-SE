@@ -3,7 +3,8 @@ unique-page-id: 18874662
 description: Definitioner och uppslagsverk - [!DNL Marketo Measure] - Produktdokumentation
 title: Definitioner och uppslagsverk
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '6083'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Här följer en översikt över de olika panelerna och plattformarna som finns p
 
 **[!DNL Marketo Measure]Varumärkena**
 
-Översikt
+Ökning
 
 Tillväxt
 
@@ -50,7 +51,7 @@ Passport-tratt
 
 ## [!DNL Marketo Measure] Varumärkena {#marketo-measure-boards}
 
-### Översikt {#overview}
+### Ökning {#overview}
 
 Översikt ger användaren en högnivåbild av hur marknadsföringsteamet presterar när det gäller deras inverkan på intäkter, utgifter och avkastning.
 
@@ -82,7 +83,7 @@ Kategorier
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
-**Översikt**
+**Ökning**
 
 `2.` I listrutan Metrisk på menyn Filter visar det här diagrammet intäkter/pipelineintäkter/utgifter/erbjudanden/möjligheter/leads/kontakter som tilldelats varje kanal, som visas över tid.
 
@@ -188,7 +189,7 @@ Granska in för att visa data från en mindre datumdimension.
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
-**Försäljningsintäkter över tid**
+**Pipeline-intäkter över tid**
 
 `6.` De totala potentiella intäkterna från alla öppna affärsmöjligheter, baserat på attribueringsmodellen som visar trenden under en viss tidsram. Använd filtret Gruppera efter för att ändra stapeln efter kanal, delkanal, kampanj, konto, annonsgrupp, annons, annonsör, kreativt, nyckelord, placering, webbplats.
 
@@ -196,7 +197,7 @@ Granska in för att visa data från en mindre datumdimension.
 
 **Leads**
 
-`7.` Det totala antalet leads, baserat på attribueringsmodellen. Om datumtypen &quot;Slutpunktsdatum&quot; är markerad går det att göra delantal eftersom det går att utesluta vissa kontaktytor i en Lead-post med den här datumtypen. Om en attribueringsmodell som ligger utanför U-Shaped används U-Shaped-värdet för W-Shaped, W-Shaped och Custom Model.
+`7.` Det totala antalet leads, baserat på attribueringsmodellen. Om datumtypen &quot;Slutpunktsdatum&quot; är markerad går det att göra partiella inventeringar eftersom det går att utesluta vissa kontaktytor i en Lead-post med den här datumtypen. Om en attribueringsmodell som ligger utanför U-Shaped används U-Shaped-värdet för W-Shaped, W-Shaped och Custom Model.
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
@@ -208,7 +209,7 @@ Granska in för att visa data från en mindre datumdimension.
 
 **Kontakter**
 
-`9.` Det totala antalet kontakter, baserat på attribueringsmodellen. Om datumtypen &quot;Touchpoint Date&quot; är markerad går det att göra partiella inventeringar eftersom det går att utesluta vissa kontaktytor i en kontaktpost med den här datumtypen. Om en attribueringsmodell som ligger utanför U-Shaped används U-Shaped-värdet för W-Shaped, W-Shaped och Custom Model.
+`9.` Det totala antalet kontakter, baserat på attribueringsmodellen. Om datumtypen &quot;Kontaktpunktsdatum&quot; är markerad går det att göra partiella räkningar eftersom det går att utesluta vissa kontaktytor i en kontaktpost med den här datumtypen. Om en attribueringsmodell som ligger utanför U-Shaped används U-Shaped-värdet för W-Shaped, W-Shaped och Custom Model.
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
@@ -376,7 +377,7 @@ Efter konto-ID och kontonamn, det totala antalet kontaktytor från varje konto.
 
 **Antal kontaktpunkter**
 
-Antalet kontaktytor som tilldelats varje dimension, där dimensionen kan ändras av filtret Gruppera efter, t.ex.: Ingen / kanal / Delkanal / Kampanj / Konto / Advertiser / Annons / Creative / Annonsgrupp / Nyckelord / Placering / Webbplats.
+Antalet kontaktytor som har tilldelats varje dimension, där dimensionen kan ändras av filtret Gruppera efter, t.ex.: Ingen / Kanal / Delkanal / Kampanj / Konto / Annonserare / Annonser / Kreativ / Annonsgrupp / Nyckelord / Placering / Webbplats.
 
 ### Marknadsföringsutgifter {#marketing-spend}
 
@@ -416,7 +417,7 @@ Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en
 
 Den beräknade avkastningen (avkastning på investering) från de totala intäkterna (från den valda attribueringsmodellen) och de totala utgifterna.
 
-**Utgifter (diagram)**
+**Utgift (diagram)**
 
 Det totala beloppet för bokförda utgifter som visar trenden under en viss tidsperiod. Använd filtret Gruppera efter för att ändra stapeln med Ingen, Kanal, Delkanal, Kampanj, Konto, Annonskoncern, Annonser, Kreativ, Nyckelord, Placering, Plats.
 
@@ -510,25 +511,25 @@ Det totala antalet formulär som skickats in för alla kända och anonyma besök
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
-**Översikt**
+**Ökning**
 
 I listrutan Metrisk på filtermenyn visar det här diagrammet intäkter/intäkter/kostnader/erbjudanden/möjligheter/leads/kontakter/klipp/besök/unika besök/sidvisningar/formulär som tilldelats varje dimension, som visas över tid. Dimensioner kan ändras från Ingen till Kanal/Underkanal/Kampanj/Konto/Advertiser/Annons/Creative/Annonsgrupp/Nyckelord/Placering/Plats.
 
-**Sammanfattning av webbtrafik**
+**Översikt över webbtrafik**
 
 På URL-adresser ser du hur många sidor, besök, besök och formulär som är betrodda för respektive sida.
 
 **Sammanfattning av referenter**
 
-Antalet sidbesök och unika besök som kommer från varje refererad URL-adress.
+Antalet sidbesök och unika besök som kommer från varje refererad URL.
 
 **Unika besök efter källa**
 
-Använd listrutan Gruppera efter på filtermenyn för att visa källan till de unika besökarna på platsen. Ändra gruppen till: Kanal, Delkanal, Kampanj, Konto, Annonskoncern, Annonser, Advertiser, Creative, Nyckelord, Placement, Webbplats.
+Använd listrutan Gruppera efter på filtermenyn för att visa källan till de unika besökarna på platsen. Ändra gruppen till: kanal, delkanal, kampanj, konto, annonsgrupp, annonsgrupp, annonsör, kreativ, nyckelord, placering, webbplats.
 
 **Besök efter källa**
 
-Använd listrutan Gruppera efter på Filter-menyn för att visa källan för besökarna på platsen. Ändra gruppen till: Kanal, Delkanal, Kampanj, Konto, Annonskoncern, Annonser, Advertiser, Creative, Nyckelord, Placement, Webbplats.
+Använd listrutan Gruppera efter på Filter-menyn för att visa källan för besökarna på platsen. Ändra gruppen till: kanal, delkanal, kampanj, konto, annonsgrupp, annonsgrupp, annonsör, kreativ, nyckelord, placering, webbplats.
 
 **Leads efter landningssida**
 
@@ -570,7 +571,7 @@ Kategorier
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
-**Översikt**
+**Ökning**
 
 `2.` I listrutan Metrisk på menyn Filter visar det här diagrammet intäkter/pipelineintäkter/utgifter/erbjudanden/möjligheter/leads/kontakter som tilldelats varje kanal, som visas över tid.
 
@@ -666,7 +667,7 @@ Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
-**Översikt**
+**Ökning**
 
 `5.` I listrutan Metrisk på filtermenyn visar det här diagrammet intäkter/intäkter/kostnader/erbjudanden/möjligheter/leads/kontakter/besök/unika besök/visningar/klick/formulär över tid.
 
@@ -688,7 +689,7 @@ Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en
 
 **CPC**
 
-`9.` Den totala kostnaden från de spårade klippen dividerat med det totala antalet klick, vilket ger CPC-frekvensen.
+`9.` Den totala kostnaden från de spårade klippen dividerat med det totala antalet klick, vilket ger en CPC-frekvens.
 
 **Leads**
 
@@ -710,7 +711,7 @@ Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
-**Sammanfattning av webbtrafik**
+**Översikt över webbtrafik**
 
 Med hjälp av dimensionsväljaren på menyn Filter kan du växla mellan Channel, Subchannel, Campaign, Account, Ad Group, Ad, Advertiser, Creative, Keyword, Placement, Site och visa antalet sidvisningar, besök, unika besök och formulärinlämningar som är betrodda för var och en av dem.
 
@@ -750,7 +751,7 @@ Kategorier
 
 ![](assets/definitions-and-encyclopedia-17.png)
 
-**Totala intäkter**
+**Total intäkt**
 
 `1.` Det totala intäktsbeloppet från Closed Won-möjligheter enbart från digitala källor, baserat på attribueringsmodellen.
 
@@ -760,7 +761,7 @@ Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en
 
 `2.` En lista över landningssidor baserad på hur stor intäkt som tillskrevs varje landningssida, sorterad efter den högsta intäkten baserat på den valda attribueringsmodellen.
 
-**Total Pipeline-intäkt**
+**Total omsättning för pipeline**
 
 `3.` De totala potentiella intäkterna från alla öppna möjligheter endast från digitala källor, vilket innebär att de inte är Closed Lost eller Closed Won. Intäkterna baseras på den valda attribueringsmodellen.
 
@@ -816,7 +817,7 @@ Granska in för att se de unika besöken per månad till den valda URL:en.
 
 **Leads**
 
-`14.` Det totala antalet leads, baserat på attribueringsmodellen. Om datumtypen &quot;Slutpunktsdatum&quot; är markerad går det att göra delantal eftersom det går att utesluta vissa kontaktytor i en Lead-post med den här datumtypen. Om en attribueringsmodell som ligger utanför U-Shaped används U-Shaped-värdet för W-Shaped, W-Shaped och Custom Model.
+`14.` Det totala antalet leads, baserat på attribueringsmodellen. Om datumtypen &quot;Slutpunktsdatum&quot; är markerad går det att göra partiella inventeringar eftersom det går att utesluta vissa kontaktytor i en Lead-post med den här datumtypen. Om en attribueringsmodell som ligger utanför U-Shaped används U-Shaped-värdet för W-Shaped, W-Shaped och Custom Model.
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
@@ -902,13 +903,13 @@ Klicka på de aggregerade siffrorna för att gå ned för att se basdatainformat
 
 S: Konto-ID:n är unika, men kontonamn behöver inte vara det. Du kan till exempel ha skapat flera olika konton för varje affärsenhet inom ett företag. När du använder kontonamnet kan det vara mer intuitivt, och för att vara säker på att du filtrerar efter ett visst konto, kanske du vill använda konto-ID:t.
 
-**F: Om jag filtrerar efter konto-ID, kommer alla tabeller att filtreras efter?**
+**F: Om jag filtrerar efter konto-ID, filtreras alla tabeller efter?**
 
 S: Ja, filtret tillämpas på alla plattor i ritytan. Om du t.ex. vill använda ett kontofilter för &quot;Microsoft&quot; i &quot;säljprojektsrutan&quot;, kommer du bara att se möjligheter som är relaterade till Microsoft.
 
 **F: Vad är kolumnen&quot;Engagement Rating&quot;?**
 
-S: Åtagandeklassificeringen hämtas från [!DNL Marketo Measure] Prediktiv kontoanalys, som finns i [!DNL Marketo Measure] Steg 2. Om du inte har det här fältet visas det som null.
+A: Åtagandeklassificeringen hämtas från [!DNL Marketo Measure] Prediktiv kontoanalys, som finns i [!DNL Marketo Measure] Steg 2. Om du inte har det här fältet visas det som null.
 
 **F: Kan jag ändra hur tabellen sorteras?**
 
@@ -916,11 +917,11 @@ S: Ja, om du klickar på någon av kolumnrubrikerna sorteras tabellen. Om du kli
 
 **F: Kan jag exportera data?**
 
-S: Ja, när du håller markören över titeln (t.ex. &quot;Konton&quot;) klickar du på de tre lodräta prickarna i det övre högra hörnet. På så sätt kan du hämta data för den plattan i följande format: TXT, CSV, XLS, JSON, HTML och Markdown.
+S: Ja, när du håller markören över titeln (t.ex. Konton) klickar du på de tre lodräta prickarna i det övre högra hörnet. På så sätt kan du hämta data för den plattan i följande format: TXT, CSV, XLS, JSON, HTML och Markdown.
 
-**F: Kan jag se fler än 500 rader med data?**
+**F: Kan vi se fler än 500 rader med data?**
 
-S: Rutan är begränsad till att visa 500 rader åt gången, men du kan exportera data och välja Alla resultat om du vill visa fler än 500 rader.
+S: Rutan är begränsad till att visa 500 rader i taget, men du kan exportera data och välja Alla resultat om du vill visa fler än 500 rader.
 
 ## Resa {#journey}
 
@@ -1008,13 +1009,13 @@ Leads eller kontakter
 
 `3.` Antalet säljprojektsposter som fanns i varje fas på det valda datumet.
 
-**Ögonblicksbild av affärsmöjlighet (tabell)**
+**Snapshot (Table)**
 
 `4.` Antalet säljprojektsposter som fanns i varje fas på det valda datumet.
 
 ### Passport {#passport}
 
-Passport är den nya efterfrågande vattenfallsvyn från [!DNL Marketo Measure] Kontrollpanelen för avkastning, där varje fas visar antalet poster i varje fas och det totala antalet poster som har passerat genom varje fas.
+Passport är den nya efterfrågansvyn från [!DNL Marketo Measure] Kontrollpanelen för avkastning, där varje fas visar antalet poster i varje fas och det totala antalet poster som har passerat genom varje fas.
 
 **Filter**
 
@@ -1090,28 +1091,28 @@ Klicka på Händelsetyp för att gå ned i detalj och visa händelseinformation.
 
 **F: Hur kan jag se en enskild persons resa?**
 
-S: Använd filtret Lead-ID/E-post eller Kontakt-ID/e-postadress för att ange att filtret innehåller [e-postadress]och klicka sedan på Kör.
+A: Använd filtret Lead ID/Email eller Contact ID/email för att ange att filtret innehåller [e-postadress]och klicka sedan på Kör.
 
-**F: Vad påverkar filtret &#39;Attribution Model&#39;?**
+**F: Vad påverkar &#39;Attributmodellen&#39;-filtret?**
 
-S: Attributdistributionsmodellfiltret påverkar kolumnen &quot;Attributerad intäkt&quot;
+A: Attributeringsmodellfiltret påverkar kolumnen &quot;Attributerad intäkt&quot;
 
 **F: Vad är &#39;Marketing Touch Type&#39;-filtret?**
 
-S: Marketing Touch Type är en typ av engagemang som kan omfatta Web Visit, Web Form, Web Chat, Email, Call, Left Message eller CRM (dvs. kampanjmedlemskap för offlinekanaler)
+A: Marknadsföringsberöringstypen är den typ av engagemang som kan omfatta webbbesök, webbformulär, webbchatt, e-post, samtal, vänster meddelande eller CRM (dvs. kampanjmedlemskap för offlinekanaler)
 
 **F: Hur filtrerar jag bort alla webbsessioner från resan?**
 
-S: Använd filtret Marketing Touch Type för att ange att filtret inte innehåller webbbesök ELLER innehåller [alla pektyper utom webbbesök]och klicka sedan på Kör
+A: Använd filtret Marketing Touch Type för att ange att filtret inte innehåller webbbesök ELLER innehåller [alla pektyper utom webbbesök]och klicka sedan på Kör
 
 **F: Kan jag exportera data?**
 
-S: Ja, när du hovrar över händelsetabellen Resa klickar du på de tre vertikala punkterna i det övre högra hörnet. På så sätt kan du hämta data i följande format: TXT, CSV, XLS, JSON, HTML och Markdown.
+S: Ja, när du hovrar över händelsetabellen Resa klickar du på de tre lodräta punkterna i det övre högra hörnet. På så sätt kan du hämta data i följande format: TXT, CSV, XLS, JSON, HTML och Markdown.
 
 **F: Kan jag ändra hur tabellen sorteras?**
 
 S: Ja, om du klickar på någon av kolumnrubrikerna sorteras tabellen. Om du klickar på samma rubrik igen inverteras hur tabellen sorteras. Som standard sorteras tabellerna efter slutpunktsdatum med början från det äldsta.
 
-**F: Kan jag se fler än 500 rader med data?**
+**F: Kan vi se fler än 500 rader med data?**
 
-S: Rutan är begränsad till att visa 500 rader åt gången, men du kan exportera data och välja Alla resultat om du vill visa fler än 500 rader.
+S: Rutan är begränsad till att visa 500 rader i taget, men du kan exportera data och välja Alla resultat om du vill visa fler än 500 rader.

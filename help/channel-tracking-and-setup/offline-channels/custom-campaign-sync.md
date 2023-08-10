@@ -3,7 +3,8 @@ unique-page-id: 18874588
 description: Synkronisering av anpassad kampanj - [!DNL Marketo Measure] - Produktdokumentation
 title: Synkronisering av anpassad kampanj
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Idag, med [!DNL Marketo Measure] kan ni ange vilka kampanjer som ska ingå som e
 
    >[!NOTE]
    >
-   >Om du använder anpassade regler för kampanjsynkronisering [!DNL Marketo Measure] kommer inte att läsa de uppdateringar du har gjort med knappen Kontaktpunktsdatum för gruppuppdatering.
+   >Om du använder anpassade regler för kampanjsynkronisering [!DNL Marketo Measure] kommer inte att läsa några uppdateringar som du har gjort med knappen Kontaktpunktsdatum för gruppuppdatering.
 
 1. Klicka på bockmarkeringen och lägg sedan till ytterligare regler för ytterligare kampanjer efter behov.
 
@@ -54,7 +55,7 @@ Idag, med [!DNL Marketo Measure] kan ni ange vilka kampanjer som ska ingå som e
 
    >[!NOTE]
    >
-   >Om du funderar på att till slut stoppa användaren av [!UICONTROL CRM Sync Type]är det idealiskt att skapa regler som inte refererar till &quot;Synkroniseringstyp&quot;, men _stilla_ behålla de aktuella CRM-kontaktytorna. På så sätt fungerar reglerna fortfarande om/när den ändringen görs.
+   >Om du funderar på att så småningom stoppa användaren av [!UICONTROL CRM Sync Type]är det idealiskt att skapa regler som inte refererar till &quot;Synkroniseringstyp&quot;, men _stilla_ upprätthålla aktuella CRM-kontaktytor. På så sätt fungerar reglerna fortfarande om/när den ändringen görs.
 
 Här är ett exempel på hur det skulle se ut, så att inga befintliga CRM-kontaktytor försvinner:
 
@@ -74,7 +75,7 @@ Du kan enkelt kontrollera Touchpoints- och Buyer Attribution Touchpoint-posterna
 
    ![](assets/8-1.png)
 
-1. När du har klickat [!UICONTROL Test]ser du namnet på Campaign och antalet Campaign-medlemmar som är berättigade till kontaktytor. En tabell visas nedan som visar alla regler som matchar ditt kampanj-ID. Endast matchningarna visas.
+1. När du klickat [!UICONTROL Test]ser du namnet på Campaign och antalet Campaign-medlemmar som är berättigade till kontaktytor. En tabell visas nedan som visar alla regler som matchar ditt kampanj-ID. Endast matchningarna visas.
 
    ![](assets/9.png)
 

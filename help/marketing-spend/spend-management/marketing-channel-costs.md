@@ -3,7 +3,8 @@ unique-page-id: 18874602
 description: Marknadsföringskanalkostnader - [!DNL Marketo Measure] - Produktdokumentation
 title: Marknadsföringskanalkostnader
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Channels, Spend Management
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Marknadsföringskanalkostnader {#marketing-channel-costs}
 
-En av de mest grundläggande fördelarna med att använda [!DNL Marketo Measure] är möjligheten att knyta samman marknadsföringssatsningar direkt till intäktseffekten - med så mycket granularitet som önskas. Det är möjligt att se avkastningen på investeringar på kontaktytpunktsnivå. För att dra nytta av denna förmån behöver kanalkostnaderna bara överföras till [!DNL Marketo Measure] app. ROI-rapporter skapas automatiskt och är tillgängliga i **Kontrollpanel för marknadsföringsavkastning** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+En av de mest grundläggande fördelarna med [!DNL Marketo Measure] är möjligheten att knyta samman marknadsföringssatsningar direkt till intäktseffekten - med så mycket granularitet som önskas. Det är möjligt att se avkastningen på investeringar på kontaktytpunktsnivå. För att dra nytta av den här förmånen behöver kanalkostnaderna bara överföras till [!DNL Marketo Measure] app. ROI-rapporter skapas automatiskt och är tillgängliga i **Kontrollpanel för marknadsföringsavkastning** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klicka här om du vill gå direkt till instruktionerna.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
@@ -72,13 +73,13 @@ Det vanligaste felet är datumkolumnernas format, som inträffar om datumformate
 
 När marknadsföringskanaler och regler har skapats eller uppdaterats kan de tillhörande kostnaderna överföras. Gör så här:
 
-**Steg 1: Navigera till sidan Marketing Spend i [!DNL Marketo Measure] App.**
+**Steg 1: Navigera till sidan Marketing Spend på sidan [!DNL Marketo Measure] App.**
 
 Gå till **[!UICONTROL My Account]** meny, klicka på **[!UICONTROL Settings]** och sedan navigera till **[!UICONTROL Marketing Spend]** till vänster på sidofältet under **[!UICONTROL Reporting]** -avsnitt.
 
 ![](assets/1.png)
 
-**Steg 2: Ladda ned CSV-filen Aktuella kostnader**
+**Steg 2: Hämta CSV-filen för aktuella kostnader**
 
 Navigera till höger på skärmen och klicka **[!UICONTROL Download Current Costs].** Med det här alternativet kan du hämta ett kalkylblad i CSV-format.
 
@@ -92,7 +93,7 @@ När du har importerat kalkylbladet kan du göra önskade ändringar, till exemp
 
 Kontrollera logikreglerna i bladet. Varje rad ska innehålla en kanal och en av dess delkanaler avgränsade med ett (.) punkt vid slutet. Det är viktigt att använda detta format konsekvent.
 
-Om du till exempel vill ange Facebook som delkanal och social som kanal, ska regeln skrivas enligt följande: &quot;Social.Facebook.&quot; Om du vill spåra en offlinehändelse bör kanalsyntaxen vara: &quot;Events.Big Conference.&quot; Exempel visas i bilden nedan:
+Om du till exempel vill ange Facebook som delkanal och social som kanal, ska regeln skrivas så här:&quot;Social.Facebook&quot;. Om du vill spåra en offlinehändelse bör kanalsyntaxen vara:&quot;Events.Big Conference&quot;. Exempel visas i bilden nedan:
 
 ![](assets/3.png)
 

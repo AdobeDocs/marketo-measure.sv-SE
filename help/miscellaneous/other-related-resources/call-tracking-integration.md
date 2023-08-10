@@ -3,7 +3,8 @@ unique-page-id: 18874592
 description: Samtalsuppföljningsintegrering - [!DNL Marketo Measure] - Produktdokumentation
 title: Samtalsspårningsintegrering
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Tracking, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Vår integrering med [!DNL CallTrackingMetrics] är avsett att sammanfoga en web
 
 ## Före och efter {#before-and-after}
 
-Ta en titt på flödesdiagrammet nedan för att se hur [!DNL Marketo Measure] används för att hantera telefonsamtal utan integrering med CallTrackingMetrics. Telefonsamtalet som ägde rum spårades inte, så det betraktades som en webbsession och ingen kontaktyta skapades för det. Det var inte förrän vid nästa besök där användaren fyllde i ett formulär som en kontaktyta slutligen fylldes i.
+Ta en titt på flödesdiagrammet nedan för att se hur [!DNL Marketo Measure] används för att hantera telefonsamtal utan integrering med CallTrackingMetrics. Telefonsamtalet som ägde rum spårades inte, så det betraktades som en webbsession och ingen kontaktyta skapades för det. Det var inte förrän vid nästa besök där användaren fyllde i ett formulär som en kontaktyta till slut fylldes i.
 
 Med integreringen ser du att webbsessionen faktiskt var knuten till ett telefonsamtal. Nästa formulärfyllning blir en PostLC-kontakt och spåras fortfarande som en del av resan.
 
@@ -32,7 +33,7 @@ Med integreringen ser du att webbsessionen faktiskt var knuten till ett telefons
 
 CallTrackingMetrics måste göra lite utvecklingsarbete för att detta ska fungera. Med det javascript som de placerar på din webbplats kan CallTrackingMetrics hämta _biz_uid från [!DNL Marketo Measure] cookie. Detta &quot;[!DNL BizibleId]&quot; lagras sedan av CallTrackingMetrics.
 
-När en besökare kommer till er webbplats och ringer ett telefonsamtal är det CallTrackingMetrics uppgift att överföra dessa data till [!DNL Salesforce]  Vanligtvis är [!DNL Salesforce Task] skapas som fyller i data som telefonnummer, ämne, typ och nu [!DNL BizibleId]
+När en besökare kommer till er webbplats och ringer ett telefonsamtal är det CallTrackingMetrics uppgift att överföra dessa data till [!DNL Salesforce]  Oftast är [!DNL Salesforce Task] skapas som fyller i data som telefonnummer, ämne, typ och nu [!DNL BizibleId]
 
 The [!DNL BizibleId] är ett fält som installeras med version 6.7+ av [!DNL Marketo Measure] Marknadsattribueringspaket.
 

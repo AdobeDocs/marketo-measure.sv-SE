@@ -3,7 +3,8 @@ unique-page-id: 42762749
 description: "[!DNL Marketo Engage] Verksamhetsintegrering - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Engage] Verksamhetsintegrering"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Som en del av det övergripande [!DNL Marketo Measure] och [!DNL Marketo Engage]
 
 ## Inställningar {#setup}
 
-1. Börja konfigurera Marketo Activity genom att gå till **Mitt konto** > **Inställningar** > **Verksamhet**.
+1. Börja konfigurera Marketo Activity genom att navigera till **Mitt konto** > **Inställningar** > **Verksamhet**.
 
    ![](assets/one-1.png)
 
@@ -49,7 +50,7 @@ Som en del av det övergripande [!DNL Marketo Measure] och [!DNL Marketo Engage]
 
    ![](assets/five-1.png)
 
-1. I vårt exempel&quot;Change Score&quot; behöver vi inte ange ett kampanjnamn eftersom vi kan hämta informationen från Marketo-programmet. Nu kan du skapa regeluttrycket. I följande exempel vill vi markera fältet &quot;[!UICONTROL New Value]&quot; med operatorn &quot;[!UICONTROL is greater than]&quot; med värdet 90.
+1. I vårt exempel&quot;Change Score&quot; behöver vi inte ange ett kampanjnamn eftersom vi kan hämta informationen från Marketo-programmet. Nu kan du skapa regeluttrycket. I följande exempel vill vi markera fältet &quot;[!UICONTROL New Value]&quot; med en operator i &quot;[!UICONTROL is greater than]&quot; med värdet 90.
 
    Du kan utöka reglerna och lägga till ytterligare filter eller villkor genom att lägga till programsatserna &quot;och&quot; eller &quot;eller&quot; för att begränsa resultatet.
 
@@ -81,7 +82,7 @@ Som en del av det övergripande [!DNL Marketo Measure] och [!DNL Marketo Engage]
    * Land
    * Län
    * Landningssida
-   * Referenssida
+   * Referentsida
    * Formulärsida
    * Formulärdatum
    * Plattform
@@ -93,7 +94,7 @@ Som en del av det övergripande [!DNL Marketo Measure] och [!DNL Marketo Engage]
 
 ## Typ av aktivitet {#activity-types}
 
-En del aktivitetstyper ger oss program-ID och programnamn, så det är enkelt att mappa det till kampanj-ID och kampanjnamn på Buyer Touchpoint. För andra finns det ingen programassociation, så en del av regeldefinitionen kräver att du skapar en [!DNL Marketo Measure] Kampanjnamn. Nedan finns listor över varje kategori:
+En del aktivitetstyper ger oss program-ID och programnamn, så det är enkelt att mappa det till kampanj-ID och kampanjnamn på Buyer Touchpoint. För andra finns det ingen programassociation, så en del av regeldefinitionen kräver att du skapar en [!DNL Marketo Measure] Kampanjnamn. Nedan finns en lista över varje kategori:
 
 **Aktivitetstyper med program-ID**
 
@@ -104,7 +105,7 @@ Avbeställ e-post (9)\
 Öppna e-post (10)\
 Klicka på E-post (11)\
 Ändra datavärde (13)\
-Ändra bakgrundsmusik (22)\
+Ändra poäng (22)\
 Lägg till i lista (24)\
 Ändra status i progression (104)\
 Lägg till i struktur (113)\
@@ -167,7 +168,7 @@ Genom dataimporten av Marketo-program laddas kostnaderna automatiskt ned från P
 
 Som ett resultat av [!DNL Marketo Measure] integrering med Marketo, [!DNL Marketo Measure] Cookie-ID har nu också mappats och synkroniserats med [!DNL Marketo Munchkin Id]. Detta gör att luckan stängs så att den anonyma första beröringen kan kopplas till en webbsession i stället för att både FT- och LC-beröringen tilldelas en Marketo-aktivitet. Tänk dig detta scenario:
 
-Mark klickar på en Facebook-annons och får mark på wayneCompanies.com där han/hon cookas med [!DNL Marketo Measure] ID 123 och [!DNL Marketo Munchkin Id] 456. Ingen formulärifyllning sker.
+Markera klickar på en Facebook-annons och går till wayneenterprises.com där han eller hon cookas med [!DNL Marketo Measure] ID 123 och [!DNL Marketo Munchkin Id] 456. Ingen formulärifyllning sker.
 
 Wayne Enterprises Marketing-teamet skickar ett e-postmeddelande till specifika riktade leads, där en av dem `mark@email.com`.
 
@@ -199,7 +200,7 @@ Vi visar bara anpassade aktivitetstyper för Godkänd och inte Utkast eller Godk
 
 **Hur avgör jag vilka aktivitetstyper jag vill generera en kontaktyta för?**
 
-Även om det inte finns någon gräns för hur många aktivitetstyper du kan skapa rekommenderar vi vanligtvis inte fler än fem aktivitetstyper. Det tar tid att avgöra vilka marknadsföringsaktiviteter som är relevanta nog för att vara en del av kontaktytan. &quot;Avbeställ e-post&quot; kanske inte är en viktig kontaktyta att spåra, men &quot;Klicka på e-post&quot; med ytterligare filter kan vara en bra kontaktyta. Det varierar mellan olika organisationer och team, så vi föreslår att ni samarbetar med era team för att brainstorma på den bästa metoden här.
+Även om det inte finns någon gräns för hur många aktivitetstyper du kan skapa rekommenderar vi vanligtvis inte fler än fem aktivitetstyper. Det tar tid att avgöra vilka marknadsföringsaktiviteter som är relevanta nog för att vara en del av kontaktytan. &quot;Avbeställ e-post&quot; kanske inte är en viktig kontaktyta att spåra, men &quot;Klicka på e-post&quot; med ytterligare filter kan vara bra. Det varierar mellan olika organisationer och team, så vi föreslår att ni samarbetar med era team för att brainstorma på den bästa metoden här.
 
 **Varför är mitt webbläsarnamn inaktiverat?**
 

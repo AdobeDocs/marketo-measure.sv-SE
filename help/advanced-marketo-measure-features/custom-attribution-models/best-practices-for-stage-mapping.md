@@ -2,7 +2,8 @@
 description: Metodtips för scenmappning - [!DNL Marketo Measure] - Produktdokumentation
 title: Metodtips för scenmappning
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
-source-git-commit: b8388c4f89734f55ec779ef23b75b34b07da6f58
+feature: Tracking, Custom Models
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # Metodtips för scenmappning {#best-practices-for-stage-mapping}
 
-## Översikt {#overview}
+## Ökning {#overview}
 
-Avsnittet Stage Mapping i [!DNL Marketo Measure] kontot visar de faser som [!DNL Marketo Measure] hämtar automatiskt från din CRM och alla anpassade stadier som du har definierat om du använder den anpassade attributmodellen. Giltigheten hos [!DNL Marketo Measure] data är beroende av att dessa steg ordnas korrekt så att [!DNL Marketo Measure] kan förstå er tratt och utvecklingen av register genom hela tratten.
+Avsnittet Stage Mapping i [!DNL Marketo Measure] kontot visar de faser som [!DNL Marketo Measure] hämtar automatiskt från din CRM och alla anpassade stadier som du har definierat om du använder den anpassade attributmodellen. Giltigheten hos [!DNL Marketo Measure] data är beroende av att dessa steg ordnas korrekt, så att [!DNL Marketo Measure] kan förstå er tratt och utvecklingen av register genom hela tratten.
 
 I avsnittet Stage Mapping i [!DNL Marketo Measure] Du kan till exempel se både aktiva och inaktiva faser från CRM. Ordna alla faser efter dina behov och anpassa dem efter hur tratten fungerar idag.
 
@@ -28,9 +29,9 @@ Oavsett om du utvärderar din Stage Mapping för första gången eller bara gran
 * När du definierar en anpassad scen måste du se till att spårning av fälthistorik är aktiverat för alla fält som används för att definiera scenen
 * Använd inte ett formelfält för att definiera en anpassad fas
    * Ett booleskt fält är den bästa metoden
-* Observera att lead- eller kontaktstadiet är uppdelat i Förlorat, Öppen och Konverterad. validera att faserna finns i rätt fasavsnitt
+* Observera att avsnittet Lead- eller Kontaktstadium är uppdelat i Förlorat, Öppna och Konverterad. Kontrollera att stadierna är i rätt scenavsnitt
    * Om du har en scen i ett felaktigt scenavsnitt kan det resultera i mycket felaktigt [!DNL Marketo Measure] data
-* Observera att avsnittet säljprojektsfas är uppdelat i Förlorat, Öppna och Vunnet. validera att faserna finns i rätt fasavsnitt
+* Observera att avsnittet för säljprojektsfasen är uppdelat i Förlorat, Öppna och Von. Kontrollera att faserna befinner sig i rätt fasavsnitt
    * Om du har en scen i ett felaktigt scenavsnitt kan det resultera i mycket felaktigt [!DNL Marketo Measure] intäktsdata för pipeline
 * Undvik att använda duplicerade scennamn (systemet identifierar dem och tar automatiskt bort ett).
 * Om du vill ange en regel som kontrollerar om det finns NULL-värden lämnar du värdetextrutan tom.

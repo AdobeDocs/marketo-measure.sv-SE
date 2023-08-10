@@ -3,7 +3,8 @@ unique-page-id: 18874732
 description: Bästa metoder för att konfigurera UTM-parametrar - [!DNL Marketo Measure] - Produktdokumentation
 title: Metodtips för att konfigurera UTM-parametrar
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: UTM Parameters
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Du kan använda [Google URL Builder](https://support.google.com/analytics/answer
 
 **utm_medium**: Det här fältet mappas till fältet Medel. Använd utm_medium för att beteckna högnivåkanalen.
 
-t.ex. [!UICONTROL Social], CPC, e-post, webb, organisk
+exempelvis, [!UICONTROL Social], CPC, e-post, webb, organisk
 
 Använd inte det här fältet för att anropa underkanalen.
 
@@ -40,7 +41,7 @@ t.ex. AU_Idea_for_an_App_50k
 
 **utm_content**: Detta mappas till annonsinnehåll. Använd annonstiteln i parametern utm_content. Om det är en bildannons använder du annonsrubriken och inkluderar annonsdimensionerna.
 
-t.ex. [annonsrubrik] 200x400px
+exempelvis, [annonsrubrik] 200x400px
 
 **utm_term**: Detta mappas till Nyckelordstext. Använd den här parametern för att ange nyckelordet som är relaterat till annonsens bränning.
 
@@ -54,7 +55,7 @@ Vi tror att UTM-hierarkin ser ut så här:
 
 Medel > [!UICONTROL Source] > [!UICONTROL Campaign] > [!UICONTROL Content/Term]
 
-t.ex. om [!UICONTROL display] och som finns på Facebook rekommenderar vi följande:
+t.ex. om [!UICONTROL display] och har placerats i Facebook rekommenderar vi följande:
 
 fakewebsite.com/
 

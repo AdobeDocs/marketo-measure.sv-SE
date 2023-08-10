@@ -3,7 +3,8 @@ unique-page-id: 37356395
 description: "[!DNL Marketo Engage] Integrering av människor - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Engage] Integrering av människor"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 0%
@@ -110,11 +111,11 @@ Eftersom den här integreringen gör det möjligt för oss att skapa kontaktytor
 
 **Hur ersätter detta mina data?**
 
-Den här integreringen sammanfogar datauppsättningarna i din nuvarande [!DNL Marketo Measure] så att inget ersätts. Det vi förväntar oss av era nuvarande CRM-leads är att vi när vi laddar ned Marketo Leads tvåårsvärde helt enkelt uppdaterar denna lead-post för att visa att det också fanns en matchning mot en Marketo Lead. Att allt händer i backend-objektet och att kontaktytorna förväntas förbli desamma. Vi förväntar oss också fler kontaktytor tack vare Marketo Leads. Om vi kan hitta webbsessioner som matchar Marketo-folk börjar vi se kontaktytorna räknas i [!DNL Marketo Measure].
+Den här integreringen sammanfogar datauppsättningarna i din nuvarande [!DNL Marketo Measure] -instans så att inget ersätts. Det vi förväntar oss av era nuvarande CRM-leads är att vi när vi laddar ned Marketo Leads tvåårsvärde helt enkelt uppdaterar denna lead-post för att visa att det också fanns en matchning mot en Marketo Lead. Att allt händer i backend-objektet och att kontaktytorna förväntas förbli desamma. Vi förväntar oss också fler kontaktytor tack vare Marketo Leads. Om vi kan hitta webbsessioner som matchar Marketo-folk börjar vi se kontaktytorna som räknas i [!DNL Marketo Measure].
 
 **Kan jag bara hämta mina medarbetare från Marketo och stänga av CRM-anslutningen?**
 
-För tillfället, nej. Vi kommer att ha det här alternativet i framtiden, men vi måste bygga ut andra faser av den här Marketo-integreringen så att vi kan koppla program, möjligheter och avtal från Marketo till [!DNL Marketo Measure].
+För tillfället, nej. Vi kommer att ha det här alternativet i framtiden, men vi måste bygga ut andra faser av denna Marketo-integration så att vi kan koppla program, möjligheter och avtal från Marketo till [!DNL Marketo Measure].
 
 **Importerar ni ALLA mina Marketo-användare?**
 

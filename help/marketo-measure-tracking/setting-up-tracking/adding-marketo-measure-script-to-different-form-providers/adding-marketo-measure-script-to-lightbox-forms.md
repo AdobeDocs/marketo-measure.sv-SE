@@ -3,7 +3,8 @@ unique-page-id: 18874519
 description: Lägger till [!DNL Marketo Measure] Skript till ljuslåda Forms - [!DNL Marketo Measure] - Produktdokumentation
 title: Lägger till [!DNL Marketo Measure] Skript till Lightroom Forms
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Placera sedan [!DNL Marketo Measure] JavaScript i iFrame.
 
 När JavaScript läggs till rekommenderar vi att du kontrollerar formulärinskickade formulär enligt följande:
 
-1. Kopiera URL-adressen till den landningssida som innehåller [!UICONTROL lightbox] formulär.
+1. Kopiera URL-adressen till landningssidan med [!UICONTROL lightbox] formulär.
 1. Öppna en Incognito-webbläsare och klistra in URL:en.
 1. Skicka formuläret med en unik e-postadress.
 1. Bekräfta att testet spårades genom att kontrollera CRM för den unika e-postadressen som användes, kontrollera att data från kontaktpunkten fylls i.

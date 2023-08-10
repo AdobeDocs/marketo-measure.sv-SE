@@ -3,7 +3,8 @@ unique-page-id: 18874718
 description: Skapa en kampanjlistvy för [!DNL Salesforce Campaigns] - [!DNL Marketo Measure] - Produktdokumentation
 title: Skapa en kampanjlistvy för [!DNL Salesforce] Kampanjer
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Lär dig hur du skapar en listvy för kampanjer som du vill synkronisera med Buyer Touchpoints.
 
-I kampanjlistvyn som kan skapas kan du ha en&quot;gå till&quot;-plats där du kan se och hantera fälten&quot;Typ&quot; och&quot;Aktivera slutpunkter för köpare&quot; för att se till att var och en av dina [!DNL Salesforce] kampanjer som informerar era offline-marknadsföringskanaler är korrekt konfigurerade.
+I kampanjlistvyn som kan skapas kan du ha en&quot;gå till&quot;-plats där du kan se och hantera fälten&quot;Typ&quot; och&quot;Aktivera slutpunkter för köpare&quot; för att se till att var och en av dina [!DNL Salesforce] kampanjer som informerar era offlinemarknadsföringskanaler är korrekt konfigurerade.
 
 1. Gå till fliken Campaigns i [!DNL Salesforce] och skapa en ny listvy
 1. Ge vyn namnet&quot;Kampanjer att synkronisera med [!DNL Marketo Measure].&quot;
@@ -23,9 +24,9 @@ I kampanjlistvyn som kan skapas kan du ha en&quot;gå till&quot;-plats där du k
    * **Typ** [LIKA MED] &#39;Alla kampanjtyper som vi har mappat till era offlinekanaler&#39;. Se din implementeringsplan eller fliken Offlinekanaler i [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mitt konto -> Inställningar -> Offlinekanaler). Du kan välja vilka typer du vill använda (de som mappas till en offline-marknadsföringskanal) via förstoringsglaset.
 
       * Välj max 3 typer för varje filter. Det finns en gräns för hur många tecken du kan ha i ett filterfält. Börja med 3 typer per filter och lägg till ytterligare rader med Type-filter om det behövs.
+
    * **Skapad den** [STÖRRE ELLER LIKA] din [!DNL Marketo Measure] startdatum. Du hittar startdatumet på kontrollpanelen för avkastning på investering i [!DNL Marketo Measure] App. Välj &quot;Sedan skapad den&quot; i datumintervallet för strecket så visas startdatumet.
    * **&#42;Posttyp&#42;** - Om du vill redigera i listvyn måste du lägga till ett filter för Posttyp. Alla kampanjposter som du kan behöva redigera måste vara av samma posttyp.
-
 
 1. Redigera dina markerade fält så att de visas i listvyn. Den fullständiga konfigurationen av listvyn ska se ut som i exemplet nedan:
 

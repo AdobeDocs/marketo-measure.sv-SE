@@ -2,7 +2,8 @@
 description: "[!DNL Marketo Measure] Integrering med Adobe Analytics - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Integrering med [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Integreringen av B2B-kundattribut möjliggör för användare av [!DNL Marketo M
 
    Observera följande information som du behöver för några av de senare stegen i processen:
 
-   * Alias-ID, som kan vara vilket värde som helst som du vill att det ska vara. Vi rekommenderar&quot;marketomeasure_id&quot;
+   * Alias-ID, som kan vara vilket värde som helst. Vi rekommenderar&quot;marketomeasure_id&quot;
 
    * FTP-serverns värdnamn och autentiseringsuppgifter (användarnamn och lösenord)
 
@@ -33,9 +34,9 @@ Integreringen av B2B-kundattribut möjliggör för användare av [!DNL Marketo M
 
    Du måste också ange ditt Adobe IMS-org-ID. Detta ID visas i det nedre högra hörnet av Adobe Experience Cloud Admin Console. Om du vill ha mer hjälp med att hitta det här ID:t kontaktar du kontoteamet (din kontoansvarige) på Adobe.
 
-1. När du har skapat anslutningen i [!DNL Marketo Measure] måste du gå tillbaka till Experience Cloud-konsolen för att kunna [validera schemat](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). Du behöver inte bekymra dig om FTP-filöverföringen, [!DNL Marketo Measure] har automatiserat den delen åt dig. Allt du behöver göra är att gå till schemaskärmen Visa/redigera för den Customer Attribute Source du skapade i steg 1 och tala om för Adobe vilka datatyper som finns för vart och ett av attributen [!DNL Marketo Measure] har överförts åt dig. Du kan också skapa nya visningsvänliga namn för de överförda attributen om du vill.
+1. När du har skapat anslutningen i [!DNL Marketo Measure] måste du gå tillbaka till din Experience Cloud-konsol för att kunna [validera schemat](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). Du behöver inte bekymra dig om FTP-filöverföringen, [!DNL Marketo Measure] har automatiserat den delen åt dig. Allt du behöver göra är att gå till schemaskärmen Visa/redigera för den Customer Attribute Source du skapade i steg 1 och tala om för Adobe vilka datatyper som finns för vart och ett av attributen [!DNL Marketo Measure] har överförts åt dig. Du kan också skapa nya visningsvänliga namn för de överförda attributen om du vill.
 
-   Om du har valt att synkronisera attribut från CRM-kontoobjektet rekommenderar vi att du väljer nya visningsnamn för dem, som [!DNL Marketo Measure] fyller bara i API-nivånamn för dessa attribut, som vanligtvis inte är rapporteringsvänliga.
+   Om du har valt att synkronisera attribut från CRM-kontoobjektet rekommenderar vi att du väljer nya visningsnamn för dem, som [!DNL Marketo Measure] kommer endast att fylla i API-nivånamn för dessa attribut, som vanligtvis inte är rapporteringsvänliga.
 
 1. Det sista steget är att konfigurera attributprenumerationer för de Experience Cloud-program som du vill använda attributen i.  Du kan konfigurera prenumerationer för [!DNL Adobe Analytics] eller [!DNL Adobe Target].  Mer information om hur du gör det [finns här](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html).
 
@@ -63,7 +64,7 @@ Förutom de som listas nedan kan du även överföra attribut som är kopplade t
   <tr> 
    <td>Attribuerad intäkt -¡ MODEL›</td> 
    <td>Intäkterna som tillskrivs den här kunden genom deras koppling till stängda affärsmöjligheter i CRM, enligt beräkning i [!DNL Marketo Measure] attribueringsmotor.<br/>
-   Det kommer att finnas ett av dessa attribut för varje attribueringsmodell som [!DNL Marketo Measure] prenumerationer är tillåtna (t.ex. "Attributed Revenue - Full Path").</td>
+   Det finns ett av dessa attribut för varje attribueringsmodell som [!DNL Marketo Measure] prenumerationer är tillåtna (t.ex. "Attributed Revenue - Full Path").</td>
   </tr>
   <tr> 
    <td>Fördjupad trattfas</td> 
@@ -92,6 +93,6 @@ Med tanke på ovanstående rekommenderar vi att du är så inkluderande som möj
 
 **Vilka är några exempel på användningsexempel för den här integreringen?**
 
-1. Kontobaserade trafikvärden: Med hjälp av attributet för kontonamn kan du skapa segment för ett eller flera målkonton i Adobe Analytics och analysera platstrafiken för endast den delmängd av trafiken som kommer från målkonton.
+1. Kontobaserade trafikmått: Med attributet kontonamn kan du skapa segment för ett eller flera målkonton i Adobe Analytics och analysera platstrafikstatistik för endast den delmängd av trafiken som kommer från målkonton.
 1. Innehållsanalys: Använd intäktsmåtten för att analysera vilket webbplatsinnehåll som är mest engagerande för kunder som till slut köper en produkt eller tjänst, eller för dem som uppnår ett visst trattstadium.
-1. Live-deal: Ge säljteamet användbar information genom att analysera webbplatsbeteenden för användare som är kopplade till en viss öppen affärsmöjlighet i CRM.
+1. Live-deal-support: Förse säljteamet med åtgärdbar kunskap genom att analysera webbplatsbeteenden för användare som är kopplade till en viss öppen affärsmöjlighet i CRM.

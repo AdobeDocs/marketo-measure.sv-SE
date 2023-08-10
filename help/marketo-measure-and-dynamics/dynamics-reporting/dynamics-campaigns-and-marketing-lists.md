@@ -3,7 +3,8 @@ unique-page-id: 18874610
 description: Dynamics-kampanjer och marknadsföringslistor - [!DNL Marketo Measure] - Produktdokumentation
 title: Dynamics-kampanjer och marknadsföringslistor
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 0%
@@ -62,7 +63,7 @@ Marknadsföringslistor är ett annat sätt att inkludera leads eller kontakter i
 
 ![](assets/6.png)
 
-Skärmbilden ovan är en marknadsföringslista för leads. Marknadsföringslistor är kopplade till kampanjer och kan kopplas till flera kampanjer. Såvida ni inte bara skapar en marknadsföringslista för en kampanj, [!DNL Marketo Measure] rekommenderar inte att kunder använder marknadsföringslistor för att spåra sina kampanjer. Det är osannolikt att samma exakta lista över leads/kontakter skulle vara berättigad till kontaktytor i flera kampanjer.
+Skärmbilden ovan är en marknadsföringslista för leads. Marknadsföringslistor är kopplade till kampanjer och kan associeras med flera kampanjer. Såvida ni inte bara skapar en marknadsföringslista för en kampanj, [!DNL Marketo Measure] rekommenderar inte att kunder använder marknadsföringslistor för att spåra sina kampanjer. Det är osannolikt att samma exakta lista över leads/kontakter skulle vara berättigad till kontaktytor i flera kampanjer.
 
 ## Aktivera kontaktpunkter {#enable-touchpoints-1}
 
@@ -72,7 +73,7 @@ Om du vill aktivera en marknadsföringslista för kontaktytor finns det en separ
 
 ## Kontaktpunktsdatum {#touchpoint-date-1}
 
-Slutpunktsdatumet för en marknadsföringslista är vanligtvis det datum då ListMember skapades, så det datum då lead eller kontakt lades till i marknadsföringslistan. Det kan åsidosättas om det anpassade fältet från den installerade lösningen med etiketten&quot;Buyer Touchpoint Date&quot; (Köparens slutpunktsdatum) fylls i. Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
+Slutpunktsdatumet för en marknadsföringslista är vanligtvis det datum då ListMember skapades, så det datum då lead eller kontakt lades till i marknadsföringslistan. Den kan åsidosättas om det anpassade fältet från den installerade lösningen med etiketten&quot;Buyer Touchpoint Date&quot; (Köparens slutpunktsdatum) fylls i. Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
 
 ![](assets/8.png)
 

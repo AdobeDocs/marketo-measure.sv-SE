@@ -3,7 +3,8 @@ unique-page-id: 18874660
 description: Frågor och svar - [!DNL Marketo Measure] - Produktdokumentation
 title: Vanliga frågor
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Vanliga frågor {#faq}
 
-[!DNL Marketo Measure Discover]: Frågor och svar.
+[!DNL Marketo Measure Discover]: Vanliga frågor.
 
 **Hur sparar jag filtren i en rapport?**
 
@@ -30,7 +31,7 @@ Dessa mätvärden finns endast på betalmediapanelen.
 
 En av funktionerna i tillväxtpanelen är att du inte kan gruppera trenddiagram efter en dimension, som Channel eller Campaign. Vi har inte dessa data tillgängliga på sidvisningsnivå eftersom sidvyer inte alltid har en källa som Channel eller Campaign eftersom de inträffar mitt i webbbesöken. Använd betald media eller webbtrafik för att visa sidvisningsdata.
 
-**När jag ändrar grupperingen är summorna inte alltid lika stora. Varför det?**
+**När jag ändrar grupperingen är summorna inte alltid lika stora. Varför är det så?**
 
 Det finns inga värden för varje enskild datahierarki eftersom hierarkin inte alltid är ett tydligt klippflöde. Om till exempel kostnaderna rapporteras själv eller importeras från en annonsleverantör kan den totala kostnaden för Kanal 1 vara 10 000 USD, men per enskild kampanj har bara 500 USD rapporterats, så när grupperingen ändras mellan Kanal och Campaign varierar totalsumman.
 
@@ -60,7 +61,7 @@ Dessa är endast spårade formulärfyllningar.
 
 **Vilka är fördelarna med Discover framför Åtgärd?**
 
-[!DNL Marketo Measure Discover] ger bättre funktionalitet, till exempel detaljgranskning, och bättre filtrering, till exempel delkanaler och kanaler. Vi solerar också måttet en tid 2019.
+[!DNL Marketo Measure Discover] ger bättre funktionalitet, till exempel detaljrikedom, och bättre filtrering, till exempel delkanaler och kanaler. Vi solerar också måttet en tid 2019.
 
 **I måttet kunde jag filtrera efter annonsgrupp och konto när de filtrerades till annonskonton - hur ser jag detta i Discover?**
 

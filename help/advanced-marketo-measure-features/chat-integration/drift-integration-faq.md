@@ -3,7 +3,8 @@ unique-page-id: 27656441
 description: Vanliga frågor om integrering av drivrutiner - [!DNL Marketo Measure] - Produktdokumentation
 title: Vanliga frågor om integrering av drivrutiner
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Som en del av [!DNL Marketo Measure] integrering med Drift har vi skissat upp n�
 
 **Hur är integreringen aktiverad?**
 
-Håll reda på chatt för [!DNL Marketo Measure] är aktiverat som standard. Om du av någon anledning vill inaktivera den (och inte skapa kontaktpunkter från chatt med drivrutiner som standard) behöver vi ett extra attribut till din [!DNL Marketo Measure] Javascript-implementering, fet nedan:
+Håll reda på chatt för [!DNL Marketo Measure] är aktiverat som standard. Om du av någon anledning vill inaktivera den (och inte skapa kontaktpunkter från chatt med drivrutiner som standard) behöver du ett extra attribut till din [!DNL Marketo Measure] Javascript-implementering, fet nedan:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" id="bizible-settings" data-chatEnabled="false"></script>`
 

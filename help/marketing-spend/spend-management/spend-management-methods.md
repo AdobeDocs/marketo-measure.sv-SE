@@ -2,7 +2,8 @@
 description: Metoder för utgiftshantering - [!DNL Marketo Measure] - Produktdokumentation
 title: Metoder för utgiftshantering
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Spend Management
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -17,7 +18,7 @@ Det finns tre sätt att få in utgiftsdata i [!DNL Marketo Measure]. Varje metod
 
 **1) API-anslutna konton**
 
-Alla annonskonton som du har anslutit till [!DNL Marketo Measure] genom ett API får man automatiskt pengarna [!DNL Marketo Measure] för avkastningsrapportering. Om du vill kontrollera vilka konton du har kopplat in och därmed ta in utgifter går du till [!DNL Marketo Measure] App och välj [!UICONTROL Connections] under [!UICONTROL Integrations] -avsnitt. Mer information om hur du konfigurerar dina API-anslutningar finns i [Integrerade annonsplattformar](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) artikel.
+Alla annonskonton som du har anslutit till [!DNL Marketo Measure] genom ett API kan man få pengarna tillbaka till [!DNL Marketo Measure] för avkastningsrapportering. Om du vill kontrollera vilka konton du har kopplat in och därmed ta in utgifter går du till [!DNL Marketo Measure] App och välj [!UICONTROL Connections] under [!UICONTROL Integrations] -avsnitt. Mer information om hur du konfigurerar dina API-anslutningar finns i [Integrerade annonsplattformar](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) artikel.
 
 **2) CRM Campaign Cost Sync**
 

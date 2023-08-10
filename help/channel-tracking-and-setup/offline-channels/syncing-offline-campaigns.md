@@ -3,7 +3,8 @@ unique-page-id: 18874600
 description: Synkroniserar offlinekampanjer - [!DNL Marketo Measure] - Produktdokumentation
 title: Synkronisera offlinekampanjer
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -12,13 +13,13 @@ ht-degree: 0%
 
 # Synkronisera offlinekampanjer {#syncing-offline-campaigns}
 
-Det kan vara svårt att spåra offlinekampanjer korrekt och förstå hur de står sig jämfört med era digitala marknadsföringssatsningar. [!DNL Marketo Measure] gör det möjligt att spåra och tilldela kontaktytor till offlinekampanjer i [!DNL Salesforce], även i situationer när en [!DNL Salesforce] kampanjen skapas inte förrän några veckor efter händelsen.
+Det kan vara svårt att spåra offlinekampanjer korrekt och förstå hur de står sig jämfört med era digitala marknadsföringssatsningar. [!DNL Marketo Measure] gör det möjligt att spåra och tilldela kontaktytor till offlinekampanjer i [!DNL Salesforce], även i situationer när en [!DNL Salesforce] kampanjen skapas inte förrän några veckor efter evenemanget.
 
 ## Innan du synkroniserar {#before-you-sync}
 
 Här följer några tips om en effektiv synkroniseringsprocess:
 
-* Offlinekampanjer avser marknadsföringsinteraktioner som inte sker online. Dessa omfattar marknadsföringskanaler som event, webbinarier och mässor. Inkludera endast offlinemarknadsföringskampanjer.
+* Offlinekampanjer avser marknadsföringsinteraktioner som inte sker online. Dessa omfattar marknadsföringskanaler som event, webbinarier och mässor. Inkludera endast offline-marknadsföringskampanjer.
 * Om du vill inkludera kampanjer som spårade onlineaktiviteter innan du installerade [!DNL Marketo Measure]ska du ange slutdatumet för slutpunkten som det datum då JavaScript distribuerades på din webbplats.
 * Det är praktiskt att behålla [!DNL Marketo Measure] appen öppnas på sidan Offlinekanaler så att det är enkelt att identifiera de olika kampanjtyperna, tillsammans med vilken marknadsföringskanal som kontaktytorna ska paketeras i.
 
@@ -30,7 +31,7 @@ I [!DNL Salesforce]anger fältet Skapat den i Campaign-medlemsobjektet det datum
 
 Varför är detta viktigt? Tänk dig att ert företag sponsrade en monter på en konferens i januari. På konferensen visade 100 personer intresse för din produkt och tillhandahöll sin kontaktinformation för att få uppdateringar via e-post. Tre veckor senare skapade ni äntligen en kampanj på [!DNL Salesforce] för att följa upp resultatet av konferensen.
 
-Ditt överföringsdatum skulle vara tre veckor senare än konferensdatumet. För att åtgärda den här skillnaden [!UICONTROL Bulk Update Touchpoint Date] kan användas för att ange rätt datum. Knappen visas i bilden nedan.
+Ditt överföringsdatum skulle vara tre veckor senare än konferensdatumet. För att åtgärda den här skillnaden [!UICONTROL Bulk Update Touchpoint Date] kan användas för att ställa in rätt datum. Knappen visas i bilden nedan.
 
 ![](assets/1-3.png)
 
@@ -71,4 +72,4 @@ När en av dessa markeringar har valts, [!DNL Marketo Measure] tilldelar varje k
 >
 >[[!DNL Marketo Measure] Universitet: Mappa offlinekanaler](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
 >
->[[!DNL Marketo Measure] Universitet: Kampanjobjektfält](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Universitet: fält för kampanjobjekt](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)

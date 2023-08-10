@@ -3,7 +3,8 @@ unique-page-id: 37357059
 description: OAuth med [!DNL Azure Active Directory] för Dynamics CRM - [!DNL Marketo Measure] - Produktdokumentation
 title: OAuth med [!DNL Azure Active Directory] för Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Den här inställningen är till för nya [!DNL Marketo Measure] kunder som anv�
 
    ![](assets/setup-5.png)
 
-1. Följ instruktionerna och skapa ett nytt program. Det spelar ingen roll om det är ett webbprogram eller ett offentligt klientprogram (mobil och dator), men om du vill ha specifika exempel för webbprogram eller offentliga klientprogram ska du ta en titt på [snabbstarter](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-overview).\
+1. Följ instruktionerna och skapa ett nytt program. Det spelar ingen roll om det är ett webbprogram eller ett offentligt klientprogram (mobil och dator), men om du vill ha specifika exempel för webbprogram eller offentliga klientprogram ska du kolla in våra [snabbstarter](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-overview).\
    a. Namn är programnamnet och beskriver programmet för slutanvändarna.\
    b. Under Kontotyper som stöds väljer du Konton i valfri organisationskatalog och personliga Microsoft-konton.\
    c. Ange omdirigerings-URI. För webbprogram är detta den grundläggande URL:en för ditt program där användare kan logga in. Exempel, `http://localhost:12345`. För offentlig klient (mobil och dator) använder Azure AD den för att returnera tokensvar. Ange ett värde som är specifikt för programmet. Exempel, `http://MyFirstAADApp`.
@@ -53,7 +54,7 @@ Den här inställningen är till för nya [!DNL Marketo Measure] kunder som anv�
 
    ![](assets/setup-9.png)
 
-1. Lägg till [!DNL Marketo Measure] omdirigerings-URL:er: `https://apps.bizible.com/OAuth2` och `https://apps.bizible.com/OAuth2?identityOnly=true` till listan över omdirigerings-URL:er.
+1. Lägg till [!DNL Marketo Measure] omdirigerings-URL: `https://apps.bizible.com/OAuth2` och `https://apps.bizible.com/OAuth2?identityOnly=true` till listan över omdirigerings-URL:er.
 
    ![](assets/setup-10.png)
 
@@ -99,7 +100,6 @@ När programregistreringen är klar kan en programanvändare skapas.
    >
    >* I fältet Program-ID anger du program-ID:t för det program du registrerade tidigare i Azure AD.
 
-
 1. Om inställningarna är korrekta, efter att du har valt **[!UICONTROL Save]**, **[!UICONTROL Application ID URI]** och **[!UICONTROL Azure AD Object Id]** fält fylls i automatiskt med korrekta värden.
 
 1. Innan du avslutar användarformuläret väljer du **[!UICONTROL Manage Roles]** och tilldela en säkerhetsroll till den här programanvändaren så att programanvändaren kan komma åt önskad organisationsinformation.
@@ -118,7 +118,7 @@ b. Klienthemlighet är den programhemlighet som skapas i Azure Portal för ditt 
 
 c. Program-ID-URI är URL:en för mål-webb-API:t (skyddad resurs). Om du vill hitta app-ID-URL:en i Azure Portal klickar du på [!DNL Azure Active Directory], klickar du på Programregistreringar, öppnar programmets inställningssida och klickar sedan på Egenskaper. Det kan också vara en extern resurs som `https://graph.microsoft.com`. Detta är vanligtvis Dynamics-instansens URL.
 
-1. När du har klickat **[!UICONTROL Submit]** blir du ombedd att logga in med [!DNL Azure Active Directory]. När autentiseringen är slutförd ansluts ditt Dynamics-konto som dataleverantör inom [!DNL Marketo Measure].
+1. När du klickat **[!UICONTROL Submit]** blir du ombedd att logga in med [!DNL Azure Active Directory]. När autentiseringen är slutförd ansluts ditt Dynamics-konto som dataleverantör inom [!DNL Marketo Measure].
 
 ## Autentiserar ditt Dynamics-konto igen {#re-authenticating-your-dynamics-account}
 
@@ -130,4 +130,4 @@ c. Program-ID-URI är URL:en för mål-webb-API:t (skyddad resurs). Om du vill h
 
    ![](assets/re-authenticating-3.png)
 
-1. När du har klickat **[!UICONTROL Submit]** blir du ombedd att logga in med [!DNL Azure Active Directory]. När autentiseringen är klar kommer ditt Dynamics-konto att återauktoriseras inom [!DNL Marketo Measure].
+1. När du klickat **[!UICONTROL Submit]** blir du ombedd att logga in med [!DNL Azure Active Directory]. När autentiseringen är klar kommer ditt Dynamics-konto att återauktoriseras inom [!DNL Marketo Measure].

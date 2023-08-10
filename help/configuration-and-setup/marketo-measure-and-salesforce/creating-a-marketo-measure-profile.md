@@ -3,7 +3,8 @@ unique-page-id: 18874698
 description: Skapa en [!DNL Marketo Measure] Profil - [!DNL Marketo Measure] - Produktdokumentation
 title: Skapa en [!DNL Marketo Measure] Profil
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Skapa en [!DNL Marketo Measure] Profil {#creating-a-marketo-measure-profile}
 
-Lär dig hur du skapar en [!DNL Marketo Measure] profil. Skapa en [!DNL Marketo Measure] profiler säkerställer att vi inte stöter på valideringsfel när vi överför data till CRM.
+Lär dig skapa en [!DNL Marketo Measure] profil. Skapa en [!DNL Marketo Measure] profiler säkerställer att vi inte stöter på valideringsfel när vi överför data till CRM.
 
 1. Skapa en specifik [!DNL Marketo Measure] profil:
 

@@ -3,7 +3,8 @@ unique-page-id: 42762729
 description: "[!DNL Marketo Engage] Programintegrering - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Engage] Programintegrering"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -60,7 +61,7 @@ Den färdiga regeln ska se ut ungefär så här:
 
 När du har skapat några regler kanske du vill testa dem för att verifiera att satsen matchar dina program.
 
-1. Klicka på **[!UICONTROL TEST]** enligt nedan.
+1. Om du vill köra ett test klickar du på **[!UICONTROL TEST]** enligt nedan.
 
    ![](assets/seven.png)
 
@@ -86,7 +87,7 @@ I listan över Marketo-programkanaler vill du mappa värdena till [!DNL Marketo 
 
 1. Överst har du möjlighet att mappa till dina CRM-kampanjtyper. Nedan visas alternativen för Marketo-programkanalerna.
 
-1. Markera först den kanal som ska mappas till värdet och välj sedan delkanalen om du vill. När du är klar klickar du på **[!UICONTROL Save]** längst ned.
+1. Markera först den kanal som ska mappas till värdet och välj sedan delkanalen om du vill. När du är klar klickar du **[!UICONTROL Save]** längst ned.
 
    ![](assets/eleven.png)
 
@@ -140,11 +141,11 @@ Genom dataimporten av Marketo-program laddas kostnaderna automatiskt ned från P
 
 Som ett resultat av [!DNL Marketo Measure] integrering med Marketo, [!DNL Marketo Measure] Cookie-ID har nu också mappats och synkroniserats med [!DNL Marketo Munchkin Id]. Detta gör att luckan stängs så att den anonyma första beröringen kan kopplas till en webbsession i stället för att både FT- och LC-beröringen tilldelas en Marketo-aktivitet. Tänk dig detta scenario:
 
-Markera klickningar på en [!DNL Facebook] och får mark på waynecompanies.com där han blir tillrättavisad [!DNL Marketo Measure] ID 123 och [!DNL Marketo Munchkin Id] 456. Ingen formulärifyllning sker.
+Markera klickar på en [!DNL Facebook] och får plats på wayneenterprises.com där han eller hon kan komma till [!DNL Marketo Measure] ID 123 och [!DNL Marketo Munchkin Id] 456. Ingen formulärifyllning sker.
 
 Wayne Enterprises Marketing-teamet skickar ett e-postmeddelande till specifika riktade leads, där en av dem `mark@email.com`.
 
-`mark@email.com` får e-post och klickningar igenom och får plats på wayneCompanies.com. Detta blir `mark@email.com's` andra besök på `wayneenterprise.com` med samma cookie-ID, men det fanns ingen formulärfyllning, så att [!DNL Marketo Measure]är de fortfarande anonyma besökare.
+`mark@email.com` får e-post och klickningar igenom och får plats på wayneenterprises.com. Detta blir `mark@email.com's` andra besök på `wayneenterprise.com` med samma cookie-ID, men det fanns ingen formulärfyllning, så att [!DNL Marketo Measure]är de fortfarande anonyma besökare.
 
 Wayne Enterprises Marketing-teamet skapar en aktivitetsregel för Marketo för att generera kontaktytor för aktivitetstypen&quot;Click Email&quot;.
 
@@ -160,7 +161,7 @@ Tack vare den här förbättringen av cookie-mappningen går FT tillbaka och få
 
 **Hur anger jag att slutpunktsdatumet ska vara progressionsdatumet eller datumet då statusändringen inträffade för min programmedlem?**
 
-Om din regel vill hämta aktivitetsdatumet, eller det datum då en programmedlem uppnådde en viss status, vill du använda [!DNL Marketo Engage] Aktivitetsintegrering och ange en regel för aktivitetstypen Ändra status i progression. I annat fall visas [!DNL Marketo Engage] Programintegrering gör bara Datum för medlemskap tillgängligt, vilket är det första datumet som tog med Marketo-personen till programmet, även om det finns flera statusar.
+Om din regel vill hämta aktivitetsdatumet, eller det datum då en programmedlem uppnådde en viss status, vill du använda [!DNL Marketo Engage] Aktivitetsintegrering och ange en regel för aktivitetstypen Ändra status i progression. I annat fall [!DNL Marketo Engage] Programintegrering gör bara Datum för medlemskap tillgängligt, vilket är det första datumet som tog med Marketo-personen till programmet, även om det finns flera statusar.
 
 **Kan jag få en lista med datumalternativ för slutpunktsdatumet?**
 

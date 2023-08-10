@@ -3,7 +3,8 @@ unique-page-id: 18874604
 description: Anpassad segmentering - [!DNL Marketo Measure] - Produktdokumentation
 title: Anpassad segmentering
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: e3a2ef7a305fff4edb6b0f21861c1ef5516212b8
+feature: Segmentation
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -36,7 +37,7 @@ Steg 2 - Logga in och hitta segmentfunktionen.
 
 Steg 3 - Förstå komponenterna.
 
-* Använd den här teckenförklaringen för att förstå de olika ikoner som finns på den här sidan
+* Använd den här teckenförklaringen för att förstå de olika ikoner som finns på sidan
 
 ![](assets/1.png)
 
@@ -70,7 +71,7 @@ Steg 4 - Lägg till filterregler.
 
 Om inga regler har ställts in för både Leads/Kontakter och Affärsmöjligheter visas bara en del av dina data. Om du inte konfigurerar säljprojektsreglerna kan du bara se lead-/kontaktdata utan tillhörande säljprojekt. Detsamma gäller om du inte ställer in regler för Leads/Kontakter. Du kan bara se Möjligheter utan associerade Leads/Kontakter.
 
-När du är klar klickar du på [!UICONTROL Save] dubbelkontrollera först allt och klicka sedan på [!UICONTROL Save and Process]. Kom ihåg att du inte kan redigera inställningarna på sju dagar när du sparar och bearbetar som [!DNL Marketo Measure] formaterar om data under tiden.
+När du är klar klickar du [!UICONTROL Save] dubbelkontrollera allt och klicka sedan [!UICONTROL Save and Process]. Kom ihåg att du inte kan redigera inställningarna på sju dagar när du sparar och bearbetar som [!DNL Marketo Measure] formaterar om dina data under den här tiden.
 
 **Hur sparar jag de genererade rapporterna?**
 

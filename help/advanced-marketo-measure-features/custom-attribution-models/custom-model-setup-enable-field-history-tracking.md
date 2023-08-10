@@ -3,18 +3,19 @@ unique-page-id: 18874777
 description: Anpassad modellinställning - Aktivera spårning av fälthistorik - [!DNL Marketo Measure] - Produktdokumentation
 title: Anpassad modellinställning - Aktivera spårning av fälthistorik
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Models
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
-# Anpassade modellinställningar: Aktivera spårning av fälthistorik {#custom-model-setup-enable-field-history-tracking}
+# Anpassad modellinställning: Aktivera spårning av fälthistorik {#custom-model-setup-enable-field-history-tracking}
 
 ## Varför och när spårning av fälthistorik ska aktiveras {#why-and-when-to-enable-field-history-tracking}
 
-Om du bestämmer dig för att ta med ett anpassat fält som en fas i din anpassade attribueringsmodell, spårning av fälthistorik **måste vara aktiverat** för detta fält. Aktivering av spårning av fälthistorik tillåter [!DNL Salesforce] om du vill spåra varje gång det anpassade fältet redigeras genom att skapa en post i historikspårningstabellen. [!DNL Marketo Measure] kan hämta tabellen och använda den här informationen för att mäta när och när en övergång inträffade. Utan spårning av fälthistorik [!DNL Marketo Measure] kan inte spåra ändringar som rör det här fältet.
+Om du bestämmer dig för att ta med ett anpassat fält som en fas i din anpassade attribueringsmodell, spårning av fälthistorik **måste vara aktiverat** för detta fält. Aktivering av spårning av fälthistorik tillåter [!DNL Salesforce] om du vill spåra varje gång det anpassade fältet redigeras genom att skapa en post i historikspårningstabellen. [!DNL Marketo Measure] kan hämta tabellen och använda den här informationen för att mäta när och när en övergång inträffade. Utan fälthistorikspårning [!DNL Marketo Measure] kan inte spåra ändringar som rör det här fältet.
 
 Endast [!UICONTROL Lead Status] Om du använder säljprojektsstadier i den anpassade modellen behöver du inte aktivera spårning av fälthistorik eftersom den spåras automatiskt som en scenövergång.
 
@@ -30,7 +31,7 @@ Följ instruktionerna nedan om du vill aktivera spårning av fälthistorik.
 
    ![](assets/1.png)
 
-1. Markera de fält där du vill spåra ändringar.
+1. Markera de fält som du vill spåra ändringar i.
 
    ![](assets/2.png)
 

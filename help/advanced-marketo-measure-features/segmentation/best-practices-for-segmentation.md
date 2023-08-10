@@ -2,7 +2,8 @@
 description: Bästa praxis för segmentering - [!DNL Marketo Measure] - Produktdokumentation
 title: Bästa praxis för segmentering
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Segmentation
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Bästa praxis för segmentering {#best-practices-for-segmentation}
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 [!DNL Marketo Measure] Med segmentering kan du definiera regler, som i huvudsak är filter, baserat på dina CRM-fält, för att kunna bugga in dem i enskilda segment. Segmenten kommer sedan att vara tillgängliga för användning på Discover-panelerna samt på [!DNL Salesforce] rapportering.
 
@@ -31,11 +32,11 @@ Oavsett om du definierar segmentering för första gången eller bara granskar d
 * Bygg segmenteringen när det är möjligt på både lead/kontakt och säljprojekt så att du kan använda den i hela tratten
    * Alla segmentkategorier justeras inte i hela tratten
       * En segmentkategori för säljprojektstyp kommer inte att relatera till leads, men ett segment som är relaterat till Region är troligen en kategori som kan definieras genom hela tratten
-* Fundera på hur du för närvarande vill segmentera data, oavsett om det är i CRM- eller BI-verktyget, bör du överväga att skapa detta som ett segment i [!DNL Marketo Measure] så att du kan få samma rapportering i Discover
+* Fundera på hur du för närvarande vill segmentera data, oavsett om det är i CRM- eller BI-verktyget, och överväg att bygga upp detta som ett segment i [!DNL Marketo Measure] så att du kan få samma rapportering i Discover
 
 ## Bästa praxis för underhåll {#best-practice-for-maintenance}
 
-Om du granskar din segmentering minst två gånger per år ser du till att din segmentering är aktuell. Vi rekommenderar att du granskar dina regler i[!UICONTROL Segments]fliken [!DNL Marketo Measure] Kontoinställningar, samt att ta fram rapporter i [!DNL Salesforce] för att granska era segment i praktiken. Dessa steg hjälper dig och ditt team att känna sig säkra på segmenteringen och därefter på att [!DNL Marketo Measure] rapportering.
+Om du granskar din segmentering minst två gånger per år ser du till att din segmentering är aktuell. Vi rekommenderar att du granskar dina regler i[!UICONTROL Segments]fliken &#39; [!DNL Marketo Measure] Kontoinställningar, samt att ta fram rapporter i [!DNL Salesforce] för att granska era segment i praktiken. Dessa steg hjälper dig och ditt team att känna sig säkra på segmenteringen och därefter på att [!DNL Marketo Measure] rapportering.
 
 Andra orsaker till detta kan utlösa en granskning av segmenteringen är ...
 

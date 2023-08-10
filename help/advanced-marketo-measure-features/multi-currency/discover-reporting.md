@@ -3,7 +3,8 @@ unique-page-id: 27656739
 description: Upptäck rapportering - [!DNL Marketo Measure] - Produktdokumentation
 title: Upptäck rapportering
 exl-id: 73e1ffaf-01d0-4454-bd4f-b9e39c33615a
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Multi-Currency, Discover
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%

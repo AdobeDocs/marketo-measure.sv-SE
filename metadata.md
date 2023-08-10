@@ -1,9 +1,10 @@
 ---
 solution: Marketo Measure
+feature-set: Marketo Measure
 type: Documentation
 git-repo: https://github.com/AdobeDocs/marketo-measure.sv-SE
 index: true
-source-git-commit: 2d146e6bfcca72f48495e808275f1fb21759d1a0
+source-git-commit: ce2ce5c5652d4067f50e88b062d7d951b645d93b
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%

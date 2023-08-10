@@ -3,7 +3,8 @@ unique-page-id: 18874564
 description: Definition av [!DNL Marketo Measure] Webbsessioner - [!DNL Marketo Measure] - Produktdokumentation
 title: Definition av [!DNL Marketo Measure] Webbsessioner
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -35,7 +36,7 @@ Det finns några saker som avgör när en session avslutas och när en ny sessio
 
 När Haley besöker adobe.com påbörjas en session. Hon utforskar webbplatsen i några minuter och tar sedan några steg bort från datorn, men lämnar webbplatsen öppen. Efter 30 minuters inaktivitet avslutas sessionen.
 
-För närvarande [!DNL Marketo Measure] hanterar bara sidnavigering och formulärinskickning som aktivitet. Att bläddra genom webbsidan eller hovra över ett element på sidan anses inte vara en aktivitet. Så om Haley besöker adobe.com för att läsa ett blogginlägg, och det tar henne en timme att läsa, avslutas hennes webbsession efter 30 minuter även om hon bläddrar igenom innehållet på sidan.
+För närvarande [!DNL Marketo Measure] hanterar bara sidnavigering och formulärinskickning som aktivitet. Att bläddra genom webbsidan eller hovra över ett element på sidan anses inte vara en aktivitet. Så om Haley besöker adobe.com för att läsa ett blogginlägg, och det tar en timme att läsa, avslutas hennes webbsession efter 30 minuter även om hon bläddrar igenom innehållet på sidan.
 
 ## Kanalbaserad förfallotid {#channel-based-expiration}
 

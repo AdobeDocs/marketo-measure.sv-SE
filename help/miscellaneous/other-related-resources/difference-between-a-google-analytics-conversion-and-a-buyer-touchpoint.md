@@ -3,7 +3,8 @@ unique-page-id: 18874648
 description: Skillnaden mellan en Google Analytics Conversion och en Buyer Touchpoint - [!DNL Marketo Measure] - Produktdokumentation
 title: Skillnaden mellan en Google Analytics Conversion och en Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Skillnaden mellan en Google Analytics Conversion och en Buyer Touchpoint {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
-Lär dig mer om [!DNL Google Analytics (GA)] målet är och hur det skiljer sig från en Buyer Touchpoint.
+Läs vad en [!DNL Google Analytics (GA)] målet är och hur det skiljer sig från en Buyer Touchpoint.
 
 **Vad är Google Analytics Conversion?**
 
@@ -49,7 +50,7 @@ Men mål kan inte kodas för att hantera mycket specifika beteenden. Det finns i
   </tr> 
   <tr> 
    <td>Händelse</td> 
-   <td>En åtgärd som definieras som en händelse utlöses</td> 
+   <td>En åtgärd som definieras som en händelse aktiveras</td> 
    <td>Sociala rekommendationer, videouppspelning och klick</td> 
   </tr> 
  </tbody> 
@@ -74,7 +75,7 @@ Buyer Touchpoints fungerar dock mycket annorlunda.
 [!DNL Marketo Measure] ignorerar Google Analytics-målkonverteringar när:
 
 * En robot skickar in formulär på en webbplats (dessa robotar gör det vanligtvis inte i kundens CRM).
-* En användare skickar fler formulär efter första formulärskickandet. [!DNL Marketo Measure] endast den första konverteringen från den sessionen.
+* En användare skickar fler formulär efter att de har skickat in det första formuläret. [!DNL Marketo Measure] endast den första konverteringen från den sessionen.
 * Användaren klickar flera gånger på när formuläret skickas in. [!DNL Marketo Measure] tar endast hänsyn till den första formulärinlämningen.
 * Användaren läser in tacksidan flera gånger.
 * Användaren använder något annonsblockeringsverktyg.

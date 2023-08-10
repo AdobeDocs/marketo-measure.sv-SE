@@ -3,7 +3,8 @@ unique-page-id: 18874672
 description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interact - Marketo Measure - produktdokumentation
 title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interagera
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 0%
@@ -20,19 +21,19 @@ Låt oss titta på relationen mellan [!DNL Marketo Measure] och Salesforce.
 
 ## Salesforce och [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-När [!DNL Marketo Measure] kontot skapas och [!DNL Salesforce] är ansluten, [!DNL Marketo Measure] kommer att börja skicka marknadsföringsdata till CRM-instansen så länge som [!DNL Marketo Measure] hanterat paket är installerat och [!DNL Marketo Measure] Salesforce-användare har redigeringsbehörigheter.
+När [!DNL Marketo Measure] kontot skapas och [!DNL Salesforce] är ansluten, [!DNL Marketo Measure] börjar skicka marknadsföringsdata till CRM-instansen så länge som [!DNL Marketo Measure] hanterat paket är installerat och [!DNL Marketo Measure] Salesforce-användare har redigeringsbehörigheter.
 
 Om du inte har installerat [!DNL Marketo Measure] Salesforce-paket, [!DNL Marketo Measure] skriver inga data till din Salesforce-instans.
 
 ![](assets/1-3.png)
 
-Som standard [!DNL Marketo Measure] exporterar 200 poster per API-kredit varje gång ett jobb skickar data till din CRM. För de flesta kunder ger detta den optimala balansen mellan API-krediter som används av [!DNL Marketo Measure] och CPU-resurskrav för CRM. För kunder med komplexa CRM-konfigurationer, till exempel arbetsflöden och utlösare, kan en mindre gruppstorlek vara användbar för att förbättra CRM-prestanda. I detta syfte [!DNL Marketo Measure] gör att kunderna kan konfigurera batchstorleken för CRM-export. Den här inställningen är tillgänglig på [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] sidan i [!DNL Marketo Measure] webbprogram och kunder kan välja mellan gruppstorlekar på 200 (standard), 100, 50 eller 25.
+Som standard [!DNL Marketo Measure] exporterar 200 poster per API-kredit varje gång ett jobb skickar data till din CRM. För de flesta kunder ger detta den optimala balansen mellan API-krediter som [!DNL Marketo Measure] och CPU-resurskrav för CRM. För kunder med komplexa CRM-konfigurationer, till exempel arbetsflöden och utlösare, kan en mindre gruppstorlek vara användbar för att förbättra CRM-prestanda. I detta syfte [!DNL Marketo Measure] gör det möjligt för kunder att konfigurera batchstorleken för CRM-export. Den här inställningen är tillgänglig på [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] sidan i [!DNL Marketo Measure] webbprogram och kunder kan välja mellan gruppstorlekar på 200 (standard), 100, 50 eller 25.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
 När du ändrar den här inställningen bör du tänka på att mindre gruppstorlekar förbrukar fler API-krediter från din CRM. Du bör bara minska batchstorleken om du har CPU-timeout eller hög CPU-belastning i CRM.
 
-## Salesforce-standardobjekt och -åtkomst {#salesforce-standard-objects-and-access}
+## Salesforce-standardobjekt och åtkomst {#salesforce-standard-objects-and-access}
 
 I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measure] interagerar med, liksom med de anpassade fält som vi lägger till i dessa objekt när anslutningen har upprättats och [!DNL Marketo Measure] paketet är installerat. Ut ur lådan, [!DNL Marketo Measure] skriver INTE till någon standard [!DNL Salesforce] Objektfält.
 
@@ -296,7 +297,7 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
  </tbody> 
 </table>
 
-**Skiftläge**
+**Case**
 
 <table> 
  <tbody> 

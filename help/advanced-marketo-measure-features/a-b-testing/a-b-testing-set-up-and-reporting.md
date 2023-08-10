@@ -3,7 +3,8 @@ unique-page-id: 18874773
 description: A/B-testkonfiguration och -rapportering - [!DNL Marketo Measure] - Produktdokumentation
 title: A/B-testkonfiguration och -rapportering
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: A/B Testing
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # A/B-testkonfiguration och -rapportering {#a-b-testing-set-up-and-reporting}
 
-The [!DNL Marketo Measure] Tack vare A/B Test-integreringen kan du spåra intäktseffekten i dina [Optimalt](https://optimizely.com/){target="_blank"} och VWO-webbplatsexperiment. I den här artikelhandboken finns anvisningar om hur du lägger till [!DNL Marketo Measure] A/B Test sections to the Lead, [!UICONTROL Contact], skiftläge och [!UICONTROL Opportunity] sidlayouter. Vi kommer även att ta upp allmänna rutiner för rapportering och rekommendationer för att köra [!DNL Marketo Measure] A/B-rapporttyper.
+The [!DNL Marketo Measure] Tack vare A/B Test-integreringen kan du spåra intäktseffekten i dina [Optimalt](https://optimizely.com/){target="_blank"} och VWO-webbplatsexperiment. I den här artikelhandboken finns anvisningar om hur du lägger till [!DNL Marketo Measure] A/B Test sections to the Lead, [!UICONTROL Contact], skiftläge och [!UICONTROL Opportunity] sidlayouter. Vi kommer också att ta upp allmänna rutiner för rapportering och rekommendationer för att köra [!DNL Marketo Measure] A/B-rapporttyper.
 
 ## Konfigurera {#set-up}
 
@@ -31,7 +32,7 @@ Lägg till [!DNL Marketo Measure] A/B-testsektioner om lead, kontakt, ärende oc
 
    ![](assets/3.png)
 
-1. Kontakta [!DNL Marketo Measure] rep eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} för att aktivera funktionen.
+1. Kontakta [!DNL Marketo Measure] rep [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} för att aktivera funktionen.
 
 ## Rapportering {#reporting}
 

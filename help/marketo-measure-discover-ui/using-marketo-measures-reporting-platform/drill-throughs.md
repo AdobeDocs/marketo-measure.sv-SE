@@ -3,7 +3,8 @@ unique-page-id: 18874664
 description: Granska genomskärningar - [!DNL Marketo Measure] - Produktdokumentation
 title: Granska genomskärningar
 exl-id: c9ce5a51-e8f9-40ff-aa10-6b059e4998d3
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '3849'
 ht-degree: 0%
@@ -12,11 +13,11 @@ ht-degree: 0%
 
 # Granska genomskärningar {#drill-throughs}
 
-The [!DNL Marketo Measure Discover] upplevelsen gör det möjligt för kunderna att fördjupa sig i den datauppsättning som de är mest intresserade av. Om vissa åtgärder [!DNL Marketo Measure Discover], kan kunderna klicka i en ruta och utforska mer om mätvärdena.
+The [!DNL Marketo Measure Discover] upplevelsen gör det möjligt för kunderna att fördjupa sig i den datauppsättning som de bryr sig mest om. Om vissa åtgärder [!DNL Marketo Measure Discover], kan kunderna klicka i en ruta och utforska mer om mätvärdena.
 
 Nedan finns en lista över kontrollpaneler och paneler som innehåller detaljförbättringar och den upplevelse som en användare kan förvänta sig när han eller hon bläddrar igenom. Tänk på att globala filter från kontrollpanelen kvarstår vid borrning genom.
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 ![](assets/1-2.png)
 
@@ -28,7 +29,7 @@ Definition: Total intäkt per månad via stapeldiagram och tabell. Därifrån ka
 
 Definition: Total intäkt per månad via stapeldiagram och tabell. Eftersom den överordnade rutan redan är ett stapeldiagram visas bara en månad vid detaljvisning.
 
-_Gå till: Total intäkt per månad uppdelad efter vecka eller datum._
+_Detaljerad information: Total intäkt per månad fördelat på vecka eller datum._
 
 **Utgift**
 
@@ -44,7 +45,7 @@ Definition: Total pipeline-intäkt per månad via stapeldiagram och tabell. Där
 
 **ROI - sammanfattning**
 
-Definition: Totala intäkter eller utgifter från varje kanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Total intäkt eller kostnad från varje kanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **Kostnad per avtal**
 
@@ -58,21 +59,21 @@ Definition: Total intäkt från varje kanal per månad via stapeldiagram och tab
 
 **Delkanaler efter intäkt**
 
-Definition: Totala intäkter från varje delkanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Total intäkt från varje delkanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **Kampanjer efter intäkt**
 
-Definition: Totala intäkter från varje kampanj per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Total intäkt från varje kampanj per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
-**Sammanfattning av avtal**
+**Avtalssammanfattning**
 
-Definition: Totalt antal utgifter eller avtal för varje kanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Totalt antal utgifter eller avtal från varje kanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 ## Tillväxt {#growth}
 
 ![](assets/3-1.png)
 
-**Totala intäkter**
+**Total intäkt**
 
 Definition: Total intäkt per månad via stapeldiagram och tabell. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
 
@@ -82,7 +83,7 @@ Definition: Total intäkt per månad via stapeldiagram och tabell. Eftersom den 
 
 _Total intäkt per månad uppdelad efter vecka eller datum._
 
-**Totalt antal erbjudanden**
+**Totalt antal avtal**
 
 Definition: Totalt antal erbjudanden per månad via stapeldiagram och tabell. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
 
@@ -92,11 +93,11 @@ Definition: Totalt antal erbjudanden per månad via stapeldiagram och tabell. Ef
 
 _Totalt antal avtal per månad, uppdelat efter vecka eller datum._
 
-**Total Pipeline-intäkt**
+**Total omsättning för pipeline**
 
 Definition: Total pipeline-intäkt per månad via stapeldiagram och tabell. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
 
-**Försäljningsintäkter över tid**
+**Pipeline-intäkter över tid**
 
 Definition: Total pipeline-intäkt per månad via stapeldiagram och tabell. Eftersom den överordnade rutan redan är ett diagram visas bara en månad vid detaljvisning.
 
@@ -150,7 +151,7 @@ Definition: Totalt antal platsbesök per månad via stapeldiagram och tabell. D�
 
 **Besök över tid**
 
-Definition: Det totala antalet besök på plats som spårats visar trenden under en viss tidsperiod. Använd filtret Gruppera efter för att ändra stapeln efter kanal, delkanal, kampanj, konto, annonsgrupp, annons, annonsör, kreativt, nyckelord, placering och webbplats. Den här funktionen visas tom om den är inaktiverad.
+Definition: Det totala antalet platsbesök som spåras visar trenden under en viss tidsperiod. Använd filtret Gruppera efter för att ändra stapeln efter kanal, delkanal, kampanj, konto, annonsgrupp, annons, annonsör, kreativt, nyckelord, placering och webbplats. Den här funktionen visas tom om den är inaktiverad.
 
 **Forms**
 
@@ -158,7 +159,7 @@ Definition: Totalt antal inskickade formulär per månad via stapeldiagram och t
 
 **Forms över tid**
 
-Definition: Det totala antalet inlämnade formulär som visar utvecklingen under en viss tidsperiod. Använd filtret Gruppera efter för att ändra stapeln efter kanal, delkanal, kampanj, konto, annonsgrupp, annons, annonsör, kreativt, nyckelord, placering och webbplats. Den här funktionen visas tom om den är inaktiverad.
+Definition: Det totala antalet inlämnade formulär som visar trenden under en viss tidsperiod. Använd filtret Gruppera efter för att ändra stapeln efter kanal, delkanal, kampanj, konto, annonsgrupp, annons, annonsör, kreativt, nyckelord, placering och webbplats. Den här funktionen visas tom om den är inaktiverad.
 
 ## Utgift {#spend}
 
@@ -176,15 +177,15 @@ _Total utgift per månad uppdelad efter vecka, datum eller tid. Det går att spe
 
 **Utgift per kanal**
 
-Definition: Total kostnad från varje kanal per månad via stapeldiagram och tabeller. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Total utgift från varje kanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **Utgift per delkanal**
 
-Definition: Totala utgifter från varje delkanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Total utgift från varje delkanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **Utgifter per kampanj**
 
-Definition: Totala utgifter från varje kampanj per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Total utgift från varje kampanj per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 ## Försäljningshastighet {#sales-velocity}
 
@@ -196,19 +197,19 @@ Definition: Det genomsnittliga antalet dagar som affärsmöjligheterna finns i s
 
 **Aktiva affärsmöjligheter**
 
-Definition: Det totala antalet affärsmöjligheter från alla öppna affärsmöjligheter, vilket innebär att de inte är stängda, förlorade eller avbrutna.
+Definition: Det totala antalet affärsmöjligheter från alla öppna affärsmöjligheter, vilket innebär att det inte är Closed Lost eller Closed Won.
 
 **Avtalsstorlek**
 
-Definition: Genomsnittligt belopp för en stängd Won-affärsmöjlighet.
+Definition: Det genomsnittliga beloppet för en stängd Won-affärsmöjlighet.
 
 **Vinst**
 
-Definition: Det totala antalet möjligheter till avslut delat med det totala antalet möjligheter till avslut och avslut.
+Definition: Det totala antalet stängda Won-möjligheter delat med det totala antalet stängda och avbrutna Von-möjligheter.
 
 **Snabbhet för affärsmöjlighet efter kanal**
 
-Definition: Genomsnittligt antal dagar som affärsmöjligheterna är i sin cykel per fas, grupperade efter marknadsföringskanalen och visar hur lång tid det tar att gå vidare till nästa fas. De faser som visas här är milstolpe-stadier (FT, LC, OC) och anpassade stadier.
+Definition: Det genomsnittliga antalet dagar som affärsmöjligheter finns i cykeln per fas, grupperat efter marknadsföringskanalen och med den tid det tar att gå vidare till nästa fas. De faser som visas här är milstolpe-stadier (FT, LC, OC) och anpassade stadier.
 
 **Leadhastighet per kanal**
 
@@ -218,29 +219,29 @@ Definition: Genomsnittligt antal dagar som leads är i cykeln per fas innan de k
 
 **Genomsnittlig snabbhet för affärsmöjlighet**
 
-Definition: Genomsnittligt antal dagar som affärsmöjligheterna är i sin cykel per fas, vilket visar hur lång tid det tar att gå vidare till nästa steg. De faser som visas här är milstolpe-stadier (FT, LC, OC) och anpassade stadier. Siffrorna här visar tiden per fas i säljprojektshastigheten enligt kanaldiagrammet.
+Definition: Det genomsnittliga antalet dagar som affärsmöjligheterna befinner sig i sin cykel per fas, vilket visar hur lång tid det tar att gå vidare till nästa fas. De faser som visas här är milstolpe-stadier (FT, LC, OC) och anpassade stadier. Siffrorna här visar tiden per fas i säljprojektshastigheten enligt kanaldiagrammet.
 
 **Genomsnittlig ledhastighet**
 
-Definition: Genomsnittligt antal dagar som leads är i cykeln per fas innan de konverteras till en kontakt/möjlighet/belopp, vilket visar hur lång tid det tar att gå vidare till nästa fas. De faser som visas här är milstolpe-stadier (FT, LC) och anpassade stadier. Siffrorna här återspeglar tiden per fas i kanaldiagrammet för lead-hastighet.
+Definition: Det genomsnittliga antalet dagar som leads är i cykeln per fas innan de konverteras till en kontakt/möjlighet/belopp, vilket visar hur lång tid det tar att gå vidare till nästa fas. De faser som visas här är milstolpe-stadier (FT, LC) och anpassade stadier. Siffrorna här återspeglar tiden per fas i kanaldiagrammet för lead-hastighet.
 
 **Snabbhet för affärsmöjlighet över tid**
 
-Definition: Genomsnittligt antal dagar som affärsmöjligheterna är i sin cykel per fas med en trend över tiden.
+Definition: Det genomsnittliga antalet dagar som affärsmöjligheterna befinner sig i sin cykel per fas med en trend över tiden.
 
 **Öka ledhastigheten över tid**
 
-Definition: Genomsnittligt antal dagar som leads är i cykeln per fas med en trend över tid.
+Definition: Det genomsnittliga antalet dagar som leads är i cykeln per fas med en trend över tid.
 
 ## Kontobaserad marknadsföring {#account-based-marketing}
 
 ![](assets/9-1.png)
 
-**Totala intäkter**
+**Total intäkt**
 
 Definition: Total intäkt per månad via stapeldiagram och tabell. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
 
-**Total Pipeline-intäkt**
+**Total omsättning för pipeline**
 
 Definition: Total pipeline-intäkt per månad via stapeldiagram och tabell. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
 
@@ -258,7 +259,7 @@ Definition: En lista över affärsmöjlighets-ID med motsvarande konto-ID
 
 **Kontakter som berörts**
 
-Definition: En lista över kontakt-ID:n med deras motsvarande konto-ID
+Definition: En lista med kontakt-ID:n med deras motsvarande konto-ID
 
 **Pekpunkter över tid (diagram)**
 
@@ -282,15 +283,15 @@ Definition: Totalt antal unika platsbesök per månad via stapeldiagram och tabe
 
 **Kostnad per unikt besök**
 
-Definition: Totala utgifter dividerade med det totala antalet unika besök. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Total utgift dividerad med totalt antal unika besök. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **Unika besök per landningssida**
 
-Definition: En lista över landningssidor baserad på antalet unika besökare från varje URL.
+Definition: En lista med landningssidor baserad på antalet unika besökare från varje URL.
 
 **Unika besök efter källa**
 
-Definition: En vy över unika besökares källor på er webbplats.
+Definition: En vy av källorna till unika besökare på din webbplats.
 
 **Unika besök över tid**
 
@@ -304,7 +305,7 @@ Definition: Totalt antal platsbesök per månad via stapeldiagram och tabell. D�
 
 **Kostnad per besök**
 
-Definition: De totala utgifterna dividerat med det totala antalet besök.
+Definition: Den totala kostnaden dividerad med det totala antalet besök.
 
 **Besök efter landningssida**
 
@@ -312,11 +313,11 @@ Definition: En lista över landningssidor baserad på antalet besök på varje U
 
 **Besök efter källa**
 
-Definition: Källa för besökare på er webbplats. Kan ändras av Channel, Subchannel, Campaign, Account, Ad Group, Ad, Advertiser, Creative, Keyword, Placement och Site.
+Definition: Källa till besökare på din webbplats. Kan ändras av Channel, Subchannel, Campaign, Account, Ad Group, Ad, Advertiser, Creative, Keyword, Placement och Site.
 
 **Besök över tid**
 
-Definition: Det totala antalet besök som spåras, vilket visar trenden under en viss tidsperiod. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Det totala antalet besök som spåras, vilket visar trenden under en viss tidsram. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
 
 ![](assets/12-1.png)
 
@@ -326,7 +327,7 @@ Definition: Totalt antal sidvisningar per månad via stapeldiagram och tabell. D
 
 **Kostnad per sida**
 
-Definition: Den totala kostnaden dividerat med det totala antalet sidvisningar som spåras.
+Definition: Den totala utgiften dividerat med det totala antalet spårade sidvyer.
 
 **Sidvisningar efter URL-adresser**
 
@@ -354,7 +355,7 @@ Definition: De totala utgifterna dividerat med det totala antalet inlämnade for
 
 **Formulärinskickat efter formulär-URL**
 
-Definition: En lista över formulär-URL:er baserat på det nummer som skickades på varje URL.
+Definition: En lista med formulär-URL:er baserat på det nummer som skickades på varje URL.
 
 **Leads efter landningssida**
 
@@ -362,7 +363,7 @@ Definition: En lista över landningssidor baserad på antalet leads som generera
 
 **Leads efter formulär-URL**
 
-Definition: En lista över formulär-URL:er baserat på antalet leads som genererats från varje URL.
+Definition: En lista över formulär-URL:er baserat på antalet leads som genererades från varje URL.
 
 ## CMO {#cmo}
 
@@ -392,7 +393,7 @@ Definition: Totalt antal erbjudanden per månad via stapeldiagram och tabell. D�
 
 **Kostnad per avtal**
 
-Definition: Totala utgifter dividerat med det totala antalet avtal, vilket ger den genomsnittliga kostnaden för att förvärva en stängd vinstmöjlighet.
+Definition: Totala utgifter dividerat med det totala antalet avtal, vilket ger den genomsnittliga kostnad det tar att förvärva en stängd vinstmöjlighet.
 
 **Försäljningsförlopp**
 
@@ -400,7 +401,7 @@ Definition: Total pipeline-intäkt per månad via stapeldiagram och tabell. Där
 
 **Avtalsstorlek**
 
-Definition: Genomsnittligt belopp för en stängd vunnen affärsmöjlighet.
+Definition: Det genomsnittliga beloppet för en stängd vunnen affärsmöjlighet.
 
 ![](assets/15-1.png)
 
@@ -410,39 +411,39 @@ Definition: Total intäkt från varje kanal per månad via stapeldiagram och tab
 
 **Delkanaler efter intäkt**
 
-Definition: Totala intäkter från varje delkanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Total intäkt från varje delkanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **Kampanjer efter intäkt**
 
-Definition: Totala intäkter från varje kampanj per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Total intäkt från varje kampanj per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **ROI - sammanfattning**
 
-Definition: Totala intäkter eller utgifter från varje kanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Total intäkt eller kostnad från varje kanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
-**Sammanfattning av avtal**
+**Avtalssammanfattning**
 
-Definition: Totalt antal utgifter eller avtal för varje kanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Totalt antal utgifter eller avtal från varje kanal per månad via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 ## Innehållsmarknadsföring {#content-marketing}
 
 ![](assets/16-1.png)
 
-**Totala intäkter**
+**Total intäkt**
 
 Definition: Total intäkt per månad via stapeldiagram och tabell. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **Landningssidor per intäkt**
 
-Definition: Totala intäkter från varje landningssida via liggande diagram och tabeller. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Totala intäkter från varje landningssida via liggande diagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
-**Total Pipeline-intäkt**
+**Total omsättning för pipeline**
 
 Definition: Total pipeline-intäkt per månad via stapeldiagram och tabell. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **Landningssidor per pipeline-intäkt**
 
-Definition: Totala rörlighetsintäkter från varje landningssida via stapeldiagram och tabeller. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Totala rörlighetsintäkter från varje landningssida via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **Totalt antal affärsmöjligheter**
 
@@ -450,7 +451,7 @@ Definition: Totalt antal affärsmöjligheter per månad via stapeldiagram och ta
 
 **Landningssidor efter antal affärsmöjligheter**
 
-Definition: Totalt antal möjligheter från varje landningssida via stapeldiagram och tabeller. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Totalt antal möjligheter från varje landningssida via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 ![](assets/17-1.png)
 
@@ -474,7 +475,7 @@ Definition: Det totala antalet unika webbplatsbesök som spåras för alla känd
 
 **De vanligaste landningssidorna efter unika besök**
 
-Definition: En förteckning över landningssidor baserad på antalet unika besök på varje landningssida. Granska in för att se de unika besöken per månad till den valda URL:en.
+Definition: En lista över landningssidor baserad på antalet unika besök på varje landningssida. Granska in för att se de unika besöken per månad till den valda URL:en.
 
 **Besök**
 
@@ -490,7 +491,7 @@ Definition: Totalt antal leads per månad via stapeldiagram och tabell. Därifr�
 
 **Landningssidor efter antal leads**
 
-Definition: Totalt antal leads från varje landningssida via stapeldiagram och tabeller. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Totalt antal leads från varje landningssida via stapeldiagram och tabell. Därifrån kan du gå in på den raden en månad eller bryta ut en månad för vecka, dag eller tid.
 
 ## Betalda media {#paid-media}
 
@@ -498,11 +499,11 @@ Definition: Totalt antal leads från varje landningssida via stapeldiagram och t
 
 **Impressions**
 
-Definition: Totalt antal visningar per månad via stapeldiagram och tabeller. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
+Definition: Totalt antal visningar per månad via stapeldiagram och tabell. Därifrån kan man gå in i en månad eller bryta ut en månad för vecka, dag eller tid.
 
 **CPM**
 
-Definition: De totala utgifterna från de serverade avbildningarna dividerat med de totala avbildningarna.
+Definition: De totala utgifterna från de serverade avbildningarna dividerat med det totala antalet visningar.
 
 **Klickningar**
 
@@ -518,7 +519,7 @@ Definition: Totalt antal leads baserat på attribueringsmodellen.
 
 **CPL**
 
-Definition: Den totala utgiften från de leads som skapas dividerat med det totala antalet klick, vilket ger CPL-nivån.
+Definition: Den totala utgiften från de leads som skapas dividerat med det totala antalet klick, vilket ger CPL-frekvensen.
 
 **Besök**
 
@@ -532,19 +533,19 @@ Definition: Totalt antal sidvisningar per månad via stapeldiagram och tabell. D
 
 **Kampanjsammanfattning**
 
-Definition: Lista över kampanjer baserat på hur mycket intäkter/utgifter/erbjudanden/möjligheter som tillskrevs för varje kampanj, sorterat efter den högsta baserat på den valda attribueringsmodellen.
+Definition: En lista över kampanjer som baseras på hur mycket intäkter/utgifter/erbjudanden/möjligheter som tillskrevs för varje kampanj, sorterat efter den högsta baserat på den valda attribueringsmodellen.
 
 **Annonssammanfattning**
 
-Definition: En lista över annonser baserad på hur mycket intäkter/försäljningsintäkter/utgifter/erbjudanden/möjligheter som tillskrevs varje annons, baserat på den valda attribueringsmodellen.
+Definition: En lista med annonser som baseras på hur mycket intäkter/försäljningsintäkter/försäljningsintäkter/försäljningstillfällen/affärsmöjligheter som tillskrevs varje annons, baserat på den valda attribueringsmodellen.
 
 **Nyckelordssammanfattning**
 
-Definition: En lista med nyckelord baserad på hur mycket intäkter/försäljningsintäkter/utgifter/erbjudanden/möjligheter som tillskrevs varje nyckelord, baserat på den valda attribueringsmodellen.
+Definition: En lista med nyckelord baserad på hur mycket intäkter/försäljningsintäkter/försäljningsintäkter/investeringar/affärsmöjligheter som tillskrevs varje nyckelord, baserat på den valda attribueringsmodellen.
 
 **Kampanjer efter avkastning**
 
-Definition: En lista över kampanjer baserat på beräknad avkastning för varje kampanj, sorterad efter den högsta avkastningen. Detaljgranska om du vill se intäkter eller utgifter per månad för den valda kampanjen.
+Definition: En lista med kampanjer baserade på beräknad avkastning för varje kampanj, sorterad efter högsta avkastning på investering. Detaljgranska om du vill se intäkter eller utgifter per månad för den valda kampanjen.
 
 **Annonser efter ROI**
 
@@ -552,4 +553,4 @@ Definition: En lista med annonser som baseras på beräknad avkastning för varj
 
 **Nyckelord efter ROI**
 
-Definition: En lista med nyckelord baserad på beräknad avkastning för varje nyckelord, sorterat efter högsta avkastning. Gå in och se intäkter eller utgifter per månad för det valda nyckelordet.
+Definition: En lista med nyckelord baserat på beräknad avkastning för varje nyckelord, sorterat efter högsta avkastning. Gå in och se intäkter eller utgifter per månad för det valda nyckelordet.

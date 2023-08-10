@@ -3,7 +3,8 @@ unique-page-id: 34406468
 description: Översikt över paneler - [!DNL Marketo Measure] - Produktdokumentation
 title: Översikt över paneler
 exl-id: 35180928-6b75-4271-9bb5-7617bc2f9c74
-source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
@@ -56,7 +57,7 @@ ht-degree: 0%
    <td><strong>X</strong></td> 
   </tr> 
   <tr> 
-   <td><p><strong>Översikt</strong></p></td> 
+   <td><p><strong>Ökning</strong></p></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
@@ -214,14 +215,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-## Inkomstpanel {#revenue-tile}
+## Intäktsruta {#revenue-tile}
 
 ![](assets/one.png)
 
 Totala intäkt från Closed Won-möjligheter baserat på attribueringsmodell.
 
--Information om säljprojekt: Visar en beskrivning av relaterade ID:n för affärsmöjlighet, Skapat den, Stängningsdatum, ISO-kod och Intäktsattribut.\
--Visa information: Uppdelning per månad.
+-Information om affärsmöjlighet: Visar en uppdelning av relaterade affärsmöjlighets-ID, Skapat den, Stängningsdatum, ISO-kod och Intäktsattribut.\
+-Show Details: En uppdelning per månad.
 
 ## Översikt (diagram) Sida vid sida {#overview-chart-tile}
 
@@ -229,14 +230,14 @@ Totala intäkt från Closed Won-möjligheter baserat på attribueringsmodell.
 
 Diagrammet visar intäkter som tillskrivs varje kanal och som visas över tid.
 
--Information om säljprojekt: Visar en beskrivning av relaterade ID:n för affärsmöjlighet, Skapat den, Stängningsdatum, ISO-kod och Intäktsattribut.\
+-Information om affärsmöjlighet: Visar en uppdelning av relaterade affärsmöjlighets-ID, Skapat den, Stängningsdatum, ISO-kod och Intäktsattribut.\
 -Visar en beskrivning av de medverkande Opp-ID:n:
 
 * Efter ROI Week
 * Efter ROI-data
 * Efter ROI-timme
 * Efter ROI Minut
-* Efter ROI-tid
+* Efter ROI Time
 
 ## Utgiftsruta {#spend-tile}
 
@@ -246,9 +247,9 @@ Det totala utgiftsbeloppet för både API-kostnader och självrapporterade kostn
 
 >[!NOTE]
 >
->Vid borrning på mindre än en månad [!DNL Marketo Measure] kommer att beräkna medelvärdet av utgifterna för den månaden och fördela medelvärdet till varje dag.
+>Vid borrning på mindre än en månad, [!DNL Marketo Measure] kommer att beräkna medelvärdet av utgifterna för den månaden och fördela medelvärdet till varje dag.
 
--Utgiftsinformation: Visar en beskrivning av det relaterade unika ID:t för utgiftskampanj, kampanjnamn, kanal, delkanal, datum, ursprunglig valuta, Utgift.  -Visa information: Uppdelning per månad.
+-Utgiftsinformation: Visar en beskrivning av det relaterade unika ID:t för utgiftskampanj, kampanjnamn, kanal, delkanal, datum, ursprunglig valuta, Utgift.  -Show Details: En uppdelning per månad.
 
 ## ROI-platta {#roi-tile}
 
@@ -266,7 +267,7 @@ Visar det totala antalet tilldelade erbjudanden (erbjudanden är ett antal stän
 >
 >Om datumtypen &quot;Kontaktpunktsdatum&quot; är markerad går det att göra partiella räkningar eftersom det kan finnas vissa kontaktytor som inte ligger inom tidsintervallet.
 
--Information om säljprojekt: Visar en beskrivning av relaterade ID:n för affärsmöjlighet, Skapat den, Stängningsdatum och Attribution (antal).  -Visa information: Uppdelning per månad.
+-Information om affärsmöjlighet: Visar en beskrivning av relaterade ID:n för affärsmöjlighet, Skapat den, Stängningsdatum och Attribution (antal).  -Show Details: En uppdelning per månad.
 
 ## Kostnad per avtalsruta {#cost-per-deal-tile}
 
@@ -284,7 +285,7 @@ Den totala potentiella intäkten för öppna affärsmöjligheter
 >
 >Intäkterna återspeglas för den angivna attribueringsmodellen.
 
--Information om säljprojekt: Visar en beskrivning av relaterade ID:n för affärsmöjlighet, Skapat den, Stängningsdatum, ISO-kod och Intäktsattribut.  -Visa information: Uppdelning per månad.
+-Information om affärsmöjlighet: Visar en uppdelning av relaterade affärsmöjlighets-ID, Skapat den, Stängningsdatum, ISO-kod och Intäktsattribut.  -Show Details: En uppdelning per månad.
 
 ## Ruta för avtalsstorlek {#deal-size-tile}
 
@@ -322,6 +323,6 @@ Visar den avkastning som tilldelats det valda måttet (kanal, delkanal, kampanj,
 
 Visar den avkastning som tilldelats det valda måttet (kanal, delkanal, kampanj, konto, adgroup, annons, annonsör, kreativt nyckelord, placering, plats) baserat på den valda attribueringsmodellen.
 
--Information om säljprojekt: Visar en beskrivning av relaterade ID:n för affärsmöjlighet, Skapat den, Stängningsdatum och Attribution (antal).
+-Information om affärsmöjlighet: Visar en beskrivning av relaterade ID:n för affärsmöjlighet, Skapat den, Stängningsdatum och Attribution (antal).
 
--Visa information: Uppdelning per månad.
+-Show Details: En uppdelning per månad.

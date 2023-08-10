@@ -3,7 +3,8 @@ unique-page-id: 18874558
 description: Boomerang Stages och Touchpoints - [!DNL Marketo Measure] - Produktdokumentation
 title: Boomerang Stages och Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+feature: Boomerang, Touchpoints
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%
@@ -55,7 +56,7 @@ Boomerang Stages kommer att påverka
 
 **Attribut per kanal**
 
-* Sedan [!DNL Boomerang Stages] skapar fler kontaktytor, vilket ändrar hur attribueringen fördelas mellan de kontaktytor som för närvarande finns i dina data. Detta kan leda till att intäktsvärdet växlar mellan olika marknadsföringskanaler. Ta detta i beaktande innan du implementerar [!DNL Boomerang stages]eller kontakta din kontoansvarige för mer information.
+* Sedan [!DNL Boomerang Stages] skapar fler kontaktytor, vilket ändrar hur attribueringen fördelas mellan de kontaktytor som för närvarande finns i dina data. Detta kan leda till att intäktsvärdet växlar mellan olika marknadsföringskanaler. Ta detta i beaktande innan du implementerar [!DNL Boomerang stages]eller kontakta din kontoansvarige om du vill ha mer information.
 
 **Alla rapporter som använder &quot;lika med&quot; [Pekpunktsposition]&quot;**
 
@@ -71,13 +72,13 @@ Du kan välja upp till 15 steg.
 
 Du kan välja upp till 10 boomerang-kontaktytor per scen.
 
-**F: Varför är vi bara begränsade till 10 boomeranger per fas?**
+**F: Varför begränsas vi bara till 10 boomeranger per fas?**
 
 [!DNL Marketo Measure] måste fastställa en gräns för antalet etapper för att hålla bearbetningstiden under kontroll. Om du väljer att ta med alla 15 Boomerang-scener i din attribueringsmodell och 10 boomerang-kontaktytor per scen, kan du ha fler än 150 kontaktytor per lead-/kontaktpost.
 
 **F: Jag har Data warehouse. Får jag alla data eller gäller boomerang Stages-taket mig också?**
 
-Gränsvärdet kommer att gälla för Data warehouse och CRM på grund av de bearbetningsgränser som [!DNL Marketo Measure] har kommit. data warehouse kommer också att se gränsen på 10 kontaktytor per etapp.
+Gränsvärdet kommer att gälla för Data warehouse och CRM på grund av de bearbetningsgränser som [!DNL Marketo Measure] har kommit. Data warehouse kommer också att se gränsen på 10 kontaktytor per etapp.
 
 **F: Vilka är fördelarna med att använda Boomerang Stages med anpassad modellering?**
 

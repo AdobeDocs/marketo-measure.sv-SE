@@ -1,16 +1,17 @@
 ---
 unique-page-id: 35586140
-description: data warehouse Schema - Marketo Measure - produktdokumentation
-title: data warehouse Schema
+description: Data warehouse Schema - Marketo Measure - produktdokumentation
+title: Data warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '22610'
 ht-degree: 3%
 
 ---
 
-# data warehouse Schema {#data-warehouse-schema}
+# Data warehouse Schema {#data-warehouse-schema}
 
 Med Data warehouse kan ni spåra så mycket ni vill, rapportera om era attribueringsdata var ni vill och koppla in dem i andra datauppsättningar.
 
@@ -19,18 +20,17 @@ Med Data warehouse kan ni spåra så mycket ni vill, rapportera om era attribuer
 >* Rader med ett värde för _DELETED_DATE behålls i 7 dagar och tas sedan bort från Snowflake.
 >* De tidszoner som används i Snowflake följer UTC (Coordinated Universal Time).
 
-
 >[!NOTE]
 >
 >[Klicka här](#sample-queries) om du vill visa exempelfrågor längst ned i den här artikeln.
 
 ## Entitetsrelationsdiagram {#entity-relationship-diagrams}
 
-The _data warehouse datamodell_ ERD visar hur data i data warehouse är avsedda att flöda och sammanlänkas. Det här diagrammet innehåller inte alla tabeller som finns i data warehouse eftersom vissa av dem representerar mappningstabeller, vyer av andra tabeller som redan finns eller borttagna tabeller som vi inte rekommenderar att du använder fler. Se de detaljerade beskrivningarna av tabeller och kolumner i data warehouse nedan. Många av dessa tabeller innehåller deformerade fält, men det här diagrammet är den rekommenderade datamodellen, som i stället utnyttjar data från dimensionella tabeller.
+The _Data warehouse datamodell_ ERD visar hur data i data warehouse är avsedda att flöda och sammanlänkas. Det här diagrammet innehåller inte alla tabeller som finns i data warehouse eftersom vissa av dem representerar mappningstabeller, vyer av andra tabeller som redan finns eller borttagna tabeller som vi inte rekommenderar att du använder fler. Se de detaljerade beskrivningarna av tabeller och kolumner i data warehouse nedan. Många av dessa tabeller innehåller deformerade fält, men det här diagrammet är den rekommenderade datamodellen, som i stället utnyttjar data från dimensionella tabeller.
 
 Ytterligare _Annonserar dimensionell datamodell_ ERD visar hur tabeller för annonser som är specifika dimensioner bäst kan länkas tillbaka till tabellerna i huvuddatamodellen. Även om annonsdimensionerna även är denormaliserade i andra tabeller representerar detta den rekommenderade modellen för att förena de här dimensionerna.
 
-_Klicka på en bild för att se vilken version den har_
+_Klicka på en bild för att se dess fullstorleksversion_
 
 <table style="table-layout:auto"> 
  <colgroup> 
@@ -39,7 +39,7 @@ _Klicka på en bild för att se vilken version den har_
  </colgroup> 
  <tbody> 
   <tr> 
-   <td><strong>data warehouse datamodell</strong></td> 
+   <td><strong>Data warehouse datamodell</strong></td> 
    <td><strong>Annonserar dimensionell datamodell</strong></td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ Konton som importerats från källsystemet.
     <tr>
       <td>ENGAGEMENT_RATING</td>
       <td>varchar</td>
-      <td>A letter grade (A, B, C, D, N/A) that generated from the [!DNL Marketo Measure] Maskinininlärningsmodell. Detta blir null om ABM är inaktiverat.</td>
+      <td>A letter grade (A, B, C, D, N/A) that generated from the [!DNL Marketo Measure] Machine Learning-modell. Detta blir null om ABM är inaktiverat.</td>
       <td>B</td>
     </tr>
     <tr>
@@ -127,7 +127,7 @@ Konton som importerats från källsystemet.
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
       <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerats från källsystemet i JSON-format.</td>
-      <td>{"Account_Type__c": "Säkerhet", "Foo":"Bar"}</td>
+      <td>{"Account_Type__c": "Security", "Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -516,7 +516,7 @@ Annonser som importerats från anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID för annonskoncern för annonsen.</p>
+        <p>ID för annonsgruppen.</p>
       </td>
       <td>
         <p>fb.106851586409075.6052044288804.6052044290004</p>
@@ -628,7 +628,7 @@ Annonser som importerats från anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Namnet på annonsen från källsystemet.</p>
+        <p>Namnet på annonsen, från källsystemet.</p>
       </td>
       <td>
         <p>Annons 2</p>
@@ -710,7 +710,7 @@ Annonser som importerats från anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Föregående värde för URL_CURRENT.</p>
+        <p>Tidigare värde för URL_CURRENT.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
       </td>
       <td></td>
@@ -2762,7 +2762,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Segmentvärdet för den första kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den första kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</p>
       </td>
       <td>
         <p>ABC</p>
@@ -2776,7 +2776,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Segmentvärdet för den andra kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den andra kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</p>
       </td>
       <td>
         <p>Ja</p>
@@ -2790,7 +2790,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Segmentvärdet för den tredje kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den tredje kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</p>
       </td>
       <td>
         <p>SMB</p>
@@ -2803,7 +2803,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den fjärde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den fjärde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td>
         <p>Nytt företag</p>
       </td>
@@ -2815,7 +2815,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den femte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den femte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2825,7 +2825,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den sjätte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den sjätte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2835,7 +2835,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den sjunde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den sjunde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2845,7 +2845,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den åttonde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den åttonde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2855,7 +2855,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den nionde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den nionde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2865,7 +2865,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den tionde kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den tionde kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2875,7 +2875,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den elfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den elfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2885,7 +2885,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den tolfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den tolfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2895,7 +2895,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den 13:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den 13:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2905,7 +2905,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den 14:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den 14:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2915,7 +2915,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>varchar</p>
       </td>
-      <td>Segmentvärdet för den 15:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den 15:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -3332,7 +3332,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Namn på annonskoncern från annonskontot där annonsen löstes. Detta gäller endast Google AdWords.</p>
+        <p>Namn på annonskoncern från annonskontot där annonsen löstes från. Detta gäller endast Google AdWords.</p>
       </td>
       <td>
         <p>Marknadsattribuering - allmänt</p>
@@ -3346,7 +3346,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
+        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
       <td>
         <p>dc.6114.8882972.25272734.492579576</p>
@@ -3360,7 +3360,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
+        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
       <td>
         <p>Webbinarium - marginallist</p>
@@ -3391,7 +3391,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Namnet på det Creative-objekt från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
-        <p>B2B-marknadsattribuering</p>
+        <p>B2B Marketing Attribution</p>
       </td>
     </tr>
     <tr>
@@ -3475,7 +3475,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Namnet på det nyckelord som köpts från köpet av betald sökning, hämtat från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning)</p>
       </td>
       <td>
-        <p>"marknadsattribuering"</p>
+        <p>marknadsattribuering</p>
       </td>
     </tr>
     <tr>
@@ -3514,7 +3514,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Huruvida den här kontaktytan behandlas som den inledande kontakten i affärsmöjlighetens resa.</p>
+        <p>Huruvida den här kontaktytan behandlas som den inledande kontakten i affärsmöjlighetens resa eller inte.</p>
       </td>
       <td>
         <p>false</p>
@@ -3528,7 +3528,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Huruvida den här kontaktytan behandlas som ett sätt att skapa affärsmöjligheter i affärsmöjlighetens resa.</p>
+        <p>Huruvida den här kontaktytan behandlas som ett sätt att skapa affärsmöjligheter i affärsmöjlighetens resa eller inte.</p>
       </td>
       <td>
         <p>false</p>
@@ -3865,7 +3865,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Datum och tid som kunden ställer in för att åsidosätta kampanjdatumet och använd det här värdet för slutpunktsdatumet i stället.</p>
+        <p>Datum och tid som kunden ställer in för att åsidosätta kampanjdatumet och använd värdet för slutpunktsdatumet i stället.</p>
       </td>
       <td>
         <p>2018-08-30 18:00:00.000</p>
@@ -3977,7 +3977,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>varchar</p>
       </td>
       <td>
-        <p>Namnet på den relaterade kampanj som Campaign-medlemmen är en del av.</p>
+        <p>Namnet på den relaterade kampanj som kampanjmedlemmen är en del av.</p>
       </td>
       <td>
         <p>Snabba CMO-intervjuer</p>
@@ -3991,7 +3991,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>varchar</p>
       </td>
       <td>
-        <p>ID för den relaterade kampanj som Campaign-medlemmen är en del av.</p>
+        <p>ID för den relaterade kampanj som kampanjmedlemmen är en del av.</p>
       </td>
       <td>
         <p>7010Z000001TcKlQAK</p>
@@ -4005,7 +4005,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>varchar</p>
       </td>
       <td>
-        <p>Typen som valts i den relaterade kampanj som kampanjmedlemmen är en del av. Typen används för att mappa marknadsföringskanalen.</p>
+        <p>Typen som valts för den relaterade kampanj som kampanjmedlemmen är en del av. Typen används för att mappa marknadsföringskanalen.</p>
       </td>
       <td>
         <p>Offline</p>
@@ -4019,7 +4019,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>varchar</p>
       </td>
       <td>
-        <p>Avgör vilka Campaign-medlemmar som kontaktytor ska skapas för. Möjliga värden är: Include_all, Include_Responded, Exclude_all.</p>
+        <p>Avgör vilka Campaign-medlemmar som kontaktytor ska skapas för. Möjliga värden är: Include_All, Include_Responded, Exclude_All.</p>
       </td>
       <td>
         <p>Include_All</p>
@@ -4050,7 +4050,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>Granskningsfält, anger om en Buyer Touchpoint skapades för kontakten eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
       </td>
       <td>
-        <p>Pekpunkten har skapats</p>
+        <p>Kontaktpunkten har skapats</p>
       </td>
     </tr>
     <tr>
@@ -4064,7 +4064,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>Granskningsfält, anger om en slutpunkt för Buyer-attribut har skapats för säljprojektet eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
       </td>
       <td>
-        <p>Pekpunkten har skapats</p>
+        <p>Kontaktpunkten har skapats</p>
       </td>
     </tr>
     <tr>
@@ -4317,7 +4317,7 @@ Kontakter som har importerats från källsystemet.
         <p>varchar</p>
       </td>
       <td>
-        <p>Alla tidigare faser för kontakten, identifieras som anpassade stadier som kan skapas i [!DNL Marketo Measure] program.</p>
+        <p>Alla tidigare steg för kontakten, identifieras som anpassade steg som kan skapas i [!DNL Marketo Measure] program.</p>
       </td>
       <td>
         <p>Öppna - kontakt</p>
@@ -4345,7 +4345,7 @@ Kontakter som har importerats från källsystemet.
         <p>varchar</p>
       </td>
       <td>
-        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: True</p>
+        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -4473,7 +4473,7 @@ Valutakonverteringsgrader som importerats från källsystemet.
     <tr>
       <td>IS_CURRENT</td>
       <td>boolesk</td>
-      <td>Semantiken för det här fältet har skadats. Skall ej användas.</td>
+      <td>Semantiken för det här fältet har skadats. Använd inte.</td>
       <td>true</td>
     </tr>
     <tr>
@@ -4531,7 +4531,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>ID</td>
       <td>varchar</td>
       <td>Ett unikt ID för kostnadsposten.</td>
-      <td>aw.6601259029.285114995.21703163075.[AdWords Display]_2018-09-06</td>
+      <td>aw.6601259029.28514995.21703163075.[AdWords Display]_2018-09-06</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -4695,7 +4695,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
         <p>boolesk</p>
       </td>
       <td>
-        <p>Anger om raden innehåller kostnad som kan summeras av Campaign. (d.v.s. för att få kampanjkostnad, summeringsrader där kolumnen är lika med true.)</p>
+        <p>Anger om raden innehåller kostnad som kan summeras av Campaign. (d.v.s. för att få kampanjkostnad, summeringsrader där den här kolumnen är lika med true.)</p>
       </td>
       <td>
         <p>true</p>
@@ -4726,7 +4726,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
         <p>Namn på annonskoncern som hämtats från annonsanslutningen.</p>
       </td>
       <td>
-        <p>Attributionshanteringsprogram | Fras</p>
+        <p>Attributhanteringsprogram | Fras</p>
       </td>
     </tr>
     <tr>
@@ -5384,7 +5384,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Föregående värde för URL_CURRENT.</p>
+        <p>Tidigare värde för URL_CURRENT.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
       </td>
       <td></td>
@@ -5575,7 +5575,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
 
 ### BIZ_CRM_EVENTS {#biz-crm-events}
 
-Händelser som importerats från källsystemet. Det här registret är tomt om aktivitetssynkronisering är inaktiverat.
+Händelser som importerats från källsystemet. Det här registret kommer att vara tomt om aktivitetssynkronisering är inaktiverat.
 
 <table>
   <tbody>
@@ -5629,7 +5629,7 @@ Händelser som importerats från källsystemet. Det här registret är tomt om a
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Datum när händelsen senast ändrades från källsystemet.</p>
+        <p>Det datum då händelsen senast ändrades från källsystemet.</p>
       </td>
       <td>
         <p>2018-09-03 08:39:51.000</p>
@@ -5699,7 +5699,7 @@ Händelser som importerats från källsystemet. Det här registret är tomt om a
         <p>varchar</p>
       </td>
       <td>
-        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: True</p>
+        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -5842,7 +5842,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>Datum när aktiviteten senast ändrades från källsystemet.</p>
+        <p>Det datum då aktiviteten senast ändrades från källsystemet.</p>
       </td>
       <td>
         <p>2018-08-27 18:31:53.000</p>
@@ -5912,7 +5912,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
         <p>varchar</p>
       </td>
       <td>
-        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: True</p>
+        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -6090,7 +6090,7 @@ Tabell över alla ISO-valutor.
 
 ### BIZ_CUSTOMER_AB_TESTS {#biz-customer-ab-tests}
 
-AB-tester har registrerats. Tabellen är tom om AB Tests inte är aktiverat.
+AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester inte är aktiverade.
 
 <table>
   <tbody>
@@ -7228,7 +7228,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Den beräknade procentandelen som tilldelas till den här kontaktytan eftersom den är en del av en w-formad beröring.</p>
+        <p>Den beräknade procentandelen som tilldelas till den här kontaktytan eftersom den är en del av en bländare.</p>
       </td>
       <td>
         <p>0.0000000000000000000</p>
@@ -7284,7 +7284,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>boolesk</p>
       </td>
       <td>
-        <p>Anger om affärsmöjligheten har flyttats till en fas som klassificeras som vunnen.</p>
+        <p>Anger om affärsmöjligheten har flyttats till en fas som har klassificerats som vunnen.</p>
       </td>
       <td>
         <p>false</p>
@@ -7432,7 +7432,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
     </tr>
     <tr>
       <td>
-        <p>IS_AGGREGATABLE_COST_AD_ACCOUNT</p>
+        <p>IS_AGGREGATABLE_COST_AD_Account</p>
       </td>
       <td>
         <p>boolesk</p>
@@ -7466,7 +7466,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>boolesk</p>
       </td>
       <td>
-        <p>Anger om raden innehåller kostnad som kan summeras av Campaign. (d.v.s. för att få kampanjkostnad, summeringsrader där kolumnen är lika med true.)</p>
+        <p>Anger om raden innehåller kostnad som kan summeras av Campaign. (d.v.s. för att få kampanjkostnad, summeringsrader där den här kolumnen är lika med true.)</p>
       </td>
       <td>
         <p>true</p>
@@ -7637,7 +7637,7 @@ Insamlade formulärinskickat material.
         <p>varchar</p>
       </td>
       <td>
-        <p>Det första cookie-ID:t för det relaterade besökar-ID:t. Om posten är markerad som is_duplicated = true, blir det här fältet null.</p>
+        <p>Det första cookie-ID:t för det relaterade besökar-ID:t. Om posten är markerad som is_duplicated = true, kommer det här fältet att vara null.</p>
       </td>
       <td>
         <p>v_9bc63c34482f4de8c2e3b9d8d9f0df56</p>
@@ -7651,7 +7651,7 @@ Insamlade formulärinskickat material.
         <p>varchar</p>
       </td>
       <td>
-        <p>Det inspelade sessions-ID som användes när formuläret skickades. Om posten är markerad som is_duplicated = true, blir det här fältet null.</p>
+        <p>Det inspelade sessions-ID:t när formuläret skickades loggades. Om posten är markerad som is_duplicated = true, kommer det här fältet att vara null.</p>
       </td>
       <td>
         <p>2018-08-06:01-35-24-1231230.9bc63c34482f</p>
@@ -8356,7 +8356,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
         <p>varchar</p>
       </td>
       <td>
-        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
+        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
       <td>
         <p>68035923</p>
@@ -8370,7 +8370,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
         <p>varchar</p>
       </td>
       <td>
-        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
+        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
       <td>
         <p>centurylink_banner_98121</p>
@@ -8768,7 +8768,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
         <p>Namn på annonsgruppen för nyckelordet.</p>
       </td>
       <td>
-        <p>Intäktsfördelning - B2B</p>
+        <p>Intäktsattribuering - B2B</p>
       </td>
     </tr>
     <tr>
@@ -8943,7 +8943,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Föregående värde för URL_CURRENT.</p>
+        <p>Tidigare värde för URL_CURRENT.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
       </td>
       <td></td>
@@ -9599,7 +9599,7 @@ Leads som importerats från källsystemet.
         <p>varchar</p>
       </td>
       <td>
-        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: True</p>
+        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -10565,7 +10565,7 @@ Scenövergångar för affärsmöjligheter.
 
 ### BIZ_PAGE_VIEWS {#biz-page-views}
 
-Sidvyer som samlats in från webbbesök. Flera sidvyer kan utgöra en enda session.
+Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda session.
 
 <table>
   <tbody>
@@ -10803,7 +10803,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan utgöra en enda sessi
         <p>varchar</p>
       </td>
       <td>
-        <p>URL-adress dit sidvyn kommer, inklusive eventuella frågeparametrar.</p>
+        <p>URL:en som sidvyn kommer från, inklusive eventuella frågeparametrar.</p>
       </td>
       <td>
         <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
@@ -11559,7 +11559,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>Används för att definiera källan som resulterade i sessionen. Detta kan tolkas ut från URL:en från utm_source eller anges till en annonsleverantör om [!DNL Marketo Measure] kan åtgärda en annons.</p>
       </td>
       <td>
-        <p>Google AdWords</p>
+        <p>Google AdWord</p>
       </td>
     </tr>
     <tr>
@@ -11640,7 +11640,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>varchar</p>
       </td>
       <td>
-        <p>Ad-plattformen [!DNL Marketo Measure] som vi har löst från, vanligtvis en av våra integreringspartners.</p>
+        <p>Ad Platform [!DNL Marketo Measure] som vi har löst från, vanligtvis en av våra integreringspartners.</p>
       </td>
       <td>
         <p>Google</p>
@@ -11822,7 +11822,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>varchar</p>
       </td>
       <td>
-        <p>ID för annonsen som lösts från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
+        <p>ID för annonsen som lösts från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
       <td>aw.6601259029.321586235.23182235435</td>
     </tr>
@@ -11834,9 +11834,9 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>varchar</p>
       </td>
       <td>
-        <p>Namnet på annonsen som lösts från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
+        <p>Namnet på annonsen som lösts från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
-      <td>Vinter - Grön</td>
+      <td>Vinter-kampanj - grön</td>
     </tr>
     <tr>
       <td>
@@ -11849,7 +11849,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>ID för den Creative som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
-        <p>aw.6601259029.321586235.23182235435.83558988035</p>
+        <p>aw.6601259029.321586235.23182235435.8358988035</p>
       </td>
     </tr>
     <tr>
@@ -11891,7 +11891,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>Den andra raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
-        <p>Optimera för intäkt. Lär dig hur.</p>
+        <p>Optimera för intäkter. Lär dig hur.</p>
       </td>
     </tr>
     <tr>
@@ -12353,7 +12353,7 @@ Webbplatser som importerats från anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Namn på kampanj för webbplatsen.</p>
+        <p>Namnet på Webbplatsens kampanj.</p>
       </td>
       <td>Återvinningsattribuering</td>
     </tr>
@@ -12623,7 +12623,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>Namnet på annonsgruppen för webbplatslänken</p>
       </td>
-      <td>Varumärke - kärna</td>
+      <td>Märke - kärna</td>
     </tr>
     <tr>
       <td>
@@ -12799,7 +12799,7 @@ Webbplatslänkar från anslutna annonskonton.
         <p>varchar</p>
       </td>
       <td>
-        <p>Föregående värde för URL_CURRENT.</p>
+        <p>Tidigare värde för URL_CURRENT.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
       </td>
       <td></td>
@@ -13493,7 +13493,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>varchar</p>
       </td>
       <td>
-        <p>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i Touchpoints-tabellen utan i Form_Submits-tabellen. I CRM refereras till som "formulär-URL".</p>
+        <p>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i Touchpoints-tabellen, utan i Form_Submits-tabellen. I CRM refereras till som "formulär-URL".</p>
       </td>
       <td>
         <p>https://info.adobe.com/demo</p>
@@ -13502,7 +13502,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     <tr>
       <td>FORM_PAGE_RAW</td>
       <td>varchar</td>
-      <td>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i Touchpoints-tabellen utan i Form_Submits-tabellen. En sida med Raw-formulär kan innehålla frågeparametrar i URL:en. I CRM refereras till"Form URL - Raw".</td>
+      <td>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i Touchpoints-tabellen, utan i Form_Submits-tabellen. En sida med Raw-formulär kan innehålla frågeparametrar i URL:en. I CRM refereras till"Form URL - Raw".</td>
       <td>https://info.adobe.com/demo?hsCtaTracking=98adcc2f-afe2-40c4-9d79-40dcc41663ee%7C3cfaa909-39cb-4f5d-93eb-be05de6b0180</td>
     </tr>
     <tr>
@@ -13777,7 +13777,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>varchar</p>
       </td>
       <td>
-        <p>Namn på annonskoncern från annonskontot där annonsen löstes. Detta gäller endast Google AdWords.</p>
+        <p>Namn på annonskoncern från annonskontot där annonsen löstes från. Detta gäller endast Google AdWords.</p>
       </td>
       <td>Marknadsattribuering - allmänt</td>
     </tr>
@@ -13789,7 +13789,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>varchar</p>
       </td>
       <td>
-        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
+        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
       <td>dc.6114.8882972.25272734.492579576</td>
     </tr>
@@ -13801,7 +13801,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>varchar</p>
       </td>
       <td>
-        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
+        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
       <td>Webbinarium - marginallist</td>
     </tr>
@@ -13953,7 +13953,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Huruvida den här kontaktytan behandlas som den inledande kontakten i affärsmöjlighetens resa.</p>
+        <p>Huruvida den här kontaktytan behandlas som den inledande kontakten i affärsmöjlighetens resa eller inte.</p>
       </td>
       <td>
         <p>true</p>
@@ -13967,7 +13967,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Huruvida den här kontaktytan behandlas som ett sätt att skapa affärsmöjligheter i affärsmöjlighetens resa.</p>
+        <p>Huruvida den här kontaktytan behandlas som ett sätt att skapa affärsmöjligheter i affärsmöjlighetens resa eller inte.</p>
       </td>
       <td>
         <p>false</p>
@@ -14392,7 +14392,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>varchar</p>
       </td>
       <td>
-        <p>Ett unikt ID för användarkontaktytan.</p>
+        <p>Ett unikt ID för användarens kontaktyta.</p>
       </td>
       <td>
         <p>person@adobe.com_2018-01-05:16-47-02-8803320.ddf67c101f58</p>
@@ -14968,10 +14968,10 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>varchar</p>
       </td>
       <td>
-        <p>Namn på annonskoncern från annonskontot där annonsen löstes. Detta gäller endast Google AdWords.</p>
+        <p>Namn på annonskoncern från annonskontot där annonsen löstes från. Detta gäller endast Google AdWords.</p>
       </td>
       <td>
-        <p>Varumärke - kärna</p>
+        <p>Märke - kärna</p>
       </td>
     </tr>
     <tr>
@@ -14982,7 +14982,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>varchar</p>
       </td>
       <td>
-        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
+        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
       <td>dc.6114.8882972.25272734.492579576</td>
     </tr>
@@ -14994,7 +14994,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>varchar</p>
       </td>
       <td>
-        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
+        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
       <td>Webbinarium - marginallist</td>
     </tr>
@@ -15146,7 +15146,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>boolesk</p>
       </td>
       <td>
-        <p>Huruvida den här kontaktytan behandlas som den första tryckningen av affärsmöjlighetens resa.</p>
+        <p>Huruvida den här kontaktytan behandlas som den första tryckningen av affärsmöjlighetens resa eller inte.</p>
       </td>
       <td>
         <p>false</p>
@@ -15332,7 +15332,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
         <p>EVENT_DATE</p>
       </td>
       <td>timestamp_ntz</td>
-      <td>Datum när mappningen spelades in.</td>
+      <td>Datum när mappningen registrerades.</td>
       <td>
         <p>2020-06-17 19:03:36.000</p>
       </td>
@@ -15426,7 +15426,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
     <tr>
       <td>MAPPING_TYPE</td>
       <td>varchar</td>
-      <td>Typen av ID som mappas till [!DNL Marketo Measure] cookie-ID.</td>
+      <td>Typen av ID som är mappad till [!DNL Marketo Measure] cookie-ID.</td>
       <td>Adobe_orgId_eccid</td>
     </tr>
     <tr>
@@ -15587,4 +15587,4 @@ group by 1,2,3,4
 order by touchpoint_date
 ```
 
-[Till början](#data-warehouse-schema)
+[Tillbaka till början](#data-warehouse-schema)

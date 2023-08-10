@@ -2,7 +2,8 @@
 description: Bästa praxis för anpassad modell - [!DNL Marketo Measure] - Produktdokumentation
 title: Bästa praxis för anpassad modell
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Models
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -11,11 +12,11 @@ ht-degree: 0%
 
 # Bästa praxis för anpassad modell {#best-practices-for-custom-model}
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 Förutom [!DNL Marketo Measure] ur förpackningen Attribution Models, Tier 2-kunder och högre har tillgång till en Custom Attribution Model.
 
-The [!DNL Marketo Measure] Med en anpassad attribueringsmodell kan användarna välja vilka milstolppunktspositioner och/eller anpassade stadier som ska ingå i modellen. Dessutom kan användarna styra den procentandel av kredit som tilldelas varje steg i modellen (användarna kan definiera ytterligare upp till sex anpassade steg) eller använda de procentvärden för attribuering som föreslås av [!DNL Marketo Measure] Maskininlärningsmodell.
+The [!DNL Marketo Measure] Med en anpassad attribueringsmodell kan användarna välja vilka milstolppunktspositioner och/eller anpassade stadier som ska ingå i modellen. Dessutom kan användarna styra den procentandel av kredit som tilldelas varje steg i modellen (användarna kan definiera ytterligare upp till sex anpassade steg) eller använda de procentvärden för attribuering som föreslås av [!DNL Marketo Measure] Machine Learning-modell.
 
 Det finns två viktiga aspekter av din anpassade attribueringsmodell:
 
@@ -23,9 +24,9 @@ Det finns två viktiga aspekter av din anpassade attribueringsmodell:
 
 >[!NOTE]
 >
->Mer information finns i Stage Mapping Best Practice-resursen
+>Mer information finns i resursen för metodmappning
 
-**Anpassad attribueringsmodellering** definieras när du har valt en anpassad fas-tratt. Användarna kan sedan styra hur mycket attribueringskrediter som ska tilldelas till varje anpassad fas samt [!DNL Marketo Measure] milstolpar. Användarna kan tillskriva varje scen kredit när de passar eller referera till [!DNL Marketo Measure] Maskininlärningsmodell som fungerar som en&quot;förslagsmodell&quot; baserad på historiska data.
+**Anpassad attributmodellering** definieras när du har valt en anpassad fas-tratt. Användarna kan sedan styra hur mycket attribueringskrediter som ska tilldelas till varje anpassad fas samt [!DNL Marketo Measure] milstolpar. Användarna kan tillskriva varje scen kredit när de passar eller referera till [!DNL Marketo Measure] Maskininlärningsmodell som fungerar som en&quot;förslagsmodell&quot; baserad på historiska data.
 
 Det är viktigt att dessa två aspekter av din anpassade modell definieras korrekt och exakt för att säkerställa att [!DNL Marketo Measure] skapar en korrekt anpassad attributmodell.
 
@@ -43,7 +44,7 @@ Oavsett om du konfigurerar din anpassade modell för första gången eller grans
       * En lägre attribueringsprocent innebär att det är mindre viktigt för teamet att övervaka stadierna
 * Du måste definiera de övre trattfaserna baserat på antingen lead- eller kontaktfaserna, inte på båda
    * Det innebär att du måste se till att alla personer kommer att passera genom det steget på det relativa objektet
-      * Till exempel: Om du definierar MQL-scenen från Lead-objektet måste alla personer gå in i systemet som en lead och markeras som en MQL på sin lead-post för att [!DNL Marketo Measure] för att exakt återspegla vilken beröring som var kopplad till leadens övergång till MQL. Om så inte är fallet, och vissa personer går vidare till Kontakt innan de blir MQL som lead, [!DNL Marketo Measure] kommer inte att kunna redovisa detta korrekt i dina Touchpoint-data och vi måste anta att personen redan har MQL. [!DNL Marketo Measure] kan inte ta hänsyn till scenhoppen så vi kommer att sluta oss till att faserna har passerat även om de inte har det.
+      * Om du till exempel definierar MQL-steget från Lead-objektet måste alla personer gå in i systemet som en lead och markeras som en MQL på sin lead-post för att [!DNL Marketo Measure] för att exakt ta reda på vilken beröring som var kopplad till leadens övergång till MQL. Om så inte är fallet, och vissa personer går vidare till Kontakt innan de blir MQL som lead, [!DNL Marketo Measure] kommer inte att kunna redovisa detta korrekt i dina Touchpoint-data och vi måste anta att personen redan har MQL. [!DNL Marketo Measure] kan inte ta hänsyn till scenhoppen så vi kommer att sluta oss till att faserna har passerat även om de inte har det.
 * Kontrollera att spårning av fälthistorik är aktiverat för alla fält som används för att definiera anpassade steg som du inkluderar
 * Använd inte formelfält för att definiera en anpassad fas
    * Ett booleskt fält är att rekommendera
@@ -71,4 +72,3 @@ Andra orsaker till detta kan utlösa en granskning av din anpassade modell är .
 >* [Anpassad attributmodell och inställningar](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Aktivera spårning av fälthistorik för anpassad modell](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
 >* [Maskininlärningsmodell](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
-

@@ -3,7 +3,8 @@ unique-page-id: 18874765
 description: Testa Marketo Measure-integrationen med en Salesforce-sandlåda - [!DNL Marketo Measure] - Produktdokumentation
 title: Testa Marketo Measure-integrationen med en Salesforce-sandlåda
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 >
 >Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-En av [!DNL Marketo Measure] grundfunktionerna är deras förmåga att spåra era digitala marknadsföringssatsningar genom åtgärder på er webbplats och sedan överföra dessa data till er produktion [!DNL Salesforce org] via Leads och Contacts. Vanligtvis finns det inga inkommande leads som skapats från din webbplats inom en sandlådeintegrering, så fokus på data kommer att ligga på en helt offline-nivå.
+En av [!DNL Marketo Measure] grundfunktionerna är deras förmåga att spåra era digitala marknadsföringssatsningar genom åtgärder på er webbplats och sedan överföra dessa data till er produktion [!DNL Salesforce org] via leads och kontakter. Vanligtvis finns det inga inkommande leads som skapats från din webbplats inom en sandlådeintegrering, så fokus på data kommer att ligga på en helt offline-nivå.
 
 Här anges de två källorna som refereras till för båda testfaserna. [Steg 1-4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) och [Steg 5-6](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md). Vi rekommenderar att du granskar dessa dokument eftersom de innehåller mer information inom vissa områden.
 
@@ -32,4 +33,4 @@ Här anges de två källorna som refereras till för båda testfaserna. [Steg 1-
 1. När kampanjen har skapats överför du leads som kampanjmedlemmar genom att välja **[!UICONTROL Manage Members]** > **[!UICONTROL Add Members]** > **[!UICONTROL Import Files]**.
 1. När detta är klart, och sedan tillbaka till layouten för Campaign-sidan, kommer du att&quot;Enable Buyer Touchpoints&quot;, som är ett plocklistefält. Välj värde: **[!UICONTROL Include All Campaign Members]**.
 
-När detta är klart startar det en synkronisering mellan [!DNL Marketo Measure] och [!DNL Salesforce] och lägga in kontaktytor i leadposterna. Vi rekommenderar att du går tillbaka nästa dag med en rapport som heter: Kontaktpunkt för köpare på leads finns i [!UICONTROL Buyer Touchpoints Reports] på fliken Rapporter. Om rapporten fyller i en kontaktyta för varje lead är detta ett tecken på framgång.
+När detta är klart startar det en synkronisering mellan [!DNL Marketo Measure] och [!DNL Salesforce] och lägga in kontaktytor i leadposterna. Vi rekommenderar att du går tillbaka nästa dag via en rapport med namnet&quot;Buyer Touchpoint on Leads&quot; i [!UICONTROL Buyer Touchpoints Reports] på fliken Rapporter. Om rapporten fyller i en kontaktyta för varje lead är detta ett tecken på framgång.

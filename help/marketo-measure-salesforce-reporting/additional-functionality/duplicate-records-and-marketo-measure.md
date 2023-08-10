@@ -3,7 +3,8 @@ unique-page-id: 18874572
 description: Duplicera poster och [!DNL Marketo Measure] - [!DNL Marketo Measure] - Produktdokumentation
 title: Duplicera poster och [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 Hur ser det här ut i [!DNL Marketo Measure] Rapportera?
 
-_Exempelrapport: [!DNL Marketo Measure] Personer med Buyer Touchpoints._
+_Exempel: [!DNL Marketo Measure] Personer med Buyer Touchpoints._
 
 ![](assets/1-1.png)
 

@@ -3,7 +3,8 @@ unique-page-id: 18874757
 description: Lägger till [!DNL Marketo Measure] JavaScript till [!DNL Pardot] - [!DNL Marketo Measure] - Produktdokumentation
 title: Lägger till [!DNL Marketo Measure] JavaScript till [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Lägger till [!DNL Marketo Measure] JavaScript till [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
-[!DNL Pardot] formulär kräver ytterligare hantering i formulärmallen utöver att skriptet placeras på webbplatsen för att [!DNL Marketo Measure] för att ta hänsyn till inskickade formulär. Processen är enkel; kräver bara att [!DNL Marketo Measure] spåra skript i [!DNL Pardot] formulärmall.
+[!DNL Pardot] formulär kräver ytterligare hantering i formulärmallen utöver att skriptet placeras på webbplatsen för att [!DNL Marketo Measure] för att ta hänsyn till inskickade formulär. Processen är enkel, den kräver bara att du placerar [!DNL Marketo Measure] spåra skript i [!DNL Pardot] formulärmall.
 
 ## Steg för steg-instruktioner {#step-by-step-instructions}
 
@@ -26,7 +27,7 @@ När du har loggat in på [!DNL Pardot] gör du så här:
 
    ![](assets/1-3.png)
 
-1. Bestäm lämplig layoutmall och klicka på **[!UICONTROL Edit]** till höger.
+1. Bestäm lämplig layoutmall och klicka **[!UICONTROL Edit]** till höger.
 
    ![](assets/2-1.png)
 

@@ -2,7 +2,8 @@
 description: Bästa praxis för [!DNL Marketo Measure] CRM-paket - [!DNL Marketo Measure] - Produktdokumentation
 title: Bästa praxis för [!DNL Marketo Measure] CRM-paket
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
-source-git-commit: 00268f49ff6e5dfc105fa7ea21837375eae49647
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -15,16 +16,16 @@ ht-degree: 0%
 >
 >Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 [!DNL Marketo Measure] integreras med båda [!DNL Salesforce] och [!DNL Microsoft Dynamics]fokuserar det här dokumentet på [!DNL Marketo Measure] bästa praxis för CRM-paket som utformats för [!DNL Salesforce].
 
 Under implementeringen skulle följande paket ha installerats i din [!DNL Salesforce] -instans.
 
-Baspaket: Detta är vårt baspaket som innehåller våra anpassade objekt och fält. Vi rekommenderar att du installerar i Production för alla användare.
-Tilläggspaket för instrumentpanel: Det här är vårt tilläggspaket för Dashboard, som innehåller tre färdiga instrumentpaneler. Vi rekommenderar att du installerar i Production för alla användare. Detta är valfritt, men vi uppmuntrar kunderna att installera.
+Baspaket: Detta är vårt baspaket som innehåller våra anpassade objekt och fält. Vi rekommenderar att alla användare installerar i Production.
+Dashboard Extension Package: Detta är vårt Dashboard Extension Package, som innehåller tre fördefinierade instrumentpaneler. Vi rekommenderar att alla användare installerar i Production. Detta är valfritt, men vi uppmuntrar kunderna att installera.
 
-Dessa paket aktiverar [!DNL Marketo Measure] -användare enkelt få tillgång till kontaktpunktsdata genom hela [!DNL Salesforce] -instans. Att bekräfta att du har konfigurerat dessa paket korrekt är avgörande för att verifiera att sidlayouter, behörighetsgrupper, rapporter och instrumentpaneler visas för din [!DNL Marketo Measure] som förväntat.
+Dessa paket aktiverar [!DNL Marketo Measure] -användare enkelt få tillgång till kontaktpunktsdata genom hela [!DNL Salesforce] -instans. Att bekräfta att du har konfigurerat dessa paket korrekt är avgörande för att verifiera att sidlayouter, behörighetsgrupper, rapporter och instrumentpaneler visas för din [!DNL Marketo Measure] användare som förväntat.
 
 ## Bästa praxis {#best-practice}
 
@@ -49,7 +50,7 @@ Andra orsaker till det kan utlösa en granskning...
 
 >[!NOTE]
 >
->När du inaktiverar Marketo Measure export av data till Salesforce tas inga befintliga data bort. Följ stegen i [den här Salesforce-hjälpartikeln](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
+>När du inaktiverar Marketo Measure export av data till Salesforce tas inga befintliga data bort. Följ stegen i [denna Salesforce-hjälpartikel](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
@@ -57,4 +58,3 @@ Andra orsaker till det kan utlösa en granskning...
 >* [[!DNL Marketo Measure] Behörighetsuppsättningar](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [Dela rapporter och instrumentpanelsmapp](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0)
 >* [Anslut Marketo Measure till Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
-

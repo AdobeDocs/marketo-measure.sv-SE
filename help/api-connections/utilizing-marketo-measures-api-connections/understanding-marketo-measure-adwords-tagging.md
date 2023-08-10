@@ -3,7 +3,8 @@ unique-page-id: 18874678
 description: Förstå [!DNL Marketo Measure] AdWords Tagging - [!DNL Marketo Measure] - Produktdokumentation
 title: Förstå [!DNL Marketo Measure] AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
-source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
+feature: APIs, Integration, UTM Parameters
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -27,9 +28,9 @@ På grund av [!DNL Marketo Measure] parametrar:
 **If [!DNL Marketo Measure] söker efter en spårningsmall:**
 
 * [!DNL Marketo Measure] lägger till parametrarna i spårningsmallen.
-* Om en omdirigering från tredje part hittas i en spårningsmall som Kenshoo eller Marin, [!DNL Marketo Measure] kommer inte att vidta några åtgärder. I stället måste du [add [!DNL Marketo Measure] parametrar till tredjepartsverktyget i ditt konto](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
+* Om en omdirigering från tredje part hittas i en spårningsmall som Kenshoo eller Marin, [!DNL Marketo Measure] kommer inte att vidta några åtgärder. I stället måste du [lägg till [!DNL Marketo Measure] parametrar till tredjepartsverktyget i ditt konto](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
-Om ingen spårningsmall hittas [!DNL Marketo Measure] kommer att:
+Om ingen spårningsmall hittas [!DNL Marketo Measure] kommer att
 
 * Sök igenom alla URL:er för annonsmål efter [!DNL Marketo Measure] Parametrar.
 * Om ni hittar er är ni redo att åka.
@@ -96,15 +97,15 @@ Det finns två spårningsmallar [!DNL Marketo Measure] rekommenderar att du anv�
 
 **F: Vilka behörigheter behöver den anslutna användaren?**
 
-S: userinfo.email
+A: userinfo.email
 
 **F: Hur lång tid tar det att importera utgiftsdata?**
 
-S: 6 timmar
+A: 6 timmar
 
 **F: Hur lång tid tar det att importera annonsdata?**
 
-S: 4 timmar
+A: 4 timmar
 
 **F: För dynamiska sökannonser, kan vi spåra kombinationen av rubrik, beskrivning osv. i det projekt som vi serverade?**
 
@@ -112,6 +113,6 @@ S: Vi kan inte hämta enskilda kreativa detaljer för dynamiska sökannonser, me
 
 >[!NOTE]
 >
->När ändringarna är klara är du klar. Du kan kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om det finns några frågor under installationen.
+>När ändringarna är klara är du klar. Nå ut till [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om det finns några frågor under installationen.
 
 [Klicka här](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} om du vill ha instruktioner från Google om hur du skapar spårningsmallar på kontonivå.

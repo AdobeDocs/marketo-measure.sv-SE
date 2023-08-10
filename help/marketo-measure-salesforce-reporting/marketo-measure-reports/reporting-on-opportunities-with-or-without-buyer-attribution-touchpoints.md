@@ -3,7 +3,8 @@ unique-page-id: 18874618
 description: Rapportering om affärsmöjligheter med eller utan Buyer Attribution Touchpoints - [!DNL Marketo Measure] - Produktdokumentation
 title: Rapportering om affärsmöjligheter med eller utan Buyer Attribution Touchpoints
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Touchpoints, Attribution, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 >
 >Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-Skapa en ny rapporttyp som inkluderar alla affärsmöjligheter med eller utan kontaktytor för Buyer-attribuering.
+Skapa en ny rapporttyp som inkluderar alla affärsmöjligheter med eller utan kontaktytor för Buyer-attribut.
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Report Types]**.
 
@@ -28,7 +29,7 @@ Skapa en ny rapporttyp som inkluderar alla affärsmöjligheter med eller utan ko
 
 1. Ange det primära objektet som[!UICONTROL Opportunities].&quot;
 
-   * Namnge rapporttypetiketten som: &quot;Möjligheter med eller utan Buyer Attribution.&quot;
+   * Ange etiketten för rapporttypen som:&quot;Affärsmöjligheter med eller utan köpattribut.&quot;
    * Använd samma namn för rapporttypen Namn. I beskrivningsinmatningen,&quot;Opportunity with or without Buyer Attribution Touchpoints&quot;.
    * Spara rapporten i[!UICONTROL Other]&quot; och ange rapporten som &quot;[!UICONTROL Deployed].&quot;
 

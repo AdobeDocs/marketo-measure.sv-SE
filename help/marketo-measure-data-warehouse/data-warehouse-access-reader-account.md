@@ -1,15 +1,16 @@
 ---
-description: data warehouse Access - Reader Account - produktdokumentation
-title: data warehouse Access - Reader Account
+description: Data warehouse Access - Reader Account - produktdokumentation
+title: Data warehouse Access - Reader Account
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-# data warehouse Access - Reader Account {#data-warehouse-access-reader-account}
+# Data warehouse Access - Reader Account {#data-warehouse-access-reader-account}
 
 ## Snowflake Access Link {#snowflake-access-link}
 
@@ -19,7 +20,7 @@ Om du vill komma åt Snowflake data warehouse måste du navigera till den specif
 
    ![](assets/data-warehouse-access-reader-account-1.png)
 
-1. På den vänstra menyn, under Säkerhet, klickar du på **[!UICONTROL Data Warehouse]**.
+1. På den vänstra menyn under Dokumentskydd klickar du på **[!UICONTROL Data Warehouse]**.
 
    ![](assets/data-warehouse-access-reader-account-2.png)
 
@@ -52,7 +53,6 @@ Om du vill komma åt Snowflake data warehouse måste du navigera till den specif
 >* Om du återställer lösenordet återställs det för alla [!DNL Marketo Measure] -användare i din organisation, inte bara den användare som är inloggad.
 >* Vi visar bara det tillfälliga lösenordet i användargränssnittet. Inget e-postmeddelande skickas.
 
-
 ![](assets/data-warehouse-access-reader-account-7.png)
 
 ![](assets/data-warehouse-access-reader-account-8.png)
@@ -63,7 +63,7 @@ Du måste ange några uppgifter för att kunna ansluta Snowflake data warehouse 
 
 >[!NOTE]
 >
->Varje verktyg har olika anslutningskrav. vi rekommenderar att du läser dokumentationen för det specifika verktyg som du försöker ansluta.
+>Varje verktyg har olika anslutningskrav. Vi rekommenderar att du läser dokumentationen för det specifika verktyg som du försöker ansluta till.
 
 * **URI** (alltid obligatoriskt)
    * Detta är domännamnet för Snowflake-kontot.  Den finns i en del av inloggningslänken för Snowflake.
@@ -75,4 +75,5 @@ Du måste ange några uppgifter för att kunna ansluta Snowflake data warehouse 
    * Databasen är den som lagrar data i Snowflake. Det är lagringsresursen. Databasnamnet visas på informationssidan i Data warehouse i [!DNL Marketo Measure].
 * **Namn på lagerställe** (krävs inte alltid)
    * Det är lagerstället som kör frågor i Snowflake. Det är beräkningsresursen.  Lagerställets namn visas på informationssidan Data warehouse i [!DNL Marketo Measure].
-   ![](assets/data-warehouse-access-reader-account-9.png)
+
+  ![](assets/data-warehouse-access-reader-account-9.png)

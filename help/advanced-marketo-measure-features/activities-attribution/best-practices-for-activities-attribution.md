@@ -2,7 +2,8 @@
 description: Best Practices for Activities Attribution - [!DNL Marketo Measure] - Produktdokumentation
 title: Best Practices for Activities Attribution
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Best Practices for Activities Attribution {#best-practices-for-activities-attribution}
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 The [!DNL Marketo Measure] Funktionen för aktivitetsattribuering gör att kunder kan skapa kontaktytor från aktivitetsposter i CRM. Det här sättet att skapa kontaktytor är flexibelt eftersom det gör att du kan skapa regler baserade på aktivitets- eller händelserefält för att informera [!DNL Marketo Measure] vilken aktivitet som registrerar att den ska producera kontaktytor från och därefter ta emot attribueringskredit.
 
@@ -29,11 +30,11 @@ Oavsett om du definierar aktivitetsregler för första gången eller bara gransk
 
 >[!NOTE]
 >
->Det är **NOT** Vi rekommenderar att du spårar försäljningsaktiviteter som inträffar efter att affärsmöjligheten har skapats, eftersom spårning av en försäljningsprocess inte ger någon större insikt. Målet är att spåra effekten av försäljningen vid sidan av effekten av marknadsföringen, framför allt i utvecklingen av en ny möjlighet/pipeline-produktion
+>Det är **NOT** Vi rekommenderar att du spårar försäljningsaktiviteter som inträffar efter att affärsmöjligheten har skapats, eftersom spårning av en försäljningsprocess inte ger någon större insikt. Målet är att spåra effekten av försäljningen vid sidan av effekten av marknadsföringen, främst i utvecklingen av en ny möjlighet/pipeline-produktion
 
 * Använd inte formelfält för att definiera regler
 * Skapa regler som är specifika och exakta
-   * Du vill att tröskelvärdet för att skapa en kontaktyta för aktivitet ska vara samma (eller liknande) som för en formulärfyllning eller ett kampanjmedlemskap, dvs. (Besvarar en utgående e-post eller slutförda telefonkonversationer)
+   * Du vill att tröskelvärdet för att skapa en aktivitetskontaktyta ska vara samma (eller liknande) som för en formulärfyllning eller ett kampanjmedlemskap, dvs. (Svar på ett utgående e-postmeddelande eller slutförda telefonsamtal)
 * Validera alltid nya regler i [!DNL Salesforce] innan du sparar och bearbetar
    * Om du replikerar dina aktivitetsregler i en rapporttyp &quot;Aktiviteter och händelser&quot; får du en tydlig förståelse för exakt hur många kontaktytor som skapas utifrån den regeln
 * Arbeta i ditt säljteam
@@ -51,7 +52,6 @@ Andra orsaker till att det kan utlösa en granskning av dina aktivitetsregler ä
 
 >[!MORELIKETHIS]
 >
->* [Verksamhetsattribuering](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
+>* [Verksamhetsattribut](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
 >* [Vanliga frågor om attribut för försäljningsaktiviteter](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
-
 

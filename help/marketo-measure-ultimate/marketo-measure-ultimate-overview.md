@@ -1,8 +1,9 @@
 ---
-description: '''[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure] - Produktdokumentation'
+description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure] - Produktdokumentation'
 title: '''[!DNL Marketo Measure] Ultimate Overview'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 4a5e720a91e8b229ad2f2889dbf87f5c43767411
+feature: Integration, Tracking, Attribution
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 0%
@@ -58,11 +59,11 @@ Marknadsförarna förväntas hämta sina B2B-data (t.ex. konto, säljprojekt, ko
 
 När markeringen för sandlådemappning har sparats kan du för närvarande inte ändra den i programmet. Om du vill ändra den kan du kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-Data för en viss enhet (t.ex. Konto) från en viss datakälla kan bara gå till en datauppsättning. Varje datauppsättning kan bara inkluderas i ett dataflöde. Överträdelser stoppar dataflödet vid körning.
+Data för en viss enhet (t.ex. Konto) från en viss datakälla kan bara gå till en datauppsättning. Varje datauppsättning kan bara inkluderas i ett dataflöde. Överträdelser kommer att stoppa dataflödet vid körning.
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
-**Stage Mapping**
+**Scenmappning**
 
 Alla [!DNL Marketo Measure Ultimate] regler är datauppsättningsspecifika. Regler för Stage Mapping måste skapas för alla datamängder och alla markerade steg.
 
@@ -89,7 +90,7 @@ Fyra inbyggda steg måste mappas med regler (mappningsregler för de andra två,
 
 Regelvillkoren är datauppsättningsspecifika. Stage Mapping-regler måste skapas för alla datauppsättningar och alla faser utom Lead Lost och Lead Converted.
 
-Ingen markering för tratt jämfört med boomerang jämfört med anpassad modell. Alla faser markeras för tratt, boomerang och anpassad modell. Det finns en gräns för hur många steg vi stöder: 15 anpassade plus 6 inbyggda faser.
+Ingen markering för tratt jämfört med boomerang jämfört med anpassad modell. Alla faser markeras för tratt, boomerang och anpassad modell. Det finns en gräns för hur många steg vi stöder: 15 anpassade plus 6 inbyggda steg.
 
 ![](assets/marketo-measure-ultimate-overview-6.png)
 

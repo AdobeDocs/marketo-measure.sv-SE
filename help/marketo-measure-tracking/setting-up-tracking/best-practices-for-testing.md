@@ -1,9 +1,10 @@
 ---
 unique-page-id: 18874722
-description: Best Practices for Testing - [!DNL Marketo Measure] - Produktdokumentation
+description: Bästa metoder för testning - [!DNL Marketo Measure] - Produktdokumentation
 title: Bästa metoder för testning
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 1%

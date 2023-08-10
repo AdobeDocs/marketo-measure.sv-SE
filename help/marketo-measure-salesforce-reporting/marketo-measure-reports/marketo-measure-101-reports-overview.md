@@ -2,7 +2,8 @@
 description: "[!DNL Marketo Measure] 101 Rapporter - översikt [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Översikt över 101 rapporter"
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Alla [!DNL Marketo Measure] kunder som använder [!DNL Marketo Measure] och [!DN
 
 ![](assets/bizible-101-reports-overview-2.png)
 
-Dessa rapporter ger dig grundläggande fält och infrastruktur som behövs för [!DNL Marketo Measure] relaterad rapport som du vill skapa. Vi uppmuntrar alla nya och gamla kunder att börja med dessa rapporter när de utforskar marknadsattribueringsfrågor. Här nedan hittar du en förklaring till de sex&quot;_[!DNL Marketo Measure]101.._ rapporter.
+Dessa rapporter ger dig grundläggande fält och infrastruktur som behövs för [!DNL Marketo Measure] relaterad rapport som du vill skapa. Vi uppmuntrar alla nya och gamla kunder att börja med dessa rapporter när de utforskar marknadsattribueringsfrågor. Här nedan hittar du en förklaring till de sex&quot;_[!DNL Marketo Measure]101.._&quot; rapporter.
 
 _Om du inte hittar mappen Buyer Touchpoints Report eller de sex &quot;_[!DNL Marketo Measure] 101.._&quot; som finns i den mappen kan du få hjälp av supporten._
 
@@ -45,7 +46,7 @@ I följande två rapportvarianter används samma rapporttyp, men de grupperas ef
 **[!DNL Marketo Measure]101: Lead/kontakter efter kanal** | En högnivåvy över hur era marknadsföringskanaler påverkar skapandet av leads eller kontakter och deras ytterligare engagemang. Den här rapporten är perfekt när du vill förstå det totala engagemanget i alla era marknadsföringskanaler och vilka marknadsföringskanaler som genererar nya nettonamn i Salesforce-instansen.
 **[!DNL Marketo Measure]101: Lead/kontakter efter ID** | Här visas varje [!DNL Marketo Measure] Personens berättelse och är en mycket mer detaljerad rapport som visar varje individ och deras Buyer Touchpoints, oavsett om kontaktytan inträffade som lead eller kontakt.
 
-**Möjligheter med Buyer Attribution Touchpoints** | De två sista &quot;_[!DNL Marketo Measure]101.._&quot;rapporterna ligger längst ned i trattrapporterna som visar slutpunktsdata för Buyer Attribution som relaterar till säljprojekt. Den viktigaste skillnaden för de här rapporterna är att de inte är integrerade med _Touchpoints för Buyer-attribuering_ som avser uppgifter på affärsmöjlighetsnivå och affärsmöjlighetsnivå, t.ex. intäkter. Varje gång du vill rapportera om säljprojekt eller tilldelade intäkter ska den här rapporttypen användas. De två rapporterna nedan använder samma rapporttyp, men de grupperas efter olika mått, säljprojekt-ID eller marknadsföringskanal. Före varje anpassning visas följande två rapporter:
+**Möjligheter med Buyer Attribution Touchpoints** | De två sista &quot;_[!DNL Marketo Measure]101.._&quot;rapporterna ligger längst ned i trattrapporterna som visar slutpunktsdata för Buyer Attribution som relaterar till säljprojekt. Den viktigaste skillnaden för de här rapporterna är att de inte är integrerade med _Kontaktpunkter för Buyer Attribution_ som avser uppgifter på affärsmöjlighetsnivå och affärsmöjlighetsnivå, t.ex. intäkter. Varje gång du vill rapportera om säljprojekt eller tilldelade intäkter ska den här rapporttypen användas. De två rapporterna nedan använder samma rapporttyp, men de grupperas efter olika värden, säljprojekt-ID:t och marknadsföringskanal. Före varje anpassning visas följande två rapporter:
 
 **[!DNL Marketo Measure]101: Möjligheter efter kanal** | En högnivåbild av hur era marknadsföringskanaler påverkar och genererar tillskrivna intäkter över era affärsmöjligheter.
 **[!DNL Marketo Measure]101: Möjligheter efter ID** | Den här detaljerade rapportversionen visar er hela kundresan för era affärsmöjligheter. I den här rapporten kan du se alla Buyer Attribution Touchpoint som är kopplade till ett säljprojekt och dess tillskrivna intäkter via de olika attribueringsmodellerna.
@@ -54,4 +55,4 @@ Det anses vara en god praxis att behandla _[!DNL Marketo Measure]101.._&quot; so
 
 Mappen&quot;Buyer Touchpoint Reports&quot; är utformad för att hjälpa dig komma igång med dina [!DNL Marketo Measure] rapporter, för åtgärdbara rapporter måste du anpassa dessa rapporter så att de är anpassade efter dina rapporteringsbehov. Du måste lägga till de filter som behövs för att säkerställa att posterna i rapporten (och deras relaterade kontaktytor) är anpassade efter rapportens mål.
 
-När du känner till _[!DNL Marketo Measure]101.._&quot; kan det vara bra att återskapa dem från anpassade rapporttyper för mer anpassade rapporteringsbehov. Skapa [[!DNL Marketo Measure] Anpassade rapporttyper](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) kan du dra in anpassade fält som du vanligtvis använder i andra CRM-rapporter. Detta hjälper dig att ta [!DNL Marketo Measure] till nästa nivå!
+När du känner till _[!DNL Marketo Measure]101.._&quot; kan det vara bra att återskapa dem från anpassade rapporttyper för mer anpassade rapporteringsbehov. Skapa [[!DNL Marketo Measure] Anpassade rapporttyper](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) gör att du kan dra in anpassade fält som du vanligtvis använder i andra CRM-rapporter. Detta hjälper dig att ta [!DNL Marketo Measure] till nästa nivå!

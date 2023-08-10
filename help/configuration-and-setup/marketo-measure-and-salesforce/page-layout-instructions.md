@@ -3,7 +3,8 @@ unique-page-id: 18874799
 description: Instruktioner för sidlayout - [!DNL Marketo Measure] - Produktdokumentation
 title: Instruktioner för sidlayout
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 1%
@@ -18,11 +19,11 @@ ht-degree: 1%
 
 Se [!DNL Marketo Measure] rekommenderar vi att du uppdaterar sidlayouter för [!UICONTROL Account], [!UICONTROL Contact], [!UICONTROL Lead], [!UICONTROL Opportunity]och [!UICONTROL Campaign] Objekt. Instruktionerna är uppdelade för varje objektsidlayout nedan.
 
-Börja med att navigera till [!DNL Salesforce] Konfigurera inställningar och leta upp [!UICONTROL Customize] -fliken.
+Navigera först till [!DNL Salesforce] Konfigurera inställningar och leta upp [!UICONTROL Customize] -fliken.
 
 ## Kampanjobjekt {#campaign-object}
 
-Vi rekommenderar att du lägger till [!DNL Marketo Measure] fält till din SFDC-kampanj för enbart din sandlåda. Fälten kan användas för att testa generering av kontaktpunkter. I produktion rekommenderar vi bara att du lägger till [!DNL Marketo Measure] Knappen Uppdatera slutpunktsdatum gruppvis. Vi rekommenderar inte att du lägger till [!DNL Marketo Measure] fält till produktion eftersom du kan skapa regelregler för kampanjsynkronisering.
+Vi rekommenderar att du [!DNL Marketo Measure] fält till din SFDC-kampanj för enbart din sandlåda. Fälten kan användas för att testa generering av kontaktpunkter. I produktion rekommenderar vi bara att du lägger till [!DNL Marketo Measure] Knappen Uppdatera slutpunktsdatum gruppvis. Vi rekommenderar inte att du lägger till [!DNL Marketo Measure] fält till produktion eftersom du kan skapa regelregler för kampanjsynkronisering.
 
 1. Välj **[!UICONTROL Campaigns]**.
 
@@ -82,13 +83,13 @@ Vi rekommenderar att du lägger till [!DNL Marketo Measure] fält till din SFDC-
 
    >[!NOTE]
    >
-   >För [!DNL Marketo Measure Insights] Canvas-appen fungerar som den ska, [behörigheter måste konfigureras korrekt](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
+   >För [!DNL Marketo Measure Insights] Canvas-appen fungerar som den ska [behörigheter måste konfigureras korrekt](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
    >[!TIP]
    >
    >De flesta kunder använder inte fälten som slutar med (FT) eller (LC) eftersom de är äldre fält från före [!DNL Marketo Measure] Pekpunkten fanns som ett objekt.
 
-Om du använder [!DNL Marketo Measure] ABM-funktion, [klicka här för ytterligare instruktioner om sidlayout](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Om du använder [!DNL Marketo Measure] ABM, [klicka här för ytterligare instruktioner om sidlayout](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Kontakter {#contacts}
 
@@ -109,7 +110,7 @@ Om du använder [!DNL Marketo Measure] ABM-funktion, [klicka här för ytterliga
    * Pekpunktsposition
    * Kontaktpunktsdatum
 
-1. Sortera efter: Touchpoint-datum, stigande.
+1. Sortera efter: Slutpunktsdatum, stigande.
 
    ![](assets/6.jpg)
 
@@ -189,4 +190,4 @@ Om du använder [!DNL Marketo Measure] ABM-funktion, [klicka här för ytterliga
 
 1. Klicka på **[!UICONTROL Save]**.
 
-Om du använder [!DNL Marketo Measure] ABM-funktion,  [klicka här för ytterligare instruktioner om sidlayout](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Om du använder [!DNL Marketo Measure] ABM,  [klicka här för ytterligare instruktioner om sidlayout](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

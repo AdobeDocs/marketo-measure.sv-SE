@@ -3,7 +3,8 @@ unique-page-id: 18874566
 description: Marknadsattribuering - Marketo Measure - produktdokumentation
 title: Marknadsattribuering
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
-source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 4%
@@ -20,7 +21,7 @@ Marketo Measure ger marknadsförarna insikt i vilka marknadsföringssatsningar s
 
 **Marknadsattribuering** är processen att tilldela intäkter till en kontaktyta för marknadsföring. Detta görs genom att spåra en potentiell kunders hela kundresa, från den första interaktionen med företaget till den tidpunkt då erbjudandet upphör. De intäkter som genereras av avtalet tillskrivs de kontaktytor som ledde till försäljningen. Storleken på intäktskrediten till en kontaktyta beror på hur mycket kontaktytan påverkade kundens inköpsbeslut.
 
-**Pekpunkter** hänvisa till den interaktion en potentiell kund/lead har med marknadsföringen online eller offline. Det finns fyra **större **kontaktytor** som beaktas vid marknadsattribuering. De återspeglar de olika stegen i kundresan. Dessa viktiga kontaktytor, som också kallas **milstolpekontaktytor**&#x200B;är: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won offer (CW).
+**Pekpunkter** hänvisa till den interaktion en potentiell kund/lead har med marknadsföringen online eller offline. Det finns fyra **större **kontaktytor** som beaktas vid marknadsattribuering. De återspeglar de olika stegen i kundresan. Dessa viktiga kontaktytor, som också kallas **milstolpekontaktytor**, är: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won deal (CW).
 
 ![](assets/1.png)
 
@@ -29,7 +30,7 @@ Dessa milstolpar utgör grunden för Marketo Measure **attribueringsmodeller**. 
 * Första beröring
 * Skapa leads
 * U-formad
-* W-Shaped
+* W-Shape
 * Fullständig sökväg
 * Anpassad modell
 
@@ -39,7 +40,7 @@ Dessa milstolpar utgör grunden för Marketo Measure **attribueringsmodeller**. 
 
 ## Varför attribuering är viktigt {#why-attribution-is-important}
 
-Marknadsföringsteamen rapporterar vanligtvis om engagemang, aktivitet och andra mjuka mätvärden. En utmaning som marknadsförare ofta står inför är att visa hur mycket av de faktiska intäkterna de genererat för organisationen. Marknadsattribuering löser detta problem genom att knyta marknadsföringssatsningarna direkt till försäljningsintäkterna. Detta ger marknadsförarna den statistik de behöver för att
+Marknadsföringsteamen rapporterar vanligtvis om engagemang, aktivitet och andra mjuka mätvärden. En utmaning som marknadsförare ofta står inför är att visa hur mycket faktisk avkastning deras arbete genererat för organisationen. Marknadsattribuering löser detta problem genom att knyta marknadsföringssatsningarna direkt till försäljningsintäkterna. Detta ger marknadsförarna den statistik de behöver för att
 
 * Bestäm vilka kampanjer och kanaler som fungerar bra och som är de mest lönsamma
 * Tilldela marknadsföringsmedel till högpresterande kanaler

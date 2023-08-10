@@ -3,7 +3,8 @@ unique-page-id: 18874710
 description: Borttagning av pekpunkter och inaktivering av pekpunkter - [!DNL Marketo Measure] - Produktdokumentation
 title: Borttagning av pekpunkter och inaktivering av pekpunkter
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Lär dig hur du tar bort eller inaktiverar kontaktpunkter som uppfyller specifik
 
 Det finns en viktig skillnad mellan reglerna för borttagning av pekpunkter och reglerna för inaktivering av pekpunkter:
 
-* Ta bort pekpunkt - [!DNL Marketo Measure] tar bort alla beröringspunkter från CRM som uppfyller regelvillkoren. Data _kan_ rapporteras på [!DNL Marketo Measure] ROI Dashboard, men inte längre i CRM.
+* Borttagning av pekpunkt - [!DNL Marketo Measure] tar bort alla beröringspunkter från CRM som uppfyller regelvillkoren. Data _kan_ rapporteras på [!DNL Marketo Measure] ROI Dashboard, men inte längre i CRM.
 * Inaktivering av pekpunkter - Liknar borttagning av pekpunkter, men det går inte att rapportera data på ROI-instrumentpanelen.
 
 Innan du börjar skapa regler för borttagning/inaktivering av slutpunkter är det en bra idé att dela implementeringsplanen med marknadsförings- och säljteamet. Du bör redan ha en uppfattning om vilka typer eller värden du vill ta bort. Några vanliga användningsområden är:
@@ -64,7 +65,7 @@ Om du gör ett misstag, oroa dig inte. Du kan också ta bort enskilda rader i pr
 
 ![](assets/5.png)
 
-Slutför genom att spara och bearbeta reglerna. Om du gör många ändringar måste du spara ändringarna under tiden. [!DNL Marketo Measure] tar inte bort dina kontaktytor förrän du klickar på **Spara och bearbeta** -knappen.
+Slutför genom att spara och bearbeta reglerna. Om du gör många ändringar måste du spara ändringarna under tiden. [!DNL Marketo Measure] tar inte bort dina kontaktytor förrän du klickar på knappen **Spara och bearbeta** -knappen.
 
 | **Operator** | **Användningsfall** |
 |---|---|
@@ -73,4 +74,4 @@ Slutför genom att spara och bearbeta reglerna. Om du gör många ändringar må
 | Matchar alla | Flera värden - exakt matchning |
 | Matchar alla (innehåller) | Flera värden - &#42;value&#42;, &#42;värde, &#42;value&#42; |
 
-För kunder som använder Dynamics och som vill ställa in undertryckningsregler baserade på status och/eller statskod krävs följande formatering när regeln konfigureras: `[Object].Statecode` är lika med/inte lika med `[Status Value]`. Om statskoden i Dynamics till exempel är &quot;1&quot; på en kontakt och statusen är &quot;Inaktiv&quot;, och du vill inaktivera alla sådana kontakter, skulle följande format vara felaktigt för din Suppression-regel: Contact.StateCode är lika med 1. I stället vill du använda följande format - eftersom statskod och status fungerar som ett par, [!DNL Marketo Measure] läser värdet från Status i vår fråga: Contact.StateCode är lika med Inactive.
+För kunder som använder Dynamics och som vill ställa in undertryckningsregler baserade på status och/eller statskod krävs följande formatering när regeln konfigureras: `[Object].Statecode` är lika med/inte lika med `[Status Value]`. Om till exempel statskoden i Dynamics har värdet 1 för en kontakt och statusen är Inaktiv och du vill inaktivera alla sådana kontakter, skulle följande format vara felaktigt för din Suppression-regel: Contact.StatusCode är lika med 1. I stället vill du använda följande format - eftersom statskod och status fungerar som ett par, [!DNL Marketo Measure] läser värdet från Status i vår fråga: Contact.StatusCode är lika med Inactive.

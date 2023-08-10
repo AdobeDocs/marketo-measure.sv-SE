@@ -3,7 +3,8 @@ unique-page-id: 18874759
 description: Lägger till [!DNL Marketo Measure] till [!DNL Hubspot] - [!DNL Marketo Measure] - Produktdokumentation
 title: Lägger till [!DNL Marketo Measure] till [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Lär dig hur du lägger till [!DNL Marketo Measure] JavaScript för att spåra [!DNL Hubspot] landningssidor och inskickade formulär.
 
-Hubspot skiljer sig något från andra automatiserade marknadsföringssystem genom att den kan hantera dina landningssidor/formulär OCH din webbplats. Det är viktigt att notera att instruktionerna nedan gäller [!DNL Marketo Measure] spåra aktivitet på [!DNL Hubspot]-värdbaserade sidor. Om du ger din webbplats ett annat CMS-system än [!DNL Hubspot] (t.ex. Wordpress) måste du lägga till [!DNL Marketo Measure] JavaScript-skript kan även användas för CMS.
+Hubspot skiljer sig något från andra automatiserade marknadsföringssystem genom att den kan hantera dina landningssidor/formulär OCH din webbplats. Det är viktigt att notera att instruktionerna nedan gäller [!DNL Marketo Measure] spåra aktivitet på [!DNL Hubspot]webbsidor. Om du ger din webbplats ett annat CMS-system än [!DNL Hubspot] (t.ex. Wordpress) måste du lägga till [!DNL Marketo Measure] JavaScript-skript till CMS-systemet också.
 
 >[!NOTE]
 >

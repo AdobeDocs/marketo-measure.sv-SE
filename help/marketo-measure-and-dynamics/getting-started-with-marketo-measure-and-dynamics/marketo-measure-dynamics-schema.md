@@ -3,7 +3,8 @@ unique-page-id: 18874523
 description: "[!DNL Marketo Measure] Dynamics-schema - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Dynamics-schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -307,11 +308,11 @@ Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Touchpoint p
 
 Buyer Attribution Touchpoint är en [!DNL Marketo Measure] anpassad enhet för att inkapsla marknadsföringens påverkan på affärsmöjligheter.
 
-## Kontaktpunktsrelationer för Buyer-attribuering {#buyer-attribution-touchpoint-relationships}
+## Kontaktpunktsrelationer för Buyer-attribut {#buyer-attribution-touchpoint-relationships}
 
 Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Attribution Touchpoint på hög nivå.
 
-## Touchpoints för Buyer-attribuering {#buyer-attribution-touchpoints}
+## Kontaktpunkter för Buyer Attribution {#buyer-attribution-touchpoints}
 
 <table> 
  <tbody> 
@@ -1021,7 +1022,7 @@ Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Mea
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>konto</p></td> 
+   <td><p>kontotid</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1058,7 +1059,7 @@ Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Mea
    <th><p>Skriv</p></th> 
   </tr> 
   <tr> 
-   <td><p>konto</p></td> 
+   <td><p>kontotid</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1107,7 +1108,7 @@ Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Mea
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>konto</p></td> 
+   <td><p>kontotid</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1143,7 +1144,7 @@ Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Mea
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>salesstagcode</p></td> 
+   <td><p>salesstagecode</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1289,7 +1290,7 @@ Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Mea
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>responsecode</p></td> 
+   <td><p>svarskod</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 

@@ -3,7 +3,8 @@ unique-page-id: 18874767
 description: Konfigurera Boomerang-stadier - [!DNL Marketo Measure] - Produktdokumentation
 title: Konfigurera Boomerang Stages
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+feature: Boomerang
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -18,9 +19,9 @@ ht-degree: 0%
 
 Aktivera [!UICONTROL Boomerang] Du måste vara kontoadministratör för ditt konto. Eller så kan det aktiveras genom att man når ut till [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. När funktionen har aktiverats följer du dessa anvisningar för att konfigurera dem.
 
-## Inställning av startfas {#boomerang-stage-setup}
+## Inställning av Boomerang-scenen {#boomerang-stage-setup}
 
-1. Gå till [!UICONTROL Stage Mapping]. Under kolumnen &quot;[!UICONTROL Boomerang],&quot; markerar du rutorna intill de stadier du vill spåra.
+1. Gå till [!UICONTROL Stage Mapping]. Under kolumnen med rubriken &quot;[!UICONTROL Boomerang],&quot; markerar du rutorna intill de stadier du vill spåra.
 
    ![](assets/1-2.png)
 

@@ -3,7 +3,8 @@ unique-page-id: 30082018
 description: Försenad cookie-synkronisering - [!DNL Marketo Measure] - Produktdokumentation
 title: Försenad cookie-synkronisering
 exl-id: 394053ed-5642-48e4-b83c-c483a58ebbd7
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -33,6 +34,6 @@ Alternativt kan kunderna ange [!UICONTROL data-consent-button-id] vara något ob
 
 ## Begränsning {#limitation}
 
-För [!DNL bizible.js] sparar tillfälligt oskickade webbaktiviteter i kundernas cookies från första part, och storleken på cookies från första part är begränsad, endast tre oskickade begäranden kan sparas åt gången.
+För [!DNL bizible.js] sparar tillfälligt oskickade webbaktiviteter i kundernas cookies från första part och storleken på cookies från första part är begränsad, endast tre oskickade begäranden kan sparas vid en given tidpunkt.
 
-Om det redan finns tre väntande förfrågningar kommer alla efterföljande aktiviteter att ignoreras. den första sidvyn, som innehåller värdefull referensinformation, bevaras.
+Om det redan finns tre väntande begäranden kommer alla efterföljande aktiviteter att ignoreras. Detta är för att bevara den första sidvyn, som innehåller värdefull referensinformation.

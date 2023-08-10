@@ -3,7 +3,8 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Parametrar - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Parametrar"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
+feature: APIs, Integration, UTM Parameters
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -31,13 +32,13 @@ Exempel på en URL med [!DNL Marketo Measure] parametrar:
    * Den liknar termsparametern UTM.
 
 * `_bt={creative}`
-   * Representerar det kreativa ID:t eller namnet.
+   * Representerar kreativt ID eller namn.
    * Den liknar UTM-innehållsparametern.
 
 * `_bm={matchtype}`
    * Representerar hur nära nyckelordet matchades.
    * Nyckelordsmatchningstyper hjälper dig att styra vilka sökningar som utlöser din annons. Du kan till exempel använda en bred matchning för att visa annonsen för en bred publik eller använda exakt matchning för att hona in specifika kundgrupper.
-   * De tre matchningstyperna är: Bred, suddig och exakt.
+   * De tre matchningstyperna är: breda, oskarpa och exakta.
 
 >[!TIP]
 >
@@ -64,4 +65,4 @@ Exempel på en URL med [!DNL Marketo Measure] parametrar:
 ## Facebook Parameters {#facebook-parameters}
 
 * `_bf ={creative}`
-   * Detta representerar det kreativa ID:t eller namnet
+   * Detta representerar ditt kreativa ID eller namn

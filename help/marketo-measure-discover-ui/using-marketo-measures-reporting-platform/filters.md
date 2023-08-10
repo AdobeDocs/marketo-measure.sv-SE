@@ -3,7 +3,8 @@ unique-page-id: 18874656
 description: Filter - [!DNL Marketo Measure] - Produktdokumentation
 title: Filter
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 0%
@@ -28,23 +29,23 @@ Markera eller klistra in ett antal konto-ID:n från CRM för att filtrera result
 
 _Används i: Kontobaserad marknadsföring_
 
-Markera eller klistra in en serie kontonamn från CRM för att filtrera resultatet. Strängar kan ha dubbletter, så det är möjligt att ha flera[!DNL Marketo Measure]&quot; -konton till exempel. Om ett enda konto behövs i det här fallet använder du filtret för konto-ID i stället.
+Markera eller klistra in en serie kontonamn från CRM för att filtrera resultatet. Strängar kan ha dubbletter, så det är möjligt att ha flera[!DNL Marketo Measure]till exempel konton. Om ett enda konto behövs i det här fallet använder du filtret för konto-ID i stället.
 
 **Attributionsmodell**
 
-_Används i: Översikt, Marknadsföringsutgift, annonsavkastning, kontobaserad marknadsföring, webbtrafik, marknadschef, betald media, innehållsmarknadsföring, Passport_
+_Används i: Översikt, marknadsföringsutgifter, annonsavkastning, kontobaserad marknadsföring, webbtrafik, marknadschef, betalmedia, innehållsmarknadsföring, Passport_
 
-Välj en enda attribueringsmodell som ska användas på styrelsen: First Touch, Lead Creation Touch, U-Shaped, W-Shaped, Full Path eller Custom Model. Fullständig sökväg och Anpassad modell är inte tillgängliga i alla lager.
+Välj en enda attribueringsmodell som ska användas på ritytan: First Touch, Lead Creation Touch, U-Shaped, W-Shaped, Full Path eller Custom Model. Fullständig sökväg och Anpassad modell är inte tillgängliga i alla lager.
 
 **Campaign**
 
-_Används i: Översikt, Tillväxt, Annonsering, ROI, Web Traffic, CMO, Paid Media, Content Marketing, Passport_
+_Används i: Översikt, Tillväxt, annonsavkastning, webbtrafik, marknadschef, betalmedia, innehållsmarknadsföring, Passport_
 
 Filtrera styrelsen med ett eller flera kampanjnamn. Operatorer ger filtret ytterligare flexibilitet, t.ex. med operatorerna &quot;contains&quot; och &quot;begin with&quot;. Om ett kanal- eller delkanalsfilter har tillämpats är den lista med kampanjer som visas en delmängd av de använda filtren.
 
 **Kategori 1-10**
 
-_Används i: Översikt, Tillväxt, Annonsering, ROI, marknadschef, Betald media, Innehållsmarknadsföring, Snapshot, Ögonblicksbild, Kohorttratt, Passport_
+_Används i: Översikt, Tillväxt, Annonsering, ROI, marknadschef, Betalda media, Innehållsmarknadsföring, Snapshot, Snapshot, Kohort-tratt, Passport_
 
 Använd segmentfilter på ritytan med de kategorier och segment som du har skapat i [!DNL Marketo Measure] Inställningar. Listan med kategorier som du har skapat visas på filtermenyn, så om inga kategorier har ställts in finns det inga kategorifilter på menyn. Segmentkategorier är inte tillgängliga i alla nivåer, och antalet tillgängliga kategorier varierar också mellan olika nivåer.
 
@@ -62,13 +63,13 @@ Markera scenen som du vill visa en kohort av. Scenen som du väljer visas högst
 
 **Datum**
 
-_Används i: Översikt, tillväxt, marknadsföringsutgifter, annonsering, avkastning på investering, kontobaserad marknadsföring, webbtrafik, marknadschef, betald media, innehållsmarknadsföring, snabbhet, ögonblicksbild, kohorttratt, Passport_
+_Används i: Översikt, Tillväxt, Marknadsföringsutgifter, annonserings-ROI, kontobaserad marknadsföring, webbtrafik, marknadschef, betald media, innehållsmarknadsföring, snabbhet, ögonblicksbild, kohorttratt, Passport_
 
 Välj ett datumintervall om du vill filtrera data i ritytorna med flexibla datumoperatorer som &quot;finns i intervallet&quot;, &quot;finns i året&quot; eller &quot;är före&quot; till exempel. Undantaget är Ögonblicksbild, där du väljer ett enstaka datum för att visa en ögonblicksbild av data.
 
 **Datumtyp**
 
-_Används i: Översikt, tillväxt, marknadsföringsutgifter, annonsavkastning, kontobaserad marknadsföring, webbtrafik, marknadschef, betald media, innehållsmarknadsföring, Passport_
+_Används i: Översikt, Tillväxt, Marknadsföringsutgifter, Annonsering, kontobaserad marknadsföring, webbtrafik, marknadschef, Betald media, Innehållsmarknadsföring, Passport_
 
 Välj den typ av datum som du vill använda, som är knuten till datumfiltret. Standarddatumtypen varierar beroende på rityta. Slutpunktsdatum avser det datum då marknadsföringsaktiviteten ägde rum, Skapad är det datum då lead eller kontakt eller säljprojekt skapades i CRM och Stängningsdatum är det datum då affärsmöjligheten stängdes.
 
@@ -83,17 +84,17 @@ Dimensionen liknar funktionen Gruppera efter, förutom att den används på beta
 Som standard är Dimensionen delkanal och kan ändras till:
 
 * Ingen: Visar allt i en mängd utan någon brytning
-* Kanal: Visar data efter marknadsföringskanal
+* Kanal: Visar data per marknadsföringskanal
 * Delkanal: Visar data per marknadsföringsunderkanal
 * Campaign: Visar data per kampanj
 * Konto: Visar data per konto. Gäller för [!DNL AdWords], [!DNL Bing]och [!DNL Facebook].
 * Annonsgrupp: Visar data per annonsgrupp. Gäller för [!DNL AdWords], [!DNL Bing]och [!DNL Facebook].
-* Annons: Visar data per annons. Gäller för annonser i dubbelklickning, så om dubbelklickning inte används visas inga resultat
-* Annonsör: Visar data per annonsörer. Gäller för Doubleclick-annonseraren, så om Doubleclick inte används visas inga resultat
+* Annons: Visar data efter annons. Gäller för annonser i dubbelklickning, så om dubbelklickning inte används visas inga resultat
+* Annonsör: Visar en lista över data per annonsörer. Gäller för Doubleclick-annonseraren, så om Doubleclick inte används visas inga resultat
 * Kreativ: Visar data efter kreativitet. Gäller för [!DNL AdWords], [!DNL Bing]och [!DNL Facebook].
 * Nyckelord: Visar data efter nyckelord. Gäller för [!DNL AdWords], [!DNL Bing]och [!DNL Facebook].
-* Placement: Visar data efter placering. Gäller för dubbelklicka-placeringar, så om dubbelklickning inte används visas inga resultat
-* Plats: Visar data per webbplats. Gäller för dubbelklickswebbplatser, så om dubbelklickning inte används visas inga resultat
+* Placering: Visar data efter placering. Gäller för dubbelklicka-placeringar, så om dubbelklickning inte används visas inga resultat
+* Plats: Visar data per plats. Gäller för dubbelklickswebbplatser, så om dubbelklickning inte används visas inga resultat
 
 **Gruppera efter**
 
@@ -111,7 +112,7 @@ Justerar diagram för att ändra dimensionerna som staplas och grupperas tillsam
 * Annonsör: Grupperar data efter annonsören. Gäller för Doubleclick-annonseraren, så om Doubleclick inte används visas inga resultat
 * Kreativ: Grupperar data efter kreativitet. Gäller för [!DNL AdWords], [!DNL Bing]och [!DNL Facebook].
 * Nyckelord: Grupperar data efter nyckelord. Gäller för [!DNL AdWords], [!DNL Bing]och [!DNL Facebook].
-* Placement: Grupperar data efter placering. Gäller för dubbelklicka-placeringar, så om dubbelklickning inte används visas inga resultat
+* Placering: Grupperar data efter placering. Gäller för dubbelklicka-placeringar, så om dubbelklickning inte används visas inga resultat
 * Plats: Grupperar data per plats. Gäller för dubbelklickswebbplatser, så om dubbelklickning inte används visas inga resultat
 
 ![](assets/2.png)
@@ -162,13 +163,13 @@ Som standard visar snabbpanelen tider för alla steg, men om du vill gå in på 
 
 **Delkanal**
 
-_Används i: Översikt, Tillväxt, Marknadsföringsutgifter, annonsavkastning, webbtrafik, marknadschef, betalmedia, innehållsmarknadsföring, Passport_
+_Används i: Översikt, Tillväxt, Marknadsföringsutgift, annonsavkastning, webbtrafik, marknadschef, betald media, innehållsmarknadsföring, Passport_
 
-Filtrera ritytan med en eller flera underkanaler. Operatorer ger filtret ytterligare flexibilitet, t.ex. med operatorerna &quot;contains&quot; och &quot;begin with&quot;. Om ett kanalfilter har använts blir listan med delkanaler som visas en delmängd av de använda filtren. När en delkanal har angetts hämtas de värden som visas i Campaign-filtren från det använda delkanalsfiltret.
+Filtrera ritytan med en eller flera underkanaler. Operatorer ger filtret ytterligare flexibilitet, t.ex. med operatorerna &quot;contains&quot; och &quot;begin with&quot;. Om ett kanalfilter har använts kommer listan med delkanaler som visas att vara en delmängd av de använda filtren. När en delkanal har angetts hämtas de värden som visas i Campaign-filtren från det använda delkanalsfiltret.
 
 **URL**
 
-_Används i: Webbtrafik_
+_Används i: webbtrafik_
 
 Granska trafiken i en enda URL, eller kanske URL:er som innehåller ett visst ord, t.ex. &quot;product&quot;.
 

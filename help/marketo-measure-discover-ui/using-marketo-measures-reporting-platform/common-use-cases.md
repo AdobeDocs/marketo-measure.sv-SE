@@ -3,7 +3,8 @@ unique-page-id: 18874658
 description: Vanliga användningsfall - [!DNL Marketo Measure] - Produktdokumentation
 title: Vanliga användningsfall
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -46,9 +47,9 @@ Datumtypen kan också ändras till Slutpunktsdatum. Då visas antalet leads frå
 
 Om du vill visa hur en detaljmarknadsföring påverkar skapandet av affärsmöjligheter väljer du Översikt eller marknadschefspaneler, expanderar Filter, justerar måttfiltret till säljprojekt och datumtypen till Skapad den.
 
-Om du vill visa det totala värdet av affärsmöjligheter eller visa trender över tid använder du kontrollpanelen Tillväxt och justerar datumtypen till Skapat den i filtren. Se möjligheterna och möjligheterna över tiden på den här instrumentpanelen.
+Om du vill visa det totala värdet av affärsmöjligheter eller visa trender över tid använder du kontrollpanelen Tillväxt och justerar datumtypen till Skapat den i filtren. Titta på panelerna för affärsmöjligheter och affärsmöjligheter över tid på den här instrumentpanelen.
 
-Datumtyp kan också ändras till Slutpunktsdatum (baserat på aktivitetens datum) eller till Stängningsdatum, som visar det totala antalet stängda vunna _och_ stängda affärsmöjligheter.
+Datumtyp kan också ändras till Slutpunktsdatum (baserat på aktivitetsdatumet) eller till Stängningsdatum, vilket visar det totala antalet stängda vunna _och_ stängda affärsmöjligheter.
 
 ## Avslutade erbjudanden {#closed-deals}
 
@@ -74,10 +75,10 @@ Dessutom visas visningar, klickningar, sidvisningar och besök från alla betald
 
 Om du vill visa utgiftssummor och uppdelningar går du till kontrollpanelen Översikt och justerar måttfiltret till Utgift.
 
-Du kan även gå till kontrollpanelen för Marketing Spend, där huvudpanelen visar en utgiftsförteckning från de senaste 12 månaderna grupperade efter Marketing Channel.
+Du kan även gå till kontrollpanelen för Marketing Spend, där huvudpanelen visar ett utgiftsschema från de senaste 12 månaderna grupperade efter Marketing Channel.
 
-Ändra grupperingsfiltret så att Dimensionen ändras till: Delkanal, Campaign, Advertiser, Annonsgrupp, Nyckelord, Placement eller Webbplats.
+Ändra grupperingsfiltret så att grupperingen ändras till: Subchannel, Campaign, Advertiser, Ad Group, Keyword, Placement eller Site.
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universitet: Introduktion till [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target="_blank"}
+>[[!DNL Marketo Measure] University: Introduktion till [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target="_blank"}

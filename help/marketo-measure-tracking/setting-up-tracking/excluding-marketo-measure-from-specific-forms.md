@@ -3,7 +3,8 @@ unique-page-id: 18874783
 description: Exklusive [!DNL Marketo Measure] från specifika Forms - [!DNL Marketo Measure] - Produktdokumentation
 title: Exklusive [!DNL Marketo Measure] från specifik Forms
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Exklusive [!DNL Marketo Measure] från specifik Forms {#excluding-marketo-measure-from-specific-forms}
 
-Som standard [!DNL Marketo Measure] bifogas alla formulär på webbplatsen. Alla inskickade formulär bör dock inte nödvändigtvis spåras eller inkluderas i en attribueringsmodell. Det beror på att inte alla formulärfyllningar anses vara&quot;bra&quot;. Ett exempel på detta är en sida/ett formulär för att avbryta prenumerationen. Dessutom spåras vanligtvis inte inloggningsformulär, eftersom det skulle resultera i en utspädning av attribueringsmodellen.
+Som standard [!DNL Marketo Measure] bifogar till alla formulär på webbplatsen. Alla inskickade formulär bör dock inte nödvändigtvis spåras eller inkluderas i en attribueringsmodell. Det beror på att inte alla formulärfyllningar anses vara&quot;bra&quot;. Ett exempel på detta är en sida/ett formulär för att avbryta prenumerationen. Dessutom spåras vanligtvis inte inloggningsformulär, eftersom det skulle resultera i en utspädning av attribueringsmodellen.
 
 ## Lägga till [!DNL Marketo Measure]-exclude Code:  {#how-to-add-marketo-measure-exclude-code}
 

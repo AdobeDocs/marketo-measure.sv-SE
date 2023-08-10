@@ -3,7 +3,8 @@ unique-page-id: 18874580
 description: Anslut Marketo Measure till Salesforce - [!DNL Marketo Measure] - Produktdokumentation
 title: Anslut Marketo Measure till Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Anslut Marketo Measure till Salesforce {#connect-marketo-measure-to-salesforce}
 
-Den här artikeln innehåller en översikt över hur du ansluter [!DNL Salesforce] kontot till [!DNL Marketo Measure] konto.
+I den här artikeln finns en översikt över hur du ansluter [!DNL Salesforce] kontot till [!DNL Marketo Measure] konto.
 
 ## Ansluter [!DNL Marketo Measure] med [!DNL Salesforce] {#connecting-marketo-measure-with-salesforce}
 
@@ -32,7 +33,7 @@ Den här artikeln innehåller en översikt över hur du ansluter [!DNL Salesforc
 
    ![](assets/3.png)
 
-1. Ett sista popup-fönster visas där du ombeds [!DNL Salesforce] autentiseringsuppgifter, sandlåda eller produktion. Ange dina uppgifter och klicka på **[!UICONTROL Authorize]** för att ansluta kontot till [!DNL Marketo Measure].
+1. Ett sista popup-fönster visas där du ombeds ange [!DNL Salesforce] autentiseringsuppgifter, sandlåda eller produktion. Ange dina uppgifter och klicka på **[!UICONTROL Authorize]** för att ansluta kontot till [!DNL Marketo Measure].
 
 >[!NOTE]
 >
@@ -40,6 +41,5 @@ Den här artikeln innehåller en översikt över hur du ansluter [!DNL Salesforc
 >
 >* A [!DNL Marketo Measure] -instansen kan anslutas till en SFDC-sandlådeinstans för att testa integreringen innan anslutningen till SFDC-produktionsinstansen växlas.
 >* Om du först testar med en SFDC-sandlåda rekommenderar vi att du testar med en exakt kopia av din SFDC-produktionsinstans när det gäller fält på objekten Lead, Kontakt, Konto, säljprojekt, Campaign och Fall. Om du har aktiva APEX-utlösare i produktionen som aktiveras vid uppdateringar av objekten Lead, Kontakt, Konto, Möjlighet, Kampanj och Fall, bör du försöka att aktivera dem i sandlådan.
->* När du är klar med testningen uppdaterar du [!DNL Marketo Measure] konto till produktionspunkten [!DNL Salesforce] (i stället för Sandbox [!DNL Salesforce]). På grund av hur integreringen byggdes har en gång per [!DNL Marketo Measure] kontot är anslutet till produktionen [!DNL Salesforce]går det inte att gå bakåt och ansluta till en sandlåda [!DNL Salesforce] org.
-
+>* När du är klar med testningen uppdaterar du [!DNL Marketo Measure] konto till produktionspunkten [!DNL Salesforce] (i stället för Sandbox [!DNL Salesforce]). På grund av hur integreringen byggdes var en gång [!DNL Marketo Measure] kontot är anslutet till produktionen [!DNL Salesforce]går det inte att gå bakåt och ansluta till en sandlåda [!DNL Salesforce] org.
 

@@ -3,7 +3,8 @@ unique-page-id: 42762648
 description: Kohort Journey Dashboard Documentation - [!DNL Marketo Measure] - Produktdokumentation
 title: Kohort Journey Dashboard Documentation
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -16,13 +17,13 @@ Med kontrollpanelerna Kohort Impact och Funnel kan marknadsförarna visa förlop
 
 Den största skillnaden är hur vi räknar varje enhet från kohortfasen.
 
-* Kohorttratt: Resultatet av varje fas härleds direkt från det föregående steget.
+* Kohorttratt: Resultatet av varje fas härleds direkt från föregående fas.
 
    * Endast poster som genomgick varje fas längre ned i tratten efter den angivna kohortstarttiden räknas.
 
 ![](assets/cohort-journey-dashboard-documentation-1.png)
 
-* Kohortpåverkan: Resultatet av varje fas härleds från kohortfasen, inte från det tidigare stadiet.
+* Kohorteffekt: Resultatet av varje fas härleds från kohortfasen, inte från föregående fas.
 
    * Alla poster i varje fas räknas så länge som de inträffar efter den angivna kohortens starttid. Den här instrumentpanelen kommer naturligtvis att ha fler poster än Funnel Dashboard eftersom vi tittar på hur enheterna påverkades från kohortfasen, inte bara rörelsen genom tratten.
 
@@ -30,8 +31,8 @@ Den största skillnaden är hur vi räknar varje enhet från kohortfasen.
 
 Varje kontrollpanel har två paneler:
 
-* Kohortintäkter: Det totala affärsmöjlighetsbeloppet från alla möjligheter i avtalsfasen i Cohort Journey-gruppen.
-* Kohort Journey: Förloppet till varje resefas från startkohortsteget för en vald tidsram.
+* Kohortintäkter: Det totala affärsmöjlighetsbeloppet från alla möjligheter i avtalsfasen i Cohort Journey-plattan.
+* Kohortresa: Förloppet till varje resefas från startkohortfasen för en vald tidsram.
 
 >[!NOTE]
 >
@@ -40,8 +41,8 @@ Varje kontrollpanel har två paneler:
 Kontrollpanelerna har stöd för följande filter:
 
 * Kohortfas: välj startkohortfas. Poster i alla följande steg utvecklas från posterna i kohortfasen.
-* Kohortdatumintervall: Välj tidsram för den markerade kohortscenen. Tillsammans med kohortscenen definieras startdatauppsättningen.
-* Brytdatum: Välj det datum då postens förlopp i alla följande steg måste inträffa. Standard är idag. Observera att detta gäller alla stadier utom kohortfasen.
+* Kohortdatumintervall: välj tidsram för den valda kohortfasen. Tillsammans med kohortscenen definieras startdatauppsättningen.
+* Stängningsdatum: välj det datum då postförloppet i alla följande faser måste inträffa. Standard är idag. Observera att detta gäller alla stadier utom kohortfasen.
 * Kanal: filtrera posterna efter kanaler. En post kopplas till en kanal om någon av dess kontaktytor är kopplad till kanalen.
 * Delkanal: filtrera posterna efter delkanaler. En post kopplas till en underkanal om någon av dess kontaktytor är kopplad till underkanalen.
 * Campaign: filtrera posterna efter kampanjer. En post associeras med en kampanj om någon av dess kontaktytor är associerad med kampanjen.

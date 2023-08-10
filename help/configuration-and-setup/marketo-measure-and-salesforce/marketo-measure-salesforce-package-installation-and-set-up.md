@@ -2,7 +2,8 @@
 description: "[!DNL Marketo Measure] Installation och konfiguration av Salesforce-paket - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] [!DNL Salesforce] Paketinstallation och konfiguration"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Installation, Salesforce
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -23,7 +24,7 @@ The [!DNL Marketo Measure] Baspaketet innehåller:
 * Egen [!DNL Marketo Measure] Fält
 * 25 [!DNL Stock] Rapporter
 
-[!DNL Marketo Measure] kan läsa standard [!DNL Salesforce] Objekt, fält och poster [!DNL Marketo Measure] kommer aldrig att uppdatera eller skicka data till dem. Alla data som samlats in av [!DNL Marketo Measure] Javascript kommer att finnas i [!DNL Marketo Measure] Anpassade objekt och fält.
+[!DNL Marketo Measure] kan läsa standard [!DNL Salesforce] Objekt, fält och poster, [!DNL Marketo Measure] kommer aldrig att uppdatera eller skicka data till dem. Alla data som samlats in av [!DNL Marketo Measure] Javascript kommer att finnas i [!DNL Marketo Measure] Anpassade objekt och fält.
 
 Följ stegen nedan för att installera [!DNL Marketo Measure Salesforce] baspaket.
 
@@ -96,4 +97,4 @@ Steg 4: Logga in på [!DNL Marketo Measure] Konto och återauktorisera [!DNL Sal
 
 1. Välj **[!UICONTROL Connections]** inom **[!UICONTROL Integrations]** gruppering.
 
-1. Klicka på nyckelikonen till höger om den aktuella anslutna enheten [!DNL Salesforce] anslutning och välj **Återauktorisera med produktion**. Logga in med de nya inloggningsuppgifterna igen (om du uppmanas till det).
+1. Klicka på nyckelikonen till höger om den aktuella anslutna enheten [!DNL Salesforce] anslutning och välj att **Återauktorisera med produktion**. Logga in med de nya inloggningsuppgifterna igen (om du uppmanas till det).

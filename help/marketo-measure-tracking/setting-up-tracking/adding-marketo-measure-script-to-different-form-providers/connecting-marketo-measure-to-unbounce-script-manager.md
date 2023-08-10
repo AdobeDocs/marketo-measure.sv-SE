@@ -3,7 +3,8 @@ unique-page-id: 18874743
 description: Ansluter [!DNL Marketo Measure] till Unbounce Script Manager - [!DNL Marketo Measure] - Produktdokumentation
 title: Ansluter [!DNL Marketo Measure] till Unbounce Script Manager
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 2%
@@ -16,11 +17,11 @@ ht-degree: 2%
 
 1. Logga in på [!DNL Unbounce] konto.
 1. Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Script Manager]** > **[!UICONTROL Add Script]**.
-1. Välj [!UICONTROL Custom Script] och ge den namnet &quot;[!DNL Marketo Measure Marketing Analytics].&quot; Klicka på **[!UICONTROL Add Script Details]**.
+1. I popup-fönstret väljer du [!UICONTROL Custom Script] och ge den namnet &quot;[!DNL Marketo Measure Marketing Analytics].&quot; Klicka på **[!UICONTROL Add Script Details]**.
 1. Välj placering i huvudet. Inkludera skriptet på Main Landing Page och formulärbekräftelsedialogrutan. Klistra in [!DNL Marketo Measure] skript nedanför i lådan.
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
 1. Klicka på **[!UICONTROL Save]**.
 
-The [!DNL Marketo Measure] integreringen fungerar på Unbounce-landningssidor så länge som de finns på din domän (t.ex. landing.mysite.com), inte på dem som använder domänen unbounce.com.
+The [!DNL Marketo Measure] integreringen fungerar på Unbounce-landningssidor så länge de finns på din domän (t.ex. landing.mysite.com), inte på dem som använder unbounce.com.

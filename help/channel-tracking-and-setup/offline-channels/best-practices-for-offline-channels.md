@@ -2,7 +2,8 @@
 description: Bästa praxis för offlinekanaler - [!DNL Marketo Measure] - Produktdokumentation
 title: Bästa praxis för offlinekanaler
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -11,11 +12,11 @@ ht-degree: 0%
 
 # Bästa praxis för offlinekanaler {#best-practices-for-offline-channels}
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 Att ha korrekta [!DNL Marketo Measure] rapporter måste era marknadsföringskanaler vara korrekt konfigurerade. The[!UICONTROL Marketing Channel]&#39; visas den grupp av marknadsföringsstrategier på högsta nivå som en kontaktyta kan tillhöra (t.ex. händelser, webbinarier, innehållssyndikering).
 
-Det finns två sätt att skapa marknadsföringskanaler: online och offline. Det här dokumentet fokuserar på [!DNL Marketo Measure] rekommendationer för hur du konfigurerar och underhåller offlinekanaler och hur de synkroniseras med [!DNL Marketo Measure] via CRM Campaigns.
+Det finns två aspekter av att konfigurera era marknadsföringskanaler: online och offline. Det här dokumentet fokuserar på [!DNL Marketo Measure] rekommendationer för hur du konfigurerar och underhåller offlinekanaler och hur de synkroniseras med [!DNL Marketo Measure] via CRM Campaigns.
 
 Offlinekanaler har två viktiga aspekter:
 
@@ -46,15 +47,15 @@ Oavsett om du mappar dina offlinekanaler för första gången eller bara granska
 
 * Kontrollera att fältet Typ är korrekt för varje CRM-kampanj
    * Type avgör marknadsföringskanalen och subkanalen för alla kontaktytor som kommer från Campaign när de har synkroniserats
-* Om den CRM-baserade kampanjsynkroniseringsmetoden (Aktivera kontaktytor för köpare) eller [!DNL Marketo Measure] App-baserad synkroniseringsmetod (anpassad kampanjsynkronisering i[!UICONTROL Campaigns]fliken [!UICONTROL Marketo Measure] Kontoinställningar) ska kontaktytor offline bara skapas om kampanjmedlemmen har ett verkligt offlineengagemang med kampanjen och ert varumärke:
-   * För offlinekanaler som händelser eller webbinarier: &quot;registreringar&quot; spåras vanligtvis via formulärinlämningar på din webbplats och [!DNL Marketo Measure] Onlinefunktioner. Kampanjmedlemmar med statusen Registrerad bör därför inte få en offlinekontaktyta från Campaign för att undvika dubbelräkning. Kontaktpunkter offline ska endast representera &quot;närvaro&quot; för evenemanget eller webbinariet.
+* Om den CRM-baserade kampanjsynkroniseringsmetoden (Aktivera kontaktytor för köpare) eller [!DNL Marketo Measure] App-baserad synkroniseringsmetod (anpassad kampanjsynkronisering i[!UICONTROL Campaigns]fliken &#39; [!UICONTROL Marketo Measure] Kontoinställningar) ska kontaktytor offline bara skapas om kampanjmedlemmen har ett verkligt offlineengagemang med kampanjen och ert varumärke:
+   * För offlinekanaler som händelser eller webbinarier:&quot;registreringar&quot; spåras vanligtvis via formulärinlämningar på din webbplats och [!DNL Marketo Measure] Onlinefunktioner. Kampanjmedlemmar med statusen Registrerad bör därför inte få en offlinekontaktyta från Campaign för att undvika dubbelräkning. Kontaktpunkter offline ska endast representera &quot;närvaro&quot; för evenemanget eller webbinariet.
    * Vissa offlinekanaler som Innehållssyndikering är vanligtvis enklare eftersom alla kampanjmedlemmar har samma svarsstatus som de faktiskt svarade på kampanjen, i det här fallet hämtar de innehåll på en tredjepartswebbplats och därför bör få en kontaktyta offline
 * När du använder metoden för anpassad kampanjsynkronisering i [!DNL Marketo Measure] Appen, kontrollera att fältet &#39;Slutpunktsdatum&#39; är baserat på datumfältet från antingen Campaign- eller Campaign-medlemmen som mest indikerar när kontaktytpunktsinteraktionen faktiskt inträffade
 * Utnyttja knappen &#39;Uppdatera slutpunktsdatum gruppvis&#39; om du behöver åsidosätta &#39;slutpunktsdatumet&#39; för någon av de kontaktytor som är offline och som kommer från en CRM-kampanj. &#39;Slutpunktsdatum&#39; måste vara så exakt som möjligt för att säkerställa att kontaktytan innehåller den mest exakta &#39;slutpunktsposition&#39; och därmed rätt mängd attribueringskredit
 
 ## Bästa praxis för underhåll {#best-practice-for-maintenance}
 
-När konfigurationen är klar fortsätter offlinekanalkonfigurationen att skapa kontaktpunkter offline utifrån detta. Vi rekommenderar att du granskar offlinekonfigurationen minst två gånger per år. Detta garanterar rena och korrekta data för köparens kontaktyta.
+När konfigurationen är klar fortsätter offlinekanalkonfigurationen att skapa kontaktpunkter offline i enlighet med detta. Vi rekommenderar att du granskar offlinekonfigurationen minst två gånger per år. Detta garanterar rena och korrekta data för köparens kontaktyta.
 
 Om du gör några ändringar i din Campaign-hantering eller -processer måste du dessutom se till att du uppdaterar dina [!DNL Marketo Measure] Mappning av offlinekanaler och/eller synkroniseringsprocess.
 
@@ -63,7 +64,7 @@ Om du gör några ändringar i din Campaign-hantering eller -processer måste du
 * CRM-kampanjens typ/typer har skapats eller redigerats
 * Kampanjmedlemmens status har skapats eller redigerats
 * Om du använder CRM Campaign Sync-metoden via fältet Enable Buyer Touchpoints (Aktivera kontaktytor för köpare), ska du kontrollera att fältet granskas och uppdateras för varje CRM-kampanj som skapas. Om det här fältet ignoreras kommer det inte att finnas några relaterade offlinekontaktpunktsdata
-* Om du stöter på någon kontaktyta offline från en CRM-kampanj som ser ut att vara kontaktytor online (marknadsföringskanal = NULL) kontrollerar du att den relaterade CRM-kampanjen granskas och att synkroniseringen är inaktiverad
+* Om du stöter på kontaktytor offline från en CRM-kampanj som ser ut att vara kontaktytor online (marknadsföringskanal = NULL), kontrollerar du att den relaterade CRM-kampanjen granskas och att synkroniseringen är inaktiverad
 
 Om ditt team nyligen har haft något av ovanstående: [!DNL Marketo Measure] rekommenderar att du granskar din kanalmappning offline och offlinekampanjer för att göra lämpliga ändringar och se till att de synkroniseras korrekt.
 
@@ -77,4 +78,3 @@ Om ditt team nyligen har haft något av ovanstående: [!DNL Marketo Measure] rek
 >* [Konfigurationer för flera kampanjposttyper](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
 >* [Skapa en kampanjlistvy](/help/channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
 >* [Synkroniserar historiska data](/help/channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
-

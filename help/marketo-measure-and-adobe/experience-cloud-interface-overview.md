@@ -1,8 +1,9 @@
 ---
-description: Adobe Experience Cloud Interface Overview - översikt [!DNL Marketo Measure] - Produktdokumentation
+description: Adobe Experience Cloud Interface Overview - [!DNL Marketo Measure] - Produktdokumentation
 title: Adobe Experience Cloud Interface Overview
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: dc6c66daebd10b95333d8c27c2326a95555c555b
+feature: Integration, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -73,4 +74,4 @@ Om du kan logga in på Adobe Experience Cloud, men se en sida som följande, kan
 
 ![](assets/unified-shell-overview-11.png)
 
-Om du får ovanstående fel, [kontakta supporten](https://nation.marketo.com/t5/support/ct-p/Support) om du behöver hjälp.
+Om du får felmeddelandet ovan, [kontakta supporten](https://nation.marketo.com/t5/support/ct-p/Support) om du behöver hjälp.

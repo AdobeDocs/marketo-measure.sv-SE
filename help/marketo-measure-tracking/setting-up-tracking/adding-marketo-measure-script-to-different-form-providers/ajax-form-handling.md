@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874745
 description: AJAX - [!DNL Marketo Measure] - Produktdokumentation
-title: AJAX
+title: AJAX formulärhantering
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
 
-# AJAX {#ajax-form-handling}
+# AJAX formulärhantering {#ajax-form-handling}
 
 Rapportera kundkonverteringar manuellt till [!DNL Marketo Measure]har vi skapat ett mycket enkelt API som du kan använda. Båda dessa Javascript-API:er är automatiskt tillgängliga på din webbplats om du har vår spårningskod på den. Du behöver inte göra något särskilt för att komma åt dem.
 
@@ -57,11 +58,11 @@ eMail: 'user@gmail.com' // required
 });  
 ```
 
-I den här koden [!UICONTROL email] fältet är obligatoriskt. [!DNL Marketo Measure] skickar dessa data asynkront till våra servrar.
+I koden [!UICONTROL email] fältet är obligatoriskt. [!DNL Marketo Measure] skickar dessa data asynkront till våra servrar.
 
 ## Scenario 3 - Rapportera användarinformation från din tacksida {#scenario-report-user-information-from-the-thank-you-page}
 
-I vissa fall är det enklare att rapportera leadinformationen till [!DNL Marketo Measure] på tacksidan när formuläret har skickats in. Det enklaste sättet att rapportera den här informationen är att lägga till ett dolt element på sidan som innehåller information från formulärinlämningen, och [!DNL Bizible.js] kommer att läsa den här informationen när sidan med tack har lästs in.
+I vissa fall är det bekvämare att rapportera leadinformationen till [!DNL Marketo Measure] på tacksidan när formuläret har skickats in. Det enklaste sättet att rapportera den här informationen är att lägga till ett dolt element på sidan som innehåller information från formulärinlämningen, och [!DNL Bizible.js] kommer att läsa den här informationen när sidan med tack har lästs in.
 
 **Exempel:**
 

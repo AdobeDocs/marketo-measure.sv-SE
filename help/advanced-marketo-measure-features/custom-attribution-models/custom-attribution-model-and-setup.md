@@ -3,7 +3,8 @@ unique-page-id: 18874779
 description: Anpassad attributmodell och inställningar - [!DNL Marketo Measure] - Produktdokumentation
 title: Anpassad attributmodell och inställningar
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution, Custom Models
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -16,13 +17,13 @@ Nedan finns en översikt över [!DNL Marketo Measure] egen attribueringsmodell o
 
 ## Anpassad attributmodell {#custom-attribution-model}
 
-The [!DNL Marketo Measure] Med en anpassad attribueringsmodell kan användarna välja vilka kontaktytor eller anpassade stadier som ska ingå i modellen. Användarna kan styra den procentuella intäktskrediten som tilldelats dessa kontaktytor och faser, eller kan använda de procentvärden för attribuering som föreslås av [!DNL Marketo Measure] Maskininlärningsmodell.
+The [!DNL Marketo Measure] Med en anpassad attribueringsmodell kan användarna välja vilka kontaktytor eller anpassade stadier som ska ingå i modellen. Användarna kan styra den procentuella intäktskrediten som tilldelats dessa kontaktytor och faser, eller kan använda de procentvärden för attribuering som föreslås av [!DNL Marketo Measure] Machine Learning-modell.
 
 ## Så här konfigurerar du en anpassad attributmodell {#how-to-set-up-your-custom-attribution-model}
 
 1. Bestäm vilka faser du vill inkludera i den anpassade modellen.
 
-   För att börja bygga upp en anpassad attribueringsmodell måste ni välja vilka faser som är viktiga för ert marknadsföringsteam. Förutom [!DNL Marketo Measure] milstolpesteg (FT, LC, OC, Closed) kan du lägga till upp till sex ytterligare lead-/kontaktstatuslägen eller säljprojektsfaser i din anpassade modell. Det är till exempel vanligt att MQL-scenen inkluderas i den anpassade modellen. Marknadsföringsteamen vill ofta veta vilka satsningar eller kanaler som driver övergångar till MQL-steget.
+   För att börja bygga upp en anpassad attribueringsmodell måste ni välja vilka faser som är viktiga för ert marknadsföringsteam. Förutom [!DNL Marketo Measure] milstolpe-faser (FT, LC, OC, Closed) kan du lägga till upp till sex ytterligare lead-/kontaktstatuslägen eller säljprojektsfaser i din anpassade modell. Det är till exempel vanligt att MQL-scenen inkluderas i den anpassade modellen. Marknadsföringsteamen vill ofta veta vilka satsningar eller kanaler som driver övergångar till MQL-steget.
 
    Logga in på [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Gå till [!UICONTROL My Account] > [!UICONTROL Settings] > och under CRM väljer du **[!UICONTROL Stage Mapping]**.
 
@@ -52,9 +53,9 @@ The [!DNL Marketo Measure] Med en anpassad attribueringsmodell kan användarna v
 
 Om ett anpassat fält används i din anpassade modell MÅSTE du aktivera spårning av fälthistorik i CRM. Instruktioner om hur du aktiverar spårning av fälthistorik finns i [klicka här](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
 
-1. Fastställ attribueringsprocenten för den anpassade modellen.
+1. Bestäm attribueringsprocenten för den anpassade modellen.
 
-   Gå till **[!UICONTROL Attribution Settings]** in [!DNL Marketo Measure] Appar; de anpassade stegen visas här i attribueringstabellen. I attribueringstabellen visas alla [!DNL Marketo Measure] attribueringsmodeller och attribueringsviktningen för varje modell. Attributprocenten för de första fem modellerna är fasta och kan inte ändras.
+   Gå till **[!UICONTROL Attribution Settings]** in [!DNL Marketo Measure] Appar; de anpassade stegen visas här i attribueringstabellen. Attributtabellen visar alla [!DNL Marketo Measure] attribueringsmodeller och attribueringsviktningen för varje modell. Attributprocenten för de första fem modellerna är fasta och kan inte ändras.
 
    I kolumnen längst till höger heter **[!UICONTROL Custom]**,&quot; kan du ange procentviktningen för varje fas i din anpassade attribueringsmodell. Ange bara värdena för varje scen i kolumnen Anpassad. Sedan **[!UICONTROL Save and Reprocess]** när allt är klart.
 

@@ -3,7 +3,8 @@ unique-page-id: 18874785
 description: Döljer onödiga rapporttyper - [!DNL Marketo Measure] - Produktdokumentation
 title: Döljer onödiga rapporttyper
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -12,7 +13,7 @@ ht-degree: 2%
 
 # Döljer onödiga rapporttyper {#hiding-unnecessary-report-types}
 
-När du har slutfört installationen och börjat använda rapporter är det ofta så att inte varje rapport [!DNL Marketo Measure] paketet som medföljer kommer att användas av din organisation. Därför är det bra att dölja rapporttyper som du inte använder för att undvika förvirring och ge ett renare utseende. Du kan dölja alla rapporter du vill, men de rapporter som identifieras i bilden nedan är vanligtvis dolda.
+När du har slutfört installationen och börjat använda rapporter är det ofta så att inte varje rapport [!DNL Marketo Measure] paketet kommer att användas av din organisation. Därför är det bra att dölja rapporttyper som du inte använder för att undvika förvirring och ge ett renare utseende. Du kan dölja alla rapporter du vill, men de rapporter som identifieras i bilden nedan är vanligtvis dolda.
 
 1. Navigera till fliken **[!UICONTROL Reports]**.
 

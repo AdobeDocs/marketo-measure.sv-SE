@@ -3,7 +3,8 @@ unique-page-id: 18874676
 description: "[!DNL Marketo Measure] Förklara insikter - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Förklara insikter"
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Läs mer om [!DNL Marketo Measure] Vyn Insikter i [!DNL Salesforce], inklusive vad de olika ikonerna representerar och hur du använder funktionen. Den här funktionen är mycket användbar när du vill se de första 20 sessionerna för en lead, en kontakt eller ett konto.
 
-När någon spåras av [!DNL Marketo Measure] javascript och fyller i ett formulär på din webbplats, personen blir en ledare i ditt system och vi överför deras digitala marknadsföringsdata till din Salesforce-organisation (SFDC). När det här inträffar visas kontaktpunktsdata i [!DNL Marketo Measure] Avsnittet Lead Insights (en Canvas-app) på Lead/Contact/Opportunity/Account Objects.
+När någon spåras av [!DNL Marketo Measure] javascript och fyller i ett formulär på din webbplats, personen blir en ledare i ditt system och vi överför deras digitala marknadsföringsdata till din Salesforce-organisation (SFDC). När det här inträffar visas kontaktpunktsdata som fyllts i i [!DNL Marketo Measure] Avsnittet Lead Insights (en Canvas-app) på Lead/Contact/Opportunity/Account Objects.
 
 Först och främst kommer ni att se hur många sessioner personen har haft på er webbplats i mitten av era insikter. Du kan bläddra bland sessionerna och navigera när du vill.
 

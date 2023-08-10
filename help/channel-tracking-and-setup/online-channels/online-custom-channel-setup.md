@@ -3,7 +3,8 @@ unique-page-id: 18874596
 description: Anpassad kanalkonfiguration online - [!DNL Marketo Measure] - Produktdokumentation
 title: Anpassad kanalinställning online
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 0%
@@ -57,9 +58,9 @@ Raderna representerar regler och den ordning i vilken de [!DNL Marketo Measure] 
 
 Reglernas struktur är också viktig. Reglerna kan se ut som upprepad information och data som saknas, men strukturen är avsiktlig. För korrekt datasortering är det nödvändigt att mappa varje enskild källa till rätt kanal separat, även källor som delar delkanaler och kanaler. Ju mer detaljerade och detaljerade reglerna är, desto mer insiktsfulla blir resultaten. Det är i princip bäst att skriva en detaljerad regel för varje enskild marknadsföringsåtgärd som du vill spåra.
 
-Tänk på följande situation: du har andra annonser som du av någon anledning inte vill spåra, eller så får du besök på webbplatsen från en välbekant kanal, men inte någon välbekant källa. Denna situation kan leda till dataförlust om [!DNL Marketo Measure] kan inte hitta rätt regel att använda för att sortera data. För att förhindra att detta händer [!DNL Marketo Measure] rekommenderar att du bryter regeln över flera rader.
+Tänk på följande situation: du har andra annonser som du inte vill spåra av någon anledning, eller du får besök på webbplatsen från en välbekant kanal, men inte en välbekant källa. Denna situation kan leda till dataförlust om [!DNL Marketo Measure] kan inte hitta rätt regel att använda för att sortera data. För att förhindra att detta händer [!DNL Marketo Measure] rekommenderar att du bryter regeln över flera rader.
 
-Varje parameter eller komponent i regeln mappas separat till kanalen. När [!DNL Marketo Measure] har [!DNL Facebook] data att sortera, söker efter regler relaterade till [!DNL Facebook]. Den skannas uppifrån och ned. I exemplet nedan [!DNL Marketo Measure] skulle förstå det för första [!DNL Facebook] underkanal behöver den bara läsa parametern source för att släppa data i regelns bucket.
+Varje parameter eller komponent i regeln mappas separat till kanalen. Till exempel när [!DNL Marketo Measure] har [!DNL Facebook] data att sortera, söker efter regler relaterade till [!DNL Facebook]. Den skannas uppifrån och ned. I exemplet nedan [!DNL Marketo Measure] skulle förstå det för första [!DNL Facebook] underkanal behöver den bara läsa parametern source för att släppa data i regelns bucket.
 
 ![](assets/5.png)
 
@@ -95,6 +96,6 @@ När du har bestämt hur du vill ordna och prioritera dina data är du redo att 
 
 ## Överför regler för anpassade kanaler {#uploading-your-custom-channels-rules}
 
-Kontrollera att alla nya kanal- och delkanalsvärden som du lägger till i CSV-filen redan har lagts till i kanalinställningsområdet för ditt Bizible-konto. Kontrollera alla kanal- och underkanalsnamn som matchar i CSV-filen med kanalinställningsområdet i [!DNL Marketo Measure] konto. Kontrollera om det finns kommatecken och blanksteg.
+Kontrollera att alla nya kanal- och delkanalsvärden som du lägger till i CSV-filen redan har lagts till i kanalinställningsområdet för ditt Bizible-konto. Dubbelkontrollera alla kanal- och underkanalsnamn som matchar i CSV-filen med kanalinställningsområdet i [!DNL Marketo Measure] konto. Kontrollera om det finns kommatecken och blanksteg.
 
 Om du får ett felmeddelande under överföringen kan du åtgärda problemet och överföra igen. Om inget felmeddelande tas emot klickar du på **Spara och bearbeta** längst ned på sidan.

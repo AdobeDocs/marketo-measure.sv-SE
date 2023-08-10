@@ -1,15 +1,16 @@
 ---
-description: data warehouse Access - Direct Share - produktdokumentation
-title: data warehouse Access - direktdelning
+description: Data warehouse Access - Direct Share - produktdokumentation
+title: Data warehouse Access - direktdelning
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
-source-git-commit: 36ee02b2dfc2651987f72fc7f02fe629717f02a0
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# data warehouse Access - direktdelning {#data-warehouse-access-direct-share}
+# Data warehouse Access - direktdelning {#data-warehouse-access-direct-share}
 
 ## Krav {#requirements}
 
@@ -25,7 +26,7 @@ För att [!DNL Marketo Measure] om du vill lägga upp en direktdelning till data
 
 ## Ange konto-ID för Snowflake {#enter-snowflake-account-id}
 
-Öppna **Inställningar** i Marketo Measure och navigera till **data warehouse** sida. I **Direktdelning** -avsnittet, ange [Snowflake account id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} i rutan och klicka **Anslut**.
+Öppna **Inställningar** i Marketo Measure och navigera till **Data warehouse** sida. I **Direktdelning** -avsnittet, ange [Snowflake account id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} i rutan och klicka **Anslut**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 

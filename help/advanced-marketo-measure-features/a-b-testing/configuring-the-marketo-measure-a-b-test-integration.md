@@ -3,7 +3,8 @@ unique-page-id: 18874726
 description: Konfigurera [!DNL Marketo Measure] A/B-testintegrering - [!DNL Marketo Measure] - Produktdokumentation
 title: Konfigurera [!DNL Marketo Measure] A/B-testintegrering
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: A/B Testing, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%

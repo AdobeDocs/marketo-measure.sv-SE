@@ -3,7 +3,8 @@ unique-page-id: 18874556
 description: "[!DNL Marketo Measure] Underhåll - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Underhåll"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -45,7 +46,7 @@ Om du ser många kontaktytor som du inte vill ta med i attribueringsberättelsen
 
 **Granska anpassad scenmappning för precision (1x/kvartal) (om tillämpligt)**
 
-Om du använder någon [!UICONTROL Lead], [!UICONTROL Contact], eller [!UICONTROL Opportunities] kan du också ha anpassat vilken del av pipeline som de här faserna är kopplade till och om dessa faser ingår i en anpassad attribueringsmodell eller inte. En gång i kvartalet, besök [den här artikeln](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) för att uppdatera minnet på den anpassade scenmappningen och säkerställa att du spårar dina anpassade stadier korrekt.
+Om du använder någon anpassad [!UICONTROL Lead], [!UICONTROL Contact], eller [!UICONTROL Opportunities] kan du också ha anpassat vilken del av pipeline som de här faserna är kopplade till och om dessa faser ingår i en anpassad attribueringsmodell eller inte. En gång i kvartalet, besök [den här artikeln](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) för att uppdatera minnet på den anpassade scenmappningen och säkerställa att du spårar dina anpassade stadier korrekt.
 
 **Jämför maskininlärningsmodell med anpassad modellvikt (1x/kvartal) (om tillämpligt)**
 

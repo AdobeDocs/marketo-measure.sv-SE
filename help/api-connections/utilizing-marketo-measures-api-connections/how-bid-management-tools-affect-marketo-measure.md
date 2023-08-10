@@ -3,7 +3,8 @@ unique-page-id: 18874720
 description: Hur budhanteringsverktygen påverkar [!DNL Marketo Measure] - [!DNL Marketo Measure] - Produktdokumentation
 title: Hur budhanteringsverktygen påverkar [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: APIs, Integration, UTM Parameters
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

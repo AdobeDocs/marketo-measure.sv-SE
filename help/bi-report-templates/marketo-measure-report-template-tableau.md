@@ -2,7 +2,8 @@
 description: "[!DNL Marketo Measure] Rapportmall - tabell - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Rapportmall - tabell"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
-source-git-commit: 1b0d043e9015f2f8e2f6a3a2a49849bb792c7f21
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '2296'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Du måste uppdatera befintliga anslutningsdata till din specifika anslutningsinf
 
 ## Dataanslutning {#data-connection}
 
-Du måste skapa en dataanslutning till din Snowflake-instans. För detta behöver du servernamnet tillsammans med ditt användarnamn och lösenord. Information om var du hittar den här informationen och återställer ditt lösenord, om det behövs, finns dokumenterad [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+Du måste skapa en dataanslutning till din Snowflake-instans. För detta behöver du servernamnet tillsammans med ditt användarnamn och lösenord. Information om var du hittar den här informationen och återställer lösenordet finns dokumenterad [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -85,7 +86,7 @@ För att lägga till funktioner för valutakonvertering i beräkningarna i model
 
 ![](assets/marketo-measure-report-template-tableau-6.png)
 
-Det finns några ställen där två tabeller [!DNL Snowflake] har kombinerats med en union för att skapa en tabell i [!DNL Tableau] datamodell. I dessa fall har kolumnen &quot;Typ&quot; lagts till för att ange vilken [!DNL Snowflake] tabell som det kommer från och som anger vilken enhet raden representerar. Mer information om de tabeller som har kombinerats finns i avsnittet Relation och Dataflöde i den här dokumentationen.
+Det finns några ställen där två tabeller [!DNL Snowflake] har kombinerats med en union för att skapa en tabell i [!DNL Tableau] datamodell. I dessa fall har en Type-kolumn lagts till för att ange vilken [!DNL Snowflake] tabell som det kommer från och som anger vilken enhet raden representerar. Mer information om de tabeller som har kombinerats finns i avsnittet Relation och Dataflöde i den här dokumentationen.
 
 ![](assets/marketo-measure-report-template-tableau-7.png)
 
@@ -119,7 +120,7 @@ Kontaktpunkter för lead och attribuering kombineras till en tabell i den här m
 
 Scenövergångar för säljprojekt och leadscenövergångar kombineras till en tabell i den här modellen, med en länk till [!UICONTROL Lead and Attribution] Pekpunktstabell. Kolumnen&quot;Övergångstyp&quot; har lagts till för att ange om en rad är en övergång av typen säljprojekt eller Lead-fas.
 
-Både kostnads- och slutpunktsdata delar kanaldimensioner och kampanjdimensioner. Tableau är dock begränsat när det gäller möjligheten att modellera delade dimensioner mellan faktatabeller. Eftersom vi är begränsade till endast en delad dimensionstabell har data för Kanal och Kampanj kombinerats till en tabell. De kombineras med en korskoppling av de två dimensionerna till en tabell i Tableau: Kanal och kampanj. Det unika ID:t skapas genom att kanal- och kampanj-ID sammanfogas. Samma ID-värde läggs till i både Touchpoint- och Cost-tabellerna för att skapa en relation till den här kombinerade dimensionstabellen.
+Både kostnads- och slutpunktsdata delar kanaldimensioner och kampanjdimensioner. Tableau är dock begränsat när det gäller möjligheten att modellera delade dimensioner mellan faktatabeller. Eftersom vi är begränsade till endast en delad dimensionstabell har data för Kanal och Kampanj kombinerats till en tabell. De kombineras med hjälp av en korskoppling av de två dimensionerna till en tabell i Tablet: Channel och Campaign. Det unika ID:t skapas genom att kanal- och kampanj-ID sammanfogas. Samma ID-värde läggs till i både Touchpoint- och Cost-tabellerna för att skapa en relation till den här kombinerade dimensionstabellen.
 
 ![](assets/marketo-measure-report-template-tableau-12.png)
 
@@ -129,7 +130,7 @@ I den här modellen är Campaign- och Channel-dimensionerna länkade till Touchp
 >
 >Vissa händelser, till exempel sessioner, har direkta länkar till kampanjdimensionerna och kanaldimensionerna. Om du vill rapportera på sessionsnivå om de här dimensionerna rekommenderar vi att en separat datamodell skapas för detta ändamål.
 
-Kostnadsdata lagras på olika aggregeringsnivåer i kostnadsregistret för Snowflake data warehouse. För alla annonsleverantörer kan kampanjnivådata samlas på kanalnivå. Därför hämtar den här modellen kostnadsdata baserat på flaggan&quot;campaign_is_aggregatable_cost&quot;. Självrapporterade kostnader kan bara skickas på kanalnivå och behöver inte ha Campaign-data. För att få en så korrekt kostnadsrapportering som möjligt hämtas självrapporterade kostnader baserat på flaggan&quot;channel_is_aggregatable_cost&quot;. Frågan som importerar kostnadsdata skrivs med följande logik: Om ad_provider = &quot;SelfReported&quot; är channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
+Kostnadsdata lagras på olika aggregeringsnivåer i kostnadsregistret för Snowflake data warehouse. För alla annonsleverantörer kan kampanjnivådata samlas på kanalnivå. Därför hämtar den här modellen kostnadsdata baserat på flaggan&quot;campaign_is_aggregatable_cost&quot;. Självrapporterade kostnader kan bara skickas på kanalnivå och behöver inte ha Campaign-data. För att få en så korrekt kostnadsrapportering som möjligt hämtas självrapporterade kostnader baserat på flaggan&quot;channel_is_aggregatable_cost&quot;. Frågan som importerar kostnadsdata skrivs med följande logik: Om ad_provider = &quot;SelfReported&quot; så är channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
 
 Inom ramen för denna modell, Lead, [!UICONTROL Contact], [!UICONTROL Account]och [!UICONTROL Opportunity] data betraktas som dimensionella data och kopplas direkt till tabell för lead- och attributslutpunkt.
 
@@ -158,7 +159,7 @@ Visa definitioner för kolumner som kommer direkt från [!DNL Snowflake], se [da
 
 ### Attribuerad intäkt {#attributed-revenue}
 
-Kontaktpunkter för lead och attribuering för Touchpoints ärver dimensionella data från den ursprungliga kontaktytan. Rapporteringsmallens alla ärvda dimensionella data från relationen till kontaktpunkten, medan dimensionella data i identifieringsmodellen denormaliseras till lead- och attribueringsslutpunktsposterna. De totala inkomster som avsatts för rörledningen eller de intäktsvärden som härrör från detta bör ligga i linje med de båda rapporterna. Skillnader kan dock observeras när intäkten bryts ned eller filtreras efter dimensionella data (kanal, delkanal eller kampanj). Om dimensionella intäktsbelopp inte matchar mellan mallen och Discover saknas förmodligen beröringspunktsposter i mallrapportdatauppsättningen. Detta inträffar när det finns en lead- eller attribueringsslutpunktspost, men ingen motsvarande post i slutpunktstabellen i datauppsättningen som importeras till rapporten. Eftersom dessa tabeller filtreras efter ändringsdatum är det möjligt att Touchpoint-posten för lead/attribut har ändrats senare än Touchpoint-posten, och därför har Touchpoint för lead/attribut importerats till datauppsättningen medan den ursprungliga Touchpoint-posten inte var det. Du kan åtgärda problemet genom att utvidga det filtrerade datumintervallet för Touchpoint-tabellen eller ta bort datumbegränsningen tillsammans.
+Kontaktpunkter för lead och attribuering för Touchpoints ärver dimensionella data från den ursprungliga kontaktytan. Rapporteringsmallens alla ärvda dimensionella data från relationen till kontaktpunkten, medan dimensionella data i identifieringsmodellen denormaliseras till lead- och attribueringsslutpunktsposterna. De totala inkomster som avsatts för rörledningen eller de intäktsvärden som härrör från detta bör ligga i linje med de båda rapporterna. Skillnader kan dock observeras när intäkterna bryts ned eller filtreras efter dimensionella data (kanal, delkanal eller kampanj). Om dimensionella intäktsbelopp inte matchar mellan mallen och Discover saknas förmodligen beröringspunktsposter i mallrapportdatauppsättningen. Detta inträffar när det finns en lead- eller attribueringsslutpunktspost, men ingen motsvarande post i slutpunktstabellen i datauppsättningen som importeras till rapporten. Eftersom dessa tabeller filtreras efter ändringsdatum är det möjligt att Touchpoint-posten för lead/attribut har ändrats senare än Touchpoint-posten, och därför har Touchpoint för lead/attribut importerats till datauppsättningen medan den ursprungliga Touchpoint-posten inte var det. Du kan åtgärda problemet genom att utvidga det filtrerade datumintervallet för Touchpoint-tabellen eller ta bort datumbegränsningen tillsammans.
 
 >[!NOTE]
 >
@@ -166,7 +167,7 @@ Kontaktpunkter för lead och attribuering för Touchpoints ärver dimensionella 
 
 ### Kostnad {#cost}
 
-Kostnadsrapporteringen i mallarna är endast tillgänglig på kampanj- och kanalnivå, men Discover erbjuder rapportering på lägre detaljnivå för vissa annonsleverantörer (dvs. kreativa, nyckelord, annonsgrupper osv.). Mer information om hur kostnadsdata utformas i mallarna finns i [!UICONTROL Data Model] i denna dokumentation. Om dimensionsfiltret finns i [!UICONTROL Discover] är inställt på kanal eller kampanj, kostnaderna på kanal-, delkanal- och kampanjnivå bör ligga mellan Discover och rapportmallarna.
+Kostnadsrapporteringen i mallarna är endast tillgänglig på kampanj- och kanalnivå, men Discover erbjuder rapportering på lägre detaljnivå för vissa annonsleverantörer (dvs. kreativa, nyckelord, annonsgrupper osv.). Mer information om hur kostnadsdata utformas i mallarna finns i [!UICONTROL Data Model] i denna dokumentation. Om dimensionsfiltret [!UICONTROL Discover] är inställt på kanal eller kampanj, kostnaderna på kanal-, delkanal- och kampanjnivå bör ligga mellan Discover och rapportmallarna.
 
 ### avkastning {#roi}
 
@@ -180,7 +181,7 @@ Dessa mått, som de visas i rapportmallarna, speglas inte i Discover. Det finns 
 
 Rapportmallens datamodell normaliserar kanal-, delkanals- och kampanjdimensionella data via relationen mellan Session och Touchpoint. Detta skiljer sig från datamodellen Discover, som denoraliserar dessa dimensioner till Session. På grund av den här skillnaden bör antalet besök och besökare stämma överens mellan Discover och rapportmallen, men när de visas eller filtreras efter dimension förväntas inte numren att stämma överens. Detta beror på att dimensionella data i mallen bara är tillgängliga för webbhändelser som resulterade i en kontaktyta (dvs. icke-anonyma händelser). Mer information finns i [Datamodell](#data-model) i denna dokumentation.
 
-Det kan finnas små skillnader i totalt antal formulär på webbplatsen mellan [!DNL Discover] och mallen. Detta beror på att datamodellen i rapportmallen hämtar dimensionella data för platsformuläret via en relation till Session och sedan Touchpoint, det finns några instanser där webbplatsformulärdata inte har någon korrelerad session.
+Det kan finnas små skillnader i totalt antal formulär på webbplatsen mellan [!DNL Discover] och mallen. Detta beror på att datamodellen i rapportmallen hämtar dimensionella data för platsformulär via en relation till Session och sedan Touchpoint. Det finns några instanser där data för webbplatsformulär inte har någon korrelerad session.
 
 ### Leads och konton {#leads-and-accounts}
 

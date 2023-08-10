@@ -2,7 +2,8 @@
 description: Bästa praxis för onlinekanaler - [!DNL Marketo Measure] - Produktdokumentation
 title: Bästa praxis för onlinekanaler
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -11,11 +12,11 @@ ht-degree: 0%
 
 # Bästa praxis för onlinekanaler {#best-practices-for-online-channels}
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 Att ha korrekta [!DNL Marketo Measure] rapporter måste era marknadsföringskanaler vara korrekt konfigurerade. Marknadsföringskanalfältet visar den grupp av marknadsföringsaktiviteter på högsta nivå som en kontaktyta kan tillhöra (t.ex. betalsökning, direkt, socialt osv.).
 
-Det finns två sätt att skapa marknadsföringskanaler: online och offline. Det här dokumentet fokuserar på [!DNL Marketo Measure] rekommendationer för hur du konfigurerar och underhåller onlinekanaler.
+Det finns två aspekter av att konfigurera era marknadsföringskanaler: online och offline. Det här dokumentet fokuserar på [!DNL Marketo Measure] rekommendationer för hur du konfigurerar och underhåller onlinekanaler.
 
 Reglerna för onlinekanaler är riktlinjer för hur [!DNL Marketo Measure] mappar dina digitala kontaktytor, dvs. alla kontaktytor som spåras och skapas via [!DNL Marketo Measure] JS på er webbplats. Om dessa regler inte är heltäckande, eller inte är korrekt ordnade, kan kontaktytor tillskrivas den felaktiga kanalen, vilket minskar rapporteringsnoggrannheten. Se till att era regler för onlinekanaler är korrekta och aktuella och garanterar att era digitala data tilldelas rätt kanal och underkanaler i era [!DNL Marketo Measure] Rapportering.
 
@@ -43,7 +44,7 @@ Tänk på följande:
 
 När de har sparats och bearbetats fungerar reglerna för onlinekanaler kontinuerligt för att få fler digitala kontaktytor. Vissa ändringar eller scenarier gör att du vill granska onlinekanalinställningarna. [!DNL Marketo Measure] rekommenderar att du granskar dina regler för onlinekanaler en gång var sjätte månad. Detta säkerställer att [!DNL Marketo Measure] data är anpassade till era interna definitioner av onlinekanaler/underkanaler och er användning av UTM-kanaler.
 
-Andra saker som kan få ditt team att göra onlinekanalunderhåll är ....
+Andra objekt som kan få ditt team att göra onlinekanalunderhåll är bland annat ...
 
 * Ny digital kanal/underkanal startas
 * UTM-parametrar uppdateras eller ändras
@@ -56,6 +57,5 @@ Om ditt team nyligen har haft något av ovanstående [!DNL Marketo Measure] reko
 >
 >* [Inställningar för onlinekanal](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 >* [UTM-parametrar](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
->* [Marknadsföringskanal och delkanal](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
+>* [Marknadskanal och delkanal](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
 >* [UTM Best Practices](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-

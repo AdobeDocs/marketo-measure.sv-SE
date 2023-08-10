@@ -3,7 +3,8 @@ unique-page-id: 18874568
 description: Marketo Measure attribueringsmodeller - Marketo Measure - produktdokumentation
 title: Marketo Measure attribueringsmodeller
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
-source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%
@@ -17,7 +18,7 @@ Marketo Measure erbjuder sex typer av attribueringsmodeller:
 * Första beröring
 * Skapa leads
 * U-formad
-* W-Shaped
+* W-Shape
 * Fullständig sökväg
 * Anpassad modell
 
@@ -39,7 +40,7 @@ De följande avsnitten behandlar varje attribueringsmodell och hur attribuerings
 
 **Första pekmodellen**
 
-Den första pekmodellen fokuserar bara på den allra första interaktionen en lead har med din organisation. Den här modellen tilldelar 100 % av attribueringskrediten till första gången leadet får kännedom om ditt företag, First Touch (FT).
+Den första pekmodellen fokuserar bara på den allra första interaktionen en lead har med din organisation. Den här modellen attribuerar 100 % av attribueringskrediten till första gången leadet får kännedom om ditt företag, First Touch (FT).
 
 Säg att Kate besöker www.adobe.com för första gången via en Adwords Ad och tittar på ett whitepaper. Adwords-kanalen skulle få 100 % av attribueringskrediten från den affärsmöjligheten.
 
@@ -61,7 +62,7 @@ Multitouch-modeller används för längre och mer komplicerade säljcykler. Dess
 
 U-Shaped-modellen fokuserar på både FT- och LC-kontaktytorna. I den här modellen får FT- och LC-kontaktytan 50 % av intäktskrediten.
 
-Kate första besök på www.adobe.com via en Adwords och får 50 % av attribueringskrediten. De återstående 50 % skulle tillskrivas den Linkedin-post som drev Austin att fylla i ett formulär och bli en ledare.
+Kate första besök på www.adobe.com via en Adwords och skulle få 50 % av attribueringskrediten. De återstående 50 % skulle tillskrivas den Linkedin-post som drev Austin att fylla i ett formulär och bli en ledare.
 
 ![](assets/4.png)
 

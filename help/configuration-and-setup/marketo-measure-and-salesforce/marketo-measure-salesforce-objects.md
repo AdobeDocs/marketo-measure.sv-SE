@@ -3,7 +3,8 @@ unique-page-id: 18874582
 description: "[!DNL Marketo Measure] Salesforce-objekt - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Salesforce-objekt"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
@@ -44,17 +45,17 @@ Den BT-relaterade listan visar alla kontaktytor som tillhör lead eller kontakt.
 
 The [!UICONTROL Buyer Attribution Touchpoint] Objektet berättar om marknadsföringsinteraktionerna för dina kontakter i samband med en affärsmöjlighet. Den visar *attribuering* data relaterade till kontaktytorna. Med det här objektet kan du se hur stor intäktskrediten som tillskrivs varje marknadsföringskontaktyta. Den typ av attribueringsmodell som du använder avgör hur stor procentandel av intäkterna som tilldelas kontaktytorna.
 
-Kontaktpunkter för Buyer Attribution (BAT) skapas först när en möjlighet skapas som relaterar till kontakter som har BT-data (Buyer Touchpoint). BAT skapas inte utan möjlighet. När affärsmöjligheten har skapats använder BAT-objektet [!DNL Salesforce] *Belopp* fält i säljprojektet för att förstå hur mycket intäkter som ska tilldelas kontaktytorna.
+Kontaktpunkter för Buyer Attribution (BAT) skapas först när en möjlighet skapas som relaterar till kontakter som har BT-data (Buyer Touchpoint). Bästa tillgängliga teknik skapas inte utan möjlighet. När affärsmöjligheten har skapats använder BAT-objektet [!DNL Salesforce] *Belopp* fält i säljprojektet för att förstå hur mycket intäkter som ska tilldelas kontaktytorna.
 
 A **arbetsflöde** måste skapas om du använder en [anpassat beloppsfält](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) om du vill visa intäkter för objektet säljprojekt. [!DNL Marketo Measure] kan inte läsa informationen som finns i anpassade beloppsfält och kan därför inte fylla i intäktsattribueringsdata på kontaktytorna. Det här arbetsflödet använder **[!DNL Marketo Measure]Affärsmöjlighet - belopp** Fält, en av [!DNL Marketo Measure] anpassade fält, för att mappa intäktsvärdet från fältet Anpassat belopp till fältet Affärsmöjlighet.
 
 ![](assets/3-1.png)
 
-BAT-objektet är synligt på [!UICONTROL Opportunity], [!UICONTROL Contact]och [!UICONTROL Account] Objekt som en relaterad lista. I den här listan visas alla kontaktytor med attribueringsdata som hör till ett säljprojekt. Om du klickar på Buyer Attribution Touchpoint ID dirigeras du till sidan Buyer Attribution Touchpoint Detail. Här kan du se mer specifika attribueringsdata och information om varifrån kontaktytan kommer (liknande vad som anges i Buyer Touchpoint-objektet).
+BAT-objektet visas på [!UICONTROL Opportunity], [!UICONTROL Contact]och [!UICONTROL Account] Objekt som en relaterad lista. I den här listan visas alla kontaktytor med attribueringsdata som hör till ett säljprojekt. Om du klickar på Buyer Attribution Touchpoint ID dirigeras du till sidan Buyer Attribution Touchpoint Detail. Här kan du se mer specifika attribueringsdata och information om varifrån kontaktytan kommer (liknande vad som anges i Buyer Touchpoint-objektet).
 
 ## [!DNL Marketo Measure] Person {#marketo-measure-person}
 
-The [!DNL Marketo Measure] Personobjektet relaterar lead- och kontaktobjekten tillsammans. Som standard har Salesforce inte möjlighet att skapa rapporter med lead- och kontaktobjektet i samma rapport. Genom att relatera till lead- och kontaktobjektet kan du [!DNL Marketo Measure] Du kan rapportera om båda objekten i samma rapport. Detta är särskilt användbart när en lead har konverterats till en kontakt. På en [!DNL Marketo Measure] Personpost du vill visa en sökning efter motsvarande lead- och/eller kontaktpost, en relaterad lista över de kontaktpunkter som är kopplade till personen och person-ID (som alltid är leadets/kontaktpersonens e-postadress). Sedan [!DNL Marketo Measure] Personen relaterar till lead- och kontaktobjektet, det finns aldrig någon [!DNL Marketo Measure] Personpost som är kopplad till en kontaktyta för Buyer Attribution. Nedan visas ett exempel på en [!DNL Marketo Measure] Personpost i Salesforce:
+The [!DNL Marketo Measure] Personobjektet relaterar lead- och kontaktobjekten tillsammans. Som standard har Salesforce inte möjlighet att skapa rapporter med hjälp av Lead- och Contact-objektet i samma rapport. Genom att relatera till lead- och kontaktobjektet kan du [!DNL Marketo Measure] Du kan rapportera om båda objekten i samma rapport. Detta är särskilt användbart när en lead har konverterats till en kontakt. På en [!DNL Marketo Measure] Personpost du vill visa en sökning efter motsvarande lead- och/eller kontaktpost, en relaterad lista över de kontaktpunkter som är kopplade till personen och person-ID (som alltid är leadets/kontaktpersonens e-postadress). Sedan [!DNL Marketo Measure] Personen relaterar till lead- och kontaktobjektet, det finns aldrig någon [!DNL Marketo Measure] Personpost som är kopplad till en kontaktyta för Buyer Attribution. Nedan visas ett exempel på en [!DNL Marketo Measure] Personpost i Salesforce:
 
 ![](assets/4.png)
 
@@ -72,7 +73,7 @@ The [!DNL Marketo Measure] Med händelseobjektet kan du spåra specifika händel
 
 ## [!DNL Marketo Measure] Fält {#marketo-measure-fields}
 
-Data som samlats in av [!DNL Marketo Measure] Javascript kommer att överföras till den anpassade [!DNL Marketo Measure] Fält inom [!DNL Marketo Measure] Objekt. Vissa fält finns bara på vissa objekt. För en ordlista över alla [!DNL Marketo Measure] fält, tack [klicka här](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). För en visualisering av [!DNL Marketo Measure] Objekt var [!DNL Marketo Measure] Fältet är relaterat till, tack [klicka här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Data som samlats in av [!DNL Marketo Measure] Javascript kommer att överföras till den anpassade [!DNL Marketo Measure] Fält inom [!DNL Marketo Measure] Objekt. Vissa fält finns bara på vissa objekt. För en ordlista över alla [!DNL Marketo Measure] fält, [klicka här](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). För en visualisering av [!DNL Marketo Measure] Objekt var [!DNL Marketo Measure] Fältet är relaterat till, tack [klicka här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure] Rapporter och kontrollpaneler {#marketo-measure-reports-and-dashboards}
 

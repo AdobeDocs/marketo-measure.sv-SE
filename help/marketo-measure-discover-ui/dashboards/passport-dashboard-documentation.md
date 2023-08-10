@@ -3,7 +3,8 @@ unique-page-id: 42762628
 description: Dokumentation för Passport Dashboard - [!DNL Marketo Measure] - Produktdokumentation
 title: Dokumentation för Passport Dashboard
 exl-id: 43cb01a8-d02e-4086-af57-d7ec9275f87a
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -16,8 +17,8 @@ Via Passport-kontrollpanelen kan marknadsförare visa leads/kontakter och säljp
 
 Den här instrumentpanelen har två paneler:
 
-* Möjligheter: Antalet säljprojektsposter som passerat genom varje fas under den angivna tidsramen.
-* Leads/kontakter: Antalet lead- eller kontaktposter som passerat genom varje steg under den angivna tidsramen.
+* Affärsmöjligheter: Antalet säljprojektsposter som passerat genom varje fas under den angivna tidsramen.
+* Leads/kontakter: Antalet lead- eller kontaktposter som passerat genom varje fas under den angivna tidsramen.
 
 >[!NOTE]
 >
@@ -43,7 +44,7 @@ För alla filter används&quot;AND&quot;-logik.
 
 ![](assets/one-1.png)
 
-Stegen innehåller OC, valda trattfaser i öppna säljprojektsstadier ([!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL Stage Mapping]) och Won Opportunity Stages ([!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL Stage Mapping]).
+Stegen innehåller OC, valda trattfaser i öppna säljprojektsstadier ([!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL Stage Mapping]), och Won Opportunity Stages ([!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL Stage Mapping]).
 
 >[!NOTE]
 >

@@ -2,7 +2,8 @@
 description: Sekretessförfrågningar - [!DNL Marketo Measure] - Produktdokumentation
 title: Sekretessförfrågningar
 exl-id: 883e475f-9868-412a-b505-230556f38484
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: APIs, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -41,17 +42,17 @@ För att göra förfrågningar om åtkomst- och borttagningsdata för [!DNL Mark
 &quot;companyContext&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;value&quot;: `<Your IMS Org ID Value>`
+* värde: `<Your IMS Org ID Value>`
 
-&quot;användare&quot;:
+användare:
 
 * &quot;action&quot;: antingen [!UICONTROL access] eller ta bort
 * &quot;användar-ID&quot;:
-   * &quot;namespace&quot;: e-post
+   * &quot;namespace&quot;: email
    * &quot;type&quot;: standard
-   * &quot;value&quot;: `<Data Subject's Email Address>`
+   * värde: `<Data Subject's Email Address>`
 
-&quot;include&quot;:
+include:
 
 * **marketoMeasurement** (som är den Adobe-produkt som är tillämplig på ansökan)
 
@@ -59,7 +60,7 @@ reglering:
 
 * **gdpr**, **ccpa**, **pdpa**, **lgpd_bra**, eller **nzpa_nzl** (som är den sekretessregel som gäller för begäran)
 
-## Exempel ett: Borttagningsbegäran för GDPR {#gdpr-delete-request}
+## Exempel ett: GDPR-borttagningsbegäran {#gdpr-delete-request}
 
 JSON-begäran
 

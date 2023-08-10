@@ -3,7 +3,8 @@ unique-page-id: 18874614
 description: Leads med Buyer Touchpoints Report - [!DNL Marketo Measure] - Produktdokumentation
 title: Leads med Buyer Touchpoints Report
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Touchpoints, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%

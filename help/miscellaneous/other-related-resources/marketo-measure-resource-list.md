@@ -3,7 +3,8 @@ unique-page-id: 37356962
 description: "[!DNL Marketo Measure] Resurslista - [!DNL Marketo Measure] - Produktdokumentation"
 title: "[!DNL Marketo Measure] Resurslista"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Fundamentals
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -36,7 +37,7 @@ Här är olika länkar till relevanta artiklar/videoklipp som hjälper dig att k
 
 **Rapportering**
 
-* [Skapa anpassade rapporttyper med [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (om du behöver rapportera om anpassade fält för lead/kontakt/säljprojekt)
+* [Skapa anpassade rapporttyper med [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (om du behöver rapportera om anpassade lead-/kontakt-/säljprojektsfält)
 * [Ordlista för [!DNL Marketo Measure] fält](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 **Felsökning**

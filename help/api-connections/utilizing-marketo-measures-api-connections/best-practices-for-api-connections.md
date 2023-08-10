@@ -2,7 +2,8 @@
 description: God praxis för API-anslutningar - [!DNL Marketo Measure] - Produktdokumentation
 title: Bästa tillvägagångssätt för API-anslutningar
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: APIs, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Bästa tillvägagångssätt för API-anslutningar {#best-practices-for-api-connections}
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 [!DNL Marketo Measure] erbjuder API-anslutningar med [!DNL Google AdWords], [!DNL Microsoft Bing Ads], [!DNL Facebook Ads]och LinkedIn. Dessa API-anslutningar aktiverar [!DNL Marketo Measure] för att hämta in en mängd data från era annonsplattformar som sedan kan rapporteras i era Buyer Touchpoint-data. En viktig egenskap för dessa API-anslutningar är deras förmåga att hämta utgiftsdata automatiskt, vilket sparar både tid och arbete för teamet som krävs för att manuellt överföra data för rapportering av avkastning. Det är inte obligatoriskt att konfigurera dessa API-anslutningar för [!DNL Marketo Measure] för att spåra dessa kanaler, men de ger värdefull detaljinformation som förbättrar er rapportering.
 
@@ -28,7 +29,7 @@ Oavsett vilken annonsplattform du ansluter är följande riktlinjer viktiga att 
 
 Optimera varje [!DNL Marketo Measure] API, följ gärna följande metodtips.
 
-**[!DNL Facebook]**: Koppla samman med automatisk taggning
+**[!DNL Facebook]**: Ansluta med automatisk taggning
 
 Innan du aktiverar automatisk taggning exporterar du din annonshistorik till en csv. Om du aktiverar automatisk taggning återställs konverteringshistoriken och det sociala beviset för alla annonser som taggats av [!DNL Marketo Measure].
 
@@ -58,13 +59,13 @@ Genom att följa vår rekommendation om god praxis [!DNL Marketo Measure] Bing A
 * Tagga alla Bing Ads automatiskt med följande parametrar för `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
 * Hämta annonsinformation för alla aktiva Bing-annonser
 
-**linkedIn**: Koppla samman med automatisk taggning
+**LinkedIn**: Ansluta med automatisk taggning
 
 När du aktiverar automatisk taggning återskapas en resurs och placeras i en ny Creative-version, den gamla Creative-versionen arkiveras.
 
-Genom att följa vår rekommendation om god praxis [!DNL Marketo Measure] linkedIn API kan:
+Genom att följa vår rekommendation om god praxis [!DNL Marketo Measure] LinkedIn API kan:
 
-* Tagga automatiskt alla LinkedIn-annonser som är annonstyper Sponsored Content med nödvändiga [!DNL Marketo Measure] parameter _bl={creativeId}. Den här parametern hämtar in det kreativa ID:t som tillåter [!DNL Marketo Measure] för att lösa kampanjer och kreativ information.
+* Tagga automatiskt alla LinkedIn-annonser som är annonstyper Sponsored Content med nödvändiga [!DNL Marketo Measure] parameter_bl={creativeId}. Den här parametern hämtar in det kreativa ID:t som tillåter [!DNL Marketo Measure] för att lösa kampanjer och kreativ information.
 * Ladda ned kostnadsinformation för alla aktiva program som stöds [!DNL LinkedIn] annonser
 
 >[!NOTE]
@@ -87,11 +88,10 @@ Om ditt team har upplevt något av ovanstående scenarier bör du kontrollera di
 
 >[!MORELIKETHIS]
 >
->* [Integrerade API:er](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+>* [Integrerade annonsplattformar (API:er)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
 >* [Hur budhanteringsverktygen påverkar [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
->* [[!DNL Marketo Measure] API-parametrar förklaras](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
+>* [[!DNL Marketo Measure] Förklara API-parametrar](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
 >* [Facebook API - översikt](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
 >* [[!DNL LinkedIn] Integreringsöversikt](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
->* [Översikt över integrering av AdWords](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [Översikt över integrering av annonstavlor](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
 >* [Återauktoriserar anslutna API-konton](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
-

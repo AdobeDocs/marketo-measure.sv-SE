@@ -3,7 +3,8 @@ unique-page-id: 18874578
 description: Kampanjmedlemmar och kampanjmedlemmar - [!DNL Marketo Measure] - Produktdokumentation
 title: Kampanjmedlemmar och kampanjmedlemmar
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -32,7 +33,7 @@ Observera att kampanjmedlemmarna måste ha en e-postadress kopplad till sin post
 
 ## Synkroniseringsdatum för kampanj {#campaign-sync-dates}
 
-När paketet installeras [!DNL Marketo Measure] innehåller även två datumfält i Campaign-objektet: Slutdatum för kontaktpunktsstart och slutdatum för slutpunkt.
+När paketet installeras [!DNL Marketo Measure] innehåller även två datumfält i Campaign-objektet: Startdatum för pekpunkt och Slutdatum för slutpunkt.
 
 Dessa datum talar om [!DNL Marketo Measure] när vi ska påbörja eller sluta inkludera Campaign-medlemmar från Campaign i kontaktytan. Du kan antingen ange ett datum, eller båda, eller ingen alls.
 
@@ -52,7 +53,7 @@ Kampanjmedlemmar är kapslade under [!UICONTROL Campaigns]och är relaterade til
 
 ## Status för köparens kontaktpunkt {#buyer-touchpoint-status}
 
-Om den är aktiverad [!DNL Marketo Measure] skickar ett statusvärde till Campaign-medlemmen i fyra olika fält som ingår i det installerade paketet: Touchpoint-status (lead), Touchpoint-status (kontakt), Touchpoint-status (säljprojekt) och statusdatum för kontaktyta. Detta hjälper kunderna att granska om en kontaktyta har skapats som en kontaktyta för köpare eller Buyer Attribution, beroende på vilket objekt den är relaterad till. Slutpunktens statusdatum är helt enkelt det sista datumet då statusen uppdaterades för Campaign-medlemmen.
+Om den är aktiverad [!DNL Marketo Measure] skickar ett statusvärde till Campaign-medlemmen i fyra olika fält som ingår i det installerade paketet: Touchpoint Status (Lead), Touchpoint Status (Kontakt), Touchpoint Status (säljprojekt) och Touchpoint Status Date. Detta hjälper kunderna att granska om en kontaktyta har skapats som en kontaktyta för köpare eller Buyer Attribution, beroende på vilket objekt den är relaterad till. Slutpunktens statusdatum är helt enkelt det sista datumet då statusen uppdaterades för Campaign-medlemmen.
 
 ![](assets/4.png)
 
@@ -87,7 +88,7 @@ Kontaktpunktsdatumet för gruppuppdatering ingår i den installerade [!DNL Marke
 
 Om ett stort antal Campaign-medlemsposter behöver uppdateras kan du använda [!UICONTROL Bulk Update Touchpoint Date] för massredigering.
 
-Om det finns unika användningsområden som det här gränssnittet inte täcker kan du även använda [Datainläsare](https://dataloader.io/){target="_blank"} om du vill exportera posterna, göra ändringarna och överföra posterna tillbaka till.
+Om det finns unika användningsfall som det här gränssnittet inte täcker kan du även använda [Datainläsare](https://dataloader.io/){target="_blank"} om du vill exportera posterna, göra ändringarna och överföra posterna tillbaka till.
 
 Börja med att söka efter posterna och filtrera dem som du vill ange ett datum för Buyer Touchpoint för.
 
@@ -97,7 +98,7 @@ Börja med att söka efter posterna och filtrera dem som du vill ange ett datum 
 
 ![](assets/7.png)
 
-Använd &quot;[!UICONTROL Include All Records]&quot; kryssrutan (se skärmbild nedan) som kontrollerar alla poster på alla sidor.
+Om du inte behöver använda sökningen och bara vill använda datumen på alla Campaign-medlemsposter använder du &quot;[!UICONTROL Include All Records]&quot; kryssrutan (se skärmbild nedan) som kontrollerar alla poster på alla sidor.
 
 Välj datum och tid i kalenderväljaren. Om du vill välja aktuellt datum och aktuell tid klickar du på datumet/tiden som visas bredvid kalenderväljaren.
 
@@ -107,13 +108,13 @@ När du angett datum och tid klickar du på **[!UICONTROL Update Selected Record
 
 ## Kampanjkostnader {#campaign-costs}
 
-Läs allt om kampanjkostnader [i den här artikeln](/help/marketing-spend/spend-management/crm-campaign-costs.md).
+Lär dig allt om kampanjkostnader [i den här artikeln](/help/marketing-spend/spend-management/crm-campaign-costs.md).
 
 ## Borttagning av kampanjmedlem {#campaign-member-removal}
 
 Så där [!DNL Marketo Measure] håller reda på alla borttagna poster i Salesforce, oavsett om de är borttagna leads, konton eller säljprojekt, är att se posterna i API:t och spåra att en post är markerad som&quot;IsDeleted&quot;. Tyvärr har Salesforce med Campaign-medlemmar infört ett annat sätt att ta bort de här kampanjmedlemmarna från en kampanj, och de markeras faktiskt som&quot;borttagna&quot; i stället för&quot;borttagna&quot;, så problemet är att kontaktytorna fortfarande bodde i Salesforce som var relaterade till borttagna kampanjmedlemmar.
 
-För att komma runt problemet [!DNL Marketo Measure] skapade en [!DNL Marketo Measure] Händelseobjekt och en utlösare som ska spåras när Campaign-medlemmar tas bort och sedan ta bort motsvarande kontaktyta. **Du kommer att behöva [!DNL Marketo Measure] Marknadsföringsanalyspaket V6.15 eller senare** om du vill använda den här funktionen.
+För att komma runt problemet [!DNL Marketo Measure] skapade en [!DNL Marketo Measure] Händelseobjekt och en utlösare som ska spåras när Campaign-medlemmar tas bort och sedan ta bort motsvarande kontaktyta. **Du behöver [!DNL Marketo Measure] Marknadsföringsanalyspaket V6.15 eller senare** om du vill använda den här funktionen.
 
 >[!CAUTION]
 >
@@ -121,6 +122,6 @@ För att komma runt problemet [!DNL Marketo Measure] skapade en [!DNL Marketo Me
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universitet: Kampanjobjektfält](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Universitet: fält för kampanjobjekt](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
 >
 >[[!DNL Marketo Measure] Universitet: Mappa offlinekanaler](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)

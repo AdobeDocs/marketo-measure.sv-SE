@@ -2,7 +2,8 @@
 description: Bästa praxis för inställningar för kontaktpunkter - [!DNL Marketo Measure] - Produktdokumentation
 title: Bästa tillvägagångssätt för inställningar för kontaktpunkter
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -11,11 +12,11 @@ ht-degree: 0%
 
 # Bästa tillvägagångssätt för inställningar för kontaktpunkter {#best-practices-for-touchpoint-settings}
 
-## Översikt {#overview}
+## Ökning {#overview}
 
 Touchpoint-inställningsdelen av [!DNL Marketo Measure] kan du ange regler som inaktiverar eller tar bort kontaktytor från [!DNL Marketo Measure] data och relaterade system. Dessa regler kan hjälpa er att isolera vissa datauppsättningar som inte behöver representeras i era data för köparens kontaktyta eller som ni inte vill ta emot attribueringskrediter utan att störa er spårning och datainsamling.
 
-**Ta bort pekpunkt** medel [!DNL Marketo Measure] kommer att tömma (d.v.s. ta bort) alla beröringspunkter från CRM som passar regelvillkoren. Data kan rapporteras på i [!DNL Marketo Measure] Kontrollpanel för avkastning (Discover), men visas inte i CRM. Används vanligen för att minska stress i datalagringsgränserna i din CRM
+**Borttagning av pekpunkt** medel [!DNL Marketo Measure] kommer att tömma (d.v.s. ta bort) alla beröringspunkter från CRM som passar regelvillkoren. Data kan rapporteras på i [!DNL Marketo Measure] Kontrollpanel för avkastning (Discover), men visas inte i CRM. Används vanligen för att minska stress i datalagringsgränserna i din CRM
 
 **Inaktivering av kontaktpunkt** liknar Touchpoint Removal, men data kan INTE rapporteras på i ROI Dashboard. Eventuella kontaktpunkter som inaktiveras är inte tillgängliga i CRM eller Discover. Undertryckningen säkerställer att CRM-data och Discover-data matchar. Används vanligen för att finjustera och ytterligare specificera vilka slutpunktsdata du vill få attribueringskrediter.
 
@@ -57,4 +58,3 @@ Skäl att granska dina inställningar för slutpunkter är ...
 >* [Översikt över borttagning och undertryckning av pekpunkter](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
 >* [Varför ska man aldrig ta bort kontaktytor?](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
 >* [Kontaktpunkter för köpare (BT) respektive Buyer Attribution Touchpoints (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
-

@@ -2,7 +2,8 @@
 description: Domänhantering - [!DNL Marketo Measure] - Produktdokumentation
 title: Domänhantering
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
-source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
+feature: Integration, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -31,7 +32,7 @@ På **[!UICONTROL Integration]** > **[!UICONTROL Domains]** visas alla domäner 
 
 ![](assets/domain-management-3.png)
 
-Effekten av att växla en domän är omedelbar och ändringarna är inte retroaktiva. I framtiden [!DNL Marketo Measure] rensar data från inaktiverade domäner efter en angiven tidsperiod.
+Effekten av att växla en domän är omedelbar, och ändringarna är inte retroaktiva. I framtiden [!DNL Marketo Measure] rensar data från inaktiverade domäner efter en angiven tidsperiod.
 
 ## Status {#statuses}
 
@@ -46,7 +47,7 @@ Spårningsstatus kan vara följande:
 
 * **AKTIV**: [!DNL Marketo Measure] tar för närvarande emot data från den här domänen
 * **INAKTIVERAT**: Den här domänen är tillgänglig för spårning, men är för närvarande inaktiverad
-* **OTILLGÄNGLIG**: Domänen är inte tillgänglig för spårning eftersom den inte har verifierats
+* **OTILLGÄNGLIG**: Den här domänen är inte tillgänglig för spårning eftersom den inte har verifierats
 
 Om du hovrar över ett enskilt statusobjekt utlöses ett verktygstips som ytterligare förklarar statusen.
 
@@ -54,11 +55,11 @@ Om du hovrar över ett enskilt statusobjekt utlöses ett verktygstips som ytterl
 
 **Vad händer när en domän tas bort i Admin Console?**
 
-När en domän tas bort i Admin Console [!DNL Marketo Measure] markerar domänen som borttagen. [!DNL Marketo Measure] kommer omedelbart att sluta spåra trafik på den här domänen, men kommer inte att ta bort tidigare insamlade data.
+När en domän tas bort i Admin Console, [!DNL Marketo Measure] markerar domänen som borttagen. [!DNL Marketo Measure] kommer omedelbart att sluta spåra trafik på den här domänen, men kommer inte att ta bort tidigare insamlade data.
 
 **Varför kan jag inte aktivera en domän?**
 
-Det finns flera orsaker till varför en domän inte kan väljas på den här sidan. Om domänen inte valideras i Admin Console är den inte tillgänglig i [!DNL Marketo Measure]. Om domänen ägs av en annan Adobe-organisation än den aktuella [!DNL Marketo Measure] som är innehavare kan det vara otillgängligt för markering.
+Det finns flera orsaker till varför en domän inte tillåts att väljas på den här sidan. Om domänen inte valideras i Admin Console är den inte tillgänglig i [!DNL Marketo Measure]. Om domänen ägs av en annan Adobe-organisation än den aktuella [!DNL Marketo Measure] som är innehavare kan det vara otillgängligt för val.
 
 **Hur tar jag bort en domän från den här listan?**
 

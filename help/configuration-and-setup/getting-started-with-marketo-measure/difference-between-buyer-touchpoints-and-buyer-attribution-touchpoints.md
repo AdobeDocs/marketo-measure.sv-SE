@@ -3,7 +3,8 @@ unique-page-id: 18874646
 description: Skillnaden mellan Buyer Touchpoints och Buyer Attribution Touchpoints - [!DNL Marketo Measure] - Produktdokumentation
 title: Skillnad mellan Buyer Touchpoints och Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Lär dig vad som definierar en kontaktyta för köpare (BT) och Buyer Attribution Touchpoint (BAT), skillnaderna mellan de båda samt svara på vanliga frågor.
 
-Den viktigaste skillnaden mellan Buyer Touchpoints och Buyer Attribution Touchpoints är deras relation till [!DNL Salesforce] Objekt. BT relaterar till lead-, kontakt- och case-objekten, men inte till säljprojektsobjektet. Betyder att det aldrig kommer att finnas intäkter kopplade till Buyer Touchpoints.
+Den viktigaste skillnaden mellan Buyer Touchpoints och Buyer Attribution Touchpoints är deras relation till [!DNL Salesforce] Objekt. BT:er relaterar till lead-, kontakt- och case-objekten, men inte till säljprojektsobjektet. Betyder att det aldrig kommer att finnas intäkter kopplade till Buyer Touchpoints.
 
 Buyer Attribution Touchpoint-objektet är relaterat till objekten Kontakt, Konto och säljprojekt, men inte Lead-objektet. Betyder att det aldrig kommer att finnas kontaktytor för Buyer Attribution kopplade till Leads. BAT-objektet är där du ser intäkter kopplade till specifika marknadsföringsinteraktioner.
 
