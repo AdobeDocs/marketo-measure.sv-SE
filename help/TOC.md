@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget."
-source-git-commit: faa04b417c5f0512d294bf2483aef3061b10d621
+source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '773'
 ht-degree: 2%
 
 ---
@@ -200,10 +200,10 @@ ht-degree: 2%
       + [Lagringsstorlekar för Salesforce-post](marketo-measure-salesforce-reporting/additional-functionality/salesforce-record-storage-sizes.md)
       + [Metodtips för att sammanfoga leads](marketo-measure-salesforce-reporting/additional-functionality/best-practices-for-merging-leads.md)
       + [Aktivera behörighet att redigera konverterade leads](marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md)
-+ [!DNL Marketo Measure] Data warehouse {#marketo-measure-data-warehouse}
-   + [Data warehouse Access - Reader Account](marketo-measure-data-warehouse/data-warehouse-access-reader-account.md)
-   + [Data warehouse Access - direktdelning](marketo-measure-data-warehouse/data-warehouse-access-direct-share.md)
-   + [Data warehouse Schema](marketo-measure-data-warehouse/data-warehouse-schema.md)
++ [!DNL Marketo Measure] Data Warehouse {#marketo-measure-data-warehouse}
+   + [Åtkomst till Data Warehouse - Reader](marketo-measure-data-warehouse/data-warehouse-access-reader-account.md)
+   + [Åtkomst till Data Warehouse - direktdelning](marketo-measure-data-warehouse/data-warehouse-access-direct-share.md)
+   + [Data Warehouse Schema](marketo-measure-data-warehouse/data-warehouse-schema.md)
 + BI-rapportmallar {#bi-report-templates}
    + [[!DNL Marketo Measure] Rapportmall - Power BI](bi-report-templates/marketo-measure-report-template-power-bi.md)
    + [[!DNL Marketo Measure] Rapportmall - tabell](bi-report-templates/marketo-measure-report-template-tableau.md)
@@ -225,5 +225,6 @@ ht-degree: 2%
       + [Sekretessbegäran](miscellaneous/other-related-resources/privacy-requests.md)
       + [Ta bort [!DNL Marketo Measure] Spårningsparametrar från landningssidans URL i Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Övergår till [!DNL Marketo Measure] från hel cirkel](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
+   + [Testa](miscellaneous/test.md)
 + Versionsinformation {#release-notes}
    + [Aktuell versionsinformation](release-notes/current.md)
