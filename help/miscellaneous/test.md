@@ -4,7 +4,7 @@ title: Testa
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 7c27b18ac61704851e78a84e215a81d46f8d322a
+source-git-commit: d578d214d96c235733972e2d53a6da0c8a12e116
 workflow-type: tm+mt
 source-wordcount: '13'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Text
 
-![](assets/image.gif)
+![](assets/drilldown_3.gif)
 
 Mer text
 
