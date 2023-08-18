@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget."
-source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
+source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '788'
 ht-degree: 2%
 
 ---
@@ -150,9 +150,15 @@ ht-degree: 2%
       + [Vanliga frågor (flervaluta)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + [!DNL Marketo Measure] Upptäck användargränssnitt {#marketo-measure-discover-ui}
    + Kontrollpaneler {#dashboards}
-      + [Kohort Journey Dashboard Documentation](marketo-measure-discover-ui/dashboards/cohort-journey-dashboard-documentation.md)
-      + [Dokumentation för Passport Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard-documentation.md)
-      + [Dokumentation för instrumentpanel för ögonblicksbild](marketo-measure-discover-ui/dashboards/snapshot-dashboard-documentation.md)
+      + [Grunderna i kontrollpanelen](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Instrumentpanel för intäktsöversikt](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Kontrollpanel för attributerade intäkter](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Kontrollpanel för avkastning](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Passport Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+   + Äldre instrumentpaneler {#legacy-dashboards}
+      + [Kohort Journey Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
+      + [Dokumentation för Passport Dashboard](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
+      + [Dokumentation för instrumentpanel för ögonblicksbild](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
    + Använda [!DNL Marketo Measure]&#39;s Reporting Platform {#using-marketo-measures-reporting-platform}
       + [Vanliga användningsfall](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
       + [Definitioner och uppslagsverk](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
