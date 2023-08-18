@@ -4,7 +4,7 @@ title: Instrumentpanel för intäktsöversikt
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: ac114780c087ea48e1b7d8dc95de31d250e4361b
+source-git-commit: a90a3c7a8ed7ec83bc50060da8b7ca1e69bd37bd
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -71,5 +71,5 @@ Frågor till styrelsen:
     <img src="assets/revenue-overview-dashboard-2.png"></td>
     <td> </td>
   </tr>
-</body>
+</tbody>
 </table>
