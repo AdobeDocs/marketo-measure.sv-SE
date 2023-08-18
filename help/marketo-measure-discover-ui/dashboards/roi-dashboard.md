@@ -1,10 +1,8 @@
 ---
 description: ROI Dashboard - [!DNL Marketo Measure] - Produkt
 title: Kontrollpanel för avkastning
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -26,8 +24,8 @@ Frågor till styrelsen:
  <tr> 
    <th>Komponent</th> 
    <th>Beskrivning</th>
+   <th>Datumtyp</th>
    <th>Granska fält</th>
-   <th>Datatyp</th>
    <th>Filter</th>
   </tr>
   <tr>
