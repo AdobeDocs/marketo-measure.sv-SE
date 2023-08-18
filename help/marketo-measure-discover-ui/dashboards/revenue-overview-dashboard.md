@@ -4,7 +4,7 @@ title: Instrumentpanel för intäktsöversikt
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: a90a3c7a8ed7ec83bc50060da8b7ca1e69bd37bd
+source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -46,30 +46,25 @@ Frågor till styrelsen:
   <tr>
     <td>Totalt avtalsfönster</td>
     <td>Totalt antal avtal som markerats som"Closed Won" i CRM.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Attribuerad intäktsruta</td>
     <td>Totala intäkter från"Closed Won"-möjligheter med registrerade kontaktytor.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Attribut för avtalsruta</td>
     <td>Totalt antal"Closed Won"-erbjudanden från hänförliga möjligheter.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Diagram över intäkter och associerade intäkter</td>
     <td>Detta stapeldiagram över tidsserier sida vid sida ger en heltäckande bild av din attribueringstäckning genom att summera total intäkt mot attributerad intäkt.
     <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
-    <td> </td>
   </tr>
   <tr>
     <td>Attributionstäckningsdiagram</td>
     <td>Det här cirkeldiagrammet ger en tydlig visuell jämförelse mellan attributerad intäkt och Icke-attributerad intäkt. Pajen täcker de totala intäkterna.
     <br/>
     <img src="assets/revenue-overview-dashboard-2.png"></td>
-    <td> </td>
   </tr>
 </tbody>
 </table>
