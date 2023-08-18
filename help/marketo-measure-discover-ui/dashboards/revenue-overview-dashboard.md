@@ -4,7 +4,7 @@ title: Instrumentpanel för intäktsöversikt
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
+source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -20,8 +20,8 @@ Frågor till styrelsen:
 * Hur stor procentandel av våra intäkter kan tillskrivas våra marknadsföringssatsningar?
 * Hur stor procentandel av våra&quot;Closed Won&quot;-erbjudanden har påverkats av våra marknadsföringssatsningar?
 
-<table>
-<tbody> 
+<table style="table-layout:auto"> 
+<tbody>
   <tr> 
    <th>Komponent</th> 
    <th>Beskrivning</th>
@@ -58,13 +58,13 @@ Frågor till styrelsen:
   <tr>
     <td>Diagram över intäkter och associerade intäkter</td>
     <td>Detta stapeldiagram över tidsserier sida vid sida ger en heltäckande bild av din attribueringstäckning genom att summera total intäkt mot attributerad intäkt.
-    <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
+    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
     <td>Attributionstäckningsdiagram</td>
     <td>Det här cirkeldiagrammet ger en tydlig visuell jämförelse mellan attributerad intäkt och Icke-attributerad intäkt. Pajen täcker de totala intäkterna.
     <br/>
-    <img src="assets/revenue-overview-dashboard-2.png"></td>
+    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
   </tr>
 </tbody>
 </table>
