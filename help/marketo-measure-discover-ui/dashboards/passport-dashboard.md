@@ -2,9 +2,9 @@
 description: Passport Dashboard - [!DNL Marketo Measure] - Produkt
 title: Passport Dashboard
 feature: Reporting
-source-git-commit: 436e30c2a4138d780232d6ba9e64456d6277ac9b
+source-git-commit: 73f7d14f94b236b5e078a4c8ff7a1e81d13779ee
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,15 @@ Frågor till styrelsen:
 <li>Både start- och slutdatum är inkluderande.</li>
 <br/><img src="assets/passport-dashboard-1.png" width="600"></td>
     <td rowspan="2">Övergångsdatum</td>
-    <td></td>
+    <td><li>Affärsmöjlighets-ID</li>
+<li>Affärsmöjlighetens namn</li>
+<li>Skapad den</li>
+<li>Stängningsdatum</li>
+<li>Är stängd (J/N)</li>
+<li>Är vunnen (J/N)</li>
+<li>Aktuell fas</li>
+<li>Övergång i datum</li>
+<li>Övergång inaktuell</li></td>
     <td rowspan="2"><li>Datum</li>
 <li>Kanal</li>
 <li>Delkanal</li>
