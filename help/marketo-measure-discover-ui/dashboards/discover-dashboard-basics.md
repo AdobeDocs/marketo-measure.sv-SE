@@ -1,8 +1,10 @@
 ---
 description: Grunderna i kontrollpanelen - [!DNL Marketo Measure] - Produkt
 title: Grunderna i kontrollpanelen
+hide: true
+hidefromtoc: true
 feature: Reporting
-source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
+source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
