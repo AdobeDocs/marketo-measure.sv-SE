@@ -4,9 +4,9 @@ title: Grunderna i kontrollpanelen
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
+source-git-commit: db435a669ca9a24a0661191bef9e14a8f8c78eb6
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,23 @@ På varje kontrollpanel finns ett antal filter som följs av följande kontrolle
    <th>Beskrivning</th>
   </tr> 
   <tr> 
-   <td>Växla filter</td>
+   <td><b>Växla filter</b></td>
    <td>Växla filterrutan öppen eller stängd.
    <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Återställ knapp</td>
-   <td>Återställa filter till standardinställningarna.
+   <td><b>Sökfält</b></td>
+   <td>Använd sökningen högst upp i filterrutan för att söka efter ett visst filter. Varje filter har också ett eget sökfält.
    <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Knappen Använd</td>
-   <td>Klicka för att bekräfta och implementera dina filterändringar på kontrollpanelen.
+   <td><b>Knappen Rensa filter</b></td>
+   <td>Om du vill ta bort ett filter klickar du på suddgummiikonen längst upp till höger på varje filter.
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
-   <td>Segmentknapp</td>
-   <td>På kontrollpaneler med segmentfilter klickar du på knappen Segment längst ned i filterrutan för att gå över till Segment.
+   <td><b>Knappen Använd</b></td>
+   <td>Klicka för att bekräfta och implementera dina filterändringar på kontrollpanelen.
    <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
