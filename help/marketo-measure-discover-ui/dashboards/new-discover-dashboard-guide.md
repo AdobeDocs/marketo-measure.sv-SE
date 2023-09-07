@@ -4,9 +4,9 @@ title: Ny guide för Discover Dashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
+source-git-commit: b75d9c7dae8886646d2df9613634c260d2d7b281
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -503,6 +503,4 @@ Nya funktioner finns i [Grunderna i kontrollpanelen](/help/marketo-measure-disco
 
 ## Feedback {#feedback}
 
-I takt med att vi fortsätter att sträva efter att förbättra din upplevelse skulle vi verkligen uppskatta din feedback om den senaste uppdateringen. Dina tankar kommer att direkt påverka framtida förbättringar och säkerställa att vår plattform alltid är anpassad efter dina behov.
-
-Ge instruktioner om hur de kan dela med sig av sina synpunkter (t.ex. i appens feedbackformulär, e-post etc.)
+I takt med att vi fortsätter att sträva efter att förbättra din upplevelse skulle vi verkligen uppskatta din feedback om den senaste uppdateringen. Dina tankar kommer att direkt påverka framtida förbättringar och säkerställa att vår plattform alltid är anpassad efter dina behov. Håll utkik efter en feedback-blankett i Marketo Measure.
