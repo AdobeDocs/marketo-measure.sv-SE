@@ -4,9 +4,9 @@ title: Instrumentpanel för intäktsöversikt
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: 09748b8ba76a89b2d955c8384ae926bb995c2171
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -15,59 +15,54 @@ ht-degree: 0%
 
 Instrumentpanelen Intäktsöversikt ger insikter om den totala intäkten från CRM, och visar på er roll inom marknadsföringsstrategierna. Det ger en översikt över hur marknadsföring påverkar er totala intäkt och bidrar till ett framgångsrikt avslut av avtal.
 
-Frågor till styrelsen:
+>[!NOTE]
+>
+>Den här instrumentpanelen finns för närvarande i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den aktuella instrumentpanelen kommer att bli inaktuell när vi har övergått fullständigt och säkerställt optimal funktionalitet.
 
-* Hur stor procentandel av våra intäkter kan tillskrivas våra marknadsföringssatsningar?
-* Hur stor procentandel av våra&quot;Closed Won&quot;-erbjudanden har påverkats av våra marknadsföringssatsningar?
+**Frågor till styrelsen:**
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Komponent</th> 
-   <th>Beskrivning</th>
-   <th>Granska fält</th>
-   <th>Datumtyp</th>
-   <th>Filter</th>
-  </tr>
-  <tr>
-    <td>Rubrik för total intäkt</td>
-    <td>Totala intäkter från CRM, inklusive inkomster som avsatts för särskilda ändamål.</td>
-    <td rowspan="6"><li>ID för affärsmöjlighet</li>
-<li>Affärsmöjlighetens namn</li>
-<li>Skapad affärsmöjlighet</li>
-<li>Stängningsdatum för affärsmöjlighet</li>
-<li>Är stängd (J/N)</li>
-<li>Är vunnen (J/N)</li>
-<li>Aktuell fas</li>
-<li>Intäkter</li></td>
-    <td rowspan="6">Stängt den</td>
-    <td rowspan="6">Datum</td>
-  </tr>
-  <tr>
-    <td>Totalt avtalsfönster</td>
-    <td>Totalt antal avtal som markerats som"Closed Won" i CRM.</td>
-  </tr>
-  <tr>
-    <td>Attribuerad intäktsruta</td>
-    <td>Totala intäkter från"Closed Won"-möjligheter med registrerade kontaktytor.</td>
-  </tr>
-  <tr>
-    <td>Attribut för avtalsruta</td>
-    <td>Totalt antal"Closed Won"-erbjudanden från hänförliga möjligheter.</td>
-  </tr>
-  <tr>
-    <td>Diagram över intäkter och associerade intäkter</td>
-    <td>Detta stapeldiagram över tidsserier sida vid sida ger en heltäckande bild av din attribueringstäckning genom att summera total intäkt mot attributerad intäkt.
-    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Attributionstäckningsdiagram</td>
-    <td>Det här cirkeldiagrammet ger en tydlig visuell jämförelse mellan attributerad intäkt och Icke-attributerad intäkt. Pajen täcker de totala intäkterna.
-    <br/>
-    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
-  </tr>
-</tbody>
-</table>
+* Hur stor procent av våra intäkter kan tillskrivas våra marknadsföringssatsningar?
+* Hur stor procent av våra&quot;Closed Won&quot;-erbjudanden har påverkats av våra marknadsföringssatsningar?
+
+## Kontrollpanelskomponenter {#dashboard-components}
+
+### KPI-paneler {#kpi-tiles}
+
+* Total intäkt: De totala intäkterna från affärsmöjligheter med&quot;sluten vinst&quot;, inklusive affärsmöjligheter utan kontaktytor.
+* Totalt antal avtal: Antalet möjligheter att få en sluten vinst, inklusive möjligheter utan kontaktytor.
+* Attribuerad intäkt: De totala intäkterna från affärsmöjligheter med slutna vinstmöjligheter med kontaktytor.
+* Attribuerade erbjudanden: Antal affärsmöjligheter med slutna priser som har kontaktytor.
+
+### Diagram över intäkter och associerade intäkter {#revenue-and-attributed-revenue-chart}
+
+Sida vid sida-diagram över tidsserier i liggande format kontrasterar Totala intäkter med Attribuerade intäkter, vilket tydligt visar hur er marknadsföring påverkar de totala intäkterna.
+
+* Utnyttja detaljfunktionerna för att kategorisera data per kvartal och år.
+* Håll pekaren över en del av stapeldiagrammet för att visa detaljerad information.
+
+**Frågor om diagramsvaren:**
+
+* Hur stor procent av våra intäkter från augusti 2022 kan tillskrivas våra marknadsföringsinitiativ?
+* Hur balanserar de avskrivna intäkterna i tredje kvartalet förra året mot det fjärde kvartalet?
+
+![](assets/revenue-overview-dashboard-1.png)
+
+### Attributionstäckningsdiagram {#attribution-coverage-chart}
+
+I det här cirkeldiagrammet visas tydligt din attribueringstäckning genom att de totala intäkterna delas in i Attribut och Icke-Attribut, vilket visar den exakta procentandel av intäkterna som påverkas av marknadsföringssatsningarna.
+
+**Frågor om diagramsvaren:**
+
+* Hur stor var den procentuella intäktstäckning som vi lade på vårt marknadsföringsarbete förra året?
+
+![](assets/revenue-overview-dashboard-2.png)
+
+## Filterruta {#filter-pane}
+
+Kontrollpanelen är utrustad med följande inställningar och filter:
+
+* Attributionsmodell
+* Datum (baserat på stängt den)
 
 >[!MORELIKETHIS]
 >
