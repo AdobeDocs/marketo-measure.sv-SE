@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget."
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
@@ -151,6 +151,7 @@ ht-degree: 2%
 + [!DNL Marketo Measure] Upptäck användargränssnitt {#marketo-measure-discover-ui}
    + Kontrollpaneler {#dashboards}
       + [Grunderna i kontrollpanelen](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Ny guide för Discover Dashboard](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Instrumentpanel för intäktsöversikt](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Kontrollpanel för attributerade intäkter](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Kontrollpanel för avkastning](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
