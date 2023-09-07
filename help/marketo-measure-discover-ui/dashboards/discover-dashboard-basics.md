@@ -4,9 +4,9 @@ title: Grunderna i kontrollpanelen
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Grunderna i kontrollpanelen {#discover-dashboard-basics}
 
 I den här artikeln får du hjälp med grundläggande funktioner i det nya gränssnittet, så att du enkelt kan komma åt och tolka dina data. Ta dig in i filterpanelens dynamik och upptäck hur invecklade våra förbättrade rapporteringsfunktioner är, till exempel detaljfunktioner, korsfiltrering och verktygstips.
+
+>[!NOTE]
+>
+>Den här instrumentpanelen finns för närvarande i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den aktuella instrumentpanelen kommer att bli inaktuell när vi har övergått fullständigt och säkerställt optimal funktionalitet.
 
 ## Filterruta {#filter-pane}
 
@@ -23,26 +27,36 @@ På varje kontrollpanel finns ett antal filter som följs av följande kontrolle
  <tbody> 
   <tr> 
    <th>Namn</th> 
-   <th>Ikon</th>
    <th>Beskrivning</th>
   </tr> 
   <tr> 
-   <td>Hamburger-knapp</td> 
-   <td><img src="assets/discover-dashboard-basics-1.png"></td>
-   <td>Växla filterrutan öppen eller stängd.</td>
+   <td>Växla filter</td>
+   <td>Växla filterrutan öppen eller stängd.
+   <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Återställ</td> 
-   <td><img src="assets/discover-dashboard-basics-2.png"></td>
-   <td>Återställa filter till standardinställningarna.</td>
+   <td>Återställ knapp</td>
+   <td>Återställa filter till standardinställningarna.
+   <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Filter på visuell</td> 
-   <td><img src="assets/discover-dashboard-basics-3.png"></td>
-   <td>Hovra över det övre högra hörnet av en bild och klicka på knappen för att visa de aktiva filtren.</td>
+   <td>Knappen Använd</td>
+   <td>Klicka för att bekräfta och implementera dina filterändringar på kontrollpanelen.
+   <p><img src="assets/discover-dashboard-basics-3.png"></td>
+  </tr>
+  <tr> 
+   <td>Segmentknapp</td>
+   <td>På kontrollpaneler med segmentfilter klickar du på knappen Segment längst ned i filterrutan för att gå över till Segment.
+   <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
 </table>
+
+## Filter på visuell {#filters-on-visual}
+
+Hovra över det övre högra hörnet av en visuell bild för att se en skrivskyddad lista över använda filter.
+
+![](assets/discover-dashboard-basics-3b.png)
 
 ## Rapportfunktioner {#report-capabilities}
 
@@ -70,21 +84,24 @@ Använd den gaffelliknande ikonen om du vill lägga till ytterligare en hierarki
 
 ### Detaljgranska {#drill-through}
 
-* Om du vill utforska de data som ligger bakom det visuella objektet högerklickar du på det visuella elementet och väljer alternativet Detaljerad.
+Om du vill utforska de data som ligger bakom det visuella objektet högerklickar du på det visuella elementet och väljer alternativet Detaljerad.
 
-![](assets/discover-dashboard-basics-9.png)
+![](assets/discover-dashboard-basics-9.gif)
 
-* Om du vill exportera underliggande data håller du pekaren över det övre högra hörnet på den genomgående sidan, klickar på knappen &quot;Fler alternativ&quot; och väljer &quot;Exportera data&quot;.
+### Exportera data {#export-data}
 
-![](assets/discover-dashboard-basics-10.png)
+Om du vill exportera underliggande data från en visuell bild håller du pekaren över det övre högra hörnet. Klicka på knappen &quot;Fler alternativ&quot;, välj &quot;Exportera data&quot;, välj det format du vill använda och klicka sedan på &quot;Exportera&quot;.
+![](assets/discover-dashboard-basics-10.gif)
 
-* Om du vill zooma in på en viss visuell sida eller ruta håller du pekaren över det övre högra hörnet och väljer knappen &quot;Fokus&quot;.
+### Fokuseringsläge {#focus-mode}
 
-![](assets/discover-dashboard-basics-11.png)
+Om du vill zooma in på en viss visuell sida eller ruta håller du pekaren över det övre högra hörnet och väljer knappen &quot;Fokus&quot;.
+
+![](assets/discover-dashboard-basics-11.gif)
 
 ### Korsfiltrering {#cross-filtering}
 
-Om du väljer ett värde eller en axeletikett i en visualisering kommer andra bilder på rapportsidan att filtreras över, vilket säkerställer att de bara visar relevanta, filtrerade data.
+Om du väljer ett värde eller en axeletikett i en visualisering filtreras andra bilder på rapportsidan så att endast relevanta, filtrerade data visas.
 
 ![](assets/discover-dashboard-basics-12.gif)
 
