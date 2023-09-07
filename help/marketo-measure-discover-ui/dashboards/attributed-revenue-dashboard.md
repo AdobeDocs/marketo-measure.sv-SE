@@ -4,70 +4,79 @@ title: Kontrollpanel för attributerade intäkter
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # Kontrollpanel för attributerade intäkter {#attributed-revenue-dashboard}
 
-Kontrollpanelen för attributerade intäkter ger ett fokuserat perspektiv på de intäkter som är direkt kopplade till era marknadsföringssatsningar. Utforska ingående hur era marknadsföringsstrategier har varit avgörande för att försegla avtal.
+Kontrollpanelen för attributerade intäkter ger ett fokuserat perspektiv på de intäkter som är direkt kopplade till era marknadsföringssatsningar. Se hur era marknadsföringsstrategier har varit avgörande för att försegla avtal.
 
-Frågor till styrelsen:
+>[!NOTE]
+>
+>Den här instrumentpanelen finns för närvarande i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den aktuella instrumentpanelen kommer att bli inaktuell när vi har övergått fullständigt och säkerställt optimal funktionalitet.
 
-Vilka kanaler, underkanaler eller kampanjer rangordnas högst när det gäller de tilldelade intäkterna?
-Hur stor är den totala intäkten och antalet avsatta slutna avtal?
+**Frågor till styrelsen:**
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Komponent</th> 
-   <th>Beskrivning</th>
-   <th>Granska fält</th>
-   <th>Datumtyp</th>
-   <th>Filter</th>
-  </tr>
-  <tr>
-    <td>Attribuerad intäktsruta</td>
-    <td>Totala intäkter från"Closed Won"-möjligheter med registrerade kontaktytor.</td>
-    <td rowspan="6"><li>ID för affärsmöjlighet</li>
-<li>Affärsmöjlighetens namn</li>
-<li>Skapad affärsmöjlighet</li>
-<li>Stängningsdatum för affärsmöjlighet</li>
-<li>Är stängd (J/N)</li>
-<li>Är vunnen (J/N)</li>
-<li>Aktuell fas</li>
-<li>Attributionsmodell</li>
-<li>Attribuerad intäkt</li>
-<li>Realiserad intäkt</li></td>
-    <td rowspan="6">Stängt den</td>
-    <td rowspan="6"><li>Datum</li>
-<li>Attributionsmodell</li>
-<li>Kanal</li>
-<li>Delkanal</li>
-<li>Campaign</li>
-<li>Segment</li></td>
-  </tr>
-  <tr>
-    <td>Attribut för avtalsruta</td>
-    <td>Totalt antal"Closed Won"-erbjudanden från hänförliga möjligheter.</td>
-  </tr>
-  <tr>
-    <td>Attribuerad intäkt per kanal över tid</td>
-    <td>Staplat stapeldiagram med totala attributerade intäkter, segmenterade efter associerad kanal, för varje kvartal/månad.
-    <br/><img src="assets/attributed-revenue-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Attribuerad intäktstabell</td>
-    <td>Totala tillskrivna intäkter segmenterade efter kanal, delkanal och kampanj, presenteras i både tabell- och trädformat.
-    <br/><img src="assets/attributed-revenue-dashboard-2.png" width="600">
-    <br/><img src="assets/attributed-revenue-dashboard-3.png" width="600"></td>
-  </tr>
-  </tr>
-</tbody>
-</table>
+* Vilka kanaler, underkanaler eller kampanjer rangordnas högst när det gäller de tilldelade intäkterna?
+* Hur stor är den totala intäkten och antalet avsatta slutna avtal?
+
+## Kontrollpanelskomponenter {#dashboard-components}
+
+### KPI-paneler {#kpi-tiles}
+
+* **Attribuerad intäkt**: Det totala inkomstbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor som stängts inom den filtrerade datumperioden
+* **Attribuerade erbjudanden**: Antal stängda vinstmöjligheter som har kontaktytor.
+
+### Diagram över attributerade intäkter per kanal över tid {#attributed-revenue-by-channel-over-time-chart}
+
+Staplat stapeldiagram med totala attributerade intäkter, segmenterade efter kanal, för varje månad/kvartal/år.
+
+* Utnyttja detaljfunktionerna för att kategorisera data per månad, kvartal eller år.
+* Håll pekaren över ett stolpsegment eller mellanrummet mellan stolparna för att visa detaljerad information.
+
+**Frågor om diagramsvaren:**
+
+* Vilka kanaler genererade de mest avsatta intäkterna varje kvartal?
+* Hur fördelades de avsatta intäkterna per kanal förra månaden?
+
+![](assets/attributed-revenue-dashboard-1.png)
+
+### Attribuerad intäktstabell {#attributed-revenue-table}
+
+Totala tillskrivna intäkter segmenterade efter kanal, delkanal och kampanj, presenteras i både tabell- och trädformat. Klicka på knappen i det övre högra hörnet för att växla mellan vyer.
+
+**Frågor till styrelsen:**
+
+* Hur varierar den tilldelade intäktsfördelningen mellan olika underkanaler i en kanal?
+* Vilka kampanjer under en viss delkanal genererar de mest tillskrivna intäkterna?
+
+**Tabellvy**
+
+* Tabellvyn ger tydliga och välorganiserade insikter i fördelningen av de tilldelade intäkterna. Användarna kan snabbt identifiera resultatmönster och identifiera slagkraftiga marknadsföringsstrategier genom att kategorisera data i kanaler, delkanaler och kampanjer.
+* Klicka på plusikonen bredvid varje kanal för att visa uppdelningen efter subkanal och kampanj.
+
+![](assets/attributed-revenue-dashboard-2.png)
+
+**Trädvy**
+
+* Trädvyn möjliggör en mer interaktiv och detaljerad datautforskning, vilket gör det möjligt för marknadsförare att identifiera trender, avvikelser eller utomordentliga resultat i sina marknadsföringssatsningar.
+* Klicka på en gren för att gå djupare in i det efterföljande hierarkilagret.
+
+![](assets/attributed-revenue-dashboard-3.png)
+
+## Filterruta {#filter-pane}
+
+Kontrollpanelen är utrustad med följande inställningar och filter:
+
+* Datum (baserat på stängt den)
+* Attributionsmodell
+* Kanal, delkanal
+* Campaign
+* Segment
 
 >[!MORELIKETHIS]
 >
