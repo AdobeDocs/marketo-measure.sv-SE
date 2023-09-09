@@ -4,7 +4,7 @@ title: Instrumentpanel för intäktsöversikt
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -28,10 +28,10 @@ Instrumentpanelen Intäktsöversikt ger insikter om den totala intäkten från C
 
 ### KPI-paneler {#kpi-tiles}
 
-* Total intäkt: De totala intäkterna från affärsmöjligheter med&quot;sluten vinst&quot;, inklusive affärsmöjligheter utan kontaktytor.
-* Totalt antal avtal: Antalet möjligheter att få en sluten vinst, inklusive möjligheter utan kontaktytor.
-* Attribuerad intäkt: De totala intäkterna från affärsmöjligheter med slutna vinstmöjligheter med kontaktytor.
-* Attribuerade erbjudanden: Antal affärsmöjligheter med slutna priser som har kontaktytor.
+* **Total intäkt**: Den totala intäkten från &quot;Closed Won&quot;-möjligheter, inklusive möjligheter utan kontaktytor.
+* **Totalt antal avtal**: Antalet möjligheter till &quot;Closed Won&quot;, inklusive möjligheter utan kontaktytor.
+* **Attribuerad intäkt**: Den totala intäkten från &quot;Closed Won&quot;-möjligheter med kontaktytor.
+* **Attribuerade erbjudanden**: Antal stängda vinstmöjligheter som har kontaktytor.
 
 ### Diagram över intäkter och associerade intäkter {#revenue-and-attributed-revenue-chart}
 

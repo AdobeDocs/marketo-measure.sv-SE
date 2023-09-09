@@ -4,9 +4,9 @@ title: Passport Dashboard
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ På Passport-kontrollpanelen får marknadsförarna en dynamisk vy över leads, k
 
 ![](assets/passport-dashboard-1.png)
 
-### Kontakter i scenen efter scennamn {#contacts-in-stage-by-stage-name}
+### Leads eller kontakter i scenen efter scennamn {#leads-or-contacts-in-stage-by-stage-name}
 
 * I varje fas visas antalet leads eller kontakter med kontaktpunkter som passerat genom dem under en given tidsram.
    * Om Lead eller Kontakt ska visas beror på inställningarna under Inställningar > Attributinställningar > Standardinstrumentpanelsobjekt.
