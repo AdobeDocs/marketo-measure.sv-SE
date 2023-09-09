@@ -4,9 +4,9 @@ title: Kontrollpanel för attributerade intäkter
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Kontrollpanelen för attributerade intäkter ger ett fokuserat perspektiv på de
 
 ### KPI-paneler {#kpi-tiles}
 
-* **Attribuerad intäkt**: Det totala inkomstbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor som stängts inom den filtrerade datumperioden
+* **Attribuerad intäkt**: Det totala inkomstbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor.
 * **Attribuerade erbjudanden**: Antal stängda vinstmöjligheter som har kontaktytor.
 
 ### Diagram över attributerade intäkter per kanal över tid {#attributed-revenue-by-channel-over-time-chart}

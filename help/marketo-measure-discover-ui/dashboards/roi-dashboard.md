@@ -4,7 +4,7 @@ title: Kontrollpanel för avkastning
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Avkastningsoptimeringen ger marknadsförarna en detaljerad bild av avkastningen 
 ### KPI-paneler {#kpi-tiles}
 
 * **Kostnad**: Totala kostnader från anslutna datakällor och manuellt överförda kostnader.
-* **Attribuerad intäkt**: Det totala inkomstbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor som stängts inom den filtrerade datumperioden
+* **Attribuerad intäkt**: Det totala intäktsbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor som stängts inom den filtrerade datumperioden.
 * **Realiserad attributerad intäkt**: Det totala inkomstbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor inom den filtrerade datumperioden, oavsett när de stängdes.
 * **Totalt antal nya leads**: Totalt antal nya leads, inklusive både rörliga och orörda leads.
 * **Kostnad per ny lead**: Genomsnittskostnaden per ny lead, härledd från den totala kostnaden dividerat med det totala antalet nya leads.
