@@ -1,10 +1,8 @@
 ---
 description: Ny guide till Discover Dashboard - [!DNL Marketo Measure] - Produkt
 title: Ny guide för Discover Dashboard
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: b75d9c7dae8886646d2df9613634c260d2d7b281
+source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 0%
@@ -26,9 +24,9 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
       <th scope="col">Ny plats</th>
     </tr>
     <tr>
-      <td>Ökning</td>
+      <td>Översikt</td>
       <td><ul><li><strong>Intäkter</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
-          <li><strong>Ökning</strong>:<ul>              <li>Instrumentpanel för attributerade intäkter: Attribuerad intäkt per kanal över tidsdiagram</li>
+          <li><strong>Översikt</strong>:<ul>              <li>Instrumentpanel för attributerade intäkter: Attribuerad intäkt per kanal över tidsdiagram</li>
             <li>Kontrollpanel för avkastning på investering: diagram över kostnad över tid</li></ul></li><li><strong>Utgift</strong>: ROI Dashboard</li>
           <li><strong>Erbjudanden</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
           <li>
@@ -187,7 +185,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
           <li>
             <strong>Intäkter</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Ökning</strong>:<ul>
+            <strong>Översikt</strong>:<ul>
               <li>Instrumentpanel för attributerade intäkter: Attribuerad intäkt per kanal över tidsdiagram</li>
               <li>Kontrollpanel för avkastning på investering: diagram över kostnad över tid</li>
             </ul>

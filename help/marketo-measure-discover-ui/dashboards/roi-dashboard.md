@@ -1,10 +1,8 @@
 ---
 description: ROI Dashboard - [!DNL Marketo Measure] - Produkt
 title: Kontrollpanel för avkastning
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
+source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
@@ -19,7 +17,7 @@ Avkastningsoptimeringen ger marknadsförarna en detaljerad bild av avkastningen 
 >
 >Den här instrumentpanelen finns för närvarande i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den aktuella instrumentpanelen kommer att bli inaktuell när vi har övergått fullständigt och säkerställt optimal funktionalitet.
 
-**Frågor till styrelsen:**
+**Frågor till styrelsen**
 
 * Vilka var avkastningen för varje kanal, delkanal och kampanj?
 * Hur fördelades kostnader och intäkter mellan olika kanaler, underkanaler och kampanjer?
@@ -49,7 +47,7 @@ Stapeldiagram visar kostnader och intäkter, som är utformade för att ge ett k
 * Utnyttja detaljfunktionerna för att kategorisera data efter Subchannel och Campaign.
 * Håll pekaren över varje fält för att visa enkel och realiserad avkastning på investerat kapital.
 
-**Frågor om diagramsvaren:**
+**Frågor och svar**
 
 * Vilka var avkastningen för varje kanal, delkanal och kampanj?
 * Finns det några utgående kanaler eller delkanaler med ovanligt höga eller låga kostnader i förhållande till deras intäkter?
@@ -62,7 +60,7 @@ Diagram över tidsserielinje som visar jämförelsen mellan Realiserad och Enkel
 
 * Håll pekaren över ett avsnitt i diagrammet för att visa enkel och realiserad avkastning på investerat kapital.
 
-**Frågor om diagramsvaren:**
+**Frågor och svar**
 
 * Hur är den realiserade avkastningen jämfört med den enkla avkastningen under specifika tidsperioder?
 * Hur hänger trenden för realiserad avkastning på investerat kapital samman med några betydande marknadsföringshändelser under samma period?
@@ -76,7 +74,7 @@ Staplat stapeldiagram med totala kostnader, segmenterade efter associerade kanal
 * Utnyttja detaljfunktionerna för att kategorisera data per månad, kvartal eller år.
 * Håll pekaren över ett stolpsegment eller mellanrummet mellan stolparna för att visa detaljerad information.
 
-**Frågor om diagramsvaren:**
+**Frågor och svar**
 
 * Hur står den sammanlagda kostnaden för alla kanaler jämfört med en fjärdedel/månad till nästa?
 * Hur har kostnaderna för en viss kanal utvecklats över tid?
@@ -89,7 +87,7 @@ Stapeldiagram som visar marknadsföringsutgifter segmenterade efter kanal/underk
 
 * Utnyttja detaljfunktionerna för att kategorisera data per kanal/delkanal/kampanj.
 
-**Frågor om diagramsvaren:**
+**Frågor och svar**
 
 * Vilka underkanaler eller kampanjer i en primär kanal har den högsta tilldelningen?
 * Vilka marknadsföringsmöjligheter (kanal, delkanal eller kampanj) verkar underfinansierade jämfört med andra?
@@ -102,7 +100,7 @@ Tabell som visar tillskrivna intäkter, kostnader och avkastning uppdelat efter 
 
 * Klicka på plusikonen bredvid varje kanal för att visa uppdelningen efter subkanal och kampanj.
 
-**Kolumner:**
+**Kolumner**
 
 * Kanal/delkanal/kampanj
 * Kostnad
@@ -118,7 +116,7 @@ Tabell som visar kostnader, nya leads, säljprojekt och erbjudanden stängda eft
 
 * Klicka på plusikonen bredvid varje kanal för att visa uppdelningen efter subkanal och kampanj.
 
-**Kolumner:**
+**Kolumner**
 
 * Kanal/delkanal/kampanj
 * Kostnad
