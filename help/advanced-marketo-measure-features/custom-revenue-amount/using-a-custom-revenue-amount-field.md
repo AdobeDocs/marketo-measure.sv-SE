@@ -4,9 +4,9 @@ description: Använda ett fält för anpassat intäktsbelopp - [!DNL Marketo Mea
 title: Använda fältet Anpassat intäktsbelopp
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -26,29 +26,81 @@ Vi behöver följande information:
 
 Här börjar vi skapa arbetsflödet.
 
+## Skapa arbetsflödet i Salesforce Lightning {#create-the-workflow-in-salesforce-lightning}
+
+Följande steg gäller för Salesforce Lightning-användare. Om du fortfarande använder Salesforce Classic, de stegen [anges nedan](#create-the-workflow-in-salesforce-classic).
+
+1. Skriv &quot;Flöden&quot; i rutan Snabbsökning under Konfigurera och välj **[!UICONTROL Flows]** för att starta Flow Builder. Klicka på **[!UICONTROL New Flow]** -knappen.
+
+   ![](assets/using-a-custom-revenue-amount-field-1.png)
+
+1. Välj **[!UICONTROL Record-Triggered Flow]** och klicka **[!UICONTROL Create]** längst ned till höger.
+
+   ![](assets/using-a-custom-revenue-amount-field-2.png)
+
+1. Välj objektet säljprojekt i fönstret Konfigurera start. Från [!UICONTROL Configure Trigger] avsnitt, markera **[!UICONTROL A record is created or updated]**.
+
+   ![](assets/using-a-custom-revenue-amount-field-3.png)
+
+1. I avsnittet Ange villkor, under [!UICONTROL Condition Requirements], markera **[!UICONTROL Custom Condition Logic Is Met]**.
+   * Välj ditt anpassade beloppsfält från sökfältet.
+   * Ange operatorn som **Är null** och värdet som **[!UICONTROL False]**.
+   * Ange utvärderingskriterierna till **[!UICONTROL Every time a record is updated and meets the condition requirements]**.
+
+   ![](assets/using-a-custom-revenue-amount-field-4.png)
+
+1. Under avsnittet Optimera flödet för väljer du **[!UICONTROL Fast Field Updates]**. Klicka **[!UICONTROL Done]** längst ned till höger.
+
+   ![](assets/using-a-custom-revenue-amount-field-5.png)
+
+1. Om du vill lägga till elementet klickar du på plusikonen (+) och väljer **[!UICONTROL Update Triggering Record]**.
+
+   ![](assets/using-a-custom-revenue-amount-field-6.png)
+
+1. Ange följande i fönstret Ny uppdatering av poster:
+
+   * Ange en etikett - API-namnet genereras automatiskt
+   * Under &quot;How to Find Records to Update and Set their values&quot; väljer du **[!UICONTROL Use the opportunity record that triggered the flow]**.
+   * I dialogrutan[!UICONTROL Set Filter Conditions]&quot; väljer du **[!UICONTROL Always Update Record]** som ett villkorskrav för att uppdatera posten.
+   * I &quot;[!UICONTROL Set Field Values for the Campaign Record],&quot; från fältet väljer du Marketo Measure-säljprojektsbelopp och från-värde. Välj sedan det anpassade mängdfältet.
+   * Klicka på **[!UICONTROL Done]**.
+
+   ![](assets/using-a-custom-revenue-amount-field-7.png)
+
+1. Klicka på **[!UICONTROL Save]**. Ett popup-fönster visas. Skriv Flow Label i fönstret Save the Flow (Flow API Name will be generated automatically). Klicka **[!UICONTROL Save]** igen.
+
+   ![](assets/using-a-custom-revenue-amount-field-8.png)
+
+1. Klicka på **[!UICONTROL Activate]** för att aktivera flödet.
+
+   ![](assets/using-a-custom-revenue-amount-field-9.png)
+
+## Skapa arbetsflödet i Salesforce Classic {#create-the-workflow-in-salesforce-classic}
+
+Följande steg gäller för Salesforce Classic-användare. Om du har gått över till Salesforce Lightning, de här stegen [finns ovan](#create-the-workflow-in-salesforce-lightning).
+
 1. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Workflow & Approvals]** > **[!UICONTROL Workflow Rules]**.
 
-   ![](assets/1.jpg)
+   ![](assets/using-a-custom-revenue-amount-field-10.png)
 
 1. Välj **[!UICONTROL New Rule]**, ange objektet som säljprojekt och klicka på **[!UICONTROL Next]**.
 
-   ![](assets/2.jpg)
+   ![](assets/using-a-custom-revenue-amount-field-11.png)
 
-   ![](assets/3.jpg)
+   ![](assets/using-a-custom-revenue-amount-field-12.png)
 
-1. Konfigurera arbetsflödet. Ange regelnamnet &quot;Uppdatera [!DNL Marketo Measure] Belopp för affärsmöjlighet.&quot; Ställ in utvärderingsvillkoren på&quot;Skapad och varje gång den redigeras&quot;. För Regelkriterier väljer du det anpassade mängdfältet och sedan Operator [!UICONTROL as "Not Equal To"] och lämna fältet&quot;Värde&quot; tomt.
+1. Konfigurera arbetsflödet. Ange regelnamnet &quot;Uppdatera [!DNL Marketo Measure] Belopp för affärsmöjlighet.&quot; Ställ in utvärderingsvillkoren på&quot;Skapad och varje gång den redigeras&quot;. För regelvillkoret väljer du det anpassade mängdfältet och sedan Operator [!UICONTROL as "Not Equal To"] och lämna fältet&quot;Värde&quot; tomt.
 
-   ![](assets/4.jpg)
+   ![](assets/using-a-custom-revenue-amount-field-13.png)
 
 1. Lägg till en arbetsflödesåtgärd. Ange den här listan som &quot;[!UICONTROL New Field Update].&quot;
-
-   ![](assets/5.jpg)
+   ![](assets/using-a-custom-revenue-amount-field-14.png)
 
 1. Här fyller du i fältinformation. I fältet &quot;Namn&quot; rekommenderar vi att du använder följande namn: &quot;[!DNL Marketo Measure] Opp-belopp.&quot; &quot;Unikt namn&quot; fylls i automatiskt baserat på fältet &quot;Namn&quot;. Välj &quot;[!DNL Marketo Measure] Belopp för affärsmöjlighet.&quot; När du har markerat fältet markerar du rutan &quot;Utvärdera arbetsflödesregler igen efter fältändring&quot;. Välj &quot;Använd en formel för att ange det nya värdet&quot; i rutan &quot;Ange nytt fältvärde&quot;. Släpp API-namnet för det anpassade beloppsfältet i den tomma rutan. Klicka på **[!UICONTROL Save]**.
 
-   ![](assets/6.png)
+   ![](assets/using-a-custom-revenue-amount-field-15.png)
 
-1. Du kommer tillbaka till en startsida för ditt arbetsflöde, se till att&quot;Aktivera&quot; så är du redo att gå. Aktivera genom att klicka **Redigera** bredvid ditt nya arbetsflöde och klicka sedan på **Aktivera**.
+1. Du kommer tillbaka till en startsida för ditt arbetsflöde, se till att&quot;Aktivera&quot; så är du redo att gå. Aktivera genom att klicka **[!UICONTROL Edit]** bredvid ditt nya arbetsflöde och klicka sedan på **[!UICONTROL Activate]**.
 
    När du har slutfört de här stegen måste du uppdatera affärsmöjligheterna för att få det nya värdet från [!UICONTROL custom opportunity] fält.
 

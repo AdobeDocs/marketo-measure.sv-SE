@@ -4,16 +4,16 @@ description: LinkedIn Integration - [!DNL Marketo Measure] - Produktdokumentatio
 title: LinkedIn Integration
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2644'
 ht-degree: 0%
 
 ---
 
 # LinkedIn Integration {#linkedin-integration}
 
-## Ökning {#overview}
+## Översikt {#overview}
 
 The [!DNL Marketo Measure] integrering med LinkedIn finns i två delar:
 
@@ -23,7 +23,7 @@ Lead Gen Forms: Genom integrationen med LinkedIn Lead Gen Forms får Marketo Mea
 
 ## Tillgänglighet {#availability}
 
-Tillgängligt för alla kunder.
+Tillgängligt för alla användare.
 
 ## Krav {#requirements}
 
@@ -127,6 +127,12 @@ Creative D: Share 234
 
 ## Så här fungerar det: Lead Gen Forms {#how-it-works-lead-gen-forms}
 
+**[!DNL LinkedIn's]Unika krav för automatisk taggning**
+
+[!DNL Marketo Measure] kan hjälpa dig att spåra [!DNL LinkedIn] kampanjresultat genom att automatiskt tagga era landningssidor.
+
+[!DNL Marketo Measure] söker du efter kreatörer med en unik LinkedIn Share och lägger till en `?_bl={creativeId}` -parametern till slutet av den.
+
 **Processen**
 
 Via [!DNL LinkedIn's] API:t för annonsformulär och API:t för formulärsvar kan vi samla in data för ett annonskonto och koppla e-postadressen till en lead från CRM eller Marketo.
@@ -162,95 +168,99 @@ En gång [!DNL Marketo Measure] har taggat din landningssida på LinkedIn Creati
  </colgroup> 
  <tbody> 
   <tr> 
-   <th>Touchpoint-fält</th> 
+   <th style="width:30%">Touchpoint-fält</th> 
    <th>Exempelvärde</th> 
   </tr> 
   <tr> 
-   <td><p>Annons-ID </p></td> 
-   <td><p>84186224 </p></td> 
+   <td>Annons-ID</td>
+   <td>84186224</td>
   </tr> 
   <tr> 
-   <td><p>Annonsinnehåll </p></td> 
-   <td><p>95 % av marknadsförarna på #B2B anser att strategin för att skapa efterfrågan är framgångsrik. Läs mer: [!DNL https]://lnkd.in/jgdi50vKrgv</p></td> 
+   <td>Annonsinnehåll</td>
+   <td>95 % av marknadsförarna på #B2B anser att strategin för att skapa efterfrågan är framgångsrik. Läs mer: [!DNL https]://lnkd.in/jgdi50vKrgv</td>
   </tr> 
   <tr> 
-   <td><p>Annonsgrupp-ID </p></td> 
-   <td><p>(tom) </p></td> 
+   <td>Annonsgrupp-ID</td>
+   <td>(tom)</td>
   </tr> 
   <tr> 
-   <td><p>Namn på annonsgrupp </p></td> 
-   <td><p>(tom) </p></td> 
+   <td>Namn på annonsgrupp</td>
+   <td>(tom)</td>
   </tr> 
   <tr> 
-   <td><p>ID för annonskampanj </p></td> 
-   <td><p>138949954 </p></td> 
+   <td>ID för annonskampanj</td>
+   <td>138949954</td>
   </tr> 
   <tr> 
-   <td><p>Namn på annonskampanj </p></td> 
-   <td><p>SU - COM Accounts - Demand Skills </p></td> 
+   <td>Namn på annonskampanj</td>
+   <td>SU - COM Accounts - Demand Skills</td>
   </tr> 
   <tr> 
-   <td><p>Måladress för annons </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>Måladress för annons <b>*</b></td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>Formulär-URL </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>Formulär-URL</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>Formulär-URL - Raw </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>Formulär-URL - Raw</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>Nyckelords-ID </p></td> 
-   <td><p>(tom) </p></td> 
+   <td>Nyckelords-ID</td> 
+   <td>(tom)</td> 
   </tr> 
   <tr> 
-   <td><p>Matchningstyp för nyckelord </p></td> 
-   <td><p>(tom) </p></td> 
+   <td>Matchningstyp för nyckelord</td> 
+   <td>(tom)</td> 
   </tr> 
   <tr> 
-   <td><p>Landningssida </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders </p></td> 
+   <td>Landningssida</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
   </tr> 
   <tr> 
-   <td><p>Landningssida - Raw </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>Landningssida - Raw</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>Marknadsföringskanal </p></td> 
-   <td><p>Betald social </p></td> 
+   <td>Marknadsföringskanal</td> 
+   <td>Betald social</td> 
   </tr> 
   <tr> 
-   <td><p>Marknadsföringskanal - sökväg </p></td> 
-   <td><p>Betald social.LinkedIn </p></td> 
+   <td>Marknadsföringskanal - sökväg</td> 
+   <td>Betald social.LinkedIn</td> 
   </tr> 
   <tr> 
-   <td><p>Medel </p></td> 
-   <td><p>"cpc" eller "Lead Gen Form"</p></td> 
+   <td>Medel</td> 
+   <td>"cpc" eller "Lead Gen Form"</td> 
   </tr> 
   <tr> 
-   <td><p>Referentsida </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Referentsida</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Referenssida - Raw </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Referenssida - Raw</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Sökfras </p></td> 
-   <td><p>(tom) </p></td> 
+   <td>Sökfras</td> 
+   <td>(tom)</td> 
   </tr> 
   <tr> 
-   <td><p>Kontaktpunktstyp </p></td> 
-   <td><p>Webbformulär </p></td> 
+   <td>Kontaktpunktstyp</td> 
+   <td>Webbformulär</td>
   </tr> 
   <tr> 
-   <td><p>Kontaktpunktskälla </p></td> 
-   <td><p>LinkedIn </p></td> 
+   <td>Kontaktpunktskälla</td>
+   <td>LinkedIn</td>
   </tr> 
  </tbody> 
 </table>
+
+**&#42;** _Fältet &quot;URL för annonsmål&quot; är bara ifyllt för Sponsrat innehåll. Den är inte ifylld för Lead Gen Forms._
+
+<br>
 
 ## Kostnader {#costs}
 
