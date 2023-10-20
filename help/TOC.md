@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget."
-source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
+source-git-commit: 2d2fe74998abd853f6592c5e65edfe2ce39d7ce6
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '795'
 ht-degree: 3%
 
 ---
@@ -128,6 +128,7 @@ ht-degree: 3%
    + Anpassat intäktsbelopp {#custom-revenue-amount}
       + [Bästa metoder för att använda ett anpassat intäktsbelopp](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
       + [Använda fältet Anpassat intäktsbelopp](advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+      + [Test Doc](advanced-marketo-measure-features/custom-revenue-amount/doc.md)
       + [Uppdatera med datainläsaren [!DNL Marketo Measure] Anpassat beloppsfält](advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
    + Visa via attribut {#view-through-attribution}
       + [[!DNL Marketo Measure] Visa via Vanliga frågor om attribut](advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)
