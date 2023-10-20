@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget."
-source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
+source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '793'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 3%
       + [[!DNL Marketo Measure] Cookies](marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md)
       + [Definition av [!DNL Marketo Measure] Webbsessioner](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [Bästa metoder för testning](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
-      + [Försenad cookie-synkronisering](marketo-measure-tracking/setting-up-tracking/delayed-cookie-sync.md)
 + Konfiguration och installation {#configuration-and-setup}
    + Komma igång med [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [Generering och mappning av kontaktpunkter](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
