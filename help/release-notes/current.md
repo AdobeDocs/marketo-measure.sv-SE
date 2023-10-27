@@ -1,9 +1,9 @@
 ---
 description: Aktuell versionsinformation - [!DNL Marketo Measure] - Produktdokumentation
 title: Aktuell versionsinformation
-exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
+exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 22f8cedf401a28444026d7b63384ce3cbabe0305
+source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
