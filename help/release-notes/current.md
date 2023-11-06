@@ -1,5 +1,5 @@
 ---
-description: Aktuell versionsinformation - [!DNL Marketo Measure] - Produktdokumentation
+description: Aktuell versionsinformation –  [!DNL Marketo Measure]  – produktdokumentation
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
