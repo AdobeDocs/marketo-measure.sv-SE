@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget."
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '797'
 ht-degree: 3%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 3%
    + Komma igång med [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [Generering och mappning av kontaktpunkter](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
       + [Metod för attribueringsmappning](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
+      + [Adobe Admin Console Setup](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [Skillnad mellan Buyer Touchpoints och Buyer Attribution Touchpoints](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
       + [Förklaring av kontaktpunktspositioner och generering över BT:er och [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [[!DNL Marketo Measure] Integrering utan CRM-paket](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
@@ -80,13 +81,13 @@ ht-degree: 3%
       + [Anpassad kanalinställning offline](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [Synkronisering av anpassad kampanj](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
       + [Konfigurationer för flera kampanjposttyper](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-      + Föråldrade processer {#deprecated-processes}
-         + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
-         + [Synkroniseringsdatum för kampanj](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
-         + [Skapa en kampanjlistvy för [!DNL Salesforce] Kampanjer](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-         + [Dynamics-kampanjer och marknadsföringslistor](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
-         + [Synkroniserar historiska data](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
-         + [Synkronisera offlinekampanjer](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+      + Äldre processer {#legacy-processes}
+         + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+         + [Synkroniseringsdatum för kampanj](channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+         + [Skapa en kampanjlistvy för [!DNL Salesforce] Kampanjer](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Dynamics-kampanjer och marknadsföringslistor](channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
+         + [Synkroniserar historiska data](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+         + [Synkronisera offlinekampanjer](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 + API-anslutningar {#api-connections}
    + Använder [!DNL Marketo Measure]API-anslutningar {#utilizing-marketo-measures-api-connections}
       + [Integrerade annonsplattformar](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)

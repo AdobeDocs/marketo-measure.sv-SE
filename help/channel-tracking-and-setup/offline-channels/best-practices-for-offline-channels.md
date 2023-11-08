@@ -3,7 +3,7 @@ description: Bästa praxis för offlinekanaler - [!DNL Marketo Measure] - Produk
 title: Bästa praxis för offlinekanaler
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Bästa praxis för offlinekanaler {#best-practices-for-offline-channels}
 
-## Ökning {#overview}
+## Översikt {#overview}
 
 Att ha korrekta [!DNL Marketo Measure] rapporter måste era marknadsföringskanaler vara korrekt konfigurerade. The[!UICONTROL Marketing Channel]&#39; visas den grupp av marknadsföringsstrategier på högsta nivå som en kontaktyta kan tillhöra (t.ex. händelser, webbinarier, innehållssyndikering).
 
@@ -72,9 +72,9 @@ Om ditt team nyligen har haft något av ovanstående: [!DNL Marketo Measure] rek
 >
 >* [Inställningar för offlinekanal](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Synkronisering av anpassad kampanj - appsynkronisering](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Synkronisera offlinekampanjer - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
->* [Offlinekampanj- och kampanjmedlemmar - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
->* [Kampanjsynkroniseringsdatum - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+>* [Synkronisera offlinekampanjer - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [Offlinekampanj- och kampanjmedlemmar - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+>* [Kampanjsynkroniseringsdatum - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
 >* [Konfigurationer för flera kampanjposttyper](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Skapa en kampanjlistvy](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Synkroniserar historiska data](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+>* [Skapa en kampanjlistvy](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Synkroniserar historiska data](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

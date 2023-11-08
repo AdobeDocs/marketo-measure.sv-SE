@@ -4,7 +4,7 @@ description: Testa Marketo Measure-integrationen med en Salesforce-sandlåda - [
 title: Testa Marketo Measure-integrationen med en Salesforce-sandlåda
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 En av [!DNL Marketo Measure] grundfunktionerna är deras förmåga att spåra era digitala marknadsföringssatsningar genom åtgärder på er webbplats och sedan överföra dessa data till er produktion [!DNL Salesforce org] via leads och kontakter. Vanligtvis finns det inga inkommande leads som skapats från din webbplats inom en sandlådeintegrering, så fokus på data kommer att ligga på en helt offline-nivå.
 
-Här anges de två källorna som refereras till för båda testfaserna. [Steg 1-4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) och [Steg 5-6](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md). Vi rekommenderar att du granskar dessa dokument eftersom de innehåller mer information inom vissa områden.
+Här anges de två källorna som refereras till för båda testfaserna. [Steg 1-4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) och [Steg 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Vi rekommenderar att du granskar dessa dokument eftersom de innehåller mer information inom vissa områden.
 
 1. Du måste skapa några leads i en CSV-fil så att du kan överföra dem till en kampanj. Så här exporterar du vissa leads via en rapport i Salesforce-produktionen. I annat fall kan du skapa leads i en Excel-fil manuellt och sedan spara den som en CSV-fil för import. Du behöver bara cirka 20 poster. Filen måste ha följande kolumner:
 

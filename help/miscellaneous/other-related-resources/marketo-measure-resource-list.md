@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Resurslista - [!DNL Marketo Measure] - Prod
 title: "[!DNL Marketo Measure] Resurslista"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Här är olika länkar till relevanta artiklar/videoklipp som hjälper dig att k
 * [Inställningar för offlinekanal](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [Vad är UTM-parametrar?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [UTM Best Practices](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [Synkronisera SFDC-kampanjer med Buyer Touchpoints](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+* [Synkronisera SFDC-kampanjer med Buyer Touchpoints](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [Överför marknadsföringsutgifter](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Återanslut annonskonton](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Lägger till [!DNL Marketo Measure] Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
@@ -54,7 +54,7 @@ Här är några videor som hjälper dig att komma igång:
 
 **[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) (~30 minuter)**
 
-Kursen är utformad som en allmän introduktion till de grundläggande koncept du behöver känna till för överordnad [!DNL Marketo Measure]. Det ger en introduktion till begreppet attribuering, vad [!DNL Marketo Measure] som ett verktyg och det allmänna ramverket som [!DNL Marketo Measure] fungerar.
+Kursen är utformad som en allmän introduktion till de grundläggande koncept du behöver känna till för att lära dig bemästra [!DNL Marketo Measure]. Det ger en introduktion till begreppet attribuering, vad [!DNL Marketo Measure] som ett verktyg och det allmänna ramverket som [!DNL Marketo Measure] fungerar.
 
 Ämnen som omfattas:
 

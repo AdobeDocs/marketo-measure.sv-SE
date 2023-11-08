@@ -3,7 +3,7 @@ description: Metoder för utgiftshantering - [!DNL Marketo Measure] - Produktdok
 title: Metoder för utgiftshantering
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Varje [!DNL Marketo Measure] kontot har åtkomst till en funktion som kallas [Sy
 
 När den här funktionen är aktiverad kommer den automatiskt att dra in pengar från alla CRM-kampanjer/program som uppfyller följande kriterier
 
-i. [!DNL Marketo Measure] tittar först för att se om Campaign/Program skapar kontaktytor, antingen från en matchande [Synkroniseringsregel för kampanj](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) som skapades, eller en matchning [Regel för programsynkronisering](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) som skapades, eller [Aktivera slutpunktsvärde för köpare](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) är &quot;Inkludera alla kampanjmedlemmar&quot; eller &quot;Inkludera &#39;responded&#39;-kampanjmedlemmar.&quot;
+i. [!DNL Marketo Measure] tittar först för att se om Campaign/Program skapar kontaktytor, antingen från en matchande [Synkroniseringsregel för kampanj](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) som skapades, eller en matchning [Regel för programsynkronisering](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) som skapades, eller [Aktivera slutpunktsvärde för köpare](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) är &quot;Inkludera alla kampanjmedlemmar&quot; eller &quot;Inkludera &#39;responded&#39;-kampanjmedlemmar.&quot;
 
 ii. Ett startdatum måste anges för kampanjen/programmet
 

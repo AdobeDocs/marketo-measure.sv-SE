@@ -4,7 +4,7 @@ description: Generering och mappning av pekpunkter - [!DNL Marketo Measure] - Pr
 title: Generering och mappning av kontaktpunkter
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Processen för att mappa kontaktytor besvarar frågan:&quot;När den här kontak
 >[!MORELIKETHIS]
 >
 >* [Mappa onlinekontaktytor till [!DNL Marketo Measure] Kanaler/delkanaler](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [Synkronisera CRM-kampanjer inifrån SFDC](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [Synkronisera CRM-kampanjer inifrån SFDC](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 >* [Synkroniserar CRM-kampanjer inifrån [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [Mappa CRM-kampanjer till [!DNL Marketo Measure] Kanaler/delkanaler](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Skapa kontaktpunkter från försäljningsaktiviteter](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
