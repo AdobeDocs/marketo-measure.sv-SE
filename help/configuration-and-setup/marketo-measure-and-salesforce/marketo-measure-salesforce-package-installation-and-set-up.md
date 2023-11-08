@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Installation och konfiguration av Salesforc
 title: "[!DNL Marketo Measure] [!DNL Salesforce] Paketinstallation och konfiguration"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -48,16 +48,6 @@ När du är klar med installationen kan du uppdatera [[!DNL Salesforce] sidlayou
 >
 >Läs om [!DNL Marketo Measure] Behörighetsuppsättningar har skapats och [hur de kommer att användas](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
-## Installera [!DNL Marketo Measure] Instrumentpanelspaket {#install-marketo-measure-dashboard-package}
-
-The [!UICONTROL Dashboard] Tilläggspaketet innehåller tre fördefinierade kontrollpaneler. Vi rekommenderar installation [!UICONTROL within] Produktion för alla användare.
-
-1. Installera paketet från [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
-
-1. Välj **[!UICONTROL Install for All Users]**.
-
-   ![](assets/marketo-measure-salesforce-package-installation-and-set-up-3.png)
-
 ## Skapa en [!DNL Marketo Measure] Profil och användare {#creating-a-marketo-measure-profile-and-user}
 
 [!DNL Marketo Measure] skickar och tar emot data via en ansluten [!DNL Salesforce] användare inom [!DNL Marketo Measure] app.
@@ -98,3 +88,7 @@ Steg 4: Logga in på [!DNL Marketo Measure] Konto och återauktorisera [!DNL Sal
 1. Välj **[!UICONTROL Connections]** inom **[!UICONTROL Integrations]** gruppering.
 
 1. Klicka på nyckelikonen till höger om den aktuella anslutna enheten [!DNL Salesforce] anslutning och välj att **Återauktorisera med produktion**. Logga in med de nya inloggningsuppgifterna igen (om du uppmanas till det).
+
+>[!MORELIKETHIS]
+>
+>[Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
