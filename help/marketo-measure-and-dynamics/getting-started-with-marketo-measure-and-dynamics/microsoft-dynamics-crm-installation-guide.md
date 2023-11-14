@@ -4,9 +4,9 @@ description: '"[!DNL Microsoft Dynamics] Installationshandbok för CRM - Marketo
 title: "[!DNL Microsoft Dynamics] Installationshandbok för CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
+source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ För anslutning och autentisering [!DNL Marketo Measure] har stöd för följand
 
 ![](assets/3.png)
 
-## [!DNL Marketo Measure] Användarbehörigheter {#marketo-measure-user-permissions}
+## Skapa en [!DNL Marketo Measure] Användare {#creating-a-marketo-measure-user}
 
-Vi rekommenderar att du skapar en dedikerad [!DNL Marketo Measure] Användare i Dynamics för oss kan exportera och importera data till för att undvika problem med andra användare i CRM. Notera användarnamn och lösenord liksom URL-adressen till slutpunkten så som den används när du skapar [!DNL Marketo Measure] konto.
+Vi rekommenderar att du skapar en dedikerad Marketo Measure-användare som en&quot;programanvändare&quot; i Dynamics för att kunna exportera och importera data till för att undvika problem med andra användare i CRM. Notera användarnamn och lösenord samt slutpunkts-URL, eftersom de kommer att användas när du skapar [!DNL Marketo Measure] konto.
 
 ## Säkerhetsroller {#security-roles}
 
