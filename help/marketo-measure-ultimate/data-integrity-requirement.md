@@ -1,10 +1,9 @@
 ---
 description: '[!DNL Marketo Measure] Ultimat dataintegritetskrav - [!DNL Marketo Measure] - Produktdokumentation'
 title: '''[!DNL Marketo Measure] Ultimate Data Integrity Required'
-hide: true
-hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
+exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
+source-git-commit: 034c4639e6054118052524c457995f4caf7a4bf2
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 7%
@@ -1371,4 +1370,3 @@ Vi rekommenderar att du använder ett beräknat fält i fältmappning för att a
 
 * Om leadOperation.campaignProgression.campaignID för vissa upplevelsehändelseposter är null skapar och använder du följande beräknade fält i fältmappning
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
-
