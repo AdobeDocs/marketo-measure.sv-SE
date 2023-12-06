@@ -1,19 +1,19 @@
 ---
 unique-page-id: 35586140
-description: Data warehouse Schema - Marketo Measure - produktdokumentation
-title: Data warehouse Schema
+description: Data Warehouse Schema - Marketo Measure - Produktdokumentation
+title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
 workflow-type: tm+mt
-source-wordcount: '22610'
-ht-degree: 3%
+source-wordcount: '20697'
+ht-degree: 0%
 
 ---
 
-# Data warehouse Schema {#data-warehouse-schema}
+# Data Warehouse Schema {#data-warehouse-schema}
 
-Med Data warehouse kan ni spåra så mycket ni vill, rapportera om era attribueringsdata var ni vill och koppla in dem i andra datauppsättningar.
+Med Data Warehouse kan ni spåra så mycket ni vill, rapportera om era attribueringsdata var ni vill och koppla in dem i andra datauppsättningar.
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ Med Data warehouse kan ni spåra så mycket ni vill, rapportera om era attribuer
 
 ## Entitetsrelationsdiagram {#entity-relationship-diagrams}
 
-The _Data warehouse datamodell_ ERD visar hur data i data warehouse är avsedda att flöda och sammanlänkas. Det här diagrammet innehåller inte alla tabeller som finns i data warehouse eftersom vissa av dem representerar mappningstabeller, vyer av andra tabeller som redan finns eller borttagna tabeller som vi inte rekommenderar att du använder fler. Se de detaljerade beskrivningarna av tabeller och kolumner i data warehouse nedan. Många av dessa tabeller innehåller deformerade fält, men det här diagrammet är den rekommenderade datamodellen, som i stället utnyttjar data från dimensionella tabeller.
+The _Datans Warehouse datamodell_ ERD visar hur data i datalagret är avsedda att flöda och länkas samman. Det här diagrammet innehåller inte alla tabeller som är tillgängliga i datalagret eftersom vissa av dem representerar mappningstabeller, vyer av andra tabeller som redan finns eller borttagna tabeller som vi inte rekommenderar att du använder fler. Se de detaljerade beskrivningarna av tabeller och kolumner som finns i datalagret nedan. Många av dessa tabeller innehåller deformerade fält, men det här diagrammet är den rekommenderade datamodellen, som i stället utnyttjar data från dimensionella tabeller.
 
 Ytterligare _Annonserar dimensionell datamodell_ ERD visar hur tabeller för annonser som är specifika dimensioner bäst kan länkas tillbaka till tabellerna i huvuddatamodellen. Även om annonsdimensionerna även är denormaliserade i andra tabeller representerar detta den rekommenderade modellen för att förena de här dimensionerna.
 
@@ -39,7 +39,7 @@ _Klicka på en bild för att se dess fullstorleksversion_
  </colgroup> 
  <tbody> 
   <tr> 
-   <td><strong>Data warehouse datamodell</strong></td> 
+   <td><strong>Datans Warehouse datamodell</strong></td> 
    <td><strong>Annonserar dimensionell datamodell</strong></td> 
   </tr> 
   <tr> 
@@ -79,13 +79,13 @@ Konton som importerats från källsystemet.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Skapad av kontot från källsystemet.</td>
-      <td>2016-08-28 00:32:55.000</td>
+      <td>2016-08-28 00:32:55 000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Det senast ändrade datumet för kontot från källsystemet.</td>
-      <td>2018-08-01 17:38:30.000</td>
+      <td>2018-08-01 17:38:30 000</td>
     </tr>
     <tr>
       <td>NAMN</td>
@@ -109,7 +109,7 @@ Konton som importerats från källsystemet.
       <td>ENGAGEMENT_SCORE</td>
       <td>tal(38,19)</td>
       <td>En numerisk poäng beräknad med [!DNL Marketo Measure] Maskininlärning för att generera Predictive Engagement Score (Engagement_Rating). Detta blir null om ABM är inaktiverat.</td>
-      <td>0.1417350147058800000</td>
+      <td>0,1417350147058800000</td>
     </tr>
     <tr>
       <td>DOMÄN</td>
@@ -133,19 +133,19 @@ Konton som importerats från källsystemet.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -179,7 +179,7 @@ Mappningstabell mellan kända lead-/kontaktadresser och konton. Tabellen är tom
         <p>ID för källsystemkonto.</p>
       </td>
       <td>
-        <p>0013100001phrBAAAY</p>
+        <p>0013100001phrBAAY</p>
       </td>
     </tr>
     <tr>
@@ -207,7 +207,7 @@ Mappningstabell mellan kända lead-/kontaktadresser och konton. Tabellen är tom
         <p>Det senast ändrade datumet för kontot från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-31 23:53:39.000</p>
+        <p>2018-08-31 23:53:39 000</p>
       </td>
     </tr>
     <tr>
@@ -221,7 +221,7 @@ Mappningstabell mellan kända lead-/kontaktadresser och konton. Tabellen är tom
         <p>Skapad av kontot från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-18 22:01:32.000</p>
+        <p>2018-08-18 22:01:32 000</p>
       </td>
     </tr>
     <tr>
@@ -242,19 +242,19 @@ Mappningstabell mellan kända lead-/kontaktadresser och konton. Tabellen är tom
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -337,13 +337,13 @@ Aktiviteter som importerats från ett källsystem eller ett anslutet annonskonto
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
       <td>Startdatum för aktiviteten från källsystemet.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>END_DATE</td>
       <td>timestapm_ntz</td>
       <td>Slutdatum för aktiviteten från källsystemet.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>CAMPAIGN_ID</td>
@@ -363,13 +363,13 @@ Aktiviteter som importerats från ett källsystem eller ett anslutet annonskonto
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Det datum då raden skapades i källsystemet.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum då raden senast ändrades i källsystemet.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>IS_DELETD</td>
@@ -387,19 +387,19 @@ Aktiviteter som importerats från ett källsystem eller ett anslutet annonskonto
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -603,7 +603,7 @@ Annonser som importerats från anslutna annonskonton.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:59.000</p>
+        <p>2018-08-02 06:35:59 000</p>
       </td>
     </tr>
     <tr>
@@ -617,7 +617,7 @@ Annonser som importerats från anslutna annonskonton.
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:59.000</p>
+        <p>2018-08-02 06:35:59 000</p>
       </td>
     </tr>
     <tr>
@@ -759,19 +759,19 @@ Annonser som importerats från anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -971,7 +971,7 @@ Annonsörer importerade från alla anslutna annonskonton.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:59.000</p>
+        <p>2018-08-02 06:35:59 000</p>
       </td>
     </tr>
     <tr>
@@ -985,7 +985,7 @@ Annonsörer importerade från alla anslutna annonskonton.
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:59.000</p>
+        <p>2018-08-02 06:35:59 000</p>
       </td>
     </tr>
     <tr>
@@ -1073,19 +1073,19 @@ Annonsörer importerade från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -1267,7 +1267,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-09-06 12:54:37.000</p>
+        <p>2018-09-06 12:54:37 000</p>
       </td>
     </tr>
     <tr>
@@ -1281,7 +1281,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58.000</p>
+        <p>2018-08-02 06:35:58 000</p>
       </td>
     </tr>
     <tr>
@@ -1408,7 +1408,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
         <p>Mängden utgift som importerats under de senaste 30 dagarna, endast för AdWords.</p>
       </td>
       <td>
-        <p>17260.000000000000000000</p>
+        <p>17260,000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -1517,19 +1517,19 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -1725,7 +1725,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58.000</p>
+        <p>2018-08-02 06:35:58 000</p>
       </td>
     </tr>
     <tr>
@@ -1739,7 +1739,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58.000</p>
+        <p>2018-08-02 06:35:58 000</p>
       </td>
     </tr>
     <tr>
@@ -1820,7 +1820,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
         <p>Den dagliga budget som anges i annonsplattformen för Campaign.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -1885,19 +1885,19 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -1989,7 +1989,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58.000</p>
+        <p>2018-08-02 06:35:58 000</p>
       </td>
     </tr>
     <tr>
@@ -2003,7 +2003,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58.000</p>
+        <p>2018-08-02 06:35:58 000</p>
       </td>
     </tr>
     <tr>
@@ -2116,19 +2116,19 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>SOURCE_ID</td>
@@ -2496,19 +2496,19 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -2579,19 +2579,19 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -2641,7 +2641,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-09-01 04:53:53.000</p>
+        <p>2018-09-01 04:53:53 000</p>
       </td>
     </tr>
     <tr>
@@ -2689,7 +2689,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>ID för det konto som BAT tilldelas.</p>
       </td>
       <td>
-        <p>0013100001otbIAAAY</p>
+        <p>0013100001otbIAAY</p>
       </td>
     </tr>
     <tr>
@@ -2717,7 +2717,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Datum för kontaktytan.</p>
       </td>
       <td>
-        <p>2017-06-20 01:05:20.000</p>
+        <p>2017-06-20 01:05:20 000</p>
       </td>
     </tr>
     <tr>
@@ -2756,7 +2756,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY1</p>
+        <p>KATEGORI1</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2770,7 +2770,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY2</p>
+        <p>KATEGORI2</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2784,7 +2784,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY3</p>
+        <p>KATEGORI3</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2798,7 +2798,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY4</p>
+        <p>KATEGORI4</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2810,7 +2810,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY5</p>
+        <p>KATEGORI5</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2820,7 +2820,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY6</p>
+        <p>KATEGORI6</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2830,7 +2830,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY7</p>
+        <p>KATEGORI7</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2840,7 +2840,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY8</p>
+        <p>KATEGORI8</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2850,7 +2850,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY9</p>
+        <p>KATEGORI9</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2860,7 +2860,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY10</p>
+        <p>KATEGORI10</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2870,7 +2870,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY11</p>
+        <p>KATEGORI11</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2880,7 +2880,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY12</p>
+        <p>KATEGORI12</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2890,7 +2890,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY13</p>
+        <p>KATEGORI13</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2900,7 +2900,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY14</p>
+        <p>KATEGORI14</p>
       </td>
       <td>
         <p>varchar</p>
@@ -2910,7 +2910,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY15</p>
+        <p>KATEGORI15</p>
       </td>
       <td>
         <p>varchar</p>
@@ -3069,7 +3069,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Datum när formuläret skickades.</p>
       </td>
       <td>
-        <p>2017-06-20 01:06:41.000</p>
+        <p>2017-06-20 01:06:41 000</p>
       </td>
     </tr>
     <tr>
@@ -3595,7 +3595,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom det är en första beröring (se Is_First_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -3609,7 +3609,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom det är en beröring för att skapa leads (se Is_Lead_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -3623,7 +3623,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en oformad beröring (se Is_First_Touch och Is_Lead_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -3637,7 +3637,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en w-formad beröring (se Is_First_Touch, Is_Lead_Creation_Touch och Is_Opp_Creation_Touch).</p>
       </td>
       <td>
-        <p>0.0153374234214425</p>
+        <p>0,0153374234214425</p>
       </td>
     </tr>
     <tr>
@@ -3651,7 +3651,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en fullständig banmodell (se Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
       </td>
       <td>
-        <p>0.0143061513081193</p>
+        <p>0,0143061513081193</p>
       </td>
     </tr>
     <tr>
@@ -3660,7 +3660,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>number(22,19)</td>
       <td>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en anpassad modell (se Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</td>
-      <td>0.0143061513081193</td>
+      <td>0,0143061513081193</td>
     </tr>
     <tr>
       <td>
@@ -3778,19 +3778,19 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -3826,7 +3826,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>Kampanjmedlems-ID från källsystemet.</p>
       </td>
       <td>
-        <p>00v0Z00001VVzdLQAT</p>
+        <p>00v0Z00001VzdLQAT</p>
       </td>
     </tr>
     <tr>
@@ -3868,7 +3868,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>Datum och tid som kunden ställer in för att åsidosätta kampanjdatumet och använd värdet för slutpunktsdatumet i stället.</p>
       </td>
       <td>
-        <p>2018-08-30 18:00:00.000</p>
+        <p>2018-08-30 18:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -3882,7 +3882,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>ID för den lead som kampanjmedlemmen är knuten till.</p>
       </td>
       <td>
-        <p>00Q0Z000013dw4GUAQ</p>
+        <p>00Q0Z00013dw4GUAQ</p>
       </td>
     </tr>
     <tr>
@@ -3966,7 +3966,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>Datum då kampanjmedlemmen först svarade.</p>
       </td>
       <td>
-        <p>2018-08-30 07:00:00.000</p>
+        <p>2018-08-30 07:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -3994,7 +3994,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>ID för den relaterade kampanj som kampanjmedlemmen är en del av.</p>
       </td>
       <td>
-        <p>7010Z000001TcKlQAK</p>
+        <p>7010Z00001TcKlQAK</p>
       </td>
     </tr>
     <tr>
@@ -4091,19 +4091,19 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -4174,19 +4174,19 @@ Marknadsföringskanaler, som de skapats i [!DNL Marketo Measure] program.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datumet då posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datumet då posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datumet då posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -4236,7 +4236,7 @@ Kontakter som har importerats från källsystemet.
         <p>Datum när kontaktposten senast ändrades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-09-05 05:17:53.000</p>
+        <p>2018-09-05 05:17:53 000</p>
       </td>
     </tr>
     <tr>
@@ -4250,7 +4250,7 @@ Kontakter som har importerats från källsystemet.
         <p>Det datum kontaktposten skapades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-09-05 05:17:51.000</p>
+        <p>2018-09-05 05:17:51 000</p>
       </td>
     </tr>
     <tr>
@@ -4405,19 +4405,19 @@ Kontakter som har importerats från källsystemet.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -4456,19 +4456,19 @@ Valutakonverteringsgrader som importerats från källsystemet.
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
       <td>Startdatum för konverteringsgraden.</td>
-      <td>2018-11-01 00:00:00.000</td>
+      <td>2018-11-01 00:00:00,000</td>
     </tr>
     <tr>
       <td>END_DATE</td>
       <td>timestamp_ntz</td>
       <td>Nästa startdatum för konverteringsgraden. (Slutdatumet för konverteringsgraden är end_date minus 1 dag.)</td>
-      <td>2018-09-01 00:00:00.000</td>
+      <td>2018-09-01 00:00:00,000</td>
     </tr>
     <tr>
       <td>CONVERSION_RATE</td>
       <td>tal(38,0)</td>
       <td>Kursen som används för att konvertera valutan till företagets valuta.</td>
-      <td>0.76728300</td>
+      <td>0,76728300</td>
     </tr>
     <tr>
       <td>IS_CURRENT</td>
@@ -4480,13 +4480,13 @@ Valutakonverteringsgrader som importerats från källsystemet.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Det datum då posten skapades i källsystemet.</td>
-      <td>2019-03-30 00:54:50.000</td>
+      <td>2019-03-30 00:54:50 000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i källsystemet.</td>
-      <td>2019-03-30 00:54:50.000</td>
+      <td>2019-03-30 00:54:50 000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
@@ -4498,19 +4498,19 @@ Valutakonverteringsgrader som importerats från källsystemet.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -4537,13 +4537,13 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades.</td>
-      <td>2018-09-06 12:22:45.000</td>
+      <td>2018-09-06 12:22:45 000</td>
     </tr>
     <tr>
       <td>COST_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när kostnaden uppkom (eller tillskrevs).</td>
-      <td>2018-09-06 00:00:00.000</td>
+      <td>2018-09-06 00:00:00,000</td>
     </tr>
     <tr>
       <td>KÄLLA</td>
@@ -5055,19 +5055,19 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -5263,7 +5263,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:25.000</p>
+        <p>2018-08-02 06:36:25 000</p>
       </td>
     </tr>
     <tr>
@@ -5277,7 +5277,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:25.000</p>
+        <p>2018-08-02 06:36:25 000</p>
       </td>
     </tr>
     <tr>
@@ -5556,19 +5556,19 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -5618,7 +5618,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
         <p>Det datum då händelsen skapades från källsystemet.</p>
       </td>
       <td>
-        <p>2016-12-12 19:32:53.000</p>
+        <p>2016-12-12 19:32:53 000</p>
       </td>
     </tr>
     <tr>
@@ -5632,7 +5632,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
         <p>Det datum då händelsen senast ändrades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-09-03 08:39:51.000</p>
+        <p>2018-09-03 08:39:51 000</p>
       </td>
     </tr>
     <tr>
@@ -5646,7 +5646,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
         <p>ID för den lead som är associerad med händelsen.</p>
       </td>
       <td>
-        <p>00Q0Z000013eVrxUAE</p>
+        <p>00Q0Z00013eVrxUAE</p>
       </td>
     </tr>
     <tr>
@@ -5730,7 +5730,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
         <p>Startdatum för händelsen, ett av de alternativ som används för att fastställa slutpunktsdatumet.</p>
       </td>
       <td>
-        <p>2016-12-16 19:30:00.000</p>
+        <p>2016-12-16 19:30:00,000</p>
       </td>
     </tr>
     <tr>
@@ -5744,7 +5744,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
         <p>Slutdatum för händelsen, ett av de alternativ som används för att bestämma slutpunktsdatumet.</p>
       </td>
       <td>
-        <p>2016-12-16 21:30:00.000</p>
+        <p>2016-12-16 21:30:00,000</p>
       </td>
     </tr>
     <tr>
@@ -5769,19 +5769,19 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -5817,7 +5817,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
         <p>Aktivitets-ID från källsystemet.</p>
       </td>
       <td>
-        <p>00T0Z00004Rf62rUAB</p>
+        <p>00T0Z0004Rf62rUAB</p>
       </td>
     </tr>
     <tr>
@@ -5831,7 +5831,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
         <p>Det datum då uppgiften skapades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-27 18:30:25.000</p>
+        <p>2018-08-27 18:30:25 000</p>
       </td>
     </tr>
     <tr>
@@ -5845,7 +5845,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
         <p>Det datum då aktiviteten senast ändrades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-27 18:31:53.000</p>
+        <p>2018-08-27 18:31:53 000</p>
       </td>
     </tr>
     <tr>
@@ -5859,7 +5859,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
         <p>ID för den lead som är associerad med uppgiften.</p>
       </td>
       <td>
-        <p>00Q0Z000013eVrxUAE</p>
+        <p>00Q0Z00013eVrxUAE</p>
       </td>
     </tr>
     <tr>
@@ -5943,7 +5943,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
         <p>Det datum aktiviteten utfördes, ett av alternativen som användes för att fastställa slutpunktsdatumet.</p>
       </td>
       <td>
-        <p>2018-08-27 07:00:00.000</p>
+        <p>2018-08-27 07:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -5968,19 +5968,19 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -6029,25 +6029,25 @@ Tabell över alla ISO-valutor.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum då posten senast ändrades [!DNL Marketo Measure].</td>
-      <td>2018-08-27 18:30:25.000</td>
+      <td>2018-08-27 18:30:25 000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE_CRM</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i källsystemet.</td>
-      <td>2018-08-27 18:30:25.000</td>
+      <td>2018-08-27 18:30:25 000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i [!DNL Marketo Measure]</td>
-      <td>2018-08-27 18:30:25.000</td>
+      <td>2018-08-27 18:30:25 000</td>
     </tr>
     <tr>
       <td>CREATED_DATE_CRM</td>
       <td>timestamp_ntz</td>
       <td>Det datum då posten skapades i källsystemet.</td>
-      <td>2018-08-27 18:30:25.000</td>
+      <td>2018-08-27 18:30:25 000</td>
     </tr>
     <tr>
       <td>ISO_NUMERIC</td>
@@ -6071,19 +6071,19 @@ Tabell över alla ISO-valutor.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -6140,13 +6140,13 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>
         <p>Datum när chatten loggades.</p>
       </td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
@@ -6234,19 +6234,19 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -6303,13 +6303,13 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
       <td>
         <p>Det datum som händelsen utlöstes från det anpassade javascript-skriptet.</p>
       </td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Det senaste datumet som posten ändrades.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>
@@ -6363,19 +6363,19 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -6648,19 +6648,19 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -6732,7 +6732,7 @@ Mappningstabell för e-postadresser och besökar-ID.
         <p>Radens senast ändrade datum</p>
       </td>
       <td>
-        <p>2018-08-14 23:55:03.000</p>
+        <p>2018-08-14 23:55:03,000</p>
       </td>
     </tr>
     <tr>
@@ -6746,7 +6746,7 @@ Mappningstabell för e-postadresser och besökar-ID.
         <p>Radens skapade datum</p>
       </td>
       <td>
-        <p>2018-08-14 23:55:03.000</p>
+        <p>2018-08-14 23:55:03,000</p>
       </td>
     </tr>
     <tr>
@@ -6773,19 +6773,19 @@ Mappningstabell för e-postadresser och besökar-ID.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -7126,7 +7126,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>TIDSSTÄMPEL</td>
       <td>timestamp_ntz</td>
       <td>Datum och tid då händelsen inträffade.</td>
-      <td>2018-08-28 19:39:15.000</td>
+      <td>2018-08-28 19:39:15 000</td>
     </tr>
     <tr>
       <td>
@@ -7139,7 +7139,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>Datum då raden senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-29 00:46:47.000</p>
+        <p>2018-08-29 00:46:47 000</p>
       </td>
     </tr>
     <tr>
@@ -7192,7 +7192,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>
         <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom det är en första beröring.</p>
       </td>
-      <td>0.0000000000000000000</td>
+      <td>0,0000000000000000000</td>
     </tr>
     <tr>
       <td>
@@ -7204,7 +7204,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>
         <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom det är ett tips om att skapa leads.</p>
       </td>
-      <td>100.0000000000000000000</td>
+      <td>100,0000000000000000000</td>
     </tr>
     <tr>
       <td>
@@ -7217,7 +7217,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>Den beräknade procentandelen som tilldelas den här kontaktytan eftersom den är en del av en oformad beröring.</p>
       </td>
       <td>
-        <p>100.0000000000000000000</p>
+        <p>100,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7231,7 +7231,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>Den beräknade procentandelen som tilldelas till den här kontaktytan eftersom den är en del av en bländare.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7245,7 +7245,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>Den beräknade procentandelen som tilldelas den här kontaktytan eftersom den ingår i en fullständig banmodell.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7259,7 +7259,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>Den beräknade procentandelen som tilldelas den här kontaktytan eftersom den ingår i en anpassad modell.</p>
       </td>
       <td>
-        <p>0.0000000000000000000</p>
+        <p>0,0000000000000000000</p>
       </td>
     </tr>
     <tr>
@@ -7273,7 +7273,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>Mängd säljprojekt från källsystemet.</p>
       </td>
       <td>
-        <p>42000.00000000</p>
+        <p>42000,00000000</p>
       </td>
     </tr>
     <tr>
@@ -7329,7 +7329,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>Det datum då affärsmöjligheten skapades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-31 15:45:47.000</p>
+        <p>2018-08-31 15:45:47 000</p>
       </td>
     </tr>
     <tr>
@@ -7343,7 +7343,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>Stängningsdatum för affärsmöjligheten från källsystemet.</p>
       </td>
       <td>
-        <p>2018-12-31 07:00:00.000</p>
+        <p>2018-12-31 07:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -7356,7 +7356,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>
         <p>Det datum kontaktposten skapades från källsystemet.</p>
       </td>
-      <td>2017-04-28 00:21:52.000</td>
+      <td>2017-04-28 00:21:52 000</td>
     </tr>
     <tr>
       <td>
@@ -7389,7 +7389,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
         <p>Det datum då lead-posten skapades från källsystemet.</p>
       </td>
       <td>
-        <p>2017-04-28 00:21:52.000</p>
+        <p>2017-04-28 00:21:52 000</p>
       </td>
     </tr>
     <tr>
@@ -7564,19 +7564,19 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -7668,7 +7668,7 @@ Insamlade formulärinskickat material.
         <p>Datum då formuläret skickades.</p>
       </td>
       <td>
-        <p>2018-08-06 01:35:21.000</p>
+        <p>2018-08-06 01:35:21 000</p>
       </td>
     </tr>
     <tr>
@@ -7682,7 +7682,7 @@ Insamlade formulärinskickat material.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-07 23:09:52.000</p>
+        <p>2018-08-07 23:09:52 000</p>
       </td>
     </tr>
     <tr>
@@ -7877,19 +7877,19 @@ Insamlade formulärinskickat material.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -7974,7 +7974,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>Datum då Impression opererades.</p>
       </td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>
@@ -7986,7 +7986,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>
@@ -8628,19 +8628,19 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -8837,7 +8837,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
-      <td>2018-08-02 06:37:29.000</td>
+      <td>2018-08-02 06:37:29 000</td>
     </tr>
     <tr>
       <td>
@@ -8850,7 +8850,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:37:29.000</p>
+        <p>2018-08-02 06:37:29 000</p>
       </td>
     </tr>
     <tr>
@@ -9053,19 +9053,19 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -9320,19 +9320,19 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -9382,7 +9382,7 @@ Leads som importerats från källsystemet.
         <p>Datum när lead-posten senast ändrades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-27 21:52:10.000</p>
+        <p>2018-08-27 21:52:10 000</p>
       </td>
     </tr>
     <tr>
@@ -9395,7 +9395,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>Det datum då lead-posten skapades från källsystemet.</p>
       </td>
-      <td>2018-08-27 21:52:10.000</td>
+      <td>2018-08-27 21:52:10 000</td>
     </tr>
     <tr>
       <td>
@@ -9490,7 +9490,7 @@ Leads som importerats från källsystemet.
         <p>Datum när leadet konverterades till en kontakt.</p>
       </td>
       <td>
-        <p>2018-08-27 07:00:00.000</p>
+        <p>2018-08-27 07:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -9518,7 +9518,7 @@ Leads som importerats från källsystemet.
         <p>ID för det mappade kontot. Krav: Aktivera ABM</p>
       </td>
       <td>
-        <p>0010Z0000236F9GQAU</p>
+        <p>0010Z000236F9GQAU</p>
       </td>
     </tr>
     <tr>
@@ -9659,19 +9659,19 @@ Leads som importerats från källsystemet.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -9887,7 +9887,7 @@ Scenövergångar för Leads eller Kontakter.
         <p>Övergångsdatum för föregående fas, enligt scenrankningen.</p>
       </td>
       <td>
-        <p>2017-11-28 21:26:44.000</p>
+        <p>2017-11-28 21:26:44 000</p>
       </td>
     </tr>
     <tr>
@@ -9901,7 +9901,7 @@ Scenövergångar för Leads eller Kontakter.
         <p>Övergångsdatum för nästa fas, enligt scenrankningen.</p>
       </td>
       <td>
-        <p>2017-12-11 22:39:17.000</p>
+        <p>2017-12-11 22:39:17 000</p>
       </td>
     </tr>
     <tr>
@@ -9915,7 +9915,7 @@ Scenövergångar för Leads eller Kontakter.
         <p>Senaste ändringsdatum för posten.</p>
       </td>
       <td>
-        <p>2018-08-28 15:31:10.000</p>
+        <p>2018-08-28 15:31:10 000</p>
       </td>
     </tr>
     <tr>
@@ -9936,19 +9936,19 @@ Scenövergångar för Leads eller Kontakter.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -9984,7 +9984,7 @@ Möjligheter som importerats från källsystemet.
         <p>Affärsmöjlighets-ID från källsystemet.</p>
       </td>
       <td>
-        <p>0060Z00000o89I4QAI</p>
+        <p>0060Z0000o89I4QAI</p>
       </td>
     </tr>
     <tr>
@@ -9997,7 +9997,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>Senaste ändringsdatum för affärsmöjligheten från källsystemet.</p>
       </td>
-      <td>2017-11-28 21:26:44.000</td>
+      <td>2017-11-28 21:26:44 000</td>
     </tr>
     <tr>
       <td>
@@ -10009,7 +10009,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>Skapat datum för affärsmöjligheten från källsystemet.</p>
       </td>
-      <td>2017-11-28 21:26:44.000</td>
+      <td>2017-11-28 21:26:44 000</td>
     </tr>
     <tr>
       <td>
@@ -10078,7 +10078,7 @@ Möjligheter som importerats från källsystemet.
         <p>Förväntat eller faktiskt slutdatum för affärsmöjligheten från källsystemet.</p>
       </td>
       <td>
-        <p>2019-08-28 07:00:00.000</p>
+        <p>2019-08-28 07:00:00,000</p>
       </td>
     </tr>
     <tr>
@@ -10106,7 +10106,7 @@ Möjligheter som importerats från källsystemet.
         <p>Avtalsbelopp som förväntas eller stängs från säljprojektet, från källsystemet.</p>
       </td>
       <td>
-        <p>8988.00000000</p>
+        <p>8988,00000000</p>
       </td>
     </tr>
     <tr>
@@ -10257,19 +10257,19 @@ Möjligheter som importerats från källsystemet.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -10333,7 +10333,7 @@ Scenövergångar för affärsmöjligheter.
         <p>ID för affärsmöjligheten som är associerad med övergången.</p>
       </td>
       <td>
-        <p>0060Z00000nEgjlQAC</p>
+        <p>0060Z0000nEgjlQAC</p>
       </td>
     </tr>
     <tr>
@@ -10389,7 +10389,7 @@ Scenövergångar för affärsmöjligheter.
         <p>Datum när posten överfördes till scenen.</p>
       </td>
       <td>
-        <p>2018-05-26 07:29:43.000</p>
+        <p>2018-05-26 07:29:43 000</p>
       </td>
     </tr>
     <tr>
@@ -10497,7 +10497,7 @@ Scenövergångar för affärsmöjligheter.
         <p>Övergångsdatum för föregående fas, enligt scenrankningen.</p>
       </td>
       <td>
-        <p>2015-07-16 17:41:49.000</p>
+        <p>2015-07-16 17:41:49 000</p>
       </td>
     </tr>
     <tr>
@@ -10511,7 +10511,7 @@ Scenövergångar för affärsmöjligheter.
         <p>Övergångsdatum för nästa fas, enligt scenrankningen.</p>
       </td>
       <td>
-        <p>2018-08-27 19:40:52.000</p>
+        <p>2018-08-27 19:40:52 000</p>
       </td>
     </tr>
     <tr>
@@ -10525,7 +10525,7 @@ Scenövergångar för affärsmöjligheter.
         <p>Senaste ändringsdatum för posten.</p>
       </td>
       <td>
-        <p>2018-08-28 03:53:33.000</p>
+        <p>2018-08-28 03:53:33 000</p>
       </td>
     </tr>
     <tr>
@@ -10546,19 +10546,19 @@ Scenövergångar för affärsmöjligheter.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -10650,7 +10650,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
         <p>Datum när sidvyn skapades.</p>
       </td>
       <td>
-        <p>2018-08-19 16:49:58.000</p>
+        <p>2018-08-19 16:49:58 000</p>
       </td>
     </tr>
     <tr>
@@ -10664,7 +10664,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-19 16:55:37.000</p>
+        <p>2018-08-19 16:55:37 000</p>
       </td>
     </tr>
     <tr>
@@ -10871,19 +10871,19 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -11060,7 +11060,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
-      <td>2018-08-02 06:36:25.000</td>
+      <td>2018-08-02 06:36:25 000</td>
     </tr>
     <tr>
       <td>
@@ -11072,7 +11072,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
-      <td>2018-08-02 06:36:25.000</td>
+      <td>2018-08-02 06:36:25 000</td>
     </tr>
     <tr>
       <td>
@@ -11149,19 +11149,19 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake skapade datumet för inspelningen</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake modifierat datumet för inspelningen</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake har raderat posten om den har tagits bort</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -11232,19 +11232,19 @@ Segmentvärden som definieras i [!DNL Marketo Measure] program.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -11294,7 +11294,7 @@ Kopplar namnet på det anpassade segmentet till dess kategorivärde. (Detta mapp
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2022-02-28 18:12:35.000</p>
+        <p>2022-02-28 18:12:35 000</p>
       </td>
     </tr>
     <tr>
@@ -11327,19 +11327,19 @@ Kopplar namnet på det anpassade segmentet till dess kategorivärde. (Detta mapp
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -11413,7 +11413,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>Datum för sessionen.</p>
       </td>
       <td>
-        <p>2016-08-01 14:24:21.000</p>
+        <p>2016-08-01 14:24:21 000</p>
       </td>
     </tr>
     <tr>
@@ -11427,7 +11427,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-09-01 03:49:10.000</p>
+        <p>2018-09-01 03:49:10 000</p>
       </td>
     </tr>
     <tr>
@@ -12196,19 +12196,19 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -12391,7 +12391,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
-      <td>2018-08-02 06:37:29.000</td>
+      <td>2018-08-02 06:37:29 000</td>
     </tr>
     <tr>
       <td>
@@ -12403,7 +12403,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
-      <td>2018-08-02 06:37:29.000</td>
+      <td>2018-08-02 06:37:29 000</td>
     </tr>
     <tr>
       <td>
@@ -12482,19 +12482,19 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -12692,7 +12692,7 @@ Webbplatslänkar från anslutna annonskonton.
         <p>Radens senast ändrade datum</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:50.000</p>
+        <p>2018-08-02 06:36:50 000</p>
       </td>
     </tr>
     <tr>
@@ -12706,7 +12706,7 @@ Webbplatslänkar från anslutna annonskonton.
         <p>Det datum då platslänken hämtades för första gången [!DNL Marketo Measure]</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:50.000</p>
+        <p>2018-08-02 06:36:50 000</p>
       </td>
     </tr>
     <tr>
@@ -12821,19 +12821,19 @@ Webbplatslänkar från anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake skapade datumet för inspelningen</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake modifierat datumet för inspelningen</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake har raderat posten om den har tagits bort</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -12883,7 +12883,7 @@ Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] p
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-22 17:27:27.000</p>
+        <p>2018-08-22 17:27:27 000</p>
       </td>
     </tr>
     <tr>
@@ -13024,19 +13024,19 @@ Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] p
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -13078,7 +13078,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-29 22:29:30.000</p>
+        <p>2018-08-29:29:30 000</p>
       </td>
     </tr>
     <tr>
@@ -13116,7 +13116,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>ID för det konto som är associerat med BT.</p>
       </td>
       <td>
-        <p>0013100001lSLScAAO</p>
+        <p>0013100001lSLScAO</p>
       </td>
     </tr>
     <tr>
@@ -13130,7 +13130,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>ID för den lead som är associerad med BT.</p>
       </td>
       <td>
-        <p>00Q0Z000013e2PYUAY</p>
+        <p>00Q0Z00013e2PYUAY</p>
       </td>
     </tr>
     <tr>
@@ -13178,7 +13178,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>Datum för kontaktytan.</p>
       </td>
       <td>
-        <p>2018-08-27 20:04:40.000</p>
+        <p>2018-08-27 20:04:40 000</p>
       </td>
     </tr>
     <tr>
@@ -13209,7 +13209,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY1</p>
+        <p>KATEGORI1</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13221,7 +13221,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY2</p>
+        <p>KATEGORI2</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13235,7 +13235,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY3</p>
+        <p>KATEGORI3</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13249,7 +13249,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY4</p>
+        <p>KATEGORI4</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13263,7 +13263,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY5</p>
+        <p>KATEGORI5</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13275,7 +13275,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY6</p>
+        <p>KATEGORI6</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13287,7 +13287,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY7</p>
+        <p>KATEGORI7</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13297,7 +13297,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY8</p>
+        <p>KATEGORI8</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13307,7 +13307,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY9</p>
+        <p>KATEGORI9</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13317,7 +13317,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY10</p>
+        <p>KATEGORI10</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13327,7 +13327,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY11</p>
+        <p>KATEGORI11</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13337,7 +13337,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY12</p>
+        <p>KATEGORI12</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13347,7 +13347,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY13</p>
+        <p>KATEGORI13</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13357,7 +13357,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY14</p>
+        <p>KATEGORI14</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13369,7 +13369,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>CATEGORY15</p>
+        <p>KATEGORI15</p>
       </td>
       <td>
         <p>varchar</p>
@@ -13516,7 +13516,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>Datum när formuläret skickades.</p>
       </td>
       <td>
-        <p>2017-06-20 01:06:41.000</p>
+        <p>2017-06-20 01:06:41 000</p>
       </td>
     </tr>
     <tr>
@@ -14222,19 +14222,19 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -14246,120 +14246,70 @@ Sammanställning av URL-adresser från landningssidor, referenssidor och sidvyer
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Den fullständiga URL:en,</p>
-      </td>
-      <td>
-        <p>https://www.adobe.com/blog/strategic-marketing-plangoals</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>Den fullständiga URL:en,</td>
+      <td>https://www.adobe.com/blog/strategic-marketing-plangoals</td>
     </tr>
     <tr>
-      <td>
-        <p>SCHEME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Säker kommunikation av webbsidan via nätverket.</p>
-      </td>
-      <td>
-        <p>https</p>
-      </td>
+      <td>SCHEME</td>
+      <td>varchar</td>
+      <td>Säker kommunikation av webbsidan via nätverket.</td>
+      <td>https</td>
     </tr>
     <tr>
-      <td>
-        <p>VÄRD</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Domänen för URL:en, med eventuella underdomäner.</p>
-      </td>
-      <td>
-        <p>www.adobe.com</p>
-      </td>
+      <td>VÄRD</td>
+      <td>varchar</td>
+      <td>Domänen för URL:en, med eventuella underdomäner.</td>
+      <td>www.adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>PORT</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Porten från en Internetvärd, valfri i en URL.</p>
-      </td>
-      <td>
-        <p>584</p>
-      </td>
+      <td>PAGE_TITLE</td>
+      <td>varchar</td>
+      <td>Sidans namn.</td>
+      <td>The CMO's Guide to B2B Marketing Attribution Download</td>
     </tr>
     <tr>
-      <td>
-        <p>BANA</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Den del av URL:en som pekar på en viss plats på värden.</p>
-      </td>
-      <td>
-        <p>/blog/strategy-marketing-planaim</p>
-      </td>
+      <td>BANA</td>
+      <td>varchar</td>
+      <td>Den del av URL:en som pekar på en viss plats på värden.</td>
+      <td>/blog/strategy-marketing-planaim</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>tal(38,0)</p>
-      </td>
-      <td>
-        <p>Sekundärnyckel till vyn Biz_Facts.</p>
-      </td>
-      <td>
-        <p>5686109553536636820</p>
-      </td>
+      <td>PORT</td>
+      <td>varchar</td>
+      <td>Porten från en Internetvärd, valfri i en URL.</td>
+      <td>584</td>
+    </tr>
+    <tr>
+      <td>ROW_KEY</td>
+      <td>tal(38,0)</td>
+      <td>Sekundärnyckel till vyn Biz_Facts.</td>
+      <td>5686109553536636820</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -14409,7 +14359,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-09-05 23:30:53.000</p>
+        <p>2018-09-05 23:30:53 000</p>
       </td>
     </tr>
     <tr>
@@ -14451,7 +14401,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>ID för Campaign-medlemmen som skapade användarkontaktpunkten.</p>
       </td>
       <td>
-        <p>00v0Z00001VTgv1QAD</p>
+        <p>00v0Z0001VTgv1QAD</p>
       </td>
     </tr>
     <tr>
@@ -14471,7 +14421,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>ID för den händelse som skapade användarkontaktpunkten.</p>
       </td>
       <td>
-        <p>00U0Z00000pCZmyUAG</p>
+        <p>00U0Z0000pCZmyUAG</p>
       </td>
     </tr>
     <tr>
@@ -14705,7 +14655,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>Datum när formuläret skickades.</p>
       </td>
       <td>
-        <p>2015-06-03 17:49:10.000</p>
+        <p>2015-06-03 17:49:10 000</p>
       </td>
     </tr>
     <tr>
@@ -15248,19 +15198,19 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
@@ -15334,7 +15284,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
       <td>timestamp_ntz</td>
       <td>Datum när mappningen registrerades.</td>
       <td>
-        <p>2020-06-17 19:03:36.000</p>
+        <p>2020-06-17 19:03:36 000</p>
       </td>
     </tr>
     <tr>
@@ -15346,7 +15296,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2020-06-17 19:03:36.000</p>
+        <p>2020-06-17 19:03:36 000</p>
       </td>
     </tr>
     <tr>
@@ -15445,19 +15395,19 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00.000</td>
+      <td>2020-01-01 01:01:00,000</td>
     </tr>
   </tbody>
 </table>
