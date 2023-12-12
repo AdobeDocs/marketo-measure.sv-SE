@@ -4,9 +4,9 @@ description: Salesforce Sandbox till produktionsmigrering - [!DNL Marketo Measur
 title: Salesforce-sandlåda till produktionsmigrering
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: ad658a513b01dc7a51299abcb7313ff1877e49f3
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Om du valde att testa [!DNL Marketo Measure] i en [!DNL Salesforce] I sandlådemiljö följer du dessa anvisningar för att migrera till Production när du är klar. Följande instruktioner förutsätter att du redan har hämtat [!DNL Marketo Measure] paketera i din sandlådeorganisation, utföra nödvändiga tester och är redo att skickas [!DNL Marketo Measure] till produktion.
 
-## Steg 1: Installera [!DNL Marketo Measure] Paket i produktionen [!DNL Salesforce] Instance {#install-marketo-measure-packages-into-your-production-salesforce-instance}
+## Steg 1: Installera [!DNL Marketo Measure] Packa in i produktionen [!DNL Salesforce] Instance
 
-* Installera de två [!DNL Marketo Measure] paket till produktion med &quot;[!UICONTROL All Users]&quot; inställning
+* Installera [!DNL Marketo Measure] paketet i produktionen med &quot;[!UICONTROL All Users]&quot; inställning
 
    * [Baskaket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
