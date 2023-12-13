@@ -3,11 +3,11 @@ cloud: Experience Cloud
 product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
-user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget."
-source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
+user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva för att öka intäkterna för deras företag."
+source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '806'
+ht-degree: 0%
 
 ---
 
@@ -154,6 +154,7 @@ ht-degree: 2%
       + [Ny guide för Discover Dashboard](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Instrumentpanel för intäktsöversikt](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Kontrollpanel för attributerade intäkter](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+        [Instrumentpanel för engagemang](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
       + [Kontrollpanel för avkastning](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Passport Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
       + [Kontrollpanel för webbtrafik](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
