@@ -1,11 +1,11 @@
 ---
-description: Aktuell versionsinformation –  [!DNL Marketo Measure]  – produktdokumentation
+description: Aktuell versionsinformation - [!DNL Marketo Measure] - Produktdokumentation
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
+source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,69 @@ Här nedan hittar du alla nya och uppdaterade funktioner för 2023-utgåvorna.
 ## Q4 Release {#q4-release}
 
 <p>
+
+**Kontrollpanel för webbtrafik**
+
+Den nydesignade [Kontrollpanel för webbtrafik](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} är nu tillgängligt för alla kunder. Den här instrumentpanelen ger en fullständig översikt över besökarnas interaktioner på webbplatsen. Du kan analysera mätvärden som unika besökarantal per URL, övergripande besök, sidvisningar och formulärinskickningar från specifika formulär-URL:er eller landningssidor. Ni kan också hålla reda på trafiktrender varje månad och identifiera högpresterande betalda medier, som hjälper er att förfina era strategier för optimala intäkter.
+
+Den nya uppsättningen färdiga kontrollpaneler planeras att lanseras i vågor som avslutas före årets slut.
+
+>[!NOTE]
+>
+>De aktuella instrumentpanelerna kommer att vara borttagna i mitten av januari 2024, men du kan använda båda versionerna fram till dess, vilket ger en smidig övergång.
+
+**Ta bort IP-adressdata**
+
+Vi håller på att ta bort IP-adressdata från vår långtidslagring för att säkerställa att våra data följer gällande sekretess. För närvarande innehåller följande Snowflake-tabeller och vyer IP-adresser, och vi planerar att ta bort dessa data och lägga till ny geolokaliseringsinformation:
+
+<table style="width:400px">
+<thead>
+  <tr>
+    <th style="width:50%">Tabeller</th>
+    <th>Vyer</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>CUSTOMER_AB_TESTS</td>
+    <td>BIZ_CUSTOMER_AB_TESTS</td>
+  </tr>
+  <tr>
+    <td>CUSTOMER_EVENTS</td>
+    <td>BIZ_CUSTOMER_EVENTS</td>
+  </tr>
+  <tr>
+    <td>FORM_SUBMITS</td>
+    <td>BIZ_FORM_SUBMITS</td>
+  </tr>
+  <tr>
+    <td>IMPRESSIONER</td>
+    <td>BIZ_IMPRESSIONS</td>
+  </tr>
+  <tr>
+    <td>PAGE_VIEWS</td>
+    <td>BIZ_PAGE_VIEWS</td>
+  </tr>
+  <tr>
+    <td>SESSIONER</td>
+    <td>BIZ_SESSIONS</td>
+  </tr>
+  <tr>
+    <td>WEB_HOST_MAPPINGS</td>
+    <td>BIZ_WEB_HOST_MAPPINGS</td>
+  </tr>
+</tbody>
+</table>
+
+* Från och med nu hämtar vi landskod, stadsnamn och regionkod i stället för landsnamn, stadsnamn och regionnamn.
+* Under behandlingen av alla tidigare webbaktiviteter kan det uppstå inkonsekvenser i positionsinformation mellan poster. Dessa inkonsekvenser kan vara förekomsten av IP-adresser utan detaljer om geopositionering, uppdaterad geopositioneringsinformation utan IP-adresser eller en blandning av namn och koder för länder eller regioner.
+* _**Denna period med blandade uppgifter förväntas äga rum från 01/04/2023 till 02/29/2023.**_
+
+**Data för sidtitel i URL-tabell**
+
+URL-tabellen i [informationslager](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} kommer nu att innehålla ett sidtitelfält förutom webbdatatabeller.
+
+Observera att sidrubriken i URL-tabellen kanske inte alltid matchar sidtiteln i andra webbtabeller. URL-tabellen kommer att ha den senaste sidrubriken. Om titeln har ändrats för URL:en efter att webbaktiviteten ägde rum, matchar den inte vad som finns i URL-tabellen.
 
 **Upptäck omdesignen av instrumentpanelen**
 
@@ -39,15 +102,54 @@ Den nya uppsättningen förbyggda kontrollpaneler planeras att lanseras i vågor
 
 <p>
 
-* **&quot;custom_properties&quot;-fält**
+* **Borttagningar av Salesforce-fält**
 
-I vårt datalager har fältet&quot;custom_properties&quot; använts som lagring för ytterligare datapunkter som inte omfattas av vårt fasta schema. Det här fältets användning är begränsad och det kan vara komplicerat att integrera det med SQL-frågor, vilket påverkar prestandan. Detta lagras i JSON-format. Med tanke på dessa faktorer har vi beslutat att ta bort det här fältet. Den här ändringen påverkar i huvudsak databehandlingslagret i Azure-tabellagringen och de data som exporteras till vårt datalager.
+Vi kommer att fasa ut våra exportjobb till Lead/Contact-objekt för att förenkla vår integrering och eliminera behovet av att exportera standardobjekt till Salesforce. De normaliserade fälten som anges nedan kommer också att bli inaktuella, eftersom kunderna kan hämta samma data från sina Touchpoint-objekt. _**Tidslinjen för borttagning är juni 2024.**_
+
+<table style="width:300px">
+<tbody>
+  <tr>
+    <td>bizible2_Ad_Campaign_Name_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Ad_Campaign_Name_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Landing_Page_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Landing_Page_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Touchpoint_Date_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Touchpoint_Date_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Touchpoint_Source_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Touchpoint_Source_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Marketing_Channel_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2_Marketing_Channel_LC__c</td>
+  </tr>
+</tbody>
+</table>
 
 * **Dynamics-paket relaterat**
 
    * Installera vår senaste paketversion, v6.12, om du vill vara ansluten till Dynamics. Gamla versioner `(<v6.12)` stöds inte längre. Den här uppdateringen optimerar postgenerering för historik för att minska lagringsanvändningen.
 
    * Den inaktuella metoden för OAuth med en RefreshToken kommer att bli inaktuell. Se [den här guiden](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} för att uppdatera dina autentiseringsuppgifter så att de följer Microsoft bästa praxis när det gäller att använda ClientSecret.
+
+* **&quot;custom_properties&quot;-fält**
+
+I vårt datalager har fältet&quot;custom_properties&quot; använts som lagring för ytterligare datapunkter som inte omfattas av vårt fasta schema. Det här fältets användning är begränsad och det kan vara komplicerat att integrera det med SQL-frågor, vilket påverkar prestandan. Detta lagras i JSON-format. Med tanke på dessa faktorer har vi beslutat att ta bort det här fältet. Den här ändringen påverkar i huvudsak databehandlingslagret i Azure-tabellagringen och de data som exporteras till vårt datalager.
 
 ### Vad kommer? {#q4-whats-coming}
 
