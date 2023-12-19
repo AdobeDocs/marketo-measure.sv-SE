@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva för att öka intäkterna för deras företag."
-source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
+source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -152,13 +152,16 @@ ht-degree: 0%
    + Kontrollpaneler {#dashboards}
       + [Grunderna i kontrollpanelen](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Ny guide för Discover Dashboard](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Instrumentpanel för intäktsöversikt](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Kontrollpanel för attributerade intäkter](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-        [Instrumentpanel för engagemang](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [Kontrollpanel för avkastning](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Passport Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [Kontrollpanel för webbtrafik](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [Synlighetsprincip för instrumentpanelsdata](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Kontrollpanel för attributerade intäkter](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Instrumentpanel för engagemang](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Kontrollpanel för ledarhastighet](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Kontrollpanel för snabbhet i affärsmöjlighet](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Passport Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Instrumentpanel för intäktsöversikt](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Kontrollpanel för avkastning](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Kontrollpanel för webbtrafik](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+
    + Äldre instrumentpaneler {#legacy-dashboards}
       + [Kohort Journey Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Dokumentation för Passport Dashboard](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
