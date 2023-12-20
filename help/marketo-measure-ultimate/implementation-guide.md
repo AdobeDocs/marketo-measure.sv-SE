@@ -1,19 +1,17 @@
 ---
 description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure] - Produktdokumentation'
 title: '''[!DNL Marketo Measure] Ultimate Implementation Guide'
-hide: true
-hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
+source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Measure] Ultimate Implementation Guide {#marketo-measure-ultimate-implementation-guide}
 
-INTRO SENTENCE
+Den här artikeln är en implementeringshandbok för Marketo Measure Ultimate som innehåller tydliga steg och insikter för att säkerställa en lyckad integrering och användning.
 
 ## De viktigaste skillnaderna när Ultimate används jämfört med standardnivåer {#main-differences-when-using-ultimate-over-standard-tiers}
 
@@ -84,7 +82,7 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
    >* Om du mappar en schematyp till en annan, kommer den att göras automatiskt.
    >* Du kan också importera mappning från ett annat flöde i systemet.
    >* Du kan mappa ett källfält till flera målfält, men inte tvärtom.
-   >* Du kan skapa beräkningsfält (ExL: Förmappningsfunktioner för data).
+   >* Du kan skapa beräkningsfält ([Funktioner för datapersonmappning](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Källor > Dataflöden för att kontrollera dataflödenas status
 * Om du vill visa dataflödesfel markerar du ett dataflöde, väljer ett dataflöde och klickar på Förhandsgranska feldiagnostik.
 
 ## Datainspektion {#data-inspection}
-
-ExL: Marketo Measure Ultimate Data Integrity Requirement Det här dokumentet innehåller obligatoriska fält för varje XDM samt inspektionsfrågor. Den kommer att publiceras i ExL. - DET ÄR REDAN TAGGAT OVAN - POST DET IGEN???
 
 Alternativ 1: Om du vill köra frågor direkt från användargränssnittet går du till fliken Frågor under Datahantering.
 
