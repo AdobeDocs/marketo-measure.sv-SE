@@ -4,7 +4,7 @@ title: '''[!DNL Marketo Measure] Ultimate Implementation Guide'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
+source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -32,13 +32,13 @@ De ultimata användarna kommer att etableras som AEP. Om de redan har AEP kommer
 
 * Den tilldelade AEP-versionen kommer att innehålla alla källanslutningar, schemadatamodellering, datauppsättningar, ad hoc-frågetjänst och endast en destination för Marketo Measure.
 
-Läs mer om [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md).
+Läs mer om [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
 ## Scheman och datauppsättningar {#schemas-and-datasets}
 
 >[!NOTE]
 >
->Checka ut [Byggblock i ett schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) för en översikt över scheman, klasser och fältgrupper.
+>Checka ut [Byggblock i ett schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} för en översikt över scheman, klasser och fältgrupper.
 
 **XDM-schema = klass + schemafältgrupp&#42;**
 
@@ -49,13 +49,13 @@ Läs mer om [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-me
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[Datauppsättningar - översikt](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): Alla data som har importerats till AEP lagras i Data Lake som datauppsättningar. En datauppsättning är en lagrings- och hanteringskonstruktion för en datamängd, vanligtvis en tabell, som innehåller ett schema (kolumner) och fält (rader).
+[Datauppsättningar - översikt](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}: Alla data som har importerats till AEP lagras i Data Lake som datauppsättningar. En datauppsättning är en lagrings- och hanteringskonstruktion för en datamängd, vanligtvis en tabell, som innehåller ett schema (kolumner) och fält (rader).
 
 ## Skapa ett schema {#creating-a-schema}
 
 Vi rekommenderar att du använder ett autogenereringsverktyg för att skapa 10 standardscheman för B2B.
 
-* Steg för att hämta och konfigurera verktyget [finns här](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
+* Steg för att hämta och konfigurera verktyget [finns här](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
 För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan Källor.
 
@@ -69,7 +69,7 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
 
 ## Dataflöden {#dataflows}
 
-[Översikt över dataflöden](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
+[Översikt över dataflöden](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **Steg för att skapa ett dataflöde:**
 
@@ -93,7 +93,7 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
 
    >[!NOTE]
    >
-   >[Marketo Measure Ultimate Data Integrity-krav](help/marketo-measure-ultimate/data-integrity-requirement.md)
+   >[Marketo Measure Ultimate Data Integrity-krav](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. Ange en datainläsningskadens.
 1. Granska och slutför.
@@ -114,7 +114,7 @@ Alternativ 1: Om du vill köra frågor direkt från användargränssnittet går 
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Alternativ 2: [Hämta och använda PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (snabbare och tillförlitligare)
+Alternativ 2: [Hämta och använda PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (snabbare och tillförlitligare).
 
 ## Aktivera datauppsättning för Marketo Measure {#activate-dataset-for-marketo-measure}
 
