@@ -4,7 +4,7 @@ title: Översikt över integreringsbehörigheter
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
+source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -18,13 +18,13 @@ I den här guiden beskrivs de nödvändiga behörigheterna för smidig integreri
 <table>
 <thead>
   <tr>
-    <th>Integrering</th>
-    <th>Datatyp
+    <th style="width:10%">Integrering</th>
+    <th style="width:20%">Datatyp
     <li>Webbinteraktionsdata</li>
     <li>Systemdata för B2B</li>
     <li>Ad Platform Data</li></th>
-    <th>Vad vi spårar</th>
-    <th>Behörighetskrav</th>
+    <th style="width:30%">Vad vi spårar</th>
+    <th style="width:40%">Behörighetskrav</th>
   </tr>
 </thead>
 <tbody>
