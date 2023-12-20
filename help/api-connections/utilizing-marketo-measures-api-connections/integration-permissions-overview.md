@@ -4,7 +4,7 @@ title: Översikt över integreringsbehörigheter
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
+source-git-commit: 1c3cd5ac9999550003765a9e1ed8d538224fe8a9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -33,24 +33,24 @@ I den här guiden beskrivs de nödvändiga behörigheterna för smidig integreri
     <td>Systemdata för B2B    
 </td>
     <td>Marketo Measure spårar:
-    <br>
+    <p>
     <li>Konto</li>
-<li>Campaign</li>
-<li>CampaignMember</li>
-<li>Kontakt</li>
-<li>CurrencyConversionRange</li>
-<li>CurrencyStatus</li>
-<li>Händelser</li>
-<li>FieldHistory (Lead, Contact, and Opportunity)</li>
-<li>Lead</li>
-<li>Möjligheter</li>
-<li>AffärsmöjlighetKontaktRoll</li>
-<li>OpportunityHistory</li>
-<li>Uppgifter</li>
-<br>
+    <li>Campaign</li>
+    <li>CampaignMember</li>
+    <li>Kontakt</li>
+    <li>CurrencyConversionRange</li>
+    <li>CurrencyStatus</li>
+    <li>Händelser</li>
+    <li>FieldHistory (Lead, Contact, and Opportunity)</li>
+    <li>Lead</li>
+    <li>Möjligheter</li>
+    <li>AffärsmöjlighetKontaktRoll</li>
+    <li>OpportunityHistory</li>
+    <li>Uppgifter</li>
+<p>
 Kontaktpunkter som skapats och andra data skrivs in i anpassade bizibla fält på konto, Campaign, CampaignMember, Case, Contact, Lead och Opportunity.</td>
-    <td><b>Salesforce-anslutna användarbehörigheter (krävs)</b>
-    <br>
+    <td><b>Salesforce-användarbehörigheter (krävs)</b>
+    <p>
     <b>Behörighetsuppsättning för Marketo Measure-administratör för dedikerad användare:</b> Tillåt SFDC-administratörer att utföra CRUD-åtgärder på markering för att mäta objekt.
     <br>
     <b>Visa och redigera behörighetsgrupp för konverterade leads:</b> På så sätt kan Marketo Measure dekorera leads efter att de har konverterats till kontakter.
