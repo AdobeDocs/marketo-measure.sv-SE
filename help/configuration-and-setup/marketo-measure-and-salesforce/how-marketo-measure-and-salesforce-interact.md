@@ -4,9 +4,9 @@ description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interact - Marketo
 title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interagera
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
+source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -42,148 +42,148 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Fält</p></th> 
-   <th><p>Standard/anpassad</p></th> 
-   <th><p>Läs</p></th> 
-   <th><p>Skriv</p></th> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>E-post</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>E-post</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Status</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Status</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SkapadDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SkapadDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SenastÄndradDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SenastÄndradDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedDate</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedContactId</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedContactId</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedOpportunityId</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedOpportunityId</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Webbplats</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Webbplats</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Företag</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Företag</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Account__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Account__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Source_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2_Touchpoint_Source_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -193,106 +193,106 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Fält</p></th> 
-   <th><p>Standard/anpassad</p></th> 
-   <th><p>Läs</p></th> 
-   <th><p>Skriv</p></th> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
   </tr> 
   <tr> 
-   <td><p>Konto</p></td> 
-   <td><p>Standard</p></td> 
+   <td>Konto</td> 
+   <td>Standard</td> 
    <td><span>x</span></td> 
    <td><br></td> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>E-post</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>E-post</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Skapad den</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Skapad den</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SenastÄndradDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SenastÄndradDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Source_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2_Touchpoint_Source_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,100 +302,100 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Fält</p></th> 
-   <th><p>Standard/anpassad</p></th> 
-   <th><p>Läs</p></th> 
-   <th><p>Skriv</p></th> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SkapadDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SkapadDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SenastÄndradDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SenastÄndradDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>AngivenE-post</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>AngivenE-post</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_FT__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Source_FT__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_LC__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2_Touchpoint_Source_LC__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,40 +405,40 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Fält</p></th> 
-   <th><p>Standard/anpassad</p></th> 
-   <th><p>Läs</p></th> 
-   <th><p>Skriv</p></th> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Webbplats</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Webbplats</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SenastÄndradDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SenastÄndradDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Engagement_Score__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2_Engagement_Score__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -448,76 +448,144 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Fält</p></th> 
-   <th><p>Standard/anpassad</p></th> 
-   <th><p>Läs</p></th> 
-   <th><p>Skriv</p></th> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
   </tr> 
   <tr> 
-   <td><p>Konto</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Namn</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td><br></td> 
-  </tr> 
+  </tr>
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Konto</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td><br></td> 
+  </tr>
+  <tr> 
+   <td>ID</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SkapadDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SkapadDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SenastÄndradDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SenastÄndradDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsWon</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsWon</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ÄrStängd</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ÄrStängd</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CloseDate</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>CloseDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>StageName</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>StageName</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Belopp</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Belopp</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Bizible_Opportunity_Amount__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2_Bizible_Opportunity_Amount__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Roll för säljprojektskontakt**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
+  </tr> 
+  <tr> 
+   <td>ID</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>SkapadDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>IsDeleted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>SenastÄndradDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>OpportunityId</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>KontaktID</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+
+<tr> 
+   <td>ÄrPrimär</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Roll</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -533,87 +601,87 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
  </colgroup> 
  <tbody> 
   <tr> 
-   <th><p>Fält</p></th> 
-   <th><p>Standard/anpassad</p></th> 
-   <th><p>Läs</p></th> 
-   <th><p>Skriv</p></th> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>E-post</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>E-post</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Status</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Status</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SkapadDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SkapadDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SenastÄndradDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SenastÄndradDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedDate</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedContactId</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedContactId</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedOpportunityId</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedOpportunityId</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Webbplats</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Webbplats</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Företag</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Företag</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Typ</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>Typ</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td><br></td> 
   </tr> 
  </tbody> 
@@ -624,100 +692,100 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Fält</p></th> 
-   <th><p>Standard/anpassad</p></th> 
-   <th><p>Läs</p></th> 
-   <th><p>Skriv</p></th> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SkapadDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SkapadDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SenastÄndradDatum</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>SenastÄndradDatum</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>FirstRespondedDate</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>FirstRespondedDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>hasResponded</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>hasResponded</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>KontaktID</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>KontaktID</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LeadId</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>LeadId</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CampaignId</p></td> 
-   <td><p>Standard</p></td> 
-   <td><p>x</p></td> 
+   <td>CampaignId</td> 
+   <td>Standard</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Bizible_Touchpoint_Date__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Bizible_Touchpoint_Date__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Date__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Status_Date__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Contact__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Status_Contact__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Leade__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Status_Leade__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Status_Opportunity__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2_Touchpoint_Status_Opportunity__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -747,262 +815,262 @@ Buyer Touchpoint är en [!DNL Marketo Measure] Anpassat objekt för att kapsla i
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Fält</p></th> 
-   <th><p>Standard/anpassad</p></th> 
-   <th><p>Läs</p></th> 
-   <th><p>Skriv</p></th> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Bizible_Person__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Bizible_Person__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_SF_Campaign__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_SF_Campaign__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_Path_c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_Path_c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Type__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Type__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Content__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Content__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Group_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Group_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Group_Name__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Group_Name__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Placement_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Name__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Placement_Name__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Name__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Name__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Form_URL__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL_Raw__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Form_URL_Raw__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Platform__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Platform__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Browser__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Browser__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_City__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_City__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Country__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Country__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Region__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Region__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Keyword_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_MatchType__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Keyword_MatchType__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Position__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Position__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_Text__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Keyword_Text__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_Raw__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_Raw__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Medium__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Medium__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Referrer_Page__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page_Raw__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Referrer_Page_Raw__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Search_Phrase__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Search_Phrase__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Source_c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Segment__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Segment__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_First_Touch__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_First_Touch__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Lead_Creation_Touch__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_Lead_Creation_Touch__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_U_Shaped__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_U_Shaped__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Destination_URL__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Destination_URL__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Case__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Case__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1014,34 +1082,34 @@ The [!DNL Marketo Measure] Personen är en [!DNL Marketo Measure] Anpassat objek
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Fält</p></th> 
-   <th><p>Standard/anpassad</p></th> 
-   <th><p>Läs</p></th> 
-   <th><p>Skriv</p></th> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Lead_c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Lead_c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Case__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Case__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1055,352 +1123,352 @@ Buyer Attribution Touchpoint är en [!DNL Marketo Measure] Anpassat objekt som k
 <table> 
  <tbody> 
   <tr> 
-   <th><p>Fält</p></th> 
-   <th><p>Standard/anpassad</p></th> 
-   <th><p>Läs</p></th> 
-   <th><p>Skriv</p></th> 
+   <th>Fält</th> 
+   <th>Standard/anpassad</th> 
+   <th>Läs</th> 
+   <th>Skriv</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Account__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Account__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_SF_Campaign__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_SF_Campaign__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Opportunity__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Opportunity__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Marketing_Channel_Path_c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Marketing_Channel_Path_c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Type__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Type__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Content__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Content__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Group_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Group_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Group_Name__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Group_Name__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Campaign_Name__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Campaign_Name__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Placement_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Placement_Name__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Placement_Name__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Name__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Name__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Form_URL__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Form_URL_Raw__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Form_URL_Raw__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Platform__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Platform__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Browser__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Browser__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_City__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_City__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Country__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Country__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Region__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Region__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_Id__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Keyword_Id__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_MatchType__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Keyword_MatchType__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Position__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Position__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Keyword_Text__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Keyword_Text__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Landing_Page_Raw__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Landing_Page_Raw__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Medium__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Medium__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Referrer_Page__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page_Raw__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Referrer_Page_Raw__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Search_Phrase__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Search_Phrase__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Date__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Date__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Touchpoint_Source_c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Touchpoint_Source_c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Segment__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Segment__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_First_Touch__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_First_Touch__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Lead_Conversion_Touch__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_Lead_Conversion_Touch__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_U_Shaped__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_U_Shaped__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_W_Shaped__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_W_Shaped__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Custom_Model__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_Custom_Model__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Custom_Model_2__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Attribution_Custom_Model_2__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_First_Touch__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_First_Touch__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Lead_Creation_Touch__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_Lead_Creation_Touch__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_U_Shaped__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_U_Shaped__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_W_Shaped__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_W_Shaped__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Custom_Model__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_Custom_Model__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Count_Custom_Model_2__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Count_Custom_Model_2__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Ad_Destination_URL__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Ad_Destination_URL__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_First_Touch__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Revenue_First_Touch__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Lead_Creation_Touch__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Revenue_Lead_Creation_Touch__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_U_Shaped__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Revenue_U_Shaped__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_W_Shaped__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Revenue_W_Shaped__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Custom_Model__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Revenue_Custom_Model__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Custom_Model_2__c</p></td> 
-   <td><p>Egen</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2_Revenue_Custom_Model_2__c</td> 
+   <td>Egen</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
  </tbody> 
 </table>
