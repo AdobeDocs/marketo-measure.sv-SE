@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva för att öka intäkterna för deras företag."
-source-git-commit: 1fc0b98c0aa1273e5aa70ba7b89672d689e734e1
+source-git-commit: 4d91899f6126a83b29170c7c5bbe146ed49ad9b0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 0%
       + [Bästa praxis för implementering [!DNL Marketo Measure] JavaScript](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [Lägger till [!DNL Marketo Measure] Skript](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Lägger till [!DNL Marketo Measure] Skript via Google Tag Manager](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
+      + [Data som samlats in med JavaScript](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
       + Lägger till [!DNL Marketo Measure] Skript till olika formulärleverantörer {#adding-marketo-measure-script-to-different-form-providers}
          + [Lägger till [!DNL Marketo Measure] JavaScript till Pardot](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [Lägger till [!DNL Marketo Measure] Skript till Lightroom Forms](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
