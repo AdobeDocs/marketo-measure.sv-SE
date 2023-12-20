@@ -2,7 +2,7 @@
 description: Data som samlats in med JavaScript - [!DNL Marketo Measure] - Produktdokumentation
 title: Data som samlats in med JavaScript
 feature: Tracking
-source-git-commit: 2be08b96fb9f6d027e80751db64f16a7f2893764
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -49,25 +49,25 @@ Marketo Measure samlar in följande gemensamma data för alla typer av förfråg
     <td>Frågeparameter</td>
     <td>_biz_u</td>
     <td>string</td>
-    <td>Bizible cookie ID</td>
+    <td>Bizible cookie ID.</td>
   </tr>
   <tr>
     <td>Frågeparameter</td>
     <td>_biz_l</td>
     <td>string</td>
-    <td>Aktuell sidadress</td>
+    <td>Aktuell sidadress.</td>
   </tr>
   <tr>
     <td>Frågeparameter</td>
     <td>_biz_t</td>
     <td>long</td>
-    <td>Tidstämpel för aktivitet</td>
+    <td>Tidsstämpel för aktivitet.</td>
   </tr>
   <tr>
     <td>Frågeparameter</td>
     <td>_biz_i</td>
     <td>string</td>
-    <td>Aktuell sidtitel</td>
+    <td>Aktuell sidtitel.</td>
   </tr>
 </tbody>
 </table>
@@ -104,7 +104,7 @@ Förutom de gemensamma data som anges ovan lägger bizible.js även till ytterli
     <td></td>
     <td>_biz_c</td>
     <td>string</td>
-    <td>Valfri parameter. Om den här parametern finns indikerar det att tenant konfigurerar bizible.js att vänta på användarens samtycke innan han/hon spårar, och att bizible.js har fått användarens medgivande att spåras.</td>
+    <td>Valfri parameter. Om den här parametern finns indikerar det att tenant konfigurerar bizible.js att vänta på användarens samtycke innan han/hon spårar, och att bizible.js har fått användarens samtycke till att spåras.</td>
   </tr>
   <tr>
     <td>Skicka formulär</td>
@@ -118,7 +118,7 @@ Förutom de gemensamma data som anges ovan lägger bizible.js även till ytterli
     <td>/u</td>
     <td>mapType</td>
     <td>enum</td>
-    <td>Vilken typ av användar-ID-mappning bizible.js har identifierats (Marketo munchkin id och Adobe ECID)</td>
+    <td>Vilken typ av användar-ID-mappning bizible.js har identifierats (Marketo Munchkin id och Adobe ECID)</td>
   </tr>
   <tr>
     <td></td>

@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva för att öka intäkterna för deras företag."
-source-git-commit: 4d91899f6126a83b29170c7c5bbe146ed49ad9b0
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,7 @@ ht-degree: 0%
 + API-anslutningar {#api-connections}
    + Använder [!DNL Marketo Measure]API-anslutningar {#utilizing-marketo-measures-api-connections}
       + [Integrerade annonsplattformar](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+      + [Översikt över integreringsbehörigheter](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [Bästa tillvägagångssätt för API-anslutningar](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
       + [Hur budhanteringsverktygen påverkar [!DNL Marketo Measure]](api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
       + [[!DNL Marketo Measure] Parametrar](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
