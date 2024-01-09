@@ -4,9 +4,9 @@ title: Översikt över integreringsbehörigheter
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: d7ded9075f7f5831314d59294327f1e4928baf8a
+source-git-commit: 3d4ee7c71ed241c8e3885b4db57168f753dcdf65
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ I den här guiden beskrivs de nödvändiga behörigheterna för smidig integreri
 <thead>
   <tr>
     <th style="width:10%">Integrering</th>
-    <th style="width:20%">Datatyp
+    <th style="width:25%">Datatyp
     <li>Webbinteraktionsdata</li>
     <li>Systemdata för B2B</li>
     <li>Ad Platform Data</li></th>
-    <th style="width:30%">Vad vi spårar</th>
+    <th style="width:25%">Vad vi spårar</th>
     <th style="width:40%">Behörighetskrav</th>
   </tr>
 </thead>
@@ -60,6 +60,7 @@ Kontaktpunkter som skapats och andra data skrivs in i anpassade bizibla fält p�
     <b>Marketo Measure Standard User:</b> Ger en användare möjlighet att läsa poster från Marketo Measure-objekt.
     <p>
     <b>Salesforce-standardfältbehörigheter</b>
+    <br>
     <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce-standardobjekt och -åtkomst</a>
     <p>
     <b>Salesforce-anpassade fältbehörigheter</b>
@@ -94,11 +95,11 @@ Kontaktpunkter som skapats och andra data skrivs in i anpassade bizibla fält p�
 <p>
 Kontaktpunkter som skapats och andra data skrivs in i anpassade bizibla fält på konto, Campaign, CampaignResponse, Contact, Lead, List, Opportunity och PhoneCall</td>
     <td><b>Marketo Measure användarbehörigheter</b>
-<p>
+<br>
 Vi rekommenderar att du skapar en dedikerad Marketo Measure-användare i Dynamics så att du kan exportera och importera data till för att undvika problem med andra användare i CRM. Notera användarnamn och lösenord liksom URL-adressen till slutpunkten som kommer att användas när du skapar Marketo Measure-kontot.
 <p>
 <b>Säkerhetsroller</b>
-<p>
+<br>
 Om din organisation använder Dynamics-säkerhetsroller måste du kontrollera att den anslutna användaren eller den dedikerade Marketo Measure-användaren har tillräcklig läs-/skrivbehörighet för de nödvändiga enheterna.
 <br>
 Säkerhetsroller finns här: Inställningar &gt; Säkerhet &gt; Säkerhetsroller
@@ -132,21 +133,36 @@ Marketo Measure spårar konton, kampanjer, annonsgrupper, annonser, filter-ID oc
 <li>E-postbehörighet krävs för att användare ska kunna logga in på sin Facebook-e-postadress.</li>
 <p>
 <b>Omfång</b>
-<p>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
 <br>
 <li>Skapa kampanjer, hantera annonser och hämta statistik via programmering.</li>
 <li>Bygg annonsverktyg som ger innovativa lösningar och ett differentierat värde för annonsörer.</li>
-<p>
+<br>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/email">e-post</a>
 <br>
 <li>Kommunicera med människor och låt dem logga in i din app med den e-postadress som är kopplad till deras Facebook-profil.</li></td>
   </tr>
   <tr>
     <td>LinkedIn</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Ad Platform Data
+    <p>
+    Systemdata för B2B (Lead Gen-formulärdata, inklusive formulär och inskickade formulär, som kategoriseras som CRM-aktivitet).</td>
+    <td>Marketo Measure håller på att spåra LinkedIn Ads Campaigns, Creative Cloud och kostnadsdata, liksom Lead Gen Forms och svar. Baserat på importerade data kan vi generera kontaktpunkter från LinkedIn och koppla leadformulärssvar till leads för kunder.</td>
+    <td><li>Kampanjhanteraren eller kontohanterarrollen krävs för att Marketo Measure ska kunna hämta kostnadsdata. (Omfattningsrad 1)</li>
+    <br>
+    <li>För att Marketo Measure ska få åtkomst till data i lead-genererade formulär krävs superadmin (sidadministratörsroll, omfångsrad 2) eller lead-Gen Forms Manager (rollen för betald mediaadministratör, omfångsrad 3)</li>
+    <br>
+    <li>Superadmin (sidadministratörsroll, omfångsrad 2) eller sponsrad innehållsförhandsgranskning (rollen Betald medieadministratör, omfångsrad 3) krävs för att Marketo Measure ska kunna hantera automatisk taggning</li>
+    <p>
+    <b>Omfång</b>
+    <br>
+    <a href="https://www.linkedin.com/campaignmanager/accounts">Ställ in användarroll på portalen (kräver inloggning på LinkedIn-konto)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Översikt över användarroller</a>: Användarroll, visa och hantera användarbehörighet, tilldela roller som kontohanterare eller kampanjhanterare
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Konfigurera sidadministratörsroll - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Rolldefinitioner för sidadministratör</a>: Sidadministratörsroll, på den önskade administratörssidan
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Ställ in rollen för betald mediaadministratör (sök efter betald mediaadministratör) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">Definitioner för betald medieadministratör</a>: Roller för betald medieadministratör</td>
   </tr>
   <tr>
     <td>Dubbelklicka</td>
