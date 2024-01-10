@@ -2,7 +2,7 @@
 description: Instrumentpanel för engagemang - [!DNL Marketo Measure] - Produkt
 title: Instrumentpanel för engagemang
 feature: Reporting
-source-git-commit: 96a10a202e72f43c45041a4cb37a244d1722db17
+source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Frågor som kontrollpanelen besvarar:
 * Kontakter: Det totala antalet personer som har några kontaktytor.
 * Kontaktpunkter per person: Genomsnittligt antal kontaktytor per person som har berörts.
 
-## Kontaktpunkter och personer som rör sig över tiden {#touchpoints-and-people-touched-over-time}
+### Kontaktpunkter och personer som rör sig över tiden {#touchpoints-and-people-touched-over-time}
 
 I tidsseriediagrammet visas antalet kontaktytor, kontaktpunkter och kontaktytor per person för varje månad, kvartal och år.
 
@@ -46,7 +46,7 @@ Frågor om diagramsvaren:
 
 ![](assets/engagement-dashboard-1.png)
 
-## Kontaktpunkter/Personer som berörs av kanal {#touchpoints-people-touched-by-channel}
+### Kontaktpunkter/Personer som berörs av kanal {#touchpoints-people-touched-by-channel}
 
 Stolpdiagram som visar kontaktytor eller personer som berörts segmenterade efter kanal/underkanal/kampanj.
 
