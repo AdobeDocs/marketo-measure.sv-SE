@@ -3,10 +3,10 @@ description: '[!DNL Marketo Measure] Integrering med Adobe Launch - [!DNL Market
 title: '''[!DNL Marketo Measure] Integrering med Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 1b583dac72aadff5d7c2352a064e2ff842b91891
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '272'
+ht-degree: 1%
 
 ---
 
@@ -44,13 +44,13 @@ När programmet installeras och konfigureras i Adobe Launch [!DNL Marketo Measur
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-4.png)
 
-1. I fältet Bizible AccountId anger du webbplatsens URL.
+1. I fältet Bizible AccountId skriver du webbplatsens URL (t.ex. `adobe.com`).
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-5.png)
 
    >[!NOTE]
    >
-   >Det här fältet är inte &quot;konto-ID&quot; i tabellen Business_Prod.Business. Alla webbaktiviteter från den angivna URL:en mappas till [!DNL Marketo Measure] tenant.
+   >Det här fältet är inte &quot;konto-ID&quot; i tabellen Business_Prod.Business. Alla webbaktiviteter från angiven URL (t.ex. `adobe.com`) mappas till [!DNL Marketo Measure] tenant.
 
 1. Klicka på **[!UICONTROL Save]**.
 
