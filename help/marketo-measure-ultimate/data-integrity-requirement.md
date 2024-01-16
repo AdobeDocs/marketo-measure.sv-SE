@@ -3,7 +3,7 @@ description: '[!DNL Marketo Measure] Ultimat dataintegritetskrav - [!DNL Marketo
 title: '''[!DNL Marketo Measure] Ultimate Data Integrity Required'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: e1c401ae41b5aeedf0c3c8b75a82f680a0dcbefb
+source-git-commit: b5277eef02d22b1f8cc10c184f232adb2ad7ac06
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -407,7 +407,7 @@ ht-degree: 0%
       <td>b2b.personStatus</td>
       <td>string</td>
       <td>Status</td>
-      <td><font color="red">Ja för endast lead-personType</font></td>
+      <td><b><i>Ja för endast lead-personType</i></b></td>
       <td>Endast obligatoriskt om b2b.personType är Lead</td>
     </tr>
     <tr>
@@ -431,7 +431,7 @@ ht-degree: 0%
       <td>b2b.isConverted</td>
       <td>boolesk</td>
       <td>IsConverted</td>
-      <td><font color="red">Ja för endast lead-personType</font></td>
+      <td><b><i>Ja för endast lead-personType</i></b></td>
       <td>Endast obligatoriskt om b2b.personType är Lead</td>
     </tr>
     <tr>
