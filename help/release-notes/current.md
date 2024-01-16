@@ -3,7 +3,7 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure] - Produktdokum
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Den nya uppsättningen färdiga kontrollpaneler planeras att lanseras i vågor s
 
 >[!NOTE]
 >
->De aktuella instrumentpanelerna kommer att vara borttagna i mitten av januari 2024, men du kan använda båda versionerna fram till dess, vilket ger en smidig övergång.
+>Även om de aktuella instrumentpanelerna kommer att vara borttagna i mars 2024 kan du använda båda versionerna fram till dess, vilket ger en smidig övergång.
 
 **Ta bort IP-adressdata**
 
@@ -96,7 +96,7 @@ Den nya uppsättningen förbyggda kontrollpaneler planeras att lanseras i vågor
 
 >[!NOTE]
 >
->De aktuella instrumentpanelerna kommer att vara borttagna i mitten av januari 2024, men du kan använda båda versionerna fram till dess, vilket ger en smidig övergång.
+>Även om de aktuella instrumentpanelerna kommer att vara borttagna i mars 2024 kan du använda båda versionerna fram till dess, vilket ger en smidig övergång.
 
 ### Undertryckningar {#deprecations}
 
