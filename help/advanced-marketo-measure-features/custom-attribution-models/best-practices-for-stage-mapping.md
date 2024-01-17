@@ -3,16 +3,16 @@ description: Metodtips för scenmappning - [!DNL Marketo Measure] - Produktdokum
 title: Metodtips för scenmappning
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # Metodtips för scenmappning {#best-practices-for-stage-mapping}
 
-## Ökning {#overview}
+## Översikt {#overview}
 
 Avsnittet Stage Mapping i [!DNL Marketo Measure] kontot visar de faser som [!DNL Marketo Measure] hämtar automatiskt från din CRM och alla anpassade stadier som du har definierat om du använder den anpassade attributmodellen. Giltigheten hos [!DNL Marketo Measure] data är beroende av att dessa steg ordnas korrekt, så att [!DNL Marketo Measure] kan förstå er tratt och utvecklingen av register genom hela tratten.
 
@@ -31,6 +31,9 @@ Oavsett om du utvärderar din Stage Mapping för första gången eller bara gran
    * Ett booleskt fält är den bästa metoden
 * Observera att avsnittet Lead- eller Kontaktstadium är uppdelat i Förlorat, Öppna och Konverterad. Kontrollera att stadierna är i rätt scenavsnitt
    * Om du har en scen i ett felaktigt scenavsnitt kan det resultera i mycket felaktigt [!DNL Marketo Measure] data
+   * Om du är kund hos Marketo Measure Ultimate och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda de två fält nedan som är specifika för lead ([läs mer här](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+      * b2b.personStatus
+      * b2b.isConverted
 * Observera att avsnittet för säljprojektsfasen är uppdelat i Förlorat, Öppna och Von. Kontrollera att faserna befinner sig i rätt fasavsnitt
    * Om du har en scen i ett felaktigt scenavsnitt kan det resultera i mycket felaktigt [!DNL Marketo Measure] intäktsdata för pipeline
 * Undvik att använda duplicerade scennamn (systemet identifierar dem och tar automatiskt bort ett).

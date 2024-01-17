@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure] - Produktdokumentation'
 title: '''[!DNL Marketo Measure] Ultimate Implementation Guide'
 feature: Integration, Tracking, Attribution
-source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,11 @@ Vi importerar inte automatiskt faser från användardata, så alla faser måste 
 ![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 Om faserna inte mappas kommer systemet inte att fungera eftersom det inte kommer att finnas någon plats för data.
+
+Om du är kund hos Marketo Measure Ultimate och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda de två fält nedan som är specifika för lead ([läs mer här](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+
+* b2b.personStatus
+* b2b.isConverted
 
 **Regler för kampanjmedlemmar:**
 

@@ -4,9 +4,9 @@ description: Anpassad segmentering - [!DNL Marketo Measure] - Produktdokumentati
 title: Anpassad segmentering
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,11 @@ Steg 4 - Lägg till filterregler.
 Om inga regler har ställts in för både Leads/Kontakter och Affärsmöjligheter visas bara en del av dina data. Om du inte konfigurerar säljprojektsreglerna kan du bara se lead-/kontaktdata utan tillhörande säljprojekt. Detsamma gäller om du inte ställer in regler för Leads/Kontakter. Du kan bara se Möjligheter utan associerade Leads/Kontakter.
 
 När du är klar klickar du [!UICONTROL Save] dubbelkontrollera allt och klicka sedan [!UICONTROL Save and Process]. Kom ihåg att du inte kan redigera inställningarna på sju dagar när du sparar och bearbetar som [!DNL Marketo Measure] formaterar om dina data under den här tiden.
+
+Om du är kund hos Marketo Measure Ultimate och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda de två fält nedan som är specifika för lead ([läs mer här](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+
+* b2b.personStatus
+* b2b.isConverted
 
 **Hur sparar jag de genererade rapporterna?**
 
