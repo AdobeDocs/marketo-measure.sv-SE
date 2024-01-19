@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
+source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
 workflow-type: tm+mt
-source-wordcount: '20697'
+source-wordcount: '20757'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,23 @@ Konton som importerats från källsystemet.
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00,000</td>
     </tr>
+    <tr>
+      <td><b>*</b> BRANSCHEN</td>
+      <td>varchar</td>
+      <td>Kontots primära verksamhet.</td>
+      <td>Detaljhandel, telekommunikation</td>
+    </tr>
+    <tr>
+      <td><b>*</b> LAND</td>
+      <td>varchar</td>
+      <td>Landdelen av kontots adress.</td>
+      <td>USA, Kanada</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Endast tillgängligt i Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
 
@@ -169,74 +184,34 @@ Mappningstabell mellan kända lead-/kontaktadresser och konton. Tabellen är tom
       <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13 000</td>
     </tr>
     <tr>
-      <td>
-        <p>ACCOUNT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID för källsystemkonto.</p>
-      </td>
-      <td>
-        <p>0013100001phrBAAY</p>
-      </td>
+      <td>ACCOUNT_ID</td>
+      <td>varchar</td>
+      <td>ID för källsystemkonto.</td>
+      <td>0013100001phrBAAY</td>
     </tr>
     <tr>
-      <td>
-        <p>E-POST</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>E-postadress som har mappats till kontot, antingen via kontaktrelationer eller lead-till-konto-mappning.</p>
-      </td>
-      <td>
-        <p>person@adobe.com</p>
-      </td>
+      <td>E-POST</td>
+      <td>varchar</td>
+      <td>E-postadress som har mappats till kontot, antingen via kontaktrelationer eller lead-till-konto-mappning.</td>
+      <td>person@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Det senast ändrade datumet för kontot från källsystemet.</p>
-      </td>
-      <td>
-        <p>2018-08-31 23:53:39 000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Det senast ändrade datumet för kontot från källsystemet.</td>
+      <td>2018-08-31 23:53:39 000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Skapad av kontot från källsystemet.</p>
-      </td>
-      <td>
-        <p>2018-08-18 22:01:32 000</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Skapad av kontot från källsystemet.</td>
+      <td>2018-08-18 22:01:32 000</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolesk</p>
-      </td>
-      <td>
-        <p>Om posten betraktas som borttagen eller inte.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolesk</td>
+      <td>Om posten betraktas som borttagen eller inte.</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -272,58 +247,29 @@ Aktiviteter som importerats från ett källsystem eller ett anslutet annonskonto
     <th><strong>Exempeldata</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Aktivitets-ID från källsystemet.</p>
-      </td>
-      <td>
-        <p>1678625515</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>Aktivitets-ID från källsystemet.</td>
+      <td>1678625515</td>
     </tr>
     <tr>
-      <td>
-        <p>LEAD_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>LEAD_ID</td>
+      <td>varchar</td>
       <td>ID för den lead som är associerad med aktiviteten.</td>
-      <td>
-        <p>15530482</p>
-      </td>
+      <td>15530482</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
+      <td>ID för kontakten som är associerad med aktiviteten.
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID för kontakten som är associerad med aktiviteten.</p>
-      </td>
-      <td>
-        <p>13792552</p>
-      </td>
+      <td>13792552</td>
     </tr>
     <tr>
-      <td>
-        <p>ACTIVITY_TYPE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID för aktivitetstypen från källsystemet.</p>
-      </td>
-      <td>
-        <p>104</p>
-      </td>
+      <td>ACTIVITY_TYPE_ID</td>
+      <td>varchar</td>
+      <td>ID för aktivitetstypen från källsystemet.</td>
+      <td>104</td>
     </tr>
     <tr>
       <td>ACTIVITY_TYPE_NAME</td>
@@ -372,7 +318,7 @@ Aktiviteter som importerats från ett källsystem eller ett anslutet annonskonto
       <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
-      <td>IS_DELETD</td>
+      <td>IS_DELETED</td>
       <td>boolesk</td>
       <td>Anger om posten betraktas som borttagen i källsystemet.</td>
       <td>false</td>
@@ -4388,18 +4334,10 @@ Kontakter som har importerats från källsystemet.
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>tal(38,0)</p>
-      </td>
-      <td>
-        <p>Sekundärnyckel till vyn Biz_Facts.</p>
-      </td>
-      <td>
-        <p>3263982503087870000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>tal(38,0)</td>
+      <td>Sekundärnyckel till vyn Biz_Facts.</td>
+      <td>3263982503087870000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -4419,8 +4357,17 @@ Kontakter som har importerats från källsystemet.
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00,000</td>
     </tr>
+    <tr>
+      <td><b>*</b> JOB_TITLE</td>
+      <td>varchar</td>
+      <td>Kontaktens befattning.</td>
+      <td>CEO, Vice President</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Endast tillgängligt i Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
 
@@ -10271,8 +10218,17 @@ Möjligheter som importerats från källsystemet.
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00,000</td>
     </tr>
+    <tr>
+      <td><b>*</b> OPPORTUNITY_TYPE</td>
+      <td>varchar</td>
+      <td>Typ av affärsmöjlighet, som Ny affärsverksamhet, Förnyelse osv.</td>
+      <td>Förnyelse, potentiell kund</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>*</b> <i>Endast tillgängligt i Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
 
