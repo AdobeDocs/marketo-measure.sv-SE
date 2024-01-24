@@ -3,9 +3,9 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure] - Produktdokum
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
+source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Den nya uppsättningen förbyggda kontrollpaneler planeras att lanseras i vågor
 
 Vi kommer att fasa ut våra exportjobb till Lead/Contact-objekt för att förenkla vår integrering och eliminera behovet av att exportera standardobjekt till Salesforce. De normaliserade fälten som anges nedan kommer också att bli inaktuella, eftersom kunderna kan hämta samma data från sina Touchpoint-objekt. _**Tidslinjen för borttagning är juni 2024.**_
 
-<table style="width:300px">
+<table style="width:350px">
 <tbody>
   <tr>
     <td>bizible2_Ad_Campaign_Name_FT__c</td>
@@ -140,6 +140,40 @@ Vi kommer att fasa ut våra exportjobb till Lead/Contact-objekt för att förenk
   </tr>
 </tbody>
 </table>
+
+De fält som innehåller samma information om Touchpoint- och Attribution Touchpoint-objekt är:
+
+* bizible2_Ad_Campaign_Name__c
+* bizible2_Landing_Page__c
+* bizible2_Marketing_Channel__c
+* bizible2_Touchpoint_Date__c
+* bizible2_Touchpoint_Source_c
+
+**Nödvändiga åtgärder**
+
+* Skapa nya rapporttyper för leads och kontakter med eller utan kontaktpunkter.
+
+![](assets/release-notes-2023-1.png)
+
+* Skapa rapporter som fångar funktionaliteten i befintliga rapporter som använder de borttagna fälten. Som en del av den här processen vill du ändra fälten i rapporten enligt vad som anges nedan:
+
+   * Ta bort fält för lead/kontakt-FT/LC:
+
+![](assets/release-notes-2023-2.png)
+
+* Lägg till Touchpoint-fält:
+
+![](assets/release-notes-2023-3.png)
+
+* Pekpunktsplaceringsfiltret och eventuella filter som använder FT/LC-fälten, inklusive datumfältet, ska uppdateras enligt följande:
+
+![](assets/release-notes-2023-4.png)
+
+![](assets/release-notes-2023-5.png)
+
+* Ta bort alla befintliga rapporter som använde de borttagna fälten från lead-/kontaktobjektet för att inte längre referera till dessa fält.
+
+<p>
 
 * **Dynamics-paket relaterat**
 
