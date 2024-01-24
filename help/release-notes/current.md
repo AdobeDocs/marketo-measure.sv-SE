@@ -3,7 +3,7 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure] - Produktdokum
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
+source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Den nya uppsättningen förbyggda kontrollpaneler planeras att lanseras i vågor
 
 <p>
 
-#### Borttagningar av Salesforce-fält {#salesforce-field-deprecations}
+#### Borttagningar av Salesforce-fält
 
 Vi kommer att fasa ut våra exportjobb till Lead/Contact-objekt för att förenkla vår integrering och eliminera behovet av att exportera standardobjekt till Salesforce. De normaliserade fälten som anges nedan kommer också att bli inaktuella, eftersom kunderna kan hämta samma data från sina Touchpoint-objekt. _**Tidslinjen för borttagning är juni 2024.**_
 
@@ -175,13 +175,13 @@ De fält som innehåller samma information om Touchpoint- och Attribution Touchp
 
 <p>
 
-* **Dynamics-paket relaterat**
+#### Dynamics-paket relaterat
 
-   * Installera vår senaste paketversion, v6.12, om du vill vara ansluten till Dynamics. Gamla versioner `(<v6.12)` stöds inte längre. Den här uppdateringen optimerar postgenerering för historik för att minska lagringsanvändningen.
+* Installera vår senaste paketversion, v6.12, om du vill vara ansluten till Dynamics. Gamla versioner `(<v6.12)` stöds inte längre. Den här uppdateringen optimerar postgenerering för historik för att minska lagringsanvändningen.
 
-   * Den inaktuella metoden för OAuth med en RefreshToken kommer att bli inaktuell. Se [den här guiden](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} för att uppdatera dina autentiseringsuppgifter så att de följer Microsoft bästa praxis när det gäller att använda ClientSecret.
+* Den inaktuella metoden för OAuth med en RefreshToken kommer att bli inaktuell. Se [den här guiden](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} för att uppdatera dina autentiseringsuppgifter så att de följer Microsoft bästa praxis när det gäller att använda ClientSecret.
 
-* **&quot;custom_properties&quot;-fält**
+#### &quot;custom_properties&quot;-fält
 
 I vårt datalager har fältet&quot;custom_properties&quot; använts som lagring för ytterligare datapunkter som inte omfattas av vårt fasta schema. Det här fältets användning är begränsad och det kan vara komplicerat att integrera det med SQL-frågor, vilket påverkar prestandan. Detta lagras i JSON-format. Med tanke på dessa faktorer har vi beslutat att ta bort det här fältet. Den här ändringen påverkar i huvudsak databehandlingslagret i Azure-tabellagringen och de data som exporteras till vårt datalager.
 
