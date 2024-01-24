@@ -4,9 +4,9 @@ description: Marketo Measure attribueringsmodeller - Marketo Measure - produktdo
 title: Marketo Measure attribueringsmodeller
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: aa12df4d0c77cdc677f78bcab19497806927ec2b
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Marketo Measure erbjuder sex typer av attribueringsmodeller:
 * Fullständig sökväg
 * Anpassad modell
 
-Dessa modeller varierar i komplexitet. First Touch och Lead Creation är våra enkla modeller med en knapptryckning. De återstående fyra är våra mer komplexa multitouch-modeller. Strukturen i Marketo Measure attribueringsmodeller återspeglar de fyra viktigaste kontaktytorna som uppstår under kundresan:
+Dessa modeller varierar i komplexitet. First Touch och Lead Creation är våra enkla modeller med en knapptryckning. De återstående fyra är våra mer komplexa multitouch-modeller. Strukturen på Marketo Measure attribueringsmodeller återspeglar de fyra viktigaste kontaktytorna under kundresan:
 
 * Första beröring (FT)
 * Skapa leads (LC)
@@ -31,7 +31,7 @@ Dessa modeller varierar i komplexitet. First Touch och Lead Creation är våra e
 
 ![](assets/1-1.png)
 
-I **modeller med en pekfunktion**attribueringskrediter tillskrivs endast en milstolpe - alltså namnet&quot;single-touch&quot;.
+I **modeller med en pekfunktion**attribueringskrediter tillskrivs bara en milstolpe - alltså namnet &quot;single-touch&quot;.
 I **multitouch-modeller**, tilldelas merparten av attribueringskrediten till två eller flera milstolpekontaktytor. Den återstående krediten tillskrivs kontaktytor som uppstår mellan milstolpepunkterna.
 
 De följande avsnitten behandlar varje attribueringsmodell och hur attribueringskrediten tilldelas.
@@ -42,7 +42,7 @@ De följande avsnitten behandlar varje attribueringsmodell och hur attribuerings
 
 Den första pekmodellen fokuserar bara på den allra första interaktionen en lead har med din organisation. Den här modellen attribuerar 100 % av attribueringskrediten till första gången leadet får kännedom om ditt företag, First Touch (FT).
 
-Säg att Kate besöker www.adobe.com för första gången via en Adwords Ad och tittar på ett whitepaper. Adwords-kanalen skulle få 100 % av attribueringskrediten från den affärsmöjligheten.
+Säg Kate-besök `www.adobe.com` för första gången via en Adwords Ad och visar ett whitepaper. Adwords-kanalen skulle få 100 % av attribueringskrediten från den affärsmöjligheten.
 
 ![](assets/2.png)
 
@@ -50,7 +50,7 @@ Säg att Kate besöker www.adobe.com för första gången via en Adwords Ad och 
 
 Leadgenereringsmodellen tilldelar 100 % av attribueringskrediten till LC-kontaktytan när en potentiell kund lämnar sin kontaktinformation och blir lead.
 
-Efter Kate första besök på www.adobe.com via Adwords besöker Austin webbplatsen via ett Linkedin-inlägg, vilket är en fortsättning på föregående exempel. Austin fyller i ett formulär och blir en lead. I den här modellen skulle Linkedin få 100 % av attribueringskrediten.
+Efter Kate första besök på `www.adobe.com` via Adwords besöker Austin webbplatsen via ett Linkedin-inlägg. Austin fyller i ett formulär och blir en lead. I den här modellen skulle Linkedin få 100 % av attribueringskrediten.
 
 ![](assets/3.png)
 
@@ -62,7 +62,7 @@ Multitouch-modeller används för längre och mer komplicerade säljcykler. Dess
 
 U-Shaped-modellen fokuserar på både FT- och LC-kontaktytorna. I den här modellen får FT- och LC-kontaktytan 50 % av intäktskrediten.
 
-Kate första besök på www.adobe.com via en Adwords och skulle få 50 % av attribueringskrediten. De återstående 50 % skulle tillskrivas den Linkedin-post som drev Austin att fylla i ett formulär och bli en ledare.
+Kate&#39;s first visit to `www.adobe.com` via en Adwords-annons skulle få 50 % av attribueringskrediten. De återstående 50 % skulle tillskrivas den Linkedin-post som drev Austin att fylla i ett formulär och bli en ledare.
 
 ![](assets/4.png)
 
@@ -86,4 +86,4 @@ Efter det att affärsmöjligheten har skapats bestämmer Kate, Austin och Hillar
 
 **Anpassad attributmodell**
 
-Marketo Measure erbjuder också en modell för anpassad attribuering som gör att användare kan välja vilka kontaktytor eller anpassade stadier som ska ingå i modellen. Dessutom kan användarna styra den procentandel av attribueringskrediten som tilldelats dessa kontaktytor och faser.
+Marketo Measure erbjuder också en modell för anpassad attribuering som gör att användare kan välja vilka kontaktytor eller anpassade stadier som ska ingå i modellen. Dessutom kan användarna styra den procentandel av attribueringskrediten som tilldelats dessa kontaktytor och faser. Om ett säljprojekt inte har någon dedikerad medelstor beröring fördelas procentandelen jämnt mellan andra befattningar.
