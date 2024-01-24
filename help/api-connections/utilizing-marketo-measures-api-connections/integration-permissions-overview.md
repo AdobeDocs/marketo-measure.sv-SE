@@ -4,9 +4,9 @@ title: Översikt över integreringsbehörigheter
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 3d4ee7c71ed241c8e3885b4db57168f753dcdf65
+source-git-commit: 95bdfe7c95111b6c6430e2de2b5eef050183fb0b
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -166,38 +166,74 @@ Marketo Measure spårar konton, kampanjer, annonsgrupper, annonser, filter-ID oc
   </tr>
   <tr>
     <td>Dubbelklicka</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Ad Platform Data</td>
+    <td>Marketo Measure håller på att spåra konton, annonsörer, kampanjer, (anpassade) landningssidor, annonser, kreatörer, praktik och webbplatser.</td>
+    <td><li>Användarens primära e-postadress för Google-konto krävs</li>
+<li>Behörigheter för Campaign Manager krävs för att få åtkomst till kontot för Campaign Manager 360</li>
+<ul>
+<li>Visa och hantera DoubleClick-annonsrapporter</li>
+<li>Visa och hantera annonskampanjer för DoubleClick Campaign Managers</li>
+<p>
+    <b>Omfång</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: Se din primära e-postadress för Google-kontot
+    <p>
+     <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>: Visa och hantera DoubleClick-rapporter för annonsörer
+    <p>
+     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: Visa och hantera era DCM-annonskampanjer (DoubleClick Campaign Manager)</td>
   </tr>
   <tr>
     <td>AdWords</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Ad Platform Data</td>
+    <td>Vi kan integrera med AdWords för att
+<p>
+<li>Importera kundannonser</li>
+<li>Importera kostnadsdata för kundannonser</li>
+<li>Uppdatera klientens annonser genom att lägga till URL-parametrar/uppdatera URL-spårningsmallar</li>
+<p>
+Marketo Measure spårar kampanjer, annonsgrupper, kreatörer, webbplatslänkar och nyckelord.</td>
+    <td><li>Användarens primära e-postadress för Google-konto krävs</li>
+<p>
+    <b>Omfång</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: Se din primära e-postadress för Google-kontot</td>
   </tr>
   <tr>
     <td>Bing</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Ad Platform Data</td>
+    <td>Marketo Measure spårar konton, kampanjer, annonsgrupper, kreatörer och nyckelord.</td>
+    <td><li>Användaren måste ge "offlineåtkomst" via sitt Microsoft-konto (vilket ger Marketo Measure åtkomst till slutanvändarens UserInfo även om användaren inte är inloggad). Se <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft page</a> hur man gör.</li>
+<p>
+    <b>Omfång</b>
+    <br>
+    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: Bevara åtkomst till data som du har gett behörighet.</td>
   </tr>
   <tr>
     <td>Marketo Engage</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Systemdata för B2B</td>
+    <td>Tack vare integreringen med Marketo kan Marketo Measure samla in Marketo aktiviteter, människor, program och programmedlemskap. Dessutom spårar Marketo Measure Marketo cookies (Munchkin ID) för att länka Marketo webbaktiviteter till Marketo Measure lead-kontaktytor, <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">enligt beskrivning här</a>:
+    <p>
+    <i>Som ett resultat av Marketo Measure-integrationen med Marketo mappas och synkroniseras Marketo Measure cookie-ID:t med Marketo Munchkin-ID:t. Detta gör att luckan stängs så att den anonyma första beröringen kan kopplas till en webbsession i stället för att både FT- och LC-beröringen kan kopplas till en Marketo-aktivitet.</i>
+    </td>
+    <td>Kunden måste skapa en dedikerad Marketo Engage API-användare och ange autentiseringsuppgifterna för Marketo Measure. Ingen ytterligare behörighetskonfiguration krävs. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md#configuring-the-integration">Läs mer</a>.</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Systemdata för B2B</td>
+    <td>Tack vare integreringen av B2B-kundattribut kan båda användare av Marketo Measure och Adobe Analytics berika sina Adobe Analytics-användarprofiler med värdefulla metadata som härleds från Marketo Measure attribueringsmotor och genom synkroniseringsmöjligheterna med CRM (Microsoft Dynamics och Salesforce). <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Läs mer</a>.</td>
+    <td>Kunden måste förse Marketo Measure med autentiseringsuppgifter för Alias ID och FTP-server till en plats där data överförs till deras Analytics-instans.
+    <p>
+    Observera följande information som du behöver för några av de senare stegen i processen:
+    <p>
+    <li>Alias-ID, som kan vara vilket värde som helst. Vi rekommenderar"marketomeasure_id"</li>
+    <li>FTP-serverns värdnamn och autentiseringsuppgifter (användarnamn och lösenord)</li>
+    <p>
+    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">Läs mer</a></td>
   </tr>
   <tr>
     <td>Bizible Javascript</td>
     <td></td>
-    <td></td>
+    <td><a href="/help/marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md">Vilka data bizible.js samlar in</a>.</td>
     <td></td>
   </tr>
 </tbody>
