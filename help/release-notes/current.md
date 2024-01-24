@@ -3,7 +3,7 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure] - Produktdokum
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Den nya uppsättningen förbyggda kontrollpaneler planeras att lanseras i vågor
 
 <p>
 
-* **Borttagningar av Salesforce-fält**
+#### Borttagningar av Salesforce-fält {#salesforce-field-deprecations}
 
 Vi kommer att fasa ut våra exportjobb till Lead/Contact-objekt för att förenkla vår integrering och eliminera behovet av att exportera standardobjekt till Salesforce. De normaliserade fälten som anges nedan kommer också att bli inaktuella, eftersom kunderna kan hämta samma data från sina Touchpoint-objekt. _**Tidslinjen för borttagning är juni 2024.**_
 
