@@ -4,7 +4,7 @@ title: Felmeddelanden
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
+source-git-commit: b4fadc6519761975736ce7a0e4f99a30c589c9af
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -18,10 +18,10 @@ Nedan visas en lista med fel som du kan få via meddelanden i appen eller e-post
 <table>
   <tbody>
     <tr>
-      <th>Felkod</th>
-      <th>Exempel på meddelanden</th>
-      <th>Beskrivning</th>
-      <th>Felsökningssteg</th>
+      <th style="width:31%">Felkod</th>
+      <th style="width:23%">Exempel på meddelanden</th>
+      <th style="width:23%">Beskrivning</th>
+      <th style="width:23%">Felsökningssteg</th>
     </tr>
     <tr>
       <td>API_DISABLED</td>
