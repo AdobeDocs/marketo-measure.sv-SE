@@ -1,10 +1,8 @@
 ---
 description: Översikt över integreringsbehörigheter - [!DNL Marketo Measure] - Produktdokumentation
 title: Översikt över integreringsbehörigheter
-hide: true
-hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 95bdfe7c95111b6c6430e2de2b5eef050183fb0b
+source-git-commit: e427f5e9f234917c033188116602d4798701118c
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 0%
