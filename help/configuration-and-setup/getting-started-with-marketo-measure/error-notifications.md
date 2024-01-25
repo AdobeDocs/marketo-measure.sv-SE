@@ -4,7 +4,7 @@ title: Felmeddelanden
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 656c84090c93adb55a661869061e9e0771ede03d
+source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Nedan visas en lista med fel som du kan få via meddelanden i appen eller e-post
           </ul>
           <p>Du kan även justera de CRM-krediter som Marketo Measure använder genom att följa stegen nedan:</p>
           <ul>
-            <li>Navigera till Inställningar → CRM → Allmänt</li>
+            <li>Navigera till <b>Inställningar</b> &gt; <b>CRM</b> &gt; <b>Allmänt</b></li>
             <li>Uppdatera gränsen för Daily CRM API<br/>
               <ul>
-                <li><b>Anteckning</b>: Standardvärdet är 100 000</li>
+                <li><b>Obs! Standardvärdet är 100 000</b></li>
               </ul>
             </li>
           </ul>
