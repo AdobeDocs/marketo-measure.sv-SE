@@ -4,9 +4,9 @@ description: '"[!DNL Microsoft Dynamics] Installationshandbok för CRM - Marketo
 title: "[!DNL Microsoft Dynamics] Installationshandbok för CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -175,3 +175,7 @@ För att [!DNL Marketo Measure] för att spåra dina webbaktiviteter finns det f
    >[!NOTE]
    >
    >När du inaktiverar Marketo Measure export av data till Dynamics tas inga befintliga data bort. Kontakta Dynamics Support om du behöver hjälp med att ta bort befintliga data.
+
+   >[!MORELIKETHIS]
+   >
+   >[Felmeddelanden](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

@@ -4,9 +4,9 @@ description: Vanliga frågor (flervaluta) - [!DNL Marketo Measure] - Produktdoku
 title: Vanliga frågor (flervaluta)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,7 @@ För den intresserade läsaren, här är varför det fungerar så här. Våra ko
 **Om kunden använde ett arbetsflöde för att fylla i ett konverterat fält, hur ska de använda det här fältet för att gå vidare?**
 
 Eftersom våra erbjudanden nu hanterar konverteringarna för kunden rekommenderar vi att de tar bort arbetsflödena och det anpassade fältet så att vi kan importera deras rådatamängd.
+
+>[!MORELIKETHIS]
+>
+>[Felmeddelanden](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
