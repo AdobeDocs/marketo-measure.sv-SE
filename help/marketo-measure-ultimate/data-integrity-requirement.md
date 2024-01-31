@@ -3,7 +3,7 @@ description: '[!DNL Marketo Measure] Ultimat dataintegritetskrav - [!DNL Marketo
 title: '''[!DNL Marketo Measure] Ultimate Data Integrity Required'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: b5277eef02d22b1f8cc10c184f232adb2ad7ac06
+source-git-commit: 23890f24412e234f9ab7c08b684b6064eac5d0ed
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -1366,7 +1366,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 Vi rekommenderar att du använder ett beräknat fält i fältmappning för att ange ett icke-NULL-värde som standardvärde för fältet. Följande är två exempel:
 
 * Om affärsmöjlighetsnamnet för vissa affärsmöjlighetsposter är null skapar och använder du följande beräknade fält i fältmappning
-   * `iif(name != null && name != "", name, "Unknown")`
+   * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * Om leadOperation.campaignProgression.campaignID för vissa upplevelsehändelseposter är null skapar och använder du följande beräknade fält i fältmappning
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
