@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
 workflow-type: tm+mt
-source-wordcount: '20781'
+source-wordcount: '20777'
 ht-degree: 0%
 
 ---
@@ -8120,9 +8120,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>Namnet på Internetleverantören, som används av kunder med avancerad IP-spårning för geo.</p>
-      </td>
+      <td>Förväntades vara null eftersom fältet är föråldrat.</td>
       <td>
         <p>AT&amp;T U-verterad</p>
       </td>
@@ -12037,9 +12035,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>Användarens internetleverantör</p>
-      </td>
+      <td>Förväntades vara null eftersom fältet är föråldrat.</td>
       <td>
         <p>AT&amp;T U-verterad</p>
       </td>
