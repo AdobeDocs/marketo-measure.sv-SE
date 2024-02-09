@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
+source-git-commit: 999758c34b0264b8dac06fd0675e26b312fa58d6
 workflow-type: tm+mt
-source-wordcount: '20777'
+source-wordcount: '20775'
 ht-degree: 0%
 
 ---
@@ -729,18 +729,10 @@ Annonsörer importerade från alla anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -1043,18 +1035,10 @@ Annonskonton som importerats från alla anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -1487,18 +1471,10 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -2092,18 +2068,10 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -2466,18 +2434,10 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -2548,18 +2508,10 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -3748,18 +3700,10 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -4061,18 +4005,10 @@ Marknadsföringskanaler, som de skapats i [!DNL Marketo Measure] program.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -4144,18 +4080,10 @@ Kontakter som har importerats från källsystemet.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -5026,18 +4954,10 @@ Kreatörer som har importerats från alla anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -5527,18 +5447,10 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -5740,18 +5652,10 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -6042,15 +5946,9 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
       <th>Exempeldata</th>
     </tr>
     <tr>
@@ -6205,15 +6103,9 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
       <th>Exempeldata</th>
     </tr>
     <tr>
@@ -6334,15 +6226,9 @@ Landningssidor som hämtats från alla anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
       <th>Exempeldata</th>
     </tr>
     <tr>
@@ -6619,18 +6505,10 @@ Mappningstabell för e-postadresser och besökar-ID.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -7540,17 +7418,11 @@ Insamlade formulärinskickat material.
   <tbody>
     <tr>
       <th>
-        <p>Kolumn</p>
+        Kolumn
       </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -7852,18 +7724,10 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -8121,9 +7985,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
         <p>varchar</p>
       </td>
       <td>Förväntades vara null eftersom fältet är föråldrat.</td>
-      <td>
-        <p>AT&amp;T U-verterad</p>
-      </td>
+      <td>NULL</td>
     </tr>
     <tr>
       <td>
@@ -8601,18 +8463,10 @@ Nyckelord som importerats från alla anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -9026,15 +8880,9 @@ Landningssidor som importerats från alla anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
       <th>Exempeldata</th>
     </tr>
     <tr>
@@ -9293,18 +9141,10 @@ Leads som importerats från källsystemet.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -9632,18 +9472,10 @@ Scenövergångar för Leads eller Kontakter.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -9909,18 +9741,10 @@ Möjligheter som importerats från källsystemet.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -10239,18 +10063,10 @@ Scenövergångar för affärsmöjligheter.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -10528,18 +10344,10 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -10853,15 +10661,9 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
       <th>Exempeldata</th>
     </tr>
     <tr>
@@ -11131,18 +10933,10 @@ Segmentvärden som definieras i [!DNL Marketo Measure] program.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -11214,18 +11008,10 @@ Kopplar namnet på det anpassade segmentet till dess kategorivärde. (Detta mapp
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -11309,18 +11095,10 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -12037,7 +11815,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       </td>
       <td>Förväntades vara null eftersom fältet är föråldrat.</td>
       <td>
-        <p>AT&amp;T U-verterad</p>
+        <p>NULL</p>
       </td>
     </tr>
     <tr>
@@ -12176,18 +11954,10 @@ Webbplatser som importerats från anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -12462,18 +12232,10 @@ Webbplatslänkar från anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -12801,18 +12563,10 @@ Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] p
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -14277,18 +14031,10 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
@@ -15178,18 +14924,10 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Kolumn</p>
-      </th>
-      <th>
-        <p>Datatyp</p>
-      </th>
-      <th>
-        <p>Beskrivning</p>
-      </th>
-      <th>
-        <p>Exempeldata</p>
-      </th>
+      <th>Kolumn</th>
+      <th>Datatyp</th>
+      <th>Beskrivning</th>
+      <th>Exempeldata</th>
     </tr>
     <tr>
       <td>
