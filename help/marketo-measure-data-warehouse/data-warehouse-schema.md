@@ -4,7 +4,7 @@ description: Data Warehouse Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: b7675bb771c41f6d0e0b2718e64a152c78e405af
+source-git-commit: 6cc1c20c2fa0e801b2c245a5a0473f0546b15da4
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 0%
@@ -357,349 +357,164 @@ Annonser som importerats från anslutna annonskonton.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p><strong>Kolumn</strong></p>
-      </th>
-      <th>
-        <p><strong>Datatyp</strong></p>
-      </th>
-      <th>
-        <p><strong>Beskrivning</strong></p>
-      </th>
-      <th>
-        <p><strong>Exempeldata</strong></p>
-      </th>
+      <th><strong>Kolumn</strong></th>
+      <th><strong>Datatyp</strong></th>
+      <th><strong>Beskrivning</strong></th>
+      <th><strong>Exempeldata</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Ett unikt ID för annonsen.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.605204428804.605204429004.60534570 66804</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>Ett unikt ID för annonsen.</td>
+      <td>fb.106851586409075.605204428804.605204429004.60534570 66804</td>
     </tr>
     <tr>
-      <td>
-        <p>DISPLAY_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Annons-ID från källsystemet.</p>
-      </td>
-      <td>
-        <p>6053457066804</p>
-      </td>
+      <td>DISPLAY_ID</td>
+      <td>varchar</td>
+      <td>Annons-ID från källsystemet.</td>
+      <td>6053457066804</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID för annonskontot som annonsen importerades från.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075</p>
-      </td>
+      <td>AD_ACCOUNT_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>ID för annonskontot som annonsen importerades från.</td>
+      <td>fb.106851586409075</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Namn på annonskontot som annonsen importerades från.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Konto</p>
-      </td>
+      <td>AD_ACCOUNT_NAME</td>
+      <td>varchar</td>
+      <td>Namn på annonskontot som annonsen importerades från.</td>
+      <td>[!DNL Marketo Measure] Konto</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id för annonsören för annonsen, speciellt för Doubleclick.</p>
-      </td>
-      <td>
-        <p>300181641</p>
-      </td>
+      <td>ADVERTISER_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Id för annonsören för annonsen, speciellt för Doubleclick.</td>
+      <td>300181641</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Namnet på annonsören för annonsen, särskilt för Doubleclick.</p>
-      </td>
-      <td>
-        <p>Marknadsföringsanalys</p>
-      </td>
+      <td>ADVERTISER_NAME</td>
+      <td>varchar</td>
+      <td>Namnet på annonsören för annonsen, särskilt för Doubleclick.</td>
+      <td>Marknadsföringsanalys</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID för annonsgruppen.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.6052044288804.6052044290004</p>
-      </td>
+      <td>AD_GROUP_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>ID för annonsgruppen.</td>
+      <td>fb.106851586409075.6052044288804.6052044290004</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Annonsgruppens namn.</p>
-      </td>
-      <td>
-        <p>Annonsuppsättning för annons B</p>
-      </td>
+      <td>AD_GROUP_NAME</td>
+      <td>varchar</td>
+      <td>Annonsgruppens namn.</td>
+      <td>Annonsuppsättning för annons B</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID för kampanj för annonsen.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.6052044288804</p>
-      </td>
+      <td>AD_CAMPAIGN_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>ID för kampanj för annonsen.</td>
+      <td>fb.106851586409075.6052044288804</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Namnet på annonskampanjen.</p>
-      </td>
-      <td>
-        <p>Kampanj för generering av leads</p>
-      </td>
+      <td>AD_CAMPAIGN_NAME</td>
+      <td>varchar</td>
+      <td>Namnet på annonskampanjen.</td>
+      <td>Kampanj för generering av leads</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_ACTIVE</p>
-      </td>
-      <td>
-        <p>boolesk</p>
-      </td>
-      <td>
-        <p>Huruvida annonsen fortfarande är aktiv i källsystemet eller inte.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_ACTIVE</td>
+      <td>boolesk</td>
+      <td>Huruvida annonsen fortfarande är aktiv i källsystemet eller inte.</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolesk</p>
-      </td>
-      <td>
-        <p>Anger om annonsen har tagits bort i källsystemet eller inte.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolesk</td>
+      <td>Anger om annonsen har tagits bort i källsystemet eller inte.</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Datum när posten senast ändrades.</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59 000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Datum när posten senast ändrades.</td>
+      <td>2018-08-02 06:35:59 000</td>
     </tr>
     <tr>
-      <td>
-        <p>FIRST_IMPORTED</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Datum då posten först importerades från källsystemet.</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59 000</p>
-      </td>
+      <td>FIRST_IMPORTED</td>
+      <td>timestamp_ntz</td>
+      <td>Datum då posten först importerades från källsystemet.</td>
+      <td>2018-08-02 06:35:59 000</td>
     </tr>
     <tr>
-      <td>
-        <p>NAMN</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Namnet på annonsen, från källsystemet.</p>
-      </td>
-      <td>
-        <p>Annons 2</p>
-      </td>
+      <td>NAMN</td>
+      <td>varchar</td>
+      <td>Namnet på annonsen, från källsystemet.</td>
+      <td>Annons 2</td>
     </tr>
     <tr>
-      <td>
-        <p>NEEDS_UPDATE</p>
+      <td>NEEDS_UPDATE</td>
+      <td>boolesk</td>
+      <td>Om annonsen behöver uppdateras för [!DNL Marketo Measure] taggning.
+      <p>(Diagnostikfält, används av intern bearbetning.)
       </td>
-      <td>
-        <p>boolesk</p>
-      </td>
-      <td>
-        <p>Om annonsen behöver uppdateras för [!DNL Marketo Measure] taggning.</p>
-        <p>(Diagnostikfält, används av intern bearbetning.)</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>GROUPING_KEY</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>GROUPING_KEY</td>
+      <td>varchar</td>
       <td>Diagnostikfält, används för intern bearbetning.</td>
-      <td>
-        <p>fb.106851586409075.6052044288804.6052044290004</p>
-      </td>
+      <td>fb.106851586409075.6052044288804.6052044290004</td>
     </tr>
     <tr>
-      <td>
-        <p>ENTITY_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Huvudobjektet eller entiteten för det här registret. I det här fallet "Ad".</p>
-      </td>
-      <td>
-        <p>Annons</p>
-      </td>
+      <td>ENTITY_TYPE</td>
+      <td>varchar</td>
+      <td>Huvudobjektet eller entiteten för det här registret. I det här fallet "Ad".</td>
+      <td>Annons</td>
     </tr>
     <tr>
-      <td>
-        <p>PROVIDER_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Namn på annonsprovidern för annonsen.</p>
-      </td>
-      <td>
-        <p>Facebook</p>
-      </td>
+      <td>PROVIDER_TYPE</td>
+      <td>varchar</td>
+      <td>Namn på annonsprovidern för annonsen.</td>
+      <td>Facebook</td>
     </tr>
     <tr>
-      <td>
-        <p>URL_CURRENT</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>URL-adressen till landningssidan.</p>
-        <p>(Diagnostikfält, för intern bearbetning.)</p>
+      <td>URL_CURRENT</td>
+      <td>varchar</td>
+      <td>URL-adressen till landningssidan.
+        <p>(Diagnostikfält, för intern bearbetning.)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_OLD</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Tidigare värde för URL_CURRENT.</p>
-        <p>(Diagnostikfält, för intern bearbetning.)</p>
+      <td>URL_OLD</td>
+      <td>varchar</td>
+      <td>Tidigare värde för URL_CURRENT.
+      <p>(Diagnostikfält, för intern bearbetning.)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_REQUESTED</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Vad URL:en kommer att dekoreras med [!DNL Marketo Measure] parametrar.</p>
-        <p>(Diagnostikfält, för intern bearbetning.)</p>
+      <td>URL_REQUESTED</td>
+      <td>varchar</td>
+      <td>Vad URL:en kommer att dekoreras med [!DNL Marketo Measure] parametrar.
+      <p>(Diagnostikfält, för intern bearbetning.)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_ALTENATIVES</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Importerad från källsystemet.</p>
-        <p>(Diagnostikfält, för intern bearbetning.)</p>
+      <td>URL_ALTENATIVES</td>
+      <td>varchar</td>
+      <td>Importerad från källsystemet.
+      <p>(Diagnostikfält, för intern bearbetning.)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>tal(38,0)</p>
-      </td>
-      <td>
-        <p>Sekundärnyckel till vyn Biz_Facts.</p>
-      </td>
-      <td>
-        <p>6008900572523230000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>tal(38,0)</td>
+      <td>Sekundärnyckel till vyn Biz_Facts.</td>
+      <td>6008900572523230000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -735,277 +550,126 @@ Annonsörer importerade från alla anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Ett unikt ID för Advertiser.</p>
-      </td>
-      <td>
-        <p>dc.6114.9143143</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>Ett unikt ID för Advertiser.</td>
+      <td>dc.6114.9143143</td>
     </tr>
     <tr>
-      <td>
-        <p>DISPLAY_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>DISPLAY_ID</td>
+      <td>varchar</td>
       <td>Advertiser-ID:t från källsystemet.</td>
       <td>9143143</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID för annonskontot som annonsen importerades från.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075</p>
-      </td>
+      <td>AD_ACCOUNT_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>ID för annonskontot som annonsen importerades från.</td>
+      <td>fb.106851586409075</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Namn på annonskontot som annonsen importerades från.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Konto</p>
-      </td>
+      <td>AD_ACCOUNT_NAME</td>
+      <td>varchar</td>
+      <td>Namn på annonskontot som annonsen importerades från.</td>
+      <td>[!DNL Marketo Measure] Konto</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ID för Advertiser, speciellt för Doubleclick.</p>
-      </td>
-      <td>
-        <p>300181641</p>
-      </td>
+      <td>ADVERTISER_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>ID för Advertiser, speciellt för Doubleclick.</td>
+      <td>300181641</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Advertiser, speciellt Doubleclick.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Marknadsföringsanalys</p>
-      </td>
+      <td>ADVERTISER_NAME</td>
+      <td>varchar</td>
+      <td>Advertiser, speciellt Doubleclick.</td>
+      <td>[!DNL Marketo Measure] Marknadsföringsanalys</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Förväntad att vara null eftersom det inte finns någon annonsgrupp ovanför Advertiser i någon annonshierarki.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_GROUP_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Förväntad att vara null eftersom det inte finns någon annonsgrupp ovanför Advertiser i någon annonshierarki.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Förväntad att vara null eftersom det inte finns någon annonsgrupp ovanför Advertiser i någon annonshierarki.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_GROUP_NAME</td>
+      <td>varchar</td>
+      <td>Förväntad att vara null eftersom det inte finns någon annonsgrupp ovanför Advertiser i någon annonshierarki.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Förväntas vara null eftersom det inte finns någon annonskampanj ovanför Advertiser i någon annonshierarki.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_CAMPAIGN_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Förväntas vara null eftersom det inte finns någon annonskampanj ovanför Advertiser i någon annonshierarki.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Förväntas vara null eftersom det inte finns någon kampanj ovanför annonskampanjen i någon annonshierarki.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_CAMPAIGN_NAME</td>
+      <td>varchar</td>
+      <td>Förväntas vara null eftersom det inte finns någon kampanj ovanför annonskampanjen i någon annonshierarki.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_ACTIVE</p>
-      </td>
-      <td>
-        <p>boolesk</p>
-      </td>
-      <td>
-        <p>Om Advertiser fortfarande är aktiv i källsystemet eller inte.</p>
-      </td>
-      <td>
-        <p>true</p>
-      </td>
+      <td>IS_ACTIVE</td>
+      <td>boolesk</td>
+      <td>Om Advertiser fortfarande är aktiv i källsystemet eller inte.</td>
+      <td>true</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolesk</p>
-      </td>
-      <td>
-        <p>Om Advertiser har tagits bort eller inte i källsystemet.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolesk</td>
+      <td>Om Advertiser har tagits bort eller inte i källsystemet.</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Datum när posten senast ändrades.</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59 000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Datum när posten senast ändrades.</td>
+      <td>2018-08-02 06:35:59 000</td>
     </tr>
     <tr>
-      <td>
-        <p>FIRST_IMPORTED</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Datum då posten först importerades från källsystemet.</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59 000</p>
-      </td>
+      <td>FIRST_IMPORTED</td>
+      <td>timestamp_ntz</td>
+      <td>Datum då posten först importerades från källsystemet.</td>
+      <td>2018-08-02 06:35:59 000</td>
     </tr>
     <tr>
-      <td>
-        <p>NAMN</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Advertiser-namnet från källsystemet.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Marknadsföringsanalys</p>
-      </td>
+      <td>NAMN</td>
+      <td>varchar</td>
+      <td>Advertiser-namnet från källsystemet.</td>
+      <td>[!DNL Marketo Measure] Marknadsföringsanalys</td>
     </tr>
     <tr>
-      <td>
-        <p>NEEDS_UPDATE</p>
+      <td>NEEDS_UPDATE</td>
+      <td>boolesk</td>
+      <td>Om annonseraren behöver uppdateras för [!DNL Marketo Measure] taggning.
+      <p>(Diagnostikfält, används av intern bearbetning.)
       </td>
-      <td>
-        <p>boolesk</p>
-      </td>
-      <td>
-        <p>Om annonseraren behöver uppdateras för [!DNL Marketo Measure] taggning.</p>
-        <p>(Diagnostikfält, används av intern bearbetning.)</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>GROUPING_KEY</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>GROUPING_KEY</td>
+      <td>varchar</td>
       <td>Diagnostikfält, används för intern bearbetning.</td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>ENTITY_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Huvudobjektet eller entiteten för det här registret. I det här fallet"Advertiser".</p>
-      </td>
-      <td>
-        <p>Annonsör</p>
-      </td>
+      <td>ENTITY_TYPE</td>
+      <td>varchar</td>
+      <td>Huvudobjektet eller entiteten för det här registret. I det här fallet"Advertiser".</td>
+      <td>Annonsör</td>
     </tr>
     <tr>
-      <td>
-        <p>PROVIDER_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Annonsleverantören för Advertiser.</p>
-      </td>
-      <td>
-        <p>Dubbelklicka</p>
-      </td>
+      <td>PROVIDER_TYPE</td>
+      <td>varchar</td>
+      <td>Annonsleverantören för Advertiser.</td>
+      <td>Dubbelklicka</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>tal(38,0)</p>
-      </td>
-      <td>
-        <p>Sekundärnyckel till vyn Biz_Facts.</p>
-      </td>
-      <td>
-        <p>6008900572523230000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>tal(38,0)</td>
+      <td>Sekundärnyckel till vyn Biz_Facts.</td>
+      <td>6008900572523230000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
