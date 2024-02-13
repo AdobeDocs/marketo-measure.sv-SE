@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 6cc1c20c2fa0e801b2c245a5a0473f0546b15da4
+source-git-commit: 79ac3c82c1b67cebc26fedb5e698e531537cce7f
 workflow-type: tm+mt
-source-wordcount: '20775'
+source-wordcount: '21115'
 ht-degree: 0%
 
 ---
@@ -705,12 +705,8 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>En unik identifierare för annonskontot.</p>
       </td>
@@ -722,9 +718,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ID för annonskonto från källsystemet.</td>
       <td>
         <p>6601259029</p>
@@ -734,9 +728,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Förväntades vara null eftersom detta är posten för annonskonton i annonshierarkin.</td>
       <td>null</td>
     </tr>
@@ -744,9 +736,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Förväntades vara null eftersom detta är posten för annonskonton i annonshierarkin.</td>
       <td>null</td>
     </tr>
@@ -754,9 +744,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntade att bli null eftersom det inte finns någon annonsör ovanför annonskonton i någon annonshierarki.</p>
       </td>
@@ -766,9 +754,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntade att bli null eftersom det inte finns någon annonsör ovanför annonskonton i någon annonshierarki.</p>
       </td>
@@ -778,9 +764,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntas vara null eftersom det inte finns någon annonsgrupp ovanför annonskonton i någon annonshierarki.</p>
       </td>
@@ -790,9 +774,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntas vara null eftersom det inte finns någon annonsgrupp ovanför annonskonton i någon annonshierarki.</p>
       </td>
@@ -802,9 +784,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntas vara null eftersom det inte finns någon annonskampanj ovanför annonskonton i någon annonshierarki.</p>
       </td>
@@ -814,9 +794,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntas vara null eftersom det inte finns någon annonskampanj ovanför annonskonton i någon annonshierarki.</p>
       </td>
@@ -851,12 +829,8 @@ Annonskonton som importerats från alla anslutna annonskonton.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -868,9 +842,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
@@ -882,9 +854,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Namn på annonskontot från källsystemet.</td>
       <td>
         <p>[!DNL Marketo Measure] Annonskonto</p>
@@ -909,9 +879,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostikfält, används för intern bearbetning.</td>
       <td></td>
     </tr>
@@ -919,9 +887,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huvudobjektet eller entiteten för det här registret. I det här fallet "Konto".</p>
       </td>
@@ -933,9 +899,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonseringsprovidern för annonskontot.</p>
       </td>
@@ -947,9 +911,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>ACCOUNT_CURRENCY_UNIT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Valutakoden som används för annonskontot från källsystemet.</p>
       </td>
@@ -961,9 +923,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>COMPANY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern bearbetning.</td>
       <td>1933789</td>
     </tr>
@@ -971,9 +931,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>KÄLLA</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Tolkad från URL:en från utm_source.</td>
       <td>
         <p>Social</p>
@@ -983,9 +941,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>MEDEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Tolkad från URL:en från utm_medium.</td>
       <td>
         <p>lisu07261601</p>
@@ -1051,9 +1007,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -1063,9 +1017,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td></td>
     </tr>
@@ -1073,9 +1025,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td></td>
     </tr>
@@ -1083,9 +1033,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Spårningsmallen som lagts till på nivå Ad Account för AdWords eller Bing för taggning av landningssidor.</p>
       </td>
@@ -1141,12 +1089,8 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Unikt ID för kampanjen.</p>
       </td>
@@ -1158,9 +1102,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Kampanj-ID:t från källsystemet.</td>
       <td>
         <p>285114995</p>
@@ -1170,9 +1112,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som kampanjen importerades från.</p>
       </td>
@@ -1184,9 +1124,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskontot som kampanjen importerades från.</p>
       </td>
@@ -1198,9 +1136,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för Campaigns annonsörer, särskilt för Doubleclick.</p>
       </td>
@@ -1212,9 +1148,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på Advertiser för Campaign, speciellt för Doubleclick.</p>
       </td>
@@ -1226,9 +1160,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns någon annonsgrupp ovanför Campaign i någon annonshierarki.</p>
       </td>
@@ -1240,9 +1172,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns någon annonsgrupp ovanför Campaign i någon annonshierarki.</p>
       </td>
@@ -1252,9 +1182,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Unikt ID för kampanjen, använd fältet ID i stället.</p>
       </td>
@@ -1264,9 +1192,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på Campaign, använd fältet Namn i stället.</p>
       </td>
@@ -1301,12 +1227,8 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -1318,9 +1240,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
@@ -1332,9 +1252,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på kampanjen.</p>
       </td>
@@ -1361,9 +1279,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostikfält, används för intern bearbetning.</td>
       <td></td>
     </tr>
@@ -1371,9 +1287,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huvudobjektet eller entiteten för det här registret. I det här fallet"Campaign".</p>
       </td>
@@ -1385,9 +1299,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonseringsprovidern för kampanjen.</p>
       </td>
@@ -1413,9 +1325,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td></td>
     </tr>
@@ -1423,9 +1333,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td></td>
     </tr>
@@ -1433,9 +1341,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td></td>
     </tr>
@@ -1443,9 +1349,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Spårningsmallen som lagts till på Campaign-nivån för AdWords eller Bing för taggning av landningssidor.</p>
       </td>
@@ -1509,12 +1413,8 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
   </tr>
   <tbody>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för annonsformuläret.</p>
       </td>
@@ -1526,9 +1426,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som annonseringsformuläret importerades från.</p>
       </td>
@@ -1540,9 +1438,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskontot som annonseringsformuläret importerades från.</p>
       </td>
@@ -1565,12 +1461,8 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -1582,9 +1474,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
@@ -1596,9 +1486,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Annonsformulärets namn.</p>
       </td>
@@ -1610,9 +1498,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huvudobjektet eller entiteten för det här registret. I det här fallet"AdForm".</p>
       </td>
@@ -1624,9 +1510,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonsprovidern för annonsformuläret.</p>
       </td>
@@ -1638,9 +1522,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>BESKRIVNING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Beskrivning av annonsformuläret.</p>
       </td>
@@ -1652,9 +1534,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>HEADLINE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Rubrik för annonsformuläret.</td>
       <td>
         <p>Det är dags att automatisera refinansieringsprocessen</p>
@@ -1664,9 +1544,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>LANDING_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Landnings-URL för annonseringsformuläret.</td>
       <td>
         <p>https://adobe.com/blog/refinancing-application-process/</p>
@@ -1676,9 +1554,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>FRÅGOR</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Lista med frågor för annonsformuläret.</td>
       <td>
         <p>Förnamn:Efternamn:E-postadress:Land/region:Jobbtitel:Företagsnamn</p>
@@ -1688,9 +1564,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>
         <p>STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Status för annonsformuläret.</p>
       </td>
@@ -1738,12 +1612,8 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för annonsgruppen.</p>
       </td>
@@ -1755,9 +1625,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Annonsgrupps-ID:t från källsystemet.</td>
       <td>
         <p>23105326115</p>
@@ -1767,9 +1635,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som annonskonfigurationen importerades från.</p>
       </td>
@@ -1781,9 +1647,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskontot som annonskonfigurationen importerades från.</p>
       </td>
@@ -1795,9 +1659,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntad att vara null eftersom det inte finns någon annonsgrupp i annonshierarkin i dubbelklickning.</p>
       </td>
@@ -1809,9 +1671,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntad att vara null eftersom det inte finns någon annonsgrupp i annonshierarkin i dubbelklickning.</p>
       </td>
@@ -1823,9 +1683,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det här är posten för annonsgruppen i hierarkin.</p>
       </td>
@@ -1837,9 +1695,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det här är posten för annonsgruppen i hierarkin.</p>
       </td>
@@ -1851,9 +1707,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för kampanj för annonskoncern.</p>
       </td>
@@ -1865,9 +1719,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på kampanj för annonskoncern.</p>
       </td>
@@ -1904,12 +1756,8 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -1921,9 +1769,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
@@ -1935,9 +1781,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Annonsgruppens namn.</p>
       </td>
@@ -1964,9 +1808,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostikfält, används för intern bearbetning.</td>
       <td></td>
     </tr>
@@ -1974,9 +1816,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huvudobjektet eller entiteten för det här registret. I det här fallet"AdGroup".</p>
       </td>
@@ -1988,9 +1828,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonsprovidern för annonskoncern.</p>
       </td>
@@ -2002,9 +1840,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_NETWORK_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Mediet/medierna som annonskoncernen körs på.</p>
       </td>
@@ -2016,9 +1852,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td></td>
     </tr>
@@ -2026,9 +1860,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td></td>
     </tr>
@@ -2036,9 +1868,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td></td>
     </tr>
@@ -2046,9 +1876,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Spårningsmallen som lagts till på nivå Ad Account för AdWords eller Bing för taggning av landningssidor.</p>
       </td>
@@ -2104,12 +1932,8 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för annonseringsprovidern.</p>
       </td>
@@ -2121,9 +1945,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Annonsleverantörens namn.</p>
       </td>
@@ -2178,12 +2000,8 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för Buyer Attribution Touchpoint (BAT).</p>
       </td>
@@ -2193,12 +2011,8 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -2210,9 +2024,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för affärsmöjligheten som BAT är hänförligt till.</p>
       </td>
@@ -2221,12 +2033,8 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>ID för kontakten som är kopplad till BAT.</p>
       </td>
@@ -2244,9 +2052,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för det konto som BAT tilldelas.</p>
       </td>
@@ -2258,9 +2064,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>USER_TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för användarkontaktpunkten som genererade BAT.</p>
       </td>
@@ -2272,9 +2076,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum för kontaktytan.</p>
       </td>
@@ -2292,9 +2094,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Typ av aktivitet, webbbesök, webbformulär, webbchatt, telefonsamtal, [CRM]-kampanj eller [CRM]-aktivitet. I CRM kallas det"Touchpoint Type".</p>
       </td>
@@ -2306,9 +2106,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KANAL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Kanalen som kontaktytan hamnar i, enligt definition i de anpassade kanaldefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till som"Marknadskanal - Sökväg".</p>
       </td>
@@ -2320,9 +2118,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den första kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</p>
       </td>
@@ -2334,9 +2130,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den andra kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</p>
       </td>
@@ -2348,9 +2142,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI3</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den tredje kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</p>
       </td>
@@ -2362,9 +2154,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI4</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den fjärde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td>
         <p>Nytt företag</p>
@@ -2374,9 +2164,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI5</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den femte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2384,9 +2172,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI6</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den sjätte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2394,9 +2180,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI7</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den sjunde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2404,9 +2188,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI8</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den åttonde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2414,9 +2196,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI9</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den nionde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2424,9 +2204,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI10</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den tionde kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2434,9 +2212,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI11</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den elfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2444,9 +2220,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI12</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den tolfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2454,9 +2228,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI13</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den 13:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2464,9 +2236,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI14</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den 14:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2474,9 +2244,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KATEGORI15</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den 15:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
@@ -2484,9 +2252,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>WEBBLÄSARE_NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen upptäckte den webbläsare som användaren var på under sessionen.</p>
       </td>
@@ -2498,9 +2264,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>WEBBLÄSARE_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade versionen av webbläsaren som användaren var på under sessionen.</p>
       </td>
@@ -2512,9 +2276,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade plattform som användaren var på under sessionen.</p>
       </td>
@@ -2526,9 +2288,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade versionen av plattformen som användaren var på under sessionen.</p>
       </td>
@@ -2540,9 +2300,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. I CRM kallas den"landningssida".</p>
       </td>
@@ -2554,9 +2312,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. En rå landningssida kommer att innehålla alla frågeparametrar i URL:en. I CRM kallas det"landningssida - Raw".</p>
       </td>
@@ -2568,9 +2324,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vanligtvis den externa landningssidan omedelbart innan användaren kommer till webbplatsen. I CRM kallas det"Refererarsida".</p>
       </td>
@@ -2582,9 +2336,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vanligtvis den externa landningssidan omedelbart innan användaren kommer till webbplatsen. En råhänvisningssida kan innehålla frågeparametrar i URL:en. I CRM refereras till"Refererarsida - Raw".</p>
       </td>
@@ -2596,9 +2348,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i tabellen Attribution_Touchpoints, utan i tabellen Form_Submits. I CRM refereras till som "formulär-URL".</p>
       </td>
@@ -2610,9 +2360,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>FORM_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i tabellen Attribution_Touchpoints, utan i tabellen Form_Submits. En sida med Raw-formulär kan innehålla frågeparametrar i URL:en. I CRM refereras till"Form URL - Raw".</p>
       </td>
@@ -2624,9 +2372,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när formuläret skickades.</p>
       </td>
@@ -2638,9 +2384,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>ORT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen identifierades den ort som användaren befann sig i under sessionen.</p>
       </td>
@@ -2652,9 +2396,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är det område som användaren befann sig i under sessionen.</p>
       </td>
@@ -2666,9 +2408,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>LAND</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen identifierades det land som användaren befann sig i under sessionen.</p>
       </td>
@@ -2680,9 +2420,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>MEDEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Används för att definiera mediet som resulterade i kontaktytan. Detta kan antingen tolkas ut från URL:en från utm_medium. Eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "cpc" eller "display".</p>
       </td>
@@ -2694,9 +2432,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Används för att definiera källan som resulterade i kontaktytan. Detta kan tolkas från URL:en från utm_source, vanligtvis inställd som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "Google AdWords" eller "Facebook". Refereras i CRM till"Kontaktpunktskälla".</p>
       </td>
@@ -2708,9 +2444,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Värdet som användaren angav i webbläsaren för att söka efter och hamnade på webbplatsen. Beroende på nyckelordsköp kan det här matcha nyckelorden som köpts från plattformen Betald sökning eller inte.</p>
       </td>
@@ -2722,9 +2456,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Annonsplattform [!DNL Marketo Measure] har kunnat lösa sig från, vanligtvis en av våra integreringspartners.</p>
       </td>
@@ -2736,9 +2468,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som annonsen löstes från.</p>
       </td>
@@ -2750,9 +2480,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonskontot som annonsen löstes från.</p>
       </td>
@@ -2764,9 +2492,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonseraren från annonskontot som annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -2778,9 +2504,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonseraren från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -2792,9 +2516,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för webbplatsen från annonskontot där annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -2806,9 +2528,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på webbplatsen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -2820,9 +2540,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för placeringen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -2834,9 +2552,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på placeringen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -2848,9 +2564,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för kampanjen från annonskontot där annonsen löstes.</p>
       </td>
@@ -2862,9 +2576,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på kampanjen från annonskontot där annonsen löstes.</p>
       </td>
@@ -2876,9 +2588,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskoncern från annonskontot där annonsen löstes från. Detta gäller endast Google Adwords.</p>
       </td>
@@ -2890,9 +2600,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskoncern från annonskontot där annonsen löstes från. Detta gäller endast Google AdWords.</p>
       </td>
@@ -2904,9 +2612,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
@@ -2918,9 +2624,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
@@ -2932,9 +2636,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för Creative-objektet från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -2946,9 +2648,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på det Creative-objekt från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -2960,9 +2660,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -2974,9 +2672,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den andra raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -2988,9 +2684,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Landningssidan som klickas igenom från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -3002,9 +2696,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det egna URL-namn som visas på sökannonsen, hämtat från annonskontot som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -3016,9 +2708,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för nyckelordet som köpts från köpet av betald sökning, hämtat från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -3030,9 +2720,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på det nyckelord som köpts från köpet av betald sökning, hämtat från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning)</p>
       </td>
@@ -3044,9 +2732,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den typ av matchning som hittas mellan sökfrasen och det köpta nyckelordet.</p>
       </td>
@@ -3357,6 +3043,163 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
   </tbody>
 </table>
 
+## BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
+
+Data som genereras från integrering med Attribution AI. Dessa fält är bara ifyllda för Marketo Measure Ultimate-kunder.
+
+<table>
+<thead>
+  <tr>
+    <th>Kolumn</th>
+    <th>Datatyp</th>
+    <th>Beskrivning</th>
+    <th>Exempeldata</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>CONVERSION_DATE</td>
+    <td>Tidsstämpel_ntz</td>
+    <td>konverteringsdatum</td>
+    <td>2020-01-01 01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_NAME</td>
+    <td>varchar</td>
+    <td>namnet på konverteringshändelsen (enligt vad kunden har angett i gränssnittsinställningen)</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>CONVERSION_ID</td>
+    <td>varchar</td>
+    <td>id för konverteringshändelsen (detta är det ursprungliga unika ID-värdet som skickades med händelsedataposten i källdatauppsättningen)</td>
+    <td>0013100001b44aGAAQ</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_EVENT_ID</td>
+    <td>varchar</td>
+    <td>ursprungligt MM-händelse-ID för konverteringshändelsen 
+    <br>mappar till en användarkontaktyta eller en scenövergång</td>
+    <td>00U0Z0000pCZmyUAG</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_ACCOUNT_ID</td>
+    <td>varchar</td>
+    <td>ursprungligt MM-konto-ID för konverteringshändelsen</td>
+    <td>0013100001kpAZxAAM</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_OPPORTUNITY_ID</td>
+    <td>varchar</td>
+    <td>ursprungligt MM-affärsmöjlighets-ID för konverteringshändelsen</td>
+    <td>0060Z00000lFHtOQAW</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_LEAD_ID</td>
+    <td>varchar</td>
+    <td>ursprungligt MM-lead-ID för konverteringshändelsen <br>är troligen null för det mesta</td>
+    <td>00Q0Z00013dw4GUAQ</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_CONTACT_ID</td>
+    <td>varchar</td>
+    <td>ursprungligt MM-kontakt-id för konverteringshändelsen
+    <br>är troligen null för det mesta</td>
+    <td>00331000032hMxRAAU</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_EVENT_TYPE</td>
+    <td>varchar</td>
+    <td>typ av konverteringshändelse (b2b = lead-konvertering, b2c = möjlighet-konvertering)</td>
+    <td>b2b</td>
+  </tr>
+  <tr>
+    <td>SCORE_DATE</td>
+    <td>Tidsstämpel_ntz</td>
+    <td>det datum då kontaktytorna senast bedömdes</td>
+    <td>2020-01-01 01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>INFLUENCED_PERCENT</td>
+    <td>number(38,35)</td>
+    <td>den del av konverteringen som varje kontaktyta ansvarar för</td>
+    <td>0,10</td>
+  </tr>
+  <tr>
+    <td>INCREMENTAL_PERCENT</td>
+    <td>number(38,35)</td>
+    <td>mängden marginell påverkan som direkt orsakas av en kontaktyta</td>
+    <td>0,25</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_DATE</td>
+    <td>Tidsstämpel_ntz</td>
+    <td>kontaktytpunkten eller scenens övergångsdatum</td>
+    <td>2020-01-01 01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_EVENT_ID</td>
+    <td>varchar</td>
+    <td>id för händelsen som genererade kontaktytan</td>
+    <td>00U3100000VLUnEEAX</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_OPPORTUNITY_ID</td>
+    <td>varchar</td>
+    <td>ID för affärsmöjligheten som är associerad med kontaktytan</td>
+    <td>0060Z00000lFHtOQAW</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_ACCOUNT_ID</td>
+    <td>varchar</td>
+    <td>ID för kontot som är associerat med kontaktytan</td>
+    <td>0013100001kpAZxAAM</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_LEAD_ID</td>
+    <td>varchar</td>
+    <td>ID för det lead som är associerat med kontaktytan</td>
+    <td>00Q0Z00013dw4GUAQ</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_CONTACT_ID</td>
+    <td>varchar</td>
+    <td>ID för kontakten som är kopplad till kontaktytan</td>
+    <td>00331000032hMxRAAU</td>
+  </tr>
+  <tr>
+    <td>COUNT_TO_CONVERSION</td>
+    <td>tal(38,0)</td>
+    <td>rangordningen eller det ordinära värdet för kontaktytan i kedjan som leder till konverteringshändelsen</td>
+    <td>10000</td>
+  </tr>
+  <tr>
+    <td>AAI_SOURCE_ID</td>
+    <td>varchar</td>
+    <td>sekundärnyckel till attribueringskälltabellen</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>_CREATED_DATE</td>
+    <td>Tidsstämpel_ntz</td>
+    <td>det datum då posten skapades i Snowflake</td>
+    <td>2020-01-01 01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>_MODIFIED_DATE</td>
+    <td>Tidsstämpel_ntz</td>
+    <td>det datum då posten senast ändrades i Snowflake</td>
+    <td>2020-01-01 01:01:00,000</td>
+  </tr>
+  <tr>
+    <td>_DELETED_DATE</td>
+    <td>Tidsstämpel_ntz</td>
+    <td>det datum då posten togs bort i Snowflake</td>
+    <td>2020-01-01 01:01:00,000</td>
+  </tr>
+</tbody>
+</table>
+
 ### BIZ_CAMPAIGN_MEMBERS {#biz-campaign-members}
 
 Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om Campaign Sync är inaktiverat.
@@ -3370,26 +3213,14 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Kampanjmedlems-ID från källsystemet.</p>
-      </td>
-      <td>
-        <p>00v0Z00001VzdLQAT</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
+      <td>Kampanjmedlems-ID från källsystemet.</td>
+      <td>00v0Z00001VzdLQAT</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det senaste ändringsdatumet för Campaign-medlemmen från källsystemet.</p>
       </td>
@@ -3398,12 +3229,8 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Skapad av Campaign-medlemmen från källsystemet.</p>
       </td>
@@ -3415,9 +3242,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>BIZIBLE_TOUCH_POINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum och tid som kunden ställer in för att åsidosätta kampanjdatumet och använd värdet för slutpunktsdatumet i stället.</p>
       </td>
@@ -3429,9 +3254,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den lead som kampanjmedlemmen är knuten till.</p>
       </td>
@@ -3443,23 +3266,15 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-post till den lead som kampanjmedlemmen är knuten till.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>ID för kontakten som kampanjmedlemmen är knuten till.</p>
       </td>
@@ -3471,23 +3286,17 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-post till den kontakt som kampanjmedlemmen är knuten till.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
       <td>
         <p>STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Status för Campaign-medlemmen, vanligtvis inställd på Skickat eller Svarat eller ett annat anpassat värde. Den här statusen är kopplad till Campaign_Sync_Type för att avgöra vilka kampanjmedlemmar som kontaktytorna ska skapas för.</p>
       </td>
@@ -3513,9 +3322,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>FIRST_RESPONDED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då kampanjmedlemmen först svarade.</p>
       </td>
@@ -3527,9 +3334,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på den relaterade kampanj som kampanjmedlemmen är en del av.</p>
       </td>
@@ -3541,9 +3346,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>CAMPAIGN_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den relaterade kampanj som kampanjmedlemmen är en del av.</p>
       </td>
@@ -3555,9 +3358,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>CAMPAIGN_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Typen som valts för den relaterade kampanj som kampanjmedlemmen är en del av. Typen används för att mappa marknadsföringskanalen.</p>
       </td>
@@ -3569,9 +3370,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>CAMPAIGN_SYNC_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Avgör vilka Campaign-medlemmar som kontaktytor ska skapas för. Möjliga värden är: Include_All, Include_Responded, Exclude_All.</p>
       </td>
@@ -3583,9 +3382,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>LEAD_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Granskningsfält, anger om en Buyer Touchpoint skapades för leadet eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
       </td>
@@ -3597,9 +3394,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>CONTACT_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Granskningsfält, anger om en Buyer Touchpoint skapades för kontakten eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
       </td>
@@ -3611,9 +3406,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       <td>
         <p>OPP_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Granskningsfält, anger om en slutpunkt för Buyer-attribut har skapats för säljprojektet eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
       </td>
@@ -3675,12 +3468,8 @@ Marknadsföringskanaler, som de skapats i [!DNL Marketo Measure] program.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för kanalen.</p>
       </td>
@@ -3692,9 +3481,7 @@ Marknadsföringskanaler, som de skapats i [!DNL Marketo Measure] program.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på kanalen.</p>
       </td>
@@ -3750,12 +3537,8 @@ Kontakter som har importerats från källsystemet.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Kontakt-ID:t från källsystemet.</p>
       </td>
@@ -3764,12 +3547,8 @@ Kontakter som har importerats från källsystemet.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när kontaktposten senast ändrades från källsystemet.</p>
       </td>
@@ -3778,12 +3557,8 @@ Kontakter som har importerats från källsystemet.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum kontaktposten skapades från källsystemet.</p>
       </td>
@@ -3795,23 +3570,17 @@ Kontakter som har importerats från källsystemet.
       <td>
         <p>E-POST</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Kontaktens e-postadress från källsystemet.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
       <td>
         <p>KONTO</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för det konto som är relaterat till kontakten.</p>
       </td>
@@ -3823,9 +3592,7 @@ Kontakter som har importerats från källsystemet.
       <td>
         <p>LEAD_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Källa där lead skapades.</p>
       </td>
@@ -3837,9 +3604,7 @@ Kontakter som har importerats från källsystemet.
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Aktuell fas av kontakten, identifieras som en anpassad fas som kan skapas i [!DNL Marketo Measure] program.</p>
       </td>
@@ -3851,9 +3616,7 @@ Kontakter som har importerats från källsystemet.
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Alla tidigare steg för kontakten, identifieras som anpassade steg som kan skapas i [!DNL Marketo Measure] program.</p>
       </td>
@@ -3879,9 +3642,7 @@ Kontakter som har importerats från källsystemet.
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
@@ -4160,9 +3921,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som hämtats från annonsanslutningen.</p>
       </td>
@@ -4174,9 +3933,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskontot som hämtats från annonsanslutningen.</p>
       </td>
@@ -4202,9 +3959,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för Campaign som hämtats från annonsanslutningen.</p>
       </td>
@@ -4216,9 +3971,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på den kampanj som hämtats från annonsanslutningen.</p>
       </td>
@@ -4244,9 +3997,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskoncern som hämtats från annonsanslutningen.</p>
       </td>
@@ -4258,9 +4009,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskoncern som hämtats från annonsanslutningen.</p>
       </td>
@@ -4286,9 +4035,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonsen som hämtats från annonsanslutningen.</p>
       </td>
@@ -4300,9 +4047,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på den annons som hämtats från annonsanslutningen.</p>
       </td>
@@ -4328,9 +4073,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den Creative som hämtats från annonsanslutningen.</p>
       </td>
@@ -4342,9 +4085,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på den Creative som hämtats från annonsanslutningen.</p>
       </td>
@@ -4370,9 +4111,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för nyckelordet som hämtats från annonsanslutningen.</p>
       </td>
@@ -4384,9 +4123,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på det nyckelord som hämtats från annonsanslutningen.</p>
       </td>
@@ -4412,9 +4149,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för placeringen som hämtats från annonsanslutningen.</p>
       </td>
@@ -4426,9 +4161,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på placeringen som hämtats från annonsanslutningen.</p>
       </td>
@@ -4454,9 +4187,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den webbplats som hämtats från annonsanslutningen.</p>
       </td>
@@ -4468,9 +4199,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på den webbplats som hämtats från annonsanslutningen.</p>
       </td>
@@ -4624,12 +4353,8 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för den kreativa.</p>
       </td>
@@ -4641,9 +4366,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Creative-ID:t från källsystemet.</td>
       <td>
         <p>10426699711</p>
@@ -4653,9 +4376,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som Creative Cloud importerades från.</p>
       </td>
@@ -4665,9 +4386,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskontot som Creative Cloud importerades från.</p>
       </td>
@@ -4679,9 +4398,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för Advertiser for the Creative, specifikt för Doubleclick.</p>
       </td>
@@ -4693,9 +4410,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på Advertiser for the Creative, speciellt for Doubleclick.</p>
       </td>
@@ -4707,9 +4422,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonsgruppen för Creative Cloud.</p>
       </td>
@@ -4719,9 +4432,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonsgruppen för Creative Cloud.</p>
       </td>
@@ -4731,9 +4442,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för Campaign for the Creative.</p>
       </td>
@@ -4745,9 +4454,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på Campaign for the Creative.</p>
       </td>
@@ -4784,12 +4491,8 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -4801,9 +4504,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
@@ -4815,9 +4516,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på den kreativa, från källsystemet.</p>
       </td>
@@ -4844,9 +4543,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostikfält, för intern bearbetning.</td>
       <td></td>
     </tr>
@@ -4854,9 +4551,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huvudobjektet eller entiteten för det här registret. I det här fallet"Creative".</p>
       </td>
@@ -4868,9 +4563,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonsleverantören för Creative Cloud.</p>
       </td>
@@ -4882,9 +4575,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den aktuella versionen av URL:en inklusive alla taggar.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
@@ -4897,9 +4588,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>URL_DISPLAY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den förkortade och egna URL:en som visas i Creative Cloud.</p>
       </td>
@@ -4911,9 +4600,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Tidigare värde för URL_CURRENT.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
@@ -4924,9 +4611,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vad URL:en kommer att dekoreras med [!DNL Marketo Measure] parametrar.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
@@ -4937,9 +4622,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>URL_SHORTENED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Den förkortade och egna URL:en som visas i Creative Cloud. (Används endast för LinkedIn Ads.)</td>
       <td></td>
     </tr>
@@ -4947,9 +4630,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>AD_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Typen av kreativ, som kan vara Text eller Display</p>
       </td>
@@ -4975,9 +4656,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>HEADLINE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den kreativa världens främsta rubrik</p>
       </td>
@@ -4989,9 +4668,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>DESCRIPTION_LINE_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>The copy from the first line of the creative</p>
       </td>
@@ -5003,9 +4680,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>DESCRIPTION_LINE_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>The copy from the second line of the creative</p>
       </td>
@@ -5017,9 +4692,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostikfält, för intern bearbetning.</td>
       <td></td>
     </tr>
@@ -5027,9 +4700,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostikfält, för intern bearbetning.</td>
       <td></td>
     </tr>
@@ -5037,9 +4708,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostikfält, för intern bearbetning.</td>
       <td></td>
     </tr>
@@ -5047,9 +4716,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Diagnostikfält, för intern bearbetning.</p>
       </td>
@@ -5061,9 +4728,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>
         <p>SHARE_URN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Resurs-ID. (Används endast för LinkedIn Ads.)</p>
       </td>
@@ -5115,12 +4780,8 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Händelse-ID:t från källsystemet.</p>
       </td>
@@ -5129,12 +4790,8 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum då händelsen skapades från källsystemet.</p>
       </td>
@@ -5143,12 +4800,8 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum då händelsen senast ändrades från källsystemet.</p>
       </td>
@@ -5160,9 +4813,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den lead som är associerad med händelsen.</p>
       </td>
@@ -5174,9 +4825,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-post för den lead som är associerad med händelsen.</p>
       </td>
@@ -5185,12 +4834,8 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>ID för kontakten som är associerad med händelsen.</p>
       </td>
@@ -5202,9 +4847,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-post till kontakten som är kopplad till händelsen.</p>
       </td>
@@ -5216,9 +4859,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
@@ -5230,9 +4871,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       <td>
         <p>ACTIVITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på aktivitetstyp från källsystemet.</p>
       </td>
@@ -5244,9 +4883,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       <td>
         <p>EVENT_START_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Startdatum för händelsen, ett av de alternativ som används för att fastställa slutpunktsdatumet.</p>
       </td>
@@ -5258,9 +4895,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       <td>
         <p>EVENT_END_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Slutdatum för händelsen, ett av de alternativ som används för att bestämma slutpunktsdatumet.</p>
       </td>
@@ -5320,12 +4955,8 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Aktivitets-ID från källsystemet.</p>
       </td>
@@ -5334,12 +4965,8 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum då uppgiften skapades från källsystemet.</p>
       </td>
@@ -5348,12 +4975,8 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum då aktiviteten senast ändrades från källsystemet.</p>
       </td>
@@ -5365,9 +4988,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den lead som är associerad med uppgiften.</p>
       </td>
@@ -5379,9 +5000,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-post för den lead som är associerad med uppgiften.</p>
       </td>
@@ -5390,12 +5009,8 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>ID för kontakten som är associerad med uppgiften.</p>
       </td>
@@ -5407,9 +5022,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-post till kontakten som är associerad med uppgiften.</p>
       </td>
@@ -5421,9 +5034,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
@@ -5435,9 +5046,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       <td>
         <p>ACTIVITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på aktivitetstyp från källsystemet.</p>
       </td>
@@ -5449,9 +5058,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       <td>
         <p>ACTIVITY_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum aktiviteten utfördes, ett av alternativen som användes för att fastställa slutpunktsdatumet.</p>
       </td>
@@ -5511,9 +5118,7 @@ Tabell över alla ISO-valutor.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
+       <td>ID</td>
       <td>tal(38,0)</td>
       <td>Ett unikt ID för valutaposten.</td>
       <td>139474809945095870</td>
@@ -5617,9 +5222,7 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det första cookie-ID:t för det relaterade besökar-ID:t.</p>
       </td>
@@ -5629,9 +5232,7 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det inspelade cookie-ID:t när händelsen loggades.</p>
       </td>
@@ -5641,9 +5242,7 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när chatten loggades.</p>
       </td>
@@ -5657,9 +5256,7 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den registrerade IP-adressen när experimentet loggades.</p>
       </td>
@@ -5669,9 +5266,7 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>
         <p>EXPERIMENT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID:t för experimentet som hämtats från AB:s testplattform.</p>
       </td>
@@ -5681,9 +5276,7 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>
         <p>EXPERIMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på försöket som hämtats från AB:s testplattform.</p>
       </td>
@@ -5693,9 +5286,7 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>
         <p>VARIATION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Variations-ID för försöket som hämtats från AB:s testplattform.</p>
       </td>
@@ -5705,9 +5296,7 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>
         <p>VARIATION_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Variationsnamnet för det experiment som hämtats från AB:s testplattform.</p>
       </td>
@@ -5717,9 +5306,7 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>
         <p>ABTEST_USER_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den användare som betjänade experimentet som hämtats från AB:s testplattform.</p>
       </td>
@@ -5774,9 +5361,7 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det första cookie-ID:t för det relaterade besökar-ID:t.</p>
       </td>
@@ -5786,9 +5371,7 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det inspelade cookie-ID:t när händelsen utlöstes från det anpassade javascript-skriptet.</p>
       </td>
@@ -5798,9 +5381,7 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum som händelsen utlöstes från det anpassade javascript-skriptet.</p>
       </td>
@@ -5816,9 +5397,7 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den registrerade IP-adressen när händelsen utlöstes från det anpassade javascript-skriptet.</p>
       </td>
@@ -5828,9 +5407,7 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
       <td>
         <p>NYCKEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet som ges till händelsen som utlöstes från det anpassade javascript-skriptet.</p>
       </td>
@@ -5840,9 +5417,7 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
       <td>
         <p>VÄRDE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Värdet som har tilldelats händelsen som utlöstes från det anpassade javascript-skriptet.</p>
       </td>
@@ -5894,12 +5469,8 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för posten.</p>
       </td>
@@ -5909,9 +5480,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -5919,9 +5488,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ID för annonskontot som landningssidan importerades från.</td>
       <td></td>
     </tr>
@@ -5929,9 +5496,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Namn på det annonskonto från vilket landningssidan importerades</td>
       <td></td>
     </tr>
@@ -5939,9 +5504,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för Advertiser för landningssidan, speciellt för Doubleclick.</p>
       </td>
@@ -5951,9 +5514,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Advertiser för landningssidan, speciellt för Doubleclick.</p>
       </td>
@@ -5965,9 +5526,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ID för annonskoncern för landningssidan.</td>
       <td></td>
     </tr>
@@ -5975,9 +5534,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonsgruppen för landningssidan.</p>
       </td>
@@ -5987,9 +5544,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för Campaign för landningssidan.</p>
       </td>
@@ -5999,9 +5554,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på Campaign för landningssidan.</p>
       </td>
@@ -6028,12 +5581,8 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Radens senast ändrade datum</p>
       </td>
@@ -6043,9 +5592,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td></td>
       <td></td>
     </tr>
@@ -6053,9 +5600,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6073,9 +5618,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6083,9 +5626,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6093,9 +5634,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6103,9 +5642,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>AD_DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6113,9 +5650,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>CREATIVE_DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6123,9 +5658,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6133,9 +5666,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6184,9 +5715,7 @@ Mappningstabell för e-postadresser och besökar-ID.
       <td>
         <p>E-POST</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>En känd e-postadress som är kopplad till ett visst besökar-ID från en session</p>
       </td>
@@ -6198,9 +5727,7 @@ Mappningstabell för e-postadresser och besökar-ID.
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första cookien för det relaterade besökar-ID:t</p>
       </td>
@@ -6209,12 +5736,8 @@ Mappningstabell för e-postadresser och besökar-ID.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Radens senast ändrade datum</p>
       </td>
@@ -6223,12 +5746,8 @@ Mappningstabell för e-postadresser och besökar-ID.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Radens skapade datum</p>
       </td>
@@ -6620,12 +6139,8 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>2018-08-28 19:39:15 000</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då raden senast ändrades.</p>
       </td>
@@ -6799,9 +6314,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Affärsmöjlighets-ID från källsystemet.</p>
       </td>
@@ -6813,9 +6326,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>
         <p>OPP_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum då affärsmöjligheten skapades från källsystemet.</p>
       </td>
@@ -6827,9 +6338,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>
         <p>OPP_CLOSE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Stängningsdatum för affärsmöjligheten från källsystemet.</p>
       </td>
@@ -6841,21 +6350,15 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>
         <p>CONTACT_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum kontaktposten skapades från källsystemet.</p>
       </td>
       <td>2017-04-28 00:21:52 000</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>Kontakt-ID från källsystemet.</p>
       </td>
@@ -6873,9 +6376,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>
         <p>LEAD_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum då lead-posten skapades från källsystemet.</p>
       </td>
@@ -6887,9 +6388,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Lead-ID från källsystemet.</p>
       </td>
@@ -7087,12 +6586,8 @@ Insamlade formulärinskickat material.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för att skicka formulär.</p>
       </td>
@@ -7104,9 +6599,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det inspelade cookie-ID:t när formuläret skickades loggades.</p>
       </td>
@@ -7118,9 +6611,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det första cookie-ID:t för det relaterade besökar-ID:t. Om posten är markerad som is_duplicated = true, kommer det här fältet att vara null.</p>
       </td>
@@ -7132,9 +6623,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det inspelade sessions-ID:t när formuläret skickades loggades. Om posten är markerad som is_duplicated = true, kommer det här fältet att vara null.</p>
       </td>
@@ -7146,9 +6635,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då formuläret skickades.</p>
       </td>
@@ -7157,12 +6644,8 @@ Insamlade formulärinskickat material.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -7174,9 +6657,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL där formuläret skickades, utan frågeparametrar.</p>
       </td>
@@ -7188,9 +6669,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL där formuläret skickades, inklusive eventuella frågeparametrar.</p>
       </td>
@@ -7202,9 +6681,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den registrerade IP-adressen när formuläret skickades.</p>
       </td>
@@ -7216,9 +6693,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>TYP</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Anger händelsetypen.</td>
       <td>
         <p>FormSubmit</p>
@@ -7228,9 +6703,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Enhet och webbläsare som spelades in när formuläret skickades.</p>
       </td>
@@ -7242,9 +6715,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>CLIENT_SEQUENCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Anger i vilken ordning sidvyn skapades i sessionen.</td>
       <td>
         <p>4</p>
@@ -7254,9 +6725,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern revision och bearbetning.</td>
       <td>
         <p>20042b6b7af44512b43f6244d86faf4c</p>
@@ -7290,9 +6759,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>E-POST</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-postadress som finns i formuläret, enligt javascript.</p>
       </td>
@@ -7304,9 +6771,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>FORM_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Anger vilken typ av formulär som har skickats.</td>
       <td>
         <p>Chatt</p>
@@ -7316,9 +6781,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>FORM_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Anger den metod som används för att identifiera formuläret, till exempel onSubmit eller AjaxIntercept</p>
       </td>
@@ -7330,9 +6793,7 @@ Insamlade formulärinskickat material.
       <td>
         <p>FORM_IDENTIFIER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ID-värde för formuläret.</td>
       <td>
         <p>-956012665</p>
@@ -7392,12 +6853,8 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för Impression.</p>
       </td>
@@ -7409,9 +6866,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det inspelade cookie-ID:t vid tidpunkten för Impression.</p>
       </td>
@@ -7421,9 +6876,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det första cookie-ID:t för det relaterade besökar-ID:t.</p>
       </td>
@@ -7433,9 +6886,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det inspelade sessions-ID:t när Impression loggades.</p>
       </td>
@@ -7445,21 +6896,15 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då Impression opererades.</p>
       </td>
       <td>2020-01-01 01:01:00,000</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -7469,9 +6914,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL där Impression hanterades, utan frågeparametrar.</p>
       </td>
@@ -7481,9 +6924,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL där Impression utfördes, inklusive eventuella frågeparametrar.</p>
       </td>
@@ -7493,9 +6934,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den registrerade IP-adressen vid tidpunkten för Impression.</p>
       </td>
@@ -7505,9 +6944,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>TYP</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Anger händelsetypen.</td>
       <td>Impression</td>
     </tr>
@@ -7515,9 +6952,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Enhet och webbläsare som spelades in när formuläret skickades.</p>
       </td>
@@ -7529,9 +6964,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CLIENT_SEQUENCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Anger i vilken ordning sidvyn skapades i sessionen.</td>
       <td>
         <p>4</p>
@@ -7541,9 +6974,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern revision och bearbetning.</td>
       <td>
         <p>20042b6b7af44512b43f6244d86faf4c</p>
@@ -7577,9 +7008,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vanligtvis den externa landningssidan omedelbart innan användaren kommer till webbplatsen. I CRM kallas det"Refererarsida".</p>
       </td>
@@ -7589,9 +7018,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>REFERRER_PAGE-RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vanligtvis den externa landningssidan omedelbart innan användaren kommer till webbplatsen. En råhänvisningssida kan innehålla frågeparametrar i URL:en. I CRM refereras till"Refererarsida - Raw".</p>
       </td>
@@ -7601,9 +7028,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>ORT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den matchade staden från IP-adressen.</p>
       </td>
@@ -7615,9 +7040,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den matchade regionen från IP-adressen.</p>
       </td>
@@ -7629,9 +7052,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>LAND</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det lösta landet från IP-adressen.</p>
       </td>
@@ -7643,9 +7064,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>ISP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Förväntades vara null eftersom fältet är föråldrat.</td>
       <td>NULL</td>
     </tr>
@@ -7653,9 +7072,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Annonsplattform [!DNL Marketo Measure] har kunnat lösa sig från, vanligtvis en av våra integreringspartners.</p>
       </td>
@@ -7665,9 +7082,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som annonsen löstes från.</p>
       </td>
@@ -7677,9 +7092,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonskontot som annonsen löstes från.</p>
       </td>
@@ -7689,9 +7102,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonseraren från annonskontot som annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -7703,9 +7114,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonseraren från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -7717,9 +7126,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för webbplatsen från annonskontot där annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -7731,9 +7138,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på webbplatsen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -7745,9 +7150,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för placeringen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -7759,9 +7162,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på placeringen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -7773,9 +7174,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för kampanjen från annonskontot där annonsen löstes.</p>
       </td>
@@ -7785,9 +7184,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på kampanjen från annonskontot där annonsen löstes.</p>
       </td>
@@ -7797,9 +7194,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntad att vara null eftersom det inte finns någon annonsgrupp i dubbelsidig hierarki för visningar</p>
       </td>
@@ -7811,9 +7206,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntad att vara null eftersom det inte finns någon annonsgrupp i dubbelsidig hierarki för visningar</p>
       </td>
@@ -7825,9 +7218,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
@@ -7839,9 +7230,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
@@ -7853,9 +7242,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
       </td>
@@ -7867,9 +7254,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
       </td>
@@ -7879,9 +7264,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
       </td>
@@ -7891,9 +7274,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
       </td>
@@ -7903,9 +7284,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
       </td>
@@ -7915,9 +7294,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
       </td>
@@ -7927,9 +7304,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något nyckelord i dubbelklickningshierarkin för Impressions.</p>
       </td>
@@ -7939,9 +7314,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något nyckelord i dubbelklickningshierarkin för Impressions.</p>
       </td>
@@ -7951,9 +7324,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något nyckelord i dubbelklickningshierarkin för Impressions.</p>
       </td>
@@ -7963,9 +7334,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>WEBBLÄSARE_NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen upptäckte den webbläsare som användaren var på under sessionen.</p>
       </td>
@@ -7977,9 +7346,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>WEBBLÄSARE_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade versionen av webbläsaren som användaren var på under sessionen.</p>
       </td>
@@ -7991,9 +7358,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade plattform som användaren var på under sessionen.</p>
       </td>
@@ -8005,9 +7370,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade versionen av plattformen som användaren var på under sessionen.</p>
       </td>
@@ -8131,12 +7494,8 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för nyckelordet.</p>
       </td>
@@ -8148,9 +7507,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Nyckelords-ID från källsystemet.</td>
       <td>
         <p>39464932147</p>
@@ -8160,9 +7517,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som nyckelordet importerades från.</p>
       </td>
@@ -8172,9 +7527,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonskontot som nyckelordet importerades från.</p>
       </td>
@@ -8184,9 +7537,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något nyckelord i dubbelklickningshierarkin för Impressions.</p>
       </td>
@@ -8198,9 +7549,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntades vara null eftersom det inte finns något nyckelord i dubbelklickningshierarkin för Impressions.</p>
       </td>
@@ -8212,9 +7561,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonsgruppen för nyckelordet.</p>
       </td>
@@ -8226,9 +7573,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonsgruppen för nyckelordet.</p>
       </td>
@@ -8240,9 +7585,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för Campaign för nyckelordet.</p>
       </td>
@@ -8254,9 +7597,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på Campaign för nyckelordet.</p>
       </td>
@@ -8293,12 +7634,8 @@ Nyckelord som importerats från alla anslutna annonskonton.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -8308,9 +7645,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
@@ -8322,9 +7657,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på nyckelordet från källsystemet.</p>
       </td>
@@ -8351,9 +7684,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostikfält, används för intern bearbetning.</td>
       <td>
         <p>ba.3284209.132630532.3646889365</p>
@@ -8363,9 +7694,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huvudobjektet eller entiteten för det här registret. I det här fallet"Nyckelord".</p>
       </td>
@@ -8377,9 +7706,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonsprovidern för nyckelordet.</p>
       </td>
@@ -8391,9 +7718,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL-adressen till landningssidan.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
@@ -8404,9 +7729,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Tidigare värde för URL_CURRENT.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
@@ -8438,9 +7761,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>WORD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Sökfasen som användaren angav.</td>
       <td>
         <p>intäktsattribuering b2b</p>
@@ -8450,9 +7771,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den typ av matchning som hittades mellan sökfrasen och nyckelordet.</p>
       </td>
@@ -8464,9 +7783,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</td>
     </tr>
@@ -8474,9 +7791,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td></td>
     </tr>
@@ -8484,9 +7799,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern diagnostik.</td>
       <td></td>
     </tr>
@@ -8494,9 +7807,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>URL-spårningsmallen [!DNL Marketo Measure] läggs till i nyckelordet.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -8548,12 +7859,8 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för landningssidan.</p>
       </td>
@@ -8563,9 +7870,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8573,9 +7878,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ID för annonskontot som landningssidan importerades från.</td>
       <td></td>
     </tr>
@@ -8583,9 +7886,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Namnet på annonskontot som landningssidan importerades från.</td>
       <td></td>
     </tr>
@@ -8593,9 +7894,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för Advertiser för landningssidan, speciellt för Doubleclick.</p>
       </td>
@@ -8605,9 +7904,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Advertiser för landningssidan, speciellt för Doubleclick.</p>
       </td>
@@ -8617,9 +7914,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ID för annonskoncern för landningssidan.</td>
       <td></td>
     </tr>
@@ -8627,9 +7922,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Namn på annonsgruppen för landningssidan.</td>
       <td></td>
     </tr>
@@ -8637,9 +7930,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Id för Campaign för landningssidan.</td>
       <td></td>
     </tr>
@@ -8647,9 +7938,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Namnet på Campaign för landningssidan.</td>
       <td></td>
     </tr>
@@ -8674,12 +7963,8 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Radens senaste ändringsdatum.</p>
       </td>
@@ -8689,9 +7974,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td></td>
       <td></td>
     </tr>
@@ -8699,9 +7982,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8719,9 +8000,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8729,9 +8008,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8739,9 +8016,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8749,9 +8024,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8759,9 +8032,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8769,9 +8040,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8809,12 +8078,8 @@ Leads som importerats från källsystemet.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Lead-ID:t från källsystemet.</p>
       </td>
@@ -8823,12 +8088,8 @@ Leads som importerats från källsystemet.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när lead-posten senast ändrades från källsystemet.</p>
       </td>
@@ -8837,12 +8098,8 @@ Leads som importerats från källsystemet.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum då lead-posten skapades från källsystemet.</p>
       </td>
@@ -8852,9 +8109,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>E-POST</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Leadens e-postadress från källsystemet.</p>
       </td>
@@ -8864,9 +8119,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>WEB_SITE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Webbplats som anges för Lead, från källsystemet, används för lead2Account-mappning.</p>
       </td>
@@ -8878,9 +8131,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>FÖRETAG</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Företagsnamn som anges för Lead, från källsystemet, används för lead2Account-mappning.</p>
       </td>
@@ -8892,9 +8143,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>LEAD_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Källa där lead skapades.</p>
       </td>
@@ -8920,9 +8169,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>CONVERTED_OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den relaterade affärsmöjligheten när leadet har konverterats.</p>
       </td>
@@ -8934,9 +8181,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>CONVERTED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när leadet konverterades till en kontakt.</p>
       </td>
@@ -8948,9 +8193,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>CONVERTED_CONTACT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den relaterade kontakten när leadet har konverterats.</p>
       </td>
@@ -8962,9 +8205,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>KONTO</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för det mappade kontot. Krav: Aktivera ABM</p>
       </td>
@@ -8976,9 +8217,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Aktuell fas av lead, känns igen som en anpassad fas som kan skapas i [!DNL Marketo Measure] program.</p>
       </td>
@@ -8990,9 +8229,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Alla tidigare faser för lead, identifieras som anpassade stadier som kan skapas i [!DNL Marketo Measure] program.</p>
       </td>
@@ -9018,9 +8255,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>LEAD_SCORE_MODEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>(borttagen)</p>
       </td>
@@ -9032,9 +8267,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>LEAD_SCORE_RESULTS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>(borttagen)</p>
       </td>
@@ -9046,9 +8279,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
@@ -9140,12 +8371,8 @@ Scenövergångar för Leads eller Kontakter.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för övergången.</p>
       </td>
@@ -9157,9 +8384,7 @@ Scenövergångar för Leads eller Kontakter.
       <td>
         <p>E-POST</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den angivna e-postadressen för den relaterade lead/kontakten.</p>
       </td>
@@ -9171,9 +8396,7 @@ Scenövergångar för Leads eller Kontakter.
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den lead som är associerad med övergången.</p>
       </td>
@@ -9182,12 +8405,8 @@ Scenövergångar för Leads eller Kontakter.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>ID för kontakten som är kopplad till övergången.</p>
       </td>
@@ -9199,9 +8418,7 @@ Scenövergångar för Leads eller Kontakter.
       <td>
         <p>TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för Buyer Touchpoint som är knuten till övergången.</p>
       </td>
@@ -9213,9 +8430,7 @@ Scenövergångar för Leads eller Kontakter.
       <td>
         <p>TRANSITION_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten överfördes till scenen.</p>
       </td>
@@ -9227,9 +8442,7 @@ Scenövergångar för Leads eller Kontakter.
       <td>
         <p>STAGE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID-värdet för fasen för övergången.</p>
       </td>
@@ -9241,9 +8454,7 @@ Scenövergångar för Leads eller Kontakter.
       <td>
         <p>SCEN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på fasen för övergången.</p>
       </td>
@@ -9323,9 +8534,7 @@ Scenövergångar för Leads eller Kontakter.
       <td>
         <p>PREVIOUS_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Övergångsdatum för föregående fas, enligt scenrankningen.</p>
       </td>
@@ -9337,9 +8546,7 @@ Scenövergångar för Leads eller Kontakter.
       <td>
         <p>NEXT_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Övergångsdatum för nästa fas, enligt scenrankningen.</p>
       </td>
@@ -9348,12 +8555,8 @@ Scenövergångar för Leads eller Kontakter.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Senaste ändringsdatum för posten.</p>
       </td>
@@ -9409,12 +8612,8 @@ Möjligheter som importerats från källsystemet.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Affärsmöjlighets-ID från källsystemet.</p>
       </td>
@@ -9423,24 +8622,16 @@ Möjligheter som importerats från källsystemet.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Senaste ändringsdatum för affärsmöjligheten från källsystemet.</p>
       </td>
       <td>2017-11-28 21:26:44 000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Skapat datum för affärsmöjligheten från källsystemet.</p>
       </td>
@@ -9450,9 +8641,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för det relaterade kontot.</p>
       </td>
@@ -9464,9 +8653,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Affärsmöjlighetens namn från källsystemet.</p>
       </td>
@@ -9506,9 +8693,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>CLOSE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Förväntat eller faktiskt slutdatum för affärsmöjligheten från källsystemet.</p>
       </td>
@@ -9520,9 +8705,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>BIZIBLE_CUSTOM_MODEL_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>(borttagen)</p>
       </td>
@@ -9548,9 +8731,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>CONVERTED_FROM_LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den relaterade lead som har konverterats till denna möjlighet.</p>
         <p>Observera att det här fältet inte är inställt och returnerar null i Snowflake för alla kunder.</p>
@@ -9563,9 +8744,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>CONVERTED_FROM_LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-postadressen till den relaterade lead som har konverterats till det här säljprojektet.</p>
         <p>Observera att det här fältet inte är inställt och returnerar null i Snowflake för alla kunder.</p>
@@ -9578,9 +8757,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>PRIMARY_CONTACT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Om Roll för primär kontakt används, ID:t för den relaterade kontakten listas som den primära kontaktrollen.</p>
       </td>
@@ -9592,9 +8769,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>PRIMARY_CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Om Roll för primär kontakt används, e-postadressen till den relaterade kontakten som anges som den primära kontaktrollen.</p>
       </td>
@@ -9620,9 +8795,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Affärsmöjlighetens aktuella fas, enligt definitionen i [!DNL Marketo Measure] program.</p>
       </td>
@@ -9634,9 +8807,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>En sträng med alla stadier som säljprojektet tidigare gått igenom, enligt definitionen i [!DNL Marketo Measure] program.</p>
       </td>
@@ -9731,12 +8902,8 @@ Scenövergångar för affärsmöjligheter.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för övergången.</p>
       </td>
@@ -9748,9 +8915,7 @@ Scenövergångar för affärsmöjligheter.
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för kontot som är associerat med affärsmöjligheten.</p>
       </td>
@@ -9762,9 +8927,7 @@ Scenövergångar för affärsmöjligheter.
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för affärsmöjligheten som är associerad med övergången.</p>
       </td>
@@ -9773,12 +8936,8 @@ Scenövergångar för affärsmöjligheter.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>ID för kontakten som är kopplad till övergången.</p>
       </td>
@@ -9790,9 +8949,7 @@ Scenövergångar för affärsmöjligheter.
       <td>
         <p>E-POST</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den angivna e-postadressen för den relaterade kontakten.</p>
       </td>
@@ -9804,9 +8961,7 @@ Scenövergångar för affärsmöjligheter.
       <td>
         <p>TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för Buyer Attribution Touchpoint som är knuten till övergången.</p>
       </td>
@@ -9818,9 +8973,7 @@ Scenövergångar för affärsmöjligheter.
       <td>
         <p>TRANSITION_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten överfördes till scenen.</p>
       </td>
@@ -9832,9 +8985,7 @@ Scenövergångar för affärsmöjligheter.
       <td>
         <p>SCEN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på fasen för övergången.</p>
       </td>
@@ -9846,9 +8997,7 @@ Scenövergångar för affärsmöjligheter.
       <td>
         <p>STAGE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID-värdet för fasen för övergången.</p>
       </td>
@@ -9926,9 +9075,7 @@ Scenövergångar för affärsmöjligheter.
       <td>
         <p>PREVIOUS_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Övergångsdatum för föregående fas, enligt scenrankningen.</p>
       </td>
@@ -9940,9 +9087,7 @@ Scenövergångar för affärsmöjligheter.
       <td>
         <p>NEXT_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Övergångsdatum för nästa fas, enligt scenrankningen.</p>
       </td>
@@ -9951,12 +9096,8 @@ Scenövergångar för affärsmöjligheter.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Senaste ändringsdatum för posten.</p>
       </td>
@@ -10012,12 +9153,8 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för sidvyn.</p>
       </td>
@@ -10029,9 +9166,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det inspelade cookie-ID:t när sidvyn loggades.</p>
       </td>
@@ -10043,9 +9178,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första cookien för det relaterade besökar-ID:t.</p>
       </td>
@@ -10057,9 +9190,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Sessions-ID som är kopplat till sidvyn.</p>
       </td>
@@ -10071,9 +9202,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när sidvyn skapades.</p>
       </td>
@@ -10082,12 +9211,8 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -10099,9 +9224,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL för sidvyn, utan frågeparametrar.</p>
       </td>
@@ -10113,9 +9236,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL för sidvyn, inklusive eventuella frågeparametrar.</p>
       </td>
@@ -10127,9 +9248,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den registrerade IP-adressen när formuläret skickades.</p>
       </td>
@@ -10141,9 +9260,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>TYP</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Anger händelsetypen.</td>
       <td>
         <p>PageView</p>
@@ -10153,9 +9270,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Enhet och webbläsare som spelades in när formuläret skickades.</p>
       </td>
@@ -10181,9 +9296,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Används för intern revision och bearbetning.</td>
       <td>
         <p>103532</p>
@@ -10213,9 +9326,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL där sidvyn kom från, utan frågeparametrar.</p>
       </td>
@@ -10227,9 +9338,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL:en som sidvyn kommer från, inklusive eventuella frågeparametrar.</p>
       </td>
@@ -10241,9 +9350,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>PAGE_TITLE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Sidans namn.</p>
       </td>
@@ -10255,9 +9362,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>
         <p>E-POST</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-postadress som anges i ett formulär, som hämtats från javascript.</p>
       </td>
@@ -10329,12 +9434,8 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för placeringen.</p>
       </td>
@@ -10346,9 +9447,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Placement-ID:t från källsystemet.</td>
       <td>10426699711</td>
     </tr>
@@ -10356,9 +9455,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som placeringen importerades från.</p>
       </td>
@@ -10368,9 +9465,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskontot som placeringen importerades från.</p>
       </td>
@@ -10380,9 +9475,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för annonsören för placeringen, speciellt för Doubleclick.</p>
       </td>
@@ -10392,9 +9485,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonsören för placeringen, speciellt för Doubleclick.</p>
       </td>
@@ -10404,9 +9495,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntad att vara null eftersom det inte finns någon annonsgrupp ovanför placeringen i någon annonshierarki.</p>
       </td>
@@ -10416,9 +9505,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntad att vara null eftersom det inte finns någon annonsgrupp ovanför placeringen i någon annonshierarki.</p>
       </td>
@@ -10428,9 +9515,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för Campaign för placeringen.</p>
       </td>
@@ -10440,9 +9525,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på kampanjen för placeringen.</p>
       </td>
@@ -10473,12 +9556,8 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -10488,9 +9567,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
@@ -10500,9 +9577,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på placeringen, från källsystemet.</p>
       </td>
@@ -10525,9 +9600,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostikfält, för intern bearbetning.</td>
       <td></td>
     </tr>
@@ -10535,9 +9608,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huvudobjektet eller entiteten för det här registret. I det här fallet "Placement".</p>
       </td>
@@ -10547,9 +9618,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonseringsprovidern för placeringen.</p>
       </td>
@@ -10601,12 +9670,8 @@ Segmentvärden som definieras i [!DNL Marketo Measure] program.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för segmentet.</p>
       </td>
@@ -10618,9 +9683,7 @@ Segmentvärden som definieras i [!DNL Marketo Measure] program.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentets namn.</p>
       </td>
@@ -10679,9 +9742,7 @@ Kopplar namnet på det anpassade segmentet till dess kategorivärde. (Detta mapp
       <td>
         <p>KATEGORI</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Anger kategorin som segmentnamnet mappas till.</p>
       </td>
@@ -10690,12 +9751,8 @@ Kopplar namnet på det anpassade segmentet till dess kategorivärde. (Detta mapp
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -10707,9 +9764,7 @@ Kopplar namnet på det anpassade segmentet till dess kategorivärde. (Detta mapp
       <td>
         <p>SEGMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på det segment som är mappat till kategorin.</p>
       </td>
@@ -10763,12 +9818,8 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för sessionen.</p>
       </td>
@@ -10780,9 +9831,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första cookien för det relaterade besökar-ID:t.</p>
       </td>
@@ -10792,9 +9841,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det inspelade cookie-ID:t för sessionen.</p>
       </td>
@@ -10804,9 +9851,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum för sessionen.</p>
       </td>
@@ -10818,9 +9863,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>ÄNDRAT DATUM</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -10838,9 +9881,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>KANAL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Kanal som är tilldelad sessionen, enligt definition i kanaldefinitionerna i [!DNL Marketo Measure] program.</p>
       </td>
@@ -10852,9 +9893,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>PAGE_TITLE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Webbsidans namn.</p>
       </td>
@@ -10866,9 +9905,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL för sessionens första sidvy, utan frågeparametrar.</p>
       </td>
@@ -10880,9 +9917,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL för sessionens första sidvy, inklusive eventuella frågeparametrar.</p>
       </td>
@@ -10894,9 +9929,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL där sessionen kom från, utan frågeparametrar.</p>
       </td>
@@ -10908,9 +9941,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL dit sessionen kom, inklusive eventuella frågeparametrar.</p>
       </td>
@@ -10922,9 +9953,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>REFERRER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på referenssidan.</p>
       </td>
@@ -10936,9 +9965,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Värdet som användaren angav i webbläsaren för att söka efter och hamnade på webbplatsen.</p>
       </td>
@@ -10950,9 +9977,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Används för att definiera källan som resulterade i sessionen. Detta kan tolkas ut från URL:en från utm_source eller anges till en annonsleverantör om [!DNL Marketo Measure] kan åtgärda en annons.</p>
       </td>
@@ -11020,9 +10045,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>ENHET</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Användarens webbläsare och operativsystem under sessionen.</p>
       </td>
@@ -11034,9 +10057,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Ad Platform [!DNL Marketo Measure] som vi har löst från, vanligtvis en av våra integreringspartners.</p>
       </td>
@@ -11048,9 +10069,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som annonsen löstes från.</p>
       </td>
@@ -11062,9 +10081,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonskontot som annonsen löstes från.</p>
       </td>
@@ -11076,9 +10093,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonseraren som annonsen löstes från, specifikt från Doubleclick-anslutningen.</p>
       </td>
@@ -11090,9 +10105,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonseraren som annonsen löstes från, särskilt från Doubleclick-anslutningen.</p>
       </td>
@@ -11104,9 +10117,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för webbplatsen som annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -11118,9 +10129,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på webbplatsen som annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -11132,9 +10141,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den palett som annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -11146,9 +10153,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på placeringen som annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -11160,9 +10165,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den kampanj som annonsen löstes från.</p>
       </td>
@@ -11174,9 +10177,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på den kampanj som annonsen löstes från.</p>
       </td>
@@ -11188,9 +10189,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskoncern som annonsen löstes från. Detta gäller endast Google Adwords.</p>
       </td>
@@ -11202,9 +10201,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonskoncern som annonsen löstes från. Detta gäller endast Google Adwords.</p>
       </td>
@@ -11216,9 +10213,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonsen som lösts från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
@@ -11228,9 +10223,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonsen som lösts från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
@@ -11240,9 +10233,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den Creative som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -11254,9 +10245,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på den Creative-fil som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -11268,9 +10257,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -11282,9 +10269,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den andra raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -11296,9 +10281,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Landningssidan som klickas igenom från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -11310,9 +10293,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det egna URL-namn som visas på sökannonsen, hämtat från annonskontot som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -11324,9 +10305,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för nyckelordet som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -11338,9 +10317,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på nyckelordet som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -11352,9 +10329,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den typ av matchning som hittas mellan sökfrasen och det köpta nyckelordet.</p>
       </td>
@@ -11366,9 +10341,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>KAMPANJ</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Tolkad från URL:en från utm_campaign.</p>
       </td>
@@ -11380,9 +10353,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>KÄLLA</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Tolkad från URL:en från utm_source.</p>
       </td>
@@ -11394,9 +10365,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>MEDEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Tolkad från URL:en från utm_medium.</p>
       </td>
@@ -11408,9 +10377,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>TERM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Tolkad från URL:en från utm_term.</p>
       </td>
@@ -11422,9 +10389,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>INNEHÅLL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Tolkad från URL:en från utm_content.</p>
       </td>
@@ -11436,9 +10401,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>ORT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den matchade staden från IP-adressen.</p>
       </td>
@@ -11448,9 +10411,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den matchade regionen från IP-adressen.</p>
       </td>
@@ -11460,9 +10421,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>LAND</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det lösta landet från IP-adressen.</p>
       </td>
@@ -11472,9 +10431,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>ISP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Förväntades vara null eftersom fältet är föråldrat.</td>
       <td>
         <p>NULL</p>
@@ -11484,9 +10441,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den registrerade IP-adressen vid tiden för sessionen.</p>
       </td>
@@ -11622,12 +10577,8 @@ Webbplatser som importerats från anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för platsen.</p>
       </td>
@@ -11637,9 +10588,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Plats-ID:t från källsystemet.</td>
       <td>39464932147</td>
     </tr>
@@ -11647,9 +10596,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som webbplatsen importerades från.</p>
       </td>
@@ -11659,9 +10606,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskontot som webbplatsen importerades från.</p>
       </td>
@@ -11671,9 +10616,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för annonsören för webbplatsen, särskilt för Doubleclick.</p>
       </td>
@@ -11685,9 +10628,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonsören för webbplatsen, särskilt för Doubleclick.</p>
       </td>
@@ -11699,9 +10640,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntad att vara null eftersom det inte finns någon annonsgrupp ovanför Webbplats i någon annonshierarki.</p>
       </td>
@@ -11711,9 +10650,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Förväntad att vara null eftersom det inte finns någon annonsgrupp ovanför Webbplats i någon annonshierarki.</p>
       </td>
@@ -11723,9 +10660,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för Webbplatsens kampanj.</p>
       </td>
@@ -11737,9 +10672,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på Webbplatsens kampanj.</p>
       </td>
@@ -11770,12 +10703,8 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -11785,9 +10714,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
@@ -11797,9 +10724,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på platsen, från källsystemet.</p>
       </td>
@@ -11822,9 +10747,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Diagnostikfält, används för intern bearbetning.</td>
       <td></td>
     </tr>
@@ -11832,9 +10755,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huvudobjektet eller entiteten för det här registret. I det här fallet"Plats".</p>
       </td>
@@ -11844,9 +10765,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonseringsprovidern för platsen.</p>
       </td>
@@ -11900,12 +10819,8 @@ Webbplatslänkar från anslutna annonskonton.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för platslänken</p>
       </td>
@@ -11917,9 +10832,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td>
         <p>1654234342</p>
@@ -11929,9 +10842,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för det anslutna annonskontot för webbplatslänken</p>
       </td>
@@ -11943,9 +10854,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på det anslutna annonskontot för webbplatslänken</p>
       </td>
@@ -11957,9 +10866,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Id för annonsören för webbplatslänken, särskilt för Doubleclick.</p>
       </td>
@@ -11971,9 +10878,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonsören för webbplatslänken, särskilt för Doubleclick.</p>
       </td>
@@ -11985,9 +10890,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonsgruppen för platslänken</p>
       </td>
@@ -11997,9 +10900,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonsgruppen för webbplatslänken</p>
       </td>
@@ -12009,9 +10910,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för kampanjen för webbplatslänken</p>
       </td>
@@ -12023,9 +10922,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på kampanjen för webbplatslänken</p>
       </td>
@@ -12062,12 +10959,8 @@ Webbplatslänkar från anslutna annonskonton.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Radens senast ändrade datum</p>
       </td>
@@ -12079,9 +10972,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Det datum då platslänken hämtades för första gången [!DNL Marketo Measure]</p>
       </td>
@@ -12093,9 +10984,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på webbplatslänken</p>
       </td>
@@ -12119,9 +11008,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td>
         <p>aw.6601259029.28507795</p>
@@ -12131,9 +11018,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Huvudobjektet eller entiteten för det här registret. I det här fallet "SiteLink"</p>
       </td>
@@ -12145,9 +11030,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonseringsprovidern för webbplatslänken</p>
       </td>
@@ -12159,9 +11042,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL-adressen till landningssidan.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
@@ -12175,9 +11056,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Tidigare värde för URL_CURRENT.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
@@ -12188,9 +11067,7 @@ Webbplatslänkar från anslutna annonskonton.
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vad URL:en kommer att dekoreras med [!DNL Marketo Measure] parametrar.</p>
         <p>(Diagnostikfält, för intern bearbetning.)</p>
@@ -12231,12 +11108,8 @@ Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] p
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för scenen.</p>
       </td>
@@ -12245,12 +11118,8 @@ Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] p
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -12262,9 +11131,7 @@ Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] p
       <td>
         <p>STAGE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Scenens namn.</p>
       </td>
@@ -12328,9 +11195,7 @@ Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] p
       <td>
         <p>STAGE_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Status för scenen, enligt definition i [!DNL Marketo Measure] Programscenmappning.</p>
       </td>
@@ -12426,12 +11291,8 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för Buyer Touchpoint (BT).</p>
       </td>
@@ -12440,12 +11301,8 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -12457,21 +11314,15 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>E-POST</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>E-postadress som är associerad med BT.</td>
       <td>
         <p>person@adobe.com</p>
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>ID för den kontakt som är associerad med BT.</p>
       </td>
@@ -12481,9 +11332,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för det konto som är associerat med BT.</p>
       </td>
@@ -12495,9 +11344,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den lead som är associerad med BT.</p>
       </td>
@@ -12509,9 +11356,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>UNIQUE_ID_PERSON</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den överordnade personposten som är relaterad till en lead eller kontakt.</p>
       </td>
@@ -12523,9 +11368,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>USER_TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för användarkontaktpunkten som genererade BT:n.</p>
       </td>
@@ -12543,9 +11386,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum för kontaktytan.</p>
       </td>
@@ -12557,9 +11398,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Typ av aktivitet, webbbesök, webbformulär, webbchatt, telefonsamtal, [CRM]-kampanj eller [CRM]-aktivitet. I CRM kallas det"Touchpoint Type".</p>
       </td>
@@ -12571,9 +11410,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KANAL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Kanalen som kontaktytan hamnar i, enligt definition i de anpassade kanaldefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till som"Marknadskanal - Sökväg".</p>
       </td>
@@ -12583,9 +11420,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den första kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
       </td>
@@ -12595,9 +11430,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den andra kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
       </td>
@@ -12609,9 +11442,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI3</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den tredje kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
       </td>
@@ -12623,9 +11454,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI4</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den fjärde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
       </td>
@@ -12637,9 +11466,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI5</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den femte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
       </td>
@@ -12649,9 +11476,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI6</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den sjätte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
       </td>
@@ -12661,9 +11486,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI7</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den sjunde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
@@ -12671,9 +11494,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI8</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den åttonde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
@@ -12681,9 +11502,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI9</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den nionde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
@@ -12691,9 +11510,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI10</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den tionde kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
@@ -12701,9 +11518,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI11</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den elfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
@@ -12711,9 +11526,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI12</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den tolfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
@@ -12721,9 +11534,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI13</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Segmentvärdet för den 13:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
@@ -12731,9 +11542,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI14</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den 14:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
       </td>
@@ -12743,9 +11552,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KATEGORI15</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Segmentvärdet för den 15:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
       </td>
@@ -12755,9 +11562,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>WEBBLÄSARE_NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen upptäckte den webbläsare som användaren var på under sessionen.</p>
       </td>
@@ -12767,9 +11572,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>WEBBLÄSARE_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade versionen av webbläsaren som användaren var på under sessionen.</p>
       </td>
@@ -12781,9 +11584,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade plattform som användaren var på under sessionen.</p>
       </td>
@@ -12795,9 +11596,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade versionen av plattformen som användaren var på under sessionen.</p>
       </td>
@@ -12807,9 +11606,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. I CRM kallas den"landningssida".</p>
       </td>
@@ -12821,9 +11618,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. En rå landningssida kommer att innehålla alla frågeparametrar i URL:en. I CRM kallas det"landningssida - Raw".</p>
       </td>
@@ -12835,9 +11630,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vanligtvis den externa landningssidan omedelbart innan användaren kommer till webbplatsen. I CRM kallas det"Refererarsida".</p>
       </td>
@@ -12847,9 +11640,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vanligtvis den externa landningssidan omedelbart innan användaren kommer till webbplatsen. En råhänvisningssida kan innehålla frågeparametrar i URL:en. I CRM refereras till"Refererarsida - Raw".</p>
       </td>
@@ -12861,9 +11652,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i Touchpoints-tabellen, utan i Form_Submits-tabellen. I CRM refereras till som "formulär-URL".</p>
       </td>
@@ -12881,9 +11670,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när formuläret skickades.</p>
       </td>
@@ -12895,9 +11682,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>ORT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen identifierades den ort som användaren befann sig i under sessionen.</p>
       </td>
@@ -12909,9 +11694,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är det område som användaren befann sig i under sessionen.</p>
       </td>
@@ -12923,9 +11706,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>LAND</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen identifierades det land som användaren befann sig i under sessionen.</p>
       </td>
@@ -12937,9 +11718,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>MEDEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Används för att definiera mediet som resulterade i kontaktytan. Detta kan antingen tolkas ut från URL:en från utm_medium. Eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "cpc" eller "display".</p>
       </td>
@@ -12951,9 +11730,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Används för att definiera källan som resulterade i kontaktytan. Detta kan tolkas från URL:en från utm_source, vanligtvis inställd som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "Google AdWords" eller "Facebook". Refereras i CRM till"Kontaktpunktskälla".</p>
       </td>
@@ -12965,9 +11742,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Värdet som användaren angav i webbläsaren för att söka efter och hamnade på webbplatsen. Beroende på nyckelordsköp kan det här matcha nyckelorden som köpts från plattformen Betald sökning eller inte.</p>
       </td>
@@ -12979,9 +11754,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Annonsplattform [!DNL Marketo Measure] har kunnat lösa sig från, vanligtvis en av våra integreringspartners.</p>
       </td>
@@ -12993,9 +11766,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som annonsen löstes från.</p>
       </td>
@@ -13007,9 +11778,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonskontot som annonsen löstes från.</p>
       </td>
@@ -13021,9 +11790,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonseraren från annonskontot som annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -13035,9 +11802,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonseraren från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -13049,9 +11814,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för webbplatsen från annonskontot där annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -13063,9 +11826,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på webbplatsen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -13077,9 +11838,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för placeringen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -13091,9 +11850,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på placeringen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -13105,9 +11862,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för kampanjen från annonskontot där annonsen löstes.</p>
       </td>
@@ -13119,9 +11874,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på kampanjen från annonskontot där annonsen löstes.</p>
       </td>
@@ -13133,9 +11886,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskoncern från annonskontot där annonsen löstes från. Detta gäller endast Google Adwords.</p>
       </td>
@@ -13145,9 +11896,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskoncern från annonskontot där annonsen löstes från. Detta gäller endast Google AdWords.</p>
       </td>
@@ -13157,9 +11906,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
@@ -13169,9 +11916,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
@@ -13181,9 +11926,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för Creative-objektet från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -13195,9 +11938,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på det Creative-objekt från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -13209,9 +11950,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -13223,9 +11962,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den andra raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -13237,9 +11974,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Landningssidan som klickas igenom från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -13251,9 +11986,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det egna URL-namn som visas på sökannonsen, hämtat från annonskontot som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -13265,9 +11998,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för nyckelordet som köpts från köpet av betald sökning, hämtat från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -13279,9 +12010,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på det nyckelord som köpts från köpet av betald sökning, hämtat från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning)</p>
       </td>
@@ -13293,9 +12022,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den typ av matchning som hittas mellan sökfrasen och det köpta nyckelordet.</p>
       </td>
@@ -13699,12 +12426,8 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Ett unikt ID för användarens kontaktyta.</p>
       </td>
@@ -13713,12 +12436,8 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
@@ -13730,9 +12449,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>E-POST</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>E-postadress som är kopplad till användarkontaktpunkten.</p>
       </td>
@@ -13744,9 +12461,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för sessionen som skapade användarkontaktpunkten.</p>
       </td>
@@ -13758,9 +12473,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CAMPAIGN_Member_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för Campaign-medlemmen som skapade användarkontaktpunkten.</p>
       </td>
@@ -13778,9 +12491,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CRM_EVENT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för den händelse som skapade användarkontaktpunkten.</p>
       </td>
@@ -13792,9 +12503,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CRM_TASK_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>TId för aktiviteten som skapade användarkontaktpunkten.</p>
       </td>
@@ -13806,9 +12515,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>IMPRESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för Impression som skapade användarkontaktpunkten.</p>
       </td>
@@ -13830,9 +12537,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när användarkontaktpunkten inträffade.</p>
       </td>
@@ -13844,9 +12549,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Typ av aktivitet, webbbesök, webbformulär, webbchatt, telefonsamtal, [CRM]-kampanj eller [CRM]-aktivitet. I CRM kallas det"Touchpoint Type".</p>
       </td>
@@ -13858,9 +12561,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>KANAL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Kanalen som kontaktytan hamnar i, enligt definition i de anpassade kanaldefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till som"Marknadskanal - Sökväg".</p>
       </td>
@@ -13872,9 +12573,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>WEBBLÄSARE_NAMN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen upptäckte den webbläsare som användaren var på under sessionen.</p>
       </td>
@@ -13886,9 +12585,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>WEBBLÄSARE_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade versionen av webbläsaren som användaren var på under sessionen.</p>
       </td>
@@ -13900,9 +12597,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade plattform som användaren var på under sessionen.</p>
       </td>
@@ -13914,9 +12609,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är den identifierade versionen av plattformen som användaren var på under sessionen.</p>
       </td>
@@ -13928,9 +12621,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. I CRM kallas den"landningssida".</p>
       </td>
@@ -13942,9 +12633,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. En rå landningssida kommer att innehålla alla frågeparametrar i URL:en. I CRM kallas det"landningssida - Raw".</p>
       </td>
@@ -13956,9 +12645,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vanligtvis den externa landningssidan omedelbart innan användaren kommer till webbplatsen. I CRM kallas det"Refererarsida".</p>
       </td>
@@ -13970,9 +12657,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Vanligtvis den externa landningssidan omedelbart innan användaren kommer till webbplatsen. En råhänvisningssida kan innehålla frågeparametrar i URL:en. I CRM refereras till"Refererarsida - Raw".</p>
       </td>
@@ -13984,9 +12669,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i tabellen Attribution_Touchpoints, utan i tabellen Form_Submits. I CRM refereras till som "formulär-URL".</p>
       </td>
@@ -13998,9 +12681,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>FORM_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i tabellen Attribution_Touchpoints, utan i tabellen Form_Submits. En sida med Raw-formulär kan innehålla frågeparametrar i URL:en. I CRM refereras till"Form URL - Raw".</p>
       </td>
@@ -14012,9 +12693,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>Datum när formuläret skickades.</p>
       </td>
@@ -14026,9 +12705,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>ORT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen identifierades den ort som användaren befann sig i under sessionen.</p>
       </td>
@@ -14040,9 +12717,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen är det område som användaren befann sig i under sessionen.</p>
       </td>
@@ -14054,9 +12729,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>LAND</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Från javascript- och IP-adressen identifierades det land som användaren befann sig i under sessionen.</p>
       </td>
@@ -14068,9 +12741,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>MEDEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Används för att definiera mediet som resulterade i kontaktytan. Detta kan antingen tolkas ut från URL:en från utm_medium. Eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "cpc" eller "display".</p>
       </td>
@@ -14082,9 +12753,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Används för att definiera källan som resulterade i kontaktytan. Detta kan tolkas från URL:en från utm_source, vanligtvis inställd som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "Google AdWords" eller "Facebook". Refereras i CRM till"Kontaktpunktskälla".</p>
       </td>
@@ -14096,9 +12765,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Värdet som användaren angav i webbläsaren för att söka efter och hamnade på webbplatsen. Beroende på nyckelordsköp kan det här matcha nyckelorden som köpts från plattformen Betald sökning eller inte.</p>
       </td>
@@ -14110,9 +12777,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Annonsplattform [!DNL Marketo Measure] har kunnat lösa sig från, vanligtvis en av våra integreringspartners.</p>
       </td>
@@ -14124,9 +12789,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskontot som annonsen löstes från.</p>
       </td>
@@ -14138,9 +12801,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonskontot som annonsen löstes från.</p>
       </td>
@@ -14152,9 +12813,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonseraren från annonskontot som annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -14166,9 +12825,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonseraren från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -14180,9 +12837,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för webbplatsen från annonskontot där annonsen löstes från. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -14194,9 +12849,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på webbplatsen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -14208,9 +12861,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för placeringen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -14222,9 +12873,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på placeringen från annonskontot där annonsen löstes. Detta gäller endast för Doubleclick Campaign Manager.</p>
       </td>
@@ -14236,9 +12885,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för kampanjen från annonskontot där annonsen löstes.</p>
       </td>
@@ -14250,9 +12897,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på kampanjen från annonskontot där annonsen löstes.</p>
       </td>
@@ -14264,9 +12909,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonskoncern från annonskontot där annonsen löstes från. Detta gäller endast Google Adwords.</p>
       </td>
@@ -14278,9 +12921,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namn på annonskoncern från annonskontot där annonsen löstes från. Detta gäller endast Google AdWords.</p>
       </td>
@@ -14292,9 +12933,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
@@ -14304,9 +12943,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
       </td>
@@ -14316,9 +12953,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för Creative-objektet från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -14330,9 +12965,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på det Creative-objekt från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -14344,9 +12977,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den första raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -14358,9 +12989,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den andra raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -14372,9 +13001,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Landningssidan som klickas igenom från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -14386,9 +13013,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Det egna URL-namn som visas på sökannonsen, hämtat från annonskontot som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -14400,9 +13025,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ID för nyckelordet som köpts från köpet av betald sökning, hämtat från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
@@ -14414,9 +13037,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Namnet på det nyckelord som köpts från köpet av betald sökning, hämtat från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning)</p>
       </td>
@@ -14428,9 +13049,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Den typ av matchning som hittas mellan sökfrasen och det köpta nyckelordet.</p>
       </td>
@@ -14592,12 +13211,8 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
       <th>Exempeldata</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>Ett unikt ID för mappningsposten.</td>
       <td>
         <p>0d643578c0c74753eff91abe668ed328|2020-06-17:19:03:36|0002|0|568668</p>
@@ -14607,9 +13222,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>The [!DNL Marketo Measure] inspelat cookie-id.</td>
       <td>0d643578c0c74753eff91abe668ed328</td>
     </tr>
@@ -14617,9 +13230,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Det första cookie-ID:t för det relaterade besökar-ID:t.</td>
       <td>v_0d643578c0c74753eff91abe668ed328</td>
     </tr>
@@ -14627,9 +13238,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>The [!DNL Marketo Measure] Sessions-ID.</td>
       <td>2018-08-06:01-35-24-1231230.9bc63c34482f</td>
     </tr>
@@ -14644,9 +13253,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
+      <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
         <p>Datum när posten senast ändrades.</p>
@@ -14657,9 +13264,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
     </tr>
     <tr>
       <td>CURRENT_PAGE</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>URL för sidvyn, utan frågeparametrar.</td>
       <td>
         <p>https://learn.atest.com/simplify-retention-starter-kit.html</p>
@@ -14667,9 +13272,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
     </tr>
     <tr>
       <td>CURRENT_PAGE_RAW</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>URL för sidvyn, inklusive eventuella frågeparametrar.</td>
       <td>
         <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
@@ -14677,9 +13280,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Den registrerade IP-adressen.</td>
       <td>
         <p>159.203.142.127</p>
@@ -14687,9 +13288,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
     </tr>
     <tr>
       <td>TYP</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Anger händelsetypen.</td>
       <td>
         <p>HostMapping</p>
@@ -14697,9 +13296,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
     </tr>
     <tr>
       <td>USER_AGENT_STRING</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Enhet och webbläsare som spelades in när sidvyn skapades.</td>
       <td>
         <p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, t.ex. Gecko) Chrome/79.0.3945.130 Safari/537.36</p>
