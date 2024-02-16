@@ -1,11 +1,11 @@
 ---
 description: '[!DNL Salesforce] Paketkonsolidering - [!DNL Marketo Measure] - Produktdokumentation'
 title: '[!DNL Salesforce] Paketkonsolidering'
-exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Det nya konsoliderade V2-paketet innehåller alla funktioner och funktioner som 
 Vi har lagt till två nya fält för att förbättra dina rapporteringsfunktioner:
 
 * form_name: Detta fält är nu tillgängligt i BT/BAT-objekt och gör att användare kan skapa rapporter baserade på formulärnamn.
-* user_touchpoint_id: Det här fältet gör att användare kan skapa rapporter med unika användarkontaktytor.
+* user_touchpoint_id: Det här fältet gör att användare kan skapa rapporter med unika kontaktpunkter (`bizible2__User_Touchpoint_V2__c` i Salesforce).
 
 ## Support och övergångar {#support-and-transition}
 
@@ -49,7 +49,7 @@ Vi är medvetna om att denna förändring kan kräva justeringar, och vi sträva
 
 ![](assets/salesforce-package-consolidation-2.png)
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Kommer det konsoliderade paketet att innehålla konflikter med fält i mitt befintliga paket?**
 
