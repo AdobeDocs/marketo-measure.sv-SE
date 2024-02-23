@@ -2,9 +2,9 @@
 description: Instrumentpanel för engagemang - [!DNL Marketo Measure] - Produkt
 title: Instrumentpanel för engagemang
 feature: Reporting
-source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,11 @@ Frågor om diagramsvaren:
 * Hur är antalet kontaktytor jämfört med personer som berörts inom en viss kanal/underkanal/kampanj?
 
 ![](assets/engagement-dashboard-2.png)
+
+## Filterruta {#filter-pane}
+
+Kontrollpanelen är utrustad med följande inställningar och filter:
+
+* Datum (baserat på slutpunktsdatum)
+* Kanal, delkanal
+* Campaign

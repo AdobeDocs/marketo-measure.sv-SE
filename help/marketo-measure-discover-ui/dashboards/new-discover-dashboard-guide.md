@@ -3,7 +3,7 @@ description: Ny guide till Discover Dashboard - [!DNL Marketo Measure] - Produkt
 title: Ny guide för Discover Dashboard
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
     <tr>
       <td>Översikt</td>
       <td><ul><li><strong>Intäkter</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
-          <li><strong>Översikt</strong>:<ul>              <li>Instrumentpanel för attributerade intäkter: Attribuerad intäkt per kanal över tidsdiagram</li>
+          <li><strong>Ökning</strong>:<ul>              <li>Instrumentpanel för attributerade intäkter: Attribuerad intäkt per kanal över tidsdiagram</li>
             <li>Kontrollpanel för avkastning på investering: diagram över kostnad över tid</li></ul></li><li><strong>Utgift</strong>: ROI Dashboard</li>
           <li><strong>Erbjudanden</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
           <li>
@@ -39,14 +39,12 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
           <li>
             <strong>Försäljningsförlopp:</strong>Föråldrat (se nedan)</li>
           <li>
-            <strong>Genomsnittlig avtalsstorlek: </strong>Föråldrat (se nedan)</li>
-        </ul>
+            <strong>Genomsnittlig avtalsstorlek: </strong>Föråldrat (se nedan)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Tillväxt</td>
-      <td>
-        <ul>
+      <td><ul>
           <li>
             <strong>Intäkter och intäkter över tid</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
           <li>
@@ -186,7 +184,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
           <li>
             <strong>Intäkter</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Översikt</strong>:<ul>
+            <strong>Ökning</strong>:<ul>
               <li>Instrumentpanel för attributerade intäkter: Attribuerad intäkt per kanal över tidsdiagram</li>
               <li>Kontrollpanel för avkastning på investering: diagram över kostnad över tid</li>
             </ul>

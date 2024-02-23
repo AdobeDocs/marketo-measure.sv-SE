@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure] - Produktdokumentation'
 title: '''[!DNL Marketo Measure] Ultimate Implementation Guide'
 feature: Integration, Tracking, Attribution
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,10 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## Dataflöden {#dataflows}
+
+>[!IMPORTANT]
+>
+>När du lägger till en ny datauppsättning rekommenderar vi att du skapar ett nytt flöde i stället för att använda ett befintligt.
 
 [Översikt över dataflöden](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
