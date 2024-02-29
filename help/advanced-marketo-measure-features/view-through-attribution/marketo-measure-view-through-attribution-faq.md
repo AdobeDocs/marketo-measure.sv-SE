@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Visa via Vanliga frågor om attribut - [!DN
 title: "[!DNL Marketo Measure] Visa via Vanliga frågor om attribut"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 7%
+source-wordcount: '389'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 7%
 
 ## Vad är Visa genom attribuering? {#what-is-view-through-attribution}
 
-The [!DNL Marketo Measure] Funktionen Visa via attribut inkluderar möjligheten att inkludera annonsvisningar i attribueringsmodellen.
+The [!DNL Marketo Measure] [!UICONTROL View Through Attribution] kan inkludera annonsvisningar i attribueringsmodellen.
 
-## Varför är Visa via attribut viktigt? {#why-is-view-through-attribution-important}
+## Varför [!UICONTROL View Through Attribution] Viktigt? {#why-is-view-through-attribution-important}
 
 Historiskt sett har återmarknadsföring eller tryckannonsering varit svår att ta hänsyn till i attribueringsanalysen. Potentiella kunder kan, när som helst, exponeras för annonser med ny inriktning, men det är osannolikt att de faktiskt klickar på någon av dessa annonser och fyller i ett formulär under samma session. Vår View Through Attribution-lösning kan nu spåra om någon exponerats för en annons eller inte. Denna kontaktyta läggs till den enskilda posten och kommer att fortsätta tills den potentiella kunden blir kund. Med den här informationen får marknadsföraren nu bättre insikt i hur deras återmarknadsföring fungerar.
 
@@ -27,7 +27,7 @@ För att [!DNL Marketo Measure] för att börja mäta annonsintrycken finns det 
 
 ## Vilka annonsplattformar stöds? {#which-ad-platforms-are-supported}
 
-Vi stöder för närvarande Doubleclick Campaign Manager.
+Vi har för närvarande support [!DNL Doubleclick] Campaign Manager.
 
 ## Hur beräknas attribueringen? {#how-is-the-attribution-calculated}
 
@@ -55,62 +55,62 @@ Vi gjorde en noggrann analys av insiktsdata och dess påverkan på konverteringa
   </tr> 
   <tr> 
    <td><strong>Impressions</strong></td> 
-   <td>0%</td> 
-   <td>0%</td> 
-   <td>10%</td> 
-   <td>10%</td> 
-   <td>10%</td> 
+   <td>0 %</td> 
+   <td>0 %</td> 
+   <td>10 %</td> 
+   <td>10 %</td> 
+   <td>10 %</td> 
    <td>Egen</td> 
   </tr> 
   <tr> 
    <td><strong>FT</strong></td> 
-   <td>100%</td> 
-   <td>0%</td> 
-   <td>35%</td> 
-   <td>26.6%</td> 
-   <td>20%</td> 
+   <td>100 %</td> 
+   <td>0 %</td> 
+   <td>35 %</td> 
+   <td>26,6 %</td> 
+   <td>20 %</td> 
    <td>Egen</td> 
   </tr> 
   <tr> 
    <td><strong>LC</strong></td> 
-   <td>0%</td> 
-   <td>100%</td> 
-   <td>35%</td> 
-   <td>26.6%</td> 
-   <td>20%</td> 
+   <td>0 %</td> 
+   <td>100 %</td> 
+   <td>35 %</td> 
+   <td>26,6 %</td> 
+   <td>20 %</td> 
    <td>Egen</td> 
   </tr> 
   <tr> 
    <td><strong>OC</strong></td> 
-   <td>0%</td> 
-   <td>0%</td> 
-   <td>0%</td> 
-   <td>26.6%</td> 
-   <td>20%</td> 
+   <td>0 %</td> 
+   <td>0 %</td> 
+   <td>0 %</td> 
+   <td>26,6 %</td> 
+   <td>20 %</td> 
    <td>Egen</td> 
   </tr> 
   <tr> 
    <td><strong>Stängd</strong></td> 
-   <td>0%</td> 
-   <td>0%</td> 
-   <td>0%</td> 
-   <td>0%</td> 
-   <td>20%</td> 
+   <td>0 %</td> 
+   <td>0 %</td> 
+   <td>0 %</td> 
+   <td>0 %</td> 
+   <td>20 %</td> 
    <td>Egen</td> 
   </tr> 
   <tr> 
    <td><strong>Mitten</strong></td> 
-   <td>0%</td> 
-   <td>0%</td> 
-   <td>20%</td> 
-   <td>10%</td> 
-   <td>10%</td> 
+   <td>0 %</td> 
+   <td>0 %</td> 
+   <td>20 %</td> 
+   <td>10 %</td> 
+   <td>10 %</td> 
    <td>Egen</td> 
   </tr> 
  </tbody> 
 </table>
 
-## Hur kommer det här att se ut i Salesforce? {#what-will-this-look-like-in-salesforce}
+## Hur ser det ut i [!DNL Salesforce?] {#what-will-this-look-like-in-salesforce}
 
 [!DNL Marketo Measure] skapar en enda tryckkontaktyta på en lead som exponerats för displayannonsen. Vi kan mappa användaren även efter att de först har kommit till din webbplats (FT) och fyllt i ett formulär (LC). Slutpunkten kommer att innehålla annonsinformation som annonskampanjens namn/ID, annons-ID, annonsinnehåll, webbplatsnamn/ID, placeringsnamn/ID, marknadsföringskanal, geor, referenssida med mera.
 

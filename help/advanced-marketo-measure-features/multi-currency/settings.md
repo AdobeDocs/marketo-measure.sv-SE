@@ -4,16 +4,16 @@ description: Inställningar - [!DNL Marketo Measure] - Produktdokumentation
 title: Inställningar
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
 # Inställningar {#settings}
 
-Det finns två separata funktionsbitar kopplade till den här funktionen som finns på fliken Allmänna inställningar i CRM: Flera valutor och Avancerade valutor.
+Det finns två separata funktionsbitar som är kopplade till den här funktionen, som finns i CRM:n [!UICONTROL General Settings] flik: Flera valutor och Avancerade valutor.
 
 **Flera valutor**: Aktiveras om kunden använder mer än en valuta.
 

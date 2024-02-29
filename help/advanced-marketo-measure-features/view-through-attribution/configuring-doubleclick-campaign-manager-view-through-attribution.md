@@ -4,9 +4,9 @@ description: Konfigurera dubbelklickning av Campaign Manager-vy via attribut - [
 title: Konfigurera dubbelklickning av Campaign Manager-vy via attribut
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om du använder [!DNL Marketo Measure] och integrering med DoubleClick Campaign Manager kräver en [API-anslutning](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) så att vi kan ladda ned information om kampanjer och kreatörer för att lösa annonserna.
+>Om du använder [!DNL Marketo Measure] och [!DNL DoubleClick Campaign Manager] integrering, vi behöver en [API-anslutning](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) så att vi kan ladda ned information om kampanjer och kreatörer för att lösa annonserna.
 
-För att börja få mer detaljerad information genom att spåra med Doubleclick Campaign Manager måste vi konfigurera vår spårningspixel.
+Börja få mer detaljerad information genom att spåra med [!DNL Doubleclick Campaign Manager]måste vår spårningspixel konfigureras.
 
 Please [klicka här](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) för mer information om [!DNL Marketo Measure] Visa via attribueringsfunktioner.
 
@@ -29,7 +29,7 @@ Om du använder hierarkin Överordnad och Underordnad i DCM måste taggen använ
 
 ## Lägga till bildtaggen {#how-to-add-the-image-tag}
 
-Du lägger till taggen i Dubbelklicka under inställningen Advertiser och du vill skapa en Impression-händelsetagg.
+Du ska lägga till taggen i [!DNL Doubleclick] under inställningen Advertiser och du vill skapa en Impression-händelsetagg.
 
 1. Lägg till följande kod som en 1x1-bildpixel.
 
@@ -37,7 +37,7 @@ Du lägger till taggen i Dubbelklicka under inställningen Advertiser och du vil
 
 1. Bekräfta att avgränsarna mappas enligt följande när den har lagts till. Detta bör vara automatiskt när taggen används:
 
-   v = %eadv! Expandera annonsörs-ID\
+   v = %eadv! [!DNL Expand] Annonsörs-ID\
    a = %eaid! Expandera annons-ID\
    c = %ecid! Expandera kreativt ID\
    s = %esid! Expandera plats-ID\
@@ -47,7 +47,7 @@ Du lägger till taggen i Dubbelklicka under inställningen Advertiser och du vil
 
    ![](assets/1.png)
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **F: Är bildtaggen säker?**
 

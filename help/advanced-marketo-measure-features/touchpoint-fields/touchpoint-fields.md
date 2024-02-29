@@ -4,9 +4,9 @@ description: Touchpoint-fält - [!DNL Marketo Measure] - Produktdokumentation
 title: Touchpoint-fält
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1947'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Om du vill skapa ett beräkningsfält bör du tänka på att det finns tre olika
 
 Extraheringar
 
-Extraheringsoperatorn hämtar värdet från ett fält från en annan plats, t.ex. ett kampanjfält, ett Lead-fält eller i ett mer avancerat fall, [extrahera egna parametrar från landningssidan](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} 2).
+The [!UICONTROL extracts] operatorn hämtar värdet från ett fält från en annan plats, t.ex. ett kampanjfält, ett Lead-fält eller i ett mer avancerat användningsfall, [extrahera egna parametrar från landningssidan](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} 2).
 
 **Exempel 1**
 
@@ -123,7 +123,7 @@ När landningssidorna blir mer komplicerade och du har flera spårningsparametra
 
 **Mappa till**
 
-Mappningen till operatorn skapar en värdetabell som måste översättas eller klistras in i ett annat värde. Vanligtvis är det ett nyckelvärde där en kod representerar ett eget namn och måste mappas till det egna namnet.
+The [!UICONTROL maps to] skapar en värdetabell som måste översättas eller klistras in i ett annat värde. Vanligtvis är det ett nyckelvärde där en kod representerar ett eget namn och måste mappas till det egna namnet.
 
 **Exempel 1**
 
@@ -145,18 +145,18 @@ Nu när vi har lärt oss att extrahera och mappa till fält kan vi kombinera des
    * **(** markerar början av extraheringen
 
       * Observera, att eftersom vi bara extraherar de 4 första siffrorna har bara den öppna parentesen
-
    * **)** markerar slutet av extraheringen
 
       * Observera, att eftersom vi bara extraherar de 4 första siffrorna har bara den avslutande parentesen
-
    * **\d** anger att vi extraherar en&quot;siffra&quot;
    * **{2}** är antalet tecken vi extraherar
+
+
 
 * Klicka på [!UICONTROL Save]. Du måste spara det nya fältet innan det kan användas för nästa regel!
 * Därefter ska vi mappa alla möjliga värden för de första siffrorna till de egna namnen
 * Skapa ett beräkningsfält och ge det etiketten&quot;Region_Name&quot;
-* Definiera regeln genom att börja med att söka efter det extraherade fältet. I det här fallet Touchpoint.Region
+* Definiera regeln genom att börja med att söka efter det extraherade fältet. I detta fall [!DNL Touchpoint.Region]
 * Använd operatorn &quot;[!UICONTROL maps to]&quot; eftersom vi vill skapa en mappning för varje nummer till dess värde
 * Du kommer att få en tabell med en lista över varje mappning. Till slut kommer det att se ut ungefär så här:
 * Baserat på mappningen och URL:en ovan är&quot;Region_Value&quot; för en kontaktyta med denna landningssida&quot;EMEA&quot;
@@ -171,7 +171,7 @@ Nu när vi har lärt oss att extrahera och mappa till fält kan vi kombinera des
 
 **Sammanfogningar**
 
-Operatorn concatenates kombinerar värden från flera fält till ett enda fält. Det här är användbart om du vill skapa ett anpassat värde som hämtar data mellan olika fält för att skapa
+The [!UICONTROL concatenates] -operatorn kombinerar värden från flera fält till ett enda fält. Det här är användbart om du vill skapa ett anpassat värde som hämtar data mellan olika fält för att skapa
 
 **Exempel 1**
 
@@ -197,7 +197,7 @@ Regeln refererar till samma Touchpoint-fält och söker efter värden som inte �
 
 ![](assets/eleven.png)
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Finns det ett maximalt antal Touchpoint-fält som vi kan skapa?**
 
@@ -217,11 +217,11 @@ Precis som i Extract-exemplet nr 4 måste du skapa flera fält för att extraher
 
 **Varför ser jag inte mina nya fält i [!DNL Marketo Measure] schema?**
 
-Ytterligare arbete krävs för att visa de nya fälten i [!DNL Marketo Measure] Data warehouse schema. För närvarande visas fält med inställningar och konfiguration så att du kan använda Touchpoint-fält när du skapar segment eller skapar regler för borttagning av pekpunkter.
+Ytterligare arbete krävs för att visa de nya fälten i [!DNL Marketo Measure] Data Warehouse schema. För närvarande visas fält med inställningar och konfiguration så att du kan använda Touchpoint-fält när du skapar segment eller skapar regler för borttagning av pekpunkter.
 
 **Hur verifierar jag att mitt extraheringsuttryck är giltigt och drar rätt värde?**
 
-Det finns ett onlineverktyg ([https://regex101.com/](https://regex101.com/){target="_blank"}) som du kan köra och testa uttrycket. Uttrycket blir grönt om det är giltigt eller rött om det är ogiltigt. Dessutom är förklaringsrutan längst upp till höger användbar och informerar dig om vad du extraherar.
+Det finns ett onlineverktyg ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) som du kan köra och testa uttrycket. Uttrycket blir grönt om det är giltigt eller rött om det är ogiltigt. Dessutom finns [!UICONTROL explanation] i det övre högra hörnet är användbart och anger vad du extraherar.
 
 ![](assets/twelve.png)
 

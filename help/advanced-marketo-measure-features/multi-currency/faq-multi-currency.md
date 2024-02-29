@@ -4,9 +4,9 @@ description: Vanliga frågor (flervaluta) - [!DNL Marketo Measure] - Produktdoku
 title: Vanliga frågor (flervaluta)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 **Hur vet jag vilken del av funktionen jag vill aktivera?**
 
-Kom ihåg att det finns två olika funktionsbitar för den här funktionen. Båda finns på fliken Allmänt i CRM-avsnittet i Inställningar: Flera valutor och Avancerade valutor. Flera valutor bör aktiveras om kunden använder mer än en valuta, medan den ytterligare funktionen Avancerade valutor kan aktiveras om kunden använder [!DNL Salesforce]Funktionen &quot;Avancerad valutahantering&quot; där användaren kan ange ett tidsbaserat intervall för konverteringsgrader.
+Kom ihåg att det finns två olika funktionsbitar för den här funktionen. Båda finns i [!UICONTROL General] i CRM-avsnittet i Inställningar: Flera valutor och Avancerade valutor. Flera valutor bör aktiveras om kunden använder mer än en valuta, medan den ytterligare funktionen Avancerade valutor kan aktiveras om kunden använder [!DNL Salesforce]Funktionen &quot;Avancerad valutahantering&quot; där användaren kan ange ett tidsbaserat intervall för konverteringsgrader.
 
 Tyvärr vet vi inte när en kund växlar mellan Enkel eller Avancerat om Avancerat redan har aktiverats. På grund av detta måste kunden behålla inställningen Avancerade valutor manuellt justerad mot CRM-inställningen. Detta bör vara uppenbart för kunden om konverteringsgraden är felaktig, vilket innebär att vi inte visste vilken konverteringsnivå som skulle gälla.
 

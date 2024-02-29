@@ -4,9 +4,9 @@ description: Anpassad segmentering - [!DNL Marketo Measure] - Produktdokumentati
 title: Anpassad segmentering
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Steg 1 - Bestäm vilken information du vill se.
 
 Innan du använder den här funktionen bör du ta reda på vilken kontaktpunktsinformation du vill filtrera efter. Kom ihåg att använda de exakta värdena i CRM för dina posttyper. Konfigurationen filtrerar kontaktytorna uppifrån och ned i marknadsföringstratten.
 
-Steg 2 - Logga in och hitta segmentfunktionen.
+Steg 2 - Logga in och leta upp [!UICONTROL Segments] -funktion.
 
 * Gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} och logga in
 * Under [!UICONTROL My Account] flik, välja [!UICONTROL Settings]
@@ -43,7 +43,7 @@ Steg 3 - Förstå komponenterna.
 
 Steg 4 - Lägg till filterregler.
 
-* Ange först kategorinamnet. Affärstyp är ett exempel. Klicka på bockmarkeringen när du är klar. Du måste ange ett kategorinamn innan du kan lägga till segment
+* Ange först kategorinamnet. [!UICONTROL Business Type] är ett exempel. Klicka på bockmarkeringen när du är klar. Du måste ange ett kategorinamn innan du kan lägga till segment
 * Klicka på plustecknet för att lägga till ett segment
 * Ange ett segmentnamn. Du kan till exempel ha ett segment för Nytt företag, Partners, Förnyelse eller Merförsäljning
 
@@ -57,11 +57,11 @@ Steg 4 - Lägg till filterregler.
 >
 >Formelfält kan inte användas i reglerna och visas inte i plocklistan. Eftersom formler beräknas i bakgrunden och inte ändrar en post, [!DNL Marketo Measure] kan inte identifiera om en post passar en regel eller inte.
 
-* Alternativet Värde är inte en listruta och värdet måste anges manuellt. Kontrollera värdena i Salesforce-organisationen
+* The [!UICONTROL Value] är inte en listruta och värdet måste anges manuellt. Kontrollera värdena i Salesforce-organisationen
 * Upprepa den här processen för segmentreglerna för affärsmöjligheter
 * Kategorin Annan är ett standardsegment som fångar alla odefinierade kontaktpunkter. Du kan ändra standardsegmentets namn
 * Klicka på papperskorgsikonen om du vill ta bort en hel kategori eller en enskild regel i en kategori. Du kan också klicka på pennikonen för att redigera kategorin eller regeln
-* Du kommer att märka att du har en Spara-knapp och en Spara och bearbetningsknapp. Använd knappen Spara för att spara ditt arbete och dina ändringar över tid. Använd BARA knappen Spara och bearbeta när du har kontrollerat att:
+* Du kommer att märka att du har en[!UICONTROL Save]&quot; och knappen &quot;Spara och bearbeta&quot;. Använd knappen Spara för att spara ditt arbete och dina ändringar över tid. Använd BARA knappen Spara och bearbeta när du har kontrollerat att:
 
    * Mappningen är korrekt
    * Du har lagt till alla segment som du vill spåra inom en kategori

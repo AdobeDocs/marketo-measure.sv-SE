@@ -4,9 +4,9 @@ description: Borttagning av pekpunkter och inaktivering av pekpunkter - [!DNL Ma
 title: Borttagning av pekpunkter och inaktivering av pekpunkter
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Välj i en lista över operatorer som ska relatera till nästa uppsättning vär
 
 >[!TIP]
 >
->Om du vill ta hänsyn till ett tomt eller NULL-värde i ett fält lämnar du rutan Värde tom. Detta tar hänsyn till scenarier som att utvärdera mot en kontaktyta utan formulär-URL.
+>Om du vill ta hänsyn till ett tomt eller NULL-värde i ett fält lämnar du bara fältet [!UICONTROL Value] rutan är tom. Detta tar hänsyn till scenarier som att utvärdera mot en kontaktyta utan formulär-URL.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Du kan också lägga till nya programsatser utanför gruppen för att använda &
 
 ![](assets/2.png)
 
-`3)` Om reglerna blir komplicerade och du behöver återskapa grupper och göra små ändringar i varje sats, använder du klonalternativet för att göra det enklare.
+`3)` Om reglerna blir komplicerade och du behöver återskapa grupper och göra små ändringar i varje sats använder du [!UICONTROL Clone] för att förenkla.
 
 ![](assets/3.png)
 
@@ -65,7 +65,7 @@ Om du gör ett misstag, oroa dig inte. Du kan också ta bort enskilda rader i pr
 
 ![](assets/5.png)
 
-Slutför genom att spara och bearbeta reglerna. Om du gör många ändringar måste du spara ändringarna under tiden. [!DNL Marketo Measure] tar inte bort dina kontaktytor förrän du klickar på knappen **Spara och bearbeta** -knappen.
+Till slut [!UICONTROL Save and Process] era regler. Om du gör många ändringar måste du spara ändringarna under tiden. [!DNL Marketo Measure] tar inte bort dina kontaktytor förrän du klickar på knappen **Spara och bearbeta** -knappen.
 
 | **Operator** | **Användningsfall** |
 |---|---|

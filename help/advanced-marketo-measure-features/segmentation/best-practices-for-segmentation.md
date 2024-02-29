@@ -3,7 +3,7 @@ description: Bästa praxis för segmentering - [!DNL Marketo Measure] - Produktd
 title: Bästa praxis för segmentering
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Segmentering är avgörande för att du ska kunna använda [!DNL Marketo Measure
 
 Vid överföring till [!DNL Salesforce], skrivs segmentvärden till segmentfältet och ligger inom alla rapporttyper för köparens kontaktyta. På så sätt blir rapporteringen enhetlig på båda plattformarna. Segmentet finns också på &#39;Touchpoint Detail&#39; i alla kontaktytor.
 
-När du trycker på Discover visas segment som ett tillgängligt filter på den nedrullningsbara filtermenyn som finns på alla ritytor.
+Vid överföring till [!UICONTROL Discover], visas segment som ett tillgängligt filter på den nedrullningsbara filtermenyn som finns på alla ritytor.
 
 ## Bästa praxis {#best-practice}
 
@@ -30,7 +30,7 @@ Oavsett om du definierar segmentering för första gången eller bara granskar d
 * Justera segmentnamnet efter organisationens nomenklatur, d.v.s. kategorin = filternamn, segment = filtervärde
 * Använd inte formelfält i dina regler
 * Bygg segmenteringen när det är möjligt på både lead/kontakt och säljprojekt så att du kan använda den i hela tratten
-   * Om du är kund hos Marketo Measure Ultimate och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda de två fält nedan som är specifika för lead ([läs mer här](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Om du är kund hos Marketo Measure Ultimate och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda nedanstående två fält som är specifika för lead ([läs mer här](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
    * Alla segmentkategorier justeras inte i hela tratten
