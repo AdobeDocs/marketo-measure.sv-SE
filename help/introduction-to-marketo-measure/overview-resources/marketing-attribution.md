@@ -4,10 +4,10 @@ description: Marknadsattribuering - Marketo Measure - produktdokumentation
 title: Marknadsattribuering
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 204340c77a173c3e8fd87b65ed47a1a0dbc35880
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 4%
 
 ## Välkommen till Marketo Measure {#welcome-to-marketo-measure}
 
-Marketo Measure ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för företaget. Marketo Measure är en marknadsföringsattribueringslösning som automatiskt håller reda på och rapporterar om kanalernas prestanda, vilket ger er insyn i vilka kanaler som ökar kundengagemanget och gör att ni kan optimera era era marknadsföringsutgifter i enlighet med detta.
+Marketo Measure ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för deras företag. Marketo Measure är en marknadsföringsattribueringslösning som automatiskt håller reda på och rapporterar om kanalernas prestanda, vilket ger er insyn i vilka kanaler som ökar kundengagemanget och gör att ni kan optimera era era marknadsföringsutgifter i enlighet med detta.
 
 ## Marknadsattribuering {#marketing-attribution-1}
 
 **Marknadsattribuering** är processen att tilldela intäkter till en kontaktyta för marknadsföring. Detta görs genom att spåra en potentiell kunders hela kundresa, från den första interaktionen med företaget till den tidpunkt då erbjudandet upphör. De intäkter som genereras av avtalet tillskrivs de kontaktytor som ledde till försäljningen. Storleken på intäktskrediten till en kontaktyta beror på hur mycket kontaktytan påverkade kundens inköpsbeslut.
 
-**Pekpunkter** hänvisa till den interaktion en potentiell kund/lead har med marknadsföringen online eller offline. Det finns fyra **större **kontaktytor** som beaktas vid marknadsattribuering. De återspeglar de olika stegen i kundresan. Dessa viktiga kontaktytor, som också kallas **milstolpekontaktytor**, är: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won deal (CW).
+**Pekpunkter** hänvisa till den interaktion en potentiell kund/lead har med marknadsföringen online eller offline. Det finns fyra **viktiga kontaktytor** som beaktas vid marknadsattribuering. De återspeglar de olika stegen i kundresan. Dessa viktiga kontaktytor, som också kallas **milstolpekontaktytor**, är: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won deal (CW).
 
 ![](assets/1.png)
 
