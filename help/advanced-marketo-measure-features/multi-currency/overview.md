@@ -1,17 +1,17 @@
 ---
 unique-page-id: 27656735
-description: Översikt [!DNL Marketo Measure] - Produktdokumentation
-title: Ökning
+description: Översikt [!DNL Marketo Measure]
+title: Översikt
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# Ökning {#overview}
+# Översikt {#overview}
 
 Idag är [!DNL Marketo Measure] applikationen stöder bara en enda valuta (som antas vara USD), medan vi vet och är medvetna om att vi har kunder runt om i världen som behöver rapportera sina egna företags- och användarvalutor. Med den här funktionen kan användare växla mellan samma valutor som används i deras CRM när de visar rapporterade utgifter eller försäljningsintäkter i [!DNL Marketo Measure].
 

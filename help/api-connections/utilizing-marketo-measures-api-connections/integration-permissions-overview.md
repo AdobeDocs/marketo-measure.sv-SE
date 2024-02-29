@@ -1,10 +1,10 @@
 ---
-description: Översikt över integreringsbehörigheter - [!DNL Marketo Measure] - Produktdokumentation
+description: Översikt över integreringsbehörigheter - [!DNL Marketo Measure]
 title: Översikt över integreringsbehörigheter
 feature: APIs, Integration
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ Marketo Measure spårar kampanjer, annonsgrupper, kreatörer, webbplatslänkar o
     <td>Tack vare integreringen av B2B-kundattribut kan båda användare av Marketo Measure och Adobe Analytics berika sina Adobe Analytics-användarprofiler med värdefulla metadata som härleds från Marketo Measure attribueringsmotor och genom synkroniseringsmöjligheterna med CRM (Microsoft Dynamics och Salesforce). <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Läs mer</a>.</td>
     <td>Kunden måste förse Marketo Measure med autentiseringsuppgifter för Alias ID och FTP-server till en plats där data överförs till deras Analytics-instans.
     <p>
-    Observera följande information som du behöver för några av de senare stegen i processen:
+    Observera följande information eftersom du behöver den för några av de senare stegen i processen:
     <p>
     <li>Alias-ID, som kan vara vilket värde som helst. Vi rekommenderar"marketomeasure_id"</li>
     <li>FTP-serverns värdnamn och autentiseringsuppgifter (användarnamn och lösenord)</li>

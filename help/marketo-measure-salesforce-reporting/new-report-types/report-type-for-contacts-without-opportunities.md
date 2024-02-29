@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874616
-description: Typ av rapportering för kontakter utan affärsmöjligheter - [!DNL Marketo Measure] - Produktdokumentation
+description: Typ av rapportering för kontakter utan affärsmöjligheter - [!DNL Marketo Measure]
 title: Typ av rapportering för kontakter utan affärsmöjligheter
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men fortfarande se &quot;[!DNL Bizible]&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;[!DNL Bizible]&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 För att kunna rapportera om kontakter med Buyer Touchpoints som inte är kopplade till ett säljprojekt måste du skapa en anpassad rapporttyp.
 

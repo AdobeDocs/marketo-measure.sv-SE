@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874771
-description: Uppdatera med datainläsaren [!DNL Marketo Measure] Anpassat beloppsfält - [!DNL Marketo Measure] - Produktdokumentation
+description: Uppdatera med datainläsaren [!DNL Marketo Measure] Anpassat beloppsfält - [!DNL Marketo Measure]
 title: Uppdatera Marketo Measure fält för anpassat belopp med datainläsaren
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---

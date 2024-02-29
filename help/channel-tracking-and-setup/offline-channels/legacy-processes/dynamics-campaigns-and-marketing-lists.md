@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874610
-description: Dynamics-kampanjer och marknadsföringslistor - [!DNL Marketo Measure] - Produktdokumentation
+description: Dynamics-kampanjer och marknadsföringslistor - [!DNL Marketo Measure]
 title: Dynamics-kampanjer och marknadsföringslistor
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---

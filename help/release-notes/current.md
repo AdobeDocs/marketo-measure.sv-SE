@@ -1,11 +1,11 @@
 ---
-description: Aktuell versionsinformation - [!DNL Marketo Measure] - Produktdokumentation
+description: Aktuell versionsinformation - [!DNL Marketo Measure]
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,7 @@ De fält som innehåller samma information om Touchpoint- och Attribution Touchp
 
 * Skapa rapporter som fångar funktionaliteten i befintliga rapporter som använder de borttagna fälten. Som en del av den här processen vill du ändra fälten i rapporten enligt vad som anges nedan:
 
-   * Ta bort fält för lead/kontakt-FT/LC:
+* Ta bort fält för lead/kontakt-FT/LC:
 
 ![](assets/release-notes-2023-2.png)
 

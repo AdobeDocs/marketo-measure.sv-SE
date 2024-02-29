@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874648
-description: Skillnaden mellan en Google Analytics Conversion och en Buyer Touchpoint - [!DNL Marketo Measure] - Produktdokumentation
+description: Skillnaden mellan en Google Analytics Conversion och en Buyer Touchpoint - [!DNL Marketo Measure]
 title: Skillnaden mellan en Google Analytics Conversion och en Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%

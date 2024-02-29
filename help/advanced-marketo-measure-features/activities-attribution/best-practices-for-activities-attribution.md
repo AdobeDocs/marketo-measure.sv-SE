@@ -1,24 +1,24 @@
 ---
-description: Best Practices for Activities Attribution - [!DNL Marketo Measure] - Produktdokumentation
+description: Best Practices for Activities Attribution - [!DNL Marketo Measure]
 title: Best Practices for Activities Attribution
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
 # Best Practices for Activities Attribution {#best-practices-for-activities-attribution}
 
-## Ökning {#overview}
+## Översikt {#overview}
 
-The [!DNL Marketo Measure] Funktionen för aktivitetsattribuering gör att kunder kan skapa kontaktytor från aktivitetsposter i CRM. Det här sättet att skapa kontaktytor är flexibelt eftersom det gör att du kan skapa regler baserade på aktivitets- eller händelserefält för att informera [!DNL Marketo Measure] vilken aktivitet som registrerar att den ska producera kontaktytor från och därefter ta emot attribueringskredit.
+The [!DNL Marketo Measure] Funktionen för aktivitetsattribuering gör att kunder kan skapa kontaktytor från aktivitetsposter i CRM. Det här sättet att skapa kontaktytor är flexibelt. Du kan skapa regler baserade på fälten Uppgift eller Händelse för att informera [!DNL Marketo Measure] vilken aktivitet som registrerar att den ska producera kontaktytor från och därför ta emot attribueringskredit.
 
 Det vanligaste användningsområdet för den här funktionen är att utforma regler som inkluderar säljinteraktioner i kundens kontaktpunktsdata. Activity Attribution gör det möjligt för er att anpassa era sälj- och marknadsföringsdata till en enda resa.
 
-För många [!DNL Salesforce] -instanser kan Activity-objektet innehålla en mängd olika posttyper, så det är viktigt att dina Activity-regler är specifika och anpassade till de poster som du försöker att omvandla till kontaktytor. Följande metodtips hjälper dig att se till att du skapar meningsfulla och värdefulla kontaktytor via din aktivitetsattribuering.
+För många [!DNL Salesforce] -instanser kan Activity-objektet innehålla olika posttyper, så det är viktigt att dina Activity-regler är specifika och anpassade till de poster som du försöker att omvandla till kontaktytor. Följande metodtips hjälper dig att se till att du skapar meningsfulla och värdefulla kontaktytor via din aktivitetsattribuering.
 
 ## Bästa praxis {#best-practice}
 
@@ -34,15 +34,15 @@ Oavsett om du definierar aktivitetsregler för första gången eller bara gransk
 
 * Använd inte formelfält för att definiera regler
 * Skapa regler som är specifika och exakta
-   * Du vill att tröskelvärdet för att skapa en aktivitetskontaktyta ska vara samma (eller liknande) som för en formulärfyllning eller ett kampanjmedlemskap, dvs. (Svar på ett utgående e-postmeddelande eller slutförda telefonsamtal)
+   * Tröskelvärdet för att skapa en aktivitetskontaktyta ska vara detsamma (eller liknande) som för en formulärfyllning eller ett kampanjmedlemskap: Svar på ett utgående e-postmeddelande eller slutförda telefonkonversationer
 * Validera alltid nya regler i [!DNL Salesforce] innan du sparar och bearbetar
-   * Om du replikerar dina aktivitetsregler i en rapporttyp &quot;Aktiviteter och händelser&quot; får du en tydlig förståelse för exakt hur många kontaktytor som skapas utifrån den regeln
+   * Om du replikerar aktivitetsreglerna i en rapporttyp &quot;Aktiviteter och händelser&quot; får du en tydlig förståelse för exakt hur många kontaktytor som kommer från regeln
 * Arbeta i ditt säljteam
    * Genom att lägga dig i det team som arbetar närmast dina aktivitetsposter eller säljaktiveringsverktyg kan du vara säker på att du använder rätt fält för att definiera dina regler
 
 ## Bästa praxis för underhåll {#best-practice-for-maintenance}
 
-Om du granskar reglerna för aktivitetsattribuering minst två gånger per år ser du till att dina aktivitetskontaktytor är korrekta och aktuella. Du vill se till att dessa regler inte skapar oönskade kontaktytor som späder ut dina Buyer Attribution-data. En recension av hur reglerna är definierade hjälper dig och ditt team att känna sig säkra på ditt aktivitetsattribut och dess roll i ditt [!DNL Marketo Measure] data.
+Om du granskar dina regler för aktivitetsattribuering minst två gånger per år ser du till att dina kontaktytor för aktiviteten är korrekta och aktuella. Du vill se till att dessa regler inte skapar oönskade kontaktytor som späder ut dina Buyer Attribution-data. En recension av hur reglerna är definierade hjälper dig och ditt team att känna sig säkra på ditt aktivitetsattribut och dess roll i ditt [!DNL Marketo Measure] data.
 
 Andra orsaker till att det kan utlösa en granskning av dina aktivitetsregler är ...
 
@@ -54,4 +54,3 @@ Andra orsaker till att det kan utlösa en granskning av dina aktivitetsregler ä
 >
 >* [Verksamhetsattribut](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
 >* [Vanliga frågor om attribut för försäljningsaktiviteter](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
-

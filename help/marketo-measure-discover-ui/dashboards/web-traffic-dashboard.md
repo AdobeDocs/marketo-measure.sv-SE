@@ -3,7 +3,7 @@ description: Kontrollpanel för webbtrafik - [!DNL Marketo Measure] - Produkt
 title: Kontrollpanel för webbtrafik
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Tabell som visar totalt antal besök och unika besökare efter referenter.
 
 Stolpdiagram som visar besök eller unika besökare segmenterade efter kanal/underkanal/kampanj.
 
-* Utnyttja detaljfunktionerna för att kategorisera data efter Subchannel och Campaign.
+* använda detaljfunktionerna för att kategorisera data efter Subchannel och Campaign.
 * Håll pekaren över varje fält för att visa besök eller unika besökare.
 
 Frågor om diagramsvaren:

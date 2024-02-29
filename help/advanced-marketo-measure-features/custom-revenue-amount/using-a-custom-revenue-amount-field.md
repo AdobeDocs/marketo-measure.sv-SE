@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874793
-description: Använda ett fält för anpassat intäktsbelopp - [!DNL Marketo Measure] - Produktdokumentation
+description: Använda ett fält för anpassat intäktsbelopp - [!DNL Marketo Measure]
 title: Använda fältet Anpassat intäktsbelopp
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -100,10 +100,10 @@ Följande steg gäller för Salesforce Classic-användare. Om du har gått över
 
    ![](assets/using-a-custom-revenue-amount-field-15.png)
 
-1. Du kommer tillbaka till en startsida för ditt arbetsflöde, se till att&quot;Aktivera&quot; så är du redo att gå. Aktivera genom att klicka **[!UICONTROL Edit]** bredvid ditt nya arbetsflöde och klicka sedan på **[!UICONTROL Activate]**.
+1. kommer du tillbaka till en startsida för ditt arbetsflöde, se till att&quot;Aktivera&quot; så är du redo att gå. Aktivera genom att klicka **[!UICONTROL Edit]** bredvid ditt nya arbetsflöde och klicka sedan på **[!UICONTROL Activate]**.
 
    När du har slutfört de här stegen måste du uppdatera affärsmöjligheterna för att få det nya värdet från [!UICONTROL custom opportunity] fält.
 
-   Detta kan uppnås genom att du kör dina affärsmöjligheter via Data Loader i SFDC. Mer information om hur du använder Data Loader i [den här artikeln](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Detta kan uppnås genom att du kör dina affärsmöjligheter via Data Loader i SFDC. Hitta information om hur du använder datainläsaren i [den här artikeln](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Om du har några frågor kan du kontakta kontoteamet (din kontoansvarige) på Adobe eller [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Om det finns några frågor längs vägen går det bra att kontakta kontogruppen på Adobe (din kontoansvarige) eller [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

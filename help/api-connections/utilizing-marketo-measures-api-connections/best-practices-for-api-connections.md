@@ -1,18 +1,18 @@
 ---
-description: God praxis för API-anslutningar - [!DNL Marketo Measure] - Produktdokumentation
+description: God praxis för API-anslutningar - [!DNL Marketo Measure]
 title: Bästa tillvägagångssätt för API-anslutningar
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
 
 # Bästa tillvägagångssätt för API-anslutningar {#best-practices-for-api-connections}
 
-## Ökning {#overview}
+## Översikt {#overview}
 
 [!DNL Marketo Measure] erbjuder API-anslutningar med [!DNL Google AdWords], [!DNL Microsoft Bing Ads], [!DNL Facebook Ads]och LinkedIn. Dessa API-anslutningar aktiverar [!DNL Marketo Measure] för att hämta in en mängd data från era annonsplattformar som sedan kan rapporteras i era Buyer Touchpoint-data. En viktig egenskap för dessa API-anslutningar är deras förmåga att hämta utgiftsdata automatiskt, vilket sparar både tid och arbete för teamet som krävs för att manuellt överföra data för rapportering av avkastning. Det är inte obligatoriskt att konfigurera dessa API-anslutningar för [!DNL Marketo Measure] för att spåra dessa kanaler, men de ger värdefull detaljinformation som förbättrar er rapportering.
 
@@ -27,7 +27,7 @@ Oavsett vilken annonsplattform du ansluter är följande riktlinjer viktiga att 
 * Koppla samman alla annonskonton för att automatisera utgiftsrapporteringen så mycket som möjligt
 * Implementera alltid en spårningsmall om den är tillgänglig. Mallen ser till att även om annonskontot kopplas från, [!DNL Marketo Measure] kan fortfarande hantera detaljinformation om annonser
 
-Optimera varje [!DNL Marketo Measure] API, följ gärna följande metodtips.
+Optimera varje [!DNL Marketo Measure] API, följ följande metodtips.
 
 **[!DNL Facebook]**: Ansluta med automatisk taggning
 

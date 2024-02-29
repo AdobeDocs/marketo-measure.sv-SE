@@ -1,12 +1,12 @@
 ---
 unique-page-id: 34406495
-description: Marknadsföringsgrupper - [!DNL Marketo Measure] - Produktdokumentation
+description: Marknadsföringsgrupper - [!DNL Marketo Measure]
 title: Marknadsföringsgrupper
 exl-id: e7978a79-6f6e-4bfd-9962-b35b7d46a9ac
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---

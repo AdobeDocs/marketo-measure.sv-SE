@@ -3,9 +3,9 @@ description: Instrumentpanel för intäktsöversikt - [!DNL Marketo Measure] - P
 title: Instrumentpanel för intäktsöversikt
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Instrumentpanelen Intäktsöversikt ger insikter om den totala intäkten från C
 
 Sida vid sida-diagram över tidsserier i liggande format kontrasterar Totala intäkter med Attribuerade intäkter, vilket tydligt visar hur er marknadsföring påverkar de totala intäkterna.
 
-* Utnyttja detaljfunktionerna för att kategorisera data per kvartal och år.
+* använda detaljfunktionerna för att kategorisera data efter kvartal och år.
 * Håll pekaren över en del av stapeldiagrammet för att visa detaljerad information.
 
 **Frågor om diagramsvaren:**

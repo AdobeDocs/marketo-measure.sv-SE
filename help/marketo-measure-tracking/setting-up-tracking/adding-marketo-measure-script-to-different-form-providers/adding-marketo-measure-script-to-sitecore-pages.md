@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874747
-description: Lägger till [!DNL Marketo Measure] Skript till Sitecore-sidor - [!DNL Marketo Measure] - Produktdokumentation
+description: Lägger till [!DNL Marketo Measure] Skript till Sitecore-sidor - [!DNL Marketo Measure]
 title: Lägger till [!DNL Marketo Measure] Skript till Sitecore-sidor
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---

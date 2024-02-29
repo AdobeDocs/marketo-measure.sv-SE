@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37357059
-description: OAuth med [!DNL Azure Active Directory] för Dynamics CRM - [!DNL Marketo Measure] - Produktdokumentation
+description: OAuth med [!DNL Azure Active Directory] för Dynamics CRM - [!DNL Marketo Measure]
 title: OAuth med [!DNL Azure Active Directory] för Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Den här inställningen är till för nya [!DNL Marketo Measure] kunder som anv�
 1. Följ instruktionerna och skapa ett nytt program. Det spelar ingen roll om det är ett webbprogram eller ett offentligt klientprogram (mobil och dator), men om du vill ha specifika exempel för webbprogram eller offentliga klientprogram ska du kolla in våra [snabbstarter](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-overview).\
    a. Namn är programnamnet och beskriver programmet för slutanvändarna.\
    b. Under Kontotyper som stöds väljer du Konton i valfri organisationskatalog och personliga Microsoft-konton.\
-   c. Ange omdirigerings-URI. För webbprogram är detta den grundläggande URL:en för ditt program där användare kan logga in. Exempel, `http://localhost:12345`. För offentlig klient (mobil och dator) använder Azure AD den för att returnera tokensvar. Ange ett värde som är specifikt för programmet. Exempel, `http://MyFirstAADApp`.
+   c. Ange omdirigerings-URI. För webbprogram är detta den grundläggande URL:en för ditt program där användare kan logga in. Till exempel: `http://localhost:12345`. För offentlig klient (mobil och dator) använder Azure AD den för att returnera tokensvar. Ange ett värde som är specifikt för programmet. Till exempel: `http://MyFirstAADApp`.
 
 1. När du har slutfört registreringen tilldelar Azure AD ditt program en unik klientidentifierare (program-ID). Du behöver det här värdet i nästa avsnitt, så kopiera det från programsidan.
 
@@ -118,7 +118,7 @@ b. Klienthemlighet är den programhemlighet som skapas i Azure Portal för ditt 
 
 c. Program-ID-URI är URL:en för mål-webb-API:t (skyddad resurs). Om du vill hitta app-ID-URL:en i Azure Portal klickar du på [!DNL Azure Active Directory], klickar du på Programregistreringar, öppnar programmets inställningssida och klickar sedan på Egenskaper. Det kan också vara en extern resurs som `https://graph.microsoft.com`. Detta är vanligtvis Dynamics-instansens URL.
 
-1. När du klickat **[!UICONTROL Submit]** blir du ombedd att logga in med [!DNL Azure Active Directory]. När autentiseringen är slutförd ansluts ditt Dynamics-konto som dataleverantör inom [!DNL Marketo Measure].
+1. När du klickat **[!UICONTROL Submit]** uppmanas du att logga in med [!DNL Azure Active Directory]. När autentiseringen är slutförd ansluts ditt Dynamics-konto som dataleverantör inom [!DNL Marketo Measure].
 
 ## Autentiserar ditt Dynamics-konto igen {#re-authenticating-your-dynamics-account}
 
@@ -130,4 +130,4 @@ c. Program-ID-URI är URL:en för mål-webb-API:t (skyddad resurs). Om du vill h
 
    ![](assets/re-authenticating-3.png)
 
-1. När du klickat **[!UICONTROL Submit]** blir du ombedd att logga in med [!DNL Azure Active Directory]. När autentiseringen är klar kommer ditt Dynamics-konto att återauktoriseras inom [!DNL Marketo Measure].
+1. När du klickat **[!UICONTROL Submit]** uppmanas du att logga in med [!DNL Azure Active Directory]. När autentiseringen är klar kommer ditt Dynamics-konto att återauktoriseras inom [!DNL Marketo Measure].

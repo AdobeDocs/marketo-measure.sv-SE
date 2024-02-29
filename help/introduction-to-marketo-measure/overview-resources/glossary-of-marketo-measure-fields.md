@@ -4,9 +4,9 @@ description: Ordlista över Marketo Measure-fält - Marketo Measure - produktdok
 title: Ordlista för Marketo Measure-fält
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3213'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 I den här artikeln finns en ordlista med alla Marketo Measure-fält som har lagts till i Salesforce från Marketo Measure baspaket. Du hittar även information om vilket objekt som fältet kan hittas på och hur varje fält fylls i med information.
 
-Om du vill se vilket objekt varje Marketo Measure-fält relaterar till kan du [klicka här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+För en karta över vilket objekt varje Marketo Measure-fält relaterar till [klicka här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ [K](#k) ・ [L](#l) ・ [M](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ B ・ X ・ Y ・ Z
 
@@ -53,11 +53,11 @@ Om inget av ovanstående anges är fältet tomt.
 
 Om inget av ovanstående anges är fältet tomt.
 
-**Namn på annonskampanj (FT)** | Köparens kontaktyta
+**Namn på annonskampanj (FT)** | Kontaktpunkt för köpare
 
 Det här fältet fylls i på samma sätt som annonskampanjens namn. I det här fältet visas dock namnet på annonskampanjen som genererade första kontaktytan.
 
-**Namn på annonskampanj (LC)** | Köparens kontaktyta
+**Namn på annonskampanj (LC)** | Kontaktpunkt för köpare
 
 Det här fältet fylls i på samma sätt som annonskampanjens namn. I det här fältet visas emellertid namnet på annonskampanjen som genererade kontaktpunkten för att skapa leads.
 
@@ -127,7 +127,7 @@ I det här fältet visas den procentuella intäkt som tilldelats en kontaktyta e
 
 ## B {#b}
 
-**Marketo Measure säljprojektsbelopp** | Salesforce-möjlighet
+**Marketo Measure säljprojektsbelopp** | Salesforce-affärsmöjlighet
 
 Om du använder ett anpassat beloppsfält för att rapportera säljprojektsintäkter kan Marketo Measure inte läsa dessa anpassade beloppsfält. Marketo Measure Opportunity Amount är ett dolt fält som används för att skapa ett arbetsflöde som gör att Marketo Measure kan läsa anpassade beloppsfält i säljprojektet.
 
@@ -149,7 +149,7 @@ Om du använder en anpassad attribueringsmodell visas i det här fältet, i deci
 
 Om du inte använder en anpassad modell kommer det här fältet att vara tomt.
 
-**Antal - anpassad modell** | Köparens kontaktyta
+**Antal - anpassad modell** | Kontaktpunkt för köpare
 
 Om du använder en anpassad attribueringsmodell visar det här fältet, i decimalform, den procentandel attribueringskrediter som har tilldelats en kontaktyta enligt de värden som har angetts i din anpassade modell. Eftersom det här fältet gäller Buyer Touchpoint-objektet är det inte en reflexion av intäktskrediten, utan bara attribueringskrediter.
 
@@ -159,7 +159,7 @@ Om du inte använder en anpassad modell kommer det här fältet att vara tomt.
 
 I det här fältet visas, i decimalform, den procentuella intäktskrediten som tilldelats en kontaktyta enligt en First Touch Model.
 
-**Antal - första beröring** | Köparens kontaktyta
+**Antal - första beröring** | Kontaktpunkt för köpare
 
 I det här fältet visas, i decimalform, den procentuella attribueringskrediten som tilldelats en kontaktyta enligt en First Touch Model. Om kontaktytan är First Touch blir fältet alltid 1,0 (vilket anger 100 % attribueringskrediter). Om kontaktytan inte är den första kontakten är fältet alltid 0 (vilket anger 0 % attribueringskrediter).
 
@@ -173,7 +173,7 @@ I det här fältet visas, i decimalform, den procentuella intäkt som ges till e
 
 I det här fältet visas, i decimalform, den procentuella intäktskrediten som tilldelats en kontaktyta enligt en Lead Creation Model.
 
-**Antal - Lead Creation Touch** | Köparens kontaktyta
+**Antal - Lead Creation Touch** | Kontaktpunkt för köpare
 
 I det här fältet visas, i decimalform, den procentuella attribueringskrediten som tilldelats en kontaktyta enligt en Lead Creation Model. Om kontaktytan Lead Creation (Leadskapandekontakt) är fältet alltid 1.0 (vilket anger 100 % attribueringskrediter). Om kontaktytan Lead Creation (Lead Creation) inte visas är fältet alltid 0 (vilket anger 0 % attribution).
 
@@ -183,7 +183,7 @@ Eftersom det här fältet gäller Buyer Touchpoint-objektet är det inte en refl
 
 I det här fältet visas, i decimalform, den procentuella intäktskrediten som tilldelats en kontaktyta enligt en U-Shaped-modell.
 
-**Antal - U-formad** | Köparens kontaktyta
+**Antal - U-formad** | Kontaktpunkt för köpare
 
 I det här fältet visas, i decimalform, den procentuella attribueringskrediten som tilldelats en kontaktyta enligt en U-Shaped-modell. I den U-formade modellen delas krediten mellan First Touch, Lead Creation Touch och alla mellanliggande formulärinskickade formulär som gjordes mellan First Touch och Lead Creation Touch.
 
@@ -253,7 +253,7 @@ I det här fältet visas region eller stat där leadet/kontakten besökte webbpl
 
 [Klicka här om du vill gå tillbaka till sidans överkant](#top)
 
-## k {#k}
+## K {#k}
 
 **Nyckelords-ID** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -295,11 +295,11 @@ I det här fältet visas namnet på det lead som en kontaktyta tillhör.
 
 [Klicka här om du vill gå tillbaka till sidans överkant](#top)
 
-## m {#m}
+## M {#m}
 
 **Marknadsföringskanal** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-I det här fältet visas den allmänna gruppen av marknadsföringsaktiviteter eller marknadsföringskanal som kontaktytan tillhör (t.ex. Betald sökning, Direkt, Socialt osv.). Kontaktpunkterna grupperas efter hur kanalerna har konfigurerats i Marketo Measure App. Mer information om marknadsföringskanaler, eller om hur du konfigurerar dina kanaler, finns på [klicka här](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+I det här fältet visas den allmänna gruppen av marknadsföringsaktiviteter eller marknadsföringskanal som kontaktytan tillhör (t.ex. Betald sökning, Direkt, Socialt osv.). Kontaktpunkterna grupperas efter hur kanalerna har konfigurerats i Marketo Measure App. Mer information om marknadsföringskanaler och om hur du skapar kanaler finns i [klicka här](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **Marknadsföringskanal - sökväg** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -407,11 +407,11 @@ T
 
 `3)` Om kontaktytan kommer från en aktivitet, visar det här fältet datum och tid för det fält som markerats som slutpunktsdatum i aktivitetsreglerna.
 
-**Slutpunktsdatum (FT)** | Köparens kontaktyta
+**Slutpunktsdatum (FT)** | Kontaktpunkt för köpare
 
 Det här är samma fält som Touchpoint Date, men i det här fältet visas specifikt datum och tid då den första beröringspunkten inträffade.
 
-**Slutpunktsdatum (LC)** | Köparens kontaktyta
+**Slutpunktsdatum (LC)** | Kontaktpunkt för köpare
 
 Det här är samma fält som Touchpoint Date, men i det här fältet visas specifikt datum och tid då kontaktpunkten för att skapa lead inträffade.
 
@@ -443,11 +443,11 @@ Closed - Den interaktion som ligger närmast när Opp stängs (Won eller Lost)
 
 Om inget av ovanstående anges fylls fältet i som &quot;Web Direct&quot; eller &quot;Web&quot;.
 
-**Kontaktpunktskälla (FT)** | Köparens kontaktyta
+**Kontaktpunktskälla (FT)** | Kontaktpunkt för köpare
 
 Det här är samma fält som Källa för kontaktpunkt, men i det här fältet visas källan för den första beröringspunkten.
 
-**Kontaktpunktskälla (LC)** | Köparens kontaktyta
+**Kontaktpunktskälla (LC)** | Kontaktpunkt för köpare
 
 Det här är samma fält som Källa för kontaktpunkt, men i det här fältet visas källan för kontaktpunkten Skapa lead.
 

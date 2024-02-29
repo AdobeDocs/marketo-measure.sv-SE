@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] Integrering av människor - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Engage] Integrering av människor - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Integrering av människor"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Tack vare integreringen av Marketo-användare kan [!DNL Marketo Measure] för at
 * Production Marketo, instans
 * Produktion [!DNL Salesforce] eller [!DNL Microsoft Dynamics] instance
 * Valfritt [!DNL Marketo Measure] prenumeration
-* SOLR aktiverat (kontakta [Marketo Support](https://nation.marketo.com/t5/Support/ct-p/Support) för att aktivera detta)
+* SOLR aktiverat (nå ut till [Marketo Support](https://nation.marketo.com/t5/Support/ct-p/Support) för att aktivera detta)
 
 ## Så här fungerar det {#how-it-works}
 
@@ -40,7 +40,7 @@ Kunderna kan rapportera alla Marketo-användare och CRM-personer i [!DNL Marketo
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 
-Vid rapportering av leads (personer) i [!DNL Marketo Measure Discover]kommer du att se det totala antalet leads för Marketo och CRM. Om du bara vill rapportera om Marketo-användare eller bara CRM-leads, vill du skapa en segmentkategori för källan och sedan skapa segmentregler för Marketo och CRM med hjälp av fältet Källsystem för att definiera regeln. När du har skapat segmenten visas källkategorin som kan filtreras i hela [!DNL Marketo Measure Discover] instrumentpaneler.
+Vid rapportering av leads (personer) i [!DNL Marketo Measure Discover]kommer du att se det totala antalet leads för Marketo och CRM. Om du bara vill rapportera om Marketo-användare eller endast CRM-leads, vill du skapa en segmentkategori för källan och sedan skapa segmentregler för Marketo och CRM med hjälp av fältet Källsystem för att definiera regeln. När du har skapat segmenten visas källkategorin som kan filtreras i hela gruppen [!DNL Marketo Measure Discover] instrumentpaneler.
 
 ![](assets/bizible-discover-1.png)
 
@@ -103,7 +103,7 @@ Vid rapportering av leads (personer) i [!DNL Marketo Measure Discover]kommer du 
 
 *Det finns ett känt beteendeproblem där fält från Marketo företagsenhet inte påverkar personens uppdateradeAt-värde, så om relevanta fält som Webbplats eller Företag uppdateras. [!DNL Marketo Measure] kommer inte att veta att dessa värden ändras eftersom värdet för updatedAt date/time inte uppdateras. Detta påverkar ABM-funktionen, där vi inte skulle ha nya data för att lösa kontot för leadet. Det finns inga lösningar just nu, men det finns planer på att ta itu med detta i framtiden.
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Varför skiljer sig antalet leads mellan mitt CRM och [!DNL Marketo Measure Discover]?**
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874736
-description: Ta bort [!DNL Marketo Measure] Spårningsparametrar från landningssidans URL i Google Analytics - [!DNL Marketo Measure] - Produktdokumentation
+description: Ta bort [!DNL Marketo Measure] Spårningsparametrar från landningssidans URL i Google Analytics - [!DNL Marketo Measure]
 title: Ta bort [!DNL Marketo Measure] Spårningsparametrar från landningssidans URL i Google Analytics
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---

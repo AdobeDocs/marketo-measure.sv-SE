@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874745
-description: AJAX - [!DNL Marketo Measure] - Produktdokumentation
+description: AJAX - [!DNL Marketo Measure]
 title: AJAX formulärhantering
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Rapportera kundkonverteringar manuellt till [!DNL Marketo Measure]har vi skapat 
 
 ## Scenario 1 - HTML-formulär med AJAX {#scenario-html-form-with-an-ajax-submit}
 
-När du använder formulär som innehåller AJAX (eller någon annan mekanism) för att skicka konverteringsdatum från klienten till våra servrar, [!DNL Marketo Measure] kanske inte känner till kundkonverteringen via någon av de standardvägar som vi övervakar. I det här scenariot kan vi utnyttja ett enkelt API (se nedan).
+När du använder formulär som innehåller AJAX (eller någon annan mekanism) för att skicka konverteringsdatum från klienten till våra servrar, [!DNL Marketo Measure] kanske inte känner till kundkonverteringen via någon av de standardvägar som vi övervakar. I det här scenariot kan vi använda ett enkelt API (se nedan).
 
 Om du hanterar dina egna inskickade formulär kan du anropa [!DNL Marketo Measure] från Javascript. [!DNL Marketo Measure] samlar in all relevant information från formuläret och skickar den asynkront till våra servrar.
 
@@ -64,7 +64,7 @@ I koden [!UICONTROL email] fältet är obligatoriskt. [!DNL Marketo Measure] ski
 
 I vissa fall är det bekvämare att rapportera leadinformationen till [!DNL Marketo Measure] på tacksidan när formuläret har skickats in. Det enklaste sättet att rapportera den här informationen är att lägga till ett dolt element på sidan som innehåller information från formulärinlämningen, och [!DNL Bizible.js] kommer att läsa den här informationen när sidan med tack har lästs in.
 
-**Exempel:**
+**Till exempel:**
 
 ```html
 <div id="bizible.reportUser" style="display:none"  

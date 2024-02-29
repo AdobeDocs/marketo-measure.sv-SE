@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874594
-description: Integrerade annonsplattformar - [!DNL Marketo Measure] - Produktdokumentation
+description: Integrerade annonsplattformar - [!DNL Marketo Measure]
 title: Integrerade annonsplattformar
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Läs mer om våra [[!DNL AdWords] funktioner för automatisk taggning](/help/api
 
 ## Aktivera [!DNL Marketo Measure] Automatisk taggning för ord {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
-Före aktivering [!DNL Marketo Measure] automatisk taggning, **Kontrollera att du har en spårningsmall aktiverad på konto-, kampanj- eller annonsgruppsnivå i ditt Adwords-konto. Detta krävs för alla Adwords-konton som har [!DNL Marketo Measure] autotaggning har aktiverats.** Om du aktiverar en spårningsmall förhindras alla förluster i data för annonshistorik. Observera att aktivering av spårningsmallar på nyckelords-, sigillänks- eller annonsnivå gör att annonsen går igenom gransknings- och godkännandeprocessen och kan starta om annonsernas prestandahistorik. Om ingen spårningsmall är aktiverad alls [!DNL Marketo Measure] kommer att lägga till [!DNL Marketo Measure] spårningsparametrar direkt till annonsens &quot;Final URL&quot;, som också kan resultera i förlust av annonshistorikdata.
+Före aktivering [!DNL Marketo Measure] automatisk taggning, **se till att du har en spårningsmall aktiverad på konto-, kampanj- eller annonsgruppsnivå i ditt Adwords-konto. Detta krävs för alla Adwords-konton som har [!DNL Marketo Measure] autotaggning har aktiverats.** Om du aktiverar en spårningsmall förhindras alla förluster i data för annonshistorik. Observera att aktivering av spårningsmallar på nyckelords-, sigillänks- eller annonsnivå gör att annonsen går igenom gransknings- och godkännandeprocessen och kan starta om annonsernas prestandahistorik. Om ingen spårningsmall är aktiverad alls [!DNL Marketo Measure] kommer att lägga till [!DNL Marketo Measure] spårningsparametrar direkt till annonsens &quot;Final URL&quot;, som också kan resultera i förlust av annonshistorikdata.
 
 När du har en spårningsmall på plats följer du instruktionerna nedan för att aktivera [!DNL Marketo Measure] Automatisk taggning. Obs! [!DNL Marketo Measure] kommer även att tagga alla pausade annonser i ditt konto automatiskt.
 
@@ -135,7 +135,7 @@ Det är viktigt att notera att [!DNL Bing Ads] Med kan du lägga till ännu fler
 
 Du kan använda en spårningsmall om du vill, men det är inte nödvändigt för [!DNL Bing Ads] och [!DNL Marketo Measure] att integrera. Det beror på att [!DNL Bing] tillåter att annonser redigeras utan att historiken ändras, så [!DNL Marketo Measure] kan uppdatera mål-URL:en.
 
-Automatisk taggning ska aktiveras med [!DNL Marketo Measure] så att den [!DNL Marketo Measure] parametrar kan läggas till automatiskt. Det finns ingen risk för att Bing Ads förlorar tidigare annonseringsinsatser.
+Automatisk taggning ska aktiveras med [!DNL Marketo Measure] så att den [!DNL Marketo Measure] parametrar kan läggas till automatiskt. Det finns ingen risk för att Bing Ads förlorar historik över tidigare annonseringar.
 
 Besök [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls){target="_blank"} för mer information om hur du lägger till taggar på deras plattform.
 
@@ -147,7 +147,7 @@ Innan du aktiverar automatisk taggning med [!DNL Facebook Ads]är det viktigt at
 
 Observera att du kan ansluta [!DNL Facebook] kontot när som helst till [!DNL Marketo Measure] och inga data går förlorade. Det är bara när automatisk taggning är aktiverat som prestandahistoriken rensas.
 
-[Läs den här artikeln](https://www.facebook.com/business/help/393890194130036){target="_blank"} från Facebook om du vill ha mer information om export [!DNL Facebook] Annonsrapporter.
+Se [den här artikeln](https://www.facebook.com/business/help/393890194130036){target="_blank"} från Facebook om du vill ha mer information om export [!DNL Facebook] Annonsrapporter.
 
 ## LinkedIn Sponsored Content {#linkedin-sponsored-content}
 

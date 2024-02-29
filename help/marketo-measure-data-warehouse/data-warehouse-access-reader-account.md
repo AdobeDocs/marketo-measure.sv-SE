@@ -3,9 +3,9 @@ description: Data Warehouse Access - Reader Account - Product Documentation
 title: Åtkomst till Data Warehouse - Reader
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Om du vill komma åt ditt datalager i Snowflake måste du navigera till den spec
    >
    >Det här är ett skrivskyddat konto som är tillgängligt för din organisation, inte bara för en enskild användare. Alla användare i organisationen som har tillgång till [!DNL Marketo Measure] kan använda det här kontot för att logga in på läsarkontot för Datan Warehouse Snowflake.
 
-1. Klicka på länken i Snowflake URL:en så kommer du till inloggningssidan för Snowflake där du anger ditt användarnamn och lösenord. _Om du inte har ditt lösenord läser du stegen nedan för att återställa det_.
+1. Klicka på länken i Snowflake URL:en så öppnas inloggningssidan för Snowflake där du anger ditt användarnamn och lösenord. _Om du inte har ditt lösenord läser du stegen nedan för att återställa det_.
 
    ![](assets/data-warehouse-access-reader-account-4.png)
 
@@ -59,7 +59,7 @@ Om du vill komma åt ditt datalager i Snowflake måste du navigera till den spec
 
 ## Ansluta till Snowflake via tredjepartsverktyg {#connecting-to-snowflake-via-third-party-tools}
 
-Du måste ange några uppgifter för att kunna koppla ditt datalager från Snowflake till ett tredjepartsverktyg.
+måste du ange några uppgifter för att kunna koppla ditt datalager från Snowflake till ett tredjepartsverktyg.
 
 >[!NOTE]
 >

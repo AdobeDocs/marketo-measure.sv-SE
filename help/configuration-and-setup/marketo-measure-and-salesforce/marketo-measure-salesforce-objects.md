@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874582
-description: "[!DNL Marketo Measure] Salesforce-objekt - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Salesforce-objekt - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Salesforce-objekt"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 När [!DNL Marketo Measure] är installerat i [!DNL Salesforce] (SFDC), flera anpassade [!DNL Marketo Measure] Objekt läggs till. Den här artikeln innehåller en förklaring till flera av de anpassade [!DNL Marketo Measure] Objekt. Vissa objekt som [!DNL Marketo Measure] lägger till i [!DNL Salesforce] är:
 
@@ -73,7 +73,7 @@ The [!DNL Marketo Measure] Med händelseobjektet kan du spåra specifika händel
 
 ## [!DNL Marketo Measure] Fält {#marketo-measure-fields}
 
-Data som samlats in av [!DNL Marketo Measure] Javascript kommer att överföras till den anpassade [!DNL Marketo Measure] Fält inom [!DNL Marketo Measure] Objekt. Vissa fält finns bara på vissa objekt. För en ordlista över alla [!DNL Marketo Measure] fält, [klicka här](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). För en visualisering av [!DNL Marketo Measure] Objekt var [!DNL Marketo Measure] Fältet är relaterat till, tack [klicka här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Data som samlats in av [!DNL Marketo Measure] JavaScript överförs till den anpassade [!DNL Marketo Measure] Fält i [!DNL Marketo Measure] Objekt. Vissa fält finns bara på vissa objekt. Du kan granska [ordlista för [[!DNL Marketo Measure] fält]](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) och [visualisering av den relaterade [!DNL Marketo Measure] Objekt](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure] Rapporter och kontrollpaneler {#marketo-measure-reports-and-dashboards}
 

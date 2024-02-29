@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874682
-description: Marknadsföringskanaler och delkanaler - [!DNL Marketo Measure] - Produktdokumentation
+description: Marknadsföringskanaler och delkanaler - [!DNL Marketo Measure]
 title: Marknadsföringskanaler och delkanaler
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Definiera vad en kanal och en delkanal ska vara i [!DNL Marketo Measure], hur de relaterar till ditt innehåll, skillnaden mellan de två klassificeringarna och hur de används i [!DNL Marketo Measure] app.
 
-## Ökning {#overview}
+## Översikt {#overview}
 
 Marknadsföringskanaler används för att kategorisera (eller&quot;bucket&quot;) era marknadsföringsaktiviteter för att underlätta rapporteringen, båda i [!DNL Marketo Measure] ROI Dash och i CRM. [!DNL Marketo Measure] innehåller 12 av kartongskanalerna (som du kan anpassa/byta namn efter organisationens regler) samt möjligheten att ytterligare skapa anpassade kanaler för ännu mer detaljerad filtrering.
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] Verksamhetsintegrering - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Engage] Verksamhetsintegrering - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Verksamhetsintegrering"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1671'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Som en del av det övergripande [!DNL Marketo Measure] och [!DNL Marketo Engage]
 
    ![](assets/four-1.png)
 
-1. För varje aktivitetstyp måste du definiera en eller flera regler som avgör vilka poster som är kvalificerade för kontaktytor. Vi ska till exempel lägga till en regel för aktivitetstypen&quot;Change Score&quot; så att systemet skapar en kontaktyta när en Marketo-person når en poäng på 90 eller högre.
+1. För varje aktivitetstyp måste du definiera en eller flera regler som avgör vilka poster som är berättigade för kontaktytor. Vi ska till exempel lägga till en regel för aktivitetstypen&quot;Change Score&quot; så att systemet skapar en kontaktyta när en Marketo-person når en poäng på 90 eller högre.
 
 1. Först, beroende på aktivitetstypen, kan du behöva konfigurera en [!DNL Marketo Measure] Kampanjnamn som kan användas senare för kanalmappning. [!DNL Marketo Measure] Kampanjnamn kan återanvändas i flera regler. Detta hjälper till att få bredare namn som kan användas i en kanalregel. Alla aktivitetstyper innehåller inte ett Marketo-program och därför behövs ett namn som första steg.
 
@@ -166,7 +166,7 @@ Genom dataimporten av Marketo-program laddas kostnaderna automatiskt ned från P
 
 ## Cookie-mappning {#cookie-mapping}
 
-Som ett resultat av [!DNL Marketo Measure] integrering med Marketo, [!DNL Marketo Measure] Cookie-ID har nu också mappats och synkroniserats med [!DNL Marketo Munchkin Id]. Detta gör att luckan stängs så att den anonyma första beröringen kan kopplas till en webbsession i stället för att både FT- och LC-beröringen tilldelas en Marketo-aktivitet. Tänk dig detta scenario:
+Som ett resultat av [!DNL Marketo Measure] integrering med Marketo, [!DNL Marketo Measure] Cookie-ID har nu också mappats och synkroniserats med [!DNL Marketo Munchkin Id]. Detta gör att luckan stängs så att den anonyma första beröringen kan kopplas till en webbsession i stället för att både FT- och LC-beröringen kan kopplas till en Marketo-aktivitet. Tänk dig detta scenario:
 
 Markera klickar på en Facebook-annons och går till wayneenterprises.com där han eller hon cookas med [!DNL Marketo Measure] ID 123 och [!DNL Marketo Munchkin Id] 456. Ingen formulärifyllning sker.
 
@@ -184,7 +184,7 @@ I och med den här förbättringen av cookie-mappningen kommer FT tillbaka och k
 >
 >Med funktionen för cookie-mappning kan du hitta några LC-kontaktytor som kommer från ett webbbesök. Det är möjligt att ett lead visades i Marketo utan någon tillhörande aktivitet, och sedan [!DNL Marketo Measure] ladda ned leadet, matchade de associerade cookies och spårade det sedan till den senaste webbsessionen, även om det inte fanns någon formuläraktivitet som skapade leadet.
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Hur vet jag om jag ska skapa en regel för Marketo-program eller en regel för Marketo-aktiviteter?**
 

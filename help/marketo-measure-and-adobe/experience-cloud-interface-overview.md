@@ -1,11 +1,11 @@
 ---
-description: Adobe Experience Cloud Interface Overview - [!DNL Marketo Measure] - Produktdokumentation
+description: Adobe Experience Cloud Interface Overview - [!DNL Marketo Measure]
 title: Adobe Experience Cloud Interface Overview
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Om du är _not_ redan inloggad på en Adobe Experience Cloud-produkt, logga in d
 
 ## Nya funktioner {#new-features}
 
-Förutom det uppdaterade utseendet och känslan kommer du att märka följande funktioner:
+Lägg märke till följande funktioner, utöver det uppdaterade utseendet och känslan:
 
 **Domänhantering**
 
@@ -58,11 +58,11 @@ Visa och interagera med produktspecifika meddelanden och allmänna produktmeddel
 
 **Inställningar för Adobe**
 
-Klicka på din profilikon om du vill ändra språk eller andra inställningar för hela Adobe. Du kan också skapa [!DNL Marketo Measure]-specifika ändringar genom att klicka **Mina inställningar**.
+Om du vill ändra språk eller andra inställningar för hela Adobe klickar du på din profilikon. Du kan också skapa [!DNL Marketo Measure]-specifika ändringar genom att klicka **Mina inställningar**.
 
 ![](assets/unified-shell-overview-10.png)
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Vad händer med mina bokmärken?**
 
@@ -74,4 +74,4 @@ Om du kan logga in på Adobe Experience Cloud, men se en sida som följande, kan
 
 ![](assets/unified-shell-overview-11.png)
 
-Om du får felmeddelandet ovan, [kontakta supporten](https://nation.marketo.com/t5/support/ct-p/Support) om du behöver hjälp.
+Om du får ovanstående fel [kontakta supporten](https://nation.marketo.com/t5/support/ct-p/Support) om du behöver hjälp.

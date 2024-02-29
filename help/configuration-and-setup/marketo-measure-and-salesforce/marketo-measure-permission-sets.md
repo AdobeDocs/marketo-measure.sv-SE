@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874789
-description: "[!DNL Marketo Measure] Behörighetsuppsättningar - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Behörighetsuppsättningar - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Behörighetsuppsättningar"
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Så här öppnar och tilldelar du behörighetsuppsättningar i Salesforce:
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Administratör</strong></span></td> 
-   <td><span>Ger en SFDC-administratör möjlighet att skapa, läsa, skriva och ta bort poster från [!DNL Marketo Measure] objekt. Licensen enligt vilken [!DNL Marketo Measure] data skickas till SFDC om den här behörighetsuppsättningen ska vara aktiverad. Vi rekommenderar dessutom att den här licensen kan redigera konverterade leads i scenarier där lead konverteras före [!DNL Marketo Measure] använder data på posten. Detta garanterar att rapporteringen mellan Salesforce och [!DNL Marketo Measure]. <a href="http://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_sales_leads_view_converted.htm">Läs mer här</a>.</span></td> 
+   <td><span>Ger en SFDC-administratör möjlighet att skapa, läsa, skriva och ta bort poster från [!DNL Marketo Measure] objekt. Licensen enligt vilken [!DNL Marketo Measure] data skickas till SFDC om den här behörighetsuppsättningen ska vara aktiverad. Vi rekommenderar även att den här licensen kan redigera konverterade leads i scenarier där lead konverteras före [!DNL Marketo Measure] använder data på posten. Detta garanterar att rapporteringen mellan Salesforce och [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">Läs mer här</a>.</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Marknadsförare</strong></span></td> 
@@ -52,4 +52,4 @@ Inkommande säljutvecklingsteam och kontoansvariga kan ha nytta av [!DNL Marketo
 
 >[!NOTE]
 >
->Dessutom måste användaren som vi är anslutna via ha&quot;marknadsföringsanvändare&quot; [!DNL Salesforce] Profil aktiverad på användarnivå för att vi ska kunna komma åt Campaign-objektet. Om du vill kontrollera detta klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Manage Users]** > **[!UICONTROL Profiles]** > **[!UICONTROL Marketing User]** > **Tilldelade användare**.
+>Dessutom måste användaren som vi är anslutna via ha&quot;marknadsföringsanvändare&quot; [!DNL Salesforce] Profilen är aktiverad på användarnivå så att vi kan komma åt Campaign-objektet. Om du vill kontrollera detta klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Manage Users]** > **[!UICONTROL Profiles]** > **[!UICONTROL Marketing User]** > **Tilldelade användare**.

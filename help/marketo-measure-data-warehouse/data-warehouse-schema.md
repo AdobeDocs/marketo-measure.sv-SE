@@ -4,9 +4,9 @@ description: Data Warehouse Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: f77c4471887c18b177dedab5b4c41f3a64010539
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '21115'
+source-wordcount: '21110'
 ht-degree: 0%
 
 ---
@@ -5802,7 +5802,7 @@ Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoin
 
 >[!IMPORTANT]
 >
->Marketo Measure kommer att ta bort denna tabell i mitten av 2024. Om du vill skapa den på din sida kan du köra [den här SQL-frågan](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure kommer att ta bort denna tabell i mitten av 2024. Om du vill skapa den på din sida, kör [den här SQL-frågan](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762310
-description: Synkroniserar historiska data - [!DNL Marketo Measure] - Produktdokumentation
+description: Synkroniserar historiska data - [!DNL Marketo Measure]
 title: Synkroniserar historiska data
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -67,15 +67,15 @@ Kanalmappningskomponenten för historiska onlinedata kan vara lite besvärlig. V
 
 Onlinedata som läggs till på det här sättet är i sig mindre detaljerade än onlinedata [!DNL Marketo Measure] spårar via JavaScript. Till exempel kommer fält som formulär-URL, landningssida, referenssida osv. inte att fyllas i. Därför rekommenderas att kampanjerna delas upp i varje källa om möjligt. Som du ser i exemplet ovan måste du ha flera Campaign-typer för varje källa för att kunna rapportera exakt.
 
-Det kanske inte är möjligt eller rimligt att ha antalet SFDC-kampanjtyper som stöder detaljerad kanalmappning, så du kanske bara behöver mappa till kanalnivå och ignorera delkanaler. Om kanalnivån inte heller är känd kan du skapa en proxykanal som &quot;Historic Digital&quot; så att du åtminstone vet att det var en onlinekontakt.
+Det kanske inte är möjligt eller rimligt att ha antalet SFDC-kampanjtyper som stöder detaljerad kanalmappning, så du kanske bara behöver mappa till kanalnivå och ignorera delkanaler. Om kanalnivån inte heller är känd kan du skapa en proxykanal som &quot;Historisk digital&quot; så att du åtminstone vet att det var en onlinekontakt.
 
-Om du behöver massredigera det slutdatum som ska användas för de här historiska onlineinsatserna använder du [!DNL Marketo Measure] anpassad &quot;[!UICONTROL Bulk Update Touchpoint Date]&quot; (detta är tillgängligt som ett anpassat fält i Campaign-objektet i SFDC). Om Campaign har en kort tidsrymd kanske det är värt att massredigera slutpunktsdatumet en dag i taget, medan det kan vara vettigt att massuppdatera varje vecka om Campaign har en längre tidsrymd. Om du använder funktionen för att uppdatera slutpunktsdatum gruppvis ska du uppdatera regeln för kampanjsynkronisering så att den använder slutpunktsdatumet för köparen i datumfältet. Observera att detta kan kräva att du får kreativitet med reglerna för Campaign-synkronisering om detta bara gäller en Campaign eller två, och inte alla.
+Om du behöver massredigera det slutpunktsdatum som kommer att efterfrågas för dessa historiska onlinesatsningar använder du [!DNL Marketo Measure] anpassad &quot;[!UICONTROL Bulk Update Touchpoint Date]&quot; (detta är tillgängligt som ett anpassat fält i Campaign-objektet i SFDC). Om Campaign har en kort tidsrymd kanske det är värt att massredigera slutpunktsdatumet en dag i taget, medan det kan vara vettigt att massuppdatera varje vecka om Campaign har en längre tidsrymd. Om du använder funktionen Uppdatera slutpunktsdatum gruppvis ska du uppdatera regeln för kampanjsynkronisering så att den använder slutpunktsdatumet för köparen i datumfältet. Observera att detta kan kräva att du får kreativitet med reglerna för Campaign-synkronisering om detta bara gäller en Campaign eller två, och inte alla.
 
 **Offline:**
 
 Historiska data om offlinemarknadsföringsaktiviteter (sådana som inte kan spåras via JavaScript) måste också organiseras i SFDC-kampanjer. SFDC-kampanjer är rätt sätt [!DNL Marketo Measure] spårar offlineaktiviteter oavsett om aktiviteten är &quot;historisk&quot; eller &quot;aktuell/postaktuell[!DNL Marketo Measure] implementering&quot; så följ samma kanalmappning som du valde i den ursprungliga utbildningen för konfiguration av offlinekanaler.
 
-Använd vid behov knappen&quot;Uppdatera slutpunktsdatum gruppvis&quot; för att massredigera slutpunktsdatumet för kampanjmedlemmar. Om du till exempel skapar SFDC-kampanjer efter att händelsen inträffat, vill du massredigera för rätt datum. Om du använder funktionen för att uppdatera slutpunktsdatum gruppvis ska du uppdatera regeln för kampanjsynkronisering så att den använder slutpunktsdatumet för köparen i datumfältet. Observera att detta kan kräva att du får kreativitet med reglerna för Campaign-synkronisering om detta bara gäller en Campaign eller två, och inte alla.
+Använd vid behov knappen&quot;Uppdatera slutpunktsdatum gruppvis&quot; för att massredigera slutpunktsdatumet för kampanjmedlemmar. Om du till exempel skapar SFDC-kampanjer efter att händelsen inträffat, vill du massredigera för rätt datum. Om du använder funktionen Uppdatera slutpunktsdatum gruppvis ska du uppdatera regeln för kampanjsynkronisering så att den använder slutpunktsdatumet för köparen i datumfältet. Observera att detta kan kräva att du får kreativitet med reglerna för Campaign-synkronisering om detta bara gäller en Campaign eller två, och inte alla.
 
 ## Synkronisera historiska kampanjer i [!DNL Dynamics] {#syncing-historic-campaigns-in-dynamics}
 
@@ -89,7 +89,7 @@ Följ instruktionerna nedan för att ordna historiska data i [!DNL Dynamics] i e
 
 Historisk digital information måste struktureras i [!DNL Dynamics] kampanjer för att bli efterfyllda. Det bästa är att den här strukturen redan finns.
 
-Om informationen finns på annat håll (t.ex. fortfarande bor i Marketing Automation) måste den föras in i [!DNL Dynamics] och är organiserade i lämpliga kampanjer. Sedan måste du räkna med slutpunktsdatumet när du vill att det ska återspegla datumet från det förflutna, inte datumet som du sparade in det i [!DNL Dynamics]. Om du vill åsidosätta det här datumet kan du använda det anpassade fältet&quot;Buyer Touchpoint Date&quot; för att ändra datumet. Du måste lägga till detta i marknadsföringslistformuläret.
+Om informationen finns på annat håll (t.ex. fortfarande bor i Marketing Automation) måste den föras in i [!DNL Dynamics] och är organiserade i lämpliga kampanjer. Sedan måste du ta hänsyn till slutpunktens datum när du vill att det ska återspegla datumet från det förflutna, inte datumet som du sparade in det i [!DNL Dynamics]. Om du vill åsidosätta det här datumet kan du använda det anpassade fältet&quot;Buyer Touchpoint Date&quot; för att ändra datumet. Du måste lägga till detta i marknadsföringslistformuläret.
 
 ![](assets/syncing-historical-data-2.png)
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874680
-description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ När det gäller konfiguration finns det sju steg att slutföra i [!DNL Marketo 
 
 När du har aktiverat integreringen [!DNL Marketo Measure] börjar ladda ned annonskostnad till [!DNL Marketo Measure Marketing ROI] Instrumentpanel.
 
-För att integreringen ska fungera på rätt sätt måste du aktivera automatisk taggning på din [!DNL Facebook] konto. Detta gör att vårt system kan lägga till en _bf-parameter för alla annonslänkar. Den här processen lägger till den nya parametern ovanpå andra spårningsparametrar som du redan har lagt till i din [!DNL Facebook] annonser.
+För att integreringen ska fungera på rätt sätt måste du aktivera automatisk taggning på [!DNL Facebook] konto. Detta gör att vårt system kan lägga till en _bf-parameter för alla annonslänkar. Den här processen lägger till den nya parametern ovanpå andra spårningsparametrar som du redan har lagt till i din [!DNL Facebook] annonser.
 
 ![](assets/3.gif)
 
@@ -91,45 +91,45 @@ För att integreringen ska fungera på rätt sätt måste du aktivera automatisk
    <td><p>"Social", eller [utm_medium] om sådan finns</p></td> 
   </tr> 
   <tr> 
-   <td><p>Annons-ID eller Creative_Unique_Id (Data warehouse)</p></td> 
+   <td><p>Annons-ID eller Creative_Unique_Id (Data Warehouse)</p></td> 
    <td><p>[anpassat ID genererat från utm_content]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Annonsinnehåll eller Creative_Name (Data warehouse)</p></td> 
+   <td><p>Lägg till innehåll eller Creative_Name (Data Warehouse)</p></td> 
    <td><p>[utm_content] om det finns</p></td> 
   </tr> 
   <tr> 
-   <td><p>Nyckelordstext eller Nyckelordsnamn (Data warehouse)</p></td> 
+   <td><p>Nyckelordstext eller Nyckelordsnamn (Data Warehouse)</p></td> 
    <td><p>[utm_term] om den anges</p></td> 
   </tr> 
   <tr> 
-   <td><p>Ad_Unique_Id (Data warehouse)</p></td> 
+   <td><p>Ad_Unique_Id (Data Warehouse)</p></td> 
    <td><p>[[!DNL Facebook] Annons-ID]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Ad_Name (Data warehouse)</p></td> 
+   <td><p>Ad_name (Data Warehouse)</p></td> 
    <td><p>[[!DNL Facebook] Annonsnamn]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Nyckelord_Unikt_ID (Data warehouse)</p></td> 
+   <td><p>Nyckelord_Unikt_ID (Data Warehouse)</p></td> 
    <td><p>[anpassat ID genererat från utm_term]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Ad_Provider (Data warehouse)</p></td> 
+   <td><p>Ad_Provider (Data Warehouse)</p></td> 
    <td><p>"[!DNL Facebook]"</p></td> 
   </tr> 
   <tr> 
-   <td><p>Account_Unique_ID (Data warehouse)</p></td> 
+   <td><p>Account_Unique_ID (Data Warehouse)</p></td> 
    <td><p>[[!DNL Facebook] Kontonr]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Kontonamn (Data warehouse)</p></td> 
+   <td><p>Kontonamn (Data Warehouse)</p></td> 
    <td><p>[[!DNL Facebook] Kontonamn</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Fråga: Vad [!DNL Facebook] Annonserna stöds av [!DNL Marketo Measure]?**
 

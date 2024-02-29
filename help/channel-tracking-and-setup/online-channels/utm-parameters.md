@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874606
-description: UTM-parametrar - [!DNL Marketo Measure] - Produktdokumentation
+description: UTM-parametrar - [!DNL Marketo Measure]
 title: UTM-parametrar
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Att tagga URL:er är ett enkelt och effektivt sätt att samla in data om era digitala marknadsföringssatsningar. Det är processen att lägga till parametrar i slutet av URL:er som samlar in och registrerar data. De vanligaste parametrarna är UTM-moduler (Urchin Tracking Modules), som stöds av Google. Det finns fem huvudsakliga UTM-parametrar: Medium, Källa, Campaign, Innehåll och Term. Dessa diskuteras mer ingående i nästa avsnitt.
 
-UTM-parametrar kan läggas till manuellt i URL-adresser eller läggas till via automatisk taggning med vissa plattformar, till exempel AdWords. Automatisk taggning automatiserar processen att lägga till parametrar till URL-adresser. Det finns också möjlighet att [URL-verktyg](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} om du vill att taggar URL-adresser ska gå snabbare manuellt. Med ett URL-verktyg behöver du bara ange vilka värden som ska användas för varje parameter så formaterar verktyget URL:en åt dig.
+UTM-parametrar kan läggas till manuellt i URL-adresser eller läggas till via automatisk taggning med vissa plattformar, till exempel AdWords . Automatisk taggning automatiserar processen att lägga till parametrar till URL-adresser. Det finns också möjlighet att [URL-verktyg](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} om du vill att taggar URL-adresser ska gå snabbare manuellt. Med ett URL-verktyg anger du bara vilka värden som ska användas för varje parameter så formaterar verktyget URL:en åt dig.
 
 ## Vad är UTM-parametrar? {#what-are-utm-parameters}
 
@@ -27,7 +27,7 @@ Nu ska vi kolla in en URL med UTM:
 
 `http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
-Som du ser innehåller den andra länken mycket mer text. UTM-parametrar följer alltid den översta domänen (.com i det här exemplet) och börjar med ett frågetecken. Därefter spelar parametrarnas ordning ingen roll, men du bör följa en konsekvent namnkonvention. Expanderingar måste placeras mellan varje parameter för att separera varje UTM. Nu kan vi gå in på mer detaljerad information om vad varje parameter representerar.
+Den andra länken innehåller mer text. UTM-parametrar följer alltid den översta domänen (.com i det här exemplet) och börjar med ett frågetecken. Därefter spelar parametrarnas ordning ingen roll, men du bör följa en konsekvent namnkonvention. Expanderingar måste placeras mellan varje parameter för att varje UTM ska separeras. Nu kan vi gå in på mer detaljerad information om vad varje parameter representerar.
 
 Läs mer om [bästa sättet att ställa in UTM-parametrar](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md).
 
@@ -48,7 +48,7 @@ Läs mer om [bästa sättet att ställa in UTM-parametrar](/help/channel-trackin
    * I detta exempel [!DNL Facebook] är källvärdet. Andra exempel är Twitter och Instagram. Om UTM-mediet är [!DNL Paid Search]UTM-källan kan däremot vara AdWords eller BingAds.
 
 * Den här parametern mappar till [!DNL Marketo Measure] Fältet &#39;Källa för kontaktpunkt&#39; i SFDC.
-* _[!DNL Marketo Measure]God praxis:_ Den här parametern spårar trafikens källa, så det är inte lämpligt att använda den för att ange annonstypen, t.ex. återmarknadsföring, sponsring osv. Den används bäst för att spåra underkanalen på den högre nivån. Kom ihåg, du svarar på frågan &quot;varifrån kommer min trafik?&quot; Du letar efter referenten. I det här exemplet är UTM-källan den plats där annonsen finns (inte den faktiska webbsidan, eftersom den automatiskt spåras utanför taggarna). Om du håller på att spåra en drop-email-kampanj är drop-e-post källan.
+* _[!DNL Marketo Measure]God praxis:_ Den här parametern spårar trafikens källa, så det är inte lämpligt att använda den för att ange annonstypen, till exempel återmarknadsföring, sponsring osv. Den används bäst för att spåra underkanalen på högre nivå. Kom ihåg, du svarar på frågan &quot;varifrån kommer min trafik?&quot; Du letar efter referenten. I det här exemplet är UTM-källan den plats där annonsen finns (inte den faktiska webbsidan, eftersom den automatiskt spåras utanför taggarna). Om du håller på att spåra en drop-email-kampanj är drop-e-post källan.
 
 **utm_campaign**
 

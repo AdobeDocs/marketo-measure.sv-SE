@@ -1,21 +1,19 @@
 ---
 unique-page-id: 18874708
-description: Attribut för Salesforce-aktiviteter - [!DNL Marketo Measure] - Produktdokumentation
+description: Attribut för Salesforce-aktiviteter - [!DNL Marketo Measure]
 title: Salesforce-aktivitetsattribuering
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # Salesforce-aktivitetsattribuering {#salesforce-activities-attribution}
 
-The [!DNL Marketo Measure] Salesforce-integrering för aktiviteter kommer att föra in specifika uppgifter för aktivitet och händelse i din attribueringsmodell. Börja spåra saker som e-post eller telefonsamtal till försäljning som inte fick någon kredit. Om du vill konfigurera din aktivitetsregel måste du gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Därifrån går du till **[!UICONTROL Settings]** och klicka på **[!UICONTROL Activities]** -fliken.
-
-Du håller på att göra ditt säljteam väldigt glada! Låt oss ta dig igenom en kort självstudiekurs.
+The [!DNL Marketo Measure] Salesforce-integreringen av aktiviteter inkluderar specifika uppgifts- och händelseposter i din attribueringsmodell. Börja spåra saker som säljmejl eller telefonsamtal som inte fick någon kredit. Om du vill konfigurera din aktivitetsregel går du till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Därifrån går du till **[!UICONTROL Settings]** och klicka på **[!UICONTROL Activities]** -fliken.
 
 ![](assets/1.png)
 
@@ -34,13 +32,13 @@ Bekanta dig med hierarkin:
 
 >[!TIP]
 >
->Om du till exempel vill ange en unik kampanj för varje säljare kan du använda våra dynamiska ersättningsparametrar för att fylla i [!DNL Marketo Measure] Kampanjnamn. I samma exempel kan du ange `"Outbound Sales - {AssignedTo}"` så gör vi det till något som `"Outbound Sales - Jill"` eller `"Outbound Sales - Jack."` Du har ingen aning om hur mycket tid vi har sparat dig!
+>Om du till exempel vill ange en unik kampanj för varje säljare använder du dynamiska ersättningsparametrar för att fylla i [!DNL Marketo Measure] Kampanjnamn. I samma exempel kan du skriva `"Outbound Sales - {AssignedTo}"` och det ändras till något som `"Outbound Sales - Jill"` eller `"Outbound Sales - Jack."`
 
 ![](assets/2.png)
 
 När du [!DNL Marketo Measure] Kampanjnamn är inställt. Det är dags att ställa in dina aktivitetsregler.
 
-Reglerna fungerar som ett filter som anger vilka poster som är berättigade till attribuering. Tänk dig att du skapar en rapport i CRM med liknande logik för att generera rapporten. Du kan använda en kombination av och/eller programsatser och olika operatorer som matchar, innehåller, börjar med, slutar med, är lika med osv. Definiera &quot;and&quot;-programsatser i en inkorgsregel eller &quot;or&quot;-programsatser utanför rutan.
+Reglerna fungerar som ett filter som anger vilka poster som är berättigade till attribuering. Tänk dig att du skapar en rapport i CRM med liknande logik för att generera rapporten. Du kan använda en kombination av och/eller programsatser och olika operatorer som `matches any`, `contains`, `starts with`, `ends with`, `is equal to`. Definiera `and` programsatser i en rutregel eller ett lager `or` -programsatser utanför paketet.
 
 ![](assets/3.png)
 
@@ -48,9 +46,9 @@ Reglerna fungerar som ett filter som anger vilka poster som är berättigade til
 >
 >Formelfält kan inte användas i reglerna och visas inte i plocklistan. Eftersom formler beräknas i bakgrunden och inte ändrar en post, [!DNL Marketo Measure] kan inte identifiera om en post passar en regel eller inte.
 >
->Se till att använda rätt värden för ID-fält som CrmEvent.CreatedById. [!DNL Salesforce IDs] är 18 tecken långa (t.ex. 0054H00007WmrfQAC).
+>Se till att använda rätt värden för ID-fält som CrmEvent.CreatedById. [!DNL Salesforce IDs] är 18 tecken långa ( 0054H00007WmrfQAC).
 
-Låt oss slutligen välja ett av dina datum- eller datum-/tidsfält som ska användas som slutpunktsdatum för köpare. Det går att välja både standardfält och anpassade fält.
+Välj slutligen ett datum- eller datum-/tidsfält som ska användas som slutpunktsdatum för köpare. Det går att välja både standardfält och anpassade fält.
 
 >[!TIP]
 >
@@ -62,7 +60,7 @@ Glöm inte att ange olika regler för aktiviteter eller händelser. Du måste ve
 
 ![](assets/5.png)
 
-Du vill förmodligen placera dessa nya kontaktytor i rätt ställe [Marknadsföringskanal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. Du kan göra det genom att definiera kanalen med den nya Campaign-mappningen som du nyss skapade. Kanske skapar du en ny rad för BDR-kanalen där Campaign börjar med Outbound.
+Du vill förmodligen placera dessa nya kontaktytor i rätt ställe [Marknadsföringskanal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. Det gör du genom att definiera kanalen med den nya Campaign-mappningen som precis skapades.
 
 >[!TIP]
 >
@@ -70,11 +68,11 @@ Du vill förmodligen placera dessa nya kontaktytor i rätt ställe [Marknadsför
 >
 >börjar med ( utgående&#42; )
 >
->contains ( &#42;Utgående&#42; )
+contains ( &#42;Utgående&#42; )
 >
->slutar med ( &#42;Utgående)
+slutar med ( &#42;Utgående)
 >
->Inget jokertecken betyder i princip&quot;är lika med&quot;, så se till att använda dem efter behov.
+Inget jokertecken betyder i princip&quot;är lika med&quot;, så se till att använda dem efter behov.
 
 | **Operator** | **Användningsfall** |
 |---|---|
@@ -85,10 +83,10 @@ Du vill förmodligen placera dessa nya kontaktytor i rätt ställe [Marknadsför
 
 ![](assets/6.png)
 
-Och sist men inte minst har ni möjlighet att ange kostnader för era nya kanaler. Våra [Marknadsföringsutgift - överföring](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} gör att du kan ange dina utgifter på kanalnivå, delkanalsnivå eller kampanjnivå. Med nya [!DNL Marketo Measure] I kampanjer kan ni lägga till de relaterade kostnaderna per månad och sedan se avkastningen för varje kampanj!
+Och sist men inte minst har ni möjlighet att ange kostnader för era nya kanaler. The [Marknadsföringsutgift - överföring](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} gör att du kan ange dina utgifter på kanalnivå, delkanalsnivå eller kampanjnivå. Med nya [!DNL Marketo Measure] I kampanjer kan ni lägga till de relaterade kostnaderna per månad och sedan se avkastningen för varje kampanj!
 
 ![](assets/7.png)
 
 >[!MORELIKETHIS]
 >
->[Vanliga frågor om aktivitetsattribut](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+[Vanliga frågor om aktivitetsattribut](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

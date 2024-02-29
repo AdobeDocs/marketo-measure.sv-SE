@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37355835
-description: Touchpoint-fält - [!DNL Marketo Measure] - Produktdokumentation
+description: Touchpoint-fält - [!DNL Marketo Measure]
 title: Touchpoint-fält
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Nu när vi har lärt oss att extrahera och mappa till fält kan vi kombinera des
 * Skapa ett beräkningsfält och ge det etiketten&quot;Region_Name&quot;
 * Definiera regeln genom att börja med att söka efter det extraherade fältet. I detta fall [!DNL Touchpoint.Region]
 * Använd operatorn &quot;[!UICONTROL maps to]&quot; eftersom vi vill skapa en mappning för varje nummer till dess värde
-* Du kommer att få en tabell med en lista över varje mappning. Till slut kommer det att se ut ungefär så här:
+* Du får en tabell med en lista över varje mappning. Till slut kommer det att se ut ungefär så här:
 * Baserat på mappningen och URL:en ovan är&quot;Region_Value&quot; för en kontaktyta med denna landningssida&quot;EMEA&quot;
 * Upprepa extraheringen och mappningen för de återstående fyra sifferuppsättningarna
 

@@ -1,11 +1,11 @@
 ---
-description: "[!DNL Marketo Measure] Integrering med Adobe Analytics - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Integrering med Adobe Analytics - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Integrering med [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Integreringen av B2B-kundattribut möjliggör för användare av [!DNL Marketo M
 
 ## Konfigurera integreringen {#configuring-the-integration}
 
-1. Börja med att skapa en ny datakälla för kundattribut i Experience Cloud-konsolen. Detaljerade instruktioner [finns här](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+1. Skapa en ny datakälla för kundattribut i Experience Cloud-konsolen. Detaljerade instruktioner [finns här](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html).
 
-   Observera följande information som du behöver för några av de senare stegen i processen:
+   Observera följande information som behövs i de senare stegen:
 
    * Alias-ID, som kan vara vilket värde som helst. Vi rekommenderar&quot;marketomeasure_id&quot;
 
@@ -30,15 +30,15 @@ Integreringen av B2B-kundattribut möjliggör för användare av [!DNL Marketo M
 
 1. När datakällan för kundattribut har skapats fortsätter du konfigurationsprocessen genom att gå till **[!UICONTROL Integrations]** > **[!UICONTROL Connections]** i [!DNL Marketo Measure] admin-menyn.
 
-1. Klicka på **[!UICONTROL Set Up New Customer Attributes Connection]** och följ instruktionerna för att konfigurera integreringen av kundattribut. Användargränssnittet uppmanar dig att ange den anslutningsinformation för alias-ID och FTP som du fick när du skapade kundattributskällan i din Core Services Console samt att välja den uppsättning kontoattribut som du vill synkronisera med [!DNL Adobe Analytics] konto.
+1. Klicka på **[!UICONTROL Set Up New Customer Attributes Connection]** och följ instruktionerna för att konfigurera integreringen av kundattribut. Användargränssnittet uppmanar dig att ange den Alias ID- och FTP-anslutningsinformation som du fick när du skapade kundattributskällan i din Core Services Console och att välja den uppsättning kontoattribut som du vill synkronisera med din [!DNL Adobe Analytics] konto.
 
-   Du måste också ange ditt Adobe IMS-org-ID. Detta ID visas i det nedre högra hörnet av Adobe Experience Cloud Admin Console. Om du vill ha mer hjälp med att hitta det här ID:t kontaktar du kontoteamet (din kontoansvarige) på Adobe.
+   måste du också ange ditt Adobe IMS-organisationsnummer. Detta ID visas i det nedre högra hörnet av Adobe Experience Cloud Admin Console. Om du vill ha mer hjälp med att hitta det här ID:t kontaktar du kontoteamet (din kontoansvarige) på Adobe.
 
-1. När du har skapat anslutningen i [!DNL Marketo Measure] måste du gå tillbaka till din Experience Cloud-konsol för att kunna [validera schemat](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). Du behöver inte bekymra dig om FTP-filöverföringen, [!DNL Marketo Measure] har automatiserat den delen åt dig. Allt du behöver göra är att gå till schemaskärmen Visa/redigera för den Customer Attribute Source du skapade i steg 1 och tala om för Adobe vilka datatyper som finns för vart och ett av attributen [!DNL Marketo Measure] har överförts åt dig. Du kan också skapa nya visningsvänliga namn för de överförda attributen om du vill.
+1. När du har skapat anslutningen i [!DNL Marketo Measure] ditt konto måste du gå tillbaka till din Experience Cloud-konsol för att [validera schemat](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Du behöver inte bekymra dig om FTP-filöverföringen, [!DNL Marketo Measure] har automatiserat den delen åt dig. Allt du behöver göra är att gå till schemaskärmen Visa/redigera för den Customer Attribute Source du skapade i steg 1 och tala om för Adobe vilka datatyper som finns för vart och ett av attributen [!DNL Marketo Measure] har överförts åt dig. Du kan också skapa nya visningsvänliga namn för de överförda attributen om du vill.
 
    Om du har valt att synkronisera attribut från CRM-kontoobjektet rekommenderar vi att du väljer nya visningsnamn för dem, som [!DNL Marketo Measure] kommer endast att fylla i API-nivånamn för dessa attribut, som vanligtvis inte är rapporteringsvänliga.
 
-1. Det sista steget är att konfigurera attributprenumerationer för de Experience Cloud-program som du vill använda attributen i.  Du kan konfigurera prenumerationer för [!DNL Adobe Analytics] eller [!DNL Adobe Target].  Mer information om hur du gör det [finns här](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html).
+1. Det sista steget är att konfigurera attributprenumerationer för de Experience Cloud-program som du vill använda attributen i. Du kan konfigurera prenumerationer för [!DNL Adobe Analytics] eller [!DNL Adobe Target].  Mer information om hur du gör det [finns här](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html).
 
 ## Attributbeskrivningar {#attribute-descriptions}
 
@@ -59,12 +59,12 @@ Förutom de som listas nedan kan du även överföra attribut som är kopplade t
   <tr> 
    <td>Account.Name</td> 
    <td>Kontonamnen som är associerade med den angivna webbbesökaren. Om mer än ett konto är knutet till den angivna användaren, [!DNL Marketo Measure] fyller i alla matchande kontonamn i en semikolonavgränsad lista.<br/>
-   <strong>Obs!</strong> account.name är Salesforce-API-nivånamnet för name-attributet på account-objektet. Du kan välja ett bättre visningsnamn (t.ex. "Företag") för det här attributet under schemaverifieringssteget i integreringskonfigurationen (steg 4).</td>
+   <strong>Obs!</strong> account.name är Salesforce-API-nivånamnet för name-attributet på account-objektet. Du kan välja ett bättre visningsnamn (till exempel "Företag") för det här attributet under schemaverifieringssteget i integreringskonfigurationen (steg 4).</td>
   </tr>
   <tr> 
    <td>Attribuerad intäkt -¡ MODEL›</td> 
    <td>Intäkterna som tillskrivs den här kunden genom deras koppling till stängda affärsmöjligheter i CRM, enligt beräkning i [!DNL Marketo Measure] attribueringsmotor.<br/>
-   Det finns ett av dessa attribut för varje attribueringsmodell som [!DNL Marketo Measure] prenumerationer är tillåtna (t.ex. "Attributed Revenue - Full Path").</td>
+   Det finns ett av dessa attribut för varje attributmodell som [!DNL Marketo Measure] prenumerationer tillåter (t.ex. "Attributed Revenue - Full Path").</td>
   </tr>
   <tr> 
    <td>Fördjupad trattfas</td> 
@@ -79,13 +79,13 @@ Förutom de som listas nedan kan du även överföra attribut som är kopplade t
 
 **En anteckning om attributbegränsningar**
 
-Observera att attributen som uppstår via den här integreringen fortfarande kommer att räknas av mot dina avtalsbegränsningar för attribut i [!DNL Adobe Analytics] och [!DNL Adobe Target]. Endast attribut som påträffas via en attributprenumeration (steg 5 i [Konfigurera integreringen](#configuring-the-integration)) räknas av mot gränsen för det prenumererade programmet.
+De attribut som den här integreringen ger kommer fortfarande att räknas av mot de avtalsbaserade attributgränserna i [!DNL Adobe Analytics] och [!DNL Adobe Target]. Endast attribut som påträffas via en attributprenumeration (steg 5 i [Konfigurera integreringen](#configuring-the-integration)) räknas av mot gränsen för det prenumererade programmet.
 
 ## Vanliga frågor {#faqs}
 
 **Hur ändrar jag den uppsättning attribut jag vill dela via den här integreringen?**
 
-För ett attribut som delas av [!DNL Marketo Measure] till din Adobe IMS-organisation via den här integreringen för att synas och användas i [!DNL Adobe Analytics]måste den nås via en attributprenumeration som konfigurerats i Core Services Console. Om du vill ta bort ett attribut så att det inte längre visas i [!DNL Adobe Analytics]kan du uppnå detta genom att helt enkelt ta bort attributprenumerationen.
+För ett attribut som delas av [!DNL Marketo Measure] till din Adobe IMS-organisation via den här integreringen för att synas och användas i [!DNL Adobe Analytics]måste den visas via en attributprenumeration som konfigurerats i Core Services Console. Om du vill ta bort ett attribut så att det inte längre visas i [!DNL Adobe Analytics]kan du uppnå detta genom att helt enkelt ta bort attributprenumerationen.
 
 Du kan även ta bort B2B-anslutningen för kundattribut i [!DNL Marketo Measure] och återskapa det med det attribut du inte längre vill dela exkluderat från anslutningskonfigurationen. Om du vill lägga till attribut i integreringen måste du ta bort den befintliga anslutningen och skapa en ny med de attribut som du vill lägga till i konfigurationen.
 

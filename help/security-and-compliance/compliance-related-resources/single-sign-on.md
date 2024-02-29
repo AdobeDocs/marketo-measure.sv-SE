@@ -1,18 +1,18 @@
 ---
 unique-page-id: 18874761
-description: Enkel inloggning - [!DNL Marketo Measure] - Produktdokumentation
+description: Enkel inloggning - [!DNL Marketo Measure]
 title: Enkel inloggning
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
 
 # Enkel inloggning {#single-sign-on}
 
-SAML (Security assertion markup language) för enkel inloggning (single sign-on) gör det möjligt för användare att autentisera via ett företags identitetsleverantör när de loggar in på [!DNL Marketo Measure] app. Med enkel inloggning kan användaren bara autentisera en gång utan att behöva autentisera separata appar. SAML är en nödvändighet för företagskunder eftersom inte alla användare har [!DNL Salesforce] eller [!DNL Google] inom organisationen. För att kunna skala [!DNL Marketo Measure] har utvecklat en SAML-lösning som kan stödja leverantörer av företagsidentiteter.
+SAML (Security assertion markup language) för enkel inloggning (single sign-on) gör det möjligt för användare att autentisera via ett företags identitetsleverantör när de loggar in på [!DNL Marketo Measure] app. Med enkel inloggning kan användaren bara autentisera en gång, utan att behöva autentisera separata appar. SAML är en nödvändighet för företagskunder eftersom inte alla användare har [!DNL Salesforce] eller [!DNL Google] inom organisationen. För att kunna skala [!DNL Marketo Measure] har utvecklat en SAML-lösning som kan stödja leverantörer av företagsidentiteter.
 
 >[!CAUTION]
 >
@@ -39,9 +39,9 @@ Navigera till Inställningar > Säkerhet > Autentisering på sidan [!DNL Marketo
 
 Konfigurera [!DNL Marketo Measure] Program i din identitetsleverantör. Se extern dokumentation som listas nedan för genomgångar.
 
-    a. När du uppmanas att ange URL för enkel inloggning eller mottagarens URL eller mål-URL använder du [https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest](https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest)
+    a. När du uppmanas att ange URL:en för enkel inloggning eller mottagarens URL eller mål-URL använder du [https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest](https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest)
     
-    b. När du uppmanas att ange målgruppsbegränsnings-URL eller programdefinierad unik identifierare använder du [https://BizibleLPM](https://biziblelpm/)
+    b. Använd [https://BizibleLPM](https://biziblelpm/) när du uppmanas att ange målgruppsbegränsnings-URL:en eller en programdefinierad unik identifierare
 
 Växla till anpassad enkel inloggning i dialogrutan [!DNL Marketo Measure] Program
 
@@ -55,9 +55,9 @@ Fyll i anslutningsinställningarna för din identitetsleverantörskonfiguration
 
     a. Din identitetsleverantör kan ge ett IdP-metadatadatadokument (XML) som tar bort de konfigurationsfält som krävs. Läs antingen in innehållet i XML-dokumentet eller fyll i de tre fälten nedan från utdata som erhållits under konfigurationsprocessen för identitetsleverantören. **Du behöver inte fylla i båda.**
     
-    i. IdP-URL: Den URL som [!DNL Marketo Measure] måste peka på för att autentisera användarna i [!DNL Marketo Measure] program. Kallas ibland &quot;Omdirigerings-URL&quot;.
-    ii. IdP-utfärdare: En unik identifierare för identitetsleverantören. Kallas ibland &quot;extern nyckel&quot;.
-    iii. IdP-certifikat: En offentlig nyckel som tillåter [!DNL Marketo Measure] verifiera och validera signaturen för alla identitetsleverantörssvar.
+    i. IdP URL: Den URL som [!DNL Marketo Measure] måste peka på för att autentisera användarna i [!DNL Marketo Measure] program. Kallas ibland &quot;Omdirigerings-URL&quot;.
+    ii. IdP-utfärdare: En unik identifierare för identitetsprovidern. Kallas ibland &quot;extern nyckel&quot;.
+    iii. IdP-certifikat: En offentlig nyckel som tillåter [!DNL Marketo Measure] för att verifiera och validera signaturen för alla identitetsleverantörssvar.
 
 Ange utgångsdatum för token för dina användare på några minuter.
 
@@ -69,9 +69,9 @@ Ange och mappa inställningarna för användarattributet till respektive förnam
     
     i. E-postattribut: Ange det attributnamn som identitetsleverantören använder för användarens e-postadress.
     ii. Förnamnsattribut: Ange det attributnamn som identitetsleverantören använder för användarens förnamn.
-    iii. Efternamnsattribut: Ange det attributnamn som identitetsleverantören använder som användarens efternamn.
+    iii. Efternamnsattribut: Ange det attributnamn som identitetsleverantören använder för användarens efternamn.
     
-    b. Tips: Om du testar din SAML-konfiguration nu kommer vi att analysera attributen E-post, Förnamn och Efternamn som du kan använda för det här avsnittet.
+    b. Tips! Om du testar din SAML-konfiguration nu tolkar vi attributen E-post, Förnamn och Efternamn som du kan använda för det här avsnittet.
 
 ![](assets/single-sign-on-2.png)
 
@@ -81,8 +81,8 @@ Konfigurera och mappa dina användarrollsinställningar till respektive roller e
     
     b. Om inga roller eller grupper mappas är standardinställningen att alla anställda i identitetsleverantören har standardanvändaråtkomst.
     
-    i. [!DNL Marketo Measure] Standardanvändare: Ange rollen eller gruppvärdet (från din SSO-leverantör) för användare som ska ha skrivskyddad åtkomst till [!DNL Marketo Measure] program.
-    ii. [!DNL Marketo Measure] Kontoadministratörsanvändare: Ange rollen eller gruppvärdet (från din SSO-leverantör) för användare som ska ha administrativ åtkomst till [!DNL Marketo Measure] program. Detta innebär att rollen har åtkomst till att ändra konfigurationer och inställningar som är relaterade till ditt konto.
+    i. [!DNL Marketo Measure] Standardanvändare: Ange roll- eller gruppvärdet (från din SSO-leverantör) för användare som ska ha skrivskyddad åtkomst till [!DNL Marketo Measure] program.
+    ii. [!DNL Marketo Measure] Kontoadministratörsanvändare: Ange roll- eller gruppvärdet (från din SSO-leverantör) för användare som ska ha administrativ åtkomst till [!DNL Marketo Measure] program. Detta innebär att rollen har åtkomst till att ändra konfigurationer och inställningar som är relaterade till ditt konto.
     iii. Du måste ha ett attribut i din IdP med det exakta namnet &quot;groups&quot; som innehåller de värden du angett i attributen &quot;Bizible Standard User&quot; eller &quot;Bizible Account Admin User&quot;.
     
     c. Om flera roller eller grupper ska mappas till en roll anger du varje värde avgränsat med kommatecken.
@@ -91,15 +91,15 @@ Konfigurera och mappa dina användarrollsinställningar till respektive roller e
 
 Testa konfigurationen för enkel inloggning
 
-    a. Innan du kan trycka på Spara måste du klicka på [!UICONTROL Test SAML Authentication] för att verifiera att inställningarna är korrekt konfigurerade.
+    a. Innan du kan klicka på Spara måste du klicka på [!UICONTROL Test SAML Authentication] för att verifiera att inställningarna är korrekt konfigurerade.
     
-    b. Om ett fel uppstår följer du meddelandet och försöker igen.
+    b. Om ett felmeddelande visas följer du meddelandet och försöker igen.
 
 ![](assets/single-sign-on-4.png)
 
 Spara inställningarna och instruera dina kollegor att använda [!UICONTROL Single Sign On] med din nya anpassade inloggnings-URL.
 
-    a. Viktigt: När du har sparat dina nya autentiseringsinställningar kan det hända att sessionen avslutas när du navigerar till en ny sida, eftersom du har inaktiverat inloggning av CRM-användare och aktiverat Anpassad enkel inloggning.
+    a. Viktigt! När du har sparat dina nya autentiseringsinställningar kan sessionen avslutas när du navigerar till en ny sida, eftersom du har inaktiverat inloggning av CRM-användare och aktiverat Anpassad enkel inloggning.
 
 ![](assets/single-sign-on-5.png)
 
@@ -107,7 +107,7 @@ Prova!
 
     a. Använd din nya anpassade inloggnings-URL och försök logga in igen på [!DNL Marketo Measure] Program med din identitetsleverantörs autentiseringsuppgifter.
     
-    b. Formatet kommer att se ut som &quot;https://apps.adobe.com/business/[accountName]&quot;
+    b. Formatet ser ut som &quot;https://apps.adobe.com/business/[kontonamn]&quot;
     
     c. Grattis! Du har konfigurerat enkel inloggning i [!DNL Marketo Measure] Ansökan för ditt konto!
 
@@ -117,7 +117,7 @@ Prova!
 >
 >När du har konfigurerat enkel inloggning behöver du inte längre lägga till användare i [!DNL Marketo Measure] program. Etablering av användare bör hanteras direkt i identitetsleverantören.
 
-## CRM-användare (avancerad inställning) {#crm-users-advanced-setup}
+## CRM-användare (Avancerad inställning) {#crm-users-advanced-setup}
 
 Som standard har alla konton åtkomst till [!DNL Marketo Measure] program som använder sina CRM-autentiseringsuppgifter. Ibland måste kontoägare begränsa åtkomsten till vissa roller och inte öppna den för alla användare med en aktiv CRM-licens. Med den avancerade konfigurationen kan du mappa dina CRM-roller och CRM-grupper till [!DNL Marketo Measure] användarbehörigheter.
 

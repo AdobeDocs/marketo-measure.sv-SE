@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874618
-description: Rapportering om affärsmöjligheter med eller utan Buyer Attribution Touchpoints - [!DNL Marketo Measure] - Produktdokumentation
+description: Rapportering om affärsmöjligheter med eller utan Buyer Attribution Touchpoints - [!DNL Marketo Measure]
 title: Rapportering om affärsmöjligheter med eller utan Buyer Attribution Touchpoints
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 Skapa en ny rapporttyp som inkluderar alla affärsmöjligheter med eller utan kontaktytor för Buyer-attribut.
 

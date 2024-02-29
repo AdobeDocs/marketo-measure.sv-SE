@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874710
-description: Borttagning av pekpunkter och inaktivering av pekpunkter - [!DNL Marketo Measure] - Produktdokumentation
+description: Borttagning av pekpunkter och inaktivering av pekpunkter - [!DNL Marketo Measure]
 title: Borttagning av pekpunkter och inaktivering av pekpunkter
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---

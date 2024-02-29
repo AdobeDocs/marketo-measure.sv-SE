@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874578
-description: Kampanjmedlemmar och kampanjmedlemmar - [!DNL Marketo Measure] - Produktdokumentation
+description: Kampanjmedlemmar och kampanjmedlemmar - [!DNL Marketo Measure]
 title: Kampanjmedlemmar och kampanjmedlemmar
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Tillgängliga alternativ i plocklistan är:
 * Inkludera endast responderade kampanjmedlemmar - Endast leads eller kontakter som har kampanjmedlemmens status&quot;Responded&quot; får en kontaktyta kopplad till kampanjen.
 * Uteslut alla kampanjmedlemmar - Ingen av leads eller kontakter får en kontaktyta som är kopplad till kampanjen.
 
-Observera att kampanjmedlemmarna måste ha en e-postadress kopplad till sin post för att [!DNL Marketo Measure] för att skapa en kontaktyta. Utan e-postadress [!DNL Marketo Measure] tilldelar inte någon kontaktyta till kampanjmedlemmen.
+Observera att kampanjmedlemmar måste ha en e-postadress kopplad till sin post för att [!DNL Marketo Measure] för att skapa en kontaktyta. Utan e-postadress [!DNL Marketo Measure] tilldelar inte någon kontaktyta till kampanjmedlemmen.
 
 ## Synkroniseringsdatum för kampanj {#campaign-sync-dates}
 
@@ -47,7 +47,7 @@ Startdatum kan användas om en befintlig kampanj används för att spåra leads 
 
 ## Använd skiftläge för slutdatum för slutpunkt {#use-case-for-touchpoint-end-date}
 
-Om innan du använder [!DNL Marketo Measure]använde ni en plattform för marknadsföringsautomatisering som spårade Leads digitala interaktioner (skickade IE-formulär) och överförde sedan dessa leads till en [!DNL Saleforce] Med Campaign kan du utnyttja fältet Slutdatum för slutpunkt. Du angav slutdatumet för slutpunkten som ditt startdatum med [!DNL Marketo Measure] och aktivera Buyer Touchpoints så skapas var och en av dessa Leads digitala interaktion som en kontaktyta. Orsaken till att du anger slutdatumet för slutpunkten till ditt startdatum med [!DNL Marketo Measure] eftersom vi nu kommer att spåra dessa digitala interaktioner genom vårt javascript.
+Om innan du använder [!DNL Marketo Measure]använde ni en plattform för marknadsföringsautomatisering som spårade Leads digitala interaktioner (skickade IE-formulär) och överförde sedan dessa leads till en [!DNL Saleforce] I Campaign kan du använda fältet Slutdatum för slutpunkt. Du angav slutdatumet för slutpunkten som ditt startdatum med [!DNL Marketo Measure] och aktivera Buyer Touchpoints så skapas var och en av dessa Leads digitala interaktion som en kontaktyta. Orsaken till att du anger slutdatumet för slutpunkten till ditt startdatum med [!DNL Marketo Measure] eftersom vi nu kommer att spåra dessa digitala interaktioner genom vårt javascript.
 
 ![](assets/3.png)
 

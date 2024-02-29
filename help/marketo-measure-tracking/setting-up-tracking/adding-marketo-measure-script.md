@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874795
-description: Lägger till [!DNL Marketo Measure] Skript - [!DNL Marketo Measure] - Produktdokumentation
+description: Lägger till [!DNL Marketo Measure] Skript - [!DNL Marketo Measure]
 title: Lägger till [!DNL Marketo Measure] Skript
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ När du börjar med [!DNL Marketo Measure]kan du lägga till [!DNL Marketo Measu
 
 ## Hård kodning {#hard-coding}
 
-Vi rekommenderar hårdkodning som en god praxis [!DNL Marketo Measure] JavaScript i webbegenskaperna. Om du vill hårdkoda skriptet måste du placera skriptet före slutet `</head>` på alla sidor på webbplatsen.
+Vi rekommenderar hårdkodning som en god praxis [!DNL Marketo Measure] JavaScript i webbegenskaperna. Om du vill hårdkoda skriptet måste du placera skriptet före det avslutande `</head>` på alla sidor på webbplatsen.
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-Maskinkodning av JavaScript i `<head>` på sidorna säkerställer att [!DNL Marketo Measure] Skriptet läses in först och hänvisningsinformationen saknas inte. The [!DNL Marketo Measure] JavaScript läses in asynkront. Om det hårdkodas måste JavaScript läggas till manuellt i Marketing Automation.
+Maskinkodning av JavaScript i `<head>` på sidorna säkerställer att [!DNL Marketo Measure] Skriptet läses in först och hänvisningsinformation saknas inte. The [!DNL Marketo Measure] JavaScript läses in asynkront. Om det hårdkodas måste JavaScript läggas till manuellt i Marketing Automation.
 
 >[!TIP]
 >
@@ -54,9 +54,9 @@ Mer information kan [hittades här](/help/marketo-measure-tracking/setting-up-tr
 
 [!DNL Marketo Measure] JavaScript är domänbaserat, så det kan automatiskt hantera alla underdomäner så länge som JavaScript finns på sidorna och rotdomänen är densamma som den domän som används för att skapa Marketo Measure-kontot.
 
-Om du använder en separat eller internationell domän måste du dock se till att [!DNL Marketo Measure] Konsulten vet. Domänerna måste läggas till manuellt i ditt konto på [!DNL Marketo Measure] avsluta så att [!DNL Marketo Measure] kan koppla data från ytterligare domäner till ditt konto. Skicka därför separata/internationella domäner till [!DNL Marketo Measure] Konsult.
+Om du använder en separat eller internationell domän måste du dock se till att [!DNL Marketo Measure] Konsulten vet. Domänerna måste läggas till manuellt i ditt konto på [!DNL Marketo Measure] avsluta så att [!DNL Marketo Measure] kan koppla data från ytterligare domäner till ditt konto. Så skicka alla separata/internationella domäner till [!DNL Marketo Measure] Konsult.
 
-Om du använder någon tredjepartssida kan du diskutera din användning med [!DNL Marketo Measure] Konsult. Du vill veta om du kan lägga till en anpassad version av [!DNL Marketo Measure] JavaScript för att spåra sidorna om det är lämpligt. Om detta inte är möjligt kommer spårning via CRM Campaign-kontaktytorna att utforskas med [!DNL Marketo Measure] Konsult.
+Om du använder någon tredjepartssida kan du diskutera din användning med [!DNL Marketo Measure] Konsult. Vanligtvis vill du veta om du kan lägga till en anpassad version av [!DNL Marketo Measure] JavaScript för att spåra sidorna om det är lämpligt. Om detta inte är möjligt kommer spårning via CRM Campaign-kontaktytorna att utforskas med [!DNL Marketo Measure] Konsult.
 
 Har du formulär som INTE ska spåras av [!DNL Marketo Measure] eftersom de inte nödvändigtvis är användbara för attribuering (t.ex. för att avbeställa prenumerationer, kundinloggningar osv.)? I så fall vill du lägga till exkluderingskoden [i den här artikeln](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} till varje formulär
 

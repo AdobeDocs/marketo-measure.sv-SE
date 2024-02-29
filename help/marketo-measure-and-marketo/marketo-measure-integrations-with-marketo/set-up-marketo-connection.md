@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762762
-description: Konfigurera Marketo Connection - [!DNL Marketo Measure] - Produktdokumentation
+description: Konfigurera Marketo Connection - [!DNL Marketo Measure]
 title: Konfigurera Marketo Connection
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Så här konfigurerar du anslutningen till Marketo.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. Logga in på ditt Marketo Engage-konto på en ny flik. Gå till **Administratör** > **Webbtjänster**. Bläddra ned till REST API. Markera och spara URL:en för slutpunkten och identitetstjänsten. Du kommer att behöva dem om en stund.
+1. Logga in på ditt Marketo Engage-konto på en ny flik. Gå till **Administratör** > **Webbtjänster**. Bläddra ned till REST API. Markera och spara URL:en för slutpunkten och identitetstjänsten. behöver du dem om en stund.
 
    ![](assets/set-up-marketo-connection-5.png)
 

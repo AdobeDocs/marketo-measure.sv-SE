@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874535
-description: Övergår till [!DNL Marketo Measure] från hel cirkel - [!DNL Marketo Measure] - Produktdokumentation
+description: Övergår till [!DNL Marketo Measure] från hel cirkel - [!DNL Marketo Measure]
 title: Övergår till [!DNL Marketo Measure] från hel cirkel
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Om ni känner er bekväma med er CRM-kampanjhantering och föredrar att behålla
 
 Med de flesta Full Circle-inställningar kan ni se varje enskild interaktion en person har med er marknadsföring eller försäljning. Sidvisningar, upprepade sidbesök, medlemskap i dubblett- och tredubblingskampanjer - Alla dessa visas i en hel cirkel. Om du visar en sida 300 gånger skapar Full Circle 300 dubblettkampanjer och ger dig ett medlemskap i var och en av dem. [!DNL Marketo Measure] inte, och det var ett medvetet designbeslut från vår sida.
 
-[!DNL Marketo Measure] vill ge dig en attribueringsberättelse som tar fram meningsfulla interaktioner och fördelar vikt mellan de mest effektiva kontaktytorna på rätt sätt. Till exempel [!DNL Marketo Measure] visas inte sidvyer (utan formulärfyllningar) som vanliga kontaktytor. En fristående sidvy har troligtvis ingen effekt på framkörningen av en köpresa, men vi skapar en kontaktyta om det är den senaste interaktionen före en angiven CRM-milstolpe (som Lead eller Opportunity Creation). Vi vill inte visa allt. Vi vill visa dig de saker som är viktiga ur attribueringssynpunkt.
+[!DNL Marketo Measure] vill ge dig en attribueringsberättelse som tar fram meningsfulla interaktioner och fördelar vikt mellan de mest effektiva kontaktytorna på rätt sätt. Till exempel [!DNL Marketo Measure] visas inte sidvyer (utan formulärfyllningar) som vanliga kontaktytor. En fristående sidvy har förmodligen ingen effekt på framkörningen av en köpresa, men vi skapar en kontaktyta om det är den senaste interaktionen före en angiven CRM-milstolpe (som Lead eller Opportunity Creation). Vi vill inte visa allt. Vi vill visa dig de saker som är viktiga ur attribueringssynpunkt.
 
 Arbeta med dina [!DNL Marketo Measure] svara och ställ in lämpliga förväntningar på vilka data som inte längre är tillgängliga för ert team.
 

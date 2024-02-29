@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874799
-description: Instruktioner för sidlayout - [!DNL Marketo Measure] - Produktdokumentation
+description: Instruktioner för sidlayout - [!DNL Marketo Measure]
 title: Instruktioner för sidlayout
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 Se [!DNL Marketo Measure] rekommenderar vi att du uppdaterar sidlayouter för [!UICONTROL Account], [!UICONTROL Contact], [!UICONTROL Lead], [!UICONTROL Opportunity]och [!UICONTROL Campaign] Objekt. Instruktionerna är uppdelade för varje objektsidlayout nedan.
 
@@ -23,7 +23,7 @@ Navigera först till [!DNL Salesforce] Konfigurera inställningar och leta upp [
 
 ## Kampanjobjekt {#campaign-object}
 
-Vi rekommenderar att du [!DNL Marketo Measure] fält till din SFDC-kampanj för enbart din sandlåda. Fälten kan användas för att testa generering av kontaktpunkter. I produktion rekommenderar vi bara att du lägger till [!DNL Marketo Measure] Knappen Uppdatera slutpunktsdatum gruppvis. Vi rekommenderar inte att du lägger till [!DNL Marketo Measure] fält till produktion eftersom du kan skapa regelregler för kampanjsynkronisering.
+Vi rekommenderar att du lägger till [!DNL Marketo Measure] fält till din SFDC-kampanj för enbart din sandlåda. Fälten kan användas för att testa generering av kontaktpunkter. Vi rekommenderar att du bara lägger till [!DNL Marketo Measure] Knappen Uppdatera slutpunktsdatum gruppvis. Vi rekommenderar inte att du lägger till [!DNL Marketo Measure] fält till produktion eftersom du kan skapa regel för kampanjsynkronisering.
 
 1. Välj **[!UICONTROL Campaigns]**.
 
@@ -31,7 +31,7 @@ Vi rekommenderar att du [!DNL Marketo Measure] fält till din SFDC-kampanj för 
 
    ![](assets/1-1.jpg)
 
-1. Klicka **[!UICONTROL Edit]** bredvid den sidlayout som du vill uppdatera.
+1. Klicka **[!UICONTROL Edit]** bredvid sidlayouten som du vill uppdatera.
 
    ![](assets/2-1.jpg)
 
@@ -49,7 +49,7 @@ Vi rekommenderar att du [!DNL Marketo Measure] fält till din SFDC-kampanj för 
 
    >[!NOTE]
    >
-   >Om du använder flera Campaign-posttyper är plocklistevärdena för **[!UICONTROL Enable Buyer Touchpoints]** fältet måste uppdateras. Referens [den här artikeln](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) för instruktioner.
+   >Om du använder flera Campaign-posttyper måste du uppdatera plocklistevärdena för **[!UICONTROL Enable Buyer Touchpoints]** fält. Se [den här artikeln](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) för instruktioner.
 
 ## Leads {#leads}
 
@@ -57,11 +57,11 @@ Vi rekommenderar att du [!DNL Marketo Measure] fält till din SFDC-kampanj för 
 
 1. Klicka på **[!UICONTROL Page Layouts]**.
 
-1. Klicka **[!UICONTROL Edit]** bredvid den sidlayout som du vill uppdatera. Tänk på att flera sidlayouter kan innehålla Buyer Touchpoints-avsnitten.
+1. Klicka **[!UICONTROL Edit]** bredvid sidlayouten som du vill uppdatera. Tänk på att flera sidlayouter kan innehålla Buyer Touchpoints-avsnitten.
 
-1. Klicka på alternativet VisualForce-sida till vänster i snabbsökningsmenyn.
+1. Klicka på sidalternativet VisualForce till vänster i snabbsökningsmenyn.
 
-1. Skapa ett nytt avsnitt och kalla det&quot;Buyer Touchpoints&quot;.
+1. Skapa ett avsnitt och kalla det&quot;Buyer Touchpoints&quot;.
 
    >[!NOTE]
    >
@@ -71,15 +71,15 @@ Vi rekommenderar att du [!DNL Marketo Measure] fält till din SFDC-kampanj för 
 
    ![](assets/5-1.png)
 
-1. Klicka på växeln i dialogrutan [!DNL VisualForce] och ändra höjden till 100 och aktivera rullningslister.
+1. Klicka på skiftnyckeln i [!DNL VisualForce] och ändra höjden till 100 och aktivera rullningslister.
 
-1. Gå tillbaka till menyn och välj [!UICONTROL Canvas Apps] och skapa ett nytt avsnitt som kallas&quot;Marketo Measure Insights&quot; under Touchpoints [!DNL VisualForce] som du just skapade.
+1. Gå tillbaka till menyn och välj [!UICONTROL Canvas Apps] och skapa ett avsnitt som kallas&quot;Marketo Measure Insights&quot; under Touchpoints [!DNL VisualForce] som du skapade.
 
    >[!NOTE]
    >
    >Välj formatet &quot;en kolumn&quot; för vart och ett av dessa avsnitt.
 
-1. Dra [!DNL Marketo Measure Insights] Arbetsyteappen i det nya avsnittet. Klicka **Spara**. Ibland är det nödvändigt att spara sidlayouten först innan du släpper i Canvas-appen eftersom Salesforce inte känner igen den direkt. När du har skapat det nya avsnittet sparar du sidlayouten och redigerar sedan om för att dra arbetsyteprogrammet inom det avsnittet. Detta gäller alla objekt.
+1. Dra [!DNL Marketo Measure Insights] Arbetsyteappen i det nya avsnittet. Klicka **Spara**. Ibland är det nödvändigt att spara sidlayouten först innan du släpper i Canvas-appen eftersom Salesforce inte känner igen den direkt. När du har skapat avsnittet sparar du sidlayouten och redigerar sedan om för att dra arbetsytans app inom det avsnittet. Detta gäller alla objekt.
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ Om du använder [!DNL Marketo Measure] ABM, [klicka här för ytterligare instru
 
 1. Klicka på **[!UICONTROL Page Layouts]**.
 
-1. Markera den sidlayout som du vill redigera.
+1. Välj den sidlayout som du vill redigera.
 
    Gå till alternativet Relaterade listor på snabbsökningsmenyn och lägg till **[!UICONTROL Buyer Touchpoints]** relaterad lista.
 
@@ -144,7 +144,7 @@ Om du använder [!DNL Marketo Measure] ABM, [klicka här för ytterligare instru
 
 1. Klicka på **[!UICONTROL Page Layouts]**.
 
-1. Markera den sidlayout som du vill redigera.
+1. Välj den sidlayout som du vill redigera.
 
 1. Lägg till **[!UICONTROL Buyer Attribution Touchpoint]** Relaterad lista och klicka på växeln för att lägga till följande kolumner för affärsmöjligheter:
 
@@ -170,7 +170,7 @@ Om du använder [!DNL Marketo Measure] ABM, [klicka här för ytterligare instru
 
 1. Klicka på **[!UICONTROL Page Layouts]**.
 
-1. Markera den sidlayout som du vill redigera.
+1. Välj den sidlayout som du vill redigera.
 
 1. Lägg till **[!UICONTROL Buyer Attribution Touchpoint]** Relaterad lista och klicka på växeln för att lägga till följande kolumner:
 
@@ -190,4 +190,4 @@ Om du använder [!DNL Marketo Measure] ABM, [klicka här för ytterligare instru
 
 1. Klicka på **[!UICONTROL Save]**.
 
-Om du använder [!DNL Marketo Measure] ABM,  [klicka här för ytterligare instruktioner om sidlayout](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Om du använder [!DNL Marketo Measure] ABM-funktion, se [ytterligare instruktioner för sidlayout](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

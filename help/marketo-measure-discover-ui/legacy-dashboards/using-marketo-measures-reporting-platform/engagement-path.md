@@ -1,12 +1,12 @@
 ---
 unique-page-id: 35586105
-description: Engagement Path - [!DNL Marketo Measure] - Produktdokumentation
+description: Engagement Path - [!DNL Marketo Measure]
 title: Åtagandesökväg
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---

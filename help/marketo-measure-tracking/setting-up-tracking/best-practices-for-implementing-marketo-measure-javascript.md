@@ -1,18 +1,18 @@
 ---
-description: Bästa praxis för implementering [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure] - Produktdokumentation
+description: Bästa praxis för implementering [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure]
 title: Bästa praxis för implementering [!DNL Marketo Measure] JavaScript
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
 # Bästa praxis för implementering [!DNL Marketo Measure] JavaScript {#best-practices-for-implementing-marketo-measure-javascript}
 
-## Ökning {#overview}
+## Översikt {#overview}
 
 The [!DNL Marketo Measure] JavaScript spårar era webbbesökare digitala marknadsföringsinteraktioner och är nyckeln till [!DNL Marketo Measure] möjlighet att skapa online-data för kontaktpunkter. Med [!DNL Marketo Measure] JavaScript-kod som används korrekt och omfattande på hela webbplatsen/platserna säkerställer att de sessionsdata som samlas in genererar korrekta kontaktpunktsdata.
 
@@ -30,7 +30,7 @@ Inkonsekvenser i distributionen av [!DNL Marketo Measure] JavaScript orsakar avb
 När det gäller implementering och hantering av [!DNL Marketo Measure] JavaScript bör du tänka på följande bästa praxis:
 
 * Bekräfta att alla dina domäner är listade i din [!DNL Marketo Measure] konto
-   * Kontakta support om du är orolig över dina domäner
+   * Om du är orolig för dina domäner kontaktar du support
 * Distribuera JavaScript på ALLA sidor.
    * Om du bara placerar JavaScript på vissa sidor uppstår avbrott i sessionsdata, vilket kan orsaka felaktiga [!DNL Marketo Measure] data
 * För ett formulär på din webbplats som du inte vill skapa kontaktpunkter från måste du lägga till [!DNL Marketo Measure] Exkludera skript

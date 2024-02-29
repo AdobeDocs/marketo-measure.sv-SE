@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656745
-description: Vanliga frågor (flervaluta) - [!DNL Marketo Measure] - Produktdokumentation
+description: Vanliga frågor (flervaluta) - [!DNL Marketo Measure]
 title: Vanliga frågor (flervaluta)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---

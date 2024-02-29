@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874658
-description: Vanliga användningsfall - [!DNL Marketo Measure] - Produktdokumentation
+description: Vanliga användningsfall - [!DNL Marketo Measure]
 title: Vanliga användningsfall
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Söker ni efter marknadsföringens inverkan på intäkterna? [!DNL Marketo Measu
 
 ## Kontakter skapade {#contacts-created}
 
-Om du vill visa det totala antalet kontakter som har skapats, grupperade efter en dimension, går du till Översikt eller CMO-kontrollpanelen för Discover, öppnar Filter ovanför rutorna, justerar måttfiltret till Kontakter och flyttar sedan Datumtypen till Skapat den. Klar!
+Om du vill visa det totala antalet kontakter som har skapats, grupperade efter en dimension, går du till Översikt eller CMO-kontrollpanelen för Discover, öppnar Filter ovanför rutorna, justerar måttfiltret till Kontakter och flyttar sedan Datumtypen till Skapat den. Klart!
 
 Om du vill ha ett totalt antal kontakter eller visa det totala antalet kontakter över tiden går du till kontrollpanelen Tillväxt, justerar datumtypen till Skapad och väljer önskat tidsintervall. Kontakter och kontakter över tid är kontaktfokuserade paneler på den här instrumentpanelen.
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874753
-description: Lägger till [!DNL Marketo Measure] till Act-On Forms - [!DNL Marketo Measure] - Produktdokumentation
+description: Lägger till [!DNL Marketo Measure] till Act-On Forms - [!DNL Marketo Measure]
 title: Lägger till [!DNL Marketo Measure] till Act-On Forms
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874539
-description: Skapa anpassad [!DNL Marketo Measure] Rapporttyper - [!DNL Marketo Measure] - Produktdokumentation
+description: Skapa anpassad [!DNL Marketo Measure] Rapporttyper - [!DNL Marketo Measure]
 title: Skapa anpassad [!DNL Marketo Measure] Rapporttyper
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men fortfarande se &quot;[!DNL Bizible]&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;[!DNL Bizible]&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 Lär dig hur du skapar egna [!DNL Marketo Measure] [!DNL Salesforce] rapporttyper. Det finns tre olika rapporttyper som vi rekommenderar att du skapar: Leads med Buyer Touchpoints (Custom), [!DNL Marketo Measure] Person med Buyer Touchpoints (Custom), Opportunity with Buyer Attribution Touchpoint (Custom).
 

@@ -2,7 +2,7 @@
 description: Kontrollpanel för ledarhastighet - [!DNL Marketo Measure] - Produkt
 title: Kontrollpanel för ledarhastighet
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Hur lång tid har du tillbringat i&quot;första beröringsfasen&quot; jämfört 
 
 Diagrammet över tidsserierader visar den genomsnittliga tiden, i dagar, som leads/kontakter spenderar på varje försäljningsstadium under den angivna tidsramen.
 
-* Utnyttja detaljfunktionerna för att kategorisera data per månad, kvartal eller år.
+* använda detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
 * Hovra över en linje för att visa detaljerad information.
 
 Frågor om diagramsvaren:

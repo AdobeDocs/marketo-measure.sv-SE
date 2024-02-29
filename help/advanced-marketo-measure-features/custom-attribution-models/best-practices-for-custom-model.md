@@ -1,9 +1,9 @@
 ---
-description: Bästa praxis för anpassad modell - [!DNL Marketo Measure] - Produktdokumentation
+description: Bästa praxis för anpassad modell - [!DNL Marketo Measure]
 title: Bästa praxis för anpassad modell
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Bästa praxis för anpassad modell {#best-practices-for-custom-model}
 
-## Ökning {#overview}
+## Översikt {#overview}
 
 Förutom [!DNL Marketo Measure] ur förpackningen Attribution Models, Tier 2-kunder och högre har tillgång till en Custom Attribution Model.
 

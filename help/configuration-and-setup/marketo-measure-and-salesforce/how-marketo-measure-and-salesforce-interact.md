@@ -4,9 +4,9 @@ description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interact - Marketo
 title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interagera
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 Låt oss titta på relationen mellan [!DNL Marketo Measure] och Salesforce.
 
@@ -35,7 +35,7 @@ När du ändrar den här inställningen bör du tänka på att mindre gruppstorl
 
 ## Salesforce-standardobjekt och åtkomst {#salesforce-standard-objects-and-access}
 
-I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measure] interagerar med, liksom med de anpassade fält som vi lägger till i dessa objekt när anslutningen har upprättats och [!DNL Marketo Measure] paketet är installerat. Ut ur lådan, [!DNL Marketo Measure] skriver INTE till någon standard [!DNL Salesforce] Objektfält.
+I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measure] interagerar med och de anpassade fält som läggs till i objekten när anslutningen har upprättats och [!DNL Marketo Measure] paketet är installerat. Ut ur lådan, [!DNL Marketo Measure] skriver INTE till någon standard [!DNL Salesforce] Objektfält.
 
 **Lead**
 

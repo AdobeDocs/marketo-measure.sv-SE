@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874656
-description: Filter - [!DNL Marketo Measure] - Produktdokumentation
+description: Filter - [!DNL Marketo Measure]
 title: Filter
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 0%

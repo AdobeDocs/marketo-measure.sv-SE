@@ -1,11 +1,11 @@
 ---
-description: "[!DNL Marketo Measure] Rapportmall - tabell - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Rapportmall - tabell - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Rapportmall - tabell"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '2296'
+source-wordcount: '2276'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du måste uppdatera befintliga anslutningsdata till din specifika anslutningsinf
 
 ## Dataanslutning {#data-connection}
 
-Du måste skapa en dataanslutning till din Snowflake-instans. För detta behöver du servernamnet tillsammans med ditt användarnamn och lösenord. Information om var du hittar den här informationen och återställer lösenordet finns dokumenterad [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+Du måste konfigurera en dataanslutning till din Snowflake-instans. För detta behöver du servernamnet tillsammans med ditt användarnamn och lösenord. Information om var du hittar den här informationen och återställer lösenordet finns dokumenterad [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -47,7 +47,7 @@ För [!DNL Tableau] använder datakällfilter på den övergripande frågan och 
     and sn._deleted_date is null
 ```
 
-Detta är dock felaktigt eftersom om en session togs bort, men motsvarande kontaktyta inte tas bort, tas data om kontaktytan bort från datauppsättningen. Vi vill att det ska finnas kontaktpunktsdata i datauppsättningen eftersom kontaktytan inte har tagits bort. Om du lägger till anpassad SQL-kod tillämpas filtervillkoren på tabellnivå, vilket resulterar i följande fråga.
+Detta är dock felaktigt eftersom om en session togs bort, men motsvarande kontaktyta inte tas bort, tas data om kontaktytan bort från datauppsättningen. Vi vill att det ska finnas kontaktpunktsdata i datauppsättningen eftersom kontaktytan inte har tagits bort. Genom att lägga till anpassad SQL säkerställer du att filtervillkoren tillämpas på tabellnivå, vilket resulterar i följande fråga.
 
 **Filter som används via anpassad SQL**
 
@@ -70,11 +70,11 @@ Några omformningar har gjorts för data i [!DNL Tableau] från sitt ursprunglig
 
 ### Borttagna kolumner {#removed-columns}
 
-För att förenkla datamodellen och ta bort överflödiga och onödiga data har vi minskat antalet kolumner som importerats till Tableau från den ursprungliga Snowflake-tabellen. Borttagna kolumner innehåller onödiga främmande nycklar, deormaliserade dimensionella data utnyttjas bättre via relationer till andra tabeller i modellen, granskningskolumner och fält som används för interna [!DNL Marketo Measure] bearbetning. Du kan lägga till eller ta bort kolumner efter behov genom att redigera listan över importerade kolumner i avsnittet Välj i den anpassade SQL-satsen.
+För att förenkla datamodellen och ta bort överflödiga och onödiga data har vi minskat antalet kolumner som importerats till Tableau från den ursprungliga Snowflake-tabellen. De borttagna kolumnerna innehåller onödiga främmande nycklar, denormaliserade flerdimensionella data som bättre används via relationer till andra tabeller i modellen, granskningskolumner och fält som används för interna [!DNL Marketo Measure] bearbetning. Du kan lägga till eller ta bort kolumner efter behov genom att redigera listan över importerade kolumner i avsnittet Välj i den anpassade SQL-satsen.
 
 >[!NOTE]
 >
->De flesta tabeller i data warehouse innehåller denormaliserade dimensionella data. Vi har arbetat för att normalisera och städa upp modellen i [!DNL Tableau] så mycket som möjligt för att förbättra prestanda och datakvalitet. Var försiktig när du lägger till ytterligare normaliserade fält i faktatabeller. Detta kan bryta dimensionell filtrering mellan tabeller och kan också leda till felaktiga rapporter.
+>De flesta tabeller i datalagret innehåller denormaliserade dimensionella data. Vi har arbetat för att normalisera och städa upp modellen i [!DNL Tableau] så mycket som möjligt för att förbättra prestanda och datakvalitet. Var försiktig när du lägger till ytterligare normaliserade fält i faktatabeller. Detta kan bryta dimensionell filtrering mellan tabeller och kan också leda till felaktiga rapporter.
 
 ### Kolumner med ändrat namn {#renamed-columns}
 
@@ -86,13 +86,13 @@ För att lägga till funktioner för valutakonvertering i beräkningarna i model
 
 ![](assets/marketo-measure-report-template-tableau-6.png)
 
-Det finns några ställen där två tabeller [!DNL Snowflake] har kombinerats med en union för att skapa en tabell i [!DNL Tableau] datamodell. I dessa fall har en Type-kolumn lagts till för att ange vilken [!DNL Snowflake] tabell som det kommer från och som anger vilken enhet raden representerar. Mer information om de tabeller som har kombinerats finns i avsnittet Relation och Dataflöde i den här dokumentationen.
+Det finns några ställen där två tabeller [!DNL Snowflake] har kombinerats med en union för att skapa en tabell i [!DNL Tableau] datamodell. I dessa fall har kolumnen &quot;Typ&quot; lagts till för att ange vilken [!DNL Snowflake] tabell som det kommer från och som anger vilken enhet raden representerar. Mer information om de tabeller som har kombinerats finns i avsnittet Relation och Dataflöde i den här dokumentationen.
 
 ![](assets/marketo-measure-report-template-tableau-7.png)
 
 ### Segmentnamn {#segment-names}
 
-Eftersom segmentnamn kan anpassas har de generiska kolumnnamn i Snowflake data warehouse. [!DNL BIZ_SEGMENT_NAMES] är en mappningstabell som listar det generiska segmentnamnet med det anpassade segmentnamnet som det mappas till, enligt definitionen i segmentavsnittet i [!DNL Marketo Measure] Gränssnitt. Om du använder egna segmentnamn och vill uppdatera [!DNL Tableau] om du vill ta med de här kolumnerna använder du den här tabellen och byter namn manuellt på kolumnerna i Tableau-modellen. Segmentkolumnerna finns i tabellen Lead och Attribution Touchpoint och behöver bara byta namn en gång.
+Eftersom segmentnamn är anpassningsbara har de generiska kolumnnamn i datalagret i Snowflake. [!DNL BIZ_SEGMENT_NAMES] är en mappningstabell som listar det generiska segmentnamnet med det anpassade segmentnamnet som det mappas till, enligt definitionen i segmentavsnittet i [!DNL Marketo Measure] Gränssnitt. Om du använder egna segmentnamn och vill uppdatera [!DNL Tableau] om du vill ta med de här kolumnerna använder du den här tabellen och byter namn manuellt på kolumnerna i Tableau-modellen. Segmentkolumnerna finns i tabellen Lead och Attribution Touchpoint och behöver bara byta namn en gång.
 
 The [!UICONTROL CATEGORY] -kolumnen listar kategorinumret och SEGMENT_NAME -kolumnen har det anpassade segmentnamn som den mappar till.
 
@@ -120,7 +120,7 @@ Kontaktpunkter för lead och attribuering kombineras till en tabell i den här m
 
 Scenövergångar för säljprojekt och leadscenövergångar kombineras till en tabell i den här modellen, med en länk till [!UICONTROL Lead and Attribution] Pekpunktstabell. Kolumnen&quot;Övergångstyp&quot; har lagts till för att ange om en rad är en övergång av typen säljprojekt eller Lead-fas.
 
-Både kostnads- och slutpunktsdata delar kanaldimensioner och kampanjdimensioner. Tableau är dock begränsat när det gäller möjligheten att modellera delade dimensioner mellan faktatabeller. Eftersom vi är begränsade till endast en delad dimensionstabell har data för Kanal och Kampanj kombinerats till en tabell. De kombineras med hjälp av en korskoppling av de två dimensionerna till en tabell i Tablet: Channel och Campaign. Det unika ID:t skapas genom att kanal- och kampanj-ID sammanfogas. Samma ID-värde läggs till i både Touchpoint- och Cost-tabellerna för att skapa en relation till den här kombinerade dimensionstabellen.
+Både kostnads- och slutpunktsdata delar kanaldimensioner och kampanjdimensioner. Det är dock begränsat i Tableau att det är möjligt att modellera delade dimensioner mellan faktatabeller. Eftersom vi är begränsade till endast en delad dimensionstabell har data för Kanal och Kampanj kombinerats till en tabell. De kombineras med hjälp av en korskoppling av de två dimensionerna till en tabell i Tablet: Channel och Campaign. Det unika ID:t skapas genom att kanal- och kampanj-ID sammanfogas. Samma ID-värde läggs till i både Touchpoint- och Cost-tabellerna för att skapa en relation till den här kombinerade dimensionstabellen.
 
 ![](assets/marketo-measure-report-template-tableau-12.png)
 
@@ -130,7 +130,7 @@ I den här modellen är Campaign- och Channel-dimensionerna länkade till Touchp
 >
 >Vissa händelser, till exempel sessioner, har direkta länkar till kampanjdimensionerna och kanaldimensionerna. Om du vill rapportera på sessionsnivå om de här dimensionerna rekommenderar vi att en separat datamodell skapas för detta ändamål.
 
-Kostnadsdata lagras på olika aggregeringsnivåer i kostnadsregistret för Snowflake data warehouse. För alla annonsleverantörer kan kampanjnivådata samlas på kanalnivå. Därför hämtar den här modellen kostnadsdata baserat på flaggan&quot;campaign_is_aggregatable_cost&quot;. Självrapporterade kostnader kan bara skickas på kanalnivå och behöver inte ha Campaign-data. För att få en så korrekt kostnadsrapportering som möjligt hämtas självrapporterade kostnader baserat på flaggan&quot;channel_is_aggregatable_cost&quot;. Frågan som importerar kostnadsdata skrivs med följande logik: Om ad_provider = &quot;SelfReported&quot; så är channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
+Kostnadsdata lagras på olika aggregeringsnivåer i kostnadsregistret för datalagret i Snowflake. För alla annonsleverantörer kan kampanjnivådata samlas på kanalnivå. Därför hämtar den här modellen kostnadsdata baserat på flaggan&quot;campaign_is_aggregatable_cost&quot;. Självrapporterade kostnader kan bara skickas på kanalnivå och behöver inte ha Campaign-data. För att få en så korrekt kostnadsrapportering som möjligt hämtas självrapporterade kostnader baserat på flaggan&quot;channel_is_aggregatable_cost&quot;. Frågan som importerar kostnadsdata skrivs med följande logik: Om ad_provider = &quot;SelfReported&quot; så är channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
 
 Inom ramen för denna modell, Lead, [!UICONTROL Contact], [!UICONTROL Account]och [!UICONTROL Opportunity] data betraktas som dimensionella data och kopplas direkt till tabell för lead- och attributslutpunkt.
 
@@ -143,7 +143,7 @@ Kurserna i tabellen Konverteringsränta representerar det värde som behövs fö
 
 ![](assets/marketo-measure-report-template-tableau-13.png)
 
-Valutakonverteringsmåtten i den här modellen ersätter kursen med värdet 1,0 om ingen konverteringsgrad kan identifieras. Separata mått har skapats för att visa valutavärdet för måttet och larm om en beräkning innehåller mer än ett valutavärde (dvs. ett värde kunde inte konverteras till den valda valutan). Dessa mått, Kostnadsvaluta och Intäktsvaluta, inkluderas som verktygstips i alla visuella data som visar kostnads- eller intäktsdata.
+Valutakonverteringsmåtten i den här modellen ersätter kursen med värdet 1,0 om ingen konverteringsgrad kan identifieras. Separata mått har skapats för att visa valutavärdet för måttet och larm om en beräkning innehåller mer än ett valutavärde (det vill säga, ett värde kunde inte konverteras till den valda valutan). Dessa mått, Kostnadsvaluta och Intäktsvaluta, inkluderas som verktygstips i alla visuella data som visar kostnads- eller intäktsdata.
 
 ![](assets/marketo-measure-report-template-tableau-14.png)
 
@@ -153,7 +153,7 @@ Definitioner har lagts till i [!DNL Tableau model] för parametrar, anpassade ko
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-Visa definitioner för kolumner som kommer direkt från [!DNL Snowflake], se [data warehouse dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
+Visa definitioner för kolumner som kommer direkt från [!DNL Snowflake], se [dokumentation för datalager](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Skillnader mellan mallar och Upptäck {#discrepancies-between-templates-and-discover}
 
@@ -167,7 +167,7 @@ Kontaktpunkter för lead och attribuering för Touchpoints ärver dimensionella 
 
 ### Kostnad {#cost}
 
-Kostnadsrapporteringen i mallarna är endast tillgänglig på kampanj- och kanalnivå, men Discover erbjuder rapportering på lägre detaljnivå för vissa annonsleverantörer (dvs. kreativa, nyckelord, annonsgrupper osv.). Mer information om hur kostnadsdata utformas i mallarna finns i [!UICONTROL Data Model] i denna dokumentation. Om dimensionsfiltret [!UICONTROL Discover] är inställt på kanal eller kampanj, kostnaderna på kanal-, delkanal- och kampanjnivå bör ligga mellan Discover och rapportmallarna.
+Kostnadsrapporteringen i mallarna är endast tillgänglig på kampanj- och kanalnivå, men Discover erbjuder rapportering på lägre detaljnivå för vissa annonsleverantörer (dvs. kreativa, nyckelord, annonsgrupper osv.). Mer information om hur kostnadsdata modelleras i mallarna finns i [!UICONTROL Data Model] i denna dokumentation. Om dimensionsfiltret [!UICONTROL Discover] är inställt på kanal eller kampanj, kostnaderna på kanal-, delkanal- och kampanjnivå bör ligga mellan Discover och rapportmallarna.
 
 ### avkastning {#roi}
 
@@ -179,7 +179,7 @@ Dessa mått, som de visas i rapportmallarna, speglas inte i Discover. Det finns 
 
 ### Webbtrafik {#web-traffic}
 
-Rapportmallens datamodell normaliserar kanal-, delkanals- och kampanjdimensionella data via relationen mellan Session och Touchpoint. Detta skiljer sig från datamodellen Discover, som denoraliserar dessa dimensioner till Session. På grund av den här skillnaden bör antalet besök och besökare stämma överens mellan Discover och rapportmallen, men när de visas eller filtreras efter dimension förväntas inte numren att stämma överens. Detta beror på att dimensionella data i mallen bara är tillgängliga för webbhändelser som resulterade i en kontaktyta (dvs. icke-anonyma händelser). Mer information finns i [Datamodell](#data-model) i denna dokumentation.
+Rapportmallens datamodell normaliserar kanal-, delkanals- och kampanjdimensionella data via relationen mellan Session och Touchpoint. Detta skiljer sig från datamodellen Discover, som denoraliserar dessa dimensioner till Session. På grund av den här skillnaden bör antalet besök och besökare stämma överens mellan Discover och rapportmallen, men när de visas eller filtreras efter dimension förväntas inte numren att stämma överens. Detta beror på att dimensionella data i mallen bara är tillgängliga för webbhändelser som resulterade i en kontaktyta (d.v.s. icke-anonyma händelser). Mer information finns i [Datamodell](#data-model) i denna dokumentation.
 
 Det kan finnas små skillnader i totalt antal formulär på webbplatsen mellan [!DNL Discover] och mallen. Detta beror på att datamodellen i rapportmallen hämtar dimensionella data för platsformulär via en relation till Session och sedan Touchpoint. Det finns några instanser där data för webbplatsformulär inte har någon korrelerad session.
 

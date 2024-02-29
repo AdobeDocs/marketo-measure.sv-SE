@@ -1,11 +1,11 @@
 ---
-description: "[!DNL Marketo Measure] Rapportmall - Power BI - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Rapportmall - Power BI - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Rapportmall - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '2557'
+source-wordcount: '2526'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Du kan komma åt rapportmallen för Power BI [här](https://github.com/adobe/Mar
 
 Du hittar information om server, lager och schema i dialogrutan [!DNL Marketo Measure] Gränssnitt på [!DNL Data Warehouse] informationssida. Instruktioner för hur du hittar den här sidan finns i detalj [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
-Parametrarna QueryFilterStartDate och QueryFilterEndDate används för att begränsa mängden data som importeras. De här parametrarna måste ha SQL-format som de används i de frågor som skickas till [!DNL Snowflake]. Om du t.ex. vill begränsa data till de senaste två åren, kommer QueryFilterStartDate att vara datalägd (year,-2,current_date()). Dessa parametrar jämförs med datetime-datatyper, så det rekommenderas att du använder dateadd (day,1,current_date()) för QueryFilterEndDate för att returnera alla data till den aktuella tiden.
+Parametrarna QueryFilterStartDate och QueryFilterEndDate används för att begränsa mängden data som importeras. De här parametrarna måste ha SQL-format som de används i de frågor som skickas till [!DNL Snowflake]. Om du till exempel vill begränsa data till de senaste två åren, blir QueryFilterStartDate `dateadd` (year,-2,current_date()). Parametrarna jämförs med datatyperna datetime, så vi rekommenderar att du använder `dateadd` (day,1,current_date()) för QueryFilterEndDate för att returnera alla data till den aktuella tiden.
 
 ## Dataanslutning {#data-connection}
 
-De parametrar som anges när filen öppnas används för att strukturera interna frågor som importerar tabeller från data warehouse. Du måste fortfarande skapa en dataanslutning till din [!DNL Snowflake] -instans. För detta behöver du samma server- och lagerställenamn tillsammans med ditt användarnamn och lösenord. Information om var du hittar ditt användarnamn och återställer lösenordet finns, om det behövs, dokumenterad [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+De parametrar som anges när filen öppnas används för att strukturera interna frågor som importerar tabeller från datalagret. Du måste fortfarande konfigurera en dataanslutning till din [!DNL Snowflake] -instans. För detta behöver du samma server- och lagerställenamn tillsammans med ditt användarnamn och lösenord. Information om var du hittar ditt användarnamn och återställer lösenordet finns, om det behövs, dokumenterad [här](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Dataimport {#data-import}
 
-För att förbättra rapportens prestanda och dra nytta av omvandlingsfunktionerna i Power Query har vi valt att konfigurera den här mallen med hjälp av importlagringsmetoden.
+Om du vill förbättra rapportens prestanda och utnyttja omvandlingsfunktionerna i Power Query ska du konfigurera den här mallen med importlagringsmetoden.
 
 ### Frågeparametrar {#query-parameters}
 
@@ -80,13 +80,13 @@ Några omformningar har gjorts på data i Power Query. Om du vill visa specifika
 
 ### Borttagna kolumner {#removed-columns}
 
-För att förenkla datamodellen och ta bort överflödiga och onödiga data har vi minskat antalet kolumner som importerats till Power BI från originalet [!DNL Snowflake] tabell. Borttagna kolumner innehåller onödiga främmande nycklar, deormaliserade dimensionella data utnyttjas bättre via relationer till andra tabeller i modellen, granskningskolumner och fält som används för interna [!DNL Marketo Measure] bearbetning. Du kan lägga till eller ta bort kolumner efter behov. Navigera till steget &quot;Borttagna andra kolumner&quot; efter steget &quot;Källa&quot; i en tabell, klicka på kugghjulsikonen och uppdatera de markerade kolumnerna i listan.
+För att förenkla datamodellen och ta bort överflödiga och onödiga data har vi minskat antalet kolumner som importerats till Power BI från originalet [!DNL Snowflake] tabell. Borttagna kolumner innehåller onödiga främmande nycklar, deormaliserade flerdimensionella data används bättre via relationer till andra tabeller i modellen, granskningskolumner och fält som används för interna [!DNL Marketo Measure] bearbetning. Du kan lägga till eller ta bort kolumner efter behov. Navigera till steget &quot;Borttagna andra kolumner&quot; efter &quot;Källa&quot; i en tabell, klicka på kugghjulsikonen och uppdatera de markerade kolumnerna i listan.
 
 >[!NOTE]
 >
->* Var försiktig när du lägger till ytterligare värden för främmande nycklar. Power BI är ofta inställt på automatisk identifiering av relationer i modellen, och om du lägger till värden för främmande nycklar kan det leda till oönskade länkar mellan tabeller och/eller inaktivera befintliga relationer.
+>* Var försiktig när du lägger till ytterligare värden för främmande nycklar. Power BI ställs ofta in på att automatiskt identifiera relationer i modellen och om du lägger till värden för främmande nycklar kan det leda till oönskade länkar mellan tabeller och/eller inaktivera befintliga relationer.
 >
->* De flesta tabellerna i [!DNL Marketo Measure] data warehouse innehåller denormaliserade dimensionella data. Vi har arbetat för att normalisera och städa upp modellen i Power BI så mycket som möjligt för att förbättra prestanda och datakvalitet. Var försiktig när du lägger till ytterligare normaliserade fält i faktatabeller. Detta kan bryta dimensionell filtrering mellan tabeller och kan också leda till felaktiga rapporter.
+>* De flesta tabellerna i [!DNL Marketo Measure] datalagret innehåller denormaliserade dimensionella data. Vi har arbetat för att normalisera och städa upp modellen i Power BI så mycket som möjligt för att förbättra prestanda och datakvalitet. Var försiktig när du lägger till ytterligare normaliserade fält i faktatabeller. Detta kan bryta dimensionell filtrering mellan tabeller och kan också leda till felaktiga rapporter.
 
 
 ![](assets/marketo-measure-report-template-power-bi-5.png)
@@ -99,11 +99,11 @@ Tabellerna och kolumnerna har bytt namn för att göra dem mer användarvänliga
 
 ### Bytt namn på segment {#renamed-segments}
 
-Eftersom segmentnamn kan anpassas har de generiska kolumnnamn i Snowflake data warehouse. [!DNL BIZ_SEGMENT_NAMES] är en mappningstabell som listar det generiska segmentnamnet och dess mappade anpassade segmentnamn, som definieras i segmentavsnittet i [!DNL Marketo Measure] Gränssnitt. Tabellen Segmentnamn används för att byta namn på segmentkolumnerna i tabellerna Lead Touchpoint och Attribution Touchpoint. Om det inte finns något anpassat segment kvarstår det generiska segmentnamnet.
+Eftersom segmentnamn är anpassningsbara har de generiska kolumnnamn i datalagret i Snowflake. [!DNL BIZ_SEGMENT_NAMES] är en mappningstabell som listar det generiska segmentnamnet och dess mappade anpassade segmentnamn, som definieras i segmentavsnittet i [!DNL Marketo Measure] Gränssnitt. Tabellen Segmentnamn används för att byta namn på segmentkolumnerna i tabellerna Lead Touchpoint och Attribution Touchpoint. Om det inte finns något anpassat segment kvarstår det generiska segmentnamnet.
 
 ![](assets/marketo-measure-report-template-power-bi-7.png)
 
-### Konvertering av skiftlägeskänsligt ID {#case-sensitive-id-conversion}
+### Skiftlägeskänslig ID-konvertering {#case-sensitive-id-conversion}
 
 [!DNL Marketo Measure] data har ett par tabeller där ID-värden (primärnyckel) är skiftlägeskänsliga, nämligen Touchpoint och Campaign. Datamotorn som driver Power BI-modelleringslagret är skiftlägeskänslig, vilket resulterar i&quot;duplicerade&quot; ID-värden. För att bevara skiftlägeskänsligheten för dessa nyckelvärden har vi implementerat transformeringssteg som kopplar osynliga tecken till gemena tecken och bevarar ID:ts unika karaktär när det utvärderas i datamotolken. Mer information om problemet och de detaljerade stegen om den metod vi har använt finns [här] (https://blog.crossjoin.co.uk/2019){target="_blank"}. Dessa skiftlägeskänsliga ID-värden är märkta som&quot;ID för koppling&quot; och används som kopplingsnycklar i relationslagret. Vi har dolt kopplings-ID:n från rapporteringslagret, så att de ursprungliga ID-värdena är synliga för rapportering, eftersom de osynliga tecknen kan störa klippta/klistra in funktioner och filtrering.
 
@@ -117,7 +117,7 @@ För att lägga till funktioner för valutakonvertering i beräkningarna i model
 
 ![](assets/marketo-measure-report-template-power-bi-10.png)
 
-Registret för konverteringsgrad lagras i [!DNL Snowflake] innehåller ett datumintervall för varje konvertering. Power BI tillåter inte kopplingsvillkor för en beräkning (dvs. mellan ett datumintervall). För att kunna ansluta till ett datum har vi lagt till steg i konverteringstabellen för att expandera raderna så att det finns en rad för varje datum i konverteringsdatumintervallet.
+Registret för konverteringsgrad lagras i [!DNL Snowflake] innehåller ett datumintervall för varje konvertering. Power BI tillåter inte kopplingsvillkor i en beräkning (d.v.s. mellan ett datumintervall). För att kunna ansluta till ett datum har vi lagt till steg i tabellen Konverteringsfrekvens för att expandera raderna så att det finns en rad för varje datum i konverteringsdatumintervallet.
 
 ![](assets/marketo-measure-report-template-power-bi-11.png)
 
@@ -135,7 +135,7 @@ Kontaktpunkter för lead och attribuering lagras i sina egna tabeller med en lä
 
 I den här modellen är Campaign- och Channel-dimensionerna länkade till Touchpoint, så alla rapporter om de här dimensionerna är via den här länken och innebär att dimensionell rapportering av händelsedata kan vara ofullständig. Detta beror på att många händelser inte har länkar till de här dimensionerna förrän de har bearbetats till kontaktpunkter. Obs! Vissa händelser, till exempel sessioner, har direkta länkar till kampanjens och kanalens dimensioner. Om du vill rapportera på sessionsnivå om de här dimensionerna rekommenderar vi att en separat datamodell skapas för detta ändamål.
 
-Kostnadsdata lagras på olika aggregeringsnivåer i [!DNL Snowflake] Kostnadstabell för data warehouse. För alla annonsleverantörer kan kampanjnivådata samlas på kanalnivå. Därför hämtar den här modellen kostnadsdata baserat på flaggan&quot;campaign_is_aggregatable_cost&quot;. Självrapporterade kostnader kan bara skickas på kanalnivå och behöver inte ha Campaign-data. För att få en så korrekt kostnadsrapportering som möjligt hämtas självrapporterade kostnader baserat på flaggan&quot;channel_is_aggregatable_cost&quot;. Frågan som importerar kostnadsdata skrivs med följande logik: Om ad_provider = &quot;SelfReported&quot; så är channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
+Kostnadsdata lagras på olika aggregeringsnivåer i [!DNL Snowflake] kostnadstabell för datalager. För alla annonsleverantörer kan kampanjnivådata samlas på kanalnivå. Därför hämtar den här modellen kostnadsdata baserat på flaggan&quot;campaign_is_aggregatable_cost&quot;. Självrapporterade kostnader kan bara skickas på kanalnivå och behöver inte ha Campaign-data. För att få en så korrekt kostnadsrapportering som möjligt hämtas självrapporterade kostnader baserat på flaggan&quot;channel_is_aggregatable_cost&quot;. Frågan som importerar kostnadsdata skrivs med följande logik: Om ad_provider = &quot;SelfReported&quot; så är channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
 
 Kostnadsdata och Touchpoint-data har vissa gemensamma dimensioner, så båda faktatabellerna har relationer med dimensionstabellerna Campaign och Channel.
 
@@ -164,7 +164,7 @@ Kurserna i tabellen Konverteringsränta representerar det värde som behövs fö
 
 Eftersom konverteringsgrader inte behöver vara statiska och kan ändras med angivna datumintervall, måste alla valutakonverteringsberäkningar utföras på radnivå. Eftersom konverteringsgraden gäller för ett visst datumintervall, måste uppslagsberäkningen utföras inom måttets DAX, så relationen kan definieras både för valutakoden och datumet.
 
-Valutakonverteringsmåtten i den här modellen ersätter kursen med värdet 1,0 om ingen konverteringsgrad kan identifieras. Separata mått har skapats för att visa valutavärdet för måttet och larm om en beräkning innehåller mer än ett valutavärde (dvs. ett värde kunde inte konverteras till den valda valutan).
+Valutakonverteringsmåtten i den här modellen ersätter kursen med värdet 1,0 om ingen konverteringsgrad kan identifieras. Separata mått har skapats för att visa valutavärdet för måttet och larm om en beräkning innehåller mer än ett valutavärde (det vill säga, ett värde kunde inte konverteras till den valda valutan).
 
 ![](assets/marketo-measure-report-template-power-bi-13.png)
 
@@ -178,7 +178,7 @@ Definitioner har lagts till i Power BI-modellen för tabeller, anpassade kolumne
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-Visa definitioner för kolumner som kommer direkt från [!DNL Snowflake], se [data warehouse dokumentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
+Visa definitioner för kolumner som kommer direkt från [!DNL Snowflake], se [dokumentation för datalager](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Skillnader mellan mallar och Upptäck {#discrepancies-between-templates-and-discover}
 
@@ -188,7 +188,7 @@ Kontaktpunkter för lead och attribuering för Touchpoints ärver dimensionella 
 
 ### Kostnad {#cost}
 
-Kostnadsrapporteringen i mallarna är endast tillgänglig på kampanj- och kanalnivå, men Discover erbjuder rapportering på lägre detaljnivå för vissa annonsleverantörer (dvs. kreativa, nyckelord, annonsgrupper osv.). Mer information om hur kostnadsdata modelleras i mallarna finns i avsnittet Datamodell i den här dokumentationen. Om dimensionsfiltret [!UICONTROL Discover] är inställt på kanal eller kampanj, kostnaderna på kanal-, delkanal- och kampanjnivå bör ligga mellan Discover och rapportmallarna.
+Kostnadsrapporteringen i mallarna är endast tillgänglig på kampanj- och kanalnivå, men Discover erbjuder rapportering på lägre detaljnivå för vissa annonsleverantörer (d.v.s. kreativa nyckelord, annonsgrupper osv.). Mer information om hur kostnadsdata modelleras i mallarna finns i avsnittet Datamodell i den här dokumentationen. Om dimensionsfiltret [!UICONTROL Discover] är inställt på kanal eller kampanj, kostnaderna på kanal-, delkanal- och kampanjnivå bör ligga mellan Discover och rapportmallarna.
 
 ### avkastning {#roi}
 

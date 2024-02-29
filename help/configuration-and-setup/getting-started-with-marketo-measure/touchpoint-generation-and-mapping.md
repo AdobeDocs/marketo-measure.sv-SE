@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874554
-description: Generering och mappning av pekpunkter - [!DNL Marketo Measure] - Produktdokumentation
+description: Generering och mappning av pekpunkter - [!DNL Marketo Measure]
 title: Generering och mappning av kontaktpunkter
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,8 @@ Processen för att skapa kontaktytor besvarar frågan&quot;Hur är det? [!DNL Ma
 
 | **Typ av samverkan** | **Exempel** | **Genereringsmetod för kontaktpunkt** |
 |---|---|---|
-| Online, på din/dina webbplatser | Formulärfyllning | [!DNL Marketo Measure] JavaScript |
-| Offline; online finns inte på din/dina webbplatser | Varumärkesföretag; Content Syndication Partner levererar en lista över leads som har interagerat med ert innehåll | CRM Campaign-medlemskap synkroniserat med [!DNL Marketo Measure], antingen genom att ställa in Campaign-synkroniseringstypen direkt i kampanjen eller genom att ställa in regler på kampanjsidan i [!DNL Marketo Measure] |
+| Online, på dina webbplatser | Formulärfyllning | [!DNL Marketo Measure] JavaScript |
+| Offline; online finns inte på dina webbplatser | Varumärkesföretag; Content Syndication Partner levererar en lista över leads som har interagerat med ditt innehåll | CRM Campaign-medlemskap synkroniserat med [!DNL Marketo Measure], antingen genom att ställa in Campaign-synkroniseringstypen direkt i kampanjen eller genom att ställa in regler på kampanjsidan i [!DNL Marketo Measure] |
 | Försäljningsaktivitet | Utgående samtal av SDR | CRM-aktivitetspost (Aktivitet eller Händelse) synkroniserad till [!DNL Marketo Measure], via logik i [!UICONTROL Activities] sida in [!DNL Marketo Measure] |
 
 Mappningsmetoder för kontaktpunkter
@@ -40,8 +40,8 @@ Processen för att mappa kontaktytor besvarar frågan:&quot;När den här kontak
 
 | **Typ av samverkan** | **Genereringsmetod** | **Mappningsmetod** |
 |---|---|---|
-| Online, på din/dina webbplatser | [!DNL Marketo Measure] JavaScript | Via [!DNL Online Channels] sida in [!DNL Marketo Measure], genom att referera till UTM-värden, landningssida och referera till sidinformation |
-| Offline; online, inte på din/dina webbplatser | Synkronisering av CRM-kampanjmedlemskap | Via [!UICONTROL Offline Channels] sida in [!DNL Marketo Measure]genom att referera till Campaign-typen |
+| Online, på dina webbplatser | [!DNL Marketo Measure] JavaScript | Via [!DNL Online Channels] sida in [!DNL Marketo Measure], genom att referera till UTM-värden, landningssida och referera till sidinformation |
+| Offline; online, inte på dina webbplatser | Synkronisering av CRM-kampanjmedlemskap | Via [!UICONTROL Offline Channels] sida in [!DNL Marketo Measure]genom att referera till Campaign-typen |
 | Försäljningsaktivitet | Synkronisering av CRM-aktivitet | Via [!UICONTROL Online Channels] sida in [!DNL Marketo Measure]genom att referera till det kampanjnamn som tilldelats på [!UICONTROL Activities] page |
 
 >[!MORELIKETHIS]

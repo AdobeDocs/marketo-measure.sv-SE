@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874775
-description: Maskininlärningsmodell - frågor och svar - [!DNL Marketo Measure] - Produktdokumentation
+description: Maskininlärningsmodell - frågor och svar - [!DNL Marketo Measure]
 title: Vanliga frågor om maskininlärningsmodellen
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ En trend vi har märkt är att det inte alltid är bra att ta med fler faser i m
 
 Vi har också noterat att det finns en hög konverteringsgrad från Lead Creation till Marketing Qualified och att Marketing Qualified-fasen därför kan få en lägre attribueringsviktning i procent. Beroende på ditt företags- och säljprogram kan det vara bra att ta bort det här steget från den anpassade modellen.
 
-Tänk på att om du vill spåra marknadsföringsaktiviteter under en viss fas, men inte vill att den här fasen ska ta emot attribueringskrediter, kan du ta med den här fasen i modellen och tilldela 0 % attribueringskrediter till den fasen.
+Tänk på att om ni vill spåra marknadsföringsaktiviteter under en viss fas, men inte vill att den här fasen ska ta emot attribueringskrediter, kan ni ta med den här fasen i modellen och tilldela 0 % attribueringskrediter till den fasen.

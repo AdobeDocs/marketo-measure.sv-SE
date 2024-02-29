@@ -1,22 +1,22 @@
 ---
-description: Domänhantering - [!DNL Marketo Measure] - Produktdokumentation
+description: Domänhantering - [!DNL Marketo Measure]
 title: Domänhantering
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # Domänhantering {#domain-management}
 
-För IMS-aktiverade klientorganisationer som körs [!DNL Marketo Measure] i Experience Cloud-gränssnittet, [!DNL Marketo Measure] har ett gränssnitt som gör att användare kan hantera sina egna domänlistor. [!DNL Marketo Measure] användare måste först verifiera alla domäner de vill spåra i [Adobe Admin Console](https://adminconsole.adobe.com/). När domänerna har verifierats i Admin Console kan användarna hantera om [!DNL Marketo Measure] använder dessa domäner för att spåra webbplatstrafik.
+För IMS-aktiverade klientorganisationer som körs [!DNL Marketo Measure] i Experience Cloud-gränssnittet, [!DNL Marketo Measure] har ett gränssnitt som gör att användare kan hantera sina egna domänlistor. [!DNL Marketo Measure] användare måste först verifiera alla domäner som de vill spåra i [Adobe Admin Console](https://adminconsole.adobe.com/). När domänerna har verifierats i Admin Console kan användarna hantera om [!DNL Marketo Measure] använder dessa domäner för att spåra webbplatstrafik.
 
 ## Lägga till domäner i Admin Console {#adding-domains-in-admin-console}
 
-IMS-användare med åtkomst till Adobe Admin Console kan lägga till och validera domäner som de äger. Domänvalidering innebär att en DNS-post läggs till för varje domän och att Admin Console sedan kan verifiera posten.
+IMS-användare med åtkomst till Adobe Admin Console kan lägga till och validera domäner som de äger. Domänvalidering innebär att en DNS-post läggs till för varje domän och att Admin Console kan verifiera posten.
 
 ![](assets/domain-management-1.png)
 
@@ -24,15 +24,15 @@ Instruktioner för hur du lägger till domäner finns i [Admin Console dokumenta
 
 ## Hantera domäner i [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
-När en domän har lagts till i Admin Console, [!DNL Marketo Measure] kommer att synkronisera den här posten med vår databas regelbundet. Den här synkroniseringen sker varje natt, och även varje gång en användare besöker **[!UICONTROL Domains]** sidan i [!DNL Marketo Measure] Gränssnitt. Som standard alla poster som [!DNL Marketo Measure] importer inaktiveras och klientorganisationen måste manuellt aktivera varje domän.
+När en domän har lagts till i Admin Console, [!DNL Marketo Measure] synkroniserar posten regelbundet till databasen. Den här synkroniseringen sker varje natt, och även varje gång en användare besöker **[!UICONTROL Domains]** sidan i [!DNL Marketo Measure] Gränssnitt. Som standard alla poster som [!DNL Marketo Measure] importer är inaktiverade och klientorganisationen måste aktivera varje domän manuellt.
 
 ![](assets/domain-management-2.png)
 
-På **[!UICONTROL Integration]** > **[!UICONTROL Domains]** visas alla domäner som användaren har registrerat i Admin Console tillsammans med deras status. Varje domän kan aktiveras eller inaktiveras. Om en domän är aktiverad [!DNL Marketo Measure] spårning samlar in trafik som kan ses på den domänen. Om en domän är inaktiverad [!DNL Marketo Measure] kommer att ignorera all trafik som kommer från den domänen och inte skapa kontaktytor eller andra data. [!DNL Marketo Measure] bekräftar även inaktiveringen av en domän och varnar för förvrängningarna:
+På **[!UICONTROL Integration]** > **[!UICONTROL Domains]** visas alla domäner som användaren har registrerat i Admin Console tillsammans med deras status. Varje domän kan aktiveras eller inaktiveras. Om en domän är aktiverad [!DNL Marketo Measure] spårning samlar in trafik som kan ses på den domänen. Om en domän är inaktiverad [!DNL Marketo Measure] ignorerar all trafik som kommer från den domänen och inte skapar kontaktytor eller andra data. [!DNL Marketo Measure] bekräftar inaktiveringen av en domän och varnar för förvrängningarna:
 
 ![](assets/domain-management-3.png)
 
-Effekten av att växla en domän är omedelbar, och ändringarna är inte retroaktiva. I framtiden [!DNL Marketo Measure] rensar data från inaktiverade domäner efter en angiven tidsperiod.
+Effekten av att växla en domän är omedelbar, och ändringarna är inte retroaktiva. I framtiden [!DNL Marketo Measure] rensar data från inaktiverade domäner efter en angiven period.
 
 ## Status {#statuses}
 
@@ -45,13 +45,13 @@ Statusen för Admin Console kategoriseras enligt följande:
 
 Spårningsstatus kan vara följande:
 
-* **AKTIV**: [!DNL Marketo Measure] tar för närvarande emot data från den här domänen
-* **INAKTIVERAT**: Den här domänen är tillgänglig för spårning, men är för närvarande inaktiverad
+* **AKTIV**: [!DNL Marketo Measure] tar emot data från den här domänen
+* **INAKTIVERAT**: Den här domänen är tillgänglig för spårning, men är inaktiverad
 * **OTILLGÄNGLIG**: Den här domänen är inte tillgänglig för spårning eftersom den inte har verifierats
 
-Om du hovrar över ett enskilt statusobjekt utlöses ett verktygstips som ytterligare förklarar statusen.
+När du hovrar över ett enskilt statusobjekt utlöses ett verktygstips som ytterligare förklarar statusen.
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Vad händer när en domän tas bort i Admin Console?**
 
@@ -63,4 +63,4 @@ Det finns flera orsaker till varför en domän inte tillåts att väljas på den
 
 **Hur tar jag bort en domän från den här listan?**
 
-Om en domän har &quot;aktiverad&quot;-växeln inaktiverad, [!DNL Marketo Measure] ignorerar det och tas bort effektivt från [!DNL Marketo Measure]. Ta bort en domän permanent från [!DNL Marketo Measure]måste du inaktivera det i [!DNL Marketo Measure]och därefter ta bort det från Admin Console.
+Om en domän har &quot;aktiverad&quot;-växeln inaktiverad, [!DNL Marketo Measure] ignorerar det och det tas bort effektivt från [!DNL Marketo Measure]. Ta bort en domän permanent från [!DNL Marketo Measure]måste du inaktivera det i [!DNL Marketo Measure]och sedan ta bort den från Admin Console.

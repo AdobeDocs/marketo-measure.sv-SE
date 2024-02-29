@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874556
-description: "[!DNL Marketo Measure] Underhåll - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Underhåll - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Underhåll"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Marketo Measure spårar alla sidor och underdomäner där Javascript är aktivt,
 
 **Granska anpassad kanalmappning för precision (1x/månad)**
 
-Under introduktionen ställer ni in anpassad kanalmappning för era marknadsföringssatsningar online och offline. Efterhand som er marknadsföringsstrategi och användning av Marketo Measure utvecklas vill ni hålla ett öga på mappningslogiken för att se till att alla era kontaktytor kategoriseras på rätt sätt.
+Under introduktionen ställer ni in anpassad kanalmappning för era marknadsföringssatsningar online och offline. Efterhand som er marknadsföringsstrategi och användning av Marketo Measure utvecklas bör ni hålla ett öga på mappningslogiken för att se till att alla era kontaktytor kategoriseras på rätt sätt.
 
 Kom ihåg: [!DNL Marketo Measure] bearbetar om data när du redigerar mappningslogik, så att du inte kan ändra dessa regler mer än en gång var 7:e dag.
 

@@ -4,7 +4,7 @@ description: Marketo Measure Framework - Marketo Measure - Produktdokumentation
 title: Marketo Measure Framework
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%

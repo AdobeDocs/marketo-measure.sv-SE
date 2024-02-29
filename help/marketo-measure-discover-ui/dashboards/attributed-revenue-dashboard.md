@@ -3,7 +3,7 @@ description: Kontrollpanel för attributerade intäkter - [!DNL Marketo Measure]
 title: Kontrollpanel för attributerade intäkter
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Kontrollpanelen för attributerade intäkter ger ett fokuserat perspektiv på de
 
 Staplat stapeldiagram med totala attributerade intäkter, segmenterade efter kanal, för varje månad/kvartal/år.
 
-* Utnyttja detaljfunktionerna för att kategorisera data per månad, kvartal eller år.
+* använda detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
 * Håll pekaren över ett stolpsegment eller mellanrummet mellan stolparna för att visa detaljerad information.
 
 **Frågor om diagramsvaren:**

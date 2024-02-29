@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874602
-description: Marknadsföringskanalkostnader - [!DNL Marketo Measure] - Produktdokumentation
+description: Marknadsföringskanalkostnader - [!DNL Marketo Measure]
 title: Marknadsföringskanalkostnader
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Den hämtade CSV-filen hämtar resultaten från den aktuella skärmen, vilket in
 
 Oavsett vilken vy som visas i webbläsaren kan du överföra en CSV-fil om det är en filtrerad vy eller standardvy med alla datum och kanaler.
 
-Det vanligaste felet är datumkolumnernas format, som inträffar om datumformatet ändras och som kan inträffa avsiktligt om du flyttar mellan Excel och/eller Google-blad. Tänk på att datumet bör vara MM-YY, så den 12 september och inte 12 september, eller maj-12 och inte 05-12.
+Det vanligaste felet är datumkolumnernas format, som inträffar om datumformatet ändras och som kan inträffa avsiktligt om du flyttar mellan Excel och/eller Google-blad. Tänk på att datumet bör vara MM-YY, så den 12 september och inte 12 september eller maj-12 och inte 05-12.
 
 ## Innan du börjar {#before-you-begin}
 
@@ -113,7 +113,7 @@ Om du arbetar i Google Sheets måste du hämta filen först. Undvik eller ta bor
 
 Gå till **[!UICONTROL Cost]** i [!DNL Marketo Measure] app och klicka på **[!UICONTROL Upload.CSV]**. Systemet uppdateras och den nya informationen visas.
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Varför visas siffror i CSV-filen?**
 

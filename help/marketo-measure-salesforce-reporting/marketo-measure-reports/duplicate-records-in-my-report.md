@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874634
-description: Duplicera poster i min rapport - [!DNL Marketo Measure] - Produktdokumentation
+description: Duplicera poster i min rapport - [!DNL Marketo Measure]
 title: Duplicera poster i min rapport
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men fortfarande se &quot;[!DNL Bizible]&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;[!DNL Bizible]&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 När du glider in i [!DNL Marketo Measure] Rapporter i [!DNL Salesforce]kan du börja hitta dubblettposter i dina rapporter. Du kommer antagligen att uppleva den här känslan när du granskar [!DNL Marketo Measure] färdiga rapporter.
 

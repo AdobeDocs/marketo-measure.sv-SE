@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874722
-description: Bästa metoder för testning - [!DNL Marketo Measure] - Produktdokumentation
+description: Bästa metoder för testning - [!DNL Marketo Measure]
 title: Bästa metoder för testning
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 1%
+source-wordcount: '181'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Du bör testa alla olika typer av formulär för att säkerställa att [!DNL Mar
 
    >[!TIP]
    >
-   >Ett bra tillvägagångssätt är att använda ett falskt e-postmeddelande som innehåller något som tyder på att det är ett test, liksom tidpunkten på dagen. Exempel: `testing830am@test.com`.
+   >Ett bra tillvägagångssätt är att använda ett falskt e-postmeddelande som innehåller något som tyder på att det är ett test, liksom tidpunkten på dagen. Till exempel: `testing830am@test.com`.
 
 1. Starta sökningen i en sökmotor (t.ex. `google.com`) eller navigera direkt till ett formulär.
 

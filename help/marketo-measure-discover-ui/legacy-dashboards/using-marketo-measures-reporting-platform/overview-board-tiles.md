@@ -1,12 +1,12 @@
 ---
 unique-page-id: 34406468
-description: Översikt över paneler - [!DNL Marketo Measure] - Produktdokumentation
+description: Översikt över paneler - [!DNL Marketo Measure]
 title: Översikt över paneler
 exl-id: 35180928-6b75-4271-9bb5-7617bc2f9c74
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---

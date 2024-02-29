@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874584
-description: "[!DNL Marketo Measure] Objekt- och fälttaxonomi - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Objekt- och fälttaxonomi - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Object and Field Taxonomy"
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ För fullskalebilden [klicka här](assets/bizible-object-and-field-taxonomy-grap
 
 Definitioner av [!DNL Marketo Measure] fält som finns i varje objekt [finns här](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Vilken är logiken i pilarna?**
 

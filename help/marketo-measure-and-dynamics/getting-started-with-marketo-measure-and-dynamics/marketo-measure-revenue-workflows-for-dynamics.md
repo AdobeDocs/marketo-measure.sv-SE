@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356132
-description: "[!DNL Marketo Measure] Intäktsarbetsflöden för Dynamics - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Intäktsarbetsflöden för Dynamics - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Intäktsarbetsflöden för Dynamics"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ Om öppna affärsmöjligheter inte har några data i fältet Faktiskt stängning
 1. Kunden måste ange API-namnet för det anpassade stängningsdatumet för att [!DNL Marketo Measure].
 1. [!DNL Marketo Measure] för att uppdatera [!DNL Marketo Measure] appinställningar som pekar på [!DNL Marketo Measure] Anpassat stängningsdatumfält på kontrollpanelen.
 
-   När ovanstående steg är slutförda måste vi köra arbetsflöden för att uppdatera både den anpassade [!DNL Marketo Measure] Opp-belopp och [!DNL Marketo Measure] Anpassat fält för stängningsdatum på dina historiska möjligheter för att spegla rätt data. Detta ändrar troligen de ändrade fälten på/av så att du vill fråga ditt team om det ger några problem.
+   När ovanstående steg är slutförda måste vi köra arbetsflöden för att uppdatera både den anpassade [!DNL Marketo Measure] Opp-belopp och [!DNL Marketo Measure] Anpassat fält för stängningsdatum på dina historiska möjligheter för att spegla rätt data. Detta ändrar troligen de ändrade fälten på/av så att du vill fråga ditt team om detta visar några problem.
 
 Så här uppdaterar du stängda affärsmöjligheter..
 
-1. Isolera affärsmöjligheter som har stängts sedan [!DNL Marketo Measure] startdatum tills arbetsflödet är aktivt. Det här är en grupp historiska möjligheter som du behöver uppdatera via arbetsflöde.
+1. Isolera affärsmöjligheter som har stängts sedan [!DNL Marketo Measure] startdatum tills arbetsflödet är aktivt. Detta är den grupp av historiska möjligheter som du behöver uppdatera via arbetsflöde.
 1. Exportera alla poster till Excel.
 1. Öppna Excel-fil, aktivera innehåll.
 1. Kopiera faktiska stängningsdatumdata till [!DNL Marketo Measure] Anpassat stängningsdatum.

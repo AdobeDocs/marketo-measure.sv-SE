@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874632
-description: Stängda förlorade affärsmöjligheter efter marknadsföringskanal - [!DNL Marketo Measure] - Produktdokumentation
+description: Stängda förlorade affärsmöjligheter efter marknadsföringskanal - [!DNL Marketo Measure]
 title: Stängda förlorade affärsmöjligheter efter marknadsföringskanal
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---

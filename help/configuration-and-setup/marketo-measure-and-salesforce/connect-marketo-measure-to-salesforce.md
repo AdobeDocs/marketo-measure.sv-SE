@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874580
-description: Anslut Marketo Measure till Salesforce - [!DNL Marketo Measure] - Produktdokumentation
+description: Anslut Marketo Measure till Salesforce - [!DNL Marketo Measure]
 title: Anslut Marketo Measure till Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ I den här artikeln finns en översikt över hur du ansluter [!DNL Salesforce] k
 
    ![](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. Ett popup-fönster visas där du uppmanas att välja CRM-anslutning. Klicka på **[!UICONTROL Connect]** knappen bredvid [!DNL Salesforce] logotyp.
+1. Ett popup-fönster visas där du uppmanas att välja CRM-anslutning. Klicka **[!UICONTROL Connect]** bredvid [!DNL Salesforce] logotyp.
 
    ![](assets/connect-marketo-measure-to-salesforce-3.png)
 
-1. Ett sista popup-fönster visas där du ombeds ange [!DNL Salesforce] autentiseringsuppgifter, sandlåda eller produktion. Ange dina uppgifter och klicka på **[!UICONTROL Authorize]** för att ansluta kontot till [!DNL Marketo Measure].
+1. Ett slutligt popup-fönster visas där du ombeds ange [!DNL Salesforce] autentiseringsuppgifter, sandlåda eller produktion. Ange dina uppgifter och klicka på **[!UICONTROL Authorize]** för att ansluta kontot till [!DNL Marketo Measure].
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Du kan nå den här gränsen i Marketo Measure via: **Mitt konto** > **Inställn
 
 1. Navigera till **Mitt konto** > **Inställningar**.
 
-1. Klicka på under CRM **Allmänt**. Du kommer att se **Gräns för CRM-API per dag** alternativ.
+1. Klicka på under CRM **Allmänt**. Du ser **Gräns för CRM-API per dag** alternativ.
 
 1. Klicka på låsikonen för att redigera.
 

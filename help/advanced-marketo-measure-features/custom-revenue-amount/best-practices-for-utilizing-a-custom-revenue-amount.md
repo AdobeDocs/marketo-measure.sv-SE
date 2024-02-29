@@ -1,18 +1,18 @@
 ---
-description: Bästa praxis för användning av ett anpassat intäktsbelopp - [!DNL Marketo Measure] - Produktdokumentation
+description: Bästa praxis för användning av ett anpassat intäktsbelopp - [!DNL Marketo Measure]
 title: Bästa metoder för att använda ett anpassat intäktsbelopp
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
 
 # Bästa metoder för att använda ett anpassat intäktsbelopp {#best-practices-for-utilizing-a-custom-revenue-amount}
 
-## Ökning {#overview}
+## Översikt {#overview}
 
 Kärnfunktionerna i [!DNL Marketo Measure] är möjligheten att tillföra intäktskrediter till marknadsföringskontaktytor under hela kundresan. Nyckeln till korrekt intäktsattribuering är möjligheten att [!DNL Marketo Measure] för att hänvisa till rätt intäktsbelopp för ett säljprojekt, som i sin tur fördelas över alla kontaktytor för marknadsföring via de olika attribueringsmodellerna.
 

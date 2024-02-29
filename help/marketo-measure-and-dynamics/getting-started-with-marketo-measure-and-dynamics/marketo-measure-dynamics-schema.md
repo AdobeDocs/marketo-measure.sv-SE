@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Dynamics-schema - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Dynamics-schema - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Dynamics-schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-Här nedan hittar du det Dynamics-schema som krävs för att komma igång med [!DNL Marketo Measure]. Alla entiteter och fält visas tillsammans med nödvändig läs- och/eller skrivåtkomst.
+Nedan hittar du det Dynamics-schema som krävs för att komma igång med [!DNL Marketo Measure]. Alla entiteter och fält visas tillsammans med nödvändig läs- och/eller skrivåtkomst.
 
 ## Kontaktpunkter för köpare {#buyer-touchpoints}
 
@@ -931,7 +931,7 @@ Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Mea
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>emailaddress1</p></td> 
+   <td><p>e-postadress1</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1016,7 +1016,7 @@ Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Mea
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>emailaddress1</p></td> 
+   <td><p>e-postadress1</p></td> 
    <td><p>Standard</p></td> 
    <td><p>x</p></td> 
    <td> </td> 

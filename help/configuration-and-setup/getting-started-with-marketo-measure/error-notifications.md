@@ -1,10 +1,10 @@
 ---
-description: Felmeddelanden - [!DNL Marketo Measure] - Produktdokumentation
+description: Felmeddelanden - [!DNL Marketo Measure]
 title: Felmeddelanden
 feature: Fundamentals
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Nedan visas en lista med fel som du kan få via meddelanden i appen eller e-post
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Ett fel uppstod vid Adobe Analytics-export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Fel: Överföring tillåts inte. Bekräfta datakällans schema innan överföring. Datakällans ID:1234</td>
+      <td>Ett fel uppstod vid Adobe Analytics-export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Fel: Överföring tillåts inte. Bekräfta datakällans schema före överföring. Datakällans ID:1234</td>
       <td>Adobe Analytics-integreringen är inte korrekt konfigurerad.</td>
       <td>Se följande hjälpartiklar för att säkerställa korrekt konfiguration:
         <ul>
@@ -139,7 +139,7 @@ Nedan visas en lista med fel som du kan få via meddelanden i appen eller e-post
     </tr>
     <tr>
       <td>UNSUPPORTED_CRM_PACKAGE_VERSION</td>
-      <td>Ett fel uppstod vid CRM-import: UNSUPPORTED_CRM_PACKAGE_VERSION : Uppdatera CRM-paketet</td>
+      <td>Ett fel uppstod vid CRM-import: UNSUPPORTED_CRM_PACKAGE_VERSION : Uppdatera crm-paketet</td>
       <td>Det aktuella paketet som identifierats stöds inte längre.</td>
       <td>Uppgradera ditt paket till den senaste versionen:
         <ul>

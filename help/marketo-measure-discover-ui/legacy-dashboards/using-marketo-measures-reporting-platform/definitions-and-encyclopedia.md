@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874662
-description: Definitioner och uppslagsverk - [!DNL Marketo Measure] - Produktdokumentation
+description: Definitioner och uppslagsverk - [!DNL Marketo Measure]
 title: Definitioner och uppslagsverk
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '6083'
+source-wordcount: '6137'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Kategorier
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
-**Översikt**
+**Ökning**
 
 `2.` I listrutan Metrisk på menyn Filter visar det här diagrammet intäkter/pipelineintäkter/utgifter/erbjudanden/möjligheter/leads/kontakter som tilldelats varje kanal, som visas över tid.
 
@@ -511,7 +511,7 @@ Det totala antalet formulär som skickats in för alla kända och anonyma besök
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
-**Översikt**
+**Ökning**
 
 I listrutan Metrisk på filtermenyn visar det här diagrammet intäkter/intäkter/kostnader/erbjudanden/möjligheter/leads/kontakter/klipp/besök/unika besök/sidvisningar/formulär som tilldelats varje dimension, som visas över tid. Dimensioner kan ändras från Ingen till Kanal/Underkanal/Kampanj/Konto/Advertiser/Annons/Creative/Annonsgrupp/Nyckelord/Placering/Plats.
 
@@ -571,7 +571,7 @@ Kategorier
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
-**Översikt**
+**Ökning**
 
 `2.` I listrutan Metrisk på menyn Filter visar det här diagrammet intäkter/pipelineintäkter/utgifter/erbjudanden/möjligheter/leads/kontakter som tilldelats varje kanal, som visas över tid.
 
@@ -667,7 +667,7 @@ Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en
 
 Klicka för att visa detaljer och fördjupa dig i data genom att visa dem som en visualisering och tabell.
 
-**Översikt**
+**Ökning**
 
 `5.` I listrutan Metrisk på filtermenyn visar det här diagrammet intäkter/intäkter/kostnader/erbjudanden/möjligheter/leads/kontakter/besök/unika besök/visningar/klick/formulär över tid.
 

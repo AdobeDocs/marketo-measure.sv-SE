@@ -2,7 +2,7 @@
 description: Snabbkontrollpanel för affärsmöjligheter - [!DNL Marketo Measure] - Produkt
 title: Kontrollpanel för snabbhet i affärsmöjlighet
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Frågor om diagramsvaren:
 
 Diagrammet över tidsserierader visar den genomsnittliga tiden, i dagar, för affärstillfällen som spenderats vid varje försäljningsfas under den angivna tidsramen.
 
-* Utnyttja detaljfunktionerna för att kategorisera data per månad, kvartal eller år.
+* använda detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
 * Hovra över en linje för att visa detaljerad information.
 
 Frågor om diagramsvaren:

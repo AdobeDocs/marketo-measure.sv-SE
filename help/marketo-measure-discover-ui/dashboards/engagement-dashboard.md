@@ -2,7 +2,7 @@
 description: Instrumentpanel för engagemang - [!DNL Marketo Measure] - Produkt
 title: Instrumentpanel för engagemang
 feature: Reporting
-source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Frågor som kontrollpanelen besvarar:
 
 I tidsseriediagrammet visas antalet kontaktytor, kontaktpunkter och kontaktytor per person för varje månad, kvartal och år.
 
-* Utnyttja detaljfunktionerna för att kategorisera data per månad, kvartal eller år.
+* använda detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
 * Hovra över en stapel eller linje för att visa detaljerad information.
 
 Frågor om diagramsvaren:
@@ -50,7 +50,7 @@ Frågor om diagramsvaren:
 
 Stolpdiagram som visar kontaktytor eller personer som berörts segmenterade efter kanal/underkanal/kampanj.
 
-* Utnyttja detaljfunktionerna för att kategorisera data efter Subchannel och Campaign.
+* använda detaljfunktionerna för att kategorisera data efter Subchannel och Campaign.
 * Håll pekaren över varje fält för att visa kontaktytorna eller personer som berörts.
 
 Frågor om diagramsvaren:

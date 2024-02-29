@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Salesforce] Paketkonsolidering - [!DNL Marketo Measure] - Produktdokumentation'
+description: '[!DNL Salesforce] Paketkonsolidering - [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] Paketkonsolidering'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
 # [!DNL Salesforce] Paketkonsolidering {#salesforce-package-consolidation}
 
-Vi är glada över att kunna meddela kommande ändringar av Marketo Measure Salesforce-paketen. För att förbättra användarupplevelsen och förenkla användningen konsoliderar vi alla befintliga paket till ett enda heltäckande paket.
+För att förbättra användarupplevelsen och förenkla användningen sammanställs befintliga paket till ett enda heltäckande paket.
 
 ## Paketpensionering {#package-retirement}
 
@@ -22,19 +22,19 @@ Som en följd av denna konsolidering kommer det aktuella paketet V1, V2_EXT, V2_
 
 Det nya konsoliderade V2-paketet innehåller alla funktioner och funktioner som fanns i de tidigare paketen, vilket ger en bättre användarupplevelse. Det uppdaterade paketet ger effektivare spårning av marknadsförings- och försäljningsprestanda och ger djupare insikter om kundbeteenden.
 
-Vi har lagt till två nya fält för att förbättra dina rapporteringsfunktioner:
+Det finns två nya fält som förbättrar dina rapporteringsfunktioner:
 
 * form_name: Detta fält är nu tillgängligt i BT/BAT-objekt och gör att användare kan skapa rapporter baserade på formulärnamn.
 * user_touchpoint_id: Det här fältet gör att användare kan skapa rapporter med unika kontaktpunkter (`bizible2__User_Touchpoint_V2__c` i Salesforce).
 
 ## Support och övergångar {#support-and-transition}
 
-Vi är medvetna om att denna förändring kan kräva justeringar, och vi strävar efter att stödja dig under hela processen. Våra [supportteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} är lätt tillgängliga för att svara på eventuella frågor och bidra till en smidig övergång till det nya konsoliderade paketet.
+The [supportteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} kan besvara alla frågor och bidra till en smidig övergång till det nya konsoliderade paketet.
 
 ## Nödvändiga åtgärder {#retired-actions}
 
 * Om du redan har installerat V2-paketet måste du uppdatera det till den nya konsoliderade versionen.
-* Om du har rapporter eller kontrollpaneler från ett Rapporteringspaket kan du enkelt återskapa dem utan några ändringar, eftersom alla fält som används finns i det konsoliderade paketet.
+* Om du har rapporter eller kontrollpaneler från ett Rapporteringspaket kan du enkelt återskapa dem utan några ändringar, eftersom alla fält finns i det konsoliderade paketet.
 * Om du har rapporter med hjälp av fält i V2_EXT-paketet kan du återskapa dem i det konsoliderade paketet genom att följa stegen nedan:
    * Alla data i V2_EXT-fälten är tillgängliga i Touchpoint-fält, så du kan ändra dina rapporter och hämta data från motsvarande V2-kontaktpunktsfält genom att lägga till ett filter på pekpunktspositionen.
    * Exempelrapport som hämtar alla leads med Ad Content FT som innehåller texten&quot;Outreach&quot;.
@@ -53,7 +53,7 @@ Vi är medvetna om att denna förändring kan kräva justeringar, och vi sträva
 
 **Kommer det konsoliderade paketet att innehålla konflikter med fält i mitt befintliga paket?**
 
-Du behöver inte avinstallera paketet innan du installerar det konsoliderade paketet. Det finns inga konflikter i fält eftersom de kommer att finnas i ett annat namnutrymme.
+Du behöver inte avinstallera paketet innan du installerar det konsoliderade paketet. Det finns inga konflikter i fält eftersom de finns i ett annat namnutrymme.
 
 **Hur kan jag fylla i data från mina aktuella paket baklänges?**
 
@@ -61,8 +61,8 @@ Du kan registrera en biljett [med support](https://nation.marketo.com/t5/support
 
 **Kommer fälten i V1- och V2_EXT-paketen att vara tillgängliga i det konsoliderade paketet?**
 
-Ja. Det konsoliderade paketet innehåller samma fält i V1 med ytterligare indelningar efter objekt och V2_EXT-fält via Touchpoint-fält.
+Ja. Det konsoliderade paketet innehåller samma fält i V1 med ytterligare uppdelning efter objekt och V2_EXT-fält via Touchpoint-fält.
 
 **Kan rapporter som använder V2_EXT-fält återskapas i det konsoliderade paketet?**
 
-Ja. Följ stegen i [Nödvändiga åtgärder](#retired-actions) ovan.
+Ja. Följ stegen i [Nödvändiga åtgärder](#retired-actions) -avsnitt.

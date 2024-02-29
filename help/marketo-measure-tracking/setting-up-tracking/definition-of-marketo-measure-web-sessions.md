@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874564
-description: Definition av [!DNL Marketo Measure] Webbsessioner - [!DNL Marketo Measure] - Produktdokumentation
+description: Definition av [!DNL Marketo Measure] Webbsessioner - [!DNL Marketo Measure]
 title: Definition av [!DNL Marketo Measure] Webbsessioner
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---

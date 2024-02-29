@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874741
-description: IFrame Forms och [!DNL Marketo Measure] - [!DNL Marketo Measure] - Produktdokumentation
+description: IFrame Forms och [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: IFrame Forms och [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -23,4 +23,4 @@ Vi rekommenderar att du placerar JavaScript i huvudet på IFrame och därifrån 
 
 ![](assets/1-1.png)
 
-Om du har några frågor om hur du lägger till JavaScript i IFrame-formulär kan du kontakta kontoteamet (din kontohanterare) för Adobe eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Om du har några frågor om hur du lägger till JavaScript i IFrame-formulär kan du kontakta kontoteamet (din Account Manager) på Adobe eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

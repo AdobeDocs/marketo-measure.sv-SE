@@ -1,10 +1,10 @@
 ---
 unique-page-id: 35586080
-description: LinkedIn Integration - [!DNL Marketo Measure] - Produktdokumentation
+description: LinkedIn Integration - [!DNL Marketo Measure]
 title: LinkedIn Integration
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
 source-wordcount: '2644'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Före [!DNL Marketo Measure] och LinkedIn Lead Gen Forms Integration fanns, var 
 
 ## Kontaktpunktsinformation {#touchpoint-details}
 
-En gång [!DNL Marketo Measure] har taggat din landningssida på LinkedIn Creative Cloud så kan du visa lösta annonser på kontaktytan. Här är mappningen av datavärden som du kan förvänta dig att se:
+Efter [!DNL Marketo Measure] har taggat din landningssida på LinkedIn Creative Cloud så att du kan visa lösta annonser på kontaktytan. Här är mappningen av datavärden som du kan förvänta dig att se:
 
 <table> 
  <colgroup> 
@@ -322,13 +322,13 @@ Båda. The [!DNL Marketo Measure] integreringen gör att vi kan tagga mål-URL:e
 
 ![](assets/five.png)
 
-**Jag har kopplat samman min [!DNL LinkedIn ads] konto. Varför är det inte? [!DNL Marketo Measure] taggar jag mina länkar?**
+**Jag har kopplat samman min [!DNL LinkedIn ads] konto. Varför är det inte [!DNL Marketo Measure] taggar jag mina länkar?**
 
 Den anslutna [!DNL LinkedIn] användaren måste ha rätt redigeringsåtkomst, vilket innebär att användaren måste vara kontohanterare, kampanjhanterare eller Creative Manager.
 
 **Hur vet jag om min kreativitet kommer att kopieras? Kan jag se om mina kreatörer använder samma resurs?**
 
-Resurs-ID anges inte i en [!DNL LinkedIn] så det finns inget tydligt och tydligt sätt att söka efter kreativa till-dela-mappningar. Om du misstänker att en person kan vara en kopia kan du kontrollera manuellt genom att öppna annonsen inifrån [!DNL LinkedIn] Kampanjhanteraren - annonsen öppnas på en ny flik och du hittar resurs-ID:t i URL:en.
+Resurs-ID anges inte i en [!DNL LinkedIn] så det inte finns något tydligt och uppenbart sätt att söka efter mappningar från creative till share. Om du misstänker att en person kan vara en kopia kan du kontrollera manuellt genom att öppna annonsen inifrån [!DNL LinkedIn] Kampanjhanteraren - annonsen öppnas på en ny flik och du hittar resurs-ID:t i URL:en.
 
 ![](assets/six.png)
 

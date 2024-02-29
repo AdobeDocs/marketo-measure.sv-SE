@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874797
-description: Lägger till [!DNL Marketo Measure] Skript via [!DNL Google Tag Manager] - [!DNL Marketo Measure] - Produktdokumentation
+description: Lägger till [!DNL Marketo Measure] Skript via [!DNL Google Tag Manager] - [!DNL Marketo Measure]
 title: Lägger till [!DNL Marketo Measure] Skript via [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 # Lägger till [!DNL Marketo Measure] Skript via [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 
-När du installerar [!DNL Marketo Measure] javascript, vi rekommenderar starkt [hårdkoda skriptet](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} direkt in på webbplatsen. Om det inte är möjligt kan du även använda [!DNL Google Tag Manager] (GTM) för att läsa in [!DNL Marketo Measure] JS. Observera att [!DNL Marketo Measure] JS som läses in via GTM är känsligt för fördröjning. Latens orsakar en fördröjning av skriptinläsningstiden, vilket kan leda till att cirka 3-5 % av alla formulärinskickade formulär saknas.
+När du installerar [!DNL Marketo Measure] javascript, vi rekommenderar starkt [hårdkoda skriptet](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} direkt in på webbplatsen. Om detta inte är möjligt kan du även använda [!DNL Google Tag Manager] (GTM) för att läsa in [!DNL Marketo Measure] JS. Observera att [!DNL Marketo Measure] JS som läses in via GTM är känsligt för fördröjning. Latens orsakar en fördröjning av skriptinläsningstiden, vilket kan leda till att cirka 3-5 % av alla formulärinskickade formulär saknas.
 
-Om du lägger till vårt skript via GTM, vänligen ange [!DNL Marketo Measure] skript med högsta prioritet i din startordning och se till att det inte finns några synkrona skript framför [!DNL Marketo Measure] för att minska eventuella effekter från GTM-fördröjning.
+Om du bestämmer dig för att lägga till vårt skript via GTM anger du [!DNL Marketo Measure] skript med högsta prioritet i din startordning och se till att det inte finns några synkrona skript framför [!DNL Marketo Measure] för att minska eventuella effekter från GTM-fördröjning.
 
 >[!NOTE]
 >

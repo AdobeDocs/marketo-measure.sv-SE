@@ -1,11 +1,11 @@
 ---
-description: Sekretessförfrågningar - [!DNL Marketo Measure] - Produktdokumentation
+description: Sekretessförfrågningar - [!DNL Marketo Measure]
 title: Sekretessförfrågningar
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---

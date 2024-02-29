@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874612
-description: Stock-rapporter och instrumentpaneler i Dynamics - [!DNL Marketo Measure] - Produktdokumentation
+description: Stock-rapporter och instrumentpaneler i Dynamics - [!DNL Marketo Measure]
 title: Stock-rapporter och instrumentpaneler i Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 The [!DNL Marketo Measure] Hanterad lösning levereras med ett antal kontrollpaneler och rapporter som utformats för att täcka dina grundläggande behov när du tittar [!DNL Marketo Measure] data i Dynamics. Nedan finns den fullständiga listan och några vanliga användningsexempel.
 

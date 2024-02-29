@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874604
-description: Anpassad segmentering - [!DNL Marketo Measure] - Produktdokumentation
+description: Anpassad segmentering - [!DNL Marketo Measure]
 title: Anpassad segmentering
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Segment ger möjlighet att filtrera data i [!DNL Marketo Measure] Instrumentpane
 
 **Varför anpassad segmentering?**
 
-Med anpassad segmentering kan du filtrera Touchpoints efter kategorier (filternamn) och regler (filtervärden). Tier 1-kunder får ett segment, nivå 2 och upp, och får tio. Beroende på vilket objekt ditt ROI-tankstreck pekar på (Lead eller Kontakt) kan du skapa segment baserat på fälten som finns i lead-/kontaktobjektet. Du kan också skapa segment baserat på de fält som finns i objektet säljprojekt.
+Med anpassad segmentering kan du filtrera Touchpoints efter kategorier (filternamn) och regler (filtervärden). Tier 1-kunder får ett segment, nivå 2 och upp, och får tio. Beroende på vilket objekt ditt ROI-tankstreck pekar på (Lead eller Kontakt) kan du skapa segment baserat på fälten som finns i lead-/kontaktobjektet. Du kan också skapa segment baserat på fält som hittas i objektet säljprojekt.
 
 **När är funktionen för anpassad segmentering användbar?**
 
@@ -61,7 +61,7 @@ Steg 4 - Lägg till filterregler.
 * Upprepa den här processen för segmentreglerna för affärsmöjligheter
 * Kategorin Annan är ett standardsegment som fångar alla odefinierade kontaktpunkter. Du kan ändra standardsegmentets namn
 * Klicka på papperskorgsikonen om du vill ta bort en hel kategori eller en enskild regel i en kategori. Du kan också klicka på pennikonen för att redigera kategorin eller regeln
-* Du kommer att märka att du har en[!UICONTROL Save]&quot; och knappen &quot;Spara och bearbeta&quot;. Använd knappen Spara för att spara ditt arbete och dina ändringar över tid. Använd BARA knappen Spara och bearbeta när du har kontrollerat att:
+* Observera att du har en[!UICONTROL Save]&quot; och knappen &quot;Spara och bearbeta&quot;. Använd knappen Spara för att spara ditt arbete och dina ändringar över tid. Använd BARA knappen Spara och bearbeta när du har kontrollerat att:
 
    * Mappningen är korrekt
    * Du har lagt till alla segment som du vill spåra inom en kategori

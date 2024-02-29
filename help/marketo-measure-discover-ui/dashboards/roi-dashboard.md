@@ -3,7 +3,7 @@ description: ROI Dashboard - [!DNL Marketo Measure] - Produkt
 title: Kontrollpanel för avkastning
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Avkastningsoptimeringen ger marknadsförarna en detaljerad bild av avkastningen 
 
 Stapeldiagram visar kostnader och intäkter, som är utformade för att ge ett komparativt perspektiv på deras storlek i förhållande till olika kanaler, delkanaler och kampanjer.
 
-* Utnyttja detaljfunktionerna för att kategorisera data efter Subchannel och Campaign.
+* använda detaljfunktionerna för att kategorisera data efter Subchannel och Campaign.
 * Håll pekaren över varje fält för att visa enkel och realiserad avkastning på investerat kapital.
 
 **Frågor och svar**
@@ -72,7 +72,7 @@ Diagram över tidsserielinje som visar jämförelsen mellan Realiserad och Enkel
 
 Staplat stapeldiagram med totala kostnader, segmenterade efter associerade kanaler för varje månad/kvartal/år.
 
-* Utnyttja detaljfunktionerna för att kategorisera data per månad, kvartal eller år.
+* använda detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
 * Håll pekaren över ett stolpsegment eller mellanrummet mellan stolparna för att visa detaljerad information.
 
 **Frågor och svar**
@@ -86,7 +86,7 @@ Staplat stapeldiagram med totala kostnader, segmenterade efter associerade kanal
 
 Stapeldiagram som visar marknadsföringsutgifter segmenterade efter kanal/underkanal/kampanj.
 
-* Utnyttja detaljfunktionerna för att kategorisera data per kanal/delkanal/kampanj.
+* använda detaljfunktionerna för att kategorisera data efter kanal/delkanal/kampanj.
 
 **Frågor och svar**
 

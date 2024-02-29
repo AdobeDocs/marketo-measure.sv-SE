@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Fält i Standard [!DNL Salesforce] Objekt - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Fält i Standard [!DNL Salesforce] Objekt - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Fält i Standard [!DNL Salesforce] Objekt"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 Läs om de olika [!DNL Marketo Measure] fält som lagts till i [!DNL Salesforce] standardobjekt.
 
@@ -67,11 +67,11 @@ Uppdatera [!DNL Marketo Measure] Attribution (Validation Rule): Den här regeln 
 
 Det finns fem fält och en Apex-utlösare har lagts till i paketet.
 
-Touchpoint-status (Lead): Detta är ett diagnostiskt fält som är relaterat till en funktion som inte är påslagen. Vi använder det här för att förstå om en kontaktpunkt skapades mot den relaterade lead-posten eller, om inte, varför.
+Touchpoint Status (Lead): Detta är ett diagnostiskt fält som relaterar till en funktion som inte är aktiverad utanför rutan. Vi använder det här för att förstå om en kontaktpunkt skapades mot den relaterade lead-posten eller, om inte, varför.
 
-Kontaktpunktsstatus (kontakt): Detta är ett diagnostiskt fält som är relaterat till en funktion som inte är påslagen. Vi använder det här för att förstå om en kontaktpunkt skapades mot den relaterade kontaktposten eller, om inte, varför.
+Kontaktpunktsstatus (kontakt): Det här är ett diagnostiskt fält som relaterar till en funktion som inte är påslagen. Vi använder det här för att förstå om en kontaktpunkt skapades mot den relaterade kontaktposten eller, om inte, varför.
 
-Touchpoint-status (säljprojekt): Detta är ett diagnostiskt fält som är relaterat till en funktion som inte är aktiverad. Vi använder det här för att förstå om en slutpunkt skapades mot den relaterade säljprojektsposten eller, om inte, varför.
+Touchpoint-status (säljprojekt): Det här är ett diagnostiskt fält som relaterar till en funktion som inte är aktiverad utanför rutan. Vi använder det här för att förstå om en slutpunkt skapades mot den relaterade säljprojektsposten eller, om inte, varför.
 
 Statusdatum för kontaktpunkt: Detta är det datum då diagnosfälten fylldes i.
 

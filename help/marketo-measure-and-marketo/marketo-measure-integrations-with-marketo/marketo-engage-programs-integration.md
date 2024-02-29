@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] Programintegrering - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Engage] Programintegrering - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Programintegrering"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Alla lager.
 
    ![](assets/two.png)
 
-1. Du kan också ange ett namn för regeln om det gör det lättare att hålla reda på dem. Först markerar du fältet för att definiera regeln i listan över fält för program- och programmedlemskap. Fortsätt att skapa regeln genom att markera operatorn och det förväntade värdet som ska kontrolleras.
+1. Du kan också ange ett namn för regeln om det gör det lättare att hålla reda på dem. först markerar du fältet för att definiera regeln i listan över fält för program- och programmedlemskap. Fortsätt att skapa regeln genom att markera operatorn och det förväntade värdet som ska kontrolleras.
 
    ![](assets/three.png)
 
@@ -85,7 +85,7 @@ I listan över Marketo-programkanaler vill du mappa värdena till [!DNL Marketo 
 
 1. Börja med att navigera till **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Offline Channels]**.
 
-1. Överst har du möjlighet att mappa till dina CRM-kampanjtyper. Nedan visas alternativen för Marketo-programkanalerna.
+1. Överst har du möjlighet att mappa till dina CRM-kampanjtyper. Nedan visas alternativen för dina Marketo-programkanaler.
 
 1. Markera först den kanal som ska mappas till värdet och välj sedan delkanalen om du vill. När du är klar klickar du **[!UICONTROL Save]** längst ned.
 
@@ -139,7 +139,7 @@ Genom dataimporten av Marketo-program laddas kostnaderna automatiskt ned från P
 
 ## Cookie-mappning {#cookie-mapping}
 
-Som ett resultat av [!DNL Marketo Measure] integrering med Marketo, [!DNL Marketo Measure] Cookie-ID har nu också mappats och synkroniserats med [!DNL Marketo Munchkin Id]. Detta gör att luckan stängs så att den anonyma första beröringen kan kopplas till en webbsession i stället för att både FT- och LC-beröringen tilldelas en Marketo-aktivitet. Tänk dig detta scenario:
+Som ett resultat av [!DNL Marketo Measure] integrering med Marketo, [!DNL Marketo Measure] Cookie-ID har nu också mappats och synkroniserats med [!DNL Marketo Munchkin Id]. Detta gör att luckan stängs så att den anonyma första beröringen kan kopplas till en webbsession i stället för att både FT- och LC-beröringen kan kopplas till en Marketo-aktivitet. Tänk dig detta scenario:
 
 Markera klickar på en [!DNL Facebook] och får plats på wayneenterprises.com där han eller hon kan komma till [!DNL Marketo Measure] ID 123 och [!DNL Marketo Munchkin Id] 456. Ingen formulärifyllning sker.
 
@@ -157,7 +157,7 @@ Tack vare den här förbättringen av cookie-mappningen går FT tillbaka och få
 >
 >Med funktionen för cookie-mappning kan du hitta några LC-kontaktytor som kommer från ett webbbesök. Det är möjligt att ett lead visades i Marketo utan någon tillhörande aktivitet, och sedan [!DNL Marketo Measure] ladda ned leadet, matchade de associerade cookies och spårade det sedan till den senaste webbsessionen, även om det inte fanns någon formuläraktivitet som skapade leadet.
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Hur anger jag att slutpunktsdatumet ska vara progressionsdatumet eller datumet då statusändringen inträffade för min programmedlem?**
 
@@ -169,7 +169,7 @@ Starta den automatiska kompletteringen genom att ange en klammerparentes `{` i t
 
 **Om jag skapar Marketo-programregler och även har CRM Campaign-regler, kommer de då att räknas två gånger?**
 
-Det beror på din regeldefinition, men möjligen, ja. Du bör utvärdera din regeluppsättning så att du inte har regler som omfattar ett program och en kampanj eftersom vi inte kommer att avduplicera eller upptäcka om du har liknande medlemskap. En möjlig lösning är att kopiera över Campaign-reglerna till Program om ni vill att Marketo ska vara den enda källan till sanning och sedan ta bort Campaign-reglerna. Ett annat alternativ är att lägga till ett&quot;CreatedOn&quot;- eller&quot;CreatedDate&quot;-villkor i reglerna, så att regler före ett visst datum kommer att använda kampanjregler och kampanjregler efter ett visst datum. Det finns många provisoriska lösningar, men det kommer att kräva viss planering och samordning.
+Det beror på din regeldefinition, men möjligen, ja. du vill utvärdera din regeluppsättning så att du inte har regler som omfattar ett program och en kampanj eftersom vi inte kommer att avduplicera eller upptäcka om du har liknande medlemskap. En möjlig lösning är att kopiera över Campaign-reglerna till Program om ni vill att Marketo ska vara den enda källan till sanning och sedan ta bort Campaign-reglerna. Ett annat alternativ är att lägga till ett&quot;CreatedOn&quot;- eller&quot;CreatedDate&quot;-villkor i reglerna, så att regler före ett visst datum kommer att använda kampanjregler och kampanjregler efter ett visst datum. Det finns många provisoriska lösningar, men det kommer att kräva viss planering och samordning.
 
 **Kan anpassade fält för Marketo-medlemskap definieras?**
 

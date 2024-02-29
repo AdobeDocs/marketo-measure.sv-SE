@@ -1,25 +1,25 @@
 ---
 unique-page-id: 18874785
-description: Döljer onödiga rapporttyper - [!DNL Marketo Measure] - Produktdokumentation
+description: Döljer onödiga rapporttyper - [!DNL Marketo Measure]
 title: Döljer onödiga rapporttyper
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
 
 # Döljer onödiga rapporttyper {#hiding-unnecessary-report-types}
 
-När du har slutfört installationen och börjat använda rapporter är det ofta så att inte varje rapport [!DNL Marketo Measure] paketet kommer att användas av din organisation. Därför är det bra att dölja rapporttyper som du inte använder för att undvika förvirring och ge ett renare utseende. Du kan dölja alla rapporter du vill, men de rapporter som identifieras i bilden nedan är vanligtvis dolda.
+När du har slutfört installationen och börjat använda rapporter är det inte varje rapport i [!DNL Marketo Measure] paketet kommer att användas av din organisation. Därför är det bra att dölja rapporttyper som du inte använder för att undvika förvirring och ge ett renare utseende. Du kan dölja alla rapporter du vill, men de rapporter som identifieras i bilden nedan är vanligtvis dolda.
 
 1. Navigera till fliken **[!UICONTROL Reports]**.
 
 1. Klicka på **[!UICONTROL Create New Report]** längst upp på skärmen.
 
-1. Skriv in ordet&quot;Touchpoint&quot; för att fylla i alla rapporter.
+1. Skriv in ordet&quot;Touchpoint&quot; för att fylla i rapporterna.
 
 1. Välj **[!UICONTROL Select Report Types to Hide]** längst upp till vänster.
 
@@ -29,4 +29,4 @@ När du har slutfört installationen och börjat använda rapporter är det ofta
 
 >[!MORELIKETHIS]
 >
->[Salesforce - Dölj oanvända rapporttyper](https://releasenotes.docs.salesforce.com/en-us/spring14/release-notes/rn_analytics_hide_report_types.htm)
+>[Salesforce - Dölj oanvända rapporttyper](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&amp;type=5&amp;language=en_us)

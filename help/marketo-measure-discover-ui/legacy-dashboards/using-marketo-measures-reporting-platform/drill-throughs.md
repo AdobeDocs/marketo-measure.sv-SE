@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874664
-description: Granska genomskärningar - [!DNL Marketo Measure] - Produktdokumentation
+description: Granska genomskärningar - [!DNL Marketo Measure]
 title: Granska genomskärningar
 exl-id: c9ce5a51-e8f9-40ff-aa10-6b059e4998d3
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '3849'
+source-wordcount: '3847'
 ht-degree: 0%
 
 ---

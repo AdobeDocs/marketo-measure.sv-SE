@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874688
-description: CRM-kampanjkostnader - [!DNL Marketo Measure] - Produktdokumentation
+description: CRM-kampanjkostnader - [!DNL Marketo Measure]
 title: CRM-kampanjkostnader
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Detta kan vara användbart för att spåra utgifter för större marknadsföring
 
 ## Marketo Program Sync {#marketo-program-sync}
 
-Om du tar in Marketo-program i CRM som kampanjer måste du se till att du har startdatum, slutdatum och periodkostnadsmappning inställda på de CRM-fält som krävs. Eftersom det inte finns någon mappning till fältet Enable Buyer Touchpoints (Aktivera kontaktytor för köpare) måste ni ändå aktivera dessa kampanjer så att vi vet att vi kan dra in kostnaderna för dem.
+Om du infogar Marketo-program i CRM som kampanjer måste du se till att du har startdatum, slutdatum och periodkostnadsmappning inställda på de CRM-fält som krävs. Eftersom det inte finns någon mappning till fältet Enable Buyer Touchpoints (Aktivera kontaktytor för köpare) måste ni ändå aktivera dessa kampanjer så att vi vet att vi kan dra in kostnaderna för dem.
 
 ## Redigera kostnaderna {#editing-the-costs}
 
@@ -67,7 +67,7 @@ När en kampanj har importerats från CRM behandlas den som en API Ads Provider 
 
 Alla ändringar av kostnaderna eller distributionen måste göras i CRM så att vi kan peka på en enda sanning.
 
-## Vanliga frågor {#faq}
+## Vanliga frågor och svar {#faq}
 
 **Jag har gjort en ändring i min kampanj - när ska jag förvänta mig att se ändringarna i tabellen för Marketing Spend eller i min rapportering?**
 
@@ -75,7 +75,7 @@ Alla ändringar av kostnaderna eller distributionen måste göras i CRM så att 
 
 **Jag har fyllt i startdatum, slutdatum och kostnad, men varför visas inte mina kostnader i [!DNL Marketo Measure]?**
 
-Kontrollera att du antingen har angett Enable Buyer Touchpoint-värdet Inkludera alla kampanjmedlemmar, eller åtminstone Inkludera kampanjmedlemmar med svar, eller att du har skapat en anpassad kampanjsynkroniseringsregel som inkluderar den här kampanjen. Om du har bekräftat detta och fortfarande inte ser kampanjen, ber vi dig kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} så att vi kan kontrollera att era kampanjer importeras på rätt sätt.
+Kontrollera att du antingen har angett Enable Buyer Touchpoint-värdet Inkludera alla kampanjmedlemmar, eller åtminstone Inkludera responderade kampanjmedlemmar, eller att du har skapat en anpassad kampanjsynkroniseringsregel som inkluderar den här kampanjen. Om du har bekräftat detta och fortfarande inte ser Campaign kan du kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} så att vi kan kontrollera att era kampanjer importeras på rätt sätt.
 
 **Jag måste ändra distributionen av min kampanj så att jag kan väga den tyngre under vissa månader. Hur ska jag göra det?**
 

@@ -1,30 +1,30 @@
 ---
-description: Bästa praxis för onlinekanaler - [!DNL Marketo Measure] - Produktdokumentation
+description: Bästa praxis för onlinekanaler - [!DNL Marketo Measure]
 title: Bästa praxis för onlinekanaler
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
 
 # Bästa praxis för onlinekanaler {#best-practices-for-online-channels}
 
-## Ökning {#overview}
+## Översikt {#overview}
 
-Att ha korrekta [!DNL Marketo Measure] rapporter måste era marknadsföringskanaler vara korrekt konfigurerade. Marknadsföringskanalfältet visar den grupp av marknadsföringsaktiviteter på högsta nivå som en kontaktyta kan tillhöra (t.ex. betalsökning, direkt, socialt osv.).
+Att ha korrekta [!DNL Marketo Measure] måste era marknadsföringskanaler vara korrekt konfigurerade. Marknadsföringskanalfältet visar den grupp av marknadsföringsaktiviteter på högsta nivå som en kontaktyta kan tillhöra (till exempel Betald sökning, Direkt, Social och så vidare).
 
 Det finns två aspekter av att konfigurera era marknadsföringskanaler: online och offline. Det här dokumentet fokuserar på [!DNL Marketo Measure] rekommendationer för hur du konfigurerar och underhåller onlinekanaler.
 
-Reglerna för onlinekanaler är riktlinjer för hur [!DNL Marketo Measure] mappar dina digitala kontaktytor, dvs. alla kontaktytor som spåras och skapas via [!DNL Marketo Measure] JS på er webbplats. Om dessa regler inte är heltäckande, eller inte är korrekt ordnade, kan kontaktytor tillskrivas den felaktiga kanalen, vilket minskar rapporteringsnoggrannheten. Se till att era regler för onlinekanaler är korrekta och aktuella och garanterar att era digitala data tilldelas rätt kanal och underkanaler i era [!DNL Marketo Measure] Rapportering.
+Reglerna för onlinekanaler är riktlinjer för hur [!DNL Marketo Measure] mappar era digitala kontaktytor, det vill säga alla kontaktytor som spåras och skapas via [!DNL Marketo Measure] JS på er webbplats. Om dessa regler inte är heltäckande, eller inte är korrekt ordnade, kan kontaktytor tillskrivas den felaktiga kanalen, vilket minskar rapporteringsnoggrannheten. Se till att era regler för onlinekanaler är korrekta och aktuella och garanterar att era digitala data tilldelas rätt kanal och underkanaler i era [!DNL Marketo Measure] Rapportering.
 
 ## Bästa praxis {#best-practice}
 
 Oavsett om du konfigurerar reglerna för första gången eller bara granskar dem för att kontrollera om de är korrekta bör du tänka på följande bästa praxis.
 
-Ta dig tid att fundera över hur era marknadsföringskampanjer är organiserade och hur de passar in i [!DNL Marketo Measure] ramverk. Bestäm vilka kanaler och underkanaler som ska visas i onlinekanalerna samt vilka kampanjer, UTM-parametrar eller refererande webbplatser som skiljer dessa kanaler från varandra.
+Ta dig tid att fundera över hur era marknadsföringskampanjer är organiserade och hur de passar in i [!DNL Marketo Measure] ramverk. Bestäm vilka kanaler och underkanaler som ska visas i onlinekanalerna och vilka kampanjer, UTM-parametrar eller refererande webbplatser som skiljer dessa kanaler från varandra.
 
 Tänk på följande:
 
@@ -34,15 +34,15 @@ Tänk på följande:
    * Flera regler kan ses som&quot;datatypsbyte av ett bredare nät&quot; för att säkerställa att varje kontaktyta mappas korrekt. Parametrar kan ofta läggas till eller missas helt och hållet, och därför är det bra att ha flera regler för att hämta en kanal/underkanal för att säkerställa att mappningen är korrekt.
 * [!DNL Marketo Measure] logik prioriterar kontaktpunktsmappning i fallande ordning med början på kalkylbladets översta rad och sedan nedåt
    * [!DNL Marketo Measure] läser varje regel (rad) och söker efter true och first fit. Kontaktpunkten mappas sedan till den kanalen/underkanalen
-   * Sortera inte bladet i alfabetisk ordning eftersom detta påverkar logikreglerna.
+   * Sortera inte bladet i alfabetisk ordning eftersom det stör logikreglerna.
 * Bevara reglerna inom hakparenteser, redigera eller lägg inte till reglerna inom hakparenteser (exempel: [AdWords Paid Search] eller [Facebook Betald] )
-   * De här är ur lådan [!DNL Marketo Measure] regler som har inbyggd logik, som är knutna till [!DNL Marketo Measure] integreringar. Ge de här reglerna högsta prioritet för den kanalen/delkanalsavsnittet för att säkerställa att [!DNL Marketo Measure] integreringar kan fungera som avsett.
+   * De här är ur lådan [!DNL Marketo Measure] regler som har inbyggd logik, som är knutna till [!DNL Marketo Measure] integreringar. Ge de här reglerna högsta prioritet för den kanal-/delkanalsavsnittet för att säkerställa [!DNL Marketo Measure] integreringar kan fungera som avsett.
 * När filen har överförts kan du inte ändra någon av reglerna på sju dagar
    * [!DNL Marketo Measure] använder den här tiden för att bearbeta och uppdatera Touchpoints, och därför bör du kontrollera reglerna innan du överför dem.
 
 ## Bästa praxis för underhåll {#best-practice-for-maintenace}
 
-När de har sparats och bearbetats fungerar reglerna för onlinekanaler kontinuerligt för att få fler digitala kontaktytor. Vissa ändringar eller scenarier gör att du vill granska onlinekanalinställningarna. [!DNL Marketo Measure] rekommenderar att du granskar dina regler för onlinekanaler en gång var sjätte månad. Detta säkerställer att [!DNL Marketo Measure] data är anpassade till era interna definitioner av onlinekanaler/underkanaler och er användning av UTM-kanaler.
+När reglerna för onlinekanaler har sparats och bearbetats arbetar de kontinuerligt för att få buggar på era digitala kontaktytor. Vissa ändringar eller scenarier gör att du vill granska onlinekanalinställningarna. [!DNL Marketo Measure] rekommenderar att du granskar dina regler för onlinekanaler en gång var sjätte månad. Detta säkerställer att [!DNL Marketo Measure] data är anpassade till era interna definitioner av onlinekanaler/underkanaler och er användning av UTM-kanaler.
 
 Andra objekt som kan få ditt team att göra onlinekanalunderhåll är bland annat ...
 

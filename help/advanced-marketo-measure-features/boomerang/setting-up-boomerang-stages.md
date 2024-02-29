@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874767
-description: Konfigurera Boomerang-stadier - [!DNL Marketo Measure] - Produktdokumentation
+description: Konfigurera Boomerang-stadier - [!DNL Marketo Measure]
 title: Konfigurera Boomerang Stages
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Funktionen Boomerang är bara aktiverad för Tier 3-kunder. Om du vill begära en högre kontonivå kontaktar du kontoteamet (din kontoansvarige) på Adobe.
+>Funktionen Boomerang är bara aktiverad för Tier 3-kunder. Om du vill begära en högre kontonivå kontaktar du kontoteamet (din kontohanterare) på Adobe.
 
-Aktivera [!UICONTROL Boomerang] Du måste vara kontoadministratör för ditt konto. Eller så kan det aktiveras genom att man når ut till [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. När funktionen har aktiverats följer du dessa anvisningar för att konfigurera dem.
+Aktivera [!UICONTROL Boomerang] Du måste vara kontoadministratör för ditt konto. Eller så kan det aktiveras genom att man når ut till [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. När funktionen är aktiverad följer du dessa anvisningar för att konfigurera dem.
 
 ## Inställning av Boomerang-scenen {#boomerang-stage-setup}
 
@@ -33,7 +33,7 @@ Aktivera [!UICONTROL Boomerang] Du måste vara kontoadministratör för ditt kon
 
    >[!NOTE]
    >
-   >Det kan ta 24-48 timmar innan dina data bearbetas enligt dessa ändringar.
+   >Det kan ta 24-48 timmar för dina data att bearbetas om enligt dessa ändringar.
 
 ## Konfiguration av Boomerang-scenen med anpassad modellattribuering {#boomerang-stage-setup-with-custom-model-attribution}
 
@@ -59,4 +59,4 @@ Aktivera [!UICONTROL Boomerang] Du måste vara kontoadministratör för ditt kon
 
    >[!NOTE]
    >
-   >Det kan ta 24-48 timmar innan dina data bearbetas enligt dessa ändringar.
+   >Det kan ta 24-48 timmar för dina data att bearbetas om enligt dessa ändringar.

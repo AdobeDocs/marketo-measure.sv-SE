@@ -4,9 +4,9 @@ description: '"[!DNL Microsoft Dynamics] Installationshandbok för CRM - Marketo
 title: "[!DNL Microsoft Dynamics] Installationshandbok för CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 ## Versioner {#supported-versions}
 
@@ -51,7 +51,7 @@ Vi rekommenderar att du skapar en dedikerad Marketo Measure-användare som en&qu
 
 ## Säkerhetsroller {#security-roles}
 
-Om din organisation använder Dynamics-säkerhetsroller, ska du kontrollera att den anslutna användaren eller den dedikerade [!DNL Marketo Measure] Användaren har tillräcklig läs-/skrivbehörighet för de begärda entiteterna.
+Om din organisation använder Dynamics-säkerhetsroller ska du kontrollera att den anslutna användaren eller den dedikerade [!DNL Marketo Measure] Användaren har tillräcklig läs-/skrivbehörighet för de begärda entiteterna.
 
 Säkerhetsroller finns här: **[!UICONTROL Settings]** > **[!UICONTROL Security]** > **[!UICONTROL Security Roles]**.
 
@@ -94,7 +94,7 @@ För Dynamics-standardenheter, se [!DNL Marketo Measure] Dynamics-schemadokument
 
 **Intäkter**
 
-[!DNL Marketo Measure] pekar på standardfältet Faktisk omsättning. Om du inte använder detta, beskriv hur du rapporterar om intäkter till din lösningstekniker eller Success Manager som ett anpassat arbetsflöde kommer att behövas.
+[!DNL Marketo Measure] pekar på standardfältet Faktisk omsättning. Om du inte använder detta kan du förklara hur du rapporterar om intäkter till din lösningstekniker eller Success Manager som ett anpassat arbetsflöde kommer att behövas.
 
 **Stängningsdatum**
 

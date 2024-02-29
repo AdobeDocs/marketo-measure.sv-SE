@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874781
-description: Konfigurera dubbelklickning av Campaign Manager-vy via attribut - [!DNL Marketo Measure] - Produktdokumentation
+description: Konfigurera dubbelklickning av Campaign Manager-vy via attribut - [!DNL Marketo Measure]
 title: Konfigurera dubbelklickning av Campaign Manager-vy via attribut
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Börja få mer detaljerad information genom att spåra med [!DNL Doubleclick Campaign Manager]måste vår spårningspixel konfigureras.
 
-Please [klicka här](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) för mer information om [!DNL Marketo Measure] Visa via attribueringsfunktioner.
+Mer information om [!DNL Marketo Measure] Visa via attribueringsfunktioner, se [Marketo Measure View Through Attribution FAQ](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
 [!DNL Marketo Measure] betraktas som en piggyback-tagg eftersom det är ett tredjepartsanrop via DCM-annonstaggen. Piggyback-taggar fungerar inte med bildtaggar, bara iframe- och javascript-taggar. Enligt DCM-stödet ändrades detta inte nyligen och har alltid varit fallet. Standardtaggar togs bort den 2 oktober 2017 men påverkar inte möjligheten för [!DNL Marketo Measure] för att spåra intryck.
 
@@ -29,7 +29,7 @@ Om du använder hierarkin Överordnad och Underordnad i DCM måste taggen använ
 
 ## Lägga till bildtaggen {#how-to-add-the-image-tag}
 
-Du ska lägga till taggen i [!DNL Doubleclick] under inställningen Advertiser och du vill skapa en Impression-händelsetagg.
+Lägg till taggen i Doubleclick under inställningen Advertiser och skapa en Impression-händelsetagg.
 
 1. Lägg till följande kod som en 1x1-bildpixel.
 

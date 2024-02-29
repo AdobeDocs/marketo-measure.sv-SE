@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356962
-description: "[!DNL Marketo Measure] Resurslista - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Resurslista - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Resurslista"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Här är några videor som hjälper dig att komma igång:
 
 **[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) (~30 minuter)**
 
-Kursen är utformad som en allmän introduktion till de grundläggande koncept du behöver känna till för att lära dig bemästra [!DNL Marketo Measure]. Det ger en introduktion till begreppet attribuering, vad [!DNL Marketo Measure] som ett verktyg och det allmänna ramverket som [!DNL Marketo Measure] fungerar.
+Kursen är utformad som en allmän introduktion till de grundläggande koncept du behöver känna till för att lära dig [!DNL Marketo Measure]. Det ger en introduktion till begreppet attribuering, vad [!DNL Marketo Measure] som ett verktyg och det allmänna ramverket som [!DNL Marketo Measure] fungerar.
 
 Ämnen som omfattas:
 
@@ -66,7 +66,7 @@ Kursen är utformad som en allmän introduktion till de grundläggande koncept d
 
 **[[!DNL Marketo Measure] Rapportering i SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45 minuter)**
 
-Kursen är utformad som en introduktion till [!DNL Marketo Measure] arkivrapporter som har installerats i Salesforce. Rapporterna fungerar som grunden för de flesta rapporter du ska göra med [!DNL Marketo Measure] data.
+Kursen är utformad som en introduktion till [!DNL Marketo Measure] arkivrapporter som har installerats i Salesforce. Dessa rapporter fungerar som grund för de flesta rapporter du ska göra med [!DNL Marketo Measure] data.
 
 Ämnen som omfattas:
 

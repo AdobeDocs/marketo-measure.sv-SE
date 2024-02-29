@@ -1,11 +1,11 @@
 ---
-description: "[!DNL Marketo Measure] Rapporteringsguide - [!DNL Marketo Measure] - Produktdokumentation"
+description: "[!DNL Marketo Measure] Rapporteringsguide - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Rapportguide"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '6395'
+source-wordcount: '6431'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i vår dokumentation, men ändå se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 Innan du skapar en [!DNL Marketo Measure] är det viktigaste att bekräfta [!DNL Marketo Measure] Kontoinställningarna har granskats och konfigurerats för att säkerställa att data i rapporterna är korrekta och att de återspeglar ditt företags särdrag. Dessutom fungerar rapportprojekt bäst när de följer en strukturerad process. Justin Norris, [!DNL Marketo Measure] avancerade användare, förespråkare och partner från [Perkuto](https://perkuto.com/) i sammanfattad form [hur rapportering ska ske i [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
 
@@ -40,11 +40,11 @@ På den högsta nivån finns det två rapporteringskategorier som baseras på de
 1. **Kontaktpunkter för Buyer Attribution** (BAT) / Möjligheter / Kontonivå / Intäkter
 
    * Används vanligen för&quot;trattens mitt och/eller botten&quot; (MOFU och BOFU) mått och rapportering relaterade till _Möjligheter_.
-   * BAT representerar de relevanta kontaktytorna för alla personer som är anslutna till **tillfälle** (antingen via Roller för säljprojektskontakt eller via ett delat konto-ID, beroende på dina inställningar). Till skillnad från bärbara datorer som bara gäller människor kan BAT-enheter även kopplas till **omsättning**. Därför kommer ni att använda BAT för att besvara frågor som rör möjligheter, inklusive hur många möjligheter som öppnats eller stängts, eller pipeline-värdet och intäkterna.
+   * BAT representerar de relevanta kontaktytorna för alla personer som är anslutna till **tillfälle** (antingen via Roller för säljprojektskontakt eller via ett delat konto-ID, beroende på dina inställningar). Till skillnad från bärbara datorer som bara gäller människor kan BAT-enheter även kopplas till **omsättning**. Som sådan kommer ni att använda BAT för att besvara frågor som rör möjligheter, inklusive hur många möjligheter som öppnats eller stängts, eller pipeline-värdet och intäkterna.
 
 >[!NOTE]
 >
->BAT skapas från BT. I princip börjar spårningen på individnivå via BT. När ett säljprojekt har skapats på ett konto refereras och är berättigade att skapa BAT-böcker som relaterar till säljprojektet, så du vill använda en eller flera av dem beroende på vilka frågor du försöker svara på: frågor relaterade till &#39;personstatistik&#39; (BT-rapporter) eller frågor relaterade till &#39;säljprojektsstatistik&#39; (BAT-rapporter)
+>BAT skapas från BT. I princip börjar spårningen på individnivå via BT. När ett säljprojekt har skapats på ett konto refereras och är berättigade att skapa BAT-böcker som relaterar till säljprojektet, så du vill använda det ena eller det andra beroende på vilka frågor du försöker svara på: frågor relaterade till &#39;personstatistik&#39; (BT-rapporter) eller frågor relaterade till &#39;säljprojektsstatistik&#39; (BAT-rapporter)
 
 Supportartikel: [Skillnad mellan Buyer Touchpoints och Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
@@ -89,7 +89,7 @@ Dessa modeller lägger stor vikt vid interaktioner i ett tidigt skede och ett en
 
 1. **LEADS with BUYER TOUCHPOINS**
 
-**1.1 | Nya leads per marknadsföringskanal**
+**1.1 | Nya leads efter marknadsföringskanal**
 
 Att sammanfatta leadets data om köparens kontaktpunkt med fältet Marknadskanal är den översta nivån som representerar vilka kanaler/taktik som påverkar nya leads i skapandet. Om du strukturerar den här rapporten runt en&quot;Datumtyp&quot; =&quot;Skapad den&quot;, skapas en kohort med&quot;Nya lead&quot; (när lead skapades i CRM) i rapporten.
 
@@ -128,7 +128,7 @@ Att sammanfatta leadets data om köparens kontaktpunkt med fältet Marknadskanal
 >
 >För rapporttypen Leads with Buyer Touchpoints kan du börja med att anpassa den färdigbyggda rapporten som heter[!DNL Marketo Measure] 101 | Leads by Channel&#39;. Den här rapporten finns tillgänglig när den är färdig och är en utmärkt sandlåda som är fördefinierad enligt beskrivningen i tabellen ovan och kan snabbt anpassas för mer specifika rapporteringsbehov.
 
-**1.2 | Nya leads per kampanj (eller mer detaljerade insikter)**
+**1.2 | Nya leads per Campaign (eller mer detaljerade insikter)**
 
 Om du vill ha mer detaljerad information om de data som sammanfattas i rapporten&quot;New Leads by Marketing Channel&quot; (1.1) lägger du till ytterligare en sammanfattning på kampanjnivå. På så sätt kan ni inte bara förstå vad&quot;marknadsföringskanaler&quot; driver nya leads till skapande, utan snarare vilka kampanjer i dessa kanaler som fungerar bäst:
 
@@ -265,7 +265,7 @@ Events-chefer kan dock vara mer intresserade av vilka specifika händelser eller
 >   * /contact
 >   * /demo
 
-Innehållsbaserade rapporter tillför mycket värde vid rapportering på valfri del av tratten, men de används oftast högst upp i tratten för att ge ytterligare insikter i ett inledande engagemang för leads. Med tanke på att&quot;organisk sökning&quot; ofta är den starkaste kanalen när det gäller att skapa ett första engagemang (FT) finns det inte så mycket data på kampanjnivå.
+Innehållsbaserade rapporter tillför mycket värde vid rapportering på valfri del av tratten, men de används oftast högst upp i tratten för att ge ytterligare insikter i ett inledande engagemang för leads. Med tanke på att&quot;organisk sökning&quot; ofta är den starkaste kanalen när det gäller att skapa ett första engagemang (FT), finns det inte så mycket data på kampanjnivå.
 
 Innehållsbaserade rapporter är bra för att få insikt i vad som genererar leads mer specifikt inom den högre nivån av marknadsföringskanalen, i det här fallet&quot;Organic Search&quot;.
 
@@ -384,7 +384,7 @@ Detta tillvägagångssätt för att mäta effekten av marknadsföringen på att 
   </tr>
   <tr>
    <td>Optimala modeller</td> 
-   <td><i>Eftersom den här rapporten filtreras på en enda kontaktyta är attribueringsmodellerna på leadnivå inte så relevanta. Precis som i"Ledningsengagemangsrapporten" (1.4) skulle antalet kontaktpunktsposter utnyttjas här för att förstå vilka kanaler som är störst (varje lead skulle bara ha en enda MQL-kontaktyta).</i></td> 
+   <td><i>Eftersom den här rapporten filtreras på en enda kontaktyta är attribueringsmodellerna på leadnivå inte så relevanta. Precis som i rapporten"Lead Engagement Report" (1.4) skulle antalet kontaktpunktsposter användas här för att förstå vilka kanaler som är störst (varje lead skulle bara ha en MQL-kontaktyta).</i></td> 
   </tr>
  </tbody>
 </table>
@@ -397,7 +397,7 @@ Detta tillvägagångssätt för att mäta effekten av marknadsföringen på att 
 
 Det finns en tredje anpassad [!DNL Marketo Measure] objekt i Salesforce som kan vara mycket användbara när du rapporterar personrelaterade mått: **den [!DNL Marketo Measure] Person (BP)**. BP löser det gamla problemet med att representera information om både leads och kontakter i samma rapport. Den förenar alla BT:er som är relaterade till en&quot;person&quot; (en [!DNL Marketo Measure] Personens ID är deras e-postadress). Vare sig de finns som lead eller kontakt fungerar BP som ett bryggobjekt, vilket gör det lättare att rapportera mellan lead och kontakt, och är mycket användbart när det gäller att skapa mer avancerade rapporter om människor.
 
-The [!DNL Marketo Measure] Personen relaterar endast till ett av kontaktobjekten, Buyer Touchpoint (BT). Det innebär att det inte kan utnyttjas för att mäta ett säljprojekt eller en intäktsrelaterad investering. A[!DNL Marketo Measure] Formtypen för Person- och Buyer Touchpoints är mycket bra för förståelsen _totalt engagemang_ eftersom det omfattar alla BT:er, vare sig det gäller en lead eller kontakten mer specifikt. Om du till exempel har en Salesforce-kampanj som används för att spåra en händelse, kan du ha kampanjmedlemmar i CRM-kampanjen som antingen finns som Leads ELLER Kontakter. [!DNL Marketo Measure] kommer att skapa kontaktytor för kampanjmedlemmarna oavsett, men utan [!DNL Marketo Measure] Personen, standard Salesforce-rapportering skulle kräva två separata rapporter för att förstå hur många _total_ kontaktytor du har från evenemanget: en som är&quot;Leads with Buyer Touchpoints&quot; och en som är&quot;Contacts with Buyer Touchpoints&quot;. Några andra [!DNL Marketo Measure] Personbaserade användningsexempel för rapportering anges nedan:
+The [!DNL Marketo Measure] Personen relaterar endast till ett av kontaktobjekten, Buyer Touchpoint (BT). Det innebär att det inte kan användas för en säljprojekts- eller intäktsrelaterad mätning. A[!DNL Marketo Measure] Formtypen för Person- och Buyer Touchpoints är mycket bra för förståelsen _totalt engagemang_ eftersom det omfattar alla BT:er, vare sig det gäller en lead eller kontakten mer specifikt. Om du till exempel har en Salesforce-kampanj som används för att spåra en händelse, kan du ha kampanjmedlemmar i CRM-kampanjen som antingen finns som Leads ELLER Kontakter. [!DNL Marketo Measure] kommer att skapa kontaktytor för kampanjmedlemmarna oavsett, men utan [!DNL Marketo Measure] Personen, standard Salesforce-rapportering skulle kräva två separata rapporter för att förstå hur många _total_ kontaktytor du har från evenemanget: en som är&quot;Leads with Buyer Touchpoints&quot; och en som är&quot;Contacts with Buyer Touchpoints&quot;. Några andra [!DNL Marketo Measure] Personbaserade användningsexempel för rapportering anges nedan:
 
 **3.1 [!DNL Marketo Measure] Personer som har laddat ned e-böcker eller rapporter (totala nedladdningar)**
 
@@ -500,7 +500,7 @@ Med tanke på [!DNL Marketo Measure] Personen tillåter oss att rapportera om al
 * [Anpassad kanalinställning online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Anpassad kanalinställning offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 
-I grund och botten återspeglar data om kontaktytan vad som har spårats av [!DNL Marketo Measure] och kan granskas för att säkerställa att konfigurationen matchar indata baserat på exempelvis UTM-parametervärden, referenssidor eller kampanjtyper. Om kontaktpunktsdata inte matchar din konfiguration måste något som troligen behöver justeras. Utöver konfigurationen av marknadsföringskanalen kan ni titta på data från kontaktytor för att avgöra vilka kontaktytor som behöver vara [undertryckt](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) eller [segmenterad](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). Vi rekommenderar att du granskar dina kontaktpunktsdata i en[!DNL Marketo Measure] Rapport från People and Buyer Touchpoints i slutet av varje månad eller kvartal om det är möjligt. Detta säkerställer att attribueringen blir så korrekt som möjligt. The[!DNL Marketo Measure] 101 | Leads/kontakter per kanal - rapport som är tillgänglig direkt är en bra startpunkt. Inkludera följande fält om de inte redan finns med för att granska några av de viktigaste konfigurationsbitarna:
+I grund och botten återspeglar data om kontaktytan vad som har spårats av [!DNL Marketo Measure] och kan granskas för att säkerställa att konfigurationen matchar indata baserat på exempelvis UTM-parametervärden, referenssidor eller kampanjtyper. Om kontaktpunktsdata inte matchar din konfiguration måste något som troligen behöver justeras. Utöver konfigurationen av marknadsföringskanalen kan ni titta på data från kontaktytor för att avgöra vilka kontaktytor som behöver vara [undertryckt](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) eller [segmenterad](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). Vi rekommenderar att du granskar dina kontaktpunktsdata i en[!DNL Marketo Measure] Rapport från People and Buyer Touchpoints i slutet av varje månad eller kvartal om det är möjligt. Detta säkerställer att attribueringen blir så korrekt som möjligt. The[!DNL Marketo Measure] 101 | Leads/Kontakter per kanal-rapport som är tillgänglig utan uppdatering är en bra startpunkt. Inkludera följande fält om de inte redan finns med för att granska några av de viktigaste konfigurationsbitarna:
 
 * **Marknadsföringskanal** - Sökväg = Marknadskanal.Delkanal (värden anges i [!DNL Marketo Measure])
 * **Kontaktpunktskälla** = utm_source
@@ -511,7 +511,7 @@ I grund och botten återspeglar data om kontaktytan vad som har spårats av [!DN
 
 **TOUCHPOINT FÖR KÖPARATTRIBUTION (BAT)**
 
-Kontaktpunkterna för Buyer Attribution (BAT) representerar de relevanta kontaktytorna för alla kontakter som är kopplade till säljprojektet (antingen via roller för säljprojektskontakt eller via ett delat konto-ID, beroende på dina inställningar). Till skillnad från BT (som i huvudsak är kopplade till människor) kan BAT:er kopplas till intäkter. Därför kommer ni att använda BAT för att besvara frågor som rör möjligheter, främst öppna _Affärsmöjligheter/Pipeline-intäkter_ och stängd _Affärsmöjligheter/erbjudanden/intäkter_. En BAT skapas via en kontakts BT-poster så snart ett säljprojekt skapas under samma konto som kontakten (BT konverteras inte till BAT. BT-data refereras bara till för att skapa en ytterligare post - BAT som sedan relaterar till säljprojektet).
+Kontaktpunkterna för Buyer Attribution (BAT) representerar de relevanta kontaktytorna för alla kontakter som är kopplade till säljprojektet (antingen via roller för säljprojektskontakt eller via ett delat konto-ID, beroende på dina inställningar). Till skillnad från BT (som i huvudsak är kopplade till människor) kan BAT:er kopplas till intäkter. Därför kommer ni att använda bästa tillgängliga teknik för att besvara frågor som rör möjligheter, främst öppna _Affärsmöjligheter/Pipeline-intäkter_ och stängd _Affärsmöjligheter/erbjudanden/intäkter_. En BAT skapas via en kontakts BT-poster så snart ett säljprojekt skapas under samma konto som kontakten (BT konverteras inte till BAT. BT-data refereras bara till för att skapa en ytterligare post - BAT som sedan relaterar till säljprojektet).
 
 Med Buyer Attribution Touchpoint kan vi mäta marknadsföringens påverkan djupare i tratten. _Djupet på tratten som du vill mäta kan representeras av de olika multitouch-attribueringsmodellerna_.
 
@@ -563,7 +563,7 @@ Vanligtvis måste marknadsförarna veta, &quot;varifrån kommer mina affärsmöj
 
 ## REKOMMENDERADE RAPPORTER MED TOUCHPOINT FÖR KÖPSATTRIBUTION (BAT) {#recommended-reports-using-the-buyer-attribution-touchpoint}
 
-**4.1 | Nya affärsmöjligheter per marknadsföringskanal**
+**4.1 | Nya affärsmöjligheter efter marknadsföringskanal**
 
 Att sammanfatta era säljprojekts Buyer Attribution Touchpoint-data med fältet Marketing Channel är den vy på den högsta nivån som representerar vilka kanaler/taktik som påverkar nya möjligheter till skapande. Genom att strukturera den här rapporten runt ett&quot;Datumtyp&quot; =&quot;Skapad affärsmöjlighet&quot; säkerställer vi att vi också sammanfattar rapporten baserat på när affärsmöjligheten skapades i CRM. Kontaktpunkterna kan ha kommit från en tid tidigare, men de kommer fortfarande att relatera till de affärsmöjligheter som har skapats inom det definierade datumintervallet och därmed få attribueringskrediter eftersom de anses påverka affärsmöjligheten.
 
@@ -607,7 +607,7 @@ Att sammanfatta era säljprojekts Buyer Attribution Touchpoint-data med fältet 
 
 >[!TIP]
 >
->För alla rapporttyper för &#39;Buyer Attribution Touchpoints with Opportunity&#39; börjar du med att anpassa den fördefinierade rapporten &#39;[!DNL Marketo Measure] 101 | Affärsmöjligheter efter kanal&#39;. Den här rapporten är tillgänglig direkt och är en utmärkt sandlåda som är fördefinierad enligt beskrivningen i tabellen ovan och kan snabbt anpassas för mer specifika rapporteringsbehov (rapporten använder en modell med fullständig sökväg som är färdig att användas så se till att rapporten anpassas så att den inkluderar alla andra attribueringsmodeller, i det här fallet W-Shaped-modellen).
+>För alla rapporttyper för &#39;Buyer Attribution Touchpoints with Opportunity&#39; börjar du med att anpassa den fördefinierade rapporten &#39;[!DNL Marketo Measure] 101 | Affärsmöjligheter efter kanal. Den här rapporten är tillgänglig direkt och är en utmärkt sandlåda som är fördefinierad enligt beskrivningen i tabellen ovan och kan snabbt anpassas för mer specifika rapporteringsbehov (rapporten använder en modell med fullständig sökväg som är färdig att användas så se till att rapporten anpassas så att den inkluderar alla andra attribueringsmodeller, i det här fallet W-Shaped-modellen).
 
 >[!TIP]
 >
@@ -725,7 +725,7 @@ Vid rapportering av avkastning på investeringar i [!DNL Marketo Measure] Upptä
 
 De filter som anges nedan är avgörande för en rapport med fokuserad avkastning i [!DNL Marketo Measure] (troligen kommer du att ställa in dessa filter i panelerna Översikt, CMO eller ROI):
 
-**5.1 | Avkastning på anslagstavlan**
+**5.1 | ROI in the &#39;Overview&#39; Board**
 
 ![](assets/bizible-reporting-guide-4.png)
 

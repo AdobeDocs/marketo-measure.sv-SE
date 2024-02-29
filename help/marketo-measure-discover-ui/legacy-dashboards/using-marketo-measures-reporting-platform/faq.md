@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874660
-description: Frågor och svar - [!DNL Marketo Measure] - Produktdokumentation
+description: Frågor och svar - [!DNL Marketo Measure]
 title: Vanliga frågor och svar
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Det finns inga värden för varje enskild datahierarki eftersom hierarkin inte a
 
 **Vad är &quot;matchar ett användarattribut&quot; i filteroperatorerna?**
 
-Användarattribut gäller användare som företags-ID, förnamn eller efternamn, men eftersom våra användare är du (våra kunder) och inte dina kunder kan användarattributen inte användas i [!DNL Marketo Measure Discover] upplevelse. Du kan ignorera det här alternativet. Vi arbetar på en bättre anpassad filterupplevelse som tar bort filter som inte gäller våra kunder.
+Användarattribut gäller användare som företags-ID, förnamn eller efternamn, men eftersom våra användare är du (våra kunder) och inte dina kunder kan användarattributen inte användas i [!DNL Marketo Measure Discover] upplevelse. Vi arbetar på en bättre anpassad filterupplevelse som tar bort filter som inte gäller våra kunder.
 
 **Hur kommer det sig att vissa standarddatumintervall sträcker sig över den första i följande månad?**
 
@@ -97,7 +97,7 @@ Discover använder verktyg från tredje part och stöder inte den GB18030-tecken
 
 **Varför visas ett 401-fel när jag läser in Discover med texten &quot;You are not authenticated to view this page&quot;?**
 
-[!DNL Marketo Measure Discover] kräver att cookies från tredje part visas korrekt. Aktivera cookies från tredje part i webbläsaren och uppdatera sidan om du vill använda Discover.
+[!DNL Marketo Measure Discover] kräver att cookies från tredje part visas korrekt. Om du vill använda Discover aktiverar du cookies från tredje part i webbläsaren och uppdaterar sidan.
 
 >[!NOTE]
 >
