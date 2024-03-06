@@ -4,16 +4,16 @@ description: Lägger till [!DNL Marketo Measure] till [!DNL Marketo] Landningssi
 title: Lägger till [!DNL Marketo Measure] till Marketo landningssidor
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
 # Lägger till [!DNL Marketo Measure] till Marketo landningssidor {#adding-marketo-measure-to-marketo-landing-pages}
 
-Lär dig hur du lägger till spårning i [!DNL Marketo Engage] Landningssidor när de kräver ytterligare hantering. [!DNL Marketo Measure] JavaScript måste finnas på plats både på landningssidan och på [!DNL Marketo Engage] själva. Om du vill göra det måste du läsa in [!DNL Marketo Measure] JavaScript till [!DNL Marketo Engage] enligt följande anvisningar.
+Lär dig hur du lägger till spårning i [!DNL Marketo Engage] Landningssidor när de kräver ytterligare hantering. [!DNL Marketo Measure] JavaScript måste finnas på plats både på landningssidan och [!DNL Marketo Engage] själva. Om du vill göra det måste du läsa in [!DNL Marketo Measure] JavaScript till [!DNL Marketo Engage] enligt följande anvisningar.
 
 >[!NOTE]
 >
@@ -36,10 +36,10 @@ Exempel i skärmbild nedan
 
 ## Ytterligare information {#additional-notes}
 
-* Du kanske redan har andra spårningskodfragment på plats, som [!DNL Google Analytics] kod. Det finns inga problem med detta, se till att separera dem med ett semikolon `;` och ett enda utrymme. Ett exempel på hur detta skulle se ut är:
+* Du kanske redan har andra spårningskodfragment på plats, som [!DNL Google Analytics] kod. Det är inget problem med detta. Se till att separera dem med ett semikolon `;` och ett enda utrymme. Ett exempel på hur detta skulle se ut är:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`
 
 * Det är troligt att du använder flera mallsidor för landningssidor. Se till att du lägger till koden i alla mallar som har formulär.
 
-* Ibland när du redigerar mallen för landningssidor måste du godkänna de sidor som landningssidan används av på nytt. Den här artikeln förklarar [massgodkänna](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
+* Ibland när du redigerar mallen för landningssidor måste du omgodkänna de sidor som landningssidan används av. Den här artikeln förklarar [massgodkänna](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

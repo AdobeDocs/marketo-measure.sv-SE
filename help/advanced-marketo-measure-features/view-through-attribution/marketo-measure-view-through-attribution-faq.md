@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Visa via Vanliga frågor om attribut - [!DN
 title: "[!DNL Marketo Measure] Visa via Vanliga frågor om attribut"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -19,7 +19,7 @@ The [!DNL Marketo Measure] [!UICONTROL View Through Attribution] kan inkludera a
 
 ## Varför [!UICONTROL View Through Attribution] Viktigt? {#why-is-view-through-attribution-important}
 
-Historiskt sett har återmarknadsföring eller tryckannonsering varit svår att ta hänsyn till i attribueringsanalysen. Potentiella kunder kan, när som helst, exponeras för annonser med ny inriktning, men det är osannolikt att de faktiskt klickar på någon av dessa annonser och fyller i ett formulär under samma session. Vår View Through Attribution-lösning kan nu spåra om någon exponerats för en annons eller inte. Denna kontaktyta läggs till den enskilda posten och kommer att fortsätta tills den potentiella kunden blir kund. Med den här informationen får marknadsföraren nu bättre insikt i hur deras återmarknadsföring fungerar.
+Historiskt sett har återmarknadsföring eller tryckannonsering varit svår att ta hänsyn till i attribueringsanalysen. Potentiella kunder kan, när som helst, exponeras för annonser med ny inriktning, men det är osannolikt att de faktiskt klickar på en av dessa annonser och fyller i ett formulär under samma session. Vår View Through Attribution-lösning kan nu spåra om någon exponerats för en annons eller inte. Denna kontaktyta läggs till den enskilda posten och kommer att fortsätta tills den potentiella kunden blir kund. Med den här informationen får marknadsföraren nu bättre insikt i hur deras återmarknadsföring fungerar.
 
 ## Vad ingår i konfigurationen? {#what-is-involved-in-setting-this-up}
 

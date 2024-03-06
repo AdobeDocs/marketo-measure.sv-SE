@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure]'
 title: '''[!DNL Marketo Measure] Ultimate Implementation Guide'
 feature: Integration, Tracking, Attribution
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Den här artikeln är en implementeringshandbok för Marketo Measure Ultimate so
 
 ## De viktigaste skillnaderna när Ultimate används jämfört med standardnivåer {#main-differences-when-using-ultimate-over-standard-tiers}
 
-Importera B2B-data via AEP: Marknadsförarna förväntas hämta B2B-data (t.ex. konto, säljprojekt, kontakt, lead, kampanj, kampanjmedlem, aktivitet) via AEP. Hämta in alla data för attribuering genom att hämta in data från i stort sett vilken datakälla som helst och från flera datakällor av samma typ.
+Importera B2B-data via AEP: Marknadsförarna förväntas hämta B2B-data (t.ex. konto, säljprojekt, kontakt, lead, kampanj, kampanjmedlem, aktivitet) via AEP. Hämta in alla data för attribuering genom att hämta in data från nästan vilken datakälla som helst och från flera datakällor av samma typ.
 
 * Använd med nästan alla CRM-system, inte bara Salesforce och Dynamics.
 * Koppla ihop flera CRM-instanser och/eller MAP-instanser till en Marketo Measure-instans.
@@ -24,11 +24,11 @@ Importera B2B-data via AEP: Marknadsförarna förväntas hämta B2B-data (t.ex. 
 Anslutningarna för direkt CRM och Marketo Engage är inte längre tillgängliga för Ultimate.
 
 * Ultimate skickar inte tillbaka data till CRM. Kunder kan förbruka data från datalagret.
-* Marknadsförarna kommer att fortsätta att föra in Ad Platform-data via direkta anslutningar och spåra webbaktiviteter via Marketo Measure javascript.
+* Marknadsförarna fortsätter att föra in data från annonsplattformen via direktanslutningar och spåra webbaktiviteter via Marketo Measure javascript.
 
-De ultimata användarna kommer att etableras som AEP. Om de redan har AEP kommer vi inte att ometablera en ny instans.
+De ultimata användarna har etablerats som AEP. Om de redan har AEP kommer vi inte att ometablera en ny instans.
 
-* Den tilldelade AEP-versionen kommer att innehålla alla källanslutningar, schemadatamodellering, datauppsättningar, ad hoc-frågetjänst och endast en destination för Marketo Measure.
+* AEP-versionen innehåller alla källanslutningar, schemadatamodellering, datauppsättningar, ad hoc-frågetjänst och endast en destination för Marketo Measure.
 
 Läs mer om [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
@@ -51,7 +51,7 @@ Läs mer om [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-me
 
 ## Skapa ett schema {#creating-a-schema}
 
-Vi rekommenderar att du använder ett autogenereringsverktyg för att skapa 10 standardscheman för B2B.
+Vi rekommenderar att du använder ett autogenereringsverktyg för att skapa tio standardscheman för B2B.
 
 * Steg för att hämta och konfigurera verktyget [finns här](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
@@ -61,7 +61,7 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
 
 ![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-* Välj ett konto och alla B2B-mallar för att skapa 10 standardscheman för B2B.
+* Välj ett konto och alla B2B-mallar för att skapa tio standardscheman för B2B.
 
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
@@ -69,7 +69,7 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
 
 >[!IMPORTANT]
 >
->När du lägger till en ny datauppsättning rekommenderar vi att du skapar ett nytt flöde i stället för att använda ett befintligt.
+>När du lägger till en ny datauppsättning rekommenderar vi att du skapar ett flöde i stället för att använda en befintlig.
 
 [Översikt över dataflöden](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
@@ -78,12 +78,12 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
 1. Välj en källa.
 1. Välj ett befintligt konto eller skapa ett konto.
 1. Välj en datatyp i listan med tillgängliga typer att importera från källan.
-1. Välj en befintlig datauppsättning eller skapa en ny datauppsättning.
+1. Välj en befintlig datauppsättning eller skapa en datauppsättning.
 1. Mappa fälten från källan till schemat.
 
    >[!NOTE]
    >
-   >* Om du mappar en schematyp till en annan, kommer den att göras automatiskt.
+   >* Om du mappar en schematyp till en annan, görs det automatiskt.
    >* Du kan också importera mappning från ett annat flöde i systemet.
    >* Du kan mappa ett källfält till flera målfält, men inte tvärtom.
    >* Du kan skapa beräkningsfält ([Funktioner för datapersonmappning](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
@@ -91,7 +91,7 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
    >[!CAUTION]
    >
    >* Du kan redigera ett dataflöde, men data fylls inte i i efterhand när en mappning ändras.
-   >* Om ett obligatoriskt fält är NULL, kommer hela flödet att avvisas.
+   >* Om ett obligatoriskt fält är NULL, avvisas hela flödet.
 
    >[!NOTE]
    >
@@ -99,7 +99,7 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
 
 1. Ange en datainläsningskadens.
 1. Granska och slutför.
-1. Gå till sidan Kontostatus i Inställningar för måttanvändargränssnitt för dataflödesstatus.
+1. Gå till sidan Kontostatus i Inställningar för måttanvändargränssnitt för att se dataflödesstatus.
 
 **Övervakning:**
 
@@ -131,8 +131,8 @@ Gå till avsnittet Experience Platform > Mappning av sandlådor i inställningar
 
 >[!NOTE]
 >
->* Data för en viss enhet (t.ex. Konto) från en viss källa kan bara placeras i en datauppsättning. Varje datauppsättning kan bara inkluderas i ett dataflöde. Överträdelser kommer att stoppa dataflödet vid körning.
->* Ta bort hela målet i AEP för att ta bort data i Mått. Om du inaktiverar avbryts bara ny dataexport och gamla data behålls.
+>* Data för en given entitet (till exempel Konto) från en viss källa kan bara placeras i en datamängd. Varje datauppsättning kan bara inkluderas i ett dataflöde. Överträdelser stoppar dataflödet vid körning.
+>* Ta bort hela målet i AEP för att ta bort data i Mått. Om du inaktiverar stoppas export av nya data och gamla data behålls.
 >* Måttkonfigurationen ser oftast likadan ut, men vissa delar, som Stage Mapping, ser annorlunda ut.
 >* Det tar några timmar för ett nytt dataflöde att generera en flödeskörning och sedan inträffar de med regelbundna timintervall.
 
@@ -150,18 +150,18 @@ Vi importerar inte automatiskt faser från användardata, så alla faser måste 
 
 Om faserna inte mappas kommer systemet inte att fungera eftersom det inte kommer att finnas någon plats för data.
 
-Om du är kund hos Marketo Measure Ultimate och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda de två fält nedan som är specifika för lead ([läs mer här](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Om du är kund hos Marketo Measure Ultimate och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda nedanstående två fält som är specifika för lead ([läs mer här](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted
 
 **Regler för kampanjmedlemmar:**
 
-Du måste välja en datauppsättning och ange regler för varje datauppsättning.
+Välj en datauppsättning och ange regler för varje.
 
 **Regler för upplevelsehändelser:**
 
-Behöver välja en datauppsättning och välja aktivitetstyper.
+Välj en datauppsättning och välj aktivitetstyper.
 
 * Anpassade aktiviteter stöds inte ännu.
 * Om kunden har aktiviteter som inte passar de tillgängliga alternativen föreslår vi att de kategoriseras som&quot;Intressanta stunder&quot; och att anpassade fält används för att skilja dem åt.
@@ -169,7 +169,7 @@ Behöver välja en datauppsättning och välja aktivitetstyper.
 **Offlinekanaler:**
 
 * Vi gör inte datauppsättningsspecifika kanalmappningsregler, så det skulle vara globalt.
-* Vi måste matcha både CRM Campaign-typen och Channel till slut, men för närvarande kan vi mappa kanalnamnet till båda fälten som en tillfällig lösning.
+* Vi måste matcha både CRM Campaign-typen och Channel till slut, men för tillfället kan vi mappa kanalnamnet till båda fälten som en tillfällig lösning.
 * **Kanalregler: Data som inte har fyllts i har inga scenövergångsdata.**
 
 Inställningarna för slutpunkt och segment ändras inte.

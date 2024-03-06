@@ -4,9 +4,9 @@ description: Definition av [!DNL Marketo Measure] Webbsessioner - [!DNL Marketo 
 title: Definition av [!DNL Marketo Measure] Webbsessioner
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ A **webbsession** avser en persons interaktioner med din webbplats under en viss
 
 Haley besöker till exempel adobe.com. Hennes besök på webbplatsen påbörjar en session. När Haley lämnar webbplatsen, genom att stänga fliken/webbläsaren eller navigera bort från webbplatsen, avslutas sessionen.
 
-En användare kan inte öppna flera sessioner samtidigt. Om Haley öppnas [!DNL adobe.com] på 10 olika flikar har endast en session skapats i samband med hennes besök på webbplatsen.
+En användare kan inte öppna flera sessioner samtidigt. Om Haley öppnas [!DNL adobe.com] på tio olika flikar har endast en session skapats i samband med hennes besök på webbplatsen.
 
 ## Hur [!DNL Marketo Measure] Vill du definiera en ny session? {#how-does-marketo-measure-define-a-new-session}
 
@@ -40,21 +40,21 @@ För närvarande [!DNL Marketo Measure] hanterar bara sidnavigering och formulä
 
 ## Kanalbaserad förfallotid {#channel-based-expiration}
 
-[!DNL Marketo Measure] börjar en ny session när en användare kommer till din webbplats från en annan digital marknadsföringskanal eller en extern webbplats. Detta omfattar följande:
+[!DNL Marketo Measure] startar en ny session varje gång en användare kommer till din webbplats från en annan digital marknadsföringskanal eller en extern webbplats. Detta omfattar följande:
 
 * En webbplats för hänskjutande
-* Sociala kanaler ([!DNL Facebook], [!DNL LinkedIn], osv.)
+* Sociala kanaler ([!DNL Facebook], [!DNL LinkedIn]och så vidare)
 * Betalda eller organiska sökkanaler ([!DNL Google/Bing])
 
 **Hänvisa till webbplatser och sociala kanaler**
 
-Varje gång en besökare kommer till din webbplats från en hänvisande webbplats eller en social kanal börjar en ny session.
+När en besökare kommer till webbplatsen från en hänvisande webbplats eller en social kanal börjar en ny session.
 
 Säg att Haley är på LinkedIn, klicka på en [!DNL Marketo Measure] posta och omdirigeras till Adobe webbplats. När du sedan bläddrar igenom [!DNL Facebook], ser Haley en annan [!DNL Marketo Measure] publicera. När hon klickar på det här inlägget och omdirigeras till webbplatsen Adobe, orsakar detta den första webbsessionen som är relaterad till [!DNL LinkedIn] till slut och en ny session som är relaterad till [!DNL Facebook] börjar.
 
 **Betalda eller organiska sökkanaler**
 
-Nya sessioner börjar när en användare kommer till webbplatsen via betalda eller organiska sökkanaler. Om Haley kommer till Adobe webbplats genom organisk sökning och sedan omedelbart besöker er webbplats via en betald annons på Google, kommer två separata sessioner att skapas.
+Nya sessioner börjar när som helst när en användare kommer till din webbplats via betalda eller organiska sökkanaler. Om Haley kommer till Adobe webbplats genom organisk sökning och sedan direkt besöker er webbplats via en betald annons på Google, skapas två separata sessioner.
 
 **Web Direct-trafik**
 
@@ -66,4 +66,4 @@ _Men_, om Haleys första webbsession kom från Web Direct och sedan besöker hon
 
 ## Google Analytics sessioner {#google-analytics-sessions}
 
-Det finns vissa likheter med hur [!DNL Marketo Measure] och Google Analytics definierar sessioner. Mer information om hur Google Analytics definierar sessioner finns på: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}
+Det finns vissa likheter med hur [!DNL Marketo Measure] och Google Analytics definierar sessioner. Mer information om hur Google Analytics definierar sessioner finns på: [https://support.google.com/analytics/answer/2731565?hl=en](https://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

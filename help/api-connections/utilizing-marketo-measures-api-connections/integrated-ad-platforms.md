@@ -4,7 +4,7 @@ description: Integrerade annonsplattformar - [!DNL Marketo Measure]
 title: Integrerade annonsplattformar
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 0%
@@ -97,7 +97,7 @@ UTM-taggar kan se svåra att skapa i början, men det finns många verktyg som d
 
 **[!DNL Google URL]Builder**
 
-Google URL Builder är standardverktyg för att skapa korrekt formaterade URL:er med UTM-taggar. Ange bara URL-adressen och det önskade värdet för varje parameter och klicka på &quot;[!UICONTROL Generate URL]&quot;. Det här är ett idealiskt verktyg om du bara har en handfull URL:er att tagga. Öppna verktyget [här](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
+Google URL Builder är standardverktyg för att skapa korrekt formaterade URL:er med UTM-taggar. Ange URL-adressen och det önskade värdet för varje parameter och klicka på &quot;[!UICONTROL Generate URL]&quot;. Det här är ett idealiskt verktyg om du bara har en handfull URL:er att tagga. Öppna verktyget [här](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
 
 **Google-kalkylblad genererat av EpikOne**
 

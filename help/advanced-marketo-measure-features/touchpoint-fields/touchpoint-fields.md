@@ -4,9 +4,9 @@ description: Touchpoint-fält - [!DNL Marketo Measure]
 title: Touchpoint-fält
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Historiskt sett, när kunderna är med [!DNL Marketo Measure] och om vi inte har
 
 ## Aktivera funktionen {#enabling-the-feature}
 
-Från [!DNL Marketo Measure] Gå till sidan med kontaktpunktsfält på inställningsmenyn. Därifrån kan du aktivera funktionen genom att välja **Ja** under **Aktivera beräkningsfält**. När det är aktiverat kan du skapa Touchpoint-fält.
+Från [!DNL Marketo Measure] Gå till sidan med kontaktpunktsfält på inställningsmenyn. Därifrån kan du aktivera funktionen genom att välja **Ja** under **Aktivera beräkningsfält**. När funktionen är aktiverad kan du skapa Touchpoint-fält.
 
 ![](assets/one.png)
 
@@ -221,7 +221,7 @@ Ytterligare arbete krävs för att visa de nya fälten i [!DNL Marketo Measure] 
 
 **Hur verifierar jag att mitt extraheringsuttryck är giltigt och drar rätt värde?**
 
-Det finns ett onlineverktyg ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) som du kan köra och testa uttrycket. Uttrycket blir grönt om det är giltigt eller rött om det är ogiltigt. Dessutom finns [!UICONTROL explanation] i det övre högra hörnet är användbart och anger vad du extraherar.
+Det finns ett onlineverktyg ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) som du kan köra och testa uttrycket. Uttrycket visas grönt om det är giltigt eller rött om det är ogiltigt. Dessutom finns [!UICONTROL explanation] i det övre högra hörnet är användbart och anger vad du extraherar.
 
 ![](assets/twelve.png)
 

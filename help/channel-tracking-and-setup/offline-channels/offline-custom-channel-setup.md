@@ -4,9 +4,9 @@ description: Anpassad kanalinställning offline - [!DNL Marketo Measure]
 title: Anpassad kanalinställning offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ När du har redigerat och uppdaterat kalkylbladet med dina anpassade regler är 
 
 >[!TIP]
 >
->Vill bestämma _när_ a [!DNL Salesforce] Campaign Type dras ner i [!DNL Marketo Measure] kanalmappning? Gå bara till **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. Du kan sedan se vilka värden som finns i listan och vilka som är inaktiva. Inaktiva typer visas inte som en valbar typ i vår[!UICONTROL Offline Channels]&quot;. Observera att den här processen kan ta var som helst från några minuter upp till 48 timmar.
+>Vill bestämma _när_ a [!DNL Salesforce] Campaign Type dras ner i [!DNL Marketo Measure] kanalmappning? Gå till **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. Du kan sedan se vilka värden som finns i listan och vilka som är inaktiva. Inaktiva typer visas inte som en valbar typ i vår[!UICONTROL Offline Channels]&quot;. Observera att den här processen kan ta var som helst från några minuter upp till 48 timmar.
 
 Klicka **[!UICONTROL Save]** när du är klar och [!DNL Marketo Measure] kommer att överföra ändringarna och bearbeta om data.
 

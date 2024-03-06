@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] Programintegrering - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Programintegrering"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ I listan över Marketo-programkanaler vill du mappa värdena till [!DNL Marketo 
 
 1. Överst har du möjlighet att mappa till dina CRM-kampanjtyper. Nedan visas alternativen för dina Marketo-programkanaler.
 
-1. Markera först den kanal som ska mappas till värdet och välj sedan delkanalen om du vill. När du är klar klickar du **[!UICONTROL Save]** längst ned.
+1. Markera först den kanal som ska mappas till värdet och välj sedan delkanalen om du vill. Klicka på **[!UICONTROL Save]** längst ned.
 
    ![](assets/eleven.png)
 

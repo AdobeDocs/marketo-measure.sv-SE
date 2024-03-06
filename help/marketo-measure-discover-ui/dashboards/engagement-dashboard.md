@@ -2,9 +2,9 @@
 description: Instrumentpanel för engagemang - [!DNL Marketo Measure] - Produkt
 title: Instrumentpanel för engagemang
 feature: Reporting
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Frågor som kontrollpanelen besvarar:
 
 * Hur många människor var förlovade? Hur många beröringar per person har varit i genomsnitt?
 * Hur är antalet kontaktytor jämfört med personer som berörts inom en viss kanal/underkanal/kampanj?
-* Hur många kontaktytor fanns det på en viss kanal eller underkanaler? Hur ändrades det över tid?
+* Hur många kontaktytor fanns det på en viss kanal eller underkanal? Hur ändrades det över tid?
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Frågor som kontrollpanelen besvarar:
 ### KPI-paneler {#kpi-tiles}
 
 * Kontaktpunkter: Det totala antalet råa kontaktytor som genereras.
-   * Kontaktpunkter för Buyer Touchpoints och Buyer Attribution är attribueringsresultat som skapas genom att man väljer specifika kontaktytor för krediter. Alla kontaktytor kommer inte att väljas som BT och BAT.
+   * Kontaktpunkter för Buyer Touchpoints och Buyer Attribution är attribueringsresultat som skapas genom att man väljer specifika kontaktytor för krediter. Alla kontaktytor väljs inte som BT och BAT.
 * Kontakter: Det totala antalet personer som har några kontaktytor.
 * Kontaktpunkter per person: Genomsnittligt antal kontaktytor per person som har berörts.
 

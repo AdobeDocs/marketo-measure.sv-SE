@@ -3,9 +3,9 @@ description: Adobe Experience Cloud Interface Overview - [!DNL Marketo Measure]
 title: Adobe Experience Cloud Interface Overview
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Om du redan är inloggad på en Adobe Experience Cloud-produkt klickar du på me
 >
 >Listrutan kan se annorlunda ut beroende på vilka Adobe Experience Cloud-produkter du prenumererar på.
 
-Om du är _not_ redan inloggad på en Adobe Experience Cloud-produkt, logga in direkt på [!DNL Marketo Measure] här: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
+Om du _not_ redan inloggad på en Adobe Experience Cloud-produkt, logga in direkt på [!DNL Marketo Measure] här: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## Nya funktioner {#new-features}
 

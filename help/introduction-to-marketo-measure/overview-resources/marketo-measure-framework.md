@@ -4,9 +4,9 @@ description: Marketo Measure Framework - Marketo Measure - Produktdokumentation
 title: Marketo Measure Framework
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Marketo Measure JavaScript spårar alla de interaktioner för onlinemarknadsför
 >
 >Instruktioner om hur du lägger till Marketo Measure JS finns i [klicka här](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
-Marketo Measure JS hämtar in data från webbbesök (inklusive anonyma webbbesök), allmän trafik-/sidnavigering, nedladdning av innehåll och inskickade formulär. Dessa data läggs in i CRM och varje marknadsföringsinteraktion visas som en kontaktyta.
+Marketo Measure JS hämtar in data från webbbesök (inklusive anonyma webbbesök), allmän trafik-/sidnavigering, innehållshämtningar och inskickade formulär. Dessa data läggs in i CRM och varje marknadsföringsinteraktion visas som en kontaktyta.
 
 ## CRM-integreringar {#crm-integrations}
 
@@ -62,4 +62,4 @@ Med det här menyalternativet kan du konfigurera dina inställningar för attrib
 
 **Kontrollpanel för marknadsföringsavkastning**
 
-Menyalternativet för Dashboard för marknadsföringsavkastning är där du kan visualisera dina data när det gäller kanalprestanda, -aktivitet och -kostnader.
+Menyalternativet för Dashboard för marknadsföringsavkastning är där du kan visualisera dina data när det gäller kanalprestanda, -aktivitet och -kostnad.

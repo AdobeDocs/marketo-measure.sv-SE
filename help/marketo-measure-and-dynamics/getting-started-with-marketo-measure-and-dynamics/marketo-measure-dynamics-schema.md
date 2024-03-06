@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Dynamics-schema - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Dynamics-schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-Nedan hittar du det Dynamics-schema som krävs för att komma igång med [!DNL Marketo Measure]. Alla entiteter och fält visas tillsammans med nödvändig läs- och/eller skrivåtkomst.
+Nedan visas det Dynamics-schema som krävs för att komma igång med [!DNL Marketo Measure]. Alla entiteter och fält visas tillsammans med nödvändig läs- och/eller skrivåtkomst.
 
 ## Kontaktpunkter för köpare {#buyer-touchpoints}
 
@@ -912,7 +912,7 @@ Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Attribution 
 
 ## Dynamics Standard-entiteter {#dynamics-standard-entities}
 
-Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Measure] interagerar med, liksom med de anpassade fält som vi lägger till i dessa entiteter.
+Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Measure] interagerar med och de anpassade fält som vi lägger till i dessa entiteter.
 
 **Lead**
 

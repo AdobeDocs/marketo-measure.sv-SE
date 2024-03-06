@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Integrering med Adobe Analytics - [!DNL Mar
 title: "[!DNL Marketo Measure] Integrering med [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,19 @@ Integreringen av B2B-kundattribut möjliggör för användare av [!DNL Marketo M
 
 1. När datakällan för kundattribut har skapats fortsätter du konfigurationsprocessen genom att gå till **[!UICONTROL Integrations]** > **[!UICONTROL Connections]** i [!DNL Marketo Measure] admin-menyn.
 
-1. Klicka på **[!UICONTROL Set Up New Customer Attributes Connection]** och följ instruktionerna för att konfigurera integreringen av kundattribut. Användargränssnittet uppmanar dig att ange den Alias ID- och FTP-anslutningsinformation som du fick när du skapade kundattributskällan i din Core Services Console och att välja den uppsättning kontoattribut som du vill synkronisera med din [!DNL Adobe Analytics] konto.
+1. Klicka på **[!UICONTROL Set Up New Customer Attributes Connection]** och följ instruktionerna för att konfigurera integreringen av kundattribut. Användargränssnittet uppmanar dig att ange den anslutningsinformation för alias-ID och FTP som du fick när du skapade källan för kundattribut i din Core Services Console. Välj den uppsättning kontoattribut som du vill synkronisera med [!DNL Adobe Analytics] konto.
 
-   måste du också ange ditt Adobe IMS-organisationsnummer. Detta ID visas i det nedre högra hörnet av Adobe Experience Cloud Admin Console. Om du vill ha mer hjälp med att hitta det här ID:t kontaktar du kontoteamet (din kontoansvarige) på Adobe.
+   Ange ditt Adobe IMS-organisations-ID. Detta ID visas i det nedre högra hörnet av Adobe Experience Cloud Admin Console. Om du vill ha mer hjälp med att hitta det här ID:t kontaktar du kontoteamet (din kontoansvarige) på Adobe.
 
-1. När du har skapat anslutningen i [!DNL Marketo Measure] ditt konto måste du gå tillbaka till din Experience Cloud-konsol för att [validera schemat](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Du behöver inte bekymra dig om FTP-filöverföringen, [!DNL Marketo Measure] har automatiserat den delen åt dig. Allt du behöver göra är att gå till schemaskärmen Visa/redigera för den Customer Attribute Source du skapade i steg 1 och tala om för Adobe vilka datatyper som finns för vart och ett av attributen [!DNL Marketo Measure] har överförts åt dig. Du kan också skapa nya visningsvänliga namn för de överförda attributen om du vill.
+1. När du har skapat anslutningen i [!DNL Marketo Measure] ditt konto måste du gå tillbaka till din Experience Cloud-konsol för att [validera schemat](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Du behöver inte bekymra dig om FTP-filöverföringen, [!DNL Marketo Measure] har automatiserat den delen åt dig. Gå till schemaskärmen Visa/redigera för den Customer Attribute Source som du skapade i steg 1 och tala om för Adobe vilka datatyper som finns för vart och ett av attributen som [!DNL Marketo Measure] har överförts åt dig. Du kan också skapa nya visningsvänliga namn för de överförda attributen om du vill.
 
-   Om du har valt att synkronisera attribut från CRM-kontoobjektet rekommenderar vi att du väljer nya visningsnamn för dem, som [!DNL Marketo Measure] kommer endast att fylla i API-nivånamn för dessa attribut, som vanligtvis inte är rapporteringsvänliga.
+   Om du har valt att synkronisera attribut från CRM-kontoobjektet rekommenderar vi att du väljer nya visningsnamn för dem, som [!DNL Marketo Measure] fyller bara i API-nivånamnen för dessa attribut, som vanligtvis inte är rapporteringsvänliga.
 
-1. Det sista steget är att konfigurera attributprenumerationer för de Experience Cloud-program som du vill använda attributen i. Du kan konfigurera prenumerationer för [!DNL Adobe Analytics] eller [!DNL Adobe Target].  Mer information om hur du gör det [finns här](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html).
+1. Det sista steget är att konfigurera attributprenumerationer för de Experience Cloud-program som du vill använda attributen i. Du kan konfigurera prenumerationer för [!DNL Adobe Analytics] eller [!DNL Adobe Target].  Mer information om hur du gör det [finns här](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
 
 ## Attributbeskrivningar {#attribute-descriptions}
 
-När du skapar en ny B2B-anslutning för kundattribut, [!DNL Marketo Measure] skapar automatiskt en standarduppsättning B2B-kundattribut åt dig. Dessa attribut beskrivs i tabellen nedan.
+När du skapar en B2B-anslutning för kundattribut [!DNL Marketo Measure] skapar automatiskt en standarduppsättning B2B-kundattribut åt dig. Dessa attribut beskrivs i tabellen nedan.
 
 Förutom de som listas nedan kan du även överföra attribut som är kopplade till kontoobjektet i CRM. Om mer än ett konto är knutet till den angivna användaren, [!DNL Marketo Measure] fyller i alla matchande kontoattributvärden i en semikolonavgränsad lista.
 
@@ -79,7 +79,7 @@ Förutom de som listas nedan kan du även överföra attribut som är kopplade t
 
 **En anteckning om attributbegränsningar**
 
-De attribut som den här integreringen ger kommer fortfarande att räknas av mot de avtalsbaserade attributgränserna i [!DNL Adobe Analytics] och [!DNL Adobe Target]. Endast attribut som påträffas via en attributprenumeration (steg 5 i [Konfigurera integreringen](#configuring-the-integration)) räknas av mot gränsen för det prenumererade programmet.
+De attribut som visas via den här integreringen räknas av mot dina avtalsattribut i [!DNL Adobe Analytics] och [!DNL Adobe Target]. Endast attribut som påträffas via en attributprenumeration (steg 5 i [Konfigurera integreringen](#configuring-the-integration)) räknas in i det prenumererade programmets gräns.
 
 ## Vanliga frågor {#faqs}
 

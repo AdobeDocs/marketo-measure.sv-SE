@@ -3,9 +3,9 @@ description: Domänhantering - [!DNL Marketo Measure]
 title: Domänhantering
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ När en domän har lagts till i Admin Console, [!DNL Marketo Measure] synkronise
 
 ![](assets/domain-management-2.png)
 
-På **[!UICONTROL Integration]** > **[!UICONTROL Domains]** visas alla domäner som användaren har registrerat i Admin Console tillsammans med deras status. Varje domän kan aktiveras eller inaktiveras. Om en domän är aktiverad [!DNL Marketo Measure] spårning samlar in trafik som kan ses på den domänen. Om en domän är inaktiverad [!DNL Marketo Measure] ignorerar all trafik som kommer från den domänen och inte skapar kontaktytor eller andra data. [!DNL Marketo Measure] bekräftar inaktiveringen av en domän och varnar för förvrängningarna:
+På **[!UICONTROL Integration]** > **[!UICONTROL Domains]** visas alla domäner som användaren har registrerat i Admin Console tillsammans med deras status. Varje domän kan aktiveras eller inaktiveras. Om en domän är aktiverad [!DNL Marketo Measure] spårning samlar in trafik som kan ses på den domänen. Om en domän är inaktiverad [!DNL Marketo Measure] ignorerar all trafik som kommer från den domänen och skapar inte kontaktytor eller andra data. [!DNL Marketo Measure] bekräftar inaktiveringen av en domän och varnar för eventuella ändringar:
 
 ![](assets/domain-management-3.png)
 
@@ -55,7 +55,7 @@ När du hovrar över ett enskilt statusobjekt utlöses ett verktygstips som ytte
 
 **Vad händer när en domän tas bort i Admin Console?**
 
-När en domän tas bort i Admin Console, [!DNL Marketo Measure] markerar domänen som borttagen. [!DNL Marketo Measure] kommer omedelbart att sluta spåra trafik på den här domänen, men kommer inte att ta bort tidigare insamlade data.
+När en domän tas bort i Admin Console, [!DNL Marketo Measure] markerar domänen som borttagen. [!DNL Marketo Measure] avbryter direkt spårning av trafik på den här domänen, men tar inte bort tidigare insamlade data.
 
 **Varför kan jag inte aktivera en domän?**
 

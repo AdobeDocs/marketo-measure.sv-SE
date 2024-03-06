@@ -3,9 +3,9 @@ description: Kontrollpanel för attributerade intäkter - [!DNL Marketo Measure]
 title: Kontrollpanel för attributerade intäkter
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Kontrollpanelen för attributerade intäkter ger ett fokuserat perspektiv på de
 
 >[!NOTE]
 >
->Den här instrumentpanelen finns för närvarande i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den aktuella instrumentpanelen kommer att bli inaktuell när vi har övergått fullständigt och säkerställt optimal funktionalitet.
+>Den här instrumentpanelen är i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den nuvarande instrumentpanelen kommer att bli inaktuell efter att vi har gjort en fullständig övergång och säkerställt optimal funktionalitet.
 
 **Frågor till styrelsen:**
 
@@ -34,7 +34,7 @@ Kontrollpanelen för attributerade intäkter ger ett fokuserat perspektiv på de
 
 Staplat stapeldiagram med totala attributerade intäkter, segmenterade efter kanal, för varje månad/kvartal/år.
 
-* använda detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
+* Använd detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
 * Håll pekaren över ett stolpsegment eller mellanrummet mellan stolparna för att visa detaljerad information.
 
 **Frågor om diagramsvaren:**
@@ -63,7 +63,7 @@ Totala tillskrivna intäkter segmenterade efter kanal, delkanal och kampanj, pre
 **Trädvy**
 
 * Trädvyn möjliggör en mer interaktiv och detaljerad datautforskning, vilket gör det möjligt för marknadsförare att identifiera trender, avvikelser eller utomordentliga resultat i sina marknadsföringssatsningar.
-* Klicka på en gren för att gå djupare in i det efterföljande hierarkilagret.
+* Klicka på en gren om du vill gå djupare in i det efterföljande hierarkilagret.
 
 ![](assets/attributed-revenue-dashboard-3.png)
 

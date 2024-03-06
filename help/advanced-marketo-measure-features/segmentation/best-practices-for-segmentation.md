@@ -3,9 +3,9 @@ description: Bästa praxis för segmentering - [!DNL Marketo Measure]
 title: Bästa praxis för segmentering
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Vid överföring till [!UICONTROL Discover], visas segment som ett tillgängligt
 
 ## Bästa praxis {#best-practice}
 
-Oavsett om du definierar segmentering för första gången eller bara granskar den segmentering som har upprättats tidigare bör du tänka på följande bästa praxis.
+Oavsett om du definierar segmentering för första gången eller bara granskar den segmentering som har upprättats tidigare bör du tänka på följande.
 
 * Gör det enkelt!
 * Justera segmentnamnet efter organisationens nomenklatur, d.v.s. kategorin = filternamn, segment = filtervärde

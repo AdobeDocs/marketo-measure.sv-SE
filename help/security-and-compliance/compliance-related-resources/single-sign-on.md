@@ -3,16 +3,16 @@ unique-page-id: 18874761
 description: Enkel inloggning - [!DNL Marketo Measure]
 title: Enkel inloggning
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
 
 # Enkel inloggning {#single-sign-on}
 
-SAML (Security assertion markup language) för enkel inloggning (single sign-on) gör det möjligt för användare att autentisera via ett företags identitetsleverantör när de loggar in på [!DNL Marketo Measure] app. Med enkel inloggning kan användaren bara autentisera en gång, utan att behöva autentisera separata appar. SAML är en nödvändighet för företagskunder eftersom inte alla användare har [!DNL Salesforce] eller [!DNL Google] inom organisationen. För att kunna skala [!DNL Marketo Measure] har utvecklat en SAML-lösning som kan stödja leverantörer av företagsidentiteter.
+SAML (Security assertion markup language) för enkel inloggning (single sign-on) gör det möjligt för användare att autentisera via ett företags identitetsleverantör när de loggar in på [!DNL Marketo Measure] app. Med enkel inloggning kan en användare autentisera en gång utan att behöva autentisera separata appar. SAML är en nödvändighet för företagskunder eftersom inte alla användare har [!DNL Salesforce] eller [!DNL Google] inom organisationen. Skalförändra [!DNL Marketo Measure] har utvecklat en SAML-lösning som kan stödja leverantörer av företagsidentiteter.
 
 >[!CAUTION]
 >
@@ -20,7 +20,7 @@ SAML (Security assertion markup language) för enkel inloggning (single sign-on)
 
 >[!NOTE]
 >
->Det är sannolikt att företag använder olika identitetsleverantörer (t.ex. Ping Identity, Okta). De termer som används i följande konfigurationsinstruktioner och i användargränssnittet kanske inte matchar de som används av din identitetsleverantör.
+>Det är sannolikt att företag använder olika identitetsleverantörer (till exempel Ping Identity, Okta). De termer som används i följande konfigurationsinstruktioner och i användargränssnittet kanske inte matchar de som används av din identitetsleverantör.
 
 ## Krav {#requirements}
 
@@ -35,7 +35,7 @@ Navigera till Inställningar > Säkerhet > Autentisering på sidan [!DNL Marketo
 
 ## Process {#process}
 
-[!DNL Marketo Measure] För enkel inloggning krävs att du konfigurerar dina autentiseringsinställningar i en serie steg som är viktiga att följa så att du inte riskerar att bli låst från din [!DNL Marketo Measure] konto.
+[!DNL Marketo Measure] För enkel inloggning krävs att du konfigurerar dina autentiseringsinställningar i en serie steg så att du inte riskerar att bli utlåst från din [!DNL Marketo Measure] konto.
 
 Konfigurera [!DNL Marketo Measure] Program i din identitetsleverantör. Se extern dokumentation som listas nedan för genomgångar.
 
@@ -152,7 +152,7 @@ Endast giltig [!DNL Google] konton kan läggas till och måste ha en användarro
 
 ## Externa länkar {#external-links}
 
-* [Okta](http://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
-* [Ping-identitet](http://docs.pingidentity.com/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [OneLogin](http://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
-* [Active Directory](http://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [Ping-identitet](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
+* [OneLogin](https://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
+* [Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

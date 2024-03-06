@@ -4,9 +4,9 @@ description: Lägger till [!DNL Marketo Measure] till [!DNL Hubspot] - [!DNL Mar
 title: Lägger till [!DNL Marketo Measure] till [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Lär dig hur du lägger till [!DNL Marketo Measure] JavaScript för att spåra [!DNL Hubspot] landningssidor och inskickade formulär.
 
-Hubspot skiljer sig något från andra automatiserade marknadsföringssystem genom att den kan hantera dina landningssidor/formulär OCH din webbplats. Det är viktigt att notera att instruktionerna nedan gäller [!DNL Marketo Measure] spåra aktivitet på [!DNL Hubspot]webbsidor. Om du ger din webbplats ett annat CMS-system än [!DNL Hubspot] (t.ex. Wordpress) måste du lägga till [!DNL Marketo Measure] JavaScript-skript till CMS-systemet också.
+Hubspot skiljer sig något från andra automatiserade marknadsföringssystem genom att den kan hantera dina landningssidor/formulär OCH din webbplats. Det är viktigt att notera att instruktionerna nedan gäller [!DNL Marketo Measure] spåra aktivitet på [!DNL Hubspot]webbsidor. Om du ger din webbplats ett annat CMS-system än [!DNL Hubspot] (till exempel Wordpress) måste du lägga till [!DNL Marketo Measure] JavaScript-skript till CMS-systemet också.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ När du har loggat in på [!DNL Hubspot] gör så här:
 
 1. Klicka på **[!UICONTROL Content Settings]**.
 
-1. Inom [!UICONTROL Content Settings]klickar du på HTML i webbplatshuvudet (se bilden nedan).
+1. Inom [!UICONTROL Content Settings]klickar du på HTML för webbplatshuvudet (se bilden nedan).
 
 1. Lägg till följande skript i `<header>`:
 

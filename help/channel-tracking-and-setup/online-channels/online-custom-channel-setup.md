@@ -4,9 +4,9 @@ description: Anpassad kanalkonfiguration online - [!DNL Marketo Measure]
 title: Anpassad kanalinställning online
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---

@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Salesforce-objekt - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Salesforce-objekt"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Om du kör A/B-tester via [!DNL Optimizely] eller VWO (Visual Web Optimizer) kan
 
 ![](assets/5.png)
 
-The [!DNL Marketo Measure] A/B-testobjekt visas som en relaterad lista på [!UICONTROL Leads], [!UICONTROL Contacts] och [!UICONTROL Opportunity] sidor. I listan visas alla experiment och variationer som du kör med Optimal eller VWO, och du kan se experiment/variationer när de gäller specifika leads och kontakter.
+The [!DNL Marketo Measure] A/B-testobjekt visas som en relaterad lista på [!UICONTROL Leads], [!UICONTROL Contacts] och [!UICONTROL Opportunity] sidor. Listan innehåller alla experiment och variationer som du kör via Optimizely eller VWO, och gör att du kan se experiment/variationer när de gäller specifika leads och kontakter.
 
 ## [!DNL Marketo Measure] Händelser {#marketo-measure-events}
 

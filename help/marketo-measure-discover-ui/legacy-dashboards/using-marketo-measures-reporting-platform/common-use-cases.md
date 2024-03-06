@@ -4,9 +4,9 @@ description: Vanliga användningsfall - [!DNL Marketo Measure]
 title: Vanliga användningsfall
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---

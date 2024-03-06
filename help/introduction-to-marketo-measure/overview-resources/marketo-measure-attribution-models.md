@@ -4,9 +4,9 @@ description: Marketo Measure attribueringsmodeller - Marketo Measure - produktdo
 title: Marketo Measure attribueringsmodeller
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
-source-git-commit: aa12df4d0c77cdc677f78bcab19497806927ec2b
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Marketo Measure erbjuder sex typer av attribueringsmodeller:
 * Fullständig sökväg
 * Anpassad modell
 
-Dessa modeller varierar i komplexitet. First Touch och Lead Creation är våra enkla modeller med en knapptryckning. De återstående fyra är våra mer komplexa multitouch-modeller. Strukturen på Marketo Measure attribueringsmodeller återspeglar de fyra viktigaste kontaktytorna under kundresan:
+Dessa modeller varierar i komplexitet. Första beröringen och Lead-generering är enkla modeller med en knapptryckning. De återstående fyra är mer komplexa multitouch-modeller. Strukturen på Marketo Measure attribueringsmodeller återspeglar de fyra viktigaste kontaktytorna under kundresan:
 
 * Första beröring (FT)
 * Skapa leads (LC)
@@ -40,7 +40,7 @@ De följande avsnitten behandlar varje attribueringsmodell och hur attribuerings
 
 **Första pekmodellen**
 
-Den första pekmodellen fokuserar bara på den allra första interaktionen en lead har med din organisation. Den här modellen attribuerar 100 % av attribueringskrediten till första gången leadet får kännedom om ditt företag, First Touch (FT).
+Första beröringsmodellen fokuserar bara på den första interaktionen som en lead har med din organisation. Den här modellen attribuerar 100 % av attribueringskrediten till första gången leadet får kännedom om ditt företag, First Touch (FT).
 
 Säg Kate-besök `www.adobe.com` för första gången via en Adwords Ad och visar ett whitepaper. Adwords-kanalen skulle få 100 % av attribueringskrediten från den affärsmöjligheten.
 
@@ -60,7 +60,7 @@ Multitouch-modeller används för längre och mer komplicerade säljcykler. Dess
 
 **U-formad modell**
 
-U-Shaped-modellen fokuserar på både FT- och LC-kontaktytorna. I den här modellen får FT- och LC-kontaktytan 50 % av intäktskrediten.
+U-Shaped-modellen fokuserar på både FT- och LC-kontaktytorna. I den här modellen får FT- och LC-kontaktytorna 50 % av intäktskrediten.
 
 Kate&#39;s first visit to `www.adobe.com` via en Adwords-annons skulle få 50 % av attribueringskrediten. De återstående 50 % skulle tillskrivas den Linkedin-post som drev Austin att fylla i ett formulär och bli en ledare.
 
@@ -86,4 +86,4 @@ Efter det att affärsmöjligheten har skapats bestämmer Kate, Austin och Hillar
 
 **Anpassad attributmodell**
 
-Marketo Measure erbjuder också en modell för anpassad attribuering som gör att användare kan välja vilka kontaktytor eller anpassade stadier som ska ingå i modellen. Dessutom kan användarna styra den procentandel av attribueringskrediten som tilldelats dessa kontaktytor och faser. Om ett säljprojekt inte har någon dedikerad medelstor beröring fördelas procentandelen jämnt mellan andra befattningar.
+Marketo Measure erbjuder också en modell för anpassad attribuering som gör att användare kan välja vilka kontaktytor eller anpassade stadier som ska ingå i modellen. Dessutom kan användarna styra den procentandel av attribueringskrediten som tilldelats dessa kontaktytor och faser. Om ett säljprojekt inte har någon dedikerad medelstor beröring fördelas procentandelen jämnt mellan andra positioner.

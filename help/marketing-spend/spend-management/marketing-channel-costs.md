@@ -4,20 +4,20 @@ description: Marknadsföringskanalkostnader - [!DNL Marketo Measure]
 title: Marknadsföringskanalkostnader
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
 
 # Marknadsföringskanalkostnader {#marketing-channel-costs}
 
-En av de mest grundläggande fördelarna med [!DNL Marketo Measure] är möjligheten att knyta samman marknadsföringssatsningar direkt till intäktseffekten - med så mycket granularitet som önskas. Det är möjligt att se avkastningen på investeringar på kontaktytpunktsnivå. För att dra nytta av den här förmånen behöver kanalkostnaderna bara överföras till [!DNL Marketo Measure] app. ROI-rapporter skapas automatiskt och är tillgängliga i **Kontrollpanel för marknadsföringsavkastning** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+En av de mest grundläggande fördelarna med [!DNL Marketo Measure] är möjligheten att knyta samman marknadsföringssatsningar direkt till intäktseffekten - med så mycket granularitet som önskas. Det är möjligt att se avkastningen på investeringar på kontaktytpunktsnivå. Om du vill utnyttja den här förmånen måste kanalkostnaderna överföras till [!DNL Marketo Measure] app. ROI-rapporter skapas automatiskt och är tillgängliga i **Kontrollpanel för marknadsföringsavkastning** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Klicka här om du vill gå direkt till instruktionerna.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
-The [!DNL Marketo Measure] Med funktionen för marknadsföringsutgifter kan kunderna ladda upp sina utgifter över alla kanaler, underkanaler och kampanjer. Ju mer data kunderna lägger till, desto mer lönsamhetsrapportering kan vi ta fram i Instrumentpanelen för intäktsattribuering.
+The [!DNL Marketo Measure] Med funktionen för marknadsföringsutgifter kan kunderna ladda upp sina utgifter över alla kanaler, underkanaler och kampanjer. Ju mer data kunderna lägger till, desto mer avkastningsbaserad rapportering visas på kontrollpanelen för intäktsattribuering.
 
 Kostnader som rapporteras och importeras från direkta annonsanslutningar dras automatiskt in på den mest detaljerade nivån och behöver inte överföras. Detta inkluderar våra nuvarande integreringar med Google AdWords, Bing Ads, Doubleclick och Facebook.
 
@@ -27,19 +27,19 @@ Kostnader som rapporteras och importeras från direkta annonsanslutningar dras a
 
 **Utgifter per kampanj**
 
-På den mest detaljerade nivån kan kunderna lägga på utgifter per enskild kampanj, grupperad i sin respektive kanal. För CRM-kampanjer [!DNL Marketo Measure] har hämtat Campaign-ID:t till en separat kolumn som hjälper dig att mappa offlinekampanjutgifter från CRM till den här tabellen. Genom att lägga till utgifter på den här nivån kan kunderna visa avkastningen på kampanjinvesteringen och optimera resultatet för Campaign.
+På den mest detaljerade nivån kan kunderna ange utgifter per enskild kampanj, grupperade i sin respektive kanal. För CRM-kampanjer [!DNL Marketo Measure] har hämtat Campaign-ID:t till en separat kolumn som hjälper dig att mappa offlinekampanjutgifter från CRM till den här tabellen. Genom att lägga till utgifter på den här nivån kan kunderna visa avkastningen på kampanjinvesteringen och optimera resultatet för Campaign.
 
 Summan av alla kampanjer behöver inte summera några värden som har angetts i delkanalen eller kanalen, men det får inte vara mer än några värden som har angetts i delkanalen eller kanalen. Om summan är mindre än det värde som anges i delkanalen eller kanalen, [!DNL Marketo Measure] lägger automatiskt till en rad för &quot;Annat&quot; för att täcka mellanrummet och fylla i eventuella mellanrum.
 
 **Utgift per delkanal**
 
-På en högre nivå kan kunderna lägga på utgifter per underkanal, grupperade under dess kanal. Genom att lägga till utgifter på den här nivån kan kunderna se avkastningen på investeringar i subkanaler och optimera prestanda per subkanal.
+På en högre nivå kan kunderna ange utgifter per underkanal, grupperade under dess kanal. Genom att lägga till utgifter på den här nivån kan kunderna se avkastningen på investeringar i subkanaler och optimera prestanda per subkanal.
 
 Summan av alla delkanaler behöver inte summera några värden som har angetts vid kanalen, men det får inte vara mer än några värden som har angetts vid kanalen. Om summan är mindre än värdet som anges vid Kanalen, [!DNL Marketo Measure] lägger automatiskt till en rad för &quot;Annat&quot; för att täcka mellanrummet och fylla i eventuella mellanrum.
 
 **Utgift per kanal**
 
-På den högsta nivån kan kunderna lägga pengar per kanal. Genom att lägga till utgifter på den här nivån kan kunderna se kanalens avkastning och optimera prestanda per kanal.
+På den högsta nivån kan kunderna ange utgifter per kanal. Genom att lägga till utgifter på den här nivån kan kunderna se kanalens avkastning och optimera prestanda per kanal.
 
 **Datumväljaren**
 
@@ -61,7 +61,7 @@ Den hämtade CSV-filen hämtar resultaten från den aktuella skärmen, vilket in
 
 Oavsett vilken vy som visas i webbläsaren kan du överföra en CSV-fil om det är en filtrerad vy eller standardvy med alla datum och kanaler.
 
-Det vanligaste felet är datumkolumnernas format, som inträffar om datumformatet ändras och som kan inträffa avsiktligt om du flyttar mellan Excel och/eller Google-blad. Tänk på att datumet bör vara MM-YY, så den 12 september och inte 12 september eller maj-12 och inte 05-12.
+Det vanligaste felet är datumkolumnernas format, som inträffar om datumformatet ändras och kan inträffa avsiktligt om du flyttar mellan Excel och/eller Google-blad. Tänk på att datumet bör vara MM-YY, så den 12 september och inte 12 september eller maj-12 och inte 05-12.
 
 ## Innan du börjar {#before-you-begin}
 
@@ -75,7 +75,7 @@ När marknadsföringskanaler och regler har skapats eller uppdaterats kan de til
 
 **Steg 1: Navigera till sidan Marketing Spend på sidan [!DNL Marketo Measure] App.**
 
-Gå till **[!UICONTROL My Account]** meny, klicka på **[!UICONTROL Settings]** och sedan navigera till **[!UICONTROL Marketing Spend]** till vänster på sidofältet under **[!UICONTROL Reporting]** -avsnitt.
+Gå till **[!UICONTROL My Account]** meny, klicka **[!UICONTROL Settings]** och sedan navigera till **[!UICONTROL Marketing Spend]** till vänster på sidofältet under **[!UICONTROL Reporting]** -avsnitt.
 
 ![](assets/1.png)
 
@@ -107,7 +107,7 @@ Bing Ads och Google AdWords kostnad behöver inte anges eller uppdateras efterso
 
 **Steg 4: Spara filen i CSV-format**
 
-Om du arbetar i Google Sheets måste du hämta filen först. Undvik eller ta bort månadsdata eftersom det kan orsaka problem när du försöker överföra CSV-filen till [!DNL Marketo Measure] senare.
+Om du arbetar i Google Sheets måste du hämta filen först. Undvik att utesluta eller ta bort månadsdata eftersom det orsakar problem när du försöker överföra CSV-filen till [!DNL Marketo Measure] senare.
 
 **Steg 5: Överför CSV-filen**
 
@@ -117,11 +117,11 @@ Gå till **[!UICONTROL Cost]** i [!DNL Marketo Measure] app och klicka på **[!U
 
 **Varför visas siffror i CSV-filen?**
 
-Om inget värde anges på en högre nivå, t.ex. kanal eller delkanal, [!DNL Marketo Measure] summerar automatiskt de underordnade nivåerna åt dig, som presenteras när filen har överförts. Om summan av de underordnade är mindre än ett värde som angetts för det överordnade objektet, [!DNL Marketo Measure] lägger till raden &quot;Annat&quot; för att visa skillnaden i totalen.
+Om inget värde anges på en högre nivå, t.ex. kanal eller delkanal, [!DNL Marketo Measure] summerar automatiskt de underordnade nivåerna åt dig, som presenteras när filen har överförts. Om summan av de underordnade är mindre än ett värde som angetts för det överordnade objektet, [!DNL Marketo Measure] lägger till en&quot;Annan&quot;-rad för att visa skillnaden i summan.
 
 **Hur sätts kampanjerna i listan som jag ser?**
 
-För närvarande listar våra resultat kampanjer som vi har sett bli meriter med en kontaktyta. Om det fanns aktivitet från en kampanj visar vi den kampanjen baserat på det slutpunktsdatum som den inträffade.
+För närvarande listar våra resultat kampanjer som vi har sett bli meriter med en kontaktyta. Om det fanns aktivitet från en kampanj visar vi att Campaign baseras på det slutpunktsdatum som den inträffade.
 
 **Det finns för många rader och kolumner att gå igenom. Kan jag konsolidera vyn?**
 
@@ -129,4 +129,4 @@ Eftersom du kan ändra datumintervallet, filtrera kanalen eller söka efter vär
 
 **Varför kan jag inte överföra en fil?**
 
-Vi har olika behörighetsgrupper i [!DNL Marketo Measure] App. För att kunna överföra en fil måste du vara en AccountAdmin. Du kan kringgå detta genom att begära åtkomst från din AccountAdmin eller låta din AccountAdmin överföra filen åt dig. En lista över användare och deras roller finns under **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL View/Add Account Users]**.
+Vi har olika behörighetsgrupper i [!DNL Marketo Measure] App. Om du vill överföra en fil måste du vara en AccountAdmin. Du kan kringgå detta genom att begära åtkomst från din AccountAdmin eller låta din AccountAdmin överföra filen åt dig. En lista över användare och deras roller finns under **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL View/Add Account Users]**.

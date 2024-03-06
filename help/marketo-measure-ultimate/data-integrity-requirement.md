@@ -3,7 +3,7 @@ description: '[!DNL Marketo Measure] Ultimat dataintegritetskrav - [!DNL Marketo
 title: '''[!DNL Marketo Measure] Ultimate Data Integrity Required'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Marketo Measure] Ultimat dataintegritetskrav {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] validerar inkommande AEP-datauppsättningar för att säkerställa att data är tillräckliga och konsekventa för ändamålet med attribueringen. Om dataintegritetskravet inte uppfylls kommer datauppsättningen att refuseras av [!DNL Marketo Measure] system. Det här dokumentet innehåller information om dataintegritetskravet, frågeexempel för datainspektion och rekommenderar en lösning för obligatoriska fält med ett null-värde.
+[!DNL Marketo Measure] validerar inkommande AEP-datauppsättningar för att säkerställa att data är tillräckliga och konsekventa för attribuering. Om dataintegritetskravet inte uppfylls avvisas datauppsättningen av [!DNL Marketo Measure] system. Det här dokumentet innehåller information om dataintegritetskravet, frågeexempel för datainspektion och rekommenderar en lösning för obligatoriska fält med ett null-värde.
 
 ## Enhetsobjekt {#entity-object}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
       <td>string</td>
       <td></td>
       <td>Ja</td>
-      <td>Exempel: - 123@999-abc-888.Marketo</td>
+      <td>Till exempel: 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -365,7 +365,7 @@ ht-degree: 0%
       <td>string</td>
       <td></td>
       <td>Ja</td>
-      <td>Exempel: - 333@999-abc-888.Marketo</td>
+      <td>Till exempel: 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -373,7 +373,7 @@ ht-degree: 0%
       <td>string</td>
       <td>ID</td>
       <td>Ja</td>
-      <td>t.ex. - 333, beroende på datakälltabellen, är detta antingen lead-ID eller kontakt-ID</td>
+      <td>333, beroende på datakälltabellen, är detta till exempel lead-ID eller kontakt-ID</td>
     </tr>
     <tr>
       <td></td>

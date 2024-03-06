@@ -4,9 +4,9 @@ description: Stock-rapporter och instrumentpaneler i Dynamics - [!DNL Marketo Me
 title: Stock-rapporter och instrumentpaneler i Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >
 >Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-The [!DNL Marketo Measure] Hanterad lösning levereras med ett antal kontrollpaneler och rapporter som utformats för att täcka dina grundläggande behov när du tittar [!DNL Marketo Measure] data i Dynamics. Nedan finns den fullständiga listan och några vanliga användningsexempel.
+The [!DNL Marketo Measure] Hanterad lösning levereras med flera instrumentpaneler och rapporter på Stock som utformats för att täcka dina grundläggande behov när du tittar [!DNL Marketo Measure] data i Dynamics. Nedan finns den fullständiga listan och några vanliga användningsexempel.
 
-## Instrumentpaneler (totalt 9) {#dashboards-total}
+## Instrumentpaneler (totalt nio) {#dashboards-total}
 
 <table> 
  <colgroup> 
@@ -152,12 +152,12 @@ The [!DNL Marketo Measure] Hanterad lösning levereras med ett antal kontrollpan
   </tr> 
   <tr> 
    <td>Leads efter AdWords Name (FT)</td> 
-   <td>Mät hur många leads som har fått en första kontakt från varje AdWords-kampanj.</td> 
+   <td>Mät hur många leads som först berördes av varje AdWords-kampanj.</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td>Leads efter AdWords Name (LC)</td> 
-   <td>Mät hur många leads som genererats med en kontaktpekning från varje AdWords-kampanj.</td> 
+   <td>Mät hur många leads som har genererats med hjälp av ett tips från varje kampanj för AdWords.</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 

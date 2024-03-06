@@ -3,9 +3,9 @@ description: Bästa praxis för offlinekanaler - [!DNL Marketo Measure]
 title: Bästa praxis för offlinekanaler
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Värdet för marknadsföringskanal för de här kontaktytorna baseras på fälte
 
 ## Bästa praxis | Offlinekanalmappning {#best-practice-offline-channel-mapping}
 
-Oavsett om du mappar dina offlinekanaler för första gången eller bara granskar dem för att kontrollera om de är korrekta bör du tänka på följande.
+Oavsett om du mappar dina offlinekanaler för första gången eller bara granskar dem för att kontrollera om de är korrekta bör du tänka på följande bästa praxis.
 
 * Skapa ett avsiktligt ramverk för offlinekanaler
    * Ta dig tid att fundera över hur era marknadsföringskampanjer är organiserade och hur de passar in i [!DNL Marketo Measure] ramverk. Bestäm vilka kanaler och underkanaler som ska visas i dina offlinekanaler och vilka CRM Campaign-typer som skiljer dessa kanaler från varandra

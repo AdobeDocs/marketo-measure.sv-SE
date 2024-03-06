@@ -3,9 +3,9 @@ description: Bästa praxis för anpassad modell - [!DNL Marketo Measure]
 title: Bästa praxis för anpassad modell
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Oavsett om du konfigurerar din anpassade modell för första gången eller grans
 * Använd inte formelfält för att definiera en anpassad fas
    * Ett booleskt fält är att rekommendera
 * Inkludera inte anpassade steg i din anpassade modell som sammanfaller med en [!DNL Marketo Measure] Pekpunktsposition för milstolpe (FT, LC, OC, Closed Won/Lost)
-   * Om du gör det kommer dessa positioner alltid att inträffa samtidigt och kan orsaka inflaterade attribueringskrediter till delar av tratten.
+   * Om du gör det sker dessa positioner alltid samtidigt och kan orsaka inflaterad attribueringskrediter till delar av tratten.
 * Arbeta i ditt säljteam
-   * Genom att lägga in det team som arbetar närmast stadierna och deras innebörd ser du till att du använder rätt stadier och att de är korrekt definierade
+   * Genom att lägga dig i teamet som arbetar närmast med stadier och deras innebörd ser du till att du använder rätt stadier och att de är korrekt definierade
 
 ## Bästa praxis för underhåll {#best-practice-for-maintenance}
 

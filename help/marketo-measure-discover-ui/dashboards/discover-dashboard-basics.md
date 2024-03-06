@@ -2,9 +2,10 @@
 description: Grunderna i kontrollpanelen - [!DNL Marketo Measure] - Produkt
 title: Grunderna i kontrollpanelen
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -105,6 +106,6 @@ Om du väljer ett värde eller en axeletikett i en visualisering filtreras andra
 
 ### Verktygstips {#tooltips}
 
-Verktygstips innehåller extra information om de data som visas. Håll muspekaren över ett visuellt element så visas ett sammanhangsberoende verktygstips med information om den specifika datapunkten.
+Verktygstips innehåller extra information om de data som visas. Håll muspekaren över ett visuellt element och ett sammanhangsberoende verktygstips visas med insikter eller förklaringar om den specifika datapunkten.
 
 ![](assets/discover-dashboard-basics-13.gif)

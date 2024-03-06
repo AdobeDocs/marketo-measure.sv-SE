@@ -4,9 +4,9 @@ description: Samtalsuppföljningsintegrering - [!DNL Marketo Measure]
 title: Samtalsspårningsintegrering
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Vår integrering med [!DNL CallTrackingMetrics] är avsett att sammanfoga en web
 
 ## Anropsspårning förklaras {#call-tracking-explained}
 
-&quot;Anropsspårning&quot; är i allmänhet en produkt från företag som [!DNL CallTrackingMetrics], [!DNL DiaglogTech], [!DNL Invoca], eller [!DNL CallRail], för att nämna några. Unika telefonnummer visas för användarna baserat på de olika marknadsföringskanaler eller kampanjer de kommer från. På så sätt kan marknadsförarna se hur dessa kanaler eller kampanjer fungerar.
+&quot;Anropsspårning&quot; är i allmänhet en produkt från företag som [!DNL CallTrackingMetrics], [!DNL DiaglogTech], [!DNL Invoca], eller [!DNL CallRail], för att nämna några. Unika telefonnummer visas för användarna baserat på de olika marknadsföringskanalerna eller kampanjerna som de kommer från. På så sätt kan marknadsförarna se hur dessa kanaler eller kampanjer fungerar.
 
 ![](assets/1.png)
 
 ## Före och efter {#before-and-after}
 
-Ta en titt på flödesdiagrammet nedan för att se hur [!DNL Marketo Measure] används för att hantera telefonsamtal utan integrering med CallTrackingMetrics. Telefonsamtalet som ägde rum spårades inte, så det betraktades som en webbsession och ingen kontaktyta skapades för det. Det var inte förrän vid nästa besök där användaren fyllde i ett formulär som en kontaktyta till slut fylldes i.
+Titta på flödesdiagrammet nedan för att se hur [!DNL Marketo Measure] används för att hantera telefonsamtal utan integrering med CallTrackingMetrics. Telefonsamtalet som ägde rum spårades inte, så det betraktades som en webbsession och ingen kontaktyta skapades för det. Det var inte förrän vid nästa besök där användaren fyllde i ett formulär som en kontaktyta till slut fylldes i.
 
 Med integreringen ser du att webbsessionen faktiskt var knuten till ett telefonsamtal. Nästa formulärfyllning blir en PostLC-kontakt och spåras fortfarande som en del av resan.
 
@@ -31,9 +31,9 @@ Med integreringen ser du att webbsessionen faktiskt var knuten till ett telefons
 
 ## Så här fungerar det {#how-it-works}
 
-CallTrackingMetrics måste göra lite utvecklingsarbete för att detta ska fungera. Med det javascript som de placerar på din webbplats kan CallTrackingMetrics hämta _biz_uid från [!DNL Marketo Measure] cookie. Detta &quot;[!DNL BizibleId]&quot; lagras sedan av CallTrackingMetrics.
+CallTrackingMetrics måste göra lite utvecklingsarbete för att detta ska fungera. Med det JavaScript de placerar på din webbplats kan CallTrackingMetrics hämta _biz_uid från [!DNL Marketo Measure] cookie. Detta &quot;[!DNL BizibleId]&quot; lagras sedan av CallTrackingMetrics.
 
-När en besökare kommer till er webbplats och ringer ett telefonsamtal är det CallTrackingMetrics uppgift att överföra dessa data till [!DNL Salesforce]  Oftast är [!DNL Salesforce Task] skapas som fyller i data som telefonnummer, ämne, typ och nu [!DNL BizibleId]
+När en besökare kommer till er webbplats och ringer ett telefonsamtal är det CallTrackingMetrics uppgift att överföra dessa data till [!DNL Salesforce].  Oftast är [!DNL Salesforce Task] skapas som fyller i data som telefonnummer, ämne, typ och nu [!DNL BizibleId]
 
 The [!DNL BizibleId] är ett fält som installeras med version 6.7+ av [!DNL Marketo Measure] Marknadsattribueringspaket.
 
@@ -45,7 +45,7 @@ När [!DNL Marketo Measure] söker efter en uppgiftspost med en känd [!DNL Bizi
 
 ## Touchpoint {#the-touchpoint}
 
-När [!DNL Marketo Measure] kan importera/hämta uppgiften, bearbetar vi den detaljen tillsammans med webbsessionen. I de flesta fall kan den sammanfogas med en hänvisare eller annons. I exemplet nedan hittade en besökare verksamheten via en betald Google-annons och gjorde ett telefonsamtal.
+När [!DNL Marketo Measure] kan importera/hämta uppgiften, bearbetar vi den detaljen tillsammans med webbsessionen. Vanligtvis kan den sammanfogas med en hänvisare eller annons. I exemplet nedan hittade en besökare verksamheten via en betald Google-annons och gjorde ett telefonsamtal.
 
 The [!UICONTROL Touchpoint] Typen&quot;Call&quot; hämtas från aktiviteten från skärmbilden ovan, som även fylls i av CallTrackingMetrics när uppgiften skapas.
 
@@ -53,7 +53,7 @@ The [!UICONTROL Touchpoint] Typen&quot;Call&quot; hämtas från aktiviteten frå
 
 ## Rapportering {#reporting}
 
-Touchpoint-typvärden som [!DNL Marketo Measure] Vanligtvis är push-meddelanden Web Visit, Web Form eller Web Chat, men när det gäller CallTrackingMetrics-kontaktytan är det Phone Call som kontakttyp. Detta hjälper marknadsförarna att se vilka kanaler som utnyttjar de flesta telefonsamtal och generera intäkter för organisationen.
+Touchpoint-typvärden som [!DNL Marketo Measure] Vanligtvis är push-meddelanden Web Visit, Web Form eller Web Chat, men när det gäller CallTrackingMetrics-kontaktytan är kontakttypen Phone Call. Detta hjälper marknadsförarna att se vilka kanaler som utnyttjar de flesta telefonsamtal och generera intäkter för organisationen.
 
 ![](assets/5.png)
 
@@ -71,7 +71,7 @@ Både Touchpoint Type och Medium innehåller data som hämtas från Task.Type. A
 
 Kontrollera först att det finns en [!DNL BizibleId] populerad. Om det inte finns något värde kan vi inte skapa en kontaktyta för den. Detta måste eskaleras med CallTrackingMetrics.
 
-Om det finns ett värde bör du tänka på att alla webbsessioner bara ska vara 30 minuter. Om du klickade på en Google Ad kl. 12.17 (början av sessionen på webbplatsen), men telefonsamtalet inte ägde rum förrän 17.05, sammanfogas inte webbsessionen och telefonsamtalet. I stället för [!DNL Marketo Measure] skapar en separat [!DNL Salesforce Task] kontaktyta för att spåra telefonsamtalet, men har inga webbsessionsdata.
+Om det finns ett värde bör du tänka på att alla webbsessioner bara ska vara 30 minuter. Om någon klickar på en Google Ad kl. 12.17 (början av sessionen på webbplatsen), men telefonsamtalet inte ägde rum förrän 17.05, sammanfogas inte webbsessionen och telefonsamtalet. I stället för [!DNL Marketo Measure] skapar en separat [!DNL Salesforce Task] kontaktyta för att spåra telefonsamtalet, men har inga webbsessionsdata.
 
 ![](assets/6.png)
 

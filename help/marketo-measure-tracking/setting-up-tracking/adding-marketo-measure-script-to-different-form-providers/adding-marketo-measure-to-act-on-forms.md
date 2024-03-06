@@ -4,9 +4,9 @@ description: Lägger till [!DNL Marketo Measure] till Act-On Forms - [!DNL Marke
 title: Lägger till [!DNL Marketo Measure] till Act-On Forms
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---

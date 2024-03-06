@@ -4,9 +4,9 @@ description: Lägger till [!DNL Marketo Measure] Skript till ljuslåda Forms - [
 title: Lägger till [!DNL Marketo Measure] Skript till Lightroom Forms
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Lär dig hur du lägger till [!DNL Marketo Measure] JavaScript till ett formulär i en ljuslåda.
 
-En ljuslåda öppnar ett formulär framför innehållet när besökaren utför en viss åtgärd (t.ex. klickar på en viss del av sidan, tillbringar en viss tid på sidan osv.). Vanligtvis ber vi bara att få [!DNL Marketo Measure] JavaScript placerat i huvudet på landningssidan, men för formulär i en ljuslåda behövs ett extra steg.
+En ljuslåda öppnar ett formulär framför innehållet när besökaren utför en viss åtgärd (det vill säga klickar på en viss del av sidan, tillbringar en viss tid på sidan och så vidare). Vanligtvis ber vi dig att ha [!DNL Marketo Measure] JavaScript placerat i huvudet på landningssidan, men för formulär i en ljuslåda behövs ett extra steg.
 
-Eftersom ett formulär i en ljuslåda i stort sett är ett formulär i en iFrame måste vi ha skriptet placerat i den iFrame.
+Eftersom ett formulär i en ljuslåda i stort sett är ett formulär i en iFrame placeras skriptet inuti den iFrame.
 
 Först letar du reda på iFrame i [!UICONTROL lightbox] formaten lever i.
 
@@ -27,9 +27,9 @@ Placera sedan [!DNL Marketo Measure] JavaScript i iFrame.
 
 ![](assets/2.png)
 
-När JavaScript läggs till rekommenderar vi att du kontrollerar formulärinskickade formulär enligt följande:
+Slutligen, när JavaScript läggs till spåras formulärinskickat material enligt följande:
 
 1. Kopiera URL-adressen till landningssidan med [!UICONTROL lightbox] formulär.
 1. Öppna en Incognito-webbläsare och klistra in URL:en.
 1. Skicka formuläret med en unik e-postadress.
-1. Bekräfta att testet spårades genom att kontrollera CRM för den unika e-postadressen som användes, kontrollera att data från kontaktpunkten fylls i.
+1. Bekräfta att testet spårades genom att kontrollera CRM för den unika e-postadressen som används och kontrollera att data från slutpunkten fylls i.

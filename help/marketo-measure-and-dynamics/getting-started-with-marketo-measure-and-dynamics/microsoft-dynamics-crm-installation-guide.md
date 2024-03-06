@@ -4,9 +4,9 @@ description: '"[!DNL Microsoft Dynamics] Installationshandbok för CRM - Marketo
 title: "[!DNL Microsoft Dynamics] Installationshandbok för CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ För anslutning och autentisering [!DNL Marketo Measure] har stöd för följand
 
 ## Skapa en [!DNL Marketo Measure] Användare {#creating-a-marketo-measure-user}
 
-Vi rekommenderar att du skapar en dedikerad Marketo Measure-användare som en&quot;programanvändare&quot; i Dynamics för att kunna exportera och importera data till för att undvika problem med andra användare i CRM. Notera användarnamn och lösenord samt slutpunkts-URL, eftersom de kommer att användas när du skapar [!DNL Marketo Measure] konto.
+Vi rekommenderar att du skapar en dedikerad Marketo Measure-användare som en&quot;programanvändare&quot; i Dynamics för att exportera och importera data till för att undvika problem med andra användare i CRM. Observera användarnamn och lösenord samt slutpunkts-URL, som de används när du skapar [!DNL Marketo Measure] konto.
 
 ## Säkerhetsroller {#security-roles}
 
@@ -63,7 +63,7 @@ För [!DNL Marketo Measure] anpassade enheter behöver vi fullständig behörigh
 
 ![](assets/4.png)
 
-För Dynamics-standardenheter, se [!DNL Marketo Measure] Dynamics-schemadokument. På en hög nivå [!DNL Marketo Measure] behöver bara läsa in vissa enheter för att samla in lämpliga data och skriva till anpassade fält som installeras med den hanterade lösningen. Vi kommer inte att skapa nya standardposter och vi kommer inte heller att uppdatera några standardfält.
+För Dynamics-standardenheter, se [!DNL Marketo Measure] Dynamics-schemadokument. På en hög nivå [!DNL Marketo Measure] läser in vissa entiteter för att samla in lämpliga data och skriva till anpassade fält som installeras med den hanterade lösningen. Standardposter skapas inte och standardfält uppdateras inte.
 
 ## Inkludera kontaktpunkter i sidlayouter: {#include-touchpoints-on-page-layouts}
 
@@ -75,13 +75,13 @@ För Dynamics-standardenheter, se [!DNL Marketo Measure] Dynamics-schemadokument
 
    ![](assets/5.png)
 
-1. Sidlayout: lägg först till en[!UICONTROL One Column]&quot; i det avsnitt där du vill att Touchpoints ska vara aktiva. I den nya kolumnen måste ett underrutnät läggas till i varje formulär inom dina konton, säljprojekt, kontakter och lead-enheter.
+1. Sidlayout: lägg först till en[!UICONTROL One Column]&quot; i det avsnitt där du vill att Touchpoints ska vara aktiva. I den nya kolumnen måste ett underrutnät läggas till i varje formulär inom dina kontoenheter, säljprojekt, kontakter och lead-enheter.
 
    ![](assets/6.png)
 
    ![](assets/7.png)
 
-1. Markera objektet (Buyer Attribution Touchpoints eller Buyer Touchpoints) som ska återges i underrutnätet, vilket beror på objektrelationen. Du kan också ändra kolumnerna som ska visas genom att klicka på knappen Redigera. En standardlayout har angetts av den hanterade lösningen.
+1. Markera objektet (Buyer Attribution Touchpoints eller Buyer Touchpoints) som ska återges i underrutnätet, vilket beror på objektrelationen. Du kan också ändra kolumnerna som visas genom att klicka på knappen Redigera. Standardlayouten anges av den hanterade lösningen.
 
    Slutpunktsrutnät för Buyer Attribution - konton, säljprojekt och kontakt\
    Buyer Touchpoint Subgrid - Leads and Contacts
@@ -98,7 +98,7 @@ För Dynamics-standardenheter, se [!DNL Marketo Measure] Dynamics-schemadokument
 
 **Stängningsdatum**
 
-[!DNL Marketo Measure] pekar på fältet Faktiskt stängningsdatum utanför rutan. Om du inte använder detta eller också använder fältet Beräknat stängningsdatum, förklara processen för din lösningstekniker eller Success Manager. Ett anpassat arbetsflöde kan behöva användas för båda fälten.
+[!DNL Marketo Measure] pekar på fältet Faktiskt stängningsdatum utanför rutan. Om du inte använder detta eller också använder fältet Beräknat stängningsdatum, förklara processen för din lösningstekniker eller Success Manager. Det kan behövas ett anpassat arbetsflöde för att ta hänsyn till båda fälten.
 
 ## Konfigurera dina anslutningar och dataleverantörer {#configuring-your-connections-and-data-providers}
 
@@ -150,13 +150,13 @@ Koppla samman annonskonton med [!DNL Marketo Measure], börja med att besöka [!
 
 **[!DNL Marketo Measure]Javascript**
 
-För att [!DNL Marketo Measure] för att spåra dina webbaktiviteter finns det flera steg för konfiguration.
+För [!DNL Marketo Measure] för att spåra dina webbaktiviteter finns det flera steg för konfiguration.
 
 1. Klicka på **[!UICONTROL My Account]** nedrullningsbar meny och välj **[!UICONTROL Account Configuration]**.
 
    ![](assets/microsoft-dynamics-crm-installation-guide-23.png)
 
-1. Ange ditt telefonnummer. Ange din primära rotdomän som ska användas för webbplatsen [!DNL Marketo Measure] spårning på din webbplats. Klicka **[!UICONTROL Save]** när det är klart.
+1. Ange ditt telefonnummer. Ange din primära rotdomän som används för Webbplats [!DNL Marketo Measure] spårning på din webbplats. Klicka **[!UICONTROL Save]** när det är klart.
 
    ![](assets/microsoft-dynamics-crm-installation-guide-24.png)
 
@@ -164,7 +164,7 @@ För att [!DNL Marketo Measure] för att spåra dina webbaktiviteter finns det f
    >
    >Om du vill lägga till flera rotdomäner kontaktar du [!DNL Marketo Measure] Kontorepresentant.
 
-1. The [[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) måste sedan placeras över hela sajten och landningssidorna. Vi rekommenderar att skriptet hårdkodas i huvudet på landningssidorna eller läggs till via ett Tag Management-system som [Google Tag Manager](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
+1. The [[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) måste sedan placeras över hela platsen och landningssidorna. Vi rekommenderar att skriptet hårdkodas i huvudet på landningssidorna eller läggs till via ett Tag Management-system som [Google Tag Manager](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
    >[!NOTE]
    >

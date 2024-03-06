@@ -4,18 +4,18 @@ description: Lägger till [!DNL Marketo Measure] JavaScript till [!DNL Pardot] -
 title: Lägger till [!DNL Marketo Measure] JavaScript till [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
 # Lägger till [!DNL Marketo Measure] JavaScript till [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
-[!DNL Pardot] formulär kräver ytterligare hantering i formulärmallen utöver att skriptet placeras på webbplatsen för att [!DNL Marketo Measure] för att ta hänsyn till inskickade formulär. Processen är enkel, den kräver bara att du placerar [!DNL Marketo Measure] spåra skript i [!DNL Pardot] formulärmall.
+[!DNL Pardot] formulär kräver ytterligare hantering i formulärmallen utöver att skriptet placeras på webbplatsen för [!DNL Marketo Measure] för att ta hänsyn till inskickade formulär. Processen är enkel, den kräver bara att du placerar [!DNL Marketo Measure] spåra skript i [!DNL Pardot] formulärmall.
 
-## Steg för steg-instruktioner {#step-by-step-instructions}
+## Stegvisa instruktioner {#step-by-step-instructions}
 
 När du har loggat in på [!DNL Pardot] gör du så här:
 
@@ -53,10 +53,10 @@ Om [!DNL Pardot] IFrame har följande HTML-tagg:
 
 `<base href="http://go.pardot.com">`
 
-_Och_ själva IFrame finns på en säker sida (HTTPS) i stället för en osäker sida (HTTP) när vi försöker läsa in skriptet på [!DNL Pardot] IFrame, webbläsaren kommer att försöka läsa in en HTTP-version av skriptet på en HTTPS-sida som kommer att misslyckas och förhindra oss från att spåra. Lösningen är att uppdatera skriptet på [!DNL Pardot] IFrame för att läsa in den säkra versionen av vårt skript:
+_Och_ själva IFrame är en säker sida (HTTPS) i stället för osäker (HTTP) när skriptet läses in i [!DNL Pardot] IFrame, försöker webbläsaren läsa in en HTTP-version av skriptet på en HTTPS-sida som kommer att misslyckas, vilket bryter spårningen. Lösningen är att uppdatera skriptet på [!DNL Pardot] IFrame som läser in den säkra versionen av skriptet:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-Det kan också finnas andra kodfragment för spårning i det här området, till exempel en [!DNL Google Analytics] kod. Var noga med att separera dem med ett semikolon `;` och ett enda blanksteg, som i det här exemplet:
+Det kan redan finnas andra kodfragment för spårning i det här området, som [!DNL Google Analytics] kod. Var noga med att separera dem med ett semikolon `;` och ett enda blanksteg, som i det här exemplet:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="othercode_example" src="otherfile_example.js" ></script>`

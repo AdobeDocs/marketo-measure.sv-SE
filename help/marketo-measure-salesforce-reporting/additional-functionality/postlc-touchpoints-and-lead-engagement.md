@@ -4,9 +4,9 @@ description: PostLC Touchpoints och Lead Engagement - Marketo Measure - produktd
 title: PostLC Touchpoints och Lead Engagement
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 ![](assets/1.png)
 
-Du kan justera antalet PostLC-kontaktytor som ska visas i [!DNL SFDC]. Vanligtvis rekommenderar vi att du tar upp till fem PostLC-kontaktytor. Varje kontaktyta tar upp 1 kB tum [!DNL SFDC].
+Du kan justera antalet PostLC-kontaktytor som visas i [!DNL SFDC]. Vanligtvis rekommenderar vi att du tar upp till fem PostLC-kontaktytor. Varje kontaktyta tar upp 1 kB [!DNL SFDC].
 
 >[!NOTE]
 >
 >Instruktioner om hur du justerar PostLC-kontaktpunktsinställningar finns i slutet av artikeln.
 
-PostLC-kontaktytor är dynamiska. Som lead eller kontakt fortsätter att skicka PostLC-formulär, [!DNL Marketo Measure] uppdaterar PostLC-kontaktytorna i CRM så att du ser deras senaste formulärinskickade formulär. Om du har angett en gräns på 5 PostLC-kontaktytor [!DNL Marketo Measure] tryck alltid på 5 _senaste_ kontaktytor med CRM.  I det här exemplet har det här kontot angett sin PostLC-gräns till fyra kontaktytor. Denna lead har redan nått maximalt antal PostLC-kontaktytor i CRM. PostLC:s senaste beröring ägde rum den 6 juni 2018. Om den här personen fyller i ett annat formulär dagen efter, [!DNL Marketo Measure] kommer att ta bort den första PostLC-kontaktytan från 2017-11-9 för att lägga till den senaste kontaktytan från 2/7/2018.
+PostLC-kontaktytor är dynamiska. Som lead eller kontakt fortsätter att skicka PostLC-formulär, [!DNL Marketo Measure] uppdaterar PostLC-kontaktytorna i CRM så att du kan se deras senaste formulärinskickade formulär. Om du har angett en gräns på 5 PostLC-kontaktytor [!DNL Marketo Measure] alltid de fem _senaste_ kontaktytor med CRM.  I det här exemplet har det här kontot angett sin PostLC-gräns till fyra kontaktytor. Denna lead har redan nått maximalt antal PostLC-kontaktytor som den kan ha i din CRM. PostLC:s senaste beröring ägde rum den 6 juni 2018. Om den här personen fyller i ett annat formulär dagen efter, [!DNL Marketo Measure] kommer att ta bort den första PostLC-kontaktytan från 2017-11-9 för att lägga till den senaste kontaktytan från 2/7/2018.
 
 ![](assets/2.png)
 
 >[!NOTE]
 >
->[!DNL Marketo Measure] uppdaterar bara PostLC-kontaktytor på lead eller kontakt, och uppdaterar inte kontaktytor för PostLC-attribuering på ett säljprojekt. Alla relevanta PostLC-kontaktytor på en kontakt inkluderas i säljprojektet.
+>[!DNL Marketo Measure] uppdaterar bara PostLC-kontaktytor på lead eller kontakt och uppdaterar inte PostLC-attribueringskontaktytorna på ett säljprojekt. Alla relevanta PostLC-kontaktytor på en kontakt ingår i säljprojektet.
 
 ## Ändra inställningar för PostLC-kontaktpunkt {#how-to-change-postlc-touchpoint-settings}
 

@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] 101 Rapporter - översikt [!DNL Marketo Mea
 title: "[!DNL Marketo Measure] Översikt över 101 rapporter"
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---

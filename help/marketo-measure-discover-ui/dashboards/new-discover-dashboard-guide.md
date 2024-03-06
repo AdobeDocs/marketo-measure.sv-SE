@@ -3,9 +3,9 @@ description: Ny guide till Discover Dashboard - [!DNL Marketo Measure] - Produkt
 title: Ny guide för Discover Dashboard
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -427,7 +427,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
         </p>
       </td>
       <td>
-        <p>Dessa dimensioner är plattformsspecifika och ger ingen helhetsbild av webbtrafiken. Vi rekommenderar användare att utforska kanal-/delkanal-/kampanjdata i Marketo Measure och sedan utnyttja specifika plattformsverktyg för nyckelords-/kreativa insikter för att bibehålla precision och sammanhang.
+        <p>Dessa dimensioner är plattformsspecifika och ger ingen helhetsbild av webbtrafiken. Vi rekommenderar att användare utforskar kanal-/delkanal-/kampanjdata i Marketo Measure och sedan använder särskilda plattformsverktyg för nyckelords-/kreativa insikter för att bibehålla precision och sammanhang.
         </p>
       </td>
     </tr>

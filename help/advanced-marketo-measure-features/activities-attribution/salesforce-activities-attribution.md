@@ -4,9 +4,9 @@ description: Attribut för Salesforce-aktiviteter - [!DNL Marketo Measure]
 title: Salesforce-aktivitetsattribuering
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---

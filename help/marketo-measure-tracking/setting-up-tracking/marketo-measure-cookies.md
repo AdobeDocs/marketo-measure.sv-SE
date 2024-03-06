@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Cookies"
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Läs om de olika [!DNL Marketo Measure] Cookies som läses in på din plats när
 
 >[!IMPORTANT]
 >
->På grund av integritetsproblem är cookies från tredje part på väg ut. Google Chrome presenterade ett utkast till tredje kvartalet 2024 om borttagning av cookies från tredje part som effektivt markerar slutet på den här typen av spårning. Därför kommer Adobe att ta bort Marketo Measure-funktioner som är beroende av cookies från tredje part, närmare bestämt Cross-Domain Tracking och View-through Attribution, som använder Google/DoubleClick-cookie. Inga andra funktioner i Marketo Measure påverkas. Användning av cookies från första part påverkas inte heller. Mot bakgrund av Google tidsplan är det förväntade borttagningsdatumet för de två funktionerna ovan 6/1/2024. Relaterade data som samlats in före detta datum kommer även fortsättningsvis att vara tillgängliga för Adobe-kunder.
+>På grund av integritetsproblem är cookies från tredje part på väg ut. Google Chrome presenterade ett utkast till tredje kvartalet 2024 om borttagning av cookies från tredje part som effektivt markerar slutet på den här typen av spårning. Därför har Adobe ersatt Marketo Measure-funktioner som är beroende av cookies från tredje part, närmare bestämt Cross-Domain Tracking och View-through Attribution, som använder Google/DoubleClick-visningscookie. Inga andra funktioner i Marketo Measure påverkas. Användning av cookies från första part påverkas inte heller. Mot bakgrund av Google tidsplan är det förväntade borttagningsdatumet för de två funktionerna ovan 6/1/2024. Relaterade data som samlats in före detta datum är fortfarande tillgängliga för Adobe-kunder.
 
 <table>
 <thead>
@@ -97,7 +97,7 @@ Läs om de olika [!DNL Marketo Measure] Cookies som läses in på din plats när
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Tredje part, domain=.<a href="http://bizible.com/">bizible.com</a></td>
+    <td>Tredje part, domain=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
     <td>Universellt användar-ID för att identifiera en användare i flera domäner.</td>
     <td>1 år</td>
     <td>Ja</td>
@@ -116,6 +116,6 @@ Läs om de olika [!DNL Marketo Measure] Cookies som läses in på din plats när
 </tbody>
 </table>
 
-Om en varning om Web Application Firewall (WAF) utlöses under JavaScript-konfigurationen kan användarna antingen inaktivera den WAF-regeln eller tillåta att listan över cookies visas, som i följande exempel:
+Om en varning om en brandvägg för webbprogram (WAF) utlöses under JavaScript-konfigurationen kan användare antingen inaktivera den WAF-regeln eller tillåtslista cookies, som i följande exempel:
 
 ![](assets/marketo-measure-cookies-1.png)

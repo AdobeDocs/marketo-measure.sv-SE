@@ -3,9 +3,9 @@ description: Metodtips för scenmappning - [!DNL Marketo Measure]
 title: Metodtips för scenmappning
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Oavsett om du utvärderar din Stage Mapping för första gången eller bara gran
    * Ett booleskt fält är den bästa metoden
 * Observera att avsnittet Lead- eller Kontaktstadium är uppdelat i Förlorat, Öppna och Konverterad. Kontrollera att stadierna är i rätt scenavsnitt
    * Om du har en scen i ett felaktigt scenavsnitt kan det resultera i mycket felaktigt [!DNL Marketo Measure] data
-   * Om du är kund hos Marketo Measure Ultimate och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda de två fält nedan som är specifika för lead ([läs mer här](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Om du är kund hos Marketo Measure Ultimate och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda nedanstående två fält som är specifika för lead ([läs mer](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Observera att avsnittet för säljprojektsfasen är uppdelat i Förlorat, Öppna och Von. Kontrollera att faserna befinner sig i rätt fasavsnitt

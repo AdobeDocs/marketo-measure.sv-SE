@@ -4,7 +4,7 @@ description: Anpassad attributmodell och inställningar - [!DNL Marketo Measure]
 title: Anpassad attributmodell och inställningar
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Om ett anpassat fält används i din anpassade modell MÅSTE du aktivera spårni
 
    Gå till **[!UICONTROL Attribution Settings]** in [!DNL Marketo Measure] Appar; de anpassade stegen visas här i attribueringstabellen. Attributtabellen visar alla [!DNL Marketo Measure] attribueringsmodeller och attribueringsviktningen för varje modell. Attributprocenten för de första fem modellerna är fasta och kan inte ändras.
 
-   I kolumnen längst till höger heter **[!UICONTROL Custom]**,&quot; kan du ange procentviktningen för varje fas i din anpassade attribueringsmodell. Ange bara värdena för varje scen i kolumnen Anpassad. Sedan **[!UICONTROL Save and Reprocess]** när allt är klart.
+   I kolumnen längst till höger heter **[!UICONTROL Custom]**,&quot; kan du ange procentviktningen för varje fas i din anpassade attribueringsmodell. Ange värdena för varje scen under kolumnen Anpassad och klicka på **[!UICONTROL Save and Reprocess]** när det är klart.
 
    Till vänster om _Egen_ kolumnen är **[!DNL Marketo Measure]Machine Learning-modell**. Maskininlärningsmodellen beräknar attribueringsviktningen baserat på den relativa vikten av att vinna ett avtal beroende på vad som hände i varje kundfas. Mer information om Machine Learning-modellen finns i [Vanliga frågor om maskininlärningsmodellen](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 

@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Integrering med Adobe Launch - [!DNL Market
 title: '''[!DNL Marketo Measure] Integrering med Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---

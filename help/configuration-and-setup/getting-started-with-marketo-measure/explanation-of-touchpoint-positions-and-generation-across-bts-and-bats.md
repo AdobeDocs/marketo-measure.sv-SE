@@ -3,9 +3,9 @@ description: Förklaring av kontaktpunktspositioner och generering över BT och 
 title: Förklaring av kontaktpunktspositioner och generering över BT:er och [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -37,12 +37,12 @@ Nedan beskrivs Buyer Touchpoint-positionerna som beskriver var en individ befinn
   <tr>
    <td>Första beröring (FT)</td> 
    <td>Webbbesök</td> 
-   <td>Den allra första marknadsföringsinteraktionen en individ har med ert varumärke</td> 
+   <td>Den första marknadsföringsinteraktionen som en individ har med ert varumärke</td> 
   </tr>
   <tr>
    <td>Skapa leads (LC)</td> 
    <td>Formulärfyllning <strong>ELLER</strong> Kampanj-/programinkludering</td> 
-   <td>Den allra första formulärfyllningen som en person har (vanligtvis en formulärinlämning men kan också vara en Campaign/Program-inkludering)</td> 
+   <td>Det första formuläret fyller i en individ (vanligtvis en formulärinlämning men kan även vara en Campaign/Program-inkludering)</td> 
   </tr>
   <tr>
    <td>Post LC</td> 
@@ -52,7 +52,7 @@ Nedan beskrivs Buyer Touchpoint-positionerna som beskriver var en individ befinn
  </tbody>
 </table>
 
-**BATS (Buyer Attribution Touchpoints)**: Detta är de kontaktytor som är kopplade till ett säljprojekt och dess resa. Dessa kontaktytor kommer att kopplas till intäkterna eftersom de är kopplade till säljprojektet och dess kontakter. Följande ur kartongrapporter är inbyggda i data från Buyer Attribution Touchpoint.
+**BATS (Buyer Attribution Touchpoints)**: Detta är de kontaktytor som är kopplade till ett säljprojekt och dess resa. Dessa kontaktytor är kopplade till intäkterna eftersom de är kopplade till säljprojektet och dess kontakter. Följande ur kartongrapporter är inbyggda i data från Buyer Attribution Touchpoint.
 
 * [!DNL Marketo Measure] 101: Affärsmöjligheter efter ID
 * [!DNL Marketo Measure] 101: Affärsmöjligheter efter ID-kanal
@@ -67,12 +67,12 @@ Nedan beskrivs Buyer Touchpoint-positionerna som beskriver var en individ befinn
   <tr>
    <td>Första beröring (FT)</td> 
    <td>Webbbesök</td> 
-   <td>Den allra första marknadsföringsinteraktionen en kontakt hade med ert varumärke</td> 
+   <td>Den första marknadsföringsinteraktionen som en kontakt hade med ert varumärke</td> 
   </tr>
   <tr>
    <td>Skapa leads (LC)</td> 
    <td>Formulärfyllning <strong>ELLER</strong> Kampanj-/programinkludering</td> 
-   <td>Den allra första formulärfyllningen som en kontakt hade (vanligtvis en formulärinlämning men kan också vara en Campaign/Program-inkludering)</td> 
+   <td>Den första formulärfyllningen som en kontakt hade (vanligtvis en formulärinlämning men kan också vara en Campaign/Program-inkludering)</td> 
   </tr>
   <tr>
    <td>Skapande av affärsmöjlighet</td> 
@@ -92,7 +92,7 @@ Nedan beskrivs Buyer Touchpoint-positionerna som beskriver var en individ befinn
  </tbody>
 </table>
 
-[!DNL Marketo Measure] har dessa två uppsättningar med kontaktpunktsdata för att skapa en tydlig förståelse för en enskild persons resa och möjligheter. Dessa två datauppsättningar för kontaktpunkter ger dig en tydlig karta över vad som hände uppifrån och ned på tratten.
+[!DNL Marketo Measure] har dessa två uppsättningar med kontaktpunktsdata för att skapa en tydlig förståelse för en enskild persons resa och möjligheterna. Dessa två datauppsättningar för kontaktpunkter ger dig en tydlig karta över vad som hände uppifrån och ned på tratten.
 
 I följande exempel visas dataflödet från Buyer Touchpoints (BT) till Buyer Attribution Touchpoints (BAT). I det här exemplet är både person A och person B en del av samma möjlighet som har ett Skapat den 3 juli 2020 och ett stängningsdatum den 5 juni 2020.
 

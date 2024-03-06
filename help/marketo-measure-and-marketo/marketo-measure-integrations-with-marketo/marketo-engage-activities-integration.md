@@ -4,16 +4,16 @@ description: "[!DNL Marketo Engage] Verksamhetsintegrering - [!DNL Marketo Measu
 title: "[!DNL Marketo Engage] Verksamhetsintegrering"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Engage] Integrering av aktiviteter {#marketo-engage-activities-integration}
 
-Som en del av det övergripande [!DNL Marketo Measure] och [!DNL Marketo Engage] Integrationen innebär att den här satsningen på Marketo Activity spelar en stor roll. Genom Marketo-aktiviteter spårar systemet händelser som Click Email (E-post), Change Score (Ändra bakgrundsmusik) eller Change Status (Ändra status i progression) - dessa aktivitetstyper kan separeras och definieras för att välja en delmängd som är berättigad till kontaktytor. När kontaktytor har skapats för dessa aktiviteter spåras de i engagemangsresan och mäts tillsammans med andra marknadsföringskanaler som betalsökningar eller partnermarknadsföring.
+Som en del av det övergripande [!DNL Marketo Measure] och [!DNL Marketo Engage] Integrationen innebär att den här satsningen på Marketo Activity spelar en stor roll. Genom Marketo aktiviteter spårar systemet händelser som `Click Email`, `Change Score` eller `Change Status in Progression` - dessa aktivitetstyper kan separeras och definieras för att välja en delmängd som är berättigad till kontaktytor. När kontaktytor har skapats för dessa aktiviteter spåras de i engagemangsresan och mäts tillsammans med andra marknadsföringskanaler som betalsökningar eller partnermarknadsföring.
 
 ## Krav {#requirements}
 
@@ -32,17 +32,17 @@ Som en del av det övergripande [!DNL Marketo Measure] och [!DNL Marketo Engage]
 
    ![](assets/two-1.png)
 
-   Det första som krävs är att välja en lista med aktivitetstyper som du tänker bygga regler på. Det behövs inget stort antal aktivitetstyper, men vi rekommenderar också att du inte överbelastar dina kontaktytor och tonar ned vikten av viktiga milstolpar. Därför behöver du kanske inte fler än fem aktivitetstyper för att spåra relevanta åtaganden.
+   Det första som krävs är att välja en lista med aktivitetstyper som du tänker bygga regler på. Det behövs inget stort antal aktivitetstyper, men vi rekommenderar att du inte överbelastar dina kontaktytor och tonar ned vikten av viktiga milstolpar. Därför behöver du kanske inte fler än fem aktivitetstyper för att spåra relevanta åtaganden.
 
 1. Klicka på listrutan under [!UICONTROL Select Activities Types] för att börja välja de olika typerna.
 
    ![](assets/three-1.png)
 
-1. När du har valt alla aktiviteter du behöver visas de också i [!UICONTROL Selected Activities List] samt under [!UICONTROL Define Rules].
+1. När du har valt alla aktiviteter du behöver kan du se dem i [!UICONTROL Selected Activities List] och under [!UICONTROL Define Rules].
 
    ![](assets/four-1.png)
 
-1. För varje aktivitetstyp måste du definiera en eller flera regler som avgör vilka poster som är berättigade för kontaktytor. Vi ska till exempel lägga till en regel för aktivitetstypen&quot;Change Score&quot; så att systemet skapar en kontaktyta när en Marketo-person når en poäng på 90 eller högre.
+1. För varje aktivitetstyp måste du definiera en eller flera regler som avgör vilka poster som är kvalificerade för kontaktytor. I det här exemplet lägger vi till en regel för aktivitetstypen &quot;Change Score&quot; så att systemet skapar en kontaktyta när en Marketo-person når en poäng på 90 eller högre.
 
 1. Först, beroende på aktivitetstypen, kan du behöva konfigurera en [!DNL Marketo Measure] Kampanjnamn som kan användas senare för kanalmappning. [!DNL Marketo Measure] Kampanjnamn kan återanvändas i flera regler. Detta hjälper till att få bredare namn som kan användas i en kanalregel. Alla aktivitetstyper innehåller inte ett Marketo-program och därför behövs ett namn som första steg.
 
@@ -50,7 +50,7 @@ Som en del av det övergripande [!DNL Marketo Measure] och [!DNL Marketo Engage]
 
    ![](assets/five-1.png)
 
-1. I vårt exempel&quot;Change Score&quot; behöver vi inte ange ett kampanjnamn eftersom vi kan hämta informationen från Marketo-programmet. Nu kan du skapa regeluttrycket. I följande exempel vill vi markera fältet &quot;[!UICONTROL New Value]&quot; med en operator i &quot;[!UICONTROL is greater than]&quot; med värdet 90.
+1. I exemplet&quot;Change Score&quot; måste du ange ett kampanjnamn eftersom den informationen hämtas från Marketo-programmet. Skapa nu regeluttrycket. Välj fältet &quot;[!UICONTROL New Value]&quot; med en operator i &quot;[!UICONTROL is greater than]&quot; med värdet 90.
 
    Du kan utöka reglerna och lägga till ytterligare filter eller villkor genom att lägga till programsatserna &quot;och&quot; eller &quot;eller&quot; för att begränsa resultatet.
 
@@ -58,7 +58,7 @@ Som en del av det övergripande [!DNL Marketo Measure] och [!DNL Marketo Engage]
 
    ![](assets/seven-1.png)
 
-1. Välj slutligen det som ska användas som slutpunktsdatum. Alla tillgängliga datum- och datum-/tidsfält visas här från Marketo. Om du inte har anpassade datumfält visas &quot;[!UICONTROL Activity Date].&quot;
+1. Välj slutligen vad som ska användas som slutpunktsdatum. Alla tillgängliga datum- och datum-/tidsfält visas här från Marketo. Om du inte har anpassade datumfält visas &quot;[!UICONTROL Activity Date].&quot;
 
    ![](assets/eight-1.png)
 
@@ -162,13 +162,13 @@ Om kanalerna för dina Marketo-aktiviteter inte är korrekt konfigurerade, komme
 
 ## Programkostnader {#program-costs}
 
-Genom dataimporten av Marketo-program laddas kostnaderna automatiskt ned från Period-kostnader och den rapporterade kostnaden i Marketo fördelas över den tilldelade månaden. Om till exempel $1000 rapporteras för januari 2021 delas $1000 upp på 31 dagar. Kostnaderna finns i [!DNL Marketo Measure Discover].
+Genom dataimporten av Marketo-program laddas kostnaderna automatiskt ned från Period-kostnader och de rapporterade kostnaderna i Marketo fördelas över den tilldelade månaden. Om till exempel $1000 rapporteras för januari 2021 delas $1000 upp på 31 dagar. Kostnaderna finns i [!DNL Marketo Measure Discover].
 
 ## Cookie-mappning {#cookie-mapping}
 
 Som ett resultat av [!DNL Marketo Measure] integrering med Marketo, [!DNL Marketo Measure] Cookie-ID har nu också mappats och synkroniserats med [!DNL Marketo Munchkin Id]. Detta gör att luckan stängs så att den anonyma första beröringen kan kopplas till en webbsession i stället för att både FT- och LC-beröringen kan kopplas till en Marketo-aktivitet. Tänk dig detta scenario:
 
-Markera klickar på en Facebook-annons och går till wayneenterprises.com där han eller hon cookas med [!DNL Marketo Measure] ID 123 och [!DNL Marketo Munchkin Id] 456. Ingen formulärifyllning sker.
+Mark klickar på en Facebook-annons och bor på wayneenterprises.com där han får en cookie med [!DNL Marketo Measure] ID 123 och [!DNL Marketo Munchkin Id] 456. Ingen formulärifyllning sker.
 
 Wayne Enterprises Marketing-teamet skickar ett e-postmeddelande till specifika riktade leads, där en av dem `mark@email.com`.
 
@@ -188,11 +188,11 @@ I och med den här förbättringen av cookie-mappningen kommer FT tillbaka och k
 
 **Hur vet jag om jag ska skapa en regel för Marketo-program eller en regel för Marketo-aktiviteter?**
 
-The [!DNL Marketo Engage] Programintegrering är ett enkelt sätt att generera kontaktytor baserat på om en person är programmedlem eller inte. Om du är intresserad av att definiera en regel baserat på den tidpunkt då en person ändrar till en viss programstatus, visas [!DNL Marketo Engage] Aktivitetsintegrering blir den inställning du vill ha, särskilt aktivitetstypen &quot;Ändra status i progression&quot; så att ditt slutpunktsdatum kan mappas till det systemgenererade aktivitetsdatumet.
+The [!DNL Marketo Engage] Programintegrering är ett enkelt sätt att generera kontaktytor baserat på om en person är programmedlem i ett program eller inte. Om du är intresserad av att definiera en regel baserat på den tidpunkt då en person ändrar till en viss programstatus, visas [!DNL Marketo Engage] Aktivitetsintegrering blir den inställning du vill ha, särskilt aktivitetstypen &quot;Ändra status i progression&quot; så att ditt slutpunktsdatum kan mappas till det systemgenererade aktivitetsdatumet.
 
 **Varför trunkeras namnet på min Touchpoint-typ?**
 
-Touchpoint-fältet skapades i [!DNL Marketo Measure] paket med 16 tecken. Om du ändrar teckengränsen för fältet måste det befintliga fältet tas bort och en ny skapas. Värdet för Touchpoint-typen är Aktivitetstyp, som också anges i fältet Medel.
+Touchpoint-fältet skapades i [!DNL Marketo Measure] paket med 16 tecken. Om du ändrar teckengränsen för fältet måste du ta bort det befintliga fältet och skapa ett. Värdet för Touchpoint-typen är Aktivitetstyp, som också anges i fältet Medel.
 
 **Varför visas inte min anpassade aktivitetstyp i listan över tillgängliga aktiviteter?**
 
@@ -200,7 +200,7 @@ Vi visar bara anpassade aktivitetstyper för Godkänd och inte Utkast eller Godk
 
 **Hur avgör jag vilka aktivitetstyper jag vill generera en kontaktyta för?**
 
-Även om det inte finns någon gräns för hur många aktivitetstyper du kan skapa rekommenderar vi vanligtvis inte fler än fem aktivitetstyper. Det tar tid att avgöra vilka marknadsföringsaktiviteter som är relevanta nog för att vara en del av kontaktytan. &quot;Avbeställ e-post&quot; kanske inte är en viktig kontaktyta att spåra, men &quot;Klicka på e-post&quot; med ytterligare filter kan vara bra. Det varierar mellan olika organisationer och team, så vi föreslår att ni samarbetar med era team för att brainstorma på den bästa metoden här.
+Även om det inte finns någon gräns för hur många aktivitetstyper du kan skapa rekommenderar vi vanligtvis inte fler än fem aktivitetstyper. Det tar tid att avgöra vilka marknadsföringsaktiviteter som är relevanta nog för att vara en del av kontaktytan. &quot;Avbeställ e-post&quot; kanske inte är en viktig kontaktyta att spåra, men &quot;Klicka på e-post&quot; med ytterligare filter kan vara bra. Det varierar mellan olika organisationer och team, så vi föreslår att ni samarbetar med ert team för att brainstorma på den bästa lösningen här.
 
 **Varför är mitt webbläsarnamn inaktiverat?**
 

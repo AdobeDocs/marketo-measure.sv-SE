@@ -3,9 +3,9 @@ description: Data Warehouse Access - Direct Share - Product Documentation
 title: Åtkomst till Data Warehouse - direktdelning
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Krav {#requirements}
 
-För att [!DNL Marketo Measure] om du vill ställa in en direktdelning till datalagret måste du uppfylla följande krav.
+För [!DNL Marketo Measure] om du vill ställa in en direktdelning till datalagret måste du uppfylla följande krav.
 
 * Du har en egen Snowflake-instans.
 * Din Snowflake-instans finns i Azure East US 2 Snowflake.
@@ -32,7 +32,7 @@ För att [!DNL Marketo Measure] om du vill ställa in en direktdelning till data
 
 ## Åtkomst till resursen {#accessing-the-share}
 
-När resursen har skapats för konto-ID:t måste du slutföra [konfigurationssteg](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} i din Snowflake-instans för att få tillgång till data.
+När resursen har skapats för det konto-ID som anges måste du slutföra [konfigurationssteg](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} i din Snowflake-instans för att få tillgång till data.
 
 >[!NOTE]
 >

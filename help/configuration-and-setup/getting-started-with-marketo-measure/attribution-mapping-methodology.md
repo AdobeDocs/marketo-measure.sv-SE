@@ -4,9 +4,9 @@ description: Attribution Mapping Method - [!DNL Marketo Measure]
 title: Metod för attribueringsmappning
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Kon: Men om det inte finns någon process för kontaktroll förlorar marknadsfö
 
 ## Rollmappning för primär kontakt för affärsmöjlighet {#opportunity-primary-contact-role-mapping}
 
-Förutom att bara titta på kontaktrollerna för affärsmöjligheten, [!DNL Marketo Measure] kan fokusera ännu mer på att endast titta på de primära kontakterna i en säljprojekt. Med den här inställningen i åtanke [!DNL Marketo Measure] hämtar bara den kontaktyta för marknadsföring som är kopplad till de primära kontakterna för en affärsmöjlighet och överför informationen till attribueringsberättelsen för den specifika affärsmöjligheten. Se bilden nedan.
+Förutom att bara titta på kontaktrollerna för affärsmöjligheten, [!DNL Marketo Measure] kan fokusera ännu mer på att endast titta på de primära kontakterna i en säljprojekt. Med den här inställningen i åtanke [!DNL Marketo Measure] tar bara med kontaktytan för marknadsföring som är kopplad till de primära kontakterna för en affärsmöjlighet och för in informationen i attribueringsberättelsen för den specifika affärsmöjligheten. Se bilden nedan.
 
 ![](assets/3.png)
 

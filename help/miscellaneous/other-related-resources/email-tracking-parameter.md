@@ -4,9 +4,9 @@ description: Spårningsparameter för e-post - [!DNL Marketo Measure]
 title: Spårningsparameter för e-post
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ The [!DNL Marketo Measure] Parametern för spårning av e-post gör att marknads
 
 När en besökare kommer till er webbplats [!DNL Marketo Measure] förväntar sig att hitta en landningssida med antingen en e-postadress eller [!DNL Salesforce] Id så att vi kan koppla det besöket till en&quot;formulärsändning&quot; och generera en kontaktyta för aktiviteten.
 
-Som kund skapar du en e-postmall på samma sätt som du brukar göra. När det är dags att lägga till i landningssidan för den åtgärd som du vill spåra måste du bestämma vilken token, variabel tagg eller makro som din Marketing Automation-plattform accepterar för att dynamiskt visa värdet för varje individ.
+Som kund skapar du en e-postmall på samma sätt som du brukar göra. När det är dags att lägga till i landningssidan för den åtgärd som du vill spåra måste du fastställa antingen variabelkoden, variabelkoden eller makrot som din Marketing Automation Platform accepterar för att dynamiskt visa värdet för varje individ.
 
 Marketo Measure godkänner följande värden: E-postadress, Salesforce lead-ID eller Salesforce Contact ID.
 

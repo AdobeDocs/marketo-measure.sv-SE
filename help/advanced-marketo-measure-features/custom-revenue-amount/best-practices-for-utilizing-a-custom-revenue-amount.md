@@ -3,9 +3,9 @@ description: Bästa praxis för användning av ett anpassat intäktsbelopp - [!D
 title: Bästa metoder för att använda ett anpassat intäktsbelopp
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Tänk på följande:
 * Välj det intäktsfält som är korrekt och som används för alla affärsmöjligheter
    * ARR- eller Total Contract-värde rekommenderas
 * Använd inte ett formelfält
-* Om du använder ett Custom Revenue Amount (Anpassat intäktsbelopp) för valutakonverteringar visas [!UICONTROL Marketo Measure Multiple Currencies] i stället är det den metod du föredrar.
+* Om du använder ett anpassat intäktsbelopp för valutakonverteringar visas [!UICONTROL Marketo Measure Multiple Currencies] i stället är det den metod du föredrar.
    * The [!DNL Marketo Measure] Funktionen Flera valutor refererar till de konverteringsgrader som fastställts i [!DNL Salesforce] för att på bästa sätt säkerställa justeringen mellan valutakonverteringar. Detta gör att du kan fortsätta använda standardvärdet för Belopp (SFDC-standard) eller något annat anpassat beloppsfält som relaterar till [!DNL Salesforce] konverteringsgrader.
 * Om du uppdaterar fältet Belopp vill du ha [!DNL Marketo Measure] som referens kan du använda datainläsaren för att uppdatera tidigare affärsmöjligheter för att säkerställa att dina intäktsdata är konsekventa och att rätt fält fylls i via arbetsflödet
 

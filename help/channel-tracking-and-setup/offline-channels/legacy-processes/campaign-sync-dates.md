@@ -4,9 +4,9 @@ description: Synkroniseringsdatum för kampanj - [!DNL Marketo Measure]
 title: Synkroniseringsdatum för kampanj
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Om du lägger till ett startdatum för en kontaktyta i en kampanj (till exempel 
 
 **Bakåtfyllande kontaktytor**
 
-Det kan finnas tillfällen då ett marknadsföringsteam kanske missar att lägga till utm-parametrar i en viss marknadsföringssatsning. Med kampanjsynkroniseringsdatum kan du (om du använder SFDC-kampanjer för onlinearbete) fylla i vissa missade data. Låt oss säga att du kör en e-postkampanj som började 1 maj, men ditt team lade inte till utm-parametrar för den e-postkampanjen förrän 15 maj. Om du spårar e-postkonverteringar via en SFDC-kampanj kan du ange slutdatumet för slutpunkten den 15 maj för den kampanjen och aktivera slutpunkterna för&quot;Responded&quot;-medlemmar i kampanjen. Den här åtgärden kommer att berätta [!DNL Marketo Measure] för att skapa kontaktpunkter för alla dessa svar fram till 15 maj.
+Det kan finnas tillfällen då ett marknadsföringsteam kanske missar att lägga till utm-parametrar i en viss marknadsföringssatsning. Med kampanjsynkroniseringsdatum kan du (om du använder SFDC-kampanjer för onlinearbete) fylla i vissa missade data. Låt oss säga att du kör en e-postkampanj som började 1 maj, men ditt team lade inte till utm-parametrar för den e-postkampanjen förrän 15 maj. Om du spårar e-postkonverteringar via en SFDC-kampanj kan du ställa in slutdatumet för slutpunkten den 15 maj för den kampanjen och aktivera slutpunkterna för&quot;Responded&quot;-medlemmar i kampanjen. Den här åtgärden kommer att berätta [!DNL Marketo Measure] för att skapa kontaktpunkter för alla dessa svar fram till 15 maj.
 
 **Retroaktiva kontaktpunkter för kampanjmedlemskap**
 

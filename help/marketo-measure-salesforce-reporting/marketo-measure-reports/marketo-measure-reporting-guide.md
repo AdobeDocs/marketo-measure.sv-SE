@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Rapporteringsguide - [!DNL Marketo Measure]
 title: "[!DNL Marketo Measure] Rapportguide"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '6431'
+source-wordcount: '6437'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ På den högsta nivån finns det två rapporteringskategorier som baseras på de
 
 >[!NOTE]
 >
->BAT skapas från BT. I princip börjar spårningen på individnivå via BT. När ett säljprojekt har skapats på ett konto refereras och är berättigade att skapa BAT-böcker som relaterar till säljprojektet, så du vill använda det ena eller det andra beroende på vilka frågor du försöker svara på: frågor relaterade till &#39;personstatistik&#39; (BT-rapporter) eller frågor relaterade till &#39;säljprojektsstatistik&#39; (BAT-rapporter)
+>BAT skapas från BT. I princip börjar spårningen på individnivå via BT. När ett säljprojekt har skapats på ett konto, hänvisas till och är berättigade att skapa BAT som relaterar till säljprojektet, så du vill använda det ena eller det andra beroende på vilka frågor du försöker svara på: frågor relaterade till&quot;personstatistik&quot; (BT-rapporter) eller frågor relaterade till&quot;säljprojektsstatistik&quot; (BAT-rapporter)
 
 Supportartikel: [Skillnad mellan Buyer Touchpoints och Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
@@ -445,7 +445,7 @@ Den här rapporten skulle vara densamma som en Content-baserad rapport på Lead-
 
 >[!TIP]
 >
->Du kan använda den här rapporten för att få insikt i det totala engagemanget för alla marknadsföringsdimensioner från Buyer Touchpoint-objektet, inte bara för innehållsnedladdningar enligt exemplet. Rapporten kan istället grupperas eller filtreras efter dimensioner som&quot;Marknadskanal&quot; eller&quot;Namn på annonskampanj&quot; för att på bästa sätt förstå det totala engagemanget från både leads och kontakter i databasen. Ändra bara filtren eller grupperingarna i rapporten till noll i andra dimensioner som representeras av andra fält från kontaktobjektet.
+>Du kan använda den här rapporten för att få insikt i det totala engagemanget för alla marknadsföringsdimensioner från Buyer Touchpoint-objektet, inte bara för innehållsnedladdningar enligt exemplet. Rapporten kan istället grupperas eller filtreras efter dimensioner som&quot;Marknadskanal&quot; eller&quot;Namn på annonskampanj&quot; för att på bästa sätt förstå det totala engagemanget från både leads och kontakter i databasen. Ändra filter eller grupperingar i rapporten till noll i andra dimensioner som representeras av andra fält från kontaktobjektet.
 
 **3.2 [!DNL Marketo Measure] Personer som har registrerats för en händelse (endast CRM)**
 

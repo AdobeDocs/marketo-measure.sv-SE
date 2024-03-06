@@ -2,9 +2,9 @@
 description: Felmeddelanden - [!DNL Marketo Measure]
 title: Felmeddelanden
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Nedan visas en lista med fel som du kan få via meddelanden i appen eller e-post
       <td>API_DISABLED</td>
       <td>Ett fel uppstod vid CRM-import: API_DISABLED: API-anrop har inaktiverats för den här användaren</td>
       <td>API-behörigheten har inaktiverats för Marketo Measure-användaren.</td>
-      <td>Läs följande Salesforce-dokumentation om <a href="https://help.salesforce.com/s/articleView?id=sf.branded_apps_commun_api_permset.htm&amp;type=5">aktivera API-åtkomst</a>.</td>
+      <td>Läs följande Salesforce-dokumentation om <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">aktivera API-åtkomst</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>

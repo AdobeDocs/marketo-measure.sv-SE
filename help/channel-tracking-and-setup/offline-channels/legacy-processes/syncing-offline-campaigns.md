@@ -4,9 +4,9 @@ description: Synkroniserar offlinekampanjer - [!DNL Marketo Measure]
 title: Synkronisera offlinekampanjer
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ I det här fallet fyller den upp-datumet med tre veckor. Det här steget bör ut
 
 Sammanfattningsvis, om du använder [!UICONTROL Bulk Update Touchpoint Date] och ändra slutpunktsdatumet till datumet för händelsen, [!DNL Marketo Measure] genererar kontaktpunkter för det faktiska datumet för händelsen, inte datumet för överföringen.
 
-Du kan också uppdatera datumen för alla kampanjmedlemmar i en befintlig kampanj. När du gör det ska du kontrollera att datumet för kontaktpunkten är datumet för medlemmens interaktion. Klicka bara på Buyer Touchpoint Date för gruppuppdatering, filtrera listan över kampanjmedlemmar efter behov och i &quot;[!UICONTROL Select Date]&quot; ovanför listan med kampanjmedlemmar lägger du till samma datum som det datum då händelsen ägde rum.
+Du kan också uppdatera datumen för alla kampanjmedlemmar i en befintlig kampanj. När du gör det ska du kontrollera att datumet för kontaktpunkten är datumet för medlemmens interaktion. Klicka på Kontaktpunktsdatum för Buyer för gruppuppdatering, filtrera listan över kampanjmedlemmar efter behov och i &quot;[!UICONTROL Select Date]&quot; ovanför listan med kampanjmedlemmar lägger du till samma datum som det datum då händelsen ägde rum.
 
 >[!CAUTION]
 >

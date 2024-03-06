@@ -4,9 +4,9 @@ description: OAuth med [!DNL Azure Active Directory] för Dynamics CRM - [!DNL M
 title: OAuth med [!DNL Azure Active Directory] för Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Vem påverkas? {#who-s-affected}
 
-Den här inställningen är till för nya [!DNL Marketo Measure] kunder som använder Dynamics CRM med [!DNL Azure Active Directory] (AAD) eller för kunder som vill migrera från sitt gamla användarnamn och lösenord till [!DNL Azure Active Directory] med OAuth.
+Den här inställningen är till för nya [!DNL Marketo Measure] kunder som använder Dynamics CRM med [!DNL Azure Active Directory] (AAD), eller för kunder som vill migrera från sitt gamla användarnamn och lösenord till [!DNL Azure Active Directory] med OAuth.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Den här inställningen är till för nya [!DNL Marketo Measure] kunder som anv�
 
 1. Logga in på [Azure Portal](https://portal.azure.com/#home).
 
-1. Välj din Azure AD-klient genom att klicka på ditt konto i det övre högra hörnet på sidan, följt av att klicka på navigeringen i Byt katalog och sedan välja lämplig klientorganisation (hoppa över det här steget om du bara har en Azure AD-klientorganisation under ditt konto eller om du redan har valt lämplig Azure AD-klientorganisation).
+1. Välj Azure AD-klientorganisation genom att klicka på ditt konto i det övre högra hörnet på sidan, följt av att klicka på navigeringen Byt katalog och sedan välja lämplig klientorganisation. Hoppa över det här steget om du bara har en Azure AD-klientorganisation under ditt konto eller om du redan har valt lämplig Azure AD-klientorganisation.
 
    ![](assets/setup-2.png)
 
@@ -41,10 +41,10 @@ Den här inställningen är till för nya [!DNL Marketo Measure] kunder som anv�
 
    ![](assets/setup-5.png)
 
-1. Följ instruktionerna och skapa ett nytt program. Det spelar ingen roll om det är ett webbprogram eller ett offentligt klientprogram (mobil och dator), men om du vill ha specifika exempel för webbprogram eller offentliga klientprogram ska du kolla in våra [snabbstarter](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-overview).\
+1. Följ instruktionerna och skapa ett program. Det spelar ingen roll om det är ett webbprogram eller ett offentligt klientprogram (mobil och dator), men om du vill ha specifika exempel för webbprogram eller offentliga klientprogram ska du ta en titt på [snabbstarter](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview).\
    a. Namn är programnamnet och beskriver programmet för slutanvändarna.\
    b. Under Kontotyper som stöds väljer du Konton i valfri organisationskatalog och personliga Microsoft-konton.\
-   c. Ange omdirigerings-URI. För webbprogram är detta den grundläggande URL:en för ditt program där användare kan logga in. Till exempel: `http://localhost:12345`. För offentlig klient (mobil och dator) använder Azure AD den för att returnera tokensvar. Ange ett värde som är specifikt för programmet. Till exempel: `http://MyFirstAADApp`.
+   c. Ange omdirigerings-URI. För webbprogram är detta den grundläggande URL:en för ditt program där användare kan logga in. Till exempel: `http://localhost:12345`. För offentliga klienter (mobil och dator) använder Azure AD det för att returnera tokensvar. Ange ett värde som är specifikt för programmet. Till exempel: `http://MyFirstAADApp`.
 
 1. När du har slutfört registreringen tilldelar Azure AD ditt program en unik klientidentifierare (program-ID). Du behöver det här värdet i nästa avsnitt, så kopiera det från programsidan.
 
@@ -118,16 +118,16 @@ b. Klienthemlighet är den programhemlighet som skapas i Azure Portal för ditt 
 
 c. Program-ID-URI är URL:en för mål-webb-API:t (skyddad resurs). Om du vill hitta app-ID-URL:en i Azure Portal klickar du på [!DNL Azure Active Directory], klickar du på Programregistreringar, öppnar programmets inställningssida och klickar sedan på Egenskaper. Det kan också vara en extern resurs som `https://graph.microsoft.com`. Detta är vanligtvis Dynamics-instansens URL.
 
-1. När du klickat **[!UICONTROL Submit]** uppmanas du att logga in med [!DNL Azure Active Directory]. När autentiseringen är slutförd ansluts ditt Dynamics-konto som dataleverantör inom [!DNL Marketo Measure].
+1. När du klickat **[!UICONTROL Submit]** uppmanas du att logga in med [!DNL Azure Active Directory]. När autentiseringen är klar är ditt Dynamics-konto anslutet som en dataleverantör inom [!DNL Marketo Measure].
 
-## Autentiserar ditt Dynamics-konto igen {#re-authenticating-your-dynamics-account}
+## Återautentiserar ditt Dynamics-konto {#re-authenticating-your-dynamics-account}
 
 1. När du är i [!DNL Marketo Measure] program, gå till **[!UICONTROL My Settings]** > **[!UICONTROL Settings]** > **[!UICONTROL Connections]**.
 
 1. Klicka på nyckelikonen i CRM-avsnittet bredvid Dynamics-anslutningen.
 
-1. När användaren klickar på nyckeln visas ett popup-fönster och du uppmanas att ange klient-ID, klienthemlighet och URI för program-ID, som liknar registreringsflödet.
+1. När användaren klickar på nyckeln visas ett popup-fönster där du uppmanas att ange klient-ID, klienthemlighet och URI för program-ID, som liknar registreringsflödet.
 
    ![](assets/re-authenticating-3.png)
 
-1. När du klickat **[!UICONTROL Submit]** uppmanas du att logga in med [!DNL Azure Active Directory]. När autentiseringen är klar kommer ditt Dynamics-konto att återauktoriseras inom [!DNL Marketo Measure].
+1. När du klickat **[!UICONTROL Submit]** uppmanas du att logga in med [!DNL Azure Active Directory]. När autentiseringen är slutförd auktoriseras ditt Dynamics-konto på nytt i [!DNL Marketo Measure].

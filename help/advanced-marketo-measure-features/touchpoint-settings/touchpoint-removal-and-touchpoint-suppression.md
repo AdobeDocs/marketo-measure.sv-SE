@@ -4,9 +4,9 @@ description: Borttagning av pekpunkter och inaktivering av pekpunkter - [!DNL Ma
 title: Borttagning av pekpunkter och inaktivering av pekpunkter
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ Om du gör ett misstag, oroa dig inte. Du kan också ta bort enskilda rader i pr
 
 ![](assets/5.png)
 
-Till slut [!UICONTROL Save and Process] era regler. Om du gör många ändringar måste du spara ändringarna under tiden. [!DNL Marketo Measure] tar inte bort dina kontaktytor förrän du klickar på knappen **Spara och bearbeta** -knappen.
+Till slut [!UICONTROL Save and Process] era regler. Om du gör många ändringar måste du spara ändringarna under tiden. [!DNL Marketo Measure] tar inte bort dina kontaktytor förrän du klickar
+[!UICONTROL **Spara och bearbeta**].
 
 | **Operator** | **Användningsfall** |
 |---|---|
