@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure]'
 title: '''[!DNL Marketo Measure] Ultimate Implementation Guide'
 feature: Integration, Tracking, Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -131,12 +131,13 @@ Gå till avsnittet Experience Platform > Mappning av sandlådor i inställningar
 
 >[!NOTE]
 >
+>* Vi rekommenderar att du bara inkluderar en datauppsättning per dataflöde.
 >* Data för en given entitet (till exempel Konto) från en viss källa kan bara placeras i en datamängd. Varje datauppsättning kan bara inkluderas i ett dataflöde. Överträdelser stoppar dataflödet vid körning.
 >* Ta bort hela målet i AEP för att ta bort data i Mått. Om du inaktiverar stoppas export av nya data och gamla data behålls.
 >* Måttkonfigurationen ser oftast likadan ut, men vissa delar, som Stage Mapping, ser annorlunda ut.
 >* Det tar några timmar för ett nytt dataflöde att generera en flödeskörning och sedan inträffar de med regelbundna timintervall.
 
-I Mätvärdet måste standardvalutan anges i avsnittet Valuta
+I Mått måste standardvalutan anges i avsnittet Valuta.
 
 * Om du använder flera valutor måste valutakonverteringsschemat fyllas i i AEP för att vi ska kunna läsa och använda för konverteringar.
 
