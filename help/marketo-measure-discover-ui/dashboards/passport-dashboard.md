@@ -3,9 +3,9 @@ description: Passport Dashboard - [!DNL Marketo Measure] - Produkt
 title: Passport Dashboard
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 88dfdac366d29bed29ed39979cb76cad7aee4025
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,6 @@ På Passport-kontrollpanelen får marknadsförarna en dynamisk vy över leads, k
 Kontrollpanelen är utrustad med följande inställningar och filter:
 
 * Datum (baserat på övergångsdatum)
-* Attributionsmodell
 * Kanal, delkanal
 * Campaign
 * Segment
@@ -60,4 +59,3 @@ Kontrollpanelen är utrustad med följande inställningar och filter:
 >
 >* [Grunderna i kontrollpanelen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Synlighetsprincip för instrumentpanelsdata](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
-
