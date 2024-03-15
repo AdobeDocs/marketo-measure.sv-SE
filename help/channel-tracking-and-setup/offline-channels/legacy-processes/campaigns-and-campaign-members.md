@@ -4,7 +4,7 @@ description: Kampanjmedlemmar och kampanjmedlemmar - [!DNL Marketo Measure]
 title: Kampanjmedlemmar och kampanjmedlemmar
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 0%
@@ -112,7 +112,7 @@ När du angett datum och tid klickar du på **[!UICONTROL Update Selected Record
 
 ## Kampanjkostnader {#campaign-costs}
 
-Lär dig allt om kampanjkostnader [i den här artikeln](/help/marketing-spend/spend-management/crm-campaign-costs.md).
+Lär dig allt om kampanjkostnader [i den här artikeln](/help/marketing-spend/spend-management/crm-campaign-costs.md){target="_blank"}.
 
 ## Borttagning av kampanjmedlem {#campaign-member-removal}
 
@@ -126,6 +126,6 @@ För att komma runt problemet [!DNL Marketo Measure] skapade en [!DNL Marketo Me
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universitet: fält för kampanjobjekt](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Tutorials: Kampanjobjektfält](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] Universitet: Mappa offlinekanaler](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>[[!DNL Marketo Measure] Tutorials: Mappa offlinekanaler](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

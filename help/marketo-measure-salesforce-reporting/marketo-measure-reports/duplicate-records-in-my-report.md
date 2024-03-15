@@ -4,7 +4,7 @@ description: Duplicera poster i min rapport - [!DNL Marketo Measure]
 title: Duplicera poster i min rapport
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -35,4 +35,4 @@ Om du vill förstå antalet kontakter kan du sedan använda fälten Antal - för
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universitet: Stock SFDC-rapporter](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] Tutorials: Stock SFDC-rapporter](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

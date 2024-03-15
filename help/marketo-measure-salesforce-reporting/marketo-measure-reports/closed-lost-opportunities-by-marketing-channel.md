@@ -4,7 +4,7 @@ description: Stängda förlorade affärsmöjligheter efter marknadsföringskanal
 title: Stängda förlorade affärsmöjligheter efter marknadsföringskanal
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -47,4 +47,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universitet: Ytterligare SFDC-rapporter](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)
+>[[!DNL Marketo Measure] Tutorials: Ytterligare SFDC-rapporter](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

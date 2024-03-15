@@ -4,7 +4,7 @@ description: Affärsmöjligheter efter marknadsföringskanal - [!DNL Marketo Mea
 title: Affärsmöjligheter efter marknadsföringskanal
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -35,4 +35,4 @@ Den här rapporten visar antalet möjligheter som genererats av era marknadsför
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Universitet: Stock SFDC-rapporter](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] Tutorials: Stock SFDC-rapporter](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

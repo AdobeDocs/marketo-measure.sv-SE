@@ -4,9 +4,9 @@ description: Synkroniseringsdatum för kampanj - [!DNL Marketo Measure]
 title: Synkroniseringsdatum för kampanj
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,3 @@ Det kan finnas tillfällen då ett marknadsföringsteam kanske missar att lägga
 Om du är ny [!DNL Marketo Measure] kan du vara intresserad av att få med marknadsföringsdata som du har spårat via SFDC Campaigns. Om du däremot aktiverar kontaktpunkter för SFDC-kampanjer online kan du stöta på problemet med dubbelräkningsattribuering eftersom [!DNL Marketo Measure] skapar automatiskt kontaktytor för er onlinemarknadsföring. För att undvika dubbelräkning av data kan du använda slutdatum för slutdatum för kampanjpunkten för att ange en gräns för de slutdatum för slutpunkter som skapas av [!DNL Marketo Measure] på SFDC-kampanjen. Om du till exempel vill lägga till retroaktiva konverteringar för en social kampanj har du spårat i SFDC, men du förstår att du har lagt till [!DNL Marketo Measure] JavaScript (som skapar onlinekontaktytor) den 1 juli, kan du redigera Social SFDC-kampanjen så att den innehåller ett slutdatum för slutpunkten som är lika med 1 juli och aktivera Buyer Touchpoints för den kampanjen.
 
 Det kan finnas många andra användningsområden för slutdatum för slutpunkter. Om du behöver hjälp med att ta reda på en viss situation kan du kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
-
->[!MORELIKETHIS]
->
->[[!DNL Marketo Measure] Universitet: Medlemsfält för kampanj och kampanj](https://learn.bizible.com/2-bizible-customization/137720https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
