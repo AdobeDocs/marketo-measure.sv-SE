@@ -3,9 +3,9 @@ description: Felmeddelanden - [!DNL Marketo Measure]
 title: Felmeddelanden
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 2b13a518d1be768a5c312ea4abdf2039aa22cf08
+source-git-commit: 20f886a0c6f448956ad2fda2d21a25f8d9a5a6af
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Felmeddelanden {#error-notifications}
 
 Nedan visas en lista med fel som du kan få via meddelanden i appen eller e-post. Om du får något av dessa felsökningar följer du de aktuella felsökningsstegen. Om de här stegen inte löser problemet kan du kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support).
+
+Om du vill visa det fullständiga meddelandemeddelandet i [!DNL Marketo Measure], klicka **Visa alla** längst ned på fliken Meddelanden.
+
+![](assets/error-notifications-1.png)
 
 <table>
   <tbody>
@@ -49,7 +53,7 @@ Nedan visas en lista med fel som du kan få via meddelanden i appen eller e-post
             </li>
           </ul>
           <p>
-           <img src="assets/error-notifications-1.png">
+           <img src="assets/error-notifications-2.png">
           </p>
       </td>
     </tr>
@@ -87,27 +91,17 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
       <td>DUPLICATES_DETECTED</td>
       <td>Ett fel uppstod vid CRM-export: DUPLICATES_DETECTED : Enhetstyp 'Contact': CRM-felkod: DUPLICATES_DETECTED, CRM-felmeddelande: Du skapar en dubblettpost. Vi rekommenderar att du använder en befintlig post i stället., RecordId: 0123456</td>
       <td>Posten som importeras till Salesforce-organisationen finns redan.</td>
-      <td>
-        <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Inaktivera inställningen Duplicera regel</a> för att tillåta dubbletter.
-          </li>
-          <li>Uteslut den dedikerade Marketo Measure-användaren från <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">anpassade valideringsregler</a>.
-          </li>
-        </ul>
-      </td>
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Inaktivera inställningen Duplicera regel</a> för att tillåta dubbletter.
+          <p>
+          Uteslut den dedikerade Marketo Measure-användaren från <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">anpassade valideringsregler</a>.</td>
     </tr>
     <tr>
       <td>DUPLICATE_VALUE</td>
       <td>Ett fel uppstod vid CRM-export: DUPLICATE_VALUE : Enhetstyp Lead: CRM-felkod: DUPLICATE_VALUE, CRM-felmeddelande: dubblettvärde hittades: Email_Unique__c-dubblettvärde i post med ID: 123, RecordId: 456</td>
       <td>Fältet som importeras till Salesforce-organisationen tillåter inte dubblettvärden.</td>
-      <td>
-        <ul>
-          <li>Avmarkera <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Unik kryssruta"</a> i Salesforce.
-          </li>
-          <li>Uteslut den dedikerade Marketo Measure-användaren från <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">anpassade valideringsregler</a>.
-          </li>
-        </ul>
-      </td>
+      <td>Avmarkera <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Unik kryssruta"</a> i Salesforce.
+          <p>
+          Uteslut den dedikerade Marketo Measure-användaren från <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">anpassade valideringsregler</a>.</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
