@@ -3,7 +3,7 @@ description: Domänhantering - [!DNL Marketo Measure]
 title: Domänhantering
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 4c68fa08797c252a89ba097c723fb8afee82451f
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -20,7 +20,7 @@ IMS-användare med åtkomst till Adobe Admin Console kan lägga till och valider
 
 ![](assets/domain-management-1.png)
 
-Instruktioner för hur du lägger till domäner finns i [Admin Console dokumentation](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains). När en domän har lagts till måste den [länkad till en katalog](https://helpx.adobe.com/enterprise/using/set-up-identity.html#link-domains-to-directories).
+Instruktioner för hur du lägger till domäner finns i [Admin Console dokumentation](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). När en domän har lagts till måste den [länkad till en katalog](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Hantera domäner i [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
