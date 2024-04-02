@@ -3,9 +3,9 @@ description: Grunderna i kontrollpanelen - [!DNL Marketo Measure] - Produkt
 title: Grunderna i kontrollpanelen
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Grunderna i kontrollpanelen {#discover-dashboard-basics}
 
 I den här artikeln får du hjälp med grundläggande funktioner i det nya gränssnittet, så att du enkelt kan komma åt och tolka dina data. Ta dig in i filterpanelens dynamik och upptäck hur invecklade våra förbättrade rapporteringsfunktioner är, till exempel detaljfunktioner, korsfiltrering och verktygstips.
-
->[!NOTE]
->
->Den här instrumentpanelen finns för närvarande i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den aktuella instrumentpanelen kommer att bli inaktuell när vi har övergått fullständigt och säkerställt optimal funktionalitet.
 
 ## Filterruta {#filter-pane}
 

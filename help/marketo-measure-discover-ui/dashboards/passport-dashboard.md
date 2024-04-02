@@ -3,9 +3,9 @@ description: Passport Dashboard - [!DNL Marketo Measure] - Produkt
 title: Passport Dashboard
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: 88dfdac366d29bed29ed39979cb76cad7aee4025
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Passport Dashboard {#passport-dashboard}
 
 På Passport-kontrollpanelen får marknadsförarna en dynamisk vy över leads, kontakter och affärsmöjligheter när de går igenom olika faser under en viss period. Genom att filtrera efter ett visst datum kan användare även få en ögonblicksbild av poster för den dagen.
-
->[!NOTE]
->
->Den här instrumentpanelen finns för närvarande i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den aktuella instrumentpanelen kommer att bli inaktuell när vi har övergått fullständigt och säkerställt optimal funktionalitet.
 
 **Frågor till styrelsen:**
 

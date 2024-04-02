@@ -3,9 +3,9 @@ description: Instrumentpanel för intäktsöversikt - [!DNL Marketo Measure] - P
 title: Instrumentpanel för intäktsöversikt
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Instrumentpanel för intäktsöversikt {#revenue-overview-dashboard}
 
 Instrumentpanelen Intäktsöversikt ger insikter om den totala intäkten från CRM, och visar på er roll inom marknadsföringsstrategierna. Det ger en översikt över hur marknadsföring påverkar er totala intäkt och bidrar till ett framgångsrikt avslut av avtal.
-
->[!NOTE]
->
->Den här instrumentpanelen finns för närvarande i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den aktuella instrumentpanelen kommer att bli inaktuell när vi har övergått fullständigt och säkerställt optimal funktionalitet.
 
 **Frågor till styrelsen:**
 

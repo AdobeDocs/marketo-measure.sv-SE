@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva för att öka intäkterna för deras företag."
-source-git-commit: 00a362a2e143749e1a132672b847eb06dcab6b9c
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -164,20 +164,6 @@ ht-degree: 0%
       + [Instrumentpanel för intäktsöversikt](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Kontrollpanel för avkastning](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Kontrollpanel för webbtrafik](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
-
-   + Äldre instrumentpaneler {#legacy-dashboards}
-      + [Kohort Journey Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
-      + [Dokumentation för Passport Dashboard](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
-      + [Dokumentation för instrumentpanel för ögonblicksbild](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
-      + Använda [!DNL Marketo Measure]&#39;s Reporting Platform {#using-marketo-measures-reporting-platform}
-         + [Vanliga användningsfall](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/common-use-cases.md)
-         + [Definitioner och uppslagsverk](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
-         + [Granska genomskärningar](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/drill-throughs.md)
-         + [Filter](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/filters.md)
-         + [Vanliga frågor och svar](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/faq.md)
-         + [Åtagandesökväg](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/engagement-path.md)
-         + [Marknadsföringsgrupper](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
-         + [Översikt över paneler](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + [!DNL Marketo Measure] och Adobe {#marketo-measure-and-adobe}
    + [[!DNL Marketo Measure] Integrering med Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] Integrering med Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)

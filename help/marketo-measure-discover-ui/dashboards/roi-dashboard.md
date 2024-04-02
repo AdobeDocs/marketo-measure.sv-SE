@@ -3,9 +3,9 @@ description: ROI Dashboard - [!DNL Marketo Measure] - Produkt
 title: Kontrollpanel för avkastning
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Kontrollpanel för avkastning {#roi-dashboard}
 
 Avkastningsoptimeringen ger marknadsförarna en detaljerad bild av avkastningen på investeringar i olika kanaler, underkanaler och kampanjer. Den bryter noggrant ned kostnads- och intäktsmönster och lyfter också fram mätvärden som kostnad per lead, erbjudande och möjlighet, vilket ger en heltäckande bild av marknadsattribueringen.
-
->[!NOTE]
->
->Den här instrumentpanelen finns för närvarande i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den aktuella instrumentpanelen kommer att bli inaktuell när vi har övergått fullständigt och säkerställt optimal funktionalitet.
 
 **Frågor till styrelsen**
 
