@@ -3,7 +3,7 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure]
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 4a3b8a1df9d8a675d977b08693b9d7facb64bc02
+source-git-commit: 81ce4ead229e461eeb9e6e3b1e951108b627a4e8
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -45,3 +45,4 @@ För att hjälpa dig att anpassa dig till denna förändring [vi har skapat doku
 **Åtgärd krävs för LinkedIn-integrering**
 
 LinkedIn har nyligen släppt en uppdaterad version av sin Lead Sync API. Please reauthenticate the LinkedIn connection in your Marketo Measure instance by May 20 to avoid any störtions.
+
