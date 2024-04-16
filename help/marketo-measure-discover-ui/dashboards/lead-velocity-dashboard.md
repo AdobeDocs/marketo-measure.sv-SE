@@ -2,9 +2,10 @@
 description: Kontrollpanel för ledarhastighet - [!DNL Marketo Measure] - Produkt
 title: Kontrollpanel för ledarhastighet
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
+source-git-commit: de7239abaedaf1a59b3760f12736a225d71027a1
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -20,14 +21,16 @@ Frågor som den här instrumentpanelen besvarar:
 
 ## Kontrollpanelskomponenter {#dashboard-components}
 
+Om Lead eller Kontakt ska visas beror på inställningarna under Inställningar > Attributinställningar > Standardinstrumentpanelsobjekt.
+
 ### Lead-/kontakthastighet per scen {#lead-contact-velocity-by-stage}
 
 I stapeldiagrammet visas den genomsnittliga tiden, i dagar, som leads/kontakter spenderar i varje försäljningsfas under en viss tidsram.
 
 Frågor om diagramsvaren:
 
-Vilken försäljningsfas har vanligtvis längst varaktighet för leads/kontakter?
-Hur lång tid har du tillbringat i&quot;första beröringsfasen&quot; jämfört med&quot;MQL&quot;-steget?
+* Vilken försäljningsfas har vanligtvis längst varaktighet för leads/kontakter?
+* Hur lång tid har du tillbringat i&quot;första beröringsfasen&quot; jämfört med&quot;MQL&quot;-steget?
 
 ![](assets/lead-velocity-dashboard-1.png)
 
@@ -35,7 +38,7 @@ Hur lång tid har du tillbringat i&quot;första beröringsfasen&quot; jämfört 
 
 Diagrammet över tidsserierader visar den genomsnittliga tiden, i dagar, som leads/kontakter spenderar på varje försäljningsstadium under den angivna tidsramen.
 
-* använda detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
+* Använd detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
 * Hovra över en linje för att visa detaljerad information.
 
 Frågor om diagramsvaren:
