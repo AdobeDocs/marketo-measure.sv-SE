@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Visa via Vanliga frågor om attribut - [!DN
 title: "[!DNL Marketo Measure] Visa via Vanliga frågor om attribut"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 ## Vad är Visa genom attribuering? {#what-is-view-through-attribution}
 
 The [!DNL Marketo Measure] [!UICONTROL View Through Attribution] kan inkludera annonsvisningar i attribueringsmodellen.
+
+>[!IMPORTANT]
+>
+>På grund av integritetsproblem är cookies från tredje part på väg ut. Google Chrome presenterade ett utkast till tredje kvartalet 2024 om borttagning av cookies från tredje part som effektivt markerar slutet på den här typen av spårning. Därför har Adobe ersatt Marketo Measure-funktioner som är beroende av cookies från tredje part, närmare bestämt Cross-Domain Tracking och View-through Attribution, som använder Google/DoubleClick-visningscookie. Inga andra funktioner i Marketo Measure påverkas. Användning av cookies från första part påverkas inte heller. Mot bakgrund av Google tidsplan är det förväntade borttagningsdatumet för de två funktionerna ovan 6/1/2024. Relaterade data som samlats in före detta datum är fortfarande tillgängliga för Adobe-kunder.
 
 ## Varför [!UICONTROL View Through Attribution] Viktigt? {#why-is-view-through-attribution-important}
 

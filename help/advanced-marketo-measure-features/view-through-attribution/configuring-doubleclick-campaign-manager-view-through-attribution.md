@@ -4,9 +4,9 @@ description: Konfigurera dubbelklickning av Campaign Manager-vy via attribut - [
 title: Konfigurera dubbelklickning av Campaign Manager-vy via attribut
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Konfigurera dubbelklickning av Campaign Manager-vy via attribut {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## Mätningsvy via attribuering {#measuring-view-through-attribution}
+
+>[!IMPORTANT]
+>
+>På grund av integritetsproblem är cookies från tredje part på väg ut. Google Chrome presenterade ett utkast till tredje kvartalet 2024 om borttagning av cookies från tredje part som effektivt markerar slutet på den här typen av spårning. Därför har Adobe ersatt Marketo Measure-funktioner som är beroende av cookies från tredje part, närmare bestämt Cross-Domain Tracking och View-through Attribution, som använder Google/DoubleClick-visningscookie. Inga andra funktioner i Marketo Measure påverkas. Användning av cookies från första part påverkas inte heller. Mot bakgrund av Google tidsplan är det förväntade borttagningsdatumet för de två funktionerna ovan 6/1/2024. Relaterade data som samlats in före detta datum är fortfarande tillgängliga för Adobe-kunder.
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ description: Integrerade annonsplattformar - [!DNL Marketo Measure]
 title: Integrerade annonsplattformar
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1644'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,13 @@ Det här verktyget är ett Chrome-tillägg som gör att du snabbt kan generera U
 ## Bing Ads {#bing-ads}
 
 Bing Ads är en integrerad plattform som gör att du kan aktivera automatisk taggning för URL-adresser eller använda ett verktyg från tredje part, till exempel [!DNL Marketo Measure], för att tagga annonser. [!DNL Bing Ads] är också beroende av UTM-parametrar.
+
+Vår integrering har stöd för följande annonstyper:
+
+* Text Ad
+* Mobil annons
+* Utökad textannons
+
 
 Funktionen för automatisk taggning i Bing Ads lägger till följande UTM-parametrar:
 
