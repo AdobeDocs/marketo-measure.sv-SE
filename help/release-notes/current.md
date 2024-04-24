@@ -3,9 +3,9 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure]
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 6aaf6fd26f19e9382cc559e54558e1c5d84cfd6d
+source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,10 @@ Som ett svar på allt större integritetsproblem fasas cookies från tredje part
 
 **Avfasad utrullning av vår förbättrade felhantering**
 
-Vi introducerar en stegvis utrullning av förbättrad felhantering för exportjobb, med inledande av omedelbara pulsmeddelanden i appen för tillståndsfel och övergång den 25 april till en ny metod där exportjobb pausas vid felpunkten. Ändringen syftar till att förbättra dataintegriteten och synligheten, vilket ger våra användare smidigare och mer tillförlitliga datahanteringsprocesser. För att säkerställa en smidig övergång och minimala störningar i verksamheten genomför vi dessa ändringar i två faser:
+Vi introducerar en stegvis utrullning av förbättrad felhantering för exportjobb. Vi börjar med att omedelbart skicka meddelanden i appen om behörighetsfel och övergår till en ny metod där exportjobb pausas vid felpunkten. Ändringen syftar till att förbättra dataintegriteten och synligheten, vilket ger våra användare smidigare och mer tillförlitliga datahanteringsprocesser. För att säkerställa en smidig övergång och minimala störningar i verksamheten genomför vi dessa ändringar i två faser:
 
 * Omedelbar tillgänglighet för Pulse-meddelanden: Du får pulsmeddelanden i appen om behörighetsfel under exportjobb. Detta kommer inte att avbryta exporten, men det kommer att hjälpa dig att få reda på felen utan att det påverkar dina nuvarande jobb.
-* Implementering av jobbpausning den 25 april: Från och med den 25 april pausas jobbet om ett behörighetsfel uppstår under ett exportjobb. På så sätt kan inga data hoppas över. Du får ett meddelande om eventuella problem, och när behörigheterna har korrigerats återupptas exportjobbet utan problem där det slutade.
+* Implementering av jobbpausning den 25 april: **POSTPONED** - Efter att ha övervägt synpunkter från Marketo Measure-användare har vi beslutat att skjuta upp implementeringen av pausade exportjobb vid felpunkten, som ursprungligen var schemalagd till 25 april. Vi inser att det kanske inte är den mest effektiva metoden att stoppa jobb. Vi strävar efter att hitta en bättre lösning som bibehåller dataintegriteten och minimerar störningar. Vi kommer att vänta med att göra ändringar i vårt nuvarande system tills vi kan säkerställa en lösning som bättre motsvarar användarnas behov.
 
 _Varför det här spelar någon roll_
 
