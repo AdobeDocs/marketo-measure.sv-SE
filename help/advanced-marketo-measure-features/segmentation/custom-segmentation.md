@@ -4,9 +4,9 @@ description: Anpassad segmentering - [!DNL Marketo Measure]
 title: Anpassad segmentering
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: e1ad563aac12ceb6bea6c28621ebd1cb7ec0a923
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Med anpassad segmentering kan du filtrera Touchpoints efter kategorier (filterna
 Anpassad segmentering kan användas för att visa data för en viss posttyp. När du har mappat filterlogiken ska du kunna se i [!DNL Marketo Measure] Instrumentpanelens vy för efterfrågevattenfall - samma data som du skulle se i din CRM.
 
 **Hur konfigurerar jag det?**
+
+>[!NOTE]
+>
+>När segmentreglerna uppdateras bearbetas historiska data igen.
 
 Steg 1 - Bestäm vilken information du vill se.
 
