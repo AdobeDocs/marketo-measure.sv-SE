@@ -4,9 +4,9 @@ description: Läs om Account-Based Marketing (ABM) och hur Adobe Marketo Measure
 title: Kontobaserad marknadsföring - översikt
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -32,17 +32,22 @@ För att vår kontobaserade marknadsföringsmodell ska börja fylla i din CRM-in
 
 ## Lead till konto-mappning {#lead-to-account-mapping}
 
-Mappning av lead-till-konto är en viktig del i ett effektivt ABM-tillvägagångssätt. Med lead-to-account-mappning grupperas potentiella kunder eller leads i samma företagskonto som de interagerar med ert varumärke. På så sätt kan ni inrikta er på och sälja till personer från samma företag på ett konsekvent sätt. Det finns ingen ytterligare [!DNL Salesforce] som krävs för att börja dra nytta av den här funktionen. The [!DNL Marketo Measure] Lead till kontomappning fem olika matchningsmetoder:
+Mappning av lead-till-konto är en viktig del i ett effektivt ABM-tillvägagångssätt. Med lead-to-account-mappning grupperas potentiella kunder eller leads i samma företagskonto som de interagerar med ert varumärke. På så sätt kan ni inrikta er på och sälja till personer från samma företag på ett konsekvent sätt. Det finns ingen ytterligare [!DNL Salesforce] som krävs för att börja dra nytta av den här funktionen. The [!DNL Marketo Measure] Lead till kontomappning med olika matchningsmetoder:
 
 * Lead-webbplats till kontowebbplats
 * Lead-e-postdomän till kontots webbplatsdomän
 * Lead-företagsnamn till kontonamn
 * Lead-företag till webbplatsens kontodomän
-* Matcha domänen på leadens e-postadress till kontot via kontaktens e-postadress
+* Lead-webbplatsen till e-postdomänen för kontokontakter
+* Lead-e-postdomän till kontokontaktens e-postdomän
+* Lead-webbplats till e-postdomänen för kontoansvariga
+* Lead-e-postdomän till kontoledares e-postdomän
+
+Kontots leads/kontakter valideras av deras e-post-/webbplatsdomäner och matchas mot den ledande e-postwebbplatsens domän eller underdomän. Det konto som har flest träffar används.
 
 >[!NOTE]
 >
->Varje lead försöker matcha sig mot ett konto i den förmånsordning som anges i metoderna ovan. När en matchning har gjorts anges AccountId omedelbart på Lead och matchas inte med en annan metod. Om Lead redan har ett giltigt AccountId hoppas Lead över.
+>Varje lead försöker matcha sig mot ett konto i den förmånsordning som anges i metoderna ovan. När en matchning har gjorts anges AccountId omedelbart på Lead och matchas inte med en annan metod.
 
 ## Prediktiv engagemangspoäng {#predictive-engagement-score}
 
