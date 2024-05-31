@@ -3,9 +3,9 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure]
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
+source-git-commit: 88edec8ec5d015fb4152b9e822cb1bfa68ed85c2
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Nedan finns alla nya och uppdaterade funktioner för 2024-utgåvorna.
 
 **Påminnelse: Borttagningar av Salesforce-fält - 14 juni**
 
-Som vi meddelade förra året kommer vi att fasa ut våra exportjobb till Lead/Contact-objekt för att förenkla vår integrering och eliminera behovet av att exportera till Salesforce-standardobjekt. Du kan hämta samma data från dina Touchpoint-objekt genom att följa stegen [dokumenteras här](/help/release-notes/previous-releases/2023.md#deprecations). Vi delar också dokumentation om hur du skapar arbetsflöden för att lägga till dessa data i lead-/kontaktobjektet. Utbyggnaden kommer att träda i kraft den 14 juni 2024.
+Som vi meddelade förra året kommer vi att fasa ut våra exportjobb till Lead/Contact-objekt för att förenkla vår integrering och eliminera behovet av att exportera till Salesforce-standardobjekt. Du kan hämta samma data från dina Touchpoint-objekt genom att följa stegen [dokumenteras här](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Vi delar också dokumentation om hur du skapar arbetsflöden för att lägga till dessa data i lead-/kontaktobjektet. Utbyggnaden kommer att träda i kraft den 14 juni 2024.
 
 Den här förändringen ger två viktiga fördelar:
 
@@ -29,7 +29,7 @@ Den här förändringen ger två viktiga fördelar:
 
 **Kontrollpanel för attributerade affärsmöjligheter**
 
-Vi är glada över att kunna presentera nya [Kontrollpanel för attributerade affärsmöjligheter](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md), som är utformad för att ge er en heltäckande bild av hur era marknadsföringssatsningar bidrar till både nya och mogna försäljningsmöjligheter. Med den här kontrollpanelen kan du ta reda på detaljerna för alla öppna och stängda affärsmöjligheter som kan hänföras till era strategier, med flexibiliteten att filtrera efter affärsmöjlighetens stadium. Här får ni insikter om vilka kanaler, underkanaler eller kampanjer som rangordnas högst när det gäller tilldelat affärsmöjlighetsbelopp och visar det totala tilldelade affärsmöjlighetsbeloppet tillsammans med antalet tilldelade öppna och stängda affärsmöjligheter.
+Vi är glada över att kunna presentera nya [Kontrollpanel för attributerade affärsmöjligheter](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, som är utformad för att ge er en heltäckande bild av hur era marknadsföringssatsningar bidrar till både nya och mogna försäljningsmöjligheter. Med den här kontrollpanelen kan du ta reda på detaljerna för alla öppna och stängda affärsmöjligheter som kan hänföras till era strategier, med flexibiliteten att filtrera efter affärsmöjlighetens stadium. Här får ni insikter om vilka kanaler, underkanaler eller kampanjer som rangordnas högst när det gäller tilldelat affärsmöjlighetsbelopp och visar det totala tilldelade affärsmöjlighetsbeloppet tillsammans med antalet tilldelade öppna och stängda affärsmöjligheter.
 
 **Marketo Engage cookie Sync för Marketo Measure Ultimate**
 
@@ -37,6 +37,14 @@ Marketo Engage Cookie Sync finns nu för Marketo Measure Ultimate. Så här anv�
 
 1. På sidan AEP-scheman redigerar du B2B-personschemat och lägger till fältgruppen &quot;Marketo Engage personinformation&quot;.
 1. När du importerar data till MMU mappar du fältet Kakips-ID från fältgruppen till fältet Kakor från Marketo Engage.
+
+**Boomerang Stages aktiverat för Tier 2- och 3-kunder**
+
+Funktionen Boomerang Stage kommer att vara tillgänglig för alla Tier 2- och Tier 3-kunder från och med den 7 juni 2024. Mer information om den här funktionen finns i dokumentationen nedan.
+
+* [Boomerang Stages och Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Konfigurera Boomerang Stages](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [Scenarier i Boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 <p>
 
