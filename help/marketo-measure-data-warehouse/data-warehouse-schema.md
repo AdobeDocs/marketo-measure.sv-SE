@@ -4,7 +4,7 @@ description: Data Warehouse Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
 workflow-type: tm+mt
 source-wordcount: '21110'
 ht-degree: 0%
@@ -33,24 +33,14 @@ Ytterligare _Annonserar dimensionell datamodell_ ERD visar hur tabeller för ann
 _Klicka på en bild för att se dess fullstorleksversion_
 
 <table style="table-layout:auto"> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
  <tbody> 
   <tr> 
-   <td><strong>Datans Warehouse datamodell</strong></td> 
-   <td><strong>Annonserar dimensionell datamodell</strong></td> 
+   <th>Datans Warehouse datamodell</th> 
+   <th>Annonserar dimensionell datamodell</th> 
   </tr> 
   <tr> 
-   <td> 
-    <div> 
-     <p><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></p> 
-    </div></td>
-   <td> 
-    <div> 
-     <p><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></p>
-    </div></td> 
+   <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -2026,7 +2016,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för affärsmöjligheten som BAT är hänförligt till.</p>
+        <p>ID för affärsmöjligheten som BAT är kopplad till.</p>
       </td>
       <td>
         <p>0060Z00000lFHtOQAW</p>
@@ -2036,7 +2026,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>CONTACT_ID</td>
       <td>varchar</td>
       <td>
-        <p>ID för kontakten som är kopplad till BAT.</p>
+        <p>ID för kontakten som är associerad med BAT.</p>
       </td>
       <td>
         <p>0030Z00003K5bpKQAR</p>
@@ -2045,7 +2035,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     <tr>
       <td>E-POST</td>
       <td>varchar</td>
-      <td>E-postadress som är kopplad till BAT.</td>
+      <td>E-postadress som är associerad med BAT.</td>
       <td>person@adobe.com</td>
     </tr>
     <tr>
@@ -2066,7 +2056,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för användarkontaktpunkten som genererade BAT.</p>
+        <p>ID för den användarkontaktyta som genererade BAT.</p>
       </td>
       <td>
         <p>person@adobe.com_00v1B00003ZbWzHQAV</p>
@@ -2087,7 +2077,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     <tr>
       <td>VISITOR_ID</td>
       <td>varchar</td>
-      <td>ID för besökaren som är kopplad till BAT.</td>
+      <td>ID för besökaren som är associerad med BAT.</td>
       <td>v_277d79d01678498fea067c9b631bf6df</td>
     </tr>
     <tr>
@@ -5798,7 +5788,7 @@ Mappningstabell för e-postadresser och besökar-ID.
 
 ### BIZ_FACTS {#biz-facts}
 
-Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT) och Cost Data. Används internt som stöd [!DNL Marketo Measure] rapportering.
+Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT) och Cost data. Används internt som stöd [!DNL Marketo Measure] rapportering.
 
 >[!IMPORTANT]
 >
@@ -8908,7 +8898,7 @@ Scenövergångar för affärsmöjligheter.
         <p>Ett unikt ID för övergången.</p>
       </td>
       <td>
-        <p>ST_0060Z00000nEgjlQAC_0030Z0003IjojKQAR_Demo Scheduled-1_BAT2_0060Z0000nEgjlQAC_0030n Z00003IjojKQAR_2018-06-01:19-51-38-1685390.beec556e7757</p>
+        <p>ST_0060Z00000nEgjlQAC_0030Z0003IjojKQAR_Demo Scheduled-1_BAT2_0060Z0000nEgjlQAC_0030 0Z00003IjojKQAR_2018-06-01:19-51-38-1685390.beec556e7757</p>
       </td>
     </tr>
     <tr>
@@ -8966,7 +8956,7 @@ Scenövergångar för affärsmöjligheter.
         <p>ID för Buyer Attribution Touchpoint som är knuten till övergången.</p>
       </td>
       <td>
-        <p>BAT2_0060Z00000nEgjlQAC_0030Z0003IjojKQAR_2018-06-01:19-51-38-1685390.beec 556e7757</p>
+        <p>BAT2_0060Z00000nEgjlQAC_0030Z0003IjojKQAR_2018-06-01:19-51-38-1685390.beed ec556e7757</p>
       </td>
     </tr>
     <tr>
@@ -11324,7 +11314,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>CONTACT_ID</td>
       <td>varchar</td>
       <td>
-        <p>ID för den kontakt som är associerad med BT.</p>
+        <p>ID för kontakten som är associerad med BT.</p>
       </td>
       <td>0030Z00003K5bpKQAR</td>
     </tr>
@@ -11370,7 +11360,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för användarkontaktpunkten som genererade BT:n.</p>
+        <p>ID för den användarkontaktyta som genererade BT.</p>
       </td>
       <td>
         <p>person@adobe.com_2018-08-29:18-14-53-8102030.10df92cbb414</p>
@@ -12170,7 +12160,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en w-formad beröring (se Is_First_Touch, Is_Lead_Creation_Touch och Is_Opp_Creation_Touch). Förväntas vara 0 eftersom detta är ett BT.</p>
+        <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en w-formad beröring (se Is_First_Touch, Is_Lead_Creation_Touch och Is_Opp_Creation_Touch). Förväntas vara 0 eftersom det här är en BT.</p>
       </td>
       <td>
         <p>0</p>
@@ -12184,7 +12174,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en fullständig banmodell (se Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Förväntas vara 0 eftersom detta är ett BT.</p>
+        <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en fullständig banmodell (se Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Förväntas vara 0 eftersom det här är en BT.</p>
       </td>
       <td>
         <p>0</p>
@@ -12193,7 +12183,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     <tr>
       <td>CUSTOM_MODEL_PERCENTAGE</td>
       <td>number(22,19)</td>
-      <td>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en anpassad modell (se Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Förväntas vara 0 eftersom detta är ett BT.</p>
+      <td>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en anpassad modell (se Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Förväntas vara 0 eftersom det här är en BT.</p>
       </td>
       <td>0</td>
     </tr>
@@ -13457,7 +13447,7 @@ group by 1,2
 order by 1
 ```
 
-**Visa alla Buyer Attribution Touchpoints (BAT) och deras tilldelade intäkter för en enda möjlighet.**
+**Visa alla kontaktytor för Buyer Attribution (BAT) och deras tilldelade intäkter för en enda möjlighet.**
 
 >[!NOTE]
 >

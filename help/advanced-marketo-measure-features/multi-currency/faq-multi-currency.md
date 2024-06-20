@@ -4,9 +4,9 @@ description: Vanliga frågor (flervaluta) - [!DNL Marketo Measure]
 title: Vanliga frågor (flervaluta)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Kom ihåg att det finns två olika funktionsbitar för den här funktionen. Båda finns i [!UICONTROL General] i CRM-avsnittet i Inställningar: Flera valutor och Avancerade valutor. Flera valutor bör aktiveras om kunden använder mer än en valuta, medan den ytterligare funktionen Avancerade valutor kan aktiveras om kunden använder [!DNL Salesforce]Funktionen &quot;Avancerad valutahantering&quot; där användaren kan ange ett tidsbaserat intervall för konverteringsgrader.
 
-Tyvärr vet vi inte när en kund växlar mellan Enkel eller Avancerat om Avancerat redan har aktiverats. På grund av detta måste kunden behålla inställningen Avancerade valutor manuellt justerad mot CRM-inställningen. Detta bör vara uppenbart för kunden om konverteringsgraden är felaktig, vilket innebär att vi inte visste vilken konverteringsnivå som skulle gälla.
+Marketo Measure hämtar automatiskt valutainställningen från kundens CRM. Manuell konfiguration i Marketo Measure för att matcha CRM krävs inte längre. Valutainställningen finns på sidan Allmänt under CRM.
 
 **Varför ger mitt annonskonto mig ett varningsmeddelande?**
 
