@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Installation och konfiguration av Salesforc
 title: "[!DNL Marketo Measure] [!DNL Salesforce] Paketinstallation och konfiguration"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ När du är klar med installationen kan du uppdatera [[!DNL Salesforce] sidlayou
 
 [!DNL Marketo Measure] skickar och tar emot data via en ansluten [!DNL Salesforce] användare inom [!DNL Marketo Measure] app.
 
-Så här skickar du kontaktpunktsdata till [!DNL Salesforce] -instans måste den anslutna användaren ha åtkomst till [!DNL Marketo Measure] anpassade objekt (t.ex. Buyer Touchpoint och Buyer Attribution Touchpoint) samt standard [!DNL Salesforce] objekt som Leads och Kontakter.
+Så här skickar du kontaktpunktsdata till [!DNL Salesforce] -instans måste den anslutna användaren ha åtkomst till [!DNL Marketo Measure] anpassade objekt (t.ex. Buyer Touchpoint och Buyer Attribution Touchpoint) samt [!DNL Salesforce] objekt som Leads och Kontakter.
 
 Skapa en [!DNL Marketo Measure] för att säkerställa att du inte stöter på valideringsfel när du överför data till Salesforce.
 
@@ -91,4 +91,6 @@ Steg 4: Logga in på [!DNL Marketo Measure] Konto och auktorisera om [!DNL Sales
 
 >[!MORELIKETHIS]
 >
->[Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+>* [Översikt över integreringsbehörigheter](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
+>
+>* [Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}

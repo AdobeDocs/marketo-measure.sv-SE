@@ -4,9 +4,9 @@ description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interact - Marketo
 title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interagera
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -124,67 +124,7 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
    <td>Egen</td> 
    <td>x</td> 
    <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Ad_Campaign_Name_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Date_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Date_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Source_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Source_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -233,67 +173,7 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
    <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Ad_Campaign_Name_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Date_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Date_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Source_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Source_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -335,67 +215,7 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
    <td>IsDeleted</td> 
    <td>Standard</td> 
    <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Ad_Campaign_Name_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Ad_Campaign_Name_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Landing_Page_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Marketing_Channel_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Date_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Date_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Source_FT__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2_Touchpoint_Source_LC__c</td> 
-   <td>Egen</td> 
-   <td>x</td> 
-   <td>x </td> 
+   <td> </td>
   </tr> 
  </tbody> 
 </table>
@@ -685,6 +505,12 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
    <td><br></td> 
   </tr>
   <tr> 
+   <td>Namn</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td>x</td> 
+  </tr>
+  <tr> 
    <td>bizible2__UniqueId__c</td> 
    <td>Egen</td> 
    <td>x</td> 
@@ -814,9 +640,9 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
 
 Förutom att skapa anpassade fält på SFDC:s standardobjekt, så måste du [!DNL Marketo Measure] paketet är installerat och skapar ett par anpassade objekt. Nedan visas en lista över de anpassade objekten tillsammans med en tabell som anger fälten som [!DNL Marketo Measure] skriver till.
 
-**Kontaktpunkt för köpare**
+**Buyer Touchpoint**
 
-Buyer Touchpoint är en [!DNL Marketo Measure] Anpassat objekt för att kapsla in marknadsföringsinteraktioner för Kontakter, Leads och Ärenden.
+Buyer Touchpoint är [!DNL Marketo Measure] Anpassat objekt för att kapsla in marknadsföringsinteraktioner för Kontakter, Leads och Ärenden.
 
 <table> 
  <tbody> 
@@ -1031,7 +857,7 @@ Buyer Touchpoint är en [!DNL Marketo Measure] Anpassat objekt för att kapsla i
    <td>x</td> 
   </tr> 
   <tr> 
-   <td>bizible2_Touchpoint_Source_c</td> 
+   <td>bizible2_Touchpoint_Source__c</td> 
    <td>Egen</td> 
    <td>x</td> 
    <td>x</td> 
@@ -1122,7 +948,7 @@ The [!DNL Marketo Measure] Personen är en [!DNL Marketo Measure] Anpassat objek
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Buyer Attribution Touchpoint är en [!DNL Marketo Measure] Anpassat objekt som kapslar in marknadsföringens påverkan på affärsmöjligheter.
+Buyer Attribution Touchpoint är [!DNL Marketo Measure] Anpassat objekt som kapslar in marknadsföringens påverkan på affärsmöjligheter.
 
 **Buyer Attribution Touchpoint**
 
@@ -1351,7 +1177,7 @@ Buyer Attribution Touchpoint är en [!DNL Marketo Measure] Anpassat objekt som k
    <td>x</td> 
   </tr> 
   <tr> 
-   <td>bizible2_Touchpoint_Source_c</td> 
+   <td>bizible2_Touchpoint_Source__c</td> 
    <td>Egen</td> 
    <td>x</td> 
    <td>x</td> 
