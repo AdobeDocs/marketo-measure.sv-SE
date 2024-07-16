@@ -1,41 +1,52 @@
 ---
 unique-page-id: 18874672
-description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interact - Marketo Measure - produktdokumentation
-title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interagera
+description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] interagerar - Marketo Measure - Produktdokumentation
+title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] interagerar
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
-# Hur [!DNL Marketo Measure] och [!DNL Salesforce] Interagera {#how-marketo-measure-and-salesforce-interact}
+# Så här interagerar [!DNL Marketo Measure] och [!DNL Salesforce] {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se Bizible i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-Låt oss titta på relationen mellan [!DNL Marketo Measure] och Salesforce.
+Låt oss titta på relationen mellan [!DNL Marketo Measure] och Salesforce på en hög nivå.
 
 ## Salesforce och [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-När [!DNL Marketo Measure] kontot skapas och [!DNL Salesforce] är ansluten, [!DNL Marketo Measure] börjar skicka marknadsföringsdata till CRM-instansen så länge som [!DNL Marketo Measure] hanterat paket är installerat och [!DNL Marketo Measure] Salesforce-användare har redigeringsbehörigheter.
+När [!DNL Marketo Measure]-kontot har skapats och [!DNL Salesforce] har anslutits börjar [!DNL Marketo Measure] överföra marknadsföringsdata till CRM-instansen så länge det [!DNL Marketo Measure] hanterade paketet är installerat och Salesforce-användaren [!DNL Marketo Measure] har redigeringsbehörighet.
 
-Om du inte har installerat [!DNL Marketo Measure] Salesforce-paket, [!DNL Marketo Measure] skriver inga data till din Salesforce-instans.
+Om du inte har installerat Salesforce-paketet [!DNL Marketo Measure] skriver [!DNL Marketo Measure] inga data till Salesforce-instansen.
 
 ![](assets/1-3.png)
 
-Som standard [!DNL Marketo Measure] exporterar 200 poster per API-kredit varje gång ett jobb skickar data till din CRM. För de flesta kunder ger detta den optimala balansen mellan API-krediter som [!DNL Marketo Measure] och CPU-resurskrav för CRM. För kunder med komplexa CRM-konfigurationer, till exempel arbetsflöden och utlösare, kan en mindre gruppstorlek vara användbar för att förbättra CRM-prestanda. I detta syfte [!DNL Marketo Measure] gör det möjligt för kunder att konfigurera batchstorleken för CRM-export. Den här inställningen är tillgänglig på [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] sidan i [!DNL Marketo Measure] webbprogram och kunder kan välja mellan gruppstorlekar på 200 (standard), 100, 50 eller 25.
+Som standard exporterar [!DNL Marketo Measure] 200 poster per API-kredit varje gång ett jobb skickar data till din CRM. För de flesta kunder ger detta den optimala balansen mellan API-krediter som används av [!DNL Marketo Measure] och CPU-resurskrav i CRM. För kunder med komplexa CRM-konfigurationer, till exempel arbetsflöden och utlösare, kan en mindre gruppstorlek vara användbar för att förbättra CRM-prestanda. Därför tillåter [!DNL Marketo Measure] kunder att konfigurera CRM-exportens batchstorlek. Den här inställningen är tillgänglig på sidan [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] i webbprogrammet [!DNL Marketo Measure] och kunderna kan välja mellan gruppstorlekar på 200 (standard), 100, 50 eller 25.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
 När du ändrar den här inställningen bör du tänka på att mindre gruppstorlekar förbrukar fler API-krediter från din CRM. Du bör bara minska batchstorleken om du har CPU-timeout eller hög CPU-belastning i CRM.
 
+## Salesforce-anslutna användarbehörigheter {#salesforce-connected-user-permissions}
+
+**Marketo Measure Administrator Permission Set for Dedicated User**: Tillåter SFDC-administratör att utföra CRUD-åtgärder på Marketo Measure-objekt.
+
+**Visa och redigera behörighetsgrupp för konverterade leads**: Detta gör att Marketo Measure kan dekorera leads efter att de har konverterats till kontakter.
+
+**Kryssruta för Salesforce-marknadsföringsanvändare**: Tillåter användare att skapa kampanjer och använda guiden för kampanjimport.
+* Ytterligare behörigheter för kampanjen&quot;Skapa&quot; krävs.
+
+**Marketo Measure Standard User**: Ger en användare möjlighet att läsa poster från Marketo Measure-objekt.
+
 ## Salesforce-standardobjekt och åtkomst {#salesforce-standard-objects-and-access}
 
-I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measure] interagerar med och de anpassade fält som läggs till i objekten när anslutningen har upprättats och [!DNL Marketo Measure] paketet är installerat. Ut ur lådan, [!DNL Marketo Measure] skriver INTE till någon standard [!DNL Salesforce] Objektfält.
+Här visas [!DNL Salesforce] standardobjekt som [!DNL Marketo Measure] interagerar med och de anpassade fält som vi lägger till i dessa objekt när anslutningen har upprättats och [!DNL Marketo Measure]-paketet har installerats. [!DNL Marketo Measure] skrivs INTE i några vanliga [!DNL Salesforce]-objektfält.
 
 **Lead**
 
@@ -177,7 +188,7 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
  </tbody> 
 </table>
 
-**Case**
+**Fall**
 
 <table> 
  <tbody> 
@@ -263,7 +274,7 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
  </tbody> 
 </table>
 
-**Möjligheter**
+**Möjlighet**
 
 <table> 
  <tbody> 
@@ -410,7 +421,7 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
  </tbody> 
 </table>
 
-**Campaign**
+**Kampanj**
 
 <table> 
  <colgroup> 
@@ -636,13 +647,13 @@ I den här listan visas [!DNL Salesforce] Standardobjekt som [!DNL Marketo Measu
 >* Uppgift
 
 
-## [!DNL Marketo Measure] Egna objekt i [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
+## [!DNL Marketo Measure] anpassade objekt i [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Förutom att skapa anpassade fält på SFDC:s standardobjekt, så måste du [!DNL Marketo Measure] paketet är installerat och skapar ett par anpassade objekt. Nedan visas en lista över de anpassade objekten tillsammans med en tabell som anger fälten som [!DNL Marketo Measure] skriver till.
+Förutom att skapa anpassade fält på SFDC:s standardobjekt skapas ett par anpassade objekt när [!DNL Marketo Measure]-paketet har installerats. Nedan visas en lista över de här anpassade objekten tillsammans med en tabell som anger de fält som [!DNL Marketo Measure] ska skriva till.
 
 **Buyer Touchpoint**
 
-Buyer Touchpoint är [!DNL Marketo Measure] Anpassat objekt för att kapsla in marknadsföringsinteraktioner för Kontakter, Leads och Ärenden.
+Buyer Touchpoint är ett anpassat [!DNL Marketo Measure]-objekt som kapslar in marknadsföringsinteraktioner för kontakter, leads och ärenden.
 
 <table> 
  <tbody> 
@@ -907,9 +918,9 @@ Buyer Touchpoint är [!DNL Marketo Measure] Anpassat objekt för att kapsla in m
  </tbody> 
 </table>
 
-**[!DNL Marketo Measure]Person**
+**[!DNL Marketo Measure]person**
 
-The [!DNL Marketo Measure] Personen är en [!DNL Marketo Measure] Anpassat objekt som är relaterat till både lead-, kontakt- och case-objekt.
+Personen [!DNL Marketo Measure] är ett anpassat [!DNL Marketo Measure]-objekt som är relaterat till både lead-, kontakt- och case-objekt.
 
 <table> 
  <tbody> 
@@ -948,7 +959,7 @@ The [!DNL Marketo Measure] Personen är en [!DNL Marketo Measure] Anpassat objek
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Buyer Attribution Touchpoint är [!DNL Marketo Measure] Anpassat objekt som kapslar in marknadsföringens påverkan på affärsmöjligheter.
+Buyer Attribution Touchpoint är ett anpassat [!DNL Marketo Measure]-objekt som kapslar in marknadsföringens påverkan på affärsmöjligheter.
 
 **Buyer Attribution Touchpoint**
 
@@ -1304,3 +1315,7 @@ Buyer Attribution Touchpoint är [!DNL Marketo Measure] Anpassat objekt som kaps
   </tr> 
  </tbody> 
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Översikt över integreringsbehörigheter](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}

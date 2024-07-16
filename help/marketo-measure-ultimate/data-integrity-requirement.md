@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] Ultimat dataintegritetskrav - [!DNL Marketo Measure]'
-title: '''[!DNL Marketo Measure] Ultimate Data Integrity Required'
+description: '[!DNL Marketo Measure] Ultimate Data Integrity-krav - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Ultimate Data Integrity Required'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Measure] Ultimat dataintegritetskrav {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] validerar inkommande AEP-datauppsättningar för att säkerställa att data är tillräckliga och konsekventa för attribuering. Om dataintegritetskravet inte uppfylls avvisas datauppsättningen av [!DNL Marketo Measure] system. I den här artikeln beskrivs dataintegritetskravet, den innehåller frågeexempel för datainspektion och den rekommenderar en lösning för obligatoriska fält med ett null-värde.
+[!DNL Marketo Measure] validerar inkommande AEP-datauppsättningar för att säkerställa att data är tillräckliga och konsekventa för attribuering. Om dataintegritetskravet inte uppfylls, kommer datauppsättningen att refuseras av systemet [!DNL Marketo Measure]. I den här artikeln beskrivs dataintegritetskravet, den innehåller frågeexempel för datainspektion och den rekommenderar en lösning för obligatoriska fält med ett null-värde.
 
 ## Enhetsobjekt {#entity-object}
 
@@ -22,13 +22,13 @@ ht-degree: 0%
     <th>XDM-fältgrupp</th>
     <th>XDM-sökväg</th>
     <th>XDM-typ</th>
-    <th>Datakällfält</th>
+    <th>Data Source Field</th>
     <th>Obligatoriskt?</th>
     <th>Anteckningar</th>
   </tr>
   <tbody>
     <tr>
-      <td colspan="7"><strong>Konto</strong> (Konto för Salesforce, Company och/eller Named Account för Marketo)</td>
+      <td colspan="7"><strong>Konto</strong> (konto för Salesforce, Company och/eller namngivet konto för Marketo)</td>
     </tr>
     <tr>
       <td rowspan="6">XDM Business Account</td>
@@ -89,7 +89,7 @@ ht-degree: 0%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Campaign</strong> (Campaign for Salesforce, Program for Marketo)</td>
+      <td colspan="7"><strong>Campaign</strong> (Campaign för Salesforce, Program för Marketo)</td>
     </tr>
     <tr>
       <td rowspan="8">XDM Business Campaign</td>
@@ -201,7 +201,7 @@ ht-degree: 0%
       <td>För kampanjkostnad</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Kampanjmedlem</strong> (Campaign Member for Salesforce, Program Memberships for Marketo)</td>
+      <td colspan="7"><strong>Kampanjmedlem</strong> (kampanjmedlem för Salesforce, programmedlemskap för Marketo)</td>
     </tr>
     <tr>
       <td rowspan="14">XDM Business Campaign-medlemmar</td>
@@ -356,7 +356,7 @@ ht-degree: 0%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Person</strong> (Kontakt eller lead för Salesforce, Personer för Marketo)</td>
+      <td colspan="7"><strong>Person</strong> (kontakt eller lead för Salesforce, Personer för Marketo)</td>
     </tr>
     <tr>
       <td>Individuell XDM-profil</td>
@@ -491,7 +491,7 @@ ht-degree: 0%
       <td>Exempel: Marketo</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Möjligheter</strong> (Möjligheter för Salesforce, möjligheter för Marketo)</td>
+      <td colspan="7"><strong>Möjligheter</strong> (säljprojekt för Salesforce, säljprojekt för Marketo)</td>
     </tr>
     <tr>
       <td rowspan="13">XDM - affärsmöjlighet</td>
@@ -887,6 +887,16 @@ ht-degree: 0%
   </tbody>
 </table>
 
+**Standardvaluta**: I Marketo Measure konverteras alla intäkter och kostnader till en standardvaluta vid rapporteringstidpunkten. Det måste finnas en post med samma datumtäckning för själva målvalutan (t.ex. USD till USD) med konverteringsgraden 1.
+
+**Konverteringsgrader**: Varje par (källvaluta, målvaluta) kan ha flera konverteringsgrader för olika datumperioder. Frekvenserna måste omfatta hela tidsintervallet från 0001-01-01 till 999-12-31, enligt objektet Salesforce DatedConversionRate.
+
+**Datumintervall**:
+* Det finns inga överlappande datumintervall inom en angiven räntesats (källvaluta, målvaluta) (t.ex. 2023-01-01 till 2023-02-01 och 2023-01-01 till 2024-01-01).
+* Inga luckor mellan datumintervall. Startdatumet är inkluderat och slutdatumet är exklusivt.
+
+<p>
+
 ## ExperienceEvent {#experienceevent}
 
 <table style="table-layout:auto">
@@ -895,7 +905,7 @@ ht-degree: 0%
     <th>XDM-fältgrupp</th>
     <th>XDM-sökväg</th>
     <th>XDM-typ</th>
-    <th>Datakällfält</th>
+    <th>Data Source Field</th>
     <th>Obligatoriskt?</th>
     <th>Anteckningar</th>
   </tr>
