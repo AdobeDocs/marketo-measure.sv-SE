@@ -13,18 +13,18 @@ ht-degree: 0%
 
 # Återauktoriserar anslutna konton {#reauthorizing-connected-accounts}
 
-När ett konto kopplas från [!DNL Marketo Measure] -kontot ändras plattformens status till Behörighet krävs och en röd nyckelikon visas.
+När ett konto kopplas bort från ditt [!DNL Marketo Measure]-konto ändras plattformens status till Autentisering krävs och en röd nyckelikon visas.
 
-Om er annonsplattform blir frånkopplad [!DNL Marketo Measure] kommer inte att kunna ladda ned kostnadsdata eller, om du har aktiverat autotaggning, lägga till [!DNL Marketo Measure] UTM-parametrar till nya annonser. [!DNL Marketo Measure] kan inte lägga till UTM-parametrar retroaktivt till kontaktytor som skapats från annonsplattformen när kontot kopplades från.
+Om annonsplattformen kopplas från kan [!DNL Marketo Measure] inte hämta kostnadsdata eller, om du har autotagging aktiverat, lägga till [!DNL Marketo Measure] UTM-parametrarna till nya annonser. [!DNL Marketo Measure] kan inte lägga till UTM-parametrar retroaktivt till kontaktytor som skapats från annonsplattformen när kontot kopplades från.
 
-Om din CRM-plattform kopplas från, [!DNL Marketo Measure] kommer inte att kunna uppdateras [!DNL Marketo Measure] data eller för in nya kontaktytor i organisationen. När CRM-anslutningen har återupprättats [!DNL Marketo Measure] skickar alla data som missats när kontot kopplades från.
+Om din CRM-plattform kopplas från kan [!DNL Marketo Measure] inte uppdatera [!DNL Marketo Measure]-data eller överföra nya kontaktytor till din organisation. När CRM-anslutningen har återupprättats skickar [!DNL Marketo Measure] alla data som missats när kontot kopplades från.
 
 ![](assets/1-1.png)
 
 ## Återauktoriserar frånkopplade konton {#re-authorizing-disconnected-accounts}
 
 1. Gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} och logga in.
-1. Välj **[!UICONTROL Settings]** under [!UICONTROL My Account] i det övre vänstra hörnet.
+1. Välj **[!UICONTROL Settings]** under fliken [!UICONTROL My Account] i det övre vänstra hörnet.
 1. Gå till avsnittet Integrationer till vänster och klicka på **[!UICONTROL Connections]**.
 1. Markera den röda nyckelsymbolen bredvid det konto som ska återanslutas.
 1. Ett popup-fönster visas där du uppmanas att ange inloggningsinformation för kontot.

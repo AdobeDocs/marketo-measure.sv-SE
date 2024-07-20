@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ## Snowflake Access Link {#snowflake-access-link}
 
-Om du vill komma åt ditt datalager i Snowflake måste du navigera till den specifika URL:en för ditt Snowflake-konto. Du hittar den här länken genom att logga in [!DNL Marketo Measure] och följer stegen nedan för att navigera till informationssidan för Data Warehouse.
+Om du vill komma åt ditt datalager i Snowflake måste du navigera till den specifika URL:en för ditt Snowflake-konto. Du hittar den här åtkomstlänken genom att logga in på [!DNL Marketo Measure] och följa stegen nedan för att navigera till informationssidan för Data Warehouse.
 
-1. I [!DNL Marketo Measure], längst upp på sidan, klicka på **[!UICONTROL My Account]** > **[!UICONTROL Settings]**.
+1. I [!DNL Marketo Measure], överst på sidan, klickar du på **[!UICONTROL My Account]** > **[!UICONTROL Settings]**.
 
    ![](assets/data-warehouse-access-reader-account-1.png)
 
-1. På den vänstra menyn under Dokumentskydd klickar du på **[!UICONTROL Data Warehouse]**.
+1. Klicka på **[!UICONTROL Data Warehouse]** under Säkerhet på den vänstra menyn.
 
    ![](assets/data-warehouse-access-reader-account-2.png)
 
@@ -30,7 +30,7 @@ Om du vill komma åt ditt datalager i Snowflake måste du navigera till den spec
 
    >[!NOTE]
    >
-   >Det här är ett skrivskyddat konto som är tillgängligt för din organisation, inte bara för en enskild användare. Alla användare i organisationen som har tillgång till [!DNL Marketo Measure] kan använda det här kontot för att logga in på läsarkontot för Datan Warehouse Snowflake.
+   >Det här är ett skrivskyddat konto som är tillgängligt för din organisation, inte bara för en enskild användare. Alla användare i organisationen som har åtkomst till [!DNL Marketo Measure] kan använda det här kontot för att logga in på läsarkontot för Snowflake Data Warehouse.
 
 1. Klicka på länken som finns i Snowflake URL:en. Då kommer du till inloggningssidan för Snowflake där du anger ditt användarnamn och lösenord. _Om du inte har ditt lösenord läser du stegen nedan för att återställa det_.
 
@@ -46,11 +46,11 @@ Om du vill komma åt ditt datalager i Snowflake måste du navigera till den spec
 
 ## Återställ lösenordet {#reset-your-password}
 
-[!DNL Marketo Measure] har inte åtkomst till ditt inloggningslösenord för Snowflake. Om du måste återställa lösenordet klickar du på [!UICONTROL Reset Password] på Datans Warehouse informationssida och följ instruktionerna. Ett tillfälligt lösenord visas omedelbart i användargränssnittet. Du uppmanas att skapa ett eget lösenord på nästa inloggning på datalagret.
+[!DNL Marketo Measure] har inte åtkomst till ditt inloggningslösenord för Snowflake. Om du måste återställa ditt lösenord klickar du på knappen [!UICONTROL Reset Password] på informationssidan för Data Warehouse och följer instruktionerna. Ett tillfälligt lösenord visas omedelbart i användargränssnittet. Du uppmanas att skapa ett eget lösenord på nästa inloggning på datalagret.
 
 >[!NOTE]
 >
->* Om du återställer lösenordet återställs det för alla [!DNL Marketo Measure] -användare i din organisation, inte bara den användare som är inloggad.
+>* Om du återställer lösenordet återställs det för alla [!DNL Marketo Measure] användare i organisationen, inte bara för den användare som är inloggad för tillfället.
 >* Vi visar bara det tillfälliga lösenordet i användargränssnittet. Inget e-postmeddelande skickas.
 
 ![](assets/data-warehouse-access-reader-account-7.png)
@@ -68,11 +68,11 @@ Du måste ange några uppgifter för att kunna koppla ditt datalager från Snowf
 * **URI** (alltid obligatoriskt)
    * Detta är domännamnet för Snowflake-kontot. Den finns i en del av inloggningslänken för Snowflake.
 * **Användarnamn** (alltid obligatoriskt)
-   * Användarnamnet visas på Datans Warehouse informationssida i [!DNL Marketo Measure].
+   * Användarnamnet visas på informationssidan för Data Warehouse i [!DNL Marketo Measure].
 * **Lösenord** (alltid obligatoriskt)
    * Det här är lösenordet som du angav första gången du loggade in på ditt Snowflake-konto. Information om hur du återställer lösenordet finns i instruktionerna ovan.
 * **Databasnamn** (krävs inte alltid)
-   * Databasen är den som lagrar data i Snowflake. Det är lagringsresursen. Databasnamnet visas på Datans Warehouse informationssida i [!DNL Marketo Measure].
+   * Databasen är den som lagrar data i Snowflake. Det är lagringsresursen. Databasnamnet visas på informationssidan för Data Warehouse i [!DNL Marketo Measure].
 * **Namn på lagerställe** (krävs inte alltid)
    * Det är lagerstället som kör frågor i Snowflake. Det är den beräknade resursen. Lagerställets namn visas på informationssidan för Datan Warehouse i [!DNL Marketo Measure].
 

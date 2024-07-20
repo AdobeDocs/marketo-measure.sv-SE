@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Funktionen Boomerang är bara aktiverad för Tier 2- och Tier 3-kunder. Om du vill begära en högre kontonivå kontaktar du kontoteamet (din kontohanterare) på Adobe.
 
-[!DNL Marketo Measure] har släppt funktionen Boomerang Stage! Funktionen Boomerang Stage skapades för att ge större insyn i kundresan för [!DNL Marketo Measure] kunder med långa säljcykler. Med den här funktionen kan marknadsförare skapa kontaktytor för alla scenövergångar som inträffar i säljprojektsresan, till exempel när en kontakt-MQL, sedan går över till SAL och sedan återgår till MQL-steget. När kontakterna&quot;återgår till MQL-stadiet&quot; eller&quot;re-MQL:er&quot; betraktas MQL som ett boomerang-stadium. Funktionen Boomerang Stage fungerar tillsammans med [!DNL Marketo Measure] Anpassade steg.
+[!DNL Marketo Measure] har släppt funktionen Boomerang Stage! Funktionen Boomerang Stage skapades för att ge större insyn i kundresan för [!DNL Marketo Measure] kunder med långa säljcykler. Med den här funktionen kan marknadsförare skapa kontaktytor för alla scenövergångar som inträffar i säljprojektsresan, till exempel när en kontakt-MQL, sedan går över till SAL och sedan återgår till MQL-steget. När kontakterna&quot;återgår till MQL-stadiet&quot; eller&quot;re-MQL:er&quot; betraktas MQL som ett boomerang-stadium. Funktionen Boomerang-scenen fungerar tillsammans med de anpassade [!DNL Marketo Measure]-stegen.
 
 ## Vad den här funktionen gör {#what-this-feature-does}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[Instruktioner för hur du konfigurerar Boomerang Stages](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md).
+>[Instruktioner om hur du konfigurerar Boomerang-stadier](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md).
 
 ## Hur Boomerang-scener och kontaktytor ser ut i din CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
@@ -40,7 +40,7 @@ Med Boomerang-scener och kontaktytor ser du kontaktytor för varje scenövergån
 
 **[Scennamn]-00.**
 
-Med exemplet nedan är detta [!DNL Marketo Measure] kontot har inkluderat MQL och SQL i sina boomerang-stadier och har valt att visa 2 boomerang-kontaktytor per scen.
+Med hjälp av exemplet nedan har det här [!DNL Marketo Measure]-kontot inkluderat MQL och SQL i sina boomerang-stadier och har valt att visa 2 boomerang-kontaktytor per scen.
 
 ![](assets/2.png)
 
@@ -48,19 +48,19 @@ Med exemplet nedan är detta [!DNL Marketo Measure] kontot har inkluderat MQL oc
 
 Det numeriska värdet i kontaktpunktspositionen anger i vilken ordning scenövergången inträffade. Den sista boomerang-kontaktytan ska stämplas som:
 
-MQL-02 **(Sista)**
+MQL-02 **(Senaste)**
 
 ## Hur Boomerang-scener ändrar dina befintliga data {#how-boomerang-stages-change-your-existing-data}
 
 Boomerang Stages-effekt:
 
-**Attribut per kanal**
+**Attribution per kanal**
 
-* Sedan [!DNL Boomerang Stages] skapar fler kontaktytor, vilket ändrar hur attribueringen fördelas mellan de kontaktytor som för närvarande finns i dina data. Därför kan detta innebära att intäktsvärdet växlar mellan olika marknadsföringskanaler. Ta detta i beaktande innan implementeringen [!DNL Boomerang stages]eller kontakta din kontoansvarige om du vill ha mer information.
+* Eftersom [!DNL Boomerang Stages] skapar fler kontaktytor ändrar detta hur attribueringen fördelas bland de kontaktytor som för närvarande finns i dina data. Därför kan detta innebära att intäktsvärdet växlar mellan olika marknadsföringskanaler. Ta hänsyn till detta innan du implementerar [!DNL Boomerang stages], eller kontakta din kontoansvarige om du vill ha mer information.
 
-**Alla rapporter som använder &quot;lika med&quot; [Pekpunktsposition]&quot;**
+**Alla rapporter som använder &quot;är lika med [Pekpunktsposition]&quot;**
 
-* Boomerang-faser introducerar nya kontaktytor i era data. [!DNL Marketo Measure] ändrar formatet för Touchpoint-positionen så att den inkluderar scenens förekomst, som &quot;MQL-01&quot; eller &quot;MQL-05 (sist)&quot;. I det här exemplet påverkar Boomerang Stages alla rapporter som använder&quot;Touchpoint Position is equal to MQL&quot;. För att justera dessa rapporter ska filtret använda operatorn&quot;contains&quot; i stället.
+* Boomerang-faser introducerar nya kontaktytor i era data. [!DNL Marketo Measure] ändrar formatet för Touchpoint-positionen så att den inkluderar scenen, till exempel &quot;MQL-01&quot; eller &quot;MQL-05 (senaste)&quot;. I det här exemplet påverkar Boomerang Stages alla rapporter som använder&quot;Touchpoint Position is equal to MQL&quot;. För att justera dessa rapporter ska filtret använda operatorn&quot;contains&quot; i stället.
 
 ## Vanliga frågor och svar {#faq}
 
@@ -68,20 +68,20 @@ Boomerang Stages-effekt:
 
 Du kan välja upp till 15 steg.
 
-**F: Hur många &quot;boomerang&quot;-kontaktytor kan jag ha per scen?**
+**F: Hur många boomerang-kontaktytor kan jag ha per scen?**
 
 Du kan välja upp till tio boomerang-kontaktytor per scen.
 
-**F: Varför finns det en gräns på tio boomeranger per fas?**
+**F: Varför finns det en gräns på tio boomeranger per stadium?**
 
-[!DNL Marketo Measure] måste begränsa antalet steg för att hålla processtiderna under kontroll. Om du väljer att ta med alla 15 Boomerang-scener i din attribueringsmodell och 10 boomerang-kontaktytor per scen, kan du ha fler än 150 kontaktytor per lead-/kontaktpost.
+[!DNL Marketo Measure] måste sätta en gräns för antalet steg för att behålla bearbetningstiden under kontroll. Om du väljer att ta med alla 15 Boomerang-scener i din attribueringsmodell och 10 boomerang-kontaktytor per scen, kan du ha fler än 150 kontaktytor per lead-/kontaktpost.
 
-**F: Jag har Data Warehouse. Får jag alla data eller gäller boomerang Stages-taket mig också?**
+**Q: Jag har Data Warehouse. Får jag alla data eller gäller boomerang Stages-taket även mig?**
 
-Begränsningen gäller för Data Warehouse och CRM på grund av de bearbetningsgränser som [!DNL Marketo Measure] har kommit. Datan Warehouse kommer också att se gränsen på tio kontaktytor per fas.
+Begränsningen gäller för Data Warehouse och CRM på grund av de bearbetningsgränser som [!DNL Marketo Measure] har. Datan Warehouse kommer också att se gränsen på tio kontaktytor per fas.
 
-**F: Vilka är fördelarna med att använda Boomerang Stages med anpassad modellering?**
+**F: Vilka är fördelarna med att använda Boomerang-scener med anpassad modellering?**
 
-Använda [!UICONTROL Boomerang] Med hjälp av steg med anpassad modellering kan du tilldela attribueringsviktning till [!UICONTROL Boomerang] kontaktytor som tilldelar intäktskrediter till dessa faser.
+Om du använder [!UICONTROL Boomerang] faser med anpassad modellering kan du tilldela attribueringsviktning till [!UICONTROL Boomerang] kontaktytor, vilket allokerar intäktskrediter till dessa faser.
 
-Utan anpassad modellering [!DNL Marketo Measure] skapar kontaktytor för varje boomerang- och scenövergång, men tilldelar inga attribueringskrediter till dessa kontaktytor. De enda boomerang-kontaktytorna som får attribueringskrediter är från inskickade kontaktytor. Utan anpassad modell [!DNL Boomerang] kontaktytor betraktas som&quot;mellanberöring&quot; och får attribueringskrediter i enlighet med detta.
+Utan anpassad modellering skapar [!DNL Marketo Measure] kontaktytor för varje boomerang- och scenövergång, men tilldelar inga attribueringskrediter till dessa kontaktytor. De enda boomerang-kontaktytorna som får attribueringskrediter är från inskickade kontaktytor. Utan en anpassad modell betraktas [!DNL Boomerang] kontaktytor som samma som en &quot;mellanhand&quot; och tilldelas attribueringskrediter i enlighet med detta.

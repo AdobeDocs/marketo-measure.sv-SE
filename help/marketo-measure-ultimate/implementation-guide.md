@@ -1,8 +1,9 @@
 ---
 description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure]'
-title: '''[!DNL Marketo Measure] Ultimate Implementation Guide'
+title: '[!DNL Marketo Measure] Ultimate Implementation Guide'
 feature: Integration, Tracking, Attribution
-source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
+exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 0%
@@ -36,7 +37,7 @@ Läs mer om [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-me
 
 >[!NOTE]
 >
->Checka ut [Byggblock i ett schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} för en översikt över scheman, klasser och fältgrupper.
+>Kolla in [Byggblock för ett schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} om du vill ha en översikt över scheman, klasser och fältgrupper.
 
 **XDM-schema = klass + schemafältgrupp&#42;**
 
@@ -47,7 +48,7 @@ Läs mer om [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-me
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[Datauppsättningar - översikt](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}: Alla data som har importerats till AEP lagras i Data Lake som datauppsättningar. En datauppsättning är en lagrings- och hanteringskonstruktion för en datamängd, vanligtvis en tabell, som innehåller ett schema (kolumner) och fält (rader).
+[Datauppsättningsöversikt](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}: Alla data som har inhämtats till AEP lagras i Data Lake som datauppsättningar. En datauppsättning är en lagrings- och hanteringskonstruktion för en datamängd, vanligtvis en tabell, som innehåller ett schema (kolumner) och fält (rader).
 
 ## Skapa ett schema {#creating-a-schema}
 
@@ -55,7 +56,7 @@ Vi rekommenderar att du använder ett autogenereringsverktyg för att skapa tio 
 
 * Steg för att hämta och konfigurera verktyget [finns här](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan Källor.
+För dem med ett _**CDP-berättigande**_: Skapa scheman genom att gå till sidan Källor.
 
 * Välj Lägg till data > Använd mallar från en källa
 
@@ -71,22 +72,22 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
 >
 >När du lägger till en ny datauppsättning rekommenderar vi att du skapar ett flöde i stället för att använda en befintlig.
 
-[Översikt över dataflöden](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
+[Dataflöden - översikt](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **Steg för att skapa ett dataflöde:**
 
-1. Välj en källa.
+1. Välj en Source.
 1. Välj ett befintligt konto eller skapa ett konto.
-1. Välj en datatyp i listan med tillgängliga typer att importera från källan.
+1. Välj en datatyp i listan med tillgängliga typer att importera från Source.
 1. Välj en befintlig datauppsättning eller skapa en datauppsättning.
-1. Mappa fälten från källan till schemat.
+1. Mappa fälten från Source till schemat.
 
    >[!NOTE]
    >
    >* Om du mappar en schematyp till en annan, görs det automatiskt.
    >* Du kan också importera mappning från ett annat flöde i systemet.
-   >* Du kan mappa ett källfält till flera målfält, men inte tvärtom.
-   >* Du kan skapa beräkningsfält ([Funktioner för datapersonmappning](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
+   >* Du kan mappa ett Source-fält till flera målfält, men inte tvärtom.
+   >* Du kan skapa beräknade fält ([Förmappningsfunktioner för dataprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -95,7 +96,7 @@ För dem som har _**CDP-berättigande**_: Skapa scheman genom att gå till sidan
 
    >[!NOTE]
    >
-   >[Marketo Measure Ultimate Data Integrity-krav](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
+   >[Marketo Measure Ultimate-dataintegritetskrav](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. Ange en datainläsningskadens.
 1. Granska och slutför.
@@ -114,7 +115,7 @@ Alternativ 1: Om du vill köra frågor direkt från användargränssnittet går 
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Alternativ 2: [Hämta och använda PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (snabbare och tillförlitligare).
+Alternativ 2: [Hämta och använd PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (snabbare och mer tillförlitligt).
 
 ## Aktivera datauppsättning för Marketo Measure {#activate-dataset-for-marketo-measure}
 
@@ -141,7 +142,7 @@ I Mått måste standardvalutan anges i avsnittet Valuta.
 
 * Om du använder flera valutor måste valutakonverteringsschemat fyllas i i AEP för att vi ska kunna läsa och använda för konverteringar.
 
-**Scenmappning:**
+**Stage Mapping:**
 
 Vi importerar inte automatiskt faser från användardata, så alla faser måste mappas manuellt.
 
@@ -151,12 +152,12 @@ Vi importerar inte automatiskt faser från användardata, så alla faser måste 
 
 Om faserna inte mappas kommer systemet inte att fungera eftersom det inte kommer att finnas någon plats för data.
 
-Om du är kund hos Marketo Measure Ultimate och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda nedanstående två fält som är specifika för lead ([läs mer här](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Om du är Marketo Measure Ultimate-kund och har angett ditt standardinstrumentpanelsobjekt som kontakt ska du inte använda de två fält nedan som är specifika för lead ([läs mer här](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted
 
-**Regler för kampanjmedlemmar:**
+**Kampanjmedlemsregler:**
 
 Välj en datauppsättning och ange regler för varje.
 

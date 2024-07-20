@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;[!DNL Bizible]&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se [!DNL Bizible] i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-När du glider in i [!DNL Marketo Measure] Rapporter i [!DNL Salesforce]kan du börja hitta dubblettposter i dina rapporter. Du kommer antagligen att uppleva den här känslan när du granskar [!DNL Marketo Measure] färdiga rapporter.
+När du dykar upp i [!DNL Marketo Measure] rapporter i [!DNL Salesforce] kan du börja hitta dubblettposter i dina rapporter. Den här känslan kommer troligen att uppstå när du granskar [!DNL Marketo Measure] färdiga rapporter.
 
 När du rapporterar till Buyer Touchpoints-objektet eller Buyer Attribution Touchpoint-objektet är det viktigt att förstå att du inte längre rapporterar antalet leads, kontakter eller affärsmöjligheter, utan i stället rapporterar du antalet Buyer Touchpoints eller Buyer Attribution Touchpoints som är kopplade till dessa standardobjekt (leads, kontakter, affärsmöjligheter).
 
 Låt oss ta följande rapport som exempel:
 
-Det här är en **Kontakter med Buyer Touchpoints** rapport. Återigen innebär det att vi tittar på antalet kontaktytor som är kopplade till en enskild kontakt.
+Det här är en **Kontakt med Buyer Touchpoints** -rapport. Återigen innebär det att vi tittar på antalet kontaktytor som är kopplade till en enskild kontakt.
 
 ![](assets/1.gif)
 

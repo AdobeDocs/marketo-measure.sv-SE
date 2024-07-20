@@ -1,6 +1,6 @@
 ---
 unique-page-id: 27656737
-description: Utgift för rapportmarknadsföring - [!DNL Marketo Measure]
+description: Rapportera marknadsföringsutgifter - [!DNL Marketo Measure]
 title: Utgift för rapportmarknadsföring
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
@@ -25,15 +25,15 @@ När en användare hämtar kostnadsfilen innehåller filen också en ny kolumn m
 
 ## Kostnader för annonseringsintegreringar {#costs-from-ad-integrations}
 
-När [!DNL Marketo Measure] importerar kostnaden från anslutna plattformar som AdWords, Bing, Facebook eller Doubleclick använder vi även den rapporterade valutan. Valutan visas tillsammans med Channel, Subchannel och Campaign i tabellen Marketing Spend.
+När [!DNL Marketo Measure] importerar kostnaden från anslutna plattformar som AdWords, Bing, Facebook eller Doubleclick används även den rapporterade valutan. Valutan visas tillsammans med Channel, Subchannel och Campaign i tabellen Marketing Spend.
 
-Om valutan från annonseringsprovidern inte matchar en valuta som hämtas från CRM kan felet&quot;Blandade valutor&quot; visas i [!DNL Marketo Measure Discover]. För att åtgärda detta måste CRM-administratören lägga till en konvertering för den okända valutan.
+Om valutan från annonseringsprovidern inte matchar en valuta som hämtas från CRM kan felet Blandade valutor visas i [!DNL Marketo Measure Discover]. För att åtgärda detta måste CRM-administratören lägga till en konvertering för den okända valutan.
 
 ## Migrera till konverterad marknadsföringsutgift {#migrate-to-converted-marketing-spend}
 
 Eftersom marknadsföringsutgifterna historiskt sett bara har varit i en enda valuta (USD) behövs ett litet arbete för att ändra alla rapporterade utgifter till den nya valutan. Även om kontot inte har flera valutor aktiverade bör du göra den här migreringen om du har en enda företagsvaluta som inte är USD.
 
 1. Hämta den aktuella utgiftsfilen till en CSV-fil
-1. Valutakolumnen visar &quot;[!UICONTROL USD]&quot; som den antagna valutan. Du kan antingen ersätta alla förekomster av[!UICONTROL USD]&quot; eller använd Sök+Ersätt för att ändra alla &quot;[!UICONTROL USD]&quot; till er egen företagsvaluta, som &quot;[!UICONTROL EUR]&quot; eller &quot;[!UICONTROL GBP]&quot;.
-1. Spara filen och ladda upp den igen [!DNL Marketo Measure].
+1. Valutakolumnen visar [!UICONTROL USD] som antagen valuta. Du kan antingen ersätta alla förekomster av [!UICONTROL USD] manuellt eller använda Sök+Ersätt om du vill ändra alla [!UICONTROL USD]-förekomster till din egen företagsvaluta, till exempel [!UICONTROL EUR] eller [!UICONTROL GBP].
+1. Spara filen och överför den sedan tillbaka till [!DNL Marketo Measure].
 1. Alla rapporterade kostnader visas nu som ny valuta.

@@ -1,5 +1,5 @@
 ---
-description: Instrumentpanel för intäktsöversikt - [!DNL Marketo Measure] - Produkt
+description: Instrumentpanel för intäktsöversikt - [!DNL Marketo Measure]  - Produkt
 title: Instrumentpanel för intäktsöversikt
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
@@ -23,10 +23,10 @@ Instrumentpanelen Intäktsöversikt ger insikter om den totala intäkten från C
 
 ### KPI-paneler {#kpi-tiles}
 
-* **Total intäkt**: Den totala intäkten från &quot;Closed Won&quot;-möjligheter, inklusive möjligheter utan kontaktytor.
-* **Totalt antal avtal**: Antalet möjligheter till &quot;Closed Won&quot;, inklusive möjligheter utan kontaktytor.
-* **Attribuerad intäkt**: Den totala intäkten från &quot;Closed Won&quot;-möjligheter med kontaktytor.
-* **Attribuerade erbjudanden**: Antal stängda vinstmöjligheter som har kontaktytor.
+* **Total intäkt**: Den totala intäkten från affärsmöjligheter som har stängts, inklusive affärsmöjligheter utan kontaktytor.
+* **Totalt antal avtal**: Antal stängda vinstmöjligheter, inklusive affärsmöjligheter utan kontaktytor.
+* **Attributerad intäkt**: Den totala intäkten från affärsmöjligheter med slutna vinstmöjligheter med kontaktytor.
+* **Attributerade erbjudanden**: Antalet stängda affärsmöjligheter som har kontaktytor.
 
 ### Diagram över intäkter och associerade intäkter {#revenue-and-attributed-revenue-chart}
 
@@ -35,7 +35,7 @@ Sida vid sida-diagram över tidsserier i liggande format kontrasterar Totala int
 * använda detaljfunktionerna för att kategorisera data efter kvartal och år.
 * Håll pekaren över en del av stapeldiagrammet för att visa detaljerad information.
 
-**Frågor om diagramsvaren:**
+**Frågar diagramsvaren:**
 
 * Hur stor procent av våra intäkter från augusti 2022 kan tillskrivas våra marknadsföringsinitiativ?
 * Hur balanserar de avskrivna intäkterna i tredje kvartalet förra året mot det fjärde kvartalet?
@@ -46,7 +46,7 @@ Sida vid sida-diagram över tidsserier i liggande format kontrasterar Totala int
 
 I det här cirkeldiagrammet visas tydligt din attribueringstäckning genom att de totala intäkterna delas in i Attribut och Icke-Attribut, vilket visar den exakta procentandel av intäkterna som påverkas av marknadsföringssatsningarna.
 
-**Frågor om diagramsvaren:**
+**Frågar diagramsvaren:**
 
 * Hur stor var den procentuella intäktstäckning som vi lade på vårt marknadsföringsarbete förra året?
 
@@ -60,5 +60,5 @@ Kontrollpanelen är utrustad med följande inställningar och filter:
 
 >[!MORELIKETHIS]
 >
->* [Grunderna i kontrollpanelen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Grunderna för instrumentpanel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Synlighetsprincip för instrumentpanelsdata](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

@@ -1,5 +1,5 @@
 ---
-description: Ny guide till Discover Dashboard - [!DNL Marketo Measure] - Produkt
+description: Guiden Ny Discover Dashboard - [!DNL Marketo Measure]  - Produkt
 title: Ny guide för Discover Dashboard
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
@@ -26,47 +26,47 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
     </tr>
     <tr>
       <td>Översikt</td>
-      <td><ul><li><strong>Intäkter</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
-          <li><strong>Ökning</strong>:<ul>              <li>Instrumentpanel för attributerade intäkter: Attribuerad intäkt per kanal över tidsdiagram</li>
-            <li>Kontrollpanel för avkastning på investering: diagram över kostnad över tid</li></ul></li><li><strong>Utgift</strong>: ROI Dashboard</li>
-          <li><strong>Erbjudanden</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
+      <td><ul><li><strong>Intäkter</strong>: Attribuerad intäkt, Intäktsöversikt, ROI-instrumentpaneler</li>
+          <li><strong>Översikt</strong>:<ul>              <li>Instrumentpanel för attributerade intäkter: Attribuerad intäkt per kanal över tidsdiagram</li>
+            <li>Kontrollpanel för avkastning på investering: diagram över kostnad över tid</li></ul></li><li><strong>Utgift</strong>: ROI-instrumentpanel</li>
+          <li><strong>Erbjudanden</strong>: Attribuerad intäkt, Intäktsöversikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Kostnad per avtal: </strong>Kontrollpanel för avkastning</li>
+            <strong>Kostnad per avtal: </strong>ROI-instrumentpanel</li>
           <li>
-            <strong>Kanal/delkanal/kampanjsammanfattning:</strong>Kontrollpanel för avkastning</li>
+            <strong>Kanal/delkanal/kampanjsammanfattning:</strong>ROI-instrumentpanelen</li>
           <li>
-            <strong>Översikt över avkastning och avkastning:</strong>Kontrollpanel för avkastning</li>
+            <strong>Sammanfattning av ROI och ROI:</strong>Kontrollpanel för ROI</li>
           <li>
-            <strong>Försäljningsförlopp:</strong>Föråldrat (se nedan)</li>
+            <strong>Försäljningsförlopp:</strong>Inaktuell (se nedan)</li>
           <li>
-            <strong>Genomsnittlig avtalsstorlek: </strong>Föråldrat (se nedan)</li></ul>
+            <strong>Genomsnittlig avtalsstorlek: </strong>Inaktuell (se nedan)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Tillväxt</td>
       <td><ul>
           <li>
-            <strong>Intäkter och intäkter över tid</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
+            <strong>Intäkter och intäkter över tid</strong>: Attributerade intäkter, Intäktsöversikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Erbjudanden</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
+            <strong>Erbjudanden</strong>: Attribuerad intäkt, Intäktsöversikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Leads</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
+            <strong>Leads</strong>: Attribuerad intäkt, Intäktsöversikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Möjligheter</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
+            <strong>Affärsmöjligheter</strong>: Attribuerad intäkt, Intäktsöversikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Besök och besök över tid</strong>: Instrumentpanel för webbtrafik</li>
+            <strong>Besök och besök över tid</strong>: Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>Unika besök och unika besök över tid</strong>: Instrumentpanel för webbtrafik</li>
+            <strong>Unika besök och unika besök över tid</strong>: Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>Site Forms &amp; Site Forms</strong>: Instrumentpanel för webbtrafik</li>
+            <strong>Site Forms &amp; Site Forms Over Time</strong>: Webbtrafikkontrollpanel</li>
           <li>
             <strong>Erbjudanden över tid</strong>
             <strong>: </strong>Föråldrat (se nedan)</li>
           <li>
-            <strong>Försäljningsförlopp</strong>
+            <strong>Försäljningsförloppsinkomster</strong>
             <strong>: </strong>Föråldrat (se nedan)</li>
           <li>
-            <strong>Försäljningsintäkt över tid</strong>
+            <strong>Försäljningsintäkter över tid</strong>
             <strong>: </strong>Föråldrat (se nedan)</li>
           <li>
             <strong>Leads över tid</strong>
@@ -75,7 +75,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
             <strong>Kontakter och kontakter över tid</strong>
             <strong>: </strong>Föråldrat (se nedan)</li>
           <li>
-            <strong>Möjligheter över tid</strong>
+            <strong>Affärsmöjligheter över tid</strong>
             <strong>: </strong>Föråldrat (se nedan)</li>
         </ul>
       </td>
@@ -85,9 +85,9 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
       <td>
         <ul>
           <li>
-            <strong>Översikt över avkastning på investering för kanal/delkanal/kampanj:</strong> Kontrollpanel för avkastning</li>
+            <strong>Sammanfattning av avkastning på investering för kanal/delkanal/kampanj:</strong> Kontrollpanel för avkastning på investering</li>
           <li>
-            <strong>Översikt över nyckelord och kreativ avkastning:</strong>Föråldrat (se nedan)</li>
+            <strong>Sammanfattning av nyckelord och kreativ avkastning:</strong>Inaktuell (se nedan)</li>
         </ul>
       </td>
     </tr>
@@ -96,27 +96,27 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
       <td>
         <ul>
           <li>
-            <strong>Intäkter</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
+            <strong>Intäkter</strong>: Attribuerad intäkt, Intäktsöversikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Matchade leads</strong>: ROI Dashboard</li>
+            <strong>Leads som matchar</strong>: Kontrollpanel för avkastning</li>
           <li>
-            <strong>Antal kontaktpunkter:</strong>Kontrollpanel för avkastning</li>
+            <strong>Antal kontaktpunkter:</strong>ROI-instrumentpanel</li>
           <li>
-            <strong>Angivna konton:</strong>Instrumentpanel för engagemang</li>
+            <strong>Engagerade konton:</strong>Instrumentpanel för engagemang</li>
           <li>
-            <strong>Engagerade affärsmöjligheter</strong>
+            <strong>Aktiverade affärsmöjligheter</strong>
             <strong>:</strong>Instrumentpanel för engagemang</li>
           <li>
-            <strong>Engagerade enskilda</strong>
+            <strong>Enskilda </strong> har deltagit
             <strong>:</strong>Instrumentpanel för engagemang</li>
           <li>
-            <strong>Genomsnittligt antal beröringar per konto: </strong>Instrumentpanel för engagemang</li>
+            <strong>Genomsnittligt antal beröringar per konto: </strong>Åtagandeinstrumentpanelen</li>
           <li>
-            <strong>Pekpunkter över tid:</strong>Instrumentpanel för engagemang</li>
+            <strong>Touchpoints över tid:</strong>Instrumentpanel för engagemang</li>
           <li>
             <strong>Konton efter antal kontaktpunkter: </strong>Instrumentpanel för engagemang</li>
           <li>
-            <strong>Försäljningsförlopp:</strong>Föråldrat (se nedan)</li>
+            <strong>Försäljningsförlopp:</strong>Inaktuell (se nedan)</li>
         </ul>
       </td>
     </tr>
@@ -125,13 +125,13 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
       <td>
         <ul>
           <li>
-            <strong>Intäkter</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
+            <strong>Intäkter</strong>: Attribuerad intäkt, Intäktsöversikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Utgift</strong>: ROI Dashboard</li>
+            <strong>Utgift</strong>: ROI-instrumentpanel</li>
           <li>
-            <strong>avkastning: </strong>Kontrollpanel för avkastning</li>
+            <strong>ROI: </strong>ROI-instrumentpanel</li>
           <li>
-            <strong>Utgifter per kanal/underkanal/kampanj: </strong>Kontrollpanel för avkastning</li>
+            <strong>Utgifter per kanal/underkanal/kampanj: </strong>Kontrollpanel för avkastning på investering</li>
         </ul>
       </td>
     </tr>
@@ -146,19 +146,19 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
           <li>
             <strong>Sidvyer:</strong>Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>Site Forms:</strong>Kontrollpanel för webbtrafik</li>
+            <strong>Webbplats-Forms:</strong>Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>Översikt</strong>Kontrollpanel för webbtrafik</li>
+            <strong>Översikt:</strong>Kontrollpanel för webbtrafik</li>
           <li>
             <strong>Sammanfattning av webbtrafik:</strong>Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>Sammanfattning:</strong>Kontrollpanel för webbtrafik</li>
+            <strong>Referenssammanfattning:</strong>Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>Unika besök efter källa:</strong>Kontrollpanel för webbtrafik</li>
+            <strong>Unika besök av Source:</strong>Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>Besök efter källa:</strong>Kontrollpanel för webbtrafik</li>
+            <strong>Besök av Source:</strong>Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>Leads efter formulär-URL:</strong>Kontrollpanel för webbtrafik</li>
+            <strong>Leads per formulär-URL:</strong>Kontrollpanel för webbtrafik</li>
           <li>
             <strong>Kostnad per unikt besök</strong>
           </li>
@@ -182,49 +182,49 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
       <td>
         <ul>
           <li>
-            <strong>Intäkter</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
+            <strong>Intäkter</strong>: Attribuerad intäkt, Intäktsöversikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Ökning</strong>:<ul>
+            <strong>Översikt</strong>:<ul>
               <li>Instrumentpanel för attributerade intäkter: Attribuerad intäkt per kanal över tidsdiagram</li>
               <li>Kontrollpanel för avkastning på investering: diagram över kostnad över tid</li>
             </ul>
           </li>
           <li>
-            <strong>Utgift</strong>: ROI Dashboard</li>
+            <strong>Utgift</strong>: ROI-instrumentpanel</li>
           <li>
-            <strong>Erbjudanden</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
+            <strong>Erbjudanden</strong>: Attribuerad intäkt, Intäktsöversikt, ROI-instrumentpaneler</li>
           <li>
-            <strong>Kostnad per avtal: </strong>Kontrollpanel för avkastning</li>
+            <strong>Kostnad per avtal: </strong>ROI-instrumentpanel</li>
           <li>
-            <strong>Kanal/delkanal/kampanjsammanfattning:</strong>Kontrollpanel för avkastning</li>
+            <strong>Kanal/delkanal/kampanjsammanfattning:</strong>ROI-instrumentpanelen</li>
           <li>
-            <strong>Försäljningsförlopp:</strong>Föråldrat (se nedan)</li>
+            <strong>Försäljningsförlopp:</strong>Inaktuell (se nedan)</li>
           <li>
-            <strong>Genomsnittlig avtalsstorlek: </strong>Föråldrat (se nedan)</li>
+            <strong>Genomsnittlig avtalsstorlek: </strong>Inaktuell (se nedan)</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Betalda media</td>
-      <td>Användare kan använda filter för betalmediekanaler i <strong>Kontrollpanel för webbtrafik</strong>.</td>
+      <td>Användare kan använda filter för betalmediekanaler på <strong>instrumentpanelen för webbtrafik</strong>.</td>
     </tr>
     <tr>
       <td>Innehållsmarknadsföring</td>
       <td>
         <ul>
           <li>
-            <strong>Översikt</strong>Kontrollpanel för webbtrafik</li>
+            <strong>Översikt:</strong>Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>Site Forms:</strong>
+            <strong>Webbplats-Forms:</strong>
             <strong></strong>Kontrollpanel för webbtrafik</li>
           <li>
             <strong>Unika besök:</strong>
             <strong></strong>Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>De vanligaste landningssidorna efter unika besök:</strong>
+            <strong>Övre landningssidor efter unika besök:</strong>
             <strong></strong>Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>De vanligaste landningssidorna efter besök:</strong>
+            <strong>Vanliga landningssidor efter besök:</strong>
             <strong></strong>Kontrollpanel för webbtrafik</li>
           <li>
             <strong>Landningssidor efter antal leads:</strong>
@@ -233,22 +233,22 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
             <strong>Leads:</strong>
             <strong></strong>Kontrollpanel för webbtrafik</li>
           <li>
-            <strong>Möjligheter</strong>: Attribut, intäkt, översikt, ROI-instrumentpaneler</li>
+            <strong>Affärsmöjligheter</strong>: Attribuerad intäkt, Intäktsöversikt, ROI-instrumentpaneler</li>
           <li>
             <strong>Sammanfattning av webbtrafik:</strong>
             <strong></strong>Kontrollpanel för webbtrafik</li>
           <li>
             <strong>Formulär-URL:er efter kanal</strong>
             <strong>:</strong>
-            <strong></strong>Webbkontrollpanel (filtrera platsens Forms-panel efter kanal)</li>
+            <strong></strong>Instrumentpanel för webbtrafik (filtrera platsens Forms-panel efter kanal)</li>
           <li>
-            <strong>Landningssidor per intäkt: </strong>Föråldrat (se nedan)</li>
+            <strong>Landningssidor per intäkt: </strong>Inaktuellt (se nedan)</li>
           <li>
-            <strong>Försäljningsförlopp: </strong>Föråldrat (se nedan)</li>
+            <strong>Försäljningsförlopp: </strong>Inaktuell (se nedan)</li>
           <li>
-            <strong>Landningssidor efter försäljningsförlopp:</strong>Föråldrat (se nedan)</li>
+            <strong>Landningssidor per pipeline-intäkt:</strong>Inaktuell (se nedan)</li>
           <li>
-            <strong>Landningssidor efter antal affärsmöjligheter:</strong>Föråldrat (se nedan)</li>
+            <strong>Landningssidor efter antal affärsmöjligheter:</strong>Inaktuellt (se nedan)</li>
           <li>
             <strong>Sammanfattning av lead-pipeline: </strong>Granskas</li>
           <li>
@@ -267,7 +267,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
       <td>
         <ul>
           <li>
-            <strong>Hastighet (dagar):</strong> Snabbkontrollpanel</li>
+            <strong>Snabbhet (dagar):</strong> Snabbkontrollpanel</li>
           <li>
             <strong>Avtalshastighet efter kanal: </strong>Snabbkontrollpanel</li>
           <li>
@@ -275,11 +275,11 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
           <li>
             <strong>Genomsnittlig avtalshastighet: </strong>Snabbkontrollpanel</li>
           <li>
-            <strong>Genomsnittlig ledhastighet: </strong>Snabbkontrollpanel</li>
+            <strong>Genomsnittlig ledningshastighet: </strong>Snabbkontrollpanel</li>
           <li>
-            <strong>Snabbhet i affärsmöjlighet över tid: </strong>Snabbkontrollpanel</li>
+            <strong>Affärsmöjlighetens snabbhet över tid: </strong>Snabbkontrollpanel</li>
           <li>
-            <strong>Blyhastighet över tid: </strong>Snabbkontrollpanel</li>
+            <strong>Leadhastighet över tid: </strong>Snabbkontrollpanel</li>
           <li>
             <strong>BT/BAT över tid:</strong>Instrumentpanel för engagemang</li>
           <li>
@@ -296,7 +296,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
     </tr>
     <tr>
       <td>Ögonblicksbild</td>
-      <td>Användare kan få en ögonblicksbild av poster genom att filtrera efter ett visst datum i dialogrutan <strong>Passport Dashboard.</strong>
+      <td>Användare kan få en ögonblicksbild av poster genom att filtrera efter ett visst datum i <strong>Passport-kontrollpanelen.</strong>
       </td>
     </tr>
     <tr>
@@ -304,7 +304,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
       <td>
         <ul>
           <li>
-            <strong>Affärsmöjligheter och leads/kontakter: </strong>Passport Dashboard</li>
+            <strong>Affärsmöjligheter och leads/kontakter: </strong>Passport-instrumentpanelen</li>
         </ul>
       </td>
     </tr>
@@ -319,9 +319,9 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
       <td>
         <ul>
           <li>
-            <strong>Kohorttratt:</strong>Kohort Journey Dashboard</li>
+            <strong>Kohorttratt:</strong>Kontrollpanel för kohortresor</li>
           <li>
-            <strong>Kohort Impact &amp; Revenue:</strong>Föråldrat (se nedan)</li>
+            <strong>Kohorteffekt och intäkter:</strong>Föråldrat (se nedan)</li>
         </ul>
       </td>
     </tr>
@@ -349,7 +349,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
     <tr>
       <td>
         <p>
-          <strong>Försäljningsförlopp</strong>
+          <strong>Försäljningsförloppsinkomster</strong>
         </p>
       </td>
       <td rowspan="3">
@@ -360,14 +360,14 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
     <tr>
       <td>
         <p>
-          <strong>Försäljningsintäkt över tid</strong>
+          <strong>Försäljningsintäkter över tid</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Landningssidor per PipelineIntäkter</strong>
+          <strong>Landningssidor per PipelineRevenue</strong>
         </p>
       </td>
     </tr>
@@ -392,7 +392,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
     <tr>
       <td>
         <p>
-          <strong>Vinst</strong>
+          <strong>Vinstfrekvens</strong>
         </p>
       </td>
     </tr>
@@ -412,7 +412,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
     </tr>
     <tr>
       <td>
-        <strong>Möjligheter över tid</strong>
+        <strong>Affärsmöjligheter över tid</strong>
       </td>
     </tr>
     <tr>
@@ -423,7 +423,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
     <tr>
       <td>
         <p>
-          <strong>Översikt över nyckelord och kreativ avkastning</strong>
+          <strong>Sammanfattning av nyckelord och kreativ avkastning </strong>
         </p>
       </td>
       <td>
@@ -479,7 +479,7 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
     </tr>
     <tr>
       <td>
-        <strong>Kohort Impact &amp; Revenue</strong>
+        <strong>Kohorteffekt och intäkter</strong>
       </td>
       <td>Föråldrat på grund av risken att förvirra användare. Vårt mål är tydlighet och omedelbart datavärde.</td>
     </tr>
@@ -490,13 +490,13 @@ Vi är stolta över att kunna presentera vår nya design av kontrollpanelen för
 
 **Filteruppdateringar**: För att effektivisera din upplevelse har vi justerat våra filterval enligt nedan.
 
-* **Datumtyp, Mått, Dimension, Gruppera efter**: Dessa inställningar är nu fördefinierade för varje instrumentpanel för att optimera insiktsresultatet. Detaljerade detaljer finns tillgängliga via verktygstips och medföljande dokumentation.
-* **Kampanjkälla**
-* **Konto-ID och namn**: Under granskning.
+* **Datumtyp, Mått, Dimension, Gruppera efter**: De här inställningarna är nu fördefinierade för varje instrumentpanel för att optimera insiktsleveransen. Detaljerade detaljer finns tillgängliga via verktygstips och medföljande dokumentation.
+* **Campaign Source**
+* **Konto-ID och namn**: Granskas.
 
 ## Nya tillägg och förbättringar {#new-additions-and-improvements}
 
-Nya funktioner finns i [Grunderna i kontrollpanelen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} artikel.
+Nya funktioner finns i artikeln [Identifiera grundläggande funktioner för kontrollpanelen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}.
 
 ## Feedback {#feedback}
 
@@ -504,6 +504,6 @@ I takt med att vi fortsätter att sträva efter att förbättra din upplevelse s
 
 >[!MORELIKETHIS]
 >
->* [Grunderna i kontrollpanelen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Grunderna för instrumentpanel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Synlighetsprincip för instrumentpanelsdata](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

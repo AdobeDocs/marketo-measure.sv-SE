@@ -1,5 +1,5 @@
 ---
-description: Grunderna i kontrollpanelen - [!DNL Marketo Measure] - Produkt
+description: Identifiera grunderna i instrumentpanelen - [!DNL Marketo Measure] - produkt
 title: Grunderna i kontrollpanelen
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545

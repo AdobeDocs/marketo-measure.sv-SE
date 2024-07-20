@@ -6,14 +6,14 @@ exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1961'
 ht-degree: 0%
 
 ---
 
 # Touchpoint-fält {#touchpoint-fields}
 
-Historiskt sett, när kunderna är med [!DNL Marketo Measure] och om vi inte har någon direkt taggningsintegrering utbildar vårt Customer Success-team våra kunder om hur de ska tagga sina landningssidor så att de använder rätt UTM-format och vi kan lösa deras annonser. Vissa av dessa kunder använder inte UTM-moduler utan använder sina egna taggningsparametrar, vilket innebär att det kan vara mycket tidskrävande att redigera alla sina landningssidor i alla sina annonsnätverk med en ny taggningsstruktur som [!DNL Marketo Measure] tvångar. För att anpassa sig till deras taggningsstruktur godkänner vi nu anpassade parametrar som kan mappas med våra regeldefinitioner. Målet är att anpassa sig till kundernas användning av sina anpassade spårningsparametrar så att vi inte behöver kräva att de ändrar sin URL-struktur.
+Historiskt sett, när kunder är med på [!DNL Marketo Measure] och om vi inte har någon direkt taggningsintegrering, utbildar vårt Customer Success-team våra kunder om hur de ska tagga sina landningssidor så att de använder rätt UTM-format och vi kan lösa deras annonser. Vissa av dessa kunder använder inte UTM-moduler utan använder sina egna taggningsparametrar, vilket innebär att det kan vara mycket tidskrävande att redigera alla sina landningssidor i alla sina annonsnätverk med en ny taggningsstruktur som [!DNL Marketo Measure] tillämpar. För att anpassa sig till deras taggningsstruktur godkänner vi nu anpassade parametrar som kan mappas med våra regeldefinitioner. Målet är att anpassa sig till kundernas användning av sina anpassade spårningsparametrar så att vi inte behöver kräva att de ändrar sin URL-struktur.
 
 >[!AVAILABILITY]
 >
@@ -25,7 +25,7 @@ Historiskt sett, när kunderna är med [!DNL Marketo Measure] och om vi inte har
 
 ## Aktivera funktionen {#enabling-the-feature}
 
-Från [!DNL Marketo Measure] Gå till sidan med kontaktpunktsfält på inställningsmenyn. Därifrån kan du aktivera funktionen genom att välja **Ja** under **Aktivera beräkningsfält**. När funktionen är aktiverad kan du skapa Touchpoint-fält.
+Navigera från menyn Inställningar för [!DNL Marketo Measure] till sidan Fält för slutpunkt. Därifrån kan du aktivera funktionen genom att välja **Yes** under **Enable Calculated Fields**. När funktionen är aktiverad kan du skapa Touchpoint-fält.
 
 ![](assets/one.png)
 
@@ -35,60 +35,60 @@ Om du vill skapa ett beräkningsfält bör du tänka på att det finns tre olika
 
 Extraheringar
 
-The [!UICONTROL extracts] operatorn hämtar värdet från ett fält från en annan plats, t.ex. ett kampanjfält, ett Lead-fält eller i ett mer avancerat användningsfall, [extrahera egna parametrar från landningssidan](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} 2).
+Operatorn [!UICONTROL extracts] hämtar värdet från ett fält från en annan plats, till exempel ett kampanjfält, ett Lead-fält eller i ett mer avancerat fall, [extrahera anpassade parametrar från landningssidan](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. Sedan placeras det i ett Touchpoint-fält (se [Mappar till exempel](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Exempel 1**
 
-Det finns ett anpassat fält på kontakten, campaign_source__c, som kunden vill släppa på kontaktytan för rapportering. Du kan definiera en regel för att skapa ett beräkningsfält med namnet&quot;Kampanjkälla&quot; och släppa värdet i det fältet.
+Det finns ett anpassat fält på kontakten, campaign_source__c, som kunden vill släppa på kontaktytan för rapportering. Du kan definiera en regel för att skapa ett beräkningsfält med namnet&quot;Campaign Source&quot; och släppa värdet i det fältet.
 
 Mål: Använd värdet för ett anpassat fält och placera det i Touchpoint-objektet för enklare rapportering.
 
-* Skapa ett beräkningsfält och ge det etiketten&quot;Kampanjkälla&quot;
+* Skapa ett beräkningsfält och ge det etiketten&quot;Campaign Source&quot;
 * Definiera regeln genom att börja söka efter fältet Contact.Campaign_Source__c
 * Använd operatorn &quot;extracts&quot; eftersom vi måste ta ut värdet från parametern
-* För att extrahera hela strängen från fältet använder vi uttrycket&quot;().&#42;)&quot;
+* För att extrahera hela strängen från fältet använder vi uttrycket &quot;(.&#42;)&quot;
 
-   * **(** markerar början av extraheringen
+   * **(**) markerar början på extraheringen
    * **)** markerar slutet av extraheringen
-   * **.&#42;** anger att vi extraherar den fullständiga strängen
+   * **.&#42;** meddelar oss att vi extraherar den fullständiga strängen
 
 ![](assets/two.png)
 
-**Exempel 2**
+**Exempel nr 2**
 
 Ett vanligt användningsfall som den här funktionen aktiverar är att hämta värden från anpassade parametrar i en URL-sträng. Detta är användbart om du använder andra parametrar än UTM men vill analysera värdena till kontaktpunktsfält.
 
 **Länk:** `https://www.adobe.com/blog/marketing-revenue-reporting-overview?promo=5OFF` eller `https://www.adobe.com/blog/marketing-revenue-reporting-overview?promo=25OFF`.\
-**Mål:** Skapa ett anpassat fält med namnet&quot;Rabattkod&quot; och släpp värdet&quot;5OFF&quot; eller&quot;25OFF&quot;, oavsett vilket värde som skickas.
+**Mål:** Skapa ett anpassat fält med namnet &quot;Rabattkod&quot; och släpp värdet &quot;5OFF&quot; eller &quot;25OFF&quot;, vilket värde som än skickas.
 
 * Skapa ett beräkningsfält och ge det etiketten&quot;Rabattkod&quot;
 * Definiera regeln genom att börja söka efter fältet Touchpoint.Session.LandingPage
 * Använd operatorn &quot;extracts&quot; eftersom vi måste ta ut värdet från parametern
 * För att extrahera kampanjvärdet definierar vi värdet som &quot;promo=(\w+)&quot;
 
-   * **(** markerar början av extraheringen
+   * **(**) markerar början på extraheringen
    * **)** markerar slutet av extraheringen
-   * **\w** säger att vi extraherar ett&quot;ord&quot; som innehåller 0-9
+   * **\w** säger att vi extraherar ett ord som innehåller 0-9
    * **+** extraherar parameterns fullständiga värde utan teckenbegränsning
    * Observera att du använder ett snedstreck och inte ett omvänt snedstreck
 
 ![](assets/three.png)
 
-**Exempel 3**
+**Exempel nr 3**
 
 Låt oss testa ett liknande exempel där vi extraherar en spårningskod som: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?cid=123456`.
 
-**Mål:** Skapa ett beräkningsfält och ge det etiketten&quot;Adobe Campaign-id&quot; med värdet från cid-parametern.
+**Mål:** Skapa ett beräkningsfält och ge det etiketten&quot;Adobe Campaign Id&quot; med värdet från cid-parametern.
 
 * Skapa ett beräkningsfält och ge det etiketten&quot;Adobe Campaign ID&quot;
 * Definiera regeln genom att börja söka efter fältet Touchpoint.Session.LandingPage
 * Använd operatorn &quot;extracts&quot; eftersom vi måste ta ut värdet från parametern
 * För att extrahera värdet &quot;123456&quot; definierar vi värdet som &quot;cid=(\d{6})&quot;
 
-   * **(** markerar början av extraheringen
+   * **(**) markerar början på extraheringen
    * **)** markerar slutet av extraheringen
-   * **\d** anger att vi extraherar en&quot;siffra&quot;
-   * **{6}** är antalet tecken vi extraherar
+   * **\d** säger att vi extraherar en&quot;siffra&quot;
+   * **{6}** är antalet tecken som vi extraherar
 
 ![](assets/four.png)
 
@@ -97,33 +97,33 @@ Låt oss testa ett liknande exempel där vi extraherar en spårningskod som: `ht
 När landningssidorna blir mer komplicerade och du har flera spårningsparametrar kan du behöva skapa flera kontaktpunktsfält och extrahera värden flera gånger, som:
 `https://www.adobe.com/blog/marketing-revenue-reporting-overview?trackID=123456&country=US&campaign_ID=7890`.
 
-**Mål:** Skapa flera beräkningsfält för &quot;målland&quot; och &quot;anpassat kampanj-ID&quot; med respektive värden från parametrarna.
+**Mål:** Skapa flera beräknade fält för &quot;målland&quot; och &quot;anpassat kampanj-ID&quot; med respektive värden från parametrarna.
 
 * Skapa ett beräkningsfält och ge det etiketten&quot;Målland&quot;
 * Definiera regeln genom att börja söka efter fältet Touchpoint.Session.LandingPage
 * Använd operatorn &quot;extracts&quot; eftersom vi måste ta ut värdet från parametern
 * För att extrahera &quot;US&quot;-värdet definierar vi värdet som &quot;country=(\w{2})&quot;
 
-   * **(** markerar början av extraheringen
+   * **(**) markerar början på extraheringen
    * **)** markerar slutet av extraheringen
-   * **\w** säger att vi extraherar ett&quot;ord&quot;
-   * **{2}** är antalet tecken vi extraherar
+   * **\w** säger att vi extraherar ett ord
+   * **{2}** är antalet tecken som vi extraherar
 
 * Skapa ett beräkningsfält och ge det etiketten&quot;Anpassat kampanj-ID&quot;
 * Definiera regeln genom att börja söka efter fältet Touchpoint.Session.LandingPage
 * Använd operatorn &quot;extracts&quot; eftersom vi måste ta ut värdet från parametern
 * För att extrahera värdet &quot;123456&quot; definierar vi värdet som &quot;campaign_ID=(\d{6})&quot;
 
-   * **(** markerar början av extraheringen
+   * **(**) markerar början på extraheringen
    * **)** markerar slutet av extraheringen
-   * **\d** anger att vi extraherar en&quot;siffra&quot;
-   * **{6}** är antalet tecken vi extraherar
+   * **\d** säger att vi extraherar en&quot;siffra&quot;
+   * **{6}** är antalet tecken som vi extraherar
 
 ![](assets/five.png)
 
-**Mappa till**
+**Mappar till**
 
-The [!UICONTROL maps to] skapar en värdetabell som måste översättas eller klistras in i ett annat värde. Vanligtvis är det ett nyckelvärde där en kod representerar ett eget namn och måste mappas till det egna namnet.
+Operatorn [!UICONTROL maps to] skapar en värdetabell som måste översättas eller klistras in i ett annat värde. Vanligtvis är det ett nyckelvärde där en kod representerar ett eget namn och måste mappas till det egna namnet.
 
 **Exempel 1**
 
@@ -131,7 +131,7 @@ Det finns kampanjer som ni har skapat för en&quot;Sommarkampanj&quot; och&quot;
 
 ![](assets/six.png)
 
-**Exempel 2**
+**Exempel nr 2**
 
 Nu när vi har lärt oss att extrahera och mappa till fält kan vi kombinera dessa åtgärder för att först extrahera ett värde från en parameter och sedan mappa det till ett eget namn som är lite mer begripligt. Låt oss börja med den här landningssidan: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?BZ=04-01-09-03-10`.
 
@@ -139,25 +139,25 @@ Nu när vi har lärt oss att extrahera och mappa till fält kan vi kombinera des
 
 * Skapa ett beräkningsfält och ge det etiketten Region
 * Definiera regeln genom att börja söka efter fältet Touchpoint.Session.LandingPage
-* Använd operatorn &quot;[!UICONTROL extracts]&quot; eftersom vi måste dra ut värdet från parametern
+* Använd operatorn [!UICONTROL extracts] eftersom vi måste ta ut värdet från parametern
 * För att extrahera värdet &quot;04&quot; definierar vi värdet som &quot;BZ=(\d{2})-\d{2}-\d{2}-\d{2}-\d{2}&quot;
 
-   * **(** markerar början av extraheringen
+   * **(**) markerar början på extraheringen
 
       * Observera, att eftersom vi bara extraherar de 4 första siffrorna har bara den öppna parentesen
    * **)** markerar slutet av extraheringen
 
       * Observera, att eftersom vi bara extraherar de 4 första siffrorna har bara den avslutande parentesen
-   * **\d** anger att vi extraherar en&quot;siffra&quot;
-   * **{2}** är antalet tecken vi extraherar
+   * **\d** säger att vi extraherar en&quot;siffra&quot;
+   * **{2}** är antalet tecken som vi extraherar
 
 
 
 * Klicka på [!UICONTROL Save]. Du måste spara det nya fältet innan det kan användas för nästa regel!
 * Därefter ska vi mappa alla möjliga värden för de första siffrorna till de egna namnen
 * Skapa ett beräkningsfält och ge det etiketten&quot;Region_Name&quot;
-* Definiera regeln genom att börja med att söka efter det extraherade fältet. I detta fall [!DNL Touchpoint.Region]
-* Använd operatorn &quot;[!UICONTROL maps to]&quot; eftersom vi vill skapa en mappning för varje nummer till dess värde
+* Definiera regeln genom att börja med att söka efter det extraherade fältet. I det här fallet [!DNL Touchpoint.Region]
+* Använd operatorn [!UICONTROL maps to] eftersom vi vill skapa en mappning för varje nummer till dess värde
 * Du får en tabell med en lista över varje mappning. Till slut kommer det att se ut ungefär så här:
 * Baserat på mappningen och URL:en ovan är&quot;Region_Value&quot; för en kontaktyta med denna landningssida&quot;EMEA&quot;
 * Upprepa extraheringen och mappningen för de återstående fyra sifferuppsättningarna
@@ -171,7 +171,7 @@ Nu när vi har lärt oss att extrahera och mappa till fält kan vi kombinera des
 
 **Sammanfogningar**
 
-The [!UICONTROL concatenates] -operatorn kombinerar värden från flera fält till ett enda fält. Det här är användbart om du vill skapa ett anpassat värde som hämtar data mellan olika fält för att skapa
+Operatorn [!UICONTROL concatenates] kombinerar värden från flera fält till ett enda fält. Det här är användbart om du vill skapa ett anpassat värde som hämtar data mellan olika fält för att skapa
 
 **Exempel 1**
 
@@ -199,11 +199,11 @@ Regeln refererar till samma Touchpoint-fält och söker efter värden som inte �
 
 ## Vanliga frågor och svar {#faq}
 
-**Finns det ett maximalt antal Touchpoint-fält som vi kan skapa?**
+**Finns det ett maximalt antal Touchpoint-fält som kan skapas?**
 
 Det finns en gräns på 100 fält.
 
-**Jag ser inte mitt nya Touchpoint-fält som jag nyss skapade i listan. Var är den?**
+**Jag ser inte mitt nya Touchpoint-fält som jag nyss skapade i listan. Var ligger den?**
 
 Glöm inte att spara reglerna när du har skapat den. Om det nya fältet inte visas kontrollerar du om du har sparat det. Du måste spara det nya fältet innan det kan användas för nästa regel.
 
@@ -215,13 +215,13 @@ Glöm inte att spara reglerna när du har skapat den. Om det nya fältet inte vi
 
 Precis som i Extract-exemplet nr 4 måste du skapa flera fält för att extrahera var och en av parametrarna. Så om du har fem olika värden skapar du fem Touchpoint-fält som du kan extrahera vart och ett av dem.
 
-**Varför ser jag inte mina nya fält i [!DNL Marketo Measure] schema?**
+**Varför visas inte mina nya fält i [!DNL Marketo Measure]-schemat?**
 
-Ytterligare arbete krävs för att visa de nya fälten i [!DNL Marketo Measure] Data Warehouse schema. För närvarande visas fält med inställningar och konfiguration så att du kan använda Touchpoint-fält när du skapar segment eller skapar regler för borttagning av pekpunkter.
+Ytterligare arbete krävs för att visa de nya fälten i schemat för Datan Warehouse [!DNL Marketo Measure]. För närvarande visas fält med inställningar och konfiguration så att du kan använda Touchpoint-fält när du skapar segment eller skapar regler för borttagning av pekpunkter.
 
 **Hur verifierar jag att mitt extraheringsuttryck är giltigt och drar rätt värde?**
 
-Det finns ett onlineverktyg ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) som du kan köra och testa uttrycket. Uttrycket visas grönt om det är giltigt eller rött om det är ogiltigt. Dessutom finns [!UICONTROL explanation] i det övre högra hörnet är användbart och anger vad du extraherar.
+Det finns ett onlineverktyg ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) som du kan köra och testa uttrycket. Uttrycket visas grönt om det är giltigt eller rött om det är ogiltigt. Dessutom är rutan [!UICONTROL explanation] högst upp till höger till hjälp och talar om vad du extraherar.
 
 ![](assets/twelve.png)
 

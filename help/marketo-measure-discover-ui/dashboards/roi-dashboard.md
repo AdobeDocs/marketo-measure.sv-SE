@@ -25,15 +25,15 @@ Avkastningsoptimeringen ger marknadsförarna en detaljerad bild av avkastningen 
 ### KPI-paneler {#kpi-tiles}
 
 * **Kostnad**: Totala kostnader från anslutna datakällor och manuellt överförda kostnader.
-* **Attribuerad intäkt**: Det totala intäktsbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor som stängts inom den filtrerade datumperioden.
-* **Realiserad attributerad intäkt**: Det totala inkomstbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor inom den filtrerade datumperioden, oavsett när de stängdes.
-* **Totalt antal nya leads**: Totalt antal nya leads, inklusive både rörliga och orörda leads.
-* **Kostnad per ny lead**: Genomsnittskostnaden per ny lead, härledd från den totala kostnaden dividerat med det totala antalet nya leads.
-* **Totalt antal nya affärsmöjligheter**: Totalt antal nya affärsmöjligheter som genererats, både rörliga och orörda affärsmöjligheter.
-* **Kostnad per ny affärsmöjlighet**: Den genomsnittliga kostnaden per nytt affärstillfälle, som härleds från den totala kostnaden dividerat med det totala antalet nya affärsmöjligheter.
-* **Totalt antal avtal**: Antalet möjligheter till &quot;Closed Won&quot;, inklusive möjligheter utan kontaktytor.
-* **Enkel avkastning**: Attribuerad intäkt dividerad med kostnader i den filtrerade datumperioden.
-* **Realiserad avkastning på investering**: Realiserad tillskriven intäkt dividerad med kostnader under den filtrerade datumperioden.
+* **Attributerad intäkt**: Det totala intäktsbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor som stängts inom den filtrerade datumperioden.
+* **Realiserad attributerad intäkt**: Det totala intäktsbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor inom den filtrerade datumperioden, oavsett när de stängdes.
+* **Totalt antal nya leads**: Totalt antal nya leads som genererats, inklusive både rörliga och orörda leads.
+* **Kostnad per ny lead**: Den genomsnittliga kostnaden per ny lead, som härleds från den totala kostnaden dividerat med det totala antalet nya leads.
+* **Totalt antal nya affärsmöjligheter**: Totalt antal nya affärsmöjligheter som genererats, inklusive både rörliga och orörda affärsmöjligheter.
+* **Kostnad per nytt affärstillfälle**: Den genomsnittliga kostnaden per nytt affärstillfälle, som härleds från den totala kostnaden dividerat med det totala antalet nya affärsmöjligheter.
+* **Totalt antal avtal**: Antal stängda vinstmöjligheter, inklusive affärsmöjligheter utan kontaktytor.
+* **Enkel avkastning på investering**: Attribuerad intäkt dividerat med kostnader i den filtrerade datumperioden.
+* **Realiserad avkastning på investerat kapital**: Realiserad tilldelad intäkt dividerad med kostnader i den filtrerade datumperioden.
 
 ![](assets/roi-dashboard-1.png)
 
@@ -44,7 +44,7 @@ Stapeldiagram visar kostnader och intäkter, som är utformade för att ge ett k
 * använda detaljfunktionerna för att kategorisera data efter Subchannel och Campaign.
 * Håll pekaren över varje fält för att visa enkel och realiserad avkastning på investerat kapital.
 
-**Frågor och svar**
+**Frågar diagramsvaren**
 
 * Vilka var avkastningen för varje kanal, delkanal och kampanj?
 * Finns det några utgående kanaler eller delkanaler med ovanligt höga eller låga kostnader i förhållande till deras intäkter?
@@ -57,7 +57,7 @@ Diagram över tidsserielinje som visar jämförelsen mellan Realiserad och Enkel
 
 * Håll pekaren över ett avsnitt i diagrammet för att visa enkel och realiserad avkastning på investerat kapital.
 
-**Frågor och svar**
+**Frågar diagramsvaren**
 
 * Hur är den realiserade avkastningen jämfört med den enkla avkastningen under specifika tidsperioder?
 * Hur hänger trenden för realiserad avkastning på investerat kapital samman med några betydande marknadsföringshändelser under samma period?
@@ -71,7 +71,7 @@ Staplat stapeldiagram med totala kostnader, segmenterade efter associerade kanal
 * använda detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
 * Håll pekaren över ett stolpsegment eller mellanrummet mellan stolparna för att visa detaljerad information.
 
-**Frågor och svar**
+**Frågar diagramsvaren**
 
 * Hur står den sammanlagda kostnaden för alla kanaler jämfört med en fjärdedel/månad till nästa?
 * Hur har kostnaderna för en viss kanal utvecklats över tid?
@@ -84,7 +84,7 @@ Stapeldiagram som visar marknadsföringsutgifter segmenterade efter kanal/underk
 
 * använda detaljfunktionerna för att kategorisera data efter kanal/delkanal/kampanj.
 
-**Frågor och svar**
+**Frågar diagramsvaren**
 
 * Vilka underkanaler eller kampanjer i en primär kanal har den högsta tilldelningen?
 * Vilka marknadsföringsmöjligheter (kanal, delkanal eller kampanj) verkar underfinansierade jämfört med andra?
@@ -140,6 +140,6 @@ Kontrollpanelen är utrustad med följande inställningar och filter:
 
 >[!MORELIKETHIS]
 >
->* [Grunderna i kontrollpanelen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Grunderna för instrumentpanel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Synlighetsprincip för instrumentpanelsdata](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

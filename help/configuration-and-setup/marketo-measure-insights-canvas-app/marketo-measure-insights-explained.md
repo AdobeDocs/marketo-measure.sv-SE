@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874676
-description: "[!DNL Marketo Measure] Förklara insikter - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Förklara insikter"
+description: "[!DNL Marketo Measure] Insikter har förklarats - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] Insikter har beskrivits"
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Förklara insikter {#marketo-measure-insights-explained}
+# [!DNL Marketo Measure] insikter har beskrivits {#marketo-measure-insights-explained}
 
-Läs mer om [!DNL Marketo Measure] Vyn Insikter i [!DNL Salesforce], inklusive vad de olika ikonerna representerar och hur du använder funktionen. Den här funktionen är mycket användbar när du vill se de första 20 sessionerna för en lead, en kontakt eller ett konto.
+Lär dig mer om vyn [!DNL Marketo Measure] Insights i [!DNL Salesforce], inklusive vad de olika ikonerna representerar och hur du använder funktionen. Den här funktionen är mycket användbar när du vill se de första 20 sessionerna för en lead, en kontakt eller ett konto.
 
-När någon spåras av [!DNL Marketo Measure] JavaScript och fyller i ett formulär på din webbplats, personen blir en ledare i ditt system och deras digitala marknadsföringsdata skickas till din Salesforce-organisation (SFDC). När detta inträffar ser du att kontaktpunktsdata fylls i i [!DNL Marketo Measure] Avsnittet Lead Insights (en Canvas-app) på Lead/Contact/Opportunity/Account Objects.
+När någon spåras av JavaScript:n [!DNL Marketo Measure] och fyller i ett formulär på webbplatsen blir personen en ledare i ditt system och deras digitala marknadsföringsdata skickas till din Salesforce-organisation (SFDC). När detta inträffar visas kontaktpunktsdata i avsnittet [!DNL Marketo Measure] Leadinsikter (en Canvas-app) på lead-/kontakt-/säljprojektsobjekten.
 
 Först ser du i mitten av dina insikter hur många sessioner personen har haft på din webbplats. Du kan bläddra bland sessionerna och navigera när du vill.
 
@@ -37,8 +37,8 @@ Om du klickar på en specifik session (du kan göra detta genom att klicka på d
 
 ![](assets/4.png)
 
-På höger sida av varje session kan du se mer av de detaljerade marknadsföringsdata som ligger bakom [!DNL Marketo Measure] fält i SFDC. I det här exemplet kan du se annonsgrupp, annonsinnehåll, kampanj, nyckelord, medel. Du kan även rulla nedåt för att se mer av [!DNL Marketo Measure] data som vi tillhandahåller.
+På höger sida av varje session kan du se mer av de detaljerade marknadsföringsdata som flyttar fram [!DNL Marketo Measure]-fälten i SFDC. I det här exemplet kan du se annonsgrupp, annonsinnehåll, kampanj, nyckelord, Medium. Du kan även rulla nedåt för att se mer av de [!DNL Marketo Measure]-data vi tillhandahåller.
 
-När någon har en mängd sessioner kan du använda vissa filter i [!UICONTROL Insights] för att hitta specifika delar av deras engagemang på er webbplats. Du kan filtrera efter [!UICONTROL Touchpoint Position] till exempel.
+När någon har en mängd sessioner kan du använda några filter i [!UICONTROL Insights] för att söka efter specifika delar av deras engagemang på din webbplats. Du kan till exempel filtrera efter [!UICONTROL Touchpoint Position].
 
 Du kan även söka efter sidvyer, AB-tester eller Forms.

@@ -12,49 +12,49 @@ ht-degree: 0%
 
 # Adobe Admin Console Setup {#adobe-admin-console-setup}
 
-Det första steget till att använda [!DNL Marketo Measure] är att skapa och logga in på din tilldelade Adobe Admin Console. Om du inte har fått något e-postmeddelande med inloggningsanvisningar kontaktar du [!DNL Marketo Measure] Kontorepresentant.
+Det första steget för att använda [!DNL Marketo Measure] är att skapa och logga in på din tilldelade Adobe Admin Console. Om du inte har fått e-postmeddelandet med inloggningsanvisningar kontaktar du din [!DNL Marketo Measure]-kontorepresentant.
 
 ## Konfigurera din Adobe Admin Console- och identitetsleverantör {#set-up-your-adobe-admin-console-and-identity-provider}
 
-Som produkt i Adobe Suite [!DNL Marketo Measure] använder alla funktioner i Adobe Admin Console för Identity Management. Fler resurser kan [hittades här](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
+Som produkt i Adobe Suite använder [!DNL Marketo Measure] alla funktioner i Adobe Admin Console för Identity Management. Fler resurser [finns här](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 
-Vi rekommenderar att du granskar resurser, bästa praxis och tillgängliga alternativ för [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+Vi rekommenderar att du granskar de resurser, bästa praxis och alternativ som är tillgängliga för dig för [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
-Om du vill ha vägledning och se hur du konfigurerar Identity Management i Adobe Admin Console kan du kontakta [!DNL Marketo Measure] Kontorepresentant.
+Kontakta din [!DNL Marketo Measure]-kontorepresentant om du vill ha hjälp med och granska hur du konfigurerar din Identity Management inom Adobe Admin Console.
 
-För att underlätta användarautentisering och -auktorisering med [!DNL Marketo Measure] -instanser krävs följande steg i Adobe Admin Console:
+För att underlätta användarautentisering och -auktorisering med dina [!DNL Marketo Measure]-instanser krävs följande steg i Adobe Admin Console:
 
-**Konfigurera [!DNL Marketo Measure] Produktkort**
+**Konfigurera [!DNL Marketo Measure]-produktkortet**
 
-När du öppnar Adobe Admin Console ser du [!DNL Marketo Measure] Produktinstanser finns i avsnittet Översikt.
+När du använder Adobe Admin Console visas dina [!DNL Marketo Measure]-produktinstanser i avsnittet Översikt.
 
 ![](assets/adobe-admin-console-setup-1.png)
 
-Klicka på [!DNL Marketo Measure] På produktkortet visas allt du behöver [!DNL Marketo Measure] -instanser. Som standard är varje [!DNL Marketo Measure] Instansen har en egen profil som prefix med &#39;[!DNL Marketo Measure]&#39;. Alla administratörer och användare som har lagts till i den här eller andra profiler i den här instansen kan logga in på [!DNL Marketo Measure].
+Om du klickar på produktkortet [!DNL Marketo Measure] visas alla dina [!DNL Marketo Measure]-instanser. Som standard har varje [!DNL Marketo Measure]-instans en egen profil som prefix med [!DNL Marketo Measure]. Alla administratörer och användare som har lagts till i den här eller andra profiler i den här instansen kan logga in på [!DNL Marketo Measure].
 
 ![](assets/adobe-admin-console-setup-2.png)
 
-Ingen åtgärd krävs för att skapa en profil i [!DNL Marketo Measure] Produktinstans(er).
+Ingen åtgärd krävs för att skapa en profil i [!DNL Marketo Measure] produktinstans(er).
 
-Börja lägga till användare som har åtkomst [!DNL Marketo Measure], se [Lägger till [!DNL Marketo Measure] Administratörer och [!DNL Marketo Measure] Användare](#adding-marketo-measure-admins-and-marketo-measure-users) nedan.
+Om du vill lägga till användare som har åtkomst till [!DNL Marketo Measure] går du till avsnittet [Lägga till [!DNL Marketo Measure] administratörer och [!DNL Marketo Measure] Användare](#adding-marketo-measure-admins-and-marketo-measure-users) nedan.
 
-## Lägger till [!DNL Marketo Measure] Administratörer och [!DNL Marketo Measure] Användare {#adding-marketo-measure-admins-and-marketo-measure-users}
+## Lägger till [!DNL Marketo Measure] administratörer och [!DNL Marketo Measure] användare {#adding-marketo-measure-admins-and-marketo-measure-users}
 
-Nästa steg är att ge åtkomst till [!DNL Marketo Measure] genom att lägga till användare. Detta kan göras i katalogen admins och users i [!DNL Marketo Measure] produktkort.
+Nästa steg är att bevilja åtkomst till programmet [!DNL Marketo Measure] genom att lägga till användare. Detta kan göras i katalogen admins och users för produktkortet [!DNL Marketo Measure].
 
 | Användartyp | Beskrivning |
 |---|---|
-| Administratörer | är administratörer och avancerade användare av [!DNL Marketo Measure] Program med fullständig möjlighet att uppdatera och hantera [!DNL Marketo Measure]-specifika konfigurationsalternativ |
-| Användare | dessa är standardanvändare av [!DNL Marketo Measure] Program med skrivskyddad behörighet i [!DNL Marketo Measure] program |
+| Administratörer | det här är administratörer och avancerade användare av programmet [!DNL Marketo Measure] med fullständig möjlighet att uppdatera och hantera [!DNL Marketo Measure]-specifika konfigurationsalternativ |
+| Användare | dessa är standardanvändare av programmet [!DNL Marketo Measure] med skrivskyddad behörighet i programmet [!DNL Marketo Measure] |
 
-När du lägger till en användare i deras respektive grupp ser du deras [Identitetstyp listad](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+När du lägger till en användare i deras respektive grupp visas deras [identitetstyp ](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
 >[!NOTE]
 >
->Att vara [!DNL Marketo Measure] administratör (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}) måste en användare läggas till som användare _och_ en administratör till någon [!DNL Marketo Measure] produktprofil i [!DNL Marketo Measure] produktkort.
+>Om du vill vara [!DNL Marketo Measure]-administratör (i [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}) måste en användare läggas till som användare _och_ som administratör för alla [!DNL Marketo Measure]-produktprofiler på [!DNL Marketo Measure]-produktkortet.
 
-**Logga in på[!DNL Marketo Measure]**
+**Loggar in på[!DNL Marketo Measure]**
 
-När en användare har lagts till i en produktprofil kan han/hon komma åt sin [!DNL Marketo Measure] genom att välja **Logga in med Adobe ID** option at [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+När en användare har lagts till i en produktprofil kan de komma åt sina [!DNL Marketo Measure]-instanser genom att välja alternativet **Logga in med Adobe ID** på [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 ![](assets/adobe-admin-console-setup-3.png)

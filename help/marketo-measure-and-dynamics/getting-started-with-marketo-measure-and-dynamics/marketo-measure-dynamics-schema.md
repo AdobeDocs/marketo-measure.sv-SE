@@ -15,19 +15,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se Bizible i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 Nedan visas det Dynamics-schema som krävs för att komma igång med [!DNL Marketo Measure]. Alla entiteter och fält visas tillsammans med nödvändig läs- och/eller skrivåtkomst.
 
 ## Kontaktpunkter för köpare {#buyer-touchpoints}
 
-Buyer Touchpoint är en [!DNL Marketo Measure] anpassad entitet för att kapsla in marknadsföringsinteraktioner för Kontakter och Leads.
+Buyer Touchpoint är en anpassad [!DNL Marketo Measure]-entitet som kapslar in marknadsföringsinteraktioner för Kontakter och Leads.
 
-## Kontaktpunktsrelationer för köpare {#buyer-touchpoint-relationships}
+## Buyer Touchpoint Relationships {#buyer-touchpoint-relationships}
 
 Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Touchpoint på hög nivå.
 
-## Kontaktpunkt för köpare {#buyer-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
 <table> 
  <tbody> 
@@ -306,9 +306,9 @@ Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Touchpoint p
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Buyer Attribution Touchpoint är en [!DNL Marketo Measure] anpassad enhet för att inkapsla marknadsföringens påverkan på affärsmöjligheter.
+Buyer Attribution Touchpoint är en anpassad [!DNL Marketo Measure]-entitet som kapslar in marknadsföringens påverkan på affärsmöjligheter.
 
-## Kontaktpunktsrelationer för Buyer-attribut {#buyer-attribution-touchpoint-relationships}
+## Buyer Attribution Touchpoint Relationships {#buyer-attribution-touchpoint-relationships}
 
 Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Attribution Touchpoint på hög nivå.
 
@@ -715,7 +715,7 @@ Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Attribution 
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] AB Tests {#marketo-measure-ab-tests}
+## [!DNL Marketo Measure] AB-tester {#marketo-measure-ab-tests}
 
 <table> 
  <tbody> 
@@ -800,7 +800,7 @@ Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Attribution 
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] Händelser {#marketo-measure-events}
+## [!DNL Marketo Measure] händelser {#marketo-measure-events}
 
 <table> 
  <tbody> 
@@ -867,7 +867,7 @@ Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Attribution 
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] Historik {#marketo-measure-history}
+## [!DNL Marketo Measure]-historik {#marketo-measure-history}
 
 <table> 
  <tbody> 
@@ -912,7 +912,7 @@ Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Attribution 
 
 ## Dynamics Standard-entiteter {#dynamics-standard-entities}
 
-Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Measure] interagerar med och de anpassade fält som vi lägger till i dessa entiteter.
+Den här listan innehåller Dynamics Standard-entiteter som [!DNL Marketo Measure] interagerar med och anpassade fält som vi lägger till i dessa entiteter.
 
 **Lead**
 
@@ -1091,7 +1091,7 @@ Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Mea
  </tbody> 
 </table>
 
-**Möjligheter**
+**Möjlighet**
 
 <table> 
  <tbody> 
@@ -1176,7 +1176,7 @@ Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Mea
  </tbody> 
 </table>
 
-**Campaign**
+**Kampanj**
 
 <table> 
  <tbody> 
@@ -1505,4 +1505,4 @@ Den här listan innehåller de Dynamics Standard-entiteter som [!DNL Marketo Mea
  </tbody> 
 </table>
 
-[] = Endast V1-kunder
+[] = Endast äldre V1-kunder

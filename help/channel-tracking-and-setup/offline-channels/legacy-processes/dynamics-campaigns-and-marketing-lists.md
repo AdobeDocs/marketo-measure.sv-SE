@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Den här artikeln handlar om en föråldrad process. Vi uppmuntrar användarna att använda [ny, förbättrad process i appen](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+>Den här artikeln handlar om en föråldrad process. Vi uppmuntrar användare att använda den [nya, förbättrade processen i appen](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Kampanjer {#campaigns}
 
@@ -29,7 +29,7 @@ När leads eller kontakter läggs till direkt i en kampanj anges de som en svars
 
 ## Aktivera kontaktpunkter {#enable-touchpoints}
 
-Om du vill inkludera dessa poster i kontaktytan finns det ett fåtal alternativ för vilka typer av kampanjsvar som ska synkroniseras. På Campaign-posten ska det finnas ett anpassat fält från den installerade lösningen med etiketten &quot;[!UICONTROL Enable Buyer Touchpoints].&quot; Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
+Om du vill inkludera dessa poster i kontaktytan finns det ett fåtal alternativ för vilka typer av kampanjsvar som ska synkroniseras. På Campaign-posten ska det finnas ett anpassat fält från den installerade lösningen med etiketten [!UICONTROL Enable Buyer Touchpoints]. Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
 
 ![](assets/2.png)
 
@@ -49,9 +49,9 @@ En orsak till att ett kampanjsvar kanske inte visas är att en beröringsaktivit
 
 ## Kontaktpunktsdatum {#touchpoint-date}
 
-Slutpunktsdatumet för en kampanj är vanligtvis det datum då kampanjsvaret lades till i kampanjen. Den kan åsidosättas om det anpassade fältet från den installerade lösningen med etiketten&quot;Buyer Touchpoint Date&quot; (Köparens slutpunktsdatum) fylls i. Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
+Slutpunktsdatumet för en kampanj är vanligtvis det datum då kampanjsvaret lades till i kampanjen. Den kan åsidosättas om det anpassade fältet från den installerade lösningen med etiketten&quot;Buyer Touchpoint Date&quot; fylls i. Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
 
-Ett vanligt exempel som används i det här fältet är för händelser där en lista med badge-sökningar från en händelse läggs till i CRM-dagarna efter att händelsen inträffade, så att användaren faktiskt kan ändra Buyer Touchpoint-datumet tillbaka till när händelsen inträffade.
+Ett vanligt exempel som används i det här fältet är för händelser där en lista med badge-sökningar från en händelse läggs till i CRM-dagarna efter att händelsen inträffade, så att användaren faktiskt kan ändra Buyer Touchpoint Date tillbaka till när händelsen inträffade.
 
 ![](assets/5.png)
 
@@ -59,21 +59,21 @@ Ett vanligt exempel som används i det här fältet är för händelser där en 
 
 Marknadsföringslistor är ett annat sätt att inkludera leads eller kontakter i en marknadsföringsresa. Marknadsföringslistor är unika för en grupp leads eller kontakter, vilket innebär att användaren måste välja om deras lista är en uppsättning leads eller en uppsättning kontakter.
 
-[!DNL Marketo Measure] stöder endast statiska marknadsföringslistor. Vi stöder inte dynamiska marknadsföringslistor eftersom vår bearbetning kräver att vi kontrollerar en posts ändrade datum, men eftersom en dynamisk lista ofta ändras finns det inget ändrat datum för [!DNL Marketo Measure] att kontrollera mot. Detta kräver en konstant nedladdning av hela datauppsättningen under hela dagen.
+[!DNL Marketo Measure] har bara stöd för statiska marknadsföringslistor. Vi stöder inte dynamiska marknadsföringslistor eftersom vår bearbetning kräver att vi kontrollerar en posts ändrade datum, men eftersom en dynamisk lista ändras ofta finns det inget ändrat datum för [!DNL Marketo Measure] att kontrollera mot. Detta kräver en konstant nedladdning av hela datauppsättningen under hela dagen.
 
 ![](assets/6.png)
 
-Skärmbilden ovan är en marknadsföringslista för leads. Marknadsföringslistor är kopplade till kampanjer och kan associeras med flera kampanjer. Såvida ni inte bara skapar en marknadsföringslista för en kampanj, [!DNL Marketo Measure] rekommenderar inte att kunder använder marknadsföringslistor för att spåra sina kampanjer. Det är osannolikt att samma exakta lista över leads/kontakter skulle vara berättigad till kontaktytor i flera kampanjer.
+Skärmbilden ovan är en marknadsföringslista för leads. Marknadsföringslistor är kopplade till kampanjer och kan associeras med flera kampanjer. Såvida du inte bara skapar en marknadsföringslista för en kampanj rekommenderar [!DNL Marketo Measure] inte att kunderna använder marknadsföringslistor för att spåra sina kampanjer. Det är osannolikt att samma exakta lista över leads/kontakter skulle vara berättigad till kontaktytor i flera kampanjer.
 
 ## Aktivera kontaktpunkter {#enable-touchpoints-1}
 
-Om du vill aktivera en marknadsföringslista för kontaktytor finns det en separat inställning för kampanjposten med etiketten &quot;[!UICONTROL Sync Marketing Lists],&quot; som är en enkel ja/nej-switch. Om du inte ser detta måste fältet läggas till via Formulärredigeraren. På Campaign-posten kan ni se vilka marknadsföringslistor som är relaterade till Campaign så att ni vet hur många listor ni aktiverar.
+Om du vill aktivera en marknadsföringslista för kontaktytor finns det en separat inställning för kampanjposten [!UICONTROL Sync Marketing Lists], som är en enkel ja/nej-växel. Om du inte ser detta måste fältet läggas till via Formulärredigeraren. På Campaign-posten kan ni se vilka marknadsföringslistor som är relaterade till Campaign så att ni vet hur många listor ni aktiverar.
 
 ![](assets/7.png)
 
 ## Kontaktpunktsdatum {#touchpoint-date-1}
 
-Slutpunktsdatumet för en marknadsföringslista är vanligtvis det datum då ListMember skapades, så det datum då lead eller kontakt lades till i marknadsföringslistan. Den kan åsidosättas om det anpassade fältet från den installerade lösningen med etiketten&quot;Buyer Touchpoint Date&quot; (Köparens slutpunktsdatum) fylls i. Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
+Slutpunktsdatumet för en marknadsföringslista är vanligtvis det datum då ListMember skapades, så det datum då lead eller kontakt lades till i marknadsföringslistan. Den kan åsidosättas om det anpassade fältet från den installerade lösningen med etiketten&quot;Buyer Touchpoint Date&quot; fylls i. Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
 
 ![](assets/8.png)
 
@@ -81,7 +81,7 @@ Slutpunktsdatumet för en marknadsföringslista är vanligtvis det datum då Lis
 
 Dynamics-kampanjer är paketerade i dina anpassade marknadsföringskanaler med hjälp av fältet Campaign-typ. Dessa kan ändras på menyn Dynamics-anpassningar.
 
-Värdena på menyn Campaign-typ hämtas till [!DNL Marketo Measure] Program. **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Offline Channels]**.
+Värdena på menyn Campaign-typ hämtas till programmet [!DNL Marketo Measure]. **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Offline Channels]**.
 
 För varje Campaign-typ kan den mappas till en Channel- och Subchannel-kombination så att varje kontaktyta som härleds från Campaign har rätt mappad kanal och subkanal.
 

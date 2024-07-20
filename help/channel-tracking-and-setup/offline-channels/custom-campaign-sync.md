@@ -13,35 +13,35 @@ ht-degree: 0%
 
 # Synkronisering av anpassad kampanj {#custom-campaign-sync}
 
-Idag, med [!DNL Marketo Measure] kan ni ange vilka kampanjer som ska ingå som en kvalificerad kontaktyta. Det finns många hinder för detta som det var tidigare. När [!DNL Marketo Measure] paketet är installerat i CRM. Det kan ta tid att godkänna det av säkerhetsteamet. Det finns dessutom bristande flexibilitet när det gäller att använda en enda plocklista i Campaign-objektet. Med den här nya funktionen krävs ingen paketinstallation för att börja använda poster för Campaign- och Campaign-medlemmar. Regler kan skapas för att definiera exakt vilka poster som kan skapas för att definiera exakt vilka poster som är kvalificerade.
+I dag, med det installerade [!DNL Marketo Measure]-paketet, kan du ange vilka kampanjer som ska inkluderas som en giltig kontaktyta. Det finns många hinder för detta som det var tidigare. När [!DNL Marketo Measure]-paketet har installerats i CRM kan det ta tid att godkänna det av ditt säkerhetsteam. Det finns dessutom bristande flexibilitet när det gäller att använda en enda plocklista i Campaign-objektet. Med den här nya funktionen krävs ingen paketinstallation för att börja använda poster för Campaign- och Campaign-medlemmar. Regler kan skapas för att definiera exakt vilka poster som kan skapas för att definiera exakt vilka poster som är kvalificerade.
 
 ## Krav {#requirements}
 
 * Kampanjsynkronisering finns i alla nivåer
-* För att kunna importera data måste du fortfarande ansluta CRM till [!DNL Marketo Measure] konto
+* Du måste fortfarande ansluta CRM till ditt [!DNL Marketo Measure]-konto för att kunna importera data
 
 ## Så här fungerar det {#how-it-works}
 
-1. Med behörigheten AccountAdmin kan du navigera till **[!UICONTROL Settings]** > **[!UICONTROL Campaigns]** och se gränssnittet för reglerna för synkronisering av kampanjmedlemmar.
-1. Klicka på **+** om du vill börja skapa en regel.
+1. Med AccountAdmin-behörigheter kan du navigera till **[!UICONTROL Settings]** > **[!UICONTROL Campaigns]** och se regelgränssnittet för synkronisering av kampanjmedlemmar.
+1. Klicka på ikonen **+** för att börja skapa en regel.
 
    ![](assets/1-1.png)
 
-1. Du kan skapa en regel från [!UICONTROL Campaign] eller [!UICONTROL Campaign Member] fält. Fyll i resten av regeln med operatorn och värdet som vi förväntas validera. I exemplet nedan söker vi efter en viss kampanj efter namnet.
+1. Du kan skapa en regel från [!UICONTROL Campaign]- eller [!UICONTROL Campaign Member]-fält. Fyll i resten av regeln med operatorn och värdet som vi förväntas validera. I exemplet nedan söker vi efter en viss kampanj efter namnet.
 
    ![](assets/2-1.png)
 
    >[!NOTE]
    >
-   >Formelfält kan inte användas i reglerna och visas inte i plocklistan. Eftersom formler beräknas i bakgrunden och inte ändrar en post, [!DNL Marketo Measure] kan inte identifiera om en post passar en regel eller inte.
+   >Formelfält kan inte användas i reglerna och visas inte i plocklistan. Eftersom formler beräknas i bakgrunden och inte ändrar en post, kan [!DNL Marketo Measure] inte identifiera om en post passar in i en regel eller inte.
 
-1. Välj slutpunktsdatum. Listan över möjliga datum visas när du har angett klammerparenteser `{` - kan du välja vilket datum du vill använda för alla kontaktpunkter som skapas från regeln.
+1. Välj slutpunktsdatum. Listan med möjliga datum visas när du har angett klammerparentesen `{` - du kan välja vilket datum du vill använda för alla beröringspunkter som skapas från regeln.
 
    ![](assets/3-1.png)
 
    >[!NOTE]
    >
-   >Om du använder anpassade regler för kampanjsynkronisering [!DNL Marketo Measure] kommer inte att läsa några uppdateringar som du har gjort med knappen Kontaktpunktsdatum för gruppuppdatering.
+   >Om du använder regler för anpassad kampanjsynkronisering läser [!DNL Marketo Measure] inte några uppdateringar som du har gjort med knappen Kontaktpunktsdatum för gruppuppdatering.
 
 1. Klicka på bockmarkeringen och lägg sedan till ytterligare regler för ytterligare kampanjer efter behov.
 
@@ -49,25 +49,25 @@ Idag, med [!DNL Marketo Measure] kan ni ange vilka kampanjer som ska ingå som e
 
    >[!NOTE]
    >
-   >Nu när reglerna definieras tillsammans med CRM-synkroniseringen börjar de angivna reglerna naturligtvis att hamna i konflikt. Om du väljer att fortsätta använda både den anpassade kampanjsynkroniseringen _och_ I CRM-synkroniseringstypen är det viktigt att skapa regler så att CRM-synkroniseringstyperna inte ignoreras.
+   >Nu när reglerna definieras tillsammans med CRM-synkroniseringen börjar de angivna reglerna naturligtvis att hamna i konflikt. Om du väljer att fortsätta använda både den anpassade kampanjsynkroniseringen _och_ CRM-synkroniseringstypen är det viktigt att skapa regler så att CRM-synkroniseringstyperna inte ignoreras.
 
    ![](assets/5-1.png)
 
    >[!NOTE]
    >
-   >Om du funderar på att så småningom stoppa användaren av [!UICONTROL CRM Sync Type]är det idealiskt att skapa regler som inte refererar till &quot;Synkroniseringstyp&quot;, men _stilla_ upprätthålla aktuella CRM-kontaktytor. På så sätt fungerar reglerna fortfarande om/när den ändringen görs.
+   >Om du funderar på att till slut stoppa användaren av [!UICONTROL CRM Sync Type] är det idealiskt att skapa regler som inte refererar till Synkroniseringstyp, men _still_ behåller de aktuella CRM-kontaktytorna. På så sätt fungerar reglerna fortfarande om/när den ändringen görs.
 
 Här är ett exempel på hur det skulle se ut, så att inga befintliga CRM-kontaktytor försvinner:
 
 ## Validering {#validation}
 
-Du kan enkelt kontrollera Touchpoints- och Buyer Attribution Touchpoint-posterna i Campaign för att se till att reglerna fungerar som de ska. Här är en BAT som [!DNL Marketo Measure] som skapats med lämpligt dynamiskt slutpunktsdatum, hämtat från kampanjen. Fältet Skapat den finns i bilden nedanför det.
+Du kan enkelt kontrollera Buyer Touchpoints och Buyer Attribution Touchpoint-poster i Campaign för att se till att reglerna fungerar som de ska. Här är en BAT som [!DNL Marketo Measure] skapade med rätt dynamiskt slutpunktsdatum, hämtat från kampanjen. Fältet Skapat den finns i bilden nedanför det.
 
 ![](assets/6-1.png)
 
 ## Testning {#testing}
 
-1. Funktionen Kampanjsynkronisering innehåller en testfunktion så att du kan kontrollera om reglerna som du har skapat verkligen uppfyller Campaign-villkoren. Börja med att klicka på [!UICONTROL Test] -knappen. Reglerna måste sparas innan du kan börja testa.
+1. Funktionen Kampanjsynkronisering innehåller en testfunktion så att du kan kontrollera om reglerna som du har skapat verkligen uppfyller Campaign-villkoren. Börja med att klicka på knappen [!UICONTROL Test]. Reglerna måste sparas innan du kan börja testa.
 
    ![](assets/7-1.png)
 
@@ -75,7 +75,7 @@ Du kan enkelt kontrollera Touchpoints- och Buyer Attribution Touchpoint-posterna
 
    ![](assets/8-1.png)
 
-1. När du klickat [!UICONTROL Test]ser du namnet på Campaign och antalet Campaign-medlemmar som är berättigade till kontaktytor. En tabell visas nedan som visar alla regler som matchar ditt kampanj-ID. Endast matchningarna visas.
+1. När du har klickat på [!UICONTROL Test] ser du namnet på Campaign och antalet Campaign-medlemmar som är berättigade till kontaktytor. En tabell visas nedan som visar alla regler som matchar ditt kampanj-ID. Endast matchningarna visas.
 
    ![](assets/9.png)
 

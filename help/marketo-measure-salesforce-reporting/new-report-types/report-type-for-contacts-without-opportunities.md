@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874616
-description: Typ av rapportering för kontakter utan affärsmöjligheter - [!DNL Marketo Measure]
+description: Typ av rapportering för kontakter utan säljprojekt - [!DNL Marketo Measure]
 title: Typ av rapportering för kontakter utan affärsmöjligheter
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;[!DNL Bizible]&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se [!DNL Bizible] i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 För att kunna rapportera om kontakter med Buyer Touchpoints som inte är kopplade till ett säljprojekt måste du skapa en anpassad rapporttyp.
 
@@ -27,7 +27,7 @@ För att kunna rapportera om kontakter med Buyer Touchpoints som inte är koppla
 
    ![](assets/2.jpg)
 
-1. Ange [!UICONTROL Primary Object] as &quot;[!UICONTROL Contacts].&quot; Ange etiketten för rapporttypen som&quot;Kontakter med Buyer Touchpoints&quot;. Använd samma namn för rapporttypen Namn. I beskrivningen anges&quot;Kontakter med Buyer Touchpoints&quot;. Spara rapporten i[!UICONTROL Other]&quot; och ange rapporten som &quot;[!UICONTROL Deployed].&quot;
+1. Ange [!UICONTROL Primary Object] som [!UICONTROL Contacts]. Ange etiketten för rapporttypen som&quot;Kontakter med Buyer Touchpoints&quot;. Använd samma namn för rapporttypen Namn. I beskrivningen anges&quot;Kontakter med Buyer Touchpoints&quot;. Spara rapporten i [!UICONTROL Other] och ange rapporten till [!UICONTROL Deployed].
 
    ![](assets/3.jpg)
 
@@ -35,4 +35,4 @@ För att kunna rapportera om kontakter med Buyer Touchpoints som inte är koppla
 
    ![](assets/4.jpg)
 
-1. Klicka **[!UICONTROL Save]** och du är klar!
+1. Klicka på **[!UICONTROL Save]** så är du klar!

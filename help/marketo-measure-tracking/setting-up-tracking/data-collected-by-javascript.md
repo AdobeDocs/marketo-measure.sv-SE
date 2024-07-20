@@ -1,17 +1,18 @@
 ---
-description: Data som samlats in med JavaScript - [!DNL Marketo Measure]
-title: Data som samlats in med JavaScript
+description: Data som samlats in av JavaScript - [!DNL Marketo Measure]
+title: Data som samlats in av JavaScript
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: 83814168-9d3e-45ac-b514-df58f0b2e90b
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
-# Data som samlats in med JavaScript {#data-collected-by-javascript}
+# Data som samlats in av JavaScript {#data-collected-by-javascript}
 
-Lär dig mer om de data som samlas in av Marketo Measure JavaScript vid distributionen.
+Läs mer om de data som samlas in av Marketo Measure JavaScript vid driftsättningen.
 
 **Exempelbegäran:**
 

@@ -2,7 +2,8 @@
 description: Översikt över integreringsbehörigheter - [!DNL Marketo Measure]
 title: Översikt över integreringsbehörigheter
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 0%
@@ -47,19 +48,19 @@ I den här guiden beskrivs de nödvändiga behörigheterna för smidig integreri
     <li>Uppgifter</li>
 <p>
 Kontaktpunkter som skapats och andra data skrivs in i anpassade bizibla fält på konto, Campaign, CampaignMember, Case, Contact, Lead och Opportunity.</td>
-    <td><b>Salesforce-användarbehörigheter (krävs)</b>
+    <td><b>Salesforce-anslutna användarbehörigheter (krävs)</b>
     <p>
-    <b>Behörighetsuppsättning för Marketo Measure-administratör för dedikerad användare:</b> Tillåt SFDC-administratörer att utföra CRUD-åtgärder på markering för att mäta objekt.
+    <b>Marketo Measure Administrator Permission Set for Dedicated User:</b> Tillåt SFDC-administratörer att utföra CRUD-åtgärder på marknadsföring för att mäta objekt.
     <br>
-    <b>Visa och redigera behörighetsgrupp för konverterade leads:</b> På så sätt kan Marketo Measure dekorera leads efter att de har konverterats till kontakter.
+    <b> Behörighetsuppsättning för att visa och redigera konverterade leads:</b> Detta gör att Marketo Measure kan dekorera leads efter att de har konverterats till kontakter.
     <br>
-    <b>Kryssruta för Salesforce-marknadsföringsanvändare:</b> Kryssrutan Marknadsföringsanvändare tillåter användare att skapa kampanjer och använda guiden för kampanjimport.
+    <b> Kryssrutan Salesforce-användare för marknadsföring:</b> Kryssrutan Marknadsförare gör att användare kan skapa kampanjer och använda guiden för kampanjimport.
     <br>
-    <b>Marketo Measure Standard User:</b> Ger en användare möjlighet att läsa poster från Marketo Measure-objekt.
+    <b> Marketo Measure Standard User: </b> Ger en användare möjlighet att läsa poster från Marketo Measure-objekt.
     <p>
     <b>Salesforce-standardfältbehörigheter</b>
     <br>
-    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce-standardobjekt och -åtkomst</a>
+    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md"> Salesforce-standardobjekt och -åtkomst </a>
     <p>
     <b>Salesforce-anpassade fältbehörigheter</b>
     <br>
@@ -104,11 +105,11 @@ Säkerhetsroller finns här: Inställningar &gt; Säkerhet &gt; Säkerhetsroller
 <br>
 För anpassade Marketo Measure-enheter behöver vi fullständig behörighet för alla våra enheter.
 <p>
-<b>Fältbehörigheter i Dynamics Standard</b>
+<b>Dynamics Standard-fältbehörigheter</b>
 <br>
-<a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics Schema</a>
+<a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics-schema </a>
 <p>
-<b>Anpassade Dynamics-fältbehörigheter</b>
+<b>Dynamics, anpassade fältbehörigheter</b>
 <br>
 Vi behöver läsåtkomst för alla fält på lead- eller kontaktenheten som kunden vill använda för anpassade regler för utelämna/ta bort kontaktpunktsinställningar.
 <br>
@@ -138,7 +139,7 @@ Marketo Measure spårar konton, kampanjer, annonsgrupper, annonser, filter-ID oc
 <li>Bygg annonsverktyg som ger innovativa lösningar och ett differentierat värde för annonsörer.</li>
 <br>
 <br>
-<a href="https://developers.facebook.com/docs/permissions/reference/email">e-post</a>
+<a href="https://developers.facebook.com/docs/permissions/reference/email">email</a>
 <br>
 <li>Kommunicera med människor och låt dem logga in i din app med den e-postadress som är kopplad till deras Facebook-profil.</li></td>
   </tr>
@@ -156,11 +157,11 @@ Marketo Measure spårar konton, kampanjer, annonsgrupper, annonser, filter-ID oc
     <p>
     <b>Omfång</b>
     <br>
-    <a href="https://www.linkedin.com/campaignmanager/accounts">Ställ in användarroll på portalen (kräver inloggning på LinkedIn-konto)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Översikt över användarroller</a>: Användarroll, visa och hantera användarbehörighet, tilldela roller som kontohanterare eller kampanjhanterare
+    <a href="https://www.linkedin.com/campaignmanager/accounts">Konfigurera användarroll på portalen (kräver inloggning på LinkedIn-konto)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">Översikt över användarroller</a>: Användarroll, visa och hantera användarbehörighet, tilldela roller som kontohanterare eller kampanjhanterare
     <p>
-    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Konfigurera sidadministratörsroll - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Rolldefinitioner för sidadministratör</a>: Sidadministratörsroll, på den önskade administratörssidan
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Konfigurera sidadministratörsroll - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Definitioner för sidadministratörsroll</a>: Sidadministratörsroll, på den önskade administratörssidan
     <p>
-    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Ställ in rollen för betald mediaadministratör (sök efter betald mediaadministratör) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">Definitioner för betald medieadministratör</a>: Roller för betald medieadministratör</td>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Konfigurera rollen för administratör för betalmedia (sök efter administratör för betalmedia) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">Definitioner för betald mediaadministratör</a>: Roller för betald mediaadministratör</td>
   </tr>
   <tr>
     <td>Dubbelklicka</td>
@@ -178,7 +179,7 @@ Marketo Measure spårar konton, kampanjer, annonsgrupper, annonser, filter-ID oc
     <p>
      <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>: Visa och hantera DoubleClick-rapporter för annonsörer
     <p>
-     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: Visa och hantera era DCM-annonskampanjer (DoubleClick Campaign Manager)</td>
+     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: Visa och hantera dina DCM-annonskampanjer (DoubleClick Campaign Manager)</td>
   </tr>
   <tr>
     <td>AdWords</td>
@@ -200,18 +201,18 @@ Marketo Measure spårar kampanjer, annonsgrupper, kreatörer, webbplatslänkar o
     <td>Bing</td>
     <td>Ad Platform Data</td>
     <td>Marketo Measure spårar konton, kampanjer, annonsgrupper, kreatörer och nyckelord.</td>
-    <td><li>Användaren måste ge "offlineåtkomst" via sitt Microsoft-konto (vilket ger Marketo Measure åtkomst till slutanvändarens UserInfo även om användaren inte är inloggad). Se <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft page</a> hur man gör.</li>
+    <td><li>Användaren måste ge "offlineåtkomst" via sitt Microsoft-konto (vilket ger Marketo Measure åtkomst till slutanvändarens UserInfo även om användaren inte är inloggad). Se <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft-sida</a> om hur du gör det.</li>
 <p>
     <b>Omfång</b>
     <br>
-    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: Bevara åtkomst till data som du har gett behörighet.</td>
+    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: Behåll åtkomst till data som du har gett åtkomst till.</td>
   </tr>
   <tr>
     <td>Marketo Engage</td>
     <td>Systemdata för B2B</td>
-    <td>Tack vare integreringen med Marketo kan Marketo Measure samla in Marketo aktiviteter, människor, program och programmedlemskap. Dessutom spårar Marketo Measure Marketo cookies (Munchkin ID) för att länka Marketo webbaktiviteter till Marketo Measure lead-kontaktytor, <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">enligt beskrivning här</a>:
+    <td>Tack vare integreringen med Marketo kan Marketo Measure samla in Marketo aktiviteter, människor, program och programmedlemskap. Dessutom spårar Marketo Measure Marketo cookies (Munchkin ID) för att länka Marketo webbaktiviteter till Marketo Measure lead-kontaktytor, <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">enligt beskrivningen här</a>:
     <p>
-    <i>Som ett resultat av Marketo Measure-integrationen med Marketo mappas och synkroniseras Marketo Measure cookie-ID:t med Marketo Munchkin-ID:t. Detta gör att luckan stängs så att den anonyma första beröringen kan kopplas till en webbsession i stället för att både FT- och LC-beröringen kan kopplas till en Marketo-aktivitet.</i>
+    <i>Som ett resultat av Marketo Measure-integrationen med Marketo mappas och synkroniseras Marketo Measure cookie-ID:t med Marketo Munchkin-ID:t. Detta hjälper till att stänga luckan för att attribuera den anonyma första beröringen till en webbsession i stället för att tilldela både FT- och LC-beröringen till en Marketo-aktivitet.</i>
     </td>
     <td>Kunden måste skapa en dedikerad Marketo Engage API-användare och ange autentiseringsuppgifterna för Marketo Measure. Ingen ytterligare behörighetskonfiguration krävs. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md#configuring-the-integration">Läs mer</a>.</td>
   </tr>

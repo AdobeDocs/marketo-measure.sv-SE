@@ -10,8 +10,8 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] och Dynamics Taxonomy {#marketo-measure-and-dynamics-taxonomy}
+# [!DNL Marketo Measure] och Dynamics taxonomi {#marketo-measure-and-dynamics-taxonomy}
 
-Nedan visas ett flödesdiagram som visar hur [!DNL Marketo Measure] Anpassade objekt relaterar till Dynamics Standard-objekt.<p>
+Nedan visas ett flödesschema som representerar hur de anpassade [!DNL Marketo Measure]-objekten relaterar till Dynamics Standard-objekt.<p>
 
 ![](assets/bizible-and-dynamics-taxonomy-1.png)

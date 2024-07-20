@@ -13,15 +13,15 @@ ht-degree: 2%
 
 # Ansluter [!DNL Marketo Measure] till Unbounce Script Manager {#connecting-marketo-measure-to-unbounce-script-manager}
 
-[!DNL Marketo Measure] integreras direkt med Unbounce så att ni kan spåra den digitala marknadsföringskällan för era landningssidkonverteringar direkt i [!DNL Salesforce]. Om du vill ansluta lägger du bara till [!DNL Marketo Measure] till Unbounce Script Manager. Så här gör du.
+[!DNL Marketo Measure] integreras direkt med Unbounce, vilket gör att du kan spåra den digitala marknadsföringskällan för dina konverteringar på landningssidan direkt i [!DNL Salesforce]. Om du vill ansluta lägger du bara till skriptet [!DNL Marketo Measure] i Unbounce Script Manager. Så här gör du.
 
-1. Logga in på [!DNL Unbounce] konto.
+1. Logga in på ditt [!DNL Unbounce]-konto.
 1. Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Script Manager]** > **[!UICONTROL Add Script]**.
-1. I popup-fönstret väljer du [!UICONTROL Custom Script] och ge den namnet &quot;[!DNL Marketo Measure Marketing Analytics].&quot; Klicka på **[!UICONTROL Add Script Details]**.
-1. Välj placering i huvudet. Inkludera skriptet på Main Landing Page och formulärbekräftelsedialogrutan. Klistra in [!DNL Marketo Measure] skript nedanför i lådan.
+1. Välj [!UICONTROL Custom Script] på popup-menyn och ge den namnet [!DNL Marketo Measure Marketing Analytics]. Klicka på **[!UICONTROL Add Script Details]**.
+1. Välj placering i huvudet. Inkludera skriptet på Main Landing Page och formulärbekräftelsedialogrutan. Klistra in skriptet [!DNL Marketo Measure] nedan i rutan.
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
 1. Klicka på **[!UICONTROL Save]**.
 
-The [!DNL Marketo Measure] integreringen fungerar på Unbounce-landningssidor så länge de finns på din domän (t.ex. landing.mysite.com), inte på dem som använder unbounce.com.
+Integreringen av [!DNL Marketo Measure] fungerar på Unbounce-landningssidor så länge som de finns på din domän (t.ex. landing.mysite.com), inte på dem som använder unbounce.com.

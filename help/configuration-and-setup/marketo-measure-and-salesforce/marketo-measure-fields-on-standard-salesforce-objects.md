@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Fält i Standard [!DNL Salesforce] Objekt - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Fält i Standard [!DNL Salesforce] Objekt"
+description: "[!DNL Marketo Measure] fält i  [!DNL Salesforce] Standard-objekt - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] fält i  [!DNL Salesforce] standardobjekt"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Fält i Standard [!DNL Salesforce] Objekt {#marketo-measure-fields-on-standard-salesforce-objects}
+# [!DNL Marketo Measure] fält i [!DNL Salesforce] standardobjekt {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se Bizible i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-Läs om de olika [!DNL Marketo Measure] fält som lagts till i [!DNL Salesforce] standardobjekt.
+Lär dig mer om de olika [!DNL Marketo Measure] fälten som läggs till i [!DNL Salesforce] standardobjekt.
 
 ## Konto {#account}
 
@@ -27,17 +27,17 @@ Predictive Engagement Score: Det här fältet används med funktionen ABM för a
 
 Endast fyra fält har lagts till, en knapp och en valideringsregel.
 
-Unikt ID: Det här fältet används internt för att spåra de olika kampanjer som synkroniseras med [!DNL Marketo Measure].
+Unikt ID: Det här fältet används internt för oss för att spåra de olika kampanjer som synkroniseras med [!DNL Marketo Measure].
 
 Aktivera Buyer Touchpoints: Det här fältet är till för den faktiska synkroniseringen av kampanjer för offlineattribuering och historiska data.
 
 Startdatum för kontaktyta: Det här fältet används för att ange ett startdatum när kontaktytor ska tillämpas på historiska kampanjer.
 
-Slutdatum för slutpunkt: Det här fältet används för att ange ett slutdatum för användning av kontaktytor på historiska kampanjer. Ett vanligt exempel är digitala kampanjer före[!DNL Marketo Measure] och sedan ange slutdatumet som den dag skriptet tillämpades.
+Slutdatum för slutpunkt: Det här fältet används för att ange ett slutdatum för användning av kontaktytor på historiska kampanjer. Ett vanligt exempel är om digitala kampanjer inkluderas före [!DNL Marketo Measure] och sedan anger slutdatumet som den dag skriptet tillämpades.
 
 Uppdatera slutpunktsdatum gruppvis (knapp): Den här knappen används för att hantera slutpunktsdatumet för kampanjmedlemmarna när kampanjen synkroniseras, eftersom vi refererar till antingen kampanjmedlemskapsdatumet eller det första svarsdatumet i rutan. Om dessa datumfält inte är en korrekt representation av det faktiska beröringspunktsdatumet använder vi den här knappen för att ange kontaktpunktsdatumet.
 
-Uppdatera [!DNL Marketo Measure] Attribution (Validation Rule): Den här regeln är inaktuell efter paketversion 6.0.
+Uppdatera [!DNL Marketo Measure]-attribut (verifieringsregel): Den här regeln har tagits bort efter paketversion 6.0.
 
 ## Kampanjmedlem {#campaign-member}
 
@@ -51,9 +51,9 @@ Touchpoint-status (säljprojekt): Det här är ett diagnostiskt fält som relate
 
 Statusdatum för kontaktpunkt: Detta är det datum då diagnosfälten fylldes i.
 
-Buyer Touchpoint Date: This is related to the [!UICONTROL Bulk Update Touchpoint date] från Campaign-objektet. När det används använder vi det definierade slutpunktsdatumet för kampanjmedlemmen.
+Buyer Touchpoint Date: Detta är relaterat till knappen [!UICONTROL Bulk Update Touchpoint date] från Campaign-objektet. När det används använder vi det definierade slutpunktsdatumet för kampanjmedlemmen.
 
-OnCampaignMemberDelete: Utanför paketet, [!DNL Salesforce] visas inte när Campaign-medlemmar tas bort, vilket kan orsaka problem med korrekt attribueringsrapportering. När en kampanjmedlem tas bort aktiveras detta för att informera [!DNL Marketo Measure] för att ta bort kontaktytor som är relaterade till den icke-befintliga kampanjmedlemmen.
+OnCampaignMemberDelete: Utanför rutan visas inte [!DNL Salesforce] när Campaign-medlemmar tas bort, vilket kan orsaka problem med korrekt attribueringsrapportering. När en kampanjmedlem tas bort, aktiveras detta för att informera [!DNL Marketo Measure] om att ta bort de kontaktytor som är relaterade till den icke-befintliga kampanjmedlemmen.
 
 ## Lead {#lead}
 
@@ -65,7 +65,7 @@ Detta används för vår lead-to-account-mappning för funktionen ABM. Vi fyller
 
 ## Möjligheter {#opportunity}
 
-[!DNL Marketo Measure] Affärsmöjlighet: Det här fältet används i scenariot där ett anpassat beloppsfält används för affärsmöjligheten. Vi mappar det anpassade fältvärdet till [!DNL Marketo Measure] Affärsmöjlighet med hjälp av ett arbetsflöde och läs sedan det här fältet för våra intäktsattribueringsfält i Buyer Attribution Touchpoint-objektet.
+[!DNL Marketo Measure] Affärsmöjlighetsbelopp: Det här fältet används i scenariot där ett anpassat beloppsfält används för affärsmöjligheten. Vi mappar det anpassade fältvärdet till [!DNL Marketo Measure] säljprojektsbelopp med ett arbetsflöde och läser sedan det här fältet för våra intäktsattribueringsfält på Buyer Attribution Touchpoint-objektet.
 
 ## Aktivitet {#activity}
 

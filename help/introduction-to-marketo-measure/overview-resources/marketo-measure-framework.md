@@ -22,13 +22,13 @@ Läs mer om de fyra huvudkomponenterna i Marketo Measure-ramverket. Marketo Meas
 
 ## Marketo Measure JavaScript {#marketo-measure-javascript}
 
-Marketo Measure JavaScript spårar alla de interaktioner för onlinemarknadsföring, som även kallas kontaktytor, som potentiella kunder/leads har med organisationen. Det är ett anpassat skript som läggs till före stängningen `</head>` på alla sidor på webbplatsen.
+Marketo Measure JavaScript spårar alla interaktioner för webbmarknadsföring, även kallade kontaktytor, som potentiella kunder/leads har med er organisation. Det är ett anpassat skript som läggs till före den avslutande `</head>`-taggen på alla sidor på webbplatsen.
 
 `<script type="text/javascript" src="//[cdn.bizible.com/scripts/bizible.js](http://cdn.bizible.com/scripts/bizible.js)" async=""></script>`
 
 >[!NOTE]
 >
->Instruktioner om hur du lägger till Marketo Measure JS finns i [klicka här](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
+>[Klicka här](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) om du vill ha anvisningar om hur du lägger till Marketo Measure JS.
 
 Marketo Measure JS hämtar in data från webbbesök (inklusive anonyma webbbesök), allmän trafik-/sidnavigering, innehållshämtningar och inskickade formulär. Dessa data läggs in i CRM och varje marknadsföringsinteraktion visas som en kontaktyta.
 

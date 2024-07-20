@@ -13,15 +13,15 @@ ht-degree: 2%
 
 # Döljer onödiga rapporttyper {#hiding-unnecessary-report-types}
 
-När du har slutfört installationen och börjat använda rapporter är det inte varje rapport i [!DNL Marketo Measure] paketet kommer att användas av din organisation. Därför är det bra att dölja rapporttyper som du inte använder för att undvika förvirring och ge ett renare utseende. Du kan dölja alla rapporter du vill, men de rapporter som identifieras i bilden nedan är vanligtvis dolda.
+När du har slutfört installationen och börjat använda rapporter kommer inte alla rapporter i [!DNL Marketo Measure]-paketet att användas av din organisation. Därför är det bra att dölja rapporttyper som du inte använder för att undvika förvirring och ge ett renare utseende. Du kan dölja alla rapporter du vill, men de rapporter som identifieras i bilden nedan är vanligtvis dolda.
 
 1. Navigera till fliken **[!UICONTROL Reports]**.
 
-1. Klicka på **[!UICONTROL Create New Report]** längst upp på skärmen.
+1. Klicka på knappen **[!UICONTROL Create New Report]** högst upp på skärmen.
 
 1. Skriv in ordet&quot;Touchpoint&quot; för att fylla i rapporterna.
 
-1. Välj **[!UICONTROL Select Report Types to Hide]** längst upp till vänster.
+1. Markera kryssrutan **[!UICONTROL Select Report Types to Hide]** överst till vänster.
 
 1. Klicka på rapporterna som är markerade nedan med ett orange X för att få rapportlistan att se likadan ut som bilden nedan.
 

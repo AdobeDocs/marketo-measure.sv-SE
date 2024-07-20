@@ -5,27 +5,27 @@ exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
 # Sekretessförfrågningar {#privacy-requests}
 
-I det här dokumentet finns en översikt över hur du hanterar enskilda sekretessförfrågningar som du kan skicka till [!DNL Marketo Measure] via [!DNL Privacy Service] Användargränssnittet och **[!DNL Privacy Service]API**.
+Det här dokumentet innehåller en översikt över hur du hanterar enskilda datasekretessbegäranden som du kan skicka till [!DNL Marketo Measure] via [!DNL Privacy Service]-gränssnittet och **[!DNL Privacy Service]-API:t**.
 
 Du kan skicka enskilda förfrågningar för att få åtkomst till och ta bort konsumentdata från [!DNL Marketo Measure] på två sätt:
 
-* Via [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* Via **[!DNL Privacy Service]API**. Läs dokumentationen [här](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Via [[!DNL Privacy Service] gränssnittet](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Via **[!DNL Privacy Service]API**. Se dokumentationen [här](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} och API-referensen [här](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-The [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} har stöd för två typer av begäranden: dataåtkomst och borttagning av data.
+[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} har stöd för två typer av förfrågningar: dataåtkomst och borttagning av data.
 
 Låt oss se hur du kan skapa förfrågningar om åtkomst och borttagning.
 
 ## Nödvändig inställning för att skicka begäranden för Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
-För att göra förfrågningar om åtkomst- och borttagningsdata för [!DNL Marketo Measure]måste du:
+Om du vill begära åtkomst- och borttagningsdata för [!DNL Marketo Measure] måste du:
 
 1. Identifiera följande:
 
@@ -35,30 +35,30 @@ För att göra förfrågningar om åtkomst- och borttagningsdata för [!DNL Mark
 
    Ett IMS-organisations-ID är en 24 tecken lång alfanumerisk sträng som läggs till med @AdobeOrg. Om ditt marknadsföringsteam eller den interna systemadministratören i Adobe inte känner till din organisations IMS-organisation kan du kontakta Adobe kundtjänst på gdprsupport@adobe.com. Du behöver IMS-organisations-ID för att kunna skicka begäranden till sekretess-API:t.
 
-1. I [!DNL Privacy Service]kan du skicka in begäranden om åtkomst och borttagning till [!DNL Marketo Measure]och kontrollera status för befintliga förfrågningar.
+1. I [!DNL Privacy Service] kan du skicka begäranden om åtkomst och borttagning till [!DNL Marketo Measure] och kontrollera status för befintliga begäranden.
 
 ## Obligatoriska fältvärden i [!DNL Marketo Measure] JSON-begäranden {#required-field-values-in-marketo-measure-json-requests}
 
 &quot;companyContext&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* värde: `<Your IMS Org ID Value>`
+* &quot;value&quot;: `<Your IMS Org ID Value>`
 
 användare:
 
-* &quot;action&quot;: antingen [!UICONTROL access] eller ta bort
+* &quot;action&quot;: antingen [!UICONTROL access] eller delete
 * &quot;användar-ID&quot;:
    * &quot;namespace&quot;: email
    * &quot;type&quot;: standard
-   * värde: `<Data Subject's Email Address>`
+   * &quot;value&quot;: `<Data Subject's Email Address>`
 
 include:
 
-* **marketoMeasurement** (som är den Adobe-produkt som är tillämplig på ansökan)
+* **marketoMeasurement** (som är den Adobe-produkt som gäller för begäran)
 
 reglering:
 
-* **gdpr**, **ccpa**, **pdpa**, **lgpd_bra**, eller **nzpa_nzl** (som är den sekretessregel som gäller för begäran)
+* **gdpr**, **ccpa**, **pdpa**, **lgpd_bra** eller **nzpa_nzl** (som är den sekretessregel som gäller för begäran)
 
 ## Exempel ett: GDPR-borttagningsbegäran {#gdpr-delete-request}
 

@@ -21,11 +21,11 @@ Om din SFDC-organisation använder flera kampanjposttyper måste plocklistevärd
 
    ![](assets/1.jpg)
 
-1. Välj kampanjposttyper genom att klicka på **[!UICONTROL Record Type Label]**, inte [!UICONTROL edit] -knappen.
+1. Välj kampanjposttyper genom att klicka på knappen **[!UICONTROL Record Type Label]**, inte på knappen [!UICONTROL edit].
 
    ![](assets/2.jpg)
 
-1. Här visas de tillgängliga plocklistorna för den posttypen. Välj **[!UICONTROL Edit]** bredvid fältet&quot;Enable Buyer Touchpoints&quot;.
+1. Här visas de tillgängliga plocklistorna för den posttypen. Välj **[!UICONTROL Edit]** bredvid fältet Aktivera slutpunkter för köpare.
 
    ![](assets/3.jpg)
 

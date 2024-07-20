@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874718
-description: Skapa en kampanjlistvy för [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]
-title: Skapa en kampanjlistvy för [!DNL Salesforce] Kampanjer
+description: Skapar en kampanjlistvy för  [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]
+title: Skapar en kampanjlistvy för  [!DNL Salesforce] kampanjer
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
@@ -11,32 +11,32 @@ ht-degree: 0%
 
 ---
 
-# Skapa en kampanjlistvy för [!DNL Salesforce] Kampanjer {#creating-a-campaign-list-view-for-salesforce-campaigns}
+# Skapar en kampanjlistvy för [!DNL Salesforce] kampanjer {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Lär dig hur du skapar en listvy för kampanjer som du vill synkronisera med Buyer Touchpoints.
 
 >[!NOTE]
 >
->Den här artikeln handlar om en föråldrad process. Vi uppmuntrar användarna att använda [ny, förbättrad process i appen](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+>Den här artikeln handlar om en föråldrad process. Vi uppmuntrar användare att använda den [nya, förbättrade processen i appen](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
-I kampanjlistvyn som kan skapas kan du ha en&quot;gå till&quot;-plats där du kan se och hantera fälten&quot;Typ&quot; och&quot;Aktivera slutpunkter för köpare&quot; för att se till att var och en av dina [!DNL Salesforce] kampanjer som informerar era offlinemarknadsföringskanaler är korrekt konfigurerade.
+I kampanjlistvyn som kan skapas kan du ha en plats där du kan gå till för att visa och hantera fälten Typ och Aktivera Buyer Touchpoints för att se till att alla dina [!DNL Salesforce]-kampanjer som informerar dina offlinemarknadsföringskanaler är korrekt konfigurerade.
 
-1. Gå till fliken Campaigns i [!DNL Salesforce] och skapa en ny listvy
-1. Ge vyn namnet&quot;Kampanjer att synkronisera med [!DNL Marketo Measure].&quot;
+1. Gå till fliken Kampanjer i [!DNL Salesforce] och skapa en ny listvy
+1. Ge vyn namnet&quot;Kampanjer att synkronisera med [!DNL Marketo Measure]&quot;.
 1. Vi vill att den här listan bara ska visa de kampanjer som vi vill synkronisera med [!DNL Marketo Measure] så vi behöver ett par filter:
 
-   * **Typ** [LIKA MED] &#39;Alla kampanjtyper som vi har mappat till era offlinekanaler&#39;. Se din implementeringsplan eller fliken Offlinekanaler i [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mitt konto -> Inställningar -> Offlinekanaler). Du kan välja vilka typer du vill använda (de som mappas till en offline-marknadsföringskanal) via förstoringsglaset.
+   * **Typ** [MOTSVARAR] &#39;Alla kampanjtyper som vi har mappat till dina offlinekanaler&#39;. Se din implementeringsplan eller fliken Offlinekanaler i [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mitt konto -> Inställningar -> Offlinekanaler). Du kan välja vilka typer du vill använda (de som mappas till en offline-marknadsföringskanal) via förstoringsglaset.
 
       * Välj max 3 typer för varje filter. Det finns en gräns för hur många tecken du kan ha i ett filterfält. Börja med 3 typer per filter och lägg till ytterligare rader med Type-filter om det behövs.
 
-   * **Skapad den** [STÖRRE ELLER LIKA] din [!DNL Marketo Measure] startdatum. Du hittar startdatumet på kontrollpanelen för avkastning på investering i [!DNL Marketo Measure] App. Välj &quot;Sedan skapad den&quot; i datumintervallet för strecket så visas startdatumet.
+   * **Skapat** [GREATER ELLER LIKA MED] ditt [!DNL Marketo Measure]-startdatum. Du kan hitta ditt startdatum i ROI-instrumentpanelen i appen [!DNL Marketo Measure]. Välj &quot;Sedan skapad den&quot; i datumintervallet för strecket så visas startdatumet.
    * **&#42;Posttyp&#42;** - Om du vill redigera i listvyn måste du lägga till ett filter för Posttyp. Alla kampanjposter som du kan behöva redigera måste vara av samma posttyp.
 
 1. Redigera dina markerade fält så att de visas i listvyn. Den fullständiga konfigurationen av listvyn ska se ut som i exemplet nedan:
 
-   I den här vyn kan du se dina kampanjer och redigera fälten&quot;Typ&quot; och&quot;Aktivera Buyer Touchpoints&quot; om det behövs. När ni skapar nya kampanjer som ska synkroniseras med [!DNL Marketo Measure]kommer de att visas i den här vyn och du kan hantera alla inställningar för de kampanjer direkt från listan.
+   I den här vyn kan du se dina kampanjer och redigera fälten&quot;Typ&quot; och&quot;Aktivera Buyer Touchpoints&quot; om det behövs. När du skapar nya kampanjer som ska synkroniseras med [!DNL Marketo Measure] visas de i den här vyn och du kan hantera alla inställningar för de kampanjerna direkt i listan.
 
-   Om du vill kunna göra infogade redigeringar från listvyn måste du se till att följande också stämmer inom din [!DNL Salesforce] inställning:
+   Om du vill kunna göra infogade redigeringar från listvyn måste du se till att följande även gäller i din [!DNL Salesforce]-konfiguration:
 
    * **[!UICONTROL Setup]** > **[!UICONTROL User Interface]** > **[!UICONTROL Enable Inline Editing]**
    * Du måste även aktivera förbättrade listor som är markerade (direkt under rutan för infogad redigering)

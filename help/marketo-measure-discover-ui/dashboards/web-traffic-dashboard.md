@@ -1,5 +1,5 @@
 ---
-description: Kontrollpanel för webbtrafik - [!DNL Marketo Measure] - Produkt
+description: Kontrollpanel för webbtrafik - [!DNL Marketo Measure]  - Produkt
 title: Kontrollpanel för webbtrafik
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d

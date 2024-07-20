@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874720
-description: Hur budhanteringsverktygen påverkar [!DNL Marketo Measure] - [!DNL Marketo Measure]
-title: Hur budhanteringsverktygen påverkar [!DNL Marketo Measure]
+description: Så här påverkar hanteringsverktygen för bud  [!DNL Marketo Measure] - [!DNL Marketo Measure]
+title: Så här påverkar hanteringsverktygen för bud  [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
@@ -11,20 +11,20 @@ ht-degree: 0%
 
 ---
 
-# Hur budhanteringsverktygen påverkar [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
+# Så här påverkar hanteringsverktygen för bud [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
-Läs om hur anbudshanteringsplattformar påverkar [!DNL Marketo Measure] möjlighet att spåra AdWords och BingAds, tillsammans med hur ni ställer in spårningsmallar med våra parametrar för att säkerställa att alla spår är korrekta.
+Lär dig hur anbudshanteringsplattformar påverkar [!DNL Marketo Measure] förmågan att spåra AdWords och BingAds, samt hur du ställer in spårningsmallar med våra parametrar för att säkerställa att alla spår är korrekta.
 
-Kenshoo och Marin är utmärkta verktyg som gör att marknadsförarna kan spåra, hantera och optimera sina annonskampanjer med olika sökmotorer. För att [!DNL Marketo Measure] parametrar som ska läggas till i dessa annonser måste du skapa en spårningsmall med [!DNL Marketo Measure] parametrar. Det går inte att ansluta annonsplattformarna till [!DNL Marketo Measure] kontot och aktivera automatisk taggning eftersom det orsakar [!DNL Marketo Measure] taggningssystem som konkurrerar med Kenshoo/Marins taggningssystem. Detta gör att våra parametrar ändras och läggs till felaktigt. Om du vill kringgå detta spårar du mallar med [!DNL Marketo Measure] parametrar måste ställas in i Kenshoo och Marin.
+Kenshoo och Marin är utmärkta verktyg som gör att marknadsförarna kan spåra, hantera och optimera sina annonskampanjer med olika sökmotorer. För att [!DNL Marketo Measure] parametrar ska kunna läggas till i dessa annonser måste du konfigurera en spårningsmall med våra [!DNL Marketo Measure]-parametrar. Det går inte att ansluta annonsplattformarna till ditt [!DNL Marketo Measure]-konto och aktivera automatisk taggning eftersom det leder till att taggningssystemet [!DNL Marketo Measure] konkurrerar med Kenshoo/Marins taggningssystem. Detta gör att våra parametrar ändras och läggs till felaktigt. För att undvika detta måste spårningsmallar med [!DNL Marketo Measure] parametrar konfigureras i Kenshoo och Marin.
 
-## För [!DNL Adwords] Konton {#for-adwords-accounts}
+## För [!DNL Adwords]-konton {#for-adwords-accounts}
 
 Konfigurera en spårningsmall enligt följande:
 
-* Klicka på **[!UICONTROL Campaigns]** -fliken.
-* Klicka på **[!UICONTROL Shared library]** i sidnavigeringsfältet.
-* Klicka **URL-alternativ**.
-* Bredvid Spårningsmall klickar du på **Redigera**.
+* Klicka på fliken **[!UICONTROL Campaigns]**.
+* Klicka på länken **[!UICONTROL Shared library]** i sidnavigeringsfältet.
+* Klicka på **URL-alternativ**.
+* Klicka på **Redigera** bredvid Spårningsmall.
 * Fyll i URL-adressen:
 
    * Om ALLA era annons-URL:er har ett &quot;?&quot; Använd den här URL:en i dem:
@@ -33,14 +33,14 @@ Konfigurera en spårningsmall enligt följande:
       * `{lpurl}?_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 
 
-## För [!DNL Bing Ads] Konton {#for-bing-ads-accounts}
+## För [!DNL Bing Ads]-konton {#for-bing-ads-accounts}
 
 Konfigurera en spårningsmall enligt följande:
 
-* Klicka på **[!UICONTROL Campaigns]** -fliken.
-* Klicka på **[!UICONTROL Shared library]** i sidnavigeringsfältet.
-* Klicka **URL-alternativ**.
-* Bredvid Spårningsmall klickar du på **Redigera**.
+* Klicka på fliken **[!UICONTROL Campaigns]**.
+* Klicka på länken **[!UICONTROL Shared library]** i sidnavigeringsfältet.
+* Klicka på **URL-alternativ**.
+* Klicka på **Redigera** bredvid Spårningsmall.
 * Fyll i URL-adressen:
 
    * Om ALLA era annons-URL:er har ett &quot;?&quot; Använd den här URL:en i dem:

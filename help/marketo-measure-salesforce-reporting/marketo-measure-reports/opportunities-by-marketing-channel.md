@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Den här rapporten visar antalet möjligheter som genererats av era marknadsföringskanaler, och innehåller alla era möjligheter. Du kan dock filtrera den här rapporten för att analysera specifika typer av affärsmöjligheter.
 
-1. Klicka på **[!UICONTROL Reports]** i Salesforce och välj **[!UICONTROL New Report]**.
+1. Klicka på fliken **[!UICONTROL Reports]** i Salesforce och välj **[!UICONTROL New Report]**.
 
-1. I snabbsökningstypen i &quot;Bizible Attribution&quot; väljer du **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** rapporttyp och välj **[!UICONTROL Create]**.
+1. I snabbsökningstypen i Bizible Attribution väljer du rapporttypen **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** och väljer **[!UICONTROL Create]**.
 
    ![](assets/1-2.jpg)
 
-1. Börja högst upp i rapporten och visa **[!UICONTROL All Bizible Attribution Touchpoints]** och justera datumfältet enligt den tidsram som du vill rapportera om. I vårt exempel tittar vi på All Time. Ändra dessutom rapportformatet från [!UICONTROL Tabular] till **[!UICONTROL Summary]**.
+1. Visa **[!UICONTROL All Bizible Attribution Touchpoints]** och justera datumfältet enligt den tidsram som du vill rapportera om med början från rapportens övre del. I vårt exempel tittar vi på All Time. Ändra dessutom rapportformatet från [!UICONTROL Tabular] till **[!UICONTROL Summary]**.
 
    ![](assets/2-2.jpg)
 

@@ -31,8 +31,8 @@ Dessa modeller varierar i komplexitet. Första beröringen och Lead-generering �
 
 ![](assets/1-1.png)
 
-I **modeller med en pekfunktion**attribueringskrediter tillskrivs bara en milstolpe - alltså namnet &quot;single-touch&quot;.
-I **multitouch-modeller**, tilldelas merparten av attribueringskrediten till två eller flera milstolpekontaktytor. Den återstående krediten tillskrivs kontaktytor som uppstår mellan milstolpepunkterna.
+I **single-touch-modellerna** tillskrivs attribueringskrediten bara en milstolpe-kontaktyta, vilket innebär namnet single-touch.
+I **multi-touch-modellerna** tilldelas merparten av attribueringskrediten till två eller flera milstolpe-kontaktytor. Den återstående krediten tillskrivs kontaktytor som uppstår mellan milstolpepunkterna.
 
 De följande avsnitten behandlar varje attribueringsmodell och hur attribueringskrediten tilldelas.
 
@@ -42,7 +42,7 @@ De följande avsnitten behandlar varje attribueringsmodell och hur attribuerings
 
 Första beröringsmodellen fokuserar bara på den första interaktionen som en lead har med din organisation. Den här modellen attribuerar 100 % av attribueringskrediten till första gången leadet får kännedom om ditt företag, First Touch (FT).
 
-Säg Kate-besök `www.adobe.com` för första gången via en Adwords Ad och visar ett whitepaper. Adwords-kanalen skulle få 100 % av attribueringskrediten från den affärsmöjligheten.
+Säg att Kate besöker `www.adobe.com` för första gången via en annons och tittar på ett whitepaper. Adwords-kanalen skulle få 100 % av attribueringskrediten från den affärsmöjligheten.
 
 ![](assets/2.png)
 
@@ -50,7 +50,7 @@ Säg Kate-besök `www.adobe.com` för första gången via en Adwords Ad och visa
 
 Leadgenereringsmodellen tilldelar 100 % av attribueringskrediten till LC-kontaktytan när en potentiell kund lämnar sin kontaktinformation och blir lead.
 
-Efter Kate första besök på `www.adobe.com` via Adwords besöker Austin webbplatsen via ett Linkedin-inlägg. Austin fyller i ett formulär och blir en lead. I den här modellen skulle Linkedin få 100 % av attribueringskrediten.
+Efter Kate första besök på `www.adobe.com` via Adwords, kommer Austin att besöka webbplatsen via ett Linkedin-inlägg, vilket är en fortsättning från föregående exempel. Austin fyller i ett formulär och blir en lead. I den här modellen skulle Linkedin få 100 % av attribueringskrediten.
 
 ![](assets/3.png)
 
@@ -62,7 +62,7 @@ Multitouch-modeller används för längre och mer komplicerade säljcykler. Dess
 
 U-Shaped-modellen fokuserar på både FT- och LC-kontaktytorna. I den här modellen får FT- och LC-kontaktytorna 50 % av intäktskrediten.
 
-Kate&#39;s first visit to `www.adobe.com` via en Adwords-annons skulle få 50 % av attribueringskrediten. De återstående 50 % skulle tillskrivas den Linkedin-post som drev Austin att fylla i ett formulär och bli en ledare.
+Kate första besök på `www.adobe.com` via en Adwords och skulle få 50 % av attribueringskrediten. De återstående 50 % skulle tillskrivas den Linkedin-post som drev Austin att fylla i ett formulär och bli en ledare.
 
 ![](assets/4.png)
 

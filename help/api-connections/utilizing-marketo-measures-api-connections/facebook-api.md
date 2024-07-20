@@ -11,30 +11,30 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Facebook] API {#facebook-api}
+# API för [!DNL Facebook] {#facebook-api}
 
 ## Introduktion {#introduction}
 
-Liknar våra AdWords &amp; [!DNL Bing Ads] integreringar, vår [!DNL Facebook] integrering innebär två grundläggande åtgärder:
+Ungefär som i våra AdWords- och [!DNL Bing Ads]-integreringar utför vår [!DNL Facebook]-integrering två grundläggande åtgärder:
 
-* Tagga alla automatiskt [!DNL Facebook] Ads with a [!DNL Marketo Measure] parameter (_bf)
+* Tagga alla [!DNL Facebook] annonser automatiskt med en [!DNL Marketo Measure]-parameter (_bf)
 * Ladda ned kostnadsinformation för alla aktiva Facebook-annonser
 
-## Konfigurera [!DNL Facebook] Integrering {#how-to-configure-the-facebook-integration}
+## Konfigurera [!DNL Facebook]-integreringen {#how-to-configure-the-facebook-integration}
 
-När det gäller konfiguration finns det sju steg att slutföra i [!DNL Marketo Measure] app.
+När det gäller konfiguration finns det sju steg att slutföra i appen [!DNL Marketo Measure].
 
 1. Navigera till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} och logga in.
-1. Välj under Mitt konto **[!UICONTROL Settings]**.
-1. Under Integreringar väljer du **[!UICONTROL Connections]**.
-1. Välj **[!UICONTROL Set Up New Ads Connection]** och ett popup-fönster visas. Välj **[!UICONTROL Facebook]** och logga in med dina Facebook-uppgifter.
+1. Välj **[!UICONTROL Settings]** under Mitt konto.
+1. Välj **[!UICONTROL Connections]** under Integreringar.
+1. Välj **[!UICONTROL Set Up New Ads Connection]** så visas ett popup-fönster. Välj **[!UICONTROL Facebook]** och logga in med dina Facebook-inloggningsuppgifter.
 
    >[!NOTE]
    >
-   >Personen som ansluter [!DNL Facebook Ads] kontot måste vara en administratör inom [!DNL Facebook Ads] konto.
+   >Personen som ansluter [!DNL Facebook Ads]-kontot måste vara en administratör inom [!DNL Facebook Ads]-kontot.
 
-1. En gång [!DNL Marketo Measure] är ansluten till ditt Facebook-konto och klickar på pennikonen bredvid kontot.
-1. Flytta &quot;Automatisk taggning?&quot; i den här vyn växla till Ja. Markera sedan kryssrutan i dialogrutan [!UICONTROL Learn More] för att godkänna villkoren. Se till att [!UICONTROL Auto-tagging] växlingen är fortfarande inställd på &#39;[!UICONTROL Yes]&#39;.
+1. När [!DNL Marketo Measure] är ansluten till ditt Facebook-konto klickar du på pennikonen bredvid kontot.
+1. Flytta &quot;Automatisk taggning?&quot; i den här vyn växla till Ja. Markera sedan kryssrutan i avsnittet [!UICONTROL Learn More] för att godkänna villkoren. Kontrollera att växlingsknappen [!UICONTROL Auto-tagging] fortfarande är inställd på [!UICONTROL Yes].
 
 ## Ansluter kontot {#connecting-the-account}
 
@@ -44,13 +44,13 @@ När det gäller konfiguration finns det sju steg att slutföra i [!DNL Marketo 
 
 >[!NOTE]
 >
->Om du aktiverar automatisk taggning återställer vi konverteringshistoriken och det sociala beviset för alla annonser som vi taggar. Vi rekommenderar [exportera dessa data som en CSV](https://www.facebook.com/business/help/205067636197240) innan du aktiverar automatisk taggning.
+>Om du aktiverar automatisk taggning återställer vi konverteringshistoriken och det sociala beviset för alla annonser som vi taggar. Vi rekommenderar att [exporterar dessa data som en CSV](https://www.facebook.com/business/help/205067636197240) innan du aktiverar automatisk taggning.
 
 ![](assets/2-2.png)
 
-När du har aktiverat integreringen [!DNL Marketo Measure] börjar ladda ned annonskostnad till [!DNL Marketo Measure Marketing ROI] Instrumentpanel.
+När du har aktiverat integreringen börjar [!DNL Marketo Measure] hämta annonskostnad till [!DNL Marketo Measure Marketing ROI]-instrumentpanelen.
 
-För att integreringen ska fungera på rätt sätt måste du aktivera automatisk taggning på [!DNL Facebook] konto. Detta gör att vårt system kan lägga till en _bf-parameter för alla annonslänkar. Den här processen lägger till den nya parametern ovanpå andra spårningsparametrar som du redan har lagt till i din [!DNL Facebook] annonser.
+För att integreringen ska fungera på rätt sätt måste du aktivera automatisk taggning på ditt [!DNL Facebook]-konto. Detta gör att vårt system kan lägga till en _bf-parameter för alla annonslänkar. Den här processen lägger till den nya parametern ovanpå andra spårningsparametrar som du redan har lagt till i dina [!DNL Facebook]-annonser.
 
 ![](assets/3.gif)
 
@@ -68,26 +68,26 @@ För att integreringen ska fungera på rätt sätt måste du aktivera automatisk
   </tr> 
   <tr> 
    <td><p>ID för annonskampanj</p></td> 
-   <td><p>[[!DNL Facebook] Kampanj-ID]</p></td> 
+   <td><p>[[!DNL Facebook] kampanj-ID]</p></td> 
   </tr> 
   <tr> 
    <td><p>Namn på annonskampanj </p></td> 
-   <td><p>[[!DNL Facebook] Kampanjnamn], eller [utm_campaign] om det finns</p></td> 
+   <td><p>[[!DNL Facebook] kampanjnamn], eller [utm_campaign] om det anges</p></td> 
   </tr> 
   <tr> 
    <td><p>Annonsgrupp-ID</p></td> 
-   <td><p>[[!DNL Facebook] Annonsuppsättnings-ID]</p></td> 
+   <td><p>[[!DNL Facebook] annonsuppsättnings-ID]</p></td> 
   </tr> 
   <tr> 
    <td><p>Namn på annonsgrupp</p></td> 
-   <td><p>[[!DNL Facebook] Annonsuppsättningsnamn]</p></td> 
+   <td><p>[[!DNL Facebook] annonsuppsättningsnamn]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Kontaktpunktskälla</p></td> 
-   <td><p>"[!DNL Facebook]", eller [utm_source] om det finns</p></td> 
+   <td><p>Touchpoint Source</p></td> 
+   <td><p>"[!DNL Facebook]", eller [utm_source] om angivet</p></td> 
   </tr> 
   <tr> 
-   <td><p>Medel</p></td> 
+   <td><p>Medium</p></td> 
    <td><p>"Social", eller [utm_medium] om sådan finns</p></td> 
   </tr> 
   <tr> 
@@ -104,11 +104,11 @@ För att integreringen ska fungera på rätt sätt måste du aktivera automatisk
   </tr> 
   <tr> 
    <td><p>Ad_Unique_Id (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Annons-ID]</p></td> 
+   <td><p>[[!DNL Facebook] annons-ID]</p></td> 
   </tr> 
   <tr> 
    <td><p>Ad_name (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Annonsnamn]</p></td> 
+   <td><p>[[!DNL Facebook] annonsnamn]</p></td> 
   </tr> 
   <tr> 
    <td><p>Nyckelord_Unikt_ID (Data Warehouse)</p></td> 
@@ -116,42 +116,42 @@ För att integreringen ska fungera på rätt sätt måste du aktivera automatisk
   </tr> 
   <tr> 
    <td><p>Ad_Provider (Data Warehouse)</p></td> 
-   <td><p>"[!DNL Facebook]"</p></td> 
+   <td><p>[!DNL Facebook]</p></td> 
   </tr> 
   <tr> 
    <td><p>Account_Unique_ID (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Kontonr]</p></td> 
+   <td><p>[[!DNL Facebook] kontonummer]</p></td> 
   </tr> 
   <tr> 
    <td><p>Kontonamn (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Kontonamn</p></td> 
+   <td><p>[[!DNL Facebook] kontonamn]</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Vanliga frågor och svar {#faq}
 
-**Fråga: Vad [!DNL Facebook] Annonserna stöds av [!DNL Marketo Measure]?**
+**F: Vilka [!DNL Facebook] annonser stöds av [!DNL Marketo Measure]?**
 
 A: Carousel, en bild. Inte video, bildspel eller samling just nu.
 
-**Fråga: Vad är socialt bevis?**
+**F: Vad är socialt bevis?**
 
 S: Det sociala korrekturet är ett synligt engagemang som gilla-markeringar, klickningar, kommentarer och delningar.
 
 **F: Vad händer när [!DNL Marketo Measure] taggar annonsen?**
 
-S: [!DNL Facebook] tillåter inte att annonser redigeras så [!DNL Marketo Measure] måste ta bort den kreativa delen, som innehåller mål-URL:en, och sedan återskapa annonsen med de nya parametrarna.
+S: [!DNL Facebook] tillåter inte att annonser redigeras, så [!DNL Marketo Measure] måste ta bort den kreativa delen, som innehåller mål-URL:en, och sedan återskapa annonsen med de nya parametrarna.
 
-**F: Varför gör det? [!DNL Marketo Measure] uppdatera alla [!DNL Facebook] Ads?**
+**F: Varför uppdaterar [!DNL Marketo Measure] alla [!DNL Facebook] annonser?**
 
-A: [!DNL Marketo Measure] processen är att tagga alla annonser om de återaktiveras.
+S: Processen [!DNL Marketo Measure] är att tagga alla annonser om de återaktiveras.
 
 **F: Vilken behörighet behöver den anslutna användaren?**
 
 A: ads_management, e-post
 
-**F: Hur lång tid tar det att importera utgiftsdata?**
+**F: Hur lång tid kan det ta att importera utgiftsdata?**
 
 A: 1 timme
 

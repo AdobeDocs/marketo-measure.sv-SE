@@ -1,6 +1,6 @@
 ---
 unique-page-id: 37356030
-description: Spårningsparameter för e-post - [!DNL Marketo Measure]
+description: Parametern för e-postspårning - [!DNL Marketo Measure]
 title: Spårningsparameter för e-post
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Spårningsparameter för e-post {#email-tracking-parameter}
 
-The [!DNL Marketo Measure] Parametern för spårning av e-post gör att marknadsförarna kan behandla e-postklick som inskickade formulär så att kontaktytor genereras för dessa åtgärder. Utan att använda en parameter för e-postspårning behandlas genomklickningar från ett e-postmeddelande endast som&quot;webbbesök&quot; tills användaren faktiskt engagerar webbplatsen via ett formulär eller en webbchatt.
+Parametern för e-postspårning i [!DNL Marketo Measure] gör att marknadsförare kan behandla e-postklick som inskickade formulär så att kontaktytor genereras för dessa åtgärder. Utan att använda en parameter för e-postspårning behandlas genomklickningar från ett e-postmeddelande endast som&quot;webbbesök&quot; tills användaren faktiskt engagerar webbplatsen via ett formulär eller en webbchatt.
 
 ## Användningsexempel  {#use-cases}
 
-**Registrering av webbinarium**: Marknadsföringsteamet skickar en e-postinbjudan med en enda knapp för att registrera sig för ett webbinarium. Eftersom e-postmeddelandet redan innehåller information om personen registrerar det automatiskt med ett enda klick. Landningssidan innehåller e-postspårningsparametern så att när de klickar igenom och landar på bekräftelsesidan, [!DNL Marketo Measure] kan hämta e-postadressen och hantera klickningen som en formulärfyllning, som genererar en kontaktyta.
+**Registrering av webbinarium**: Marknadsföringsteamet skickar en e-postinbjudan med en enda knapp för att registrera sig för ett webbinarium. Eftersom e-postmeddelandet redan innehåller information om personen registrerar det automatiskt med ett enda klick. Landningssidan innehåller e-postspårningsparametern, så när de klickar igenom och landar på bekräftelsesidan kan [!DNL Marketo Measure] hämta e-postadressen och behandla genomklickningen som en formulärfyllning, som genererar en kontaktyta.
 
-**Hämta innehåll**: Content Marketing-teamet vill befordra en nyligen publicerad e-bok med en direktnedladdningslänk från ett e-postmeddelande. När e-postmallen skapas innehåller bekräftelsesidan e-postspårningsparametern så att när de klickar igenom [!DNL Marketo Measure] kan hämta e-postadressen. Utan att behöva fylla i ett formulär på webbplatsen, [!DNL Marketo Measure] kan generera en kontaktyta för nedladdningen av innehåll. Detta beror på att e-postmeddelandet landade dem på bekräftelsesidan med e-postspårningsparametern.
+**Hämtning av innehåll**: Content Marketing-teamet vill befordra en nyligen publicerad e-bok som de har publicerat med en direkt nedladdningslänk från ett e-postmeddelande. När e-postmallen skapas innehåller bekräftelsesidan e-postspårningsparametern så att [!DNL Marketo Measure] kan registrera e-postadressen när de klickar igenom. Utan att behöva fylla i ett formulär på webbplatsen kan [!DNL Marketo Measure] generera en kontaktyta för innehållsnedladdningen. Detta beror på att e-postmeddelandet landade dem på bekräftelsesidan med e-postspårningsparametern.
 
 ## Så här fungerar det {#how-it-works}
 
-När en besökare kommer till er webbplats [!DNL Marketo Measure] förväntar sig att hitta en landningssida med antingen en e-postadress eller [!DNL Salesforce] Id så att vi kan koppla det besöket till en&quot;formulärsändning&quot; och generera en kontaktyta för aktiviteten.
+När en besökare anländer till din webbplats förväntar sig [!DNL Marketo Measure] att hitta en landningssida med antingen en e-postadress eller ett [!DNL Salesforce]-ID så att vi kan koppla besöket till en&quot;formulärsändning&quot; och generera en kontaktyta för aktiviteten.
 
 Som kund skapar du en e-postmall på samma sätt som du brukar göra. När det är dags att lägga till i landningssidan för den åtgärd som du vill spåra måste du fastställa antingen variabelkoden, variabelkoden eller makrot som din Marketing Automation Platform accepterar för att dynamiskt visa värdet för varje individ.
 
@@ -72,6 +72,6 @@ Marketo Measure godkänner följande värden: E-postadress, Salesforce lead-ID e
  </tbody> 
 </table>
 
-Och slutligen, inom [!DNL Marketo Measure]måste du ange spårningsparametern så att [!DNL Marketo Measure] kan hitta e-postadressen eller ID-värdet. Standardvärdet är &quot;mailId&quot; enligt exemplen ovan och skärmbilden nedan. Ange värdet i inställningarna i [!DNL Marketo Measure]och sedan klicka **[!UICONTROL Save]**.
+Slutligen, inom [!DNL Marketo Measure] måste du ange spårningsparametern så att [!DNL Marketo Measure] kan hitta e-postadressen eller ID-värdet. Standardvärdet är &quot;mailId&quot; enligt exemplen ovan och skärmbilden nedan. Ange värdet i inställningarna i [!DNL Marketo Measure] och klicka sedan på **[!UICONTROL Save]**.
 
 ![](assets/one.png)

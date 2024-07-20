@@ -24,7 +24,7 @@ Om du redan är inloggad på en Adobe Experience Cloud-produkt klickar du på me
 >
 >Listrutan kan se annorlunda ut beroende på vilka Adobe Experience Cloud-produkter du prenumererar på.
 
-Om du _not_ redan inloggad på en Adobe Experience Cloud-produkt, logga in direkt på [!DNL Marketo Measure] här: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
+Om du _inte_ redan är inloggad på en Adobe Experience Cloud-produkt loggar du in direkt på [!DNL Marketo Measure] här: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## Nya funktioner {#new-features}
 
@@ -36,9 +36,9 @@ Lägg märke till följande funktioner, utöver det uppdaterade utseendet och k�
 
 ![](assets/unified-shell-overview-5.png)
 
-**Integrerat Help Center**
+**Integrerat hjälpcenter**
 
-Sök efter supportartiklar, skicka in biljetter, ge feedback inifrån [!DNL Marketo Measure] program.
+Sök efter supportartiklar, skicka in biljetter, lämna feedback inifrån programmet [!DNL Marketo Measure].
 
 ![](assets/unified-shell-overview-6.png)
 
@@ -48,7 +48,7 @@ De som har tillgång till flera Adobe-produkter kan enkelt växla mellan dem.
 
 ![](assets/unified-shell-overview-7.png)
 
-**Meddelanden**
+**Meddelanden och meddelanden**
 
 Visa och interagera med produktspecifika meddelanden och allmänna produktmeddelanden för Adobe direkt i programmet.
 
@@ -58,7 +58,7 @@ Visa och interagera med produktspecifika meddelanden och allmänna produktmeddel
 
 **Inställningar för Adobe**
 
-Om du vill ändra språk eller andra inställningar för hela Adobe klickar du på din profilikon. Du kan också skapa [!DNL Marketo Measure]-specifika ändringar genom att klicka **Mina inställningar**.
+Om du vill ändra språk eller andra inställningar för hela Adobe klickar du på din profilikon. Du kan också göra [!DNL Marketo Measure]-specifika ändringar genom att klicka på **Mina inställningar**.
 
 ![](assets/unified-shell-overview-10.png)
 
@@ -68,10 +68,10 @@ Om du vill ändra språk eller andra inställningar för hela Adobe klickar du p
 
 Bokmärken omdirigeras. Om du till exempel navigerar till https://apps.marketo-measure.com/Discover/391 omdirigeras du till https://experience.adobe.com/marketo-measure/Discover/391 när autentiseringen är klar.
 
-**Jag kan inte logga in på [!DNL Marketo Measure] via Experience Cloud-gränssnittet. Vad kan problemet vara?**
+**Jag kan inte logga in på [!DNL Marketo Measure] via Experience Cloud. Vad kan problemet vara?**
 
-Om du kan logga in på Adobe Experience Cloud, men se en sida som följande, kan problemet finnas på [!DNL Marketo Measure] sida:
+Om du kan logga in på Adobe Experience Cloud, men se en sida som följande, kan problemet finnas på sidan [!DNL Marketo Measure]:
 
 ![](assets/unified-shell-overview-11.png)
 
-Om du får ovanstående fel [kontakta supporten](https://nation.marketo.com/t5/support/ct-p/Support) om du behöver hjälp.
+Om du får ovanstående fel [kontaktar du support](https://nation.marketo.com/t5/support/ct-p/Support) för att få hjälp.

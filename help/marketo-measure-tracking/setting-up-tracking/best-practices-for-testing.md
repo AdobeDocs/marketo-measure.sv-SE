@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874722
-description: Bästa metoder för testning - [!DNL Marketo Measure]
+description: Bästa praxis för testning - [!DNL Marketo Measure]
 title: Bästa metoder för testning
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Bästa metoder för testning {#best-practices-for-testing}
 
-Du bör testa alla olika typer av formulär för att säkerställa att [!DNL Marketo Measure] JavaScript fungerar som det ska.
+Du bör testa alla olika typer av formulär för att se till att JavaScript [!DNL Marketo Measure] fungerar som det ska.
 
 ## Rekommenderad testprocess {#recommended-test-process}
 
-1. Använd en inkognitiv webbläsare eller rensa dina cookies mellan varje test av att skicka formulär _och_ använd olika e-postadresser varje gång.
+1. Använd en inkognitiv webbläsare eller rensa dina cookies mellan varje formulärtest _och_ använder olika e-postadresser varje gång.
 
    >[!TIP]
    >
@@ -33,4 +33,4 @@ Du bör testa alla olika typer av formulär för att säkerställa att [!DNL Mar
 
 >[!NOTE]
 >
->Du kan använda en [!DNL Marketo Measure] aktierapport som Leads med [!DNL Marketo Measure] Kontaktpunkter eller titta på sidlayouten Lead/Kontakt om du valde att uppdatera sidlayouten med [!DNL Marketo Measure] information. Detta kan ta en stund innan data kan bearbetas.
+>Du kan använda en [!DNL Marketo Measure]-stockrapport, till exempel Leads med [!DNL Marketo Measure] Touchpoints, eller titta på sidlayouten Lead/Kontakt om du valde att uppdatera sidlayouten med [!DNL Marketo Measure] information. Detta kan ta en stund innan data kan bearbetas.

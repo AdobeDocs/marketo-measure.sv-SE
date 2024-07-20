@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874775
-description: Maskininlärningsmodell - frågor och svar - [!DNL Marketo Measure]
+description: Vanliga frågor om maskininlärningsmodellen - [!DNL Marketo Measure]
 title: Vanliga frågor om maskininlärningsmodellen
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Vanliga frågor om maskininlärningsmodellen {#machine-learning-model-faq}
 
-The [!DNL Marketo Measure] Maskininlärningsmodellen använder dina kontaktpunktsdata för att beräkna hur mycket attribueringsviktning som ska tilldelas varje steg. Detta avgörs av hur viktigt varje fas var för att få avtal att sluta.
+Maskininlärningsmodellen [!DNL Marketo Measure] använder dina kontaktpunktsdata för att beräkna hur mycket attribueringsviktning som ska tilldelas varje fas. Detta avgörs av hur viktigt varje fas var för att få avtal att sluta.
 
 Vad säger attribueringsprocenten från Machine Learning Model om varje steg?
 
@@ -21,7 +21,7 @@ Tilldelningsprocenten för varje fas återspeglar den potentiella effekten av er
 
 Hur beräknas maskininlärningsmodellen?
 
-[!DNL Marketo Measure] beräknar vikten av varje anpassad fas med hjälp av data från kontaktytan på ditt konto. De kriterier som används för att fastställa vikten av varje fas är följande:
+[!DNL Marketo Measure] beräknar vikten av varje anpassad fas med hjälp av kontaktpunktsdata från ditt konto. De kriterier som används för att fastställa vikten av varje fas är följande:
 
 * Modellprecision: Om vi bygger en prediktiv modell med kontaktpunktsdata för att förutsäga om vi kommer att vinna ett avtal så småningom, hur korrekt kommer modellen att vara? Högre prediktiv precision innebär att detaljerna i det här steget bättre motsvarar om ett avtal kommer att sluta
 * Konverteringsgrad: Om leads eller säljprojekt i det här skedet konverteras till nästa steg i hög hastighet tyder detta på att de marknadsföringsaktiviteter som inträffade i det här skedet inte spelade någon särskilt stor roll. Omvänt kan det, om ett visst stadium konverteras till nästa steg i låg takt, tyda på att de marknadsföringsaktiviteter som förekom i det här skedet var avgörande för konverteringsgraden.
@@ -29,7 +29,7 @@ Hur beräknas maskininlärningsmodellen?
 
 Slutvikten för ett anpassat stadium beräknas som sådan:
 
-**_Modellprocent = Modellprecision x konverteringsgrad x Touchpoint Uniqueness Weight_**
+**_Modellprocent = Modellprecision x konverteringsgrad x Unikhetsvikt för pekpunkt_**
 
 I slutet normaliseras alla anpassade scenvikter och konverteras till % enligt nedan.
 
@@ -47,7 +47,7 @@ Att tilldela 10 % attribueringskrediter till Middle Touches är en standardinst�
 
 När ska jag ändra min attribueringsfördelning?
 
-Kontakta din kontoansvarige för att diskutera konsekvenserna av att ändra dina attribueringsprocentsatser och vilka faser som ska ingå i din anpassade modell. Varje [!DNL Salesforce] och försäljningsprocessen är unik och vi vill försäkra oss om att din anpassade modell är korrekt utformad.
+Kontakta din kontoansvarige för att diskutera konsekvenserna av att ändra dina attribueringsprocentsatser och vilka faser som ska ingå i din anpassade modell. Varje [!DNL Salesforce] och försäljningsprocess är unik och vi vill försäkra oss om att din anpassade modell är korrekt modellerad.
 
 Med detta sagt har vi identifierat några allmänna trender för våra kunder:
 

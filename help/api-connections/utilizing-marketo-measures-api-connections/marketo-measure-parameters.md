@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874608
-description: "[!DNL Marketo Measure] Parametrar - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Parametrar"
+description: "[!DNL Marketo Measure] parametrar - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] parametrar"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Parametrar {#marketo-measure-parameters}
+# [!DNL Marketo Measure] parametrar {#marketo-measure-parameters}
 
-## [!DNL Marketo Measure] Förklarade parametrar {#marketo-measure-parameters-explained}
+## [!DNL Marketo Measure] parametrar förklaras {#marketo-measure-parameters-explained}
 
-För att få ytterligare insikter från användningen av UTM-moduler [!DNL Marketo Measure] lägger till anpassade parametrar i annonserna i [!DNL Google] AdWords, Bing Ads and [!DNL Facebook] Ads. [!DNL Marketo Measure] integreras med dessa plattformar för att automatisera merparten av installationsprocessen. Om du väljer att använda automatisk taggning [!DNL Marketo Measure] kommer automatiskt att lägga till sina parametrar till webbadresserna till era annonser. [!DNL Marketo Measure] hämtar automatiskt marknadsföringskostnaderna från plattformarna och lägger in dem i [!DNL Marketo Measure] app.
+Om du vill få ytterligare insikter från användningen av UTM:er lägger [!DNL Marketo Measure] till anpassade parametrar i dina annonser i [!DNL Google] AdWords, Bing Ads och [!DNL Facebook] Ads. [!DNL Marketo Measure] integreras med dessa plattformar för att automatisera merparten av konfigurationsprocessen. Om du väljer att använda automatisk taggning kommer [!DNL Marketo Measure] automatiskt att lägga till sina parametrar till webbadresserna för dina annonser. [!DNL Marketo Measure] hämtar automatiskt dina marknadsföringskostnader från plattformarna och läser in dem i appen [!DNL Marketo Measure].
 
 Exempel på en URL utan parametrar:
 
@@ -45,8 +45,8 @@ Exempel på en URL med [!DNL Marketo Measure] parametrar:
 >Mer information om matchningstyper finns i [här är en relevant AdWords-artikel](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
 * `_bn={network}`
-   * Representerar annonsnätverkstypen - [visa eller söka](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"}.
-   * Detta liknar parametern UTM-källa.
+   * Representerar annonsnätverkstypen - [visa eller sök](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"}.
+   * Detta liknar parametern UTM Source.
 
 * `_bg={adgroupID}`
    * Representerar ID:t för annonskoncern som annonsen tillhör

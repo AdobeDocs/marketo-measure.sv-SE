@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;Bizible&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se Bizible i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-The [!DNL Marketo Measure] Hanterad lösning levereras med flera instrumentpaneler och rapporter på Stock som utformats för att täcka dina grundläggande behov när du tittar [!DNL Marketo Measure] data i Dynamics. Nedan finns den fullständiga listan och några vanliga användningsexempel.
+Den hanterade lösningen [!DNL Marketo Measure] innehåller flera instrumentpaneler och rapporter för Stock, som är utformade för att täcka dina grundläggande behov när du visar [!DNL Marketo Measure]-data i Dynamics. Nedan finns den fullständiga listan och några vanliga användningsexempel.
 
 ## Instrumentpaneler (totalt nio) {#dashboards-total}
 
@@ -97,7 +97,7 @@ The [!DNL Marketo Measure] Hanterad lösning levereras med flera instrumentpanel
   </tr> 
   <tr> 
    <td>Konton per engagemangspoäng</td> 
-   <td>Gruppera alla konton med deras A, B, C, D, N/A-grad från [!DNL Marketo Measure] Prediktiv engagemangspoäng.</td> 
+   <td>Gruppera alla konton med deras A-, B-, C-, D-, N/A-grad från poängen för [!DNL Marketo Measure] Predictive Engagement.</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ The [!DNL Marketo Measure] Hanterad lösning levereras med flera instrumentpanel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td>[!DNL Marketo Measure] Attribut efter social källa</td> 
+   <td>[!DNL Marketo Measure] Attribution by Social Source</td> 
    <td>Se hur era sociala kanaler attribuerar intäkterna och mät hur effektiva de är.</td> 
    <td>Alla</td> 
   </tr> 
@@ -161,12 +161,12 @@ The [!DNL Marketo Measure] Hanterad lösning levereras med flera instrumentpanel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td>Leads av [!DNL Marketo Measure] Marknadsföringskanal (FT)</td> 
+   <td>Leads av [!DNL Marketo Measure] marknadsföringskanal (FT)</td> 
    <td>Mät hur många leads som kom i kontakt med varje marknadsföringskanal.</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td>Leads av [!DNL Marketo Measure] Marknadsföringskanal (LC)</td> 
+   <td>Leads av [!DNL Marketo Measure] marknadsföringskanal (LC)</td> 
    <td>Mät hur många leads som genererats med hjälp av ett tips från varje marknadsföringskanal.</td> 
    <td>Alla</td> 
   </tr> 
@@ -191,12 +191,12 @@ The [!DNL Marketo Measure] Hanterad lösning levereras med flera instrumentpanel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td>Leads efter Social Source (FT)</td> 
+   <td>Leads av Social Source (FT)</td> 
    <td>Mät hur många leads som fick en första kontakt från den sociala kanalen.</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td>Leads efter Social Source (LC)</td> 
+   <td>Leads av Social Source (LC)</td> 
    <td>Mät hur många leads som har genererats med hjälp av en kontaktpekning från den sociala kanalen.</td> 
    <td>Alla</td> 
   </tr> 

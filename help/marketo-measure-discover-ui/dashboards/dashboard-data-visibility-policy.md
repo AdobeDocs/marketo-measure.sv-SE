@@ -1,10 +1,11 @@
 ---
-description: Synlighetsprincip för instrumentpanelsdata - [!DNL Marketo Measure] - Produkt
+description: Synlighetsprincip för instrumentpanelsdata - [!DNL Marketo Measure]  - Produkt
 title: Synlighetsprincip för instrumentpanelsdata
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+exl-id: 5f6f7173-617e-459d-992f-8a8b6c2db7cb
+source-git-commit: 2bfa2923119f8ece18ec68408f8098bfa6778ccf
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---

@@ -19,40 +19,40 @@ Den allmänna dataskyddsförordningen är en EU-lagstiftning som trädde i kraft
 
 Syftet med den allmänna dataskyddsförordningen är att stärka de registrerades rättigheter inom Europeiska unionen (EU) och Europeiska ekonomiska samarbetsområdet (EES) när det gäller hur deras personuppgifter används och skyddas. Med personuppgifter avses alla uppgifter som rör en identifierad eller identifierbar fysisk person. Den allmänna dataskyddsförordningen gäller alla organisationer inom eller utanför EU som marknadsför varor eller tjänster till och/eller spårar beteenden hos registrerade inom EU och EES. Om ni gör affärer med registrerade i Europa som innefattar behandling av deras personuppgifter, gäller denna lagstiftning er. Påföljderna för bristande efterlevnad är betydande, med stora böter för dem som bryter mot förordningen. Det högsta bötesbeloppet för en enskild överträdelse är 20 miljoner euro eller 4 % av den globala årsomsättningen, beroende på vilket som är störst.
 
-Som standard [!DNL bizible.js] samlar in användarens analysdata såvida det inte är konfigurerat att vänta på samtycke. När [!DNL bizible.js] har konfigurerats för att vänta på användarens samtycke. Inga cookies skapas eller några analysdata skickas förrän samtycke har erhållits.
+Som standard samlar [!DNL bizible.js] in användarens analysdata om det inte är konfigurerat att vänta på samtycke. När [!DNL bizible.js] är konfigurerad att vänta på användarens samtycke skapas inga cookies eller inga analysdata skickas förrän du har fått samtycke.
 
 ## Så här väntar du på godkännande {#how-to-wait-for-consent}
 
-Det finns två sätt att ange [!DNL bizible.js] att vänta på samtycke.
+Det finns två sätt att ange [!DNL bizible.js] som väntar på godkännande.
 
-Alternativ 1 - Ersätt standard [!DNL bizible.js] script tag with:
+Alternativ 1 - Ersätt standardskripttaggen [!DNL bizible.js] med:
 
 `<script id="bizible-settings" type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" data-consent-button-id="ConsentButtonId"></script>`
 
-**Om du [!DNL Google Tag Manager] för att installera skript**, kom ihåg att GTM tar bort data- och attribut, så använd följande skript i stället:
+**Om du använder [!DNL Google Tag Manager] för att installera skript** bör du tänka på att GTM tar bort data- attribut, så använd följande skript i stället:
 
 `<span id="bizible-settings" data-consent-button-id="ConsentButtonId"></span>`
 `<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
 >
->I detta fall [!DNL bizible.js] kopplar en on-click-händelse till elementet HTML med ID &quot;ConsentButtonId&quot;.
+>I det här fallet kopplar [!DNL bizible.js] en on-click-händelse till elementet HTML med ID &quot;ConsentButtonId&quot;.
 
-När du klickar på det här HTML-elementet [!DNL bizible.js] skapar en cookie som kommer ihåg att användarens samtycke har tagits emot och börjar samla in analysdata som vanligt.
+När du klickar på det här HTML-elementet skapas en cookie i [!DNL bizible.js] för att komma ihåg att användarens samtycke har tagits emot och börja samla in analysdata som vanligt.
 
 **-or-**
 
-Alternativ 2 - Ersätt standard [!DNL bizible.js] script tag with:
+Alternativ 2 - Ersätt standardskripttaggen [!DNL bizible.js] med:
 
 `<script id="bizible-settings" type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" data-requires-user-consent="true"></script>`
 
-Det här säger [!DNL bizible.js] inte spåra förrän samtycke har erhållits, vilket kan göras med följande JS-API:
+Detta anger för [!DNL bizible.js] att inte spåra förrän samtycke har erhållits, vilket kan göras med följande JS-API:
 
 *window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || {_queue: [], Push: function (o, p) { this._queue.push({ typ: o, data: p }); };*
 
-*Bizible. push(&#39;medgivande&#39;, true);*
+*Bizibel. Push(&#39;Consent&#39;, true);*
 
-**Om du [!DNL Google Tag Manager] för att installera skript**, kom ihåg att GTM tar bort data- och attribut, så använd följande skript i stället:
+**Om du använder [!DNL Google Tag Manager] för att installera skript** bör du tänka på att GTM tar bort data- attribut, så använd följande skript i stället:
 
 `<span id="bizible-settings" data-requires-user-consent="true"></span>`
 `<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
@@ -67,4 +67,4 @@ Kunder kan däremot också använda denna API för att återkalla användarens s
 
 `Bizible.Push('Consent', false);`
 
-När den här koden körs tas alla cookies som [!DNL bizible.js] tidigare skapade och återupptar bara insamlingen av analysdata om användaren gör om det.
+När den här koden körs tar den bort alla cookies som [!DNL bizible.js] tidigare har skapat och återupptar bara samlingen av analysdata om användaren gör det igen.

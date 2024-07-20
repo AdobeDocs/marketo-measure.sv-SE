@@ -1,5 +1,5 @@
 ---
-description: Kontrollpanel för attributerade affärsmöjligheter - [!DNL Marketo Measure] - Produkt
+description: Kontrollpanel för attributerade affärsmöjligheter - [!DNL Marketo Measure]  - Produkt
 title: Kontrollpanel för attributerade affärsmöjligheter
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
@@ -23,8 +23,8 @@ Kontrollpanelen för attributerade säljprojekt ger en heltäckande bild av hur 
 
 ### KPI-paneler {#kpi-tiles}
 
-* **Attribuerat säljprojektsbelopp**: Det totala intäktsbidraget, baserat på den valda attribueringsmodellen, från stängda och öppna affärsmöjligheter med kontaktytor som skapades inom den filtrerade datumperioden.
-* **Attributerade affärsmöjligheter**: Antalet stängda och öppna affärsmöjligheter med kontaktytor.
+* **Attributerat affärsmöjlighetsbelopp**: Det totala intäktsbidraget, baserat på den valda attribueringsmodellen, från stängda och öppna affärsmöjligheter med kontaktytor som skapades inom den filtrerade datumperioden.
+* **Attributerade affärsmöjligheter**: Antalet stängda och öppna affärsmöjligheter som har kontaktytor.
 
 ### Diagram över tilldelat affärsmöjlighetsbelopp per kanal över tid {#attributed-opportunity-amount-by-channel-over-time-chart}
 
@@ -33,7 +33,7 @@ Staplat stapeldiagram med totalt attributerat säljprojektsbelopp, segmenterat e
 * Utnyttja detaljfunktionerna för att kategorisera data per månad, kvartal eller år.
 * Håll pekaren över ett stolpsegment eller mellanrummet mellan stolparna för att visa detaljerad information.
 
-**Frågor och svar**:
+**Frågar diagramsvaren**:
 
 * Vilka kanaler genererade det mest tilldelade affärsmöjlighetsbeloppet varje kvartal?
 * Hur fördelades tilldelat affärsmöjlighetsbelopp per kanal förra månaden?
@@ -53,7 +53,7 @@ Totalt tilldelat affärsmöjlighetsbelopp segmenterat efter kanal, delkanal och 
 
 Tabellvyn ger tydliga och välorganiserade insikter i fördelningen av tilldelat affärsmöjlighetsbelopp. Användarna kan snabbt identifiera resultatmönster och identifiera slagkraftiga marknadsföringsstrategier genom att kategorisera data i kanaler, delkanaler och kampanjer.
 
-Klicka på **+** -ikonen bredvid varje kanal för att visa uppdelningen efter subkanal och kampanj.
+Klicka på ikonen **+** bredvid varje kanal om du vill visa uppdelningen efter subkanal och kampanj.
 
 ![](assets/attributed-opportunity-dashboard-2.png)
 

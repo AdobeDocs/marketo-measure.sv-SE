@@ -1,5 +1,5 @@
 ---
-description: Bästa praxis för användning av ett anpassat intäktsbelopp - [!DNL Marketo Measure]
+description: Bästa tillvägagångssätt för att använda ett anpassat intäktsbelopp - [!DNL Marketo Measure]
 title: Bästa metoder för att använda ett anpassat intäktsbelopp
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 ## Översikt {#overview}
 
-Kärnfunktionerna i [!DNL Marketo Measure] är möjligheten att tillföra intäktskrediter till marknadsföringskontaktytor under hela kundresan. Nyckeln till korrekt intäktsattribuering är möjligheten att [!DNL Marketo Measure] för att hänvisa till rätt intäktsbelopp för ett säljprojekt, som i sin tur fördelas över alla kontaktytor för marknadsföring via de olika attribueringsmodellerna.
+Kärnfunktionen i [!DNL Marketo Measure] är möjligheten att tilldela intäktskrediter till marknadsföringskontaktytor under köparens resa. Nyckeln till korrekt intäktsattribuering är möjligheten för [!DNL Marketo Measure] att referera till rätt intäktsbelopp för ett säljprojekt, som i sin tur fördelas över alla kontaktytor för marknadsföring via de olika attribueringsmodellerna.
 
-Om inget annat anges under implementeringen kan du [!DNL Marketo Measure] -instansen ställs in på att referera till standardbeloppet för affärsmöjlighet (SFDC-standard) för intäktsattribuering. För många [!DNL Marketo Measure] konton, detta fält återspeglar inte det korrekta intäktsbeloppet för affärsmöjligheter. I dessa fall [!DNL Marketo Measure] erbjuder möjlighet att ställa in ett Custom Revenue Amount för [!DNL Marketo Measure] referera till och distribuera via attribueringsslutpunkterna (BAT).
+Om inget annat anges under implementeringen kommer instansen [!DNL Marketo Measure] att anges som referens för standardbeloppet för affärsmöjlighet (SFDC-standard) för intäktsattribuering. För många [!DNL Marketo Measure]-konton återspeglar dock det här fältet inte det korrekta intäktsbeloppet för affärsmöjligheter. I de här instanserna erbjuder [!DNL Marketo Measure] möjligheten att ställa in ett anpassat intäktsbelopp för [!DNL Marketo Measure] att referera till och distribuera över attributets slutpunkter (BAT).
 
 ## Bästa praxis {#best-practice}
 
-När du ställer in ett Custom Revenue Amount (Anpassat intäktsbelopp) bör du tänka på följande för att säkerställa att [!DNL Marketo Measure] attribueringsdata är korrekta och konsekventa!
+När du konfigurerar ett anpassat intäktsbelopp bör du tänka på följande bästa praxis för att se till att dina [!DNL Marketo Measure]-attribueringsdata är korrekta och konsekventa!
 
 Tänk på följande:
 
 * Välj det intäktsfält som är korrekt och som används för alla affärsmöjligheter
    * ARR- eller Total Contract-värde rekommenderas
 * Använd inte ett formelfält
-* Om du använder ett anpassat intäktsbelopp för valutakonverteringar visas [!UICONTROL Marketo Measure Multiple Currencies] i stället är det den metod du föredrar.
-   * The [!DNL Marketo Measure] Funktionen Flera valutor refererar till de konverteringsgrader som fastställts i [!DNL Salesforce] för att på bästa sätt säkerställa justeringen mellan valutakonverteringar. Detta gör att du kan fortsätta använda standardvärdet för Belopp (SFDC-standard) eller något annat anpassat beloppsfält som relaterar till [!DNL Salesforce] konverteringsgrader.
-* Om du uppdaterar fältet Belopp vill du ha [!DNL Marketo Measure] som referens kan du använda datainläsaren för att uppdatera tidigare affärsmöjligheter för att säkerställa att dina intäktsdata är konsekventa och att rätt fält fylls i via arbetsflödet
+* Om du använder ett anpassat intäktsbelopp för valutakonverteringar är funktionen [!UICONTROL Marketo Measure Multiple Currencies] att föredra i stället.
+   * Funktionen [!DNL Marketo Measure] Flera valutor refererar till de konverteringsgrader som upprättats i [!DNL Salesforce] för att optimera justeringen mellan valutakonverteringar. Detta gör att du kan fortsätta använda standardvärdet för Belopp (SFDC-standard) eller något annat anpassat beloppsfält som relaterar till konverteringsgraden [!DNL Salesforce].
+* Om du uppdaterar det beloppsfält som du vill att [!DNL Marketo Measure] ska referera till använder du Datainläsaren för att uppdatera tidigare affärsmöjligheter för att säkerställa att dina intäktsdata är konsekventa och att rätt fält fylls i via arbetsflödet
 
 ## Bästa praxis för underhåll {#best-practice-for-maintenance}
 
@@ -37,10 +37,10 @@ Om du granskar intäktsbeloppet årligen ser du till att dina attribueringsdata 
 
 Om du använder ett anpassat intäktsbelopp kontrollerar du dina intäktsinställningar enligt följande.
 
-* I [!DNL Marketo Measure] konto, gå till[!UICONTROL Opportunities]&#39;-sektion under CRM
-* Identifiera [!UICONTROL Custom Opportunity Amount] Field, here your [!UICONTROL custom revenue amount API] ska anges
+* Gå till avsnittet [!UICONTROL Opportunities] i ditt [!DNL Marketo Measure]-konto under CRM
+* Identifiera fältet [!UICONTROL Custom Opportunity Amount], här ska fältet [!UICONTROL custom revenue amount API] listas
 * Bekräfta att detta fortfarande är rätt fält
-* Du kan även [!DNL Salesforce] Administratören bekräftar att arbetsflödet för anpassade intäktsbelopp i [!DNL Salesforce] körs fortfarande
+* Be även din [!DNL Salesforce]-administratör bekräfta att arbetsflödet för anpassade intäktsbelopp i [!DNL Salesforce] fortfarande körs
 
 Förutom en årlig översyn kan vissa organisatoriska förändringar signalera att du behöver granska intäktsbeloppet...
 
@@ -50,7 +50,7 @@ Förutom en årlig översyn kan vissa organisatoriska förändringar signalera a
 
 >[!MORELIKETHIS]
 >
->* [Använda fältet Anpassat intäktsbelopp](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [Uppdatera fält för anpassat belopp med datainläsaren](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
->* [Översikt över flera valutor](/help/advanced-marketo-measure-features/multi-currency/overview.md)
+>* [Använda ett fält för anpassade intäktsbelopp](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [Använder datainläsaren för att uppdatera fält för anpassat belopp](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Översikt över flervaluta](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [Inställningar för flera valutor](/help/advanced-marketo-measure-features/multi-currency/settings.md)

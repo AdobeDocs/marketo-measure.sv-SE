@@ -24,12 +24,12 @@ Det nya konsoliderade V2-paketet innehåller alla funktioner och funktioner som 
 
 Det finns två nya fält som förbättrar dina rapporteringsfunktioner:
 
-* form_name: Detta fält är nu tillgängligt i BT/BAT-objekt och gör att användare kan skapa rapporter baserade på formulärnamn.
-* user_touchpoint_id: Det här fältet gör att användare kan skapa rapporter med unika kontaktpunkter (`bizible2__User_Touchpoint_V2__c` i Salesforce).
+* form_name: Detta fält är nu tillgängligt i BT-/BAT-objekt och gör att användare kan skapa rapporter baserade på formulärnamn.
+* user_touchpoint_id: Det här fältet gör att användare kan skapa rapporter med unika användarkontaktpunkter (`bizible2__User_Touchpoint_V2__c` i Salesforce).
 
 ## Support och övergångar {#support-and-transition}
 
-The [supportteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} kan besvara alla frågor och bidra till en smidig övergång till det nya konsoliderade paketet.
+[Supportteamet](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} kan besvara alla frågor och hjälpa till att säkerställa en smidig övergång till det nya konsoliderade paketet.
 
 ## Nödvändiga åtgärder {#retired-actions}
 
@@ -51,18 +51,18 @@ The [supportteam](https://nation.marketo.com/t5/support/ct-p/Support){target="_b
 
 ## Vanliga frågor och svar {#faq}
 
-**Kommer det konsoliderade paketet att innehålla konflikter med fält i mitt befintliga paket?**
+**Kommer det konsoliderade paketet att ha konflikter med fält i mitt befintliga paket?**
 
 Du behöver inte avinstallera paketet innan du installerar det konsoliderade paketet. Det finns inga konflikter i fält eftersom de finns i ett annat namnutrymme.
 
-**Hur kan jag fylla i data från mina aktuella paket baklänges?**
+**Hur kan jag fylla i data från mina aktuella paket i bakgrunden?**
 
-Du kan registrera en biljett [med support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} för att fylla i och bearbeta BT/BAT-data baklänges och fylla i fält för kontaktpunkts-ID och formulär-ID.
+Du kan arkivera en biljett [med support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} för att fylla i och bearbeta BT/BAT data för att fylla i fält för kontaktpunkts-ID och formulär-ID.
 
-**Kommer fälten i V1- och V2_EXT-paketen att vara tillgängliga i det konsoliderade paketet?**
+**Kommer fälten i V1- och V2_EXT-paket att vara tillgängliga i det konsoliderade paketet?**
 
 Ja. Det konsoliderade paketet innehåller samma fält i V1 med ytterligare uppdelning efter objekt och V2_EXT-fält via Touchpoint-fält.
 
 **Kan rapporter som använder V2_EXT-fält återskapas i det konsoliderade paketet?**
 
-Ja. Följ stegen i [Nödvändiga åtgärder](#retired-actions) -avsnitt.
+Ja. Följ stegen i avsnittet [Obligatoriska åtgärder](#retired-actions).

@@ -15,15 +15,15 @@ ht-degree: 0%
 
 Även om den här rapporten kan bero på era säljprojektsfaser, visar den här rapporten vilka marknadsföringskanaler som bidragit till möjligheter som inte stängts.
 
-1. Klicka på **[!UICONTROL Reports]** i Salesforce och välj **[!UICONTROL New Report]**.
+1. Klicka på fliken **[!UICONTROL Reports]** i Salesforce och välj **[!UICONTROL New Report]**.
 
    ![](assets/1-3.jpg)
 
-1. I snabbsökningstypen i &quot;Bizible Attribution&quot; väljer du **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** rapporttyp, välj sedan **[!UICONTROL Create]**.
+1. I snabbsökningstypen i &quot;Bizible Attribution&quot; och välj rapporttypen **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** och välj sedan **[!UICONTROL Create]**.
 
    ![](assets/2-3.jpg)
 
-1. Börja högst upp i rapporten och visa[!UICONTROL All Bizible Attribution Touchpoints]&quot; och justera datumfältet enligt den tidsram som du vill rapportera om. I vårt exempel tittar vi på All Time. Ändra dessutom rapportformatet från Tabell till Sammanfattning.
+1. Visa [!UICONTROL All Bizible Attribution Touchpoints] och justera datumfältet enligt den tidsram som du vill rapportera om med början från rapportens övre del. I vårt exempel tittar vi på All Time. Ändra dessutom rapportformatet från Tabell till Sammanfattning.
 
    ![](assets/3-3.jpg)
 

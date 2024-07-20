@@ -1,5 +1,5 @@
 ---
-description: Instrumentpanel för engagemang - [!DNL Marketo Measure] - Produkt
+description: Åtagandeinstrumentpanel - [!DNL Marketo Measure]  - Produkt
 title: Instrumentpanel för engagemang
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Instrumentpanelen för engagemang håller noggrann koll på användarnas engagemangsmått. Det visar kontaktytor, antalet engagerade och genomsnittliga kontaktytor per person. Använd tidsseriediagrammet för en månads-, kvartals- eller årsvy och stapeldiagrammet för detaljerade insikter om kanaler, delkanaler och kampanjer. Det här verktyget är nödvändigt för att förstå engagemangsmönster och för att finjustera era engagemangsstrategier.
 
-Vi spårar varje kundinteraktion som användarkontaktpunkter (UT), de&quot;raw&quot; insamlade datapunkterna, som fungerar som grund för interaktionsstatistik på vår instrumentpanel. Alla användargränssnitten utvecklas inte till slutpunkter för köpare (BT) eller slutpunkter för kundattribuering (BAT), eftersom dessa är valda resultat för att tilldela specifika kundinteraktioner till intäktsrelaterade aktiviteter. Det är viktigt att komma ihåg att reglerna för inaktivering inte påverkar användargränssnitten eller instrumentpanelen för engagemang.
+Vi spårar varje kundinteraktion som användarkontaktpunkter (UT), de&quot;raw&quot; insamlade datapunkterna, som fungerar som grund för interaktionsstatistik på vår instrumentpanel. Alla användargränssnitten utvecklas inte till Buyer Touchpoints (BT) eller Buyer Attribution Touchpoints (BAT), eftersom dessa är valda resultat för att tilldela specifika kundinteraktioner till intäktsrelaterade aktiviteter. Det är viktigt att komma ihåg att reglerna för inaktivering inte påverkar användargränssnitten eller instrumentpanelen för engagemang.
 
-* **Användarens kontaktytor**: Kontaktpunkter skapade från alla engagemang.
-* **Kontaktpunkter för köpare**: Kontaktpunkter har valts för lead- och kontaktattribuering. BT:er är inte kopplade till säljprojekt och har inga tillhörande intäkter.
-* **Kontaktpunkter för Buyer Attribution**: Kontaktpunkter har valts för attribuering av säljprojekt. Bästa tillgängliga teknik har intäktskonsekvenser eftersom de är kopplade till säljprojekt.
+* **Användarkontaktytor**: Kontaktpunkter skapade från alla engagemang.
+* **Kontaktpunkter för köpare**: Kontaktpunkter har valts för lead- och kontaktattribuering. BT är inte kopplade till säljprojekt och har inga tillhörande intäkter.
+* **Slutpunkter för Buyer-attribuering**: Kontaktpunkter har valts för attribuering av säljprojekt. BAT har intäktskonsekvenser eftersom de är kopplade till säljprojekt.
 
-Att endast använda BT eller BAT för att mäta engagemang skulle underskatta den verkliga omfattningen av kundinteraktioner eftersom engagemanget är bredare än bara attribuering.
+Att enbart använda BT eller BAT för att mäta engagemang skulle underskatta den verkliga omfattningen av kundinteraktioner eftersom engagemanget är bredare än bara attribuering.
 
 Frågor som kontrollpanelen besvarar:
 
@@ -37,7 +37,7 @@ Frågor som kontrollpanelen besvarar:
 ### KPI-paneler {#kpi-tiles}
 
 * Kontaktpunkter: Det totala antalet råa kontaktytor som genereras.
-   * Kontaktpunkter för Buyer Touchpoints och Buyer Attribution är attribueringsresultat som skapas genom att man väljer specifika kontaktytor för krediter. Alla kontaktytor väljs inte som BT och BAT.
+   * Kontaktpunkter för Buyer Touchpoints och Buyer Attribution är attribueringsresultat som skapas genom att man väljer specifika kontaktytor för krediter. Alla kontaktytor markeras inte som BT och BAT.
 * Kontakter: Det totala antalet personer som har några kontaktytor.
 * Kontaktpunkter per person: Genomsnittligt antal kontaktytor per person som har berörts.
 

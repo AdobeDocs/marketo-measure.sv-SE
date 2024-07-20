@@ -15,11 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Instruktioner som anger &quot;[!DNL Marketo Measure]&quot; i dokumentationen, men fortfarande se &quot;[!DNL Bizible]&quot; i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+>Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se [!DNL Bizible] i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-Nu har du tillgång till många rapporteringsfunktioner när det gäller [!DNL Marketo Measure], men det finns några andra rapporttyper som vi rekommenderar att du skapar. Lär dig hur du skapar inkluderande leads med rapporttypen Buyer Touchpoints nedan.
+När det gäller [!DNL Marketo Measure] har du tillgång till många rapporteringsfunktioner som du kan använda, men det finns ytterligare rapporttyper som vi rekommenderar att du skapar. Lär dig hur du skapar inkluderande leads med rapporttypen Buyer Touchpoints nedan.
 
-1. Navigera till ditt inställningsalternativ i [!DNL Salesforce]. Expandera grupperingen&quot;Skapa&quot; och välj **[!UICONTROL Report Types]**.
+1. Navigera till inställningsalternativet i [!DNL Salesforce]. Utöka grupperingen&quot;Skapa&quot; och välj **[!UICONTROL Report Types]**.
 
    ![](assets/1.jpg)
 
@@ -31,7 +31,7 @@ Nu har du tillgång till många rapporteringsfunktioner när det gäller [!DNL M
 
    ![](assets/3.jpg)
 
-1. För objektrelationerna väljer du **[!DNL Marketo Measure]Personer** som det sekundära objektet. Välj relationen A till B som &quot;Varje &#39;A&#39;-post måste ha minst en relaterad &#39;B&#39;-post.&quot; Därifrån relaterar du&quot;Buyer Touchpoint&quot;-objektet och väljer samma relation mellan B- och C-objekten.
+1. För objektrelationerna väljer du objektet **[!DNL Marketo Measure]Personer** som det sekundära objektet. Välj relationen A till B som &quot;Varje &#39;A&#39;-post måste ha minst en relaterad &#39;B&#39;-post.&quot; Därifrån relaterar du&quot;Buyer Touchpoint&quot;-objektet och väljer samma relation mellan B- och C-objekten.
 
    ![](assets/4.jpg)
 

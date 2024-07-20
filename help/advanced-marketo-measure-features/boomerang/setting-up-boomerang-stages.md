@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874767
-description: Konfigurera Boomerang-stadier - [!DNL Marketo Measure]
+description: Konfigurerar Boomerang-stadier - [!DNL Marketo Measure]
 title: Konfigurera Boomerang Stages
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
@@ -17,15 +17,15 @@ ht-degree: 0%
 >
 >Funktionen Boomerang är bara aktiverad för Tier 2- och Tier 3-kunder. Om du vill begära en högre kontonivå kontaktar du kontoteamet (din kontohanterare) på Adobe.
 
-Aktivera [!UICONTROL Boomerang] Du måste vara kontoadministratör för ditt konto. Eller så kan det aktiveras genom att man når ut till [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. När funktionen är aktiverad följer du dessa anvisningar för att konfigurera dem.
+Om du vill aktivera [!UICONTROL Boomerang] steg för ditt konto måste du vara kontoadministratör. Du kan också aktivera den genom att kontakta [Marketo support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. När funktionen är aktiverad följer du dessa anvisningar för att konfigurera dem.
 
 ## Inställning av Boomerang-scenen {#boomerang-stage-setup}
 
-1. Gå till [!UICONTROL Stage Mapping]. Under kolumnen med rubriken &quot;[!UICONTROL Boomerang],&quot; markerar du rutorna intill de stadier du vill spåra.
+1. Gå till [!UICONTROL Stage Mapping]. Markera rutorna intill de stadier du vill spåra i kolumnen [!UICONTROL Boomerang].
 
    ![](assets/1-2.png)
 
-1. Gå till [!UICONTROL Attribution Settings] och ange antalet kontaktytor för varje scen som du vill se. Vi tillåter högst 10. Standardvärdet är 1.
+1. Gå till fliken [!UICONTROL Attribution Settings] och ange antalet kontaktytor för varje fas som du vill se. Vi tillåter högst 10. Standardvärdet är 1.
 
    ![](assets/2-2.png)
 
@@ -37,15 +37,15 @@ Aktivera [!UICONTROL Boomerang] Du måste vara kontoadministratör för ditt kon
 
 ## Konfiguration av Boomerang-scenen med anpassad modellattribuering {#boomerang-stage-setup-with-custom-model-attribution}
 
-1. Gå till [!UICONTROL Stage Mapping]. Under kolumnen med rubriken &quot;[!UICONTROL Boomerang],&quot; markerar du rutorna intill de stadier du vill spåra.
+1. Gå till [!UICONTROL Stage Mapping]. Markera rutorna intill de stadier du vill spåra i kolumnen [!UICONTROL Boomerang].
 
    ![](assets/3-1.png)
 
-1. Om du även vill att de här Boomerang-faserna ska ingå i din anpassade modell och få attribueringskrediter måste du också markera rutan under &quot;[!UICONTROL Custom Model]&quot;.
+1. Om du även vill att dessa Boomerang-stadier ska ingå i din anpassade modell och få attribueringskrediter måste du även markera rutan under kolumnen [!UICONTROL Custom Model].
 
    ![](assets/4-1.png)
 
-1. Gå till [!UICONTROL Attribution Settings] -fliken. Bestäm hur du vill att attribueringen för dina panoreringsfaser ska viktas. Alternativen är att väga attribueringen mot den första förekomsten, den sista förekomsten, eller att låta den delas jämnt över alla förekomster.
+1. Gå till fliken [!UICONTROL Attribution Settings]. Bestäm hur du vill att attribueringen för dina panoreringsfaser ska viktas. Alternativen är att väga attribueringen mot den första förekomsten, den sista förekomsten, eller att låta den delas jämnt över alla förekomster.
 
    ![](assets/5-1.png)
 

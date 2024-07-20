@@ -1,5 +1,5 @@
 ---
-description: Kontrollpanel för ledarhastighet - [!DNL Marketo Measure] - Produkt
+description: Kontrollpanel för ledarhastighet - [!DNL Marketo Measure]  - Produkt
 title: Kontrollpanel för ledarhastighet
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d

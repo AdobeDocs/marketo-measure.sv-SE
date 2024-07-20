@@ -26,11 +26,11 @@ Med Data Warehouse kan ni spåra så mycket ni vill, rapportera om era attribuer
 
 ## Entitetsrelationsdiagram {#entity-relationship-diagrams}
 
-The _Datans Warehouse datamodell_ ERD visar hur data i datalagret är avsedda att flöda och länkas samman. Det här diagrammet innehåller inte alla tabeller som är tillgängliga i datalagret eftersom vissa av dem representerar mappningstabeller, vyer av andra tabeller som redan finns eller borttagna tabeller som vi inte rekommenderar att du använder fler. Se de detaljerade beskrivningarna av tabeller och kolumner som finns i datalagret nedan. Många av dessa tabeller innehåller deformerade fält, men det här diagrammet är den rekommenderade datamodellen, som i stället utnyttjar data från dimensionella tabeller.
+Datamodellen _Data Warehouse_ visar hur data i datalagret ska flöda och länkas tillsammans. Det här diagrammet innehåller inte alla tabeller som är tillgängliga i datalagret eftersom vissa av dem representerar mappningstabeller, vyer av andra tabeller som redan finns eller borttagna tabeller som vi inte rekommenderar att du använder fler. Se de detaljerade beskrivningarna av tabeller och kolumner som finns i datalagret nedan. Många av dessa tabeller innehåller deformerade fält, men det här diagrammet är den rekommenderade datamodellen, som i stället utnyttjar data från dimensionella tabeller.
 
-Ytterligare _Annonserar dimensionell datamodell_ ERD visar hur tabeller för annonser som är specifika dimensioner bäst kan länkas tillbaka till tabellerna i huvuddatamodellen. Även om annonsdimensionerna även är denormaliserade i andra tabeller representerar detta den rekommenderade modellen för att förena de här dimensionerna.
+Ytterligare _Ads Dimensional Data Model_ ERD visar hur tabeller för annonser som är specifika dimensioner kan länkas tillbaka till tabellerna i huvuddatamodellen på bästa sätt. Även om annonsdimensionerna även är denormaliserade i andra tabeller representerar detta den rekommenderade modellen för att förena de här dimensionerna.
 
-_Klicka på en bild för att se dess fullstorleksversion_
+_Klicka på en bild för att visa dess fullstorleksversion_
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -69,13 +69,13 @@ Konton som importerats från källsystemet.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Skapad av kontot från källsystemet.</td>
-      <td>2016-08-28 00:32:55 000</td>
+      <td>2016-08-28 00:32:55.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Det senast ändrade datumet för kontot från källsystemet.</td>
-      <td>2018-08-01 17:38:30 000</td>
+      <td>2018-08-01 17:38:30.000</td>
     </tr>
     <tr>
       <td>NAMN</td>
@@ -92,13 +92,13 @@ Konton som importerats från källsystemet.
     <tr>
       <td>ENGAGEMENT_RATING</td>
       <td>varchar</td>
-      <td>A letter grade (A, B, C, D, N/A) that generated from the [!DNL Marketo Measure] Machine Learning-modell. Detta blir null om ABM är inaktiverat.</td>
+      <td>A letter grade (A, B, C, D, N/A) that is generated from the [!DNL Marketo Measure] Machine Learning model. Detta blir null om ABM är inaktiverat.</td>
       <td>B</td>
     </tr>
     <tr>
       <td>ENGAGEMENT_SCORE</td>
       <td>tal(38,19)</td>
-      <td>En numerisk poäng beräknad med [!DNL Marketo Measure] Maskininlärning för att generera Predictive Engagement Score (Engagement_Rating). Detta blir null om ABM är inaktiverat.</td>
+      <td>En numerisk poäng som beräknas av [!DNL Marketo Measure] Machine Learning för att generera prediktiv engagemangspoäng (Engagement_Rating). Detta blir null om ABM är inaktiverat.</td>
       <td>0,1417350147058800000</td>
     </tr>
     <tr>
@@ -116,35 +116,35 @@ Konton som importerats från källsystemet.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerats från källsystemet i JSON-format.</td>
+      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerat från källsystemet i JSON-format.</td>
       <td>{"Account_Type__c": "Security", "Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>*</b> BRANSCHEN</td>
+      <td><b> *</b> BRANSCHEN</td>
       <td>varchar</td>
       <td>Kontots primära verksamhet.</td>
       <td>Detaljhandel, telekommunikation</td>
     </tr>
     <tr>
-      <td><b>*</b> LAND</td>
+      <td><b> *</b> LAND</td>
       <td>varchar</td>
       <td>Landdelen av kontots adress.</td>
       <td>USA, Kanada</td>
@@ -152,7 +152,7 @@ Konton som importerats från källsystemet.
   </tbody>
 </table>
 <p>
-<b>*</b> <i>Endast tillgängligt i Marketo Measure Ultimate</i>
+<b> *</b> <i>Endast tillgängligt i Marketo Measure Ultimate</i>
 <p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
@@ -171,12 +171,12 @@ Mappningstabell mellan kända lead-/kontaktadresser och konton. Tabellen är tom
       <td>ID</td>
       <td>varchar</td>
       <td>Ett unikt ID för posten.</td>
-      <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13 000</td>
+      <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13.000</td>
     </tr>
     <tr>
       <td>ACCOUNT_ID</td>
       <td>varchar</td>
-      <td>ID för källsystemkonto.</td>
+      <td>Source-systemkonto-ID.</td>
       <td>0013100001phrBAAY</td>
     </tr>
     <tr>
@@ -189,13 +189,13 @@ Mappningstabell mellan kända lead-/kontaktadresser och konton. Tabellen är tom
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Det senast ändrade datumet för kontot från källsystemet.</td>
-      <td>2018-08-31 23:53:39 000</td>
+      <td>2018-08-31 23:53:39.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Skapad av kontot från källsystemet.</td>
-      <td>2018-08-18 22:01:32 000</td>
+      <td>2018-08-18 22:01:32.000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
@@ -207,19 +207,19 @@ Mappningstabell mellan kända lead-/kontaktadresser och konton. Tabellen är tom
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -273,13 +273,13 @@ Aktiviteter som importerats från ett källsystem eller ett anslutet annonskonto
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
       <td>Startdatum för aktiviteten från källsystemet.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>END_DATE</td>
       <td>timestapm_ntz</td>
       <td>Slutdatum för aktiviteten från källsystemet.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>CAMPAIGN_ID</td>
@@ -299,13 +299,13 @@ Aktiviteter som importerats från ett källsystem eller ett anslutet annonskonto
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Det datum då raden skapades i källsystemet.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum då raden senast ändrades i källsystemet.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
@@ -323,19 +323,19 @@ Aktiviteter som importerats från ett källsystem eller ett anslutet annonskonto
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -428,13 +428,13 @@ Annonser som importerats från anslutna annonskonton.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades.</td>
-      <td>2018-08-02 06:35:59 000</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
       <td>FIRST_IMPORTED</td>
       <td>timestamp_ntz</td>
       <td>Datum då posten först importerades från källsystemet.</td>
-      <td>2018-08-02 06:35:59 000</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
       <td>NAMN</td>
@@ -445,7 +445,7 @@ Annonser som importerats från anslutna annonskonton.
     <tr>
       <td>NEEDS_UPDATE</td>
       <td>boolesk</td>
-      <td>Om annonsen behöver uppdateras för [!DNL Marketo Measure] taggning.
+      <td>Om annonsen behöver uppdateras för [!DNL Marketo Measure]-taggning eller inte.
       <p>(Diagnostikfält, används av intern bearbetning.)
       </td>
       <td>false</td>
@@ -510,19 +510,19 @@ Annonser som importerats från anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -615,13 +615,13 @@ Annonsörer importerade från alla anslutna annonskonton.
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades.</td>
-      <td>2018-08-02 06:35:59 000</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
       <td>FIRST_IMPORTED</td>
       <td>timestamp_ntz</td>
       <td>Datum då posten först importerades från källsystemet.</td>
-      <td>2018-08-02 06:35:59 000</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
       <td>NAMN</td>
@@ -632,7 +632,7 @@ Annonsörer importerade från alla anslutna annonskonton.
     <tr>
       <td>NEEDS_UPDATE</td>
       <td>boolesk</td>
-      <td>Om annonseraren behöver uppdateras för [!DNL Marketo Measure] taggning.
+      <td>Om Advertiser behöver uppdateras för [!DNL Marketo Measure]-taggning eller inte.
       <p>(Diagnostikfält, används av intern bearbetning.)
       </td>
       <td>false</td>
@@ -665,19 +665,19 @@ Annonsörer importerade från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -825,7 +825,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-09-06 12:54:37 000</p>
+        <p>2018-09-06 12:54:37.000</p>
       </td>
     </tr>
     <tr>
@@ -837,7 +837,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58 000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -858,7 +858,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Om annonseraren behöver uppdateras för [!DNL Marketo Measure] taggning.</p>
+        <p>Om Advertiser behöver uppdateras för [!DNL Marketo Measure]-taggning eller inte.</p>
         <p>(Diagnostikfält, används av intern bearbetning.)</p>
       </td>
       <td>
@@ -919,7 +919,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>KÄLLA</p>
+        <p>SOURCE</p>
       </td>
       <td>varchar</td>
       <td>Tolkad från URL:en från utm_source.</td>
@@ -929,7 +929,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>MEDEL</p>
+        <p>MEDIUM</p>
       </td>
       <td>varchar</td>
       <td>Tolkad från URL:en från utm_medium.</td>
@@ -1049,19 +1049,19 @@ Annonskonton som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -1223,7 +1223,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58 000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1235,7 +1235,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58 000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1258,7 +1258,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
         <p>boolesk</p>
       </td>
       <td>
-        <p>Om kampanjen behöver uppdateras för [!DNL Marketo Measure] taggning.</p>
+        <p>Om Campaign behöver uppdateras för [!DNL Marketo Measure]-taggning eller inte.</p>
         <p>(Diagnostikfält, används av intern bearbetning.)</p>
       </td>
       <td>
@@ -1365,19 +1365,19 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -1457,7 +1457,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58 000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1469,7 +1469,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:35:58 000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1566,24 +1566,24 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>SOURCE_ID</td>
       <td>varchar</td>
-      <td>ID för källan som posten kommer från.</td>
+      <td>ID för den Source som posten härstammar från.</td>
       <td>aw.3284209</td>
     </tr>
   </tbody>
@@ -1787,7 +1787,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Om annonseraren behöver uppdateras för [!DNL Marketo Measure] taggning.</p>
+        <p>Om Advertiser behöver uppdateras för [!DNL Marketo Measure]-taggning eller inte.</p>
         <p>(Diagnostikfält, används av intern bearbetning.)</p>
       </td>
       <td>
@@ -1892,19 +1892,19 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -1961,19 +1961,19 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -2007,7 +2007,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-09-01 04:53:53 000</p>
+        <p>2018-09-01 04:53:53.000</p>
       </td>
     </tr>
     <tr>
@@ -2071,7 +2071,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Datum för kontaktytan.</p>
       </td>
       <td>
-        <p>2017-06-20 01:05:20 000</p>
+        <p>2017-06-20 01:05:20.000</p>
       </td>
     </tr>
     <tr>
@@ -2098,7 +2098,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Kanalen som kontaktytan hamnar i, enligt definition i de anpassade kanaldefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till som"Marknadskanal - Sökväg".</p>
+        <p>Kanalen som kontaktytan hamnar i, enligt definition i de anpassade kanaldefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till som"Marknadskanal - Sökväg".</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -2110,7 +2110,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den första kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</p>
+        <p>Segmentvärdet för den första kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</p>
       </td>
       <td>
         <p>ABC</p>
@@ -2122,7 +2122,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den andra kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</p>
+        <p>Segmentvärdet för den andra kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</p>
       </td>
       <td>
         <p>Ja</p>
@@ -2134,7 +2134,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den tredje kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</p>
+        <p>Segmentvärdet för den tredje kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</p>
       </td>
       <td>
         <p>SMB</p>
@@ -2145,7 +2145,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI4</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den fjärde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den fjärde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td>
         <p>Nytt företag</p>
       </td>
@@ -2155,7 +2155,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI5</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den femte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den femte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2163,7 +2163,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI6</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den sjätte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den sjätte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2171,7 +2171,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI7</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den sjunde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den sjunde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2179,7 +2179,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI8</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den åttonde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den åttonde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2187,7 +2187,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI9</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den nionde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den nionde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2195,7 +2195,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI10</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den tionde kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den tionde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2203,7 +2203,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI11</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den elfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den elfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2211,7 +2211,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI12</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den tolfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den tolfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2219,7 +2219,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI13</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den 13:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den 13:e kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2227,7 +2227,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI14</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den 14:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den 14:e kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2235,7 +2235,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>KATEGORI15</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den 15:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till"Segment".</td>
+      <td>Segmentvärdet för den 15:e kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till"Segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -2247,7 +2247,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Från javascript- och IP-adressen upptäckte den webbläsare som användaren var på under sessionen.</p>
       </td>
       <td>
-        <p>Krom</p>
+        <p>Chrome</p>
       </td>
     </tr>
     <tr>
@@ -2367,7 +2367,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Datum när formuläret skickades.</p>
       </td>
       <td>
-        <p>2017-06-20 01:06:41 000</p>
+        <p>2017-06-20 01:06:41.000</p>
       </td>
     </tr>
     <tr>
@@ -2408,11 +2408,11 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     </tr>
     <tr>
       <td>
-        <p>MEDEL</p>
+        <p>MEDIUM</p>
       </td>
       <td>varchar</td>
       <td>
-        <p>Används för att definiera mediet som resulterade i kontaktytan. Detta kan antingen tolkas ut från URL:en från utm_medium. Eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "cpc" eller "display".</p>
+        <p>Används för att definiera mediet som resulterade i kontaktytan. Detta kan antingen tolkas ut från URL:en från utm_medium. Eller, om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som "cpc" eller "display".</p>
       </td>
       <td>
         <p>social</p>
@@ -2424,7 +2424,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Används för att definiera källan som resulterade i kontaktytan. Detta kan tolkas från URL:en från utm_source, vanligtvis inställd som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "Google AdWords" eller "Facebook". Refereras i CRM till"Kontaktpunktskälla".</p>
+        <p>Används för att definiera källan som resulterade i kontaktytan. Det här kan tolkas från URL:en från utm_source, som i allmänhet anges som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som "Google AdWords" eller "Facebook". I CRM kallas det"Touchpoint Source".</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -2448,7 +2448,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Annonsplattform [!DNL Marketo Measure] har kunnat lösa sig från, vanligtvis en av våra integreringspartners.</p>
+        <p>Ad-plattformen [!DNL Marketo Measure] kunde matchas från, vanligtvis en av våra integreringspartners.</p>
       </td>
       <td>
         <p>Google</p>
@@ -3016,19 +3016,19 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -3051,7 +3051,7 @@ Data som genereras från integrering med Attribution AI. Dessa fält är bara if
     <td>CONVERSION_DATE</td>
     <td>Tidsstämpel_ntz</td>
     <td>konverteringsdatum</td>
-    <td>2020-01-01 01:01:00,000</td>
+    <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>CONVERSION_NAME</td>
@@ -3087,7 +3087,7 @@ Data som genereras från integrering med Attribution AI. Dessa fält är bara if
   <tr>
     <td>CONVERSION_LEAD_ID</td>
     <td>varchar</td>
-    <td>ursprungligt MM-lead-ID för konverteringshändelsen <br>är troligen null för det mesta</td>
+    <td>ursprungligt MM-lead-ID för konverteringshändelsen <br>är troligen null för det mesta av tiden</td>
     <td>00Q0Z00013dw4GUAQ</td>
   </tr>
   <tr>
@@ -3107,7 +3107,7 @@ Data som genereras från integrering med Attribution AI. Dessa fält är bara if
     <td>SCORE_DATE</td>
     <td>Tidsstämpel_ntz</td>
     <td>det datum då kontaktytorna senast bedömdes</td>
-    <td>2020-01-01 01:01:00,000</td>
+    <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>INFLUENCED_PERCENT</td>
@@ -3125,7 +3125,7 @@ Data som genereras från integrering med Attribution AI. Dessa fält är bara if
     <td>TOUCHPOINT_DATE</td>
     <td>Tidsstämpel_ntz</td>
     <td>kontaktytpunkten eller scenens övergångsdatum</td>
-    <td>2020-01-01 01:01:00,000</td>
+    <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_EVENT_ID</td>
@@ -3173,19 +3173,19 @@ Data som genereras från integrering med Attribution AI. Dessa fält är bara if
     <td>_CREATED_DATE</td>
     <td>Tidsstämpel_ntz</td>
     <td>det datum då posten skapades i Snowflake</td>
-    <td>2020-01-01 01:01:00,000</td>
+    <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>_MODIFIED_DATE</td>
     <td>Tidsstämpel_ntz</td>
     <td>det datum då posten senast ändrades i Snowflake</td>
-    <td>2020-01-01 01:01:00,000</td>
+    <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>_DELETED_DATE</td>
     <td>Tidsstämpel_ntz</td>
     <td>det datum då posten togs bort i Snowflake</td>
-    <td>2020-01-01 01:01:00,000</td>
+    <td>2020-01-01 01:01:00.000</td>
   </tr>
 </tbody>
 </table>
@@ -3237,7 +3237,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>Datum och tid som kunden ställer in för att åsidosätta kampanjdatumet och använd värdet för slutpunktsdatumet i stället.</p>
       </td>
       <td>
-        <p>2018-08-30 18:00:00,000</p>
+        <p>2018-08-30 18:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -3317,7 +3317,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
         <p>Datum då kampanjmedlemmen först svarade.</p>
       </td>
       <td>
-        <p>2018-08-30 07:00:00,000</p>
+        <p>2018-08-30 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -3374,7 +3374,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       </td>
       <td>varchar</td>
       <td>
-        <p>Granskningsfält, anger om en Buyer Touchpoint skapades för leadet eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
+        <p>Granskningsfält, anger om en Buyer Touchpoint har genererats för leadet eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
       </td>
       <td>
         <p>Ingen kontaktyta: Datum utanför modell</p>
@@ -3386,7 +3386,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       </td>
       <td>varchar</td>
       <td>
-        <p>Granskningsfält, anger om en Buyer Touchpoint skapades för kontakten eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
+        <p>Granskningsfält, anger om en Buyer Touchpoint har genererats för kontakten eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
       </td>
       <td>
         <p>Kontaktpunkten har skapats</p>
@@ -3398,7 +3398,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
       </td>
       <td>varchar</td>
       <td>
-        <p>Granskningsfält, anger om en slutpunkt för Buyer-attribut har skapats för säljprojektet eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
+        <p>Granskningsfält, anger om en Buyer Attribution Touchpoint har genererats för säljprojektet eller inte. Om ingen kontaktyta skapades anges orsaken till varför den inte var berättigad.</p>
       </td>
       <td>
         <p>Kontaktpunkten har skapats</p>
@@ -3421,33 +3421,33 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerats från källsystemet i JSON-format.</td>
+      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerat från källsystemet i JSON-format.</td>
       <td>{"Campaign_Type__c":"Dinners","Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_CHANNELS {#biz-channels}
 
-Marknadsföringskanaler, som de skapats i [!DNL Marketo Measure] program.
+Marknadskanaler, som de har skapats i programmet [!DNL Marketo Measure].
 
 <table>
   <tbody>
@@ -3497,19 +3497,19 @@ Marknadsföringskanaler, som de skapats i [!DNL Marketo Measure] program.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datumet då posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datumet då posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datumet då posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -3543,7 +3543,7 @@ Kontakter som har importerats från källsystemet.
         <p>Datum när kontaktposten senast ändrades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-09-05 05:17:53 000</p>
+        <p>2018-09-05 05:17:53.000</p>
       </td>
     </tr>
     <tr>
@@ -3553,7 +3553,7 @@ Kontakter som har importerats från källsystemet.
         <p>Det datum kontaktposten skapades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-09-05 05:17:51 000</p>
+        <p>2018-09-05 05:17:51.000</p>
       </td>
     </tr>
     <tr>
@@ -3584,7 +3584,7 @@ Kontakter som har importerats från källsystemet.
       </td>
       <td>varchar</td>
       <td>
-        <p>Källa där lead skapades.</p>
+        <p>Source där Lead skapades.</p>
       </td>
       <td>
         <p>Annons</p>
@@ -3596,7 +3596,7 @@ Kontakter som har importerats från källsystemet.
       </td>
       <td>varchar</td>
       <td>
-        <p>Aktuell fas av kontakten, identifieras som en anpassad fas som kan skapas i [!DNL Marketo Measure] program.</p>
+        <p>Aktuell fas av kontakten, känns igen som en anpassad fas som kan skapas i programmet [!DNL Marketo Measure].</p>
       </td>
       <td>
         <p>Demo schemalagd</p>
@@ -3608,7 +3608,7 @@ Kontakter som har importerats från källsystemet.
       </td>
       <td>varchar</td>
       <td>
-        <p>Alla tidigare steg för kontakten, identifieras som anpassade steg som kan skapas i [!DNL Marketo Measure] program.</p>
+        <p>Alla tidigare faser för kontakten, identifieras som anpassade stadier som kan skapas i programmet [!DNL Marketo Measure].</p>
       </td>
       <td>
         <p>Öppna - kontakt</p>
@@ -3634,7 +3634,7 @@ Kontakter som har importerats från källsystemet.
       </td>
       <td>varchar</td>
       <td>
-        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
+        <p>Cookie-ID [!DNL Marketo Measure] som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -3673,7 +3673,7 @@ Kontakter som har importerats från källsystemet.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerats från källsystemet i JSON-format.</td>
+      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerat från källsystemet, i JSON-format.</td>
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -3686,22 +3686,22 @@ Kontakter som har importerats från källsystemet.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>*</b> JOB_TITLE</td>
+      <td><b> *</b> JOB_TITLE</td>
       <td>varchar</td>
       <td>Kontaktens befattning.</td>
       <td>CEO, Vice President</td>
@@ -3709,7 +3709,7 @@ Kontakter som har importerats från källsystemet.
   </tbody>
 </table>
 <p>
-<b>*</b> <i>Endast tillgängligt i Marketo Measure Ultimate</i>
+<b> *</b> <i>Endast tillgängligt i Marketo Measure Ultimate</i>
 <p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
@@ -3746,13 +3746,13 @@ Valutakonverteringsgrader som importerats från källsystemet.
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
       <td>Startdatum för konverteringsgraden.</td>
-      <td>2018-11-01 00:00:00,000</td>
+      <td>2018-11-01 00:00:00.000</td>
     </tr>
     <tr>
       <td>END_DATE</td>
       <td>timestamp_ntz</td>
       <td>Nästa startdatum för konverteringsgraden. (Slutdatumet för konverteringsgraden är end_date minus 1 dag.)</td>
-      <td>2018-09-01 00:00:00,000</td>
+      <td>2018-09-01 00:00:00.000</td>
     </tr>
     <tr>
       <td>CONVERSION_RATE</td>
@@ -3770,13 +3770,13 @@ Valutakonverteringsgrader som importerats från källsystemet.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Det datum då posten skapades i källsystemet.</td>
-      <td>2019-03-30 00:54:50 000</td>
+      <td>2019-03-30 00:54:50.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i källsystemet.</td>
-      <td>2019-03-30 00:54:50 000</td>
+      <td>2019-03-30 00:54:50.000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
@@ -3788,19 +3788,19 @@ Valutakonverteringsgrader som importerats från källsystemet.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -3827,18 +3827,18 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades.</td>
-      <td>2018-09-06 12:22:45 000</td>
+      <td>2018-09-06 12:22:45.000</td>
     </tr>
     <tr>
       <td>COST_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när kostnaden uppkom (eller tillskrevs).</td>
-      <td>2018-09-06 00:00:00,000</td>
+      <td>2018-09-06 00:00:00.000</td>
     </tr>
     <tr>
-      <td>KÄLLA</td>
+      <td>SOURCE</td>
       <td>varchar</td>
-      <td>Källa för den rapporterade kostnaden.</td>
+      <td>Source av den rapporterade kostnaden.</td>
       <td>[AdWords display]</td>
     </tr>
     <tr>
@@ -3880,7 +3880,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
     <tr>
       <td>CHANNEL_NAME</td>
       <td>varchar</td>
-      <td>Namn på marknadsföringskanalen som skapats av kunden i [!DNL Marketo Measure] app.</td>
+      <td>Namn på marknadsföringskanalen som skapats av kunden i appen [!DNL Marketo Measure].</td>
       <td>Display.Google</td>
     </tr>
     <tr>
@@ -4234,7 +4234,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
     <tr>
       <td>SOURCE_ID</td>
       <td>varchar</td>
-      <td>ID för källan som posten kommer från.</td>
+      <td>ID för den Source som posten härstammar från.</td>
       <td>aw.3284209</td>
     </tr>
     <tr>
@@ -4313,19 +4313,19 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -4487,7 +4487,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:25 000</p>
+        <p>2018-08-02 06:36:25.000</p>
       </td>
     </tr>
     <tr>
@@ -4499,7 +4499,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:25 000</p>
+        <p>2018-08-02 06:36:25.000</p>
       </td>
     </tr>
     <tr>
@@ -4522,7 +4522,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Om Creative Cloud behöver uppdateras för [!DNL Marketo Measure] taggning.</p>
+        <p>Om Creative-objektet behöver uppdateras för [!DNL Marketo Measure]-taggning eller inte.</p>
         <p>(Diagnostikfält, används av intern bearbetning.)</p>
       </td>
       <td>
@@ -4723,7 +4723,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>Resurs-ID. (Används endast för LinkedIn Ads.)</p>
       </td>
       <td>
-        <p>urn:li:dela:6376987561897848832</p>
+        <p>urn:li:share:6376987561897848832</p>
       </td>
     </tr>
     <tr>
@@ -4740,19 +4740,19 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -4786,7 +4786,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
         <p>Det datum då händelsen skapades från källsystemet.</p>
       </td>
       <td>
-        <p>2016-12-12 19:32:53 000</p>
+        <p>2016-12-12 19:32:53.000</p>
       </td>
     </tr>
     <tr>
@@ -4796,7 +4796,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
         <p>Det datum då händelsen senast ändrades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-09-03 08:39:51 000</p>
+        <p>2018-09-03 08:39:51.000</p>
       </td>
     </tr>
     <tr>
@@ -4851,7 +4851,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
       </td>
       <td>varchar</td>
       <td>
-        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
+        <p>Cookie-ID [!DNL Marketo Measure] som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -4878,7 +4878,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
         <p>Startdatum för händelsen, ett av de alternativ som används för att fastställa slutpunktsdatumet.</p>
       </td>
       <td>
-        <p>2016-12-16 19:30:00,000</p>
+        <p>2016-12-16 19:30:00.000</p>
       </td>
     </tr>
     <tr>
@@ -4890,7 +4890,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
         <p>Slutdatum för händelsen, ett av de alternativ som används för att bestämma slutpunktsdatumet.</p>
       </td>
       <td>
-        <p>2016-12-16 21:30:00,000</p>
+        <p>2016-12-16 21:30:00.000</p>
       </td>
     </tr>
     <tr>
@@ -4908,26 +4908,26 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerats från källsystemet i JSON-format.</td>
+      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerat från källsystemet i JSON-format.</td>
       <td>{"Contact_Type__c":"CMO","Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -4961,7 +4961,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
         <p>Det datum då uppgiften skapades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-27 18:30:25 000</p>
+        <p>2018-08-27 18:30:25.000</p>
       </td>
     </tr>
     <tr>
@@ -4971,7 +4971,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
         <p>Det datum då aktiviteten senast ändrades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-27 18:31:53 000</p>
+        <p>2018-08-27 18:31:53.000</p>
       </td>
     </tr>
     <tr>
@@ -5026,7 +5026,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
       </td>
       <td>varchar</td>
       <td>
-        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
+        <p>Cookie-ID [!DNL Marketo Measure] som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -5053,7 +5053,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
         <p>Det datum aktiviteten utfördes, ett av alternativen som användes för att fastställa slutpunktsdatumet.</p>
       </td>
       <td>
-        <p>2018-08-27 07:00:00,000</p>
+        <p>2018-08-27 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -5071,26 +5071,26 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerats från källsystemet i JSON-format.</td>
+      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerat från källsystemet i JSON-format.</td>
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -5136,26 +5136,26 @@ Tabell över alla ISO-valutor.
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum då posten senast ändrades [!DNL Marketo Measure].</td>
-      <td>2018-08-27 18:30:25 000</td>
+      <td>Datum när posten senast ändrades i [!DNL Marketo Measure].</td>
+      <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE_CRM</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i källsystemet.</td>
-      <td>2018-08-27 18:30:25 000</td>
+      <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i [!DNL Marketo Measure]</td>
-      <td>2018-08-27 18:30:25 000</td>
+      <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE_CRM</td>
       <td>timestamp_ntz</td>
       <td>Det datum då posten skapades i källsystemet.</td>
-      <td>2018-08-27 18:30:25 000</td>
+      <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
       <td>ISO_NUMERIC</td>
@@ -5179,19 +5179,19 @@ Tabell över alla ISO-valutor.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -5236,13 +5236,13 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>
         <p>Datum när chatten loggades.</p>
       </td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
@@ -5318,26 +5318,26 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_CUSTOMER_EVENTS {#biz-customer-events}
 
-Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabellen är tom om [!DNL Marketo Measure] Händelser är inte aktiverade.
+Webbhändelser som har spelats in med anpassade händelser i JavaScript. Den här tabellen är tom om [!DNL Marketo Measure] händelser inte är aktiverade.
 
 <table>
   <tbody>
@@ -5375,13 +5375,13 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
       <td>
         <p>Det datum som händelsen utlöstes från det anpassade javascript-skriptet.</p>
       </td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Det senaste datumet som posten ändrades.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>
@@ -5429,19 +5429,19 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Tabelle
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -5664,19 +5664,19 @@ Landningssidor som hämtats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -5698,7 +5698,7 @@ Mappningstabell för e-postadresser och besökar-ID.
       <td>varchar</td>
       <td>Ett unikt ID för posten.</td>
       <td>
-        <p>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13 000</p>
+        <p>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13.000</p>
       </td>
     </tr>
     <tr>
@@ -5732,7 +5732,7 @@ Mappningstabell för e-postadresser och besökar-ID.
         <p>Radens senast ändrade datum</p>
       </td>
       <td>
-        <p>2018-08-14 23:55:03,000</p>
+        <p>2018-08-14 23:55:03.000</p>
       </td>
     </tr>
     <tr>
@@ -5742,7 +5742,7 @@ Mappningstabell för e-postadresser och besökar-ID.
         <p>Radens skapade datum</p>
       </td>
       <td>
-        <p>2018-08-14 23:55:03,000</p>
+        <p>2018-08-14 23:55:03.000</p>
       </td>
     </tr>
     <tr>
@@ -5769,30 +5769,30 @@ Mappningstabell för e-postadresser och besökar-ID.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_FACTS {#biz-facts}
 
-Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT) och Cost data. Används internt som stöd [!DNL Marketo Measure] rapportering.
+Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT) och Cost data. Används internt som stöd för [!DNL Marketo Measure]-rapportering.
 
 >[!IMPORTANT]
 >
->Marketo Measure kommer att ta bort denna tabell i mitten av 2024. Om du vill skapa den på din sida, kör [den här SQL-frågan](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure kommer att ta bort denna tabell i mitten av 2024. Om du vill skapa den på din sida kör du [den här SQL-frågan](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
@@ -6113,7 +6113,7 @@ Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpo
     <tr>
       <td>TYP</td>
       <td>tal(38,0)</td>
-      <td>Anger radens fakttyp. 1 = Buyer Attribution Touchpoint 2 = cost 3 = Buyer Touchpoint 4 = User Touchpoint 5 = Page View 6 = Session 7 = Form Submit 8 = Impression</td>
+      <td>Anger radens fakttyp. 1 = Buyer Attribution Touchpoint 2 = Kostnad 3 = Buyer Touchpoint 4 = Användarens slutpunkt 5 = Sidvisning 6 = Session 7 = Formulärsändning 8 = Impression</td>
       <td>3</td>
     </tr>
     <tr>
@@ -6126,7 +6126,7 @@ Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpo
       <td>TIDSSTÄMPEL</td>
       <td>timestamp_ntz</td>
       <td>Datum och tid då händelsen inträffade.</td>
-      <td>2018-08-28 19:39:15 000</td>
+      <td>2018-08-28 19:39:15.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -6135,7 +6135,7 @@ Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpo
         <p>Datum då raden senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-29 00:46:47 000</p>
+        <p>2018-08-29 00:46:47.000</p>
       </td>
     </tr>
     <tr>
@@ -6321,7 +6321,7 @@ Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpo
         <p>Det datum då affärsmöjligheten skapades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-31 15:45:47 000</p>
+        <p>2018-08-31 15:45:47.000</p>
       </td>
     </tr>
     <tr>
@@ -6333,7 +6333,7 @@ Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpo
         <p>Stängningsdatum för affärsmöjligheten från källsystemet.</p>
       </td>
       <td>
-        <p>2018-12-31 07:00:00,000</p>
+        <p>2018-12-31 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -6344,7 +6344,7 @@ Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpo
       <td>
         <p>Det datum kontaktposten skapades från källsystemet.</p>
       </td>
-      <td>2017-04-28 00:21:52 000</td>
+      <td>2017-04-28 00:21:52.000</td>
     </tr>
     <tr>
       <td>CONTACT_ID</td>
@@ -6371,7 +6371,7 @@ Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpo
         <p>Det datum då lead-posten skapades från källsystemet.</p>
       </td>
       <td>
-        <p>2017-04-28 00:21:52 000</p>
+        <p>2017-04-28 00:21:52.000</p>
       </td>
     </tr>
     <tr>
@@ -6544,19 +6544,19 @@ Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpo
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -6630,7 +6630,7 @@ Insamlade formulärinskickat material.
         <p>Datum då formuläret skickades.</p>
       </td>
       <td>
-        <p>2018-08-06 01:35:21 000</p>
+        <p>2018-08-06 01:35:21.000</p>
       </td>
     </tr>
     <tr>
@@ -6640,7 +6640,7 @@ Insamlade formulärinskickat material.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-07 23:09:52 000</p>
+        <p>2018-08-07 23:09:52.000</p>
       </td>
     </tr>
     <tr>
@@ -6813,19 +6813,19 @@ Insamlade formulärinskickat material.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -6849,7 +6849,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
         <p>Ett unikt ID för Impression.</p>
       </td>
       <td>
-        <p>6acd7b43290490fe5c53eed31281d09a|2020-05-18:22:20:59|0000|0|2869369052</p>
+        <p>6acd7b43290490fe5c53eed31281d09a|2020-05-18:22:20:59|000|0|286936905 22</p>
       </td>
     </tr>
     <tr>
@@ -6890,7 +6890,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>Datum då Impression opererades.</p>
       </td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -6898,7 +6898,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>
@@ -7064,7 +7064,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       </td>
       <td>varchar</td>
       <td>
-        <p>Annonsplattform [!DNL Marketo Measure] har kunnat lösa sig från, vanligtvis en av våra integreringspartners.</p>
+        <p>Ad-plattformen [!DNL Marketo Measure] kunde matchas från, vanligtvis en av våra integreringspartners.</p>
       </td>
       <td>Google</td>
     </tr>
@@ -7329,7 +7329,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
         <p>Från javascript- och IP-adressen upptäckte den webbläsare som användaren var på under sessionen.</p>
       </td>
       <td>
-        <p>Krom</p>
+        <p>Chrome</p>
       </td>
     </tr>
     <tr>
@@ -7454,19 +7454,19 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -7629,7 +7629,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
-      <td>2018-08-02 06:37:29 000</td>
+      <td>2018-08-02 06:37:29.000</td>
     </tr>
     <tr>
       <td>
@@ -7640,7 +7640,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-02 06:37:29 000</p>
+        <p>2018-08-02 06:37:29.000</p>
       </td>
     </tr>
     <tr>
@@ -7663,7 +7663,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Om nyckelordet behöver uppdateras för [!DNL Marketo Measure] taggning.</p>
+        <p>Om nyckelordet måste uppdateras för [!DNL Marketo Measure]-taggning eller inte.</p>
         <p>(Diagnostikfält, används för intern bearbetning.)</p>
       </td>
       <td>
@@ -7798,7 +7798,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
       <td>varchar</td>
-      <td>URL-spårningsmallen [!DNL Marketo Measure] läggs till i nyckelordet.</td>
+      <td>URL-spårningsmallen [!DNL Marketo Measure] har lagts till i nyckelordet.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
       </td>
@@ -7819,19 +7819,19 @@ Nyckelord som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -8038,19 +8038,19 @@ Landningssidor som importerats från alla anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -8084,7 +8084,7 @@ Leads som importerats från källsystemet.
         <p>Datum när lead-posten senast ändrades från källsystemet.</p>
       </td>
       <td>
-        <p>2018-08-27 21:52:10 000</p>
+        <p>2018-08-27 21:52:10.000</p>
       </td>
     </tr>
     <tr>
@@ -8093,7 +8093,7 @@ Leads som importerats från källsystemet.
       <td>
         <p>Det datum då lead-posten skapades från källsystemet.</p>
       </td>
-      <td>2018-08-27 21:52:10 000</td>
+      <td>2018-08-27 21:52:10.000</td>
     </tr>
     <tr>
       <td>
@@ -8135,7 +8135,7 @@ Leads som importerats från källsystemet.
       </td>
       <td>varchar</td>
       <td>
-        <p>Källa där lead skapades.</p>
+        <p>Source där Lead skapades.</p>
       </td>
       <td>
         <p>Annons</p>
@@ -8176,7 +8176,7 @@ Leads som importerats från källsystemet.
         <p>Datum när leadet konverterades till en kontakt.</p>
       </td>
       <td>
-        <p>2018-08-27 07:00:00,000</p>
+        <p>2018-08-27 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -8209,7 +8209,7 @@ Leads som importerats från källsystemet.
       </td>
       <td>varchar</td>
       <td>
-        <p>Aktuell fas av lead, känns igen som en anpassad fas som kan skapas i [!DNL Marketo Measure] program.</p>
+        <p>Aktuell fas av lead, som känns igen som en anpassad fas som kan skapas i programmet [!DNL Marketo Measure].</p>
       </td>
       <td>
         <p>Demo schemalagd</p>
@@ -8221,7 +8221,7 @@ Leads som importerats från källsystemet.
       </td>
       <td>varchar</td>
       <td>
-        <p>Alla tidigare faser för lead, identifieras som anpassade stadier som kan skapas i [!DNL Marketo Measure] program.</p>
+        <p>Alla tidigare faser för lead, som identifieras som anpassade stadier som kan skapas i programmet [!DNL Marketo Measure].</p>
       </td>
       <td>
         <p>MQL</p>
@@ -8271,7 +8271,7 @@ Leads som importerats från källsystemet.
       </td>
       <td>varchar</td>
       <td>
-        <p>The [!DNL Marketo Measure] Cookie-ID som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
+        <p>Cookie-ID [!DNL Marketo Measure] som används för att fylla i från en integrationspartner för att mappa en offlinehändelse till en webbsession. Krav: Aktivera samtalsspårning: Sant</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -8306,7 +8306,7 @@ Leads som importerats från källsystemet.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerats från källsystemet i JSON-format.</td>
+      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerat från källsystemet, i JSON-format.</td>
       <td>{"Lead_Type__c":"Försäljning skapad", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -8331,19 +8331,19 @@ Leads som importerats från källsystemet.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -8410,7 +8410,7 @@ Scenövergångar för Leads eller Kontakter.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för Buyer Touchpoint som är knuten till övergången.</p>
+        <p>ID för den Buyer Touchpoint som är knuten till övergången.</p>
       </td>
       <td>
         <p>TP2_Person_00Q310001Fx6AlEAJ_2018-08-28:14-41-06-1674260.d00ceb09fbd3</p>
@@ -8460,7 +8460,7 @@ Scenövergångar för Leads eller Kontakter.
         <p>tal(38,0)</p>
       </td>
       <td>
-        <p>Scenens numeriska rankning, enligt ordningen i [!DNL Marketo Measure] Inställningar för scenmappning.</p>
+        <p>Scenens numeriska rankning, enligt ordningen i inställningarna för [!DNL Marketo Measure]-scenmappning.</p>
       </td>
       <td>
         <p>5</p>
@@ -8529,7 +8529,7 @@ Scenövergångar för Leads eller Kontakter.
         <p>Övergångsdatum för föregående fas, enligt scenrankningen.</p>
       </td>
       <td>
-        <p>2017-11-28 21:26:44 000</p>
+        <p>2017-11-28 21:26:44.000</p>
       </td>
     </tr>
     <tr>
@@ -8541,7 +8541,7 @@ Scenövergångar för Leads eller Kontakter.
         <p>Övergångsdatum för nästa fas, enligt scenrankningen.</p>
       </td>
       <td>
-        <p>2017-12-11 22:39:17 000</p>
+        <p>2017-12-11 22:39:17.000</p>
       </td>
     </tr>
     <tr>
@@ -8551,7 +8551,7 @@ Scenövergångar för Leads eller Kontakter.
         <p>Senaste ändringsdatum för posten.</p>
       </td>
       <td>
-        <p>2018-08-28 15:31:10 000</p>
+        <p>2018-08-28 15:31:10.000</p>
       </td>
     </tr>
     <tr>
@@ -8572,19 +8572,19 @@ Scenövergångar för Leads eller Kontakter.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -8617,7 +8617,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>Senaste ändringsdatum för affärsmöjligheten från källsystemet.</p>
       </td>
-      <td>2017-11-28 21:26:44 000</td>
+      <td>2017-11-28 21:26:44.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
@@ -8625,7 +8625,7 @@ Möjligheter som importerats från källsystemet.
       <td>
         <p>Skapat datum för affärsmöjligheten från källsystemet.</p>
       </td>
-      <td>2017-11-28 21:26:44 000</td>
+      <td>2017-11-28 21:26:44.000</td>
     </tr>
     <tr>
       <td>
@@ -8688,7 +8688,7 @@ Möjligheter som importerats från källsystemet.
         <p>Förväntat eller faktiskt slutdatum för affärsmöjligheten från källsystemet.</p>
       </td>
       <td>
-        <p>2019-08-28 07:00:00,000</p>
+        <p>2019-08-28 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -8787,7 +8787,7 @@ Möjligheter som importerats från källsystemet.
       </td>
       <td>varchar</td>
       <td>
-        <p>Affärsmöjlighetens aktuella fas, enligt definitionen i [!DNL Marketo Measure] program.</p>
+        <p>Affärsmöjlighetens aktuella fas, enligt definitionen i programmet [!DNL Marketo Measure].</p>
       </td>
       <td>
         <p>DM Demo</p>
@@ -8799,7 +8799,7 @@ Möjligheter som importerats från källsystemet.
       </td>
       <td>varchar</td>
       <td>
-        <p>En sträng med alla stadier som säljprojektet tidigare gått igenom, enligt definitionen i [!DNL Marketo Measure] program.</p>
+        <p>En sträng med alla stadier som säljprojektet tidigare gått igenom, enligt definitionen i programmet [!DNL Marketo Measure].</p>
       </td>
       <td>
         <p>Kvalificerad identifiering, demo schemalagd</p>
@@ -8846,29 +8846,29 @@ Möjligheter som importerats från källsystemet.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerats från källsystemet i JSON-format.</td>
+      <td>Anpassade egenskaper som [!DNL Marketo Measure] har importerat från källsystemet, i JSON-format.</td>
       <td>{"Opportunity_Location__c":"Seattle", "Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>*</b> OPPORTUNITY_TYPE</td>
+      <td><b> *</b> OPPORTUNITY_TYPE</td>
       <td>varchar</td>
       <td>Typ av affärsmöjlighet, som Ny affärsverksamhet, Förnyelse osv.</td>
       <td>Förnyelse, potentiell kund</td>
@@ -8876,7 +8876,7 @@ Möjligheter som importerats från källsystemet.
   </tbody>
 </table>
 <p>
-<b>*</b> <i>Endast tillgängligt i Marketo Measure Ultimate</i>
+<b> *</b> <i>Endast tillgängligt i Marketo Measure Ultimate</i>
 <p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
@@ -8953,7 +8953,7 @@ Scenövergångar för affärsmöjligheter.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för Buyer Attribution Touchpoint som är knuten till övergången.</p>
+        <p>ID för den Buyer Attribution Touchpoint som är knuten till övergången.</p>
       </td>
       <td>
         <p>BAT2_0060Z00000nEgjlQAC_0030Z0003IjojKQAR_2018-06-01:19-51-38-1685390.beed ec556e7757</p>
@@ -8968,7 +8968,7 @@ Scenövergångar för affärsmöjligheter.
         <p>Datum när posten överfördes till scenen.</p>
       </td>
       <td>
-        <p>2018-05-26 07:29:43 000</p>
+        <p>2018-05-26 07:29:43.000</p>
       </td>
     </tr>
     <tr>
@@ -9003,7 +9003,7 @@ Scenövergångar för affärsmöjligheter.
         <p>tal(38,0)</p>
       </td>
       <td>
-        <p>Scenens numeriska rankning, enligt ordningen i [!DNL Marketo Measure] Inställningar för scenmappning.</p>
+        <p>Scenens numeriska rankning, enligt ordningen i inställningarna för [!DNL Marketo Measure]-scenmappning.</p>
       </td>
       <td>
         <p>4</p>
@@ -9070,7 +9070,7 @@ Scenövergångar för affärsmöjligheter.
         <p>Övergångsdatum för föregående fas, enligt scenrankningen.</p>
       </td>
       <td>
-        <p>2015-07-16 17:41:49 000</p>
+        <p>2015-07-16 17:41:49.000</p>
       </td>
     </tr>
     <tr>
@@ -9082,7 +9082,7 @@ Scenövergångar för affärsmöjligheter.
         <p>Övergångsdatum för nästa fas, enligt scenrankningen.</p>
       </td>
       <td>
-        <p>2018-08-27 19:40:52 000</p>
+        <p>2018-08-27 19:40:52.000</p>
       </td>
     </tr>
     <tr>
@@ -9092,7 +9092,7 @@ Scenövergångar för affärsmöjligheter.
         <p>Senaste ändringsdatum för posten.</p>
       </td>
       <td>
-        <p>2018-08-28 03:53:33 000</p>
+        <p>2018-08-28 03:53:33.000</p>
       </td>
     </tr>
     <tr>
@@ -9113,19 +9113,19 @@ Scenövergångar för affärsmöjligheter.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -9197,7 +9197,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
         <p>Datum när sidvyn skapades.</p>
       </td>
       <td>
-        <p>2018-08-19 16:49:58 000</p>
+        <p>2018-08-19 16:49:58.000</p>
       </td>
     </tr>
     <tr>
@@ -9207,7 +9207,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-19 16:55:37 000</p>
+        <p>2018-08-19 16:55:37.000</p>
       </td>
     </tr>
     <tr>
@@ -9394,19 +9394,19 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -9551,7 +9551,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
-      <td>2018-08-02 06:36:25 000</td>
+      <td>2018-08-02 06:36:25.000</td>
     </tr>
     <tr>
       <td>
@@ -9561,7 +9561,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
-      <td>2018-08-02 06:36:25 000</td>
+      <td>2018-08-02 06:36:25.000</td>
     </tr>
     <tr>
       <td>
@@ -9581,7 +9581,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
         <p>boolesk</p>
       </td>
       <td>
-        <p>Om placeringen behöver uppdateras för [!DNL Marketo Measure] taggning.</p>
+        <p>Om placeringen behöver uppdateras för [!DNL Marketo Measure]-taggning eller inte.</p>
         <p>(Diagnostikfält, används av intern bearbetning.)</p>
       </td>
       <td>false</td>
@@ -9630,26 +9630,26 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake skapade datumet för inspelningen</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake modifierat datumet för inspelningen</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake har raderat posten om den har tagits bort</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_SEGMENTS {#biz-segments}
 
-Segmentvärden som definieras i [!DNL Marketo Measure] program.
+Segmentvärden som definierats i programmet [!DNL Marketo Measure].
 
 <table>
   <tbody>
@@ -9699,19 +9699,19 @@ Segmentvärden som definieras i [!DNL Marketo Measure] program.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -9747,7 +9747,7 @@ Kopplar namnet på det anpassade segmentet till dess kategorivärde. (Detta mapp
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2022-02-28 18:12:35 000</p>
+        <p>2022-02-28 18:12:35.000</p>
       </td>
     </tr>
     <tr>
@@ -9778,19 +9778,19 @@ Kopplar namnet på det anpassade segmentet till dess kategorivärde. (Detta mapp
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -9846,7 +9846,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>Datum för sessionen.</p>
       </td>
       <td>
-        <p>2016-08-01 14:24:21 000</p>
+        <p>2016-08-01 14:24:21.000</p>
       </td>
     </tr>
     <tr>
@@ -9858,7 +9858,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-09-01 03:49:10 000</p>
+        <p>2018-09-01 03:49:10.000</p>
       </td>
     </tr>
     <tr>
@@ -9873,7 +9873,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       </td>
       <td>varchar</td>
       <td>
-        <p>Kanal som är tilldelad sessionen, enligt definition i kanaldefinitionerna i [!DNL Marketo Measure] program.</p>
+        <p>Kanal som är tilldelad sessionen, enligt definition i kanaldefinitionerna som angetts i programmet [!DNL Marketo Measure].</p>
       </td>
       <td>
         <p>Betalsökning.AdWords</p>
@@ -9969,7 +9969,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       </td>
       <td>varchar</td>
       <td>
-        <p>Används för att definiera källan som resulterade i sessionen. Detta kan tolkas ut från URL:en från utm_source eller anges till en annonsleverantör om [!DNL Marketo Measure] kan åtgärda en annons.</p>
+        <p>Används för att definiera källan som resulterade i sessionen. Detta kan tolkas ut från URL:en från utm_source eller anges till en annonsleverantör om [!DNL Marketo Measure] kan matcha en annons.</p>
       </td>
       <td>
         <p>Google AdWord</p>
@@ -10040,7 +10040,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>Användarens webbläsare och operativsystem under sessionen.</p>
       </td>
       <td>
-        <p>Chrome (65.0), Windows (6.1)</p>
+        <p>Chrome (6.5.0), Windows (6.1)</p>
       </td>
     </tr>
     <tr>
@@ -10049,7 +10049,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       </td>
       <td>varchar</td>
       <td>
-        <p>Ad Platform [!DNL Marketo Measure] som vi har löst från, vanligtvis en av våra integreringspartners.</p>
+        <p>Ad-plattformen [!DNL Marketo Measure] löstes från, vanligtvis en av våra integrationspartners.</p>
       </td>
       <td>
         <p>Google</p>
@@ -10341,7 +10341,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
     </tr>
     <tr>
       <td>
-        <p>KÄLLA</p>
+        <p>SOURCE</p>
       </td>
       <td>varchar</td>
       <td>
@@ -10353,7 +10353,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
     </tr>
     <tr>
       <td>
-        <p>MEDEL</p>
+        <p>MEDIUM</p>
       </td>
       <td>varchar</td>
       <td>
@@ -10537,19 +10537,19 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -10698,7 +10698,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>Datum när posten senast ändrades.</p>
       </td>
-      <td>2018-08-02 06:37:29 000</td>
+      <td>2018-08-02 06:37:29.000</td>
     </tr>
     <tr>
       <td>
@@ -10708,7 +10708,7 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>
         <p>Datum då posten först importerades från källsystemet.</p>
       </td>
-      <td>2018-08-02 06:37:29 000</td>
+      <td>2018-08-02 06:37:29.000</td>
     </tr>
     <tr>
       <td>
@@ -10728,7 +10728,7 @@ Webbplatser som importerats från anslutna annonskonton.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Om webbplatsen behöver uppdateras för [!DNL Marketo Measure] taggning.</p>
+        <p>Om webbplatsen behöver uppdateras för [!DNL Marketo Measure]-taggning eller inte.</p>
         <p>(Diagnostikfält, används för intern bearbetning.)</p>
       </td>
       <td>false</td>
@@ -10779,19 +10779,19 @@ Webbplatser som importerats från anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -10955,7 +10955,7 @@ Webbplatslänkar från anslutna annonskonton.
         <p>Radens senast ändrade datum</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:50 000</p>
+        <p>2018-08-02 06:36:50.000</p>
       </td>
     </tr>
     <tr>
@@ -10967,7 +10967,7 @@ Webbplatslänkar från anslutna annonskonton.
         <p>Det datum då platslänken hämtades för första gången [!DNL Marketo Measure]</p>
       </td>
       <td>
-        <p>2018-08-02 06:36:50 000</p>
+        <p>2018-08-02 06:36:50.000</p>
       </td>
     </tr>
     <tr>
@@ -11068,26 +11068,26 @@ Webbplatslänkar från anslutna annonskonton.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake skapade datumet för inspelningen</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake modifierat datumet för inspelningen</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Snowflake har raderat posten om den har tagits bort</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_STAGE_DEFINITIONS {#biz-stage-definitions}
 
-Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] program.
+Lista över stadier som importerats eller definierats i programmet [!DNL Marketo Measure].
 
 <table>
   <tbody>
@@ -11114,7 +11114,7 @@ Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] p
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-22 17:27:27 000</p>
+        <p>2018-08-22 17:27:27.000</p>
       </td>
     </tr>
     <tr>
@@ -11187,7 +11187,7 @@ Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] p
       </td>
       <td>varchar</td>
       <td>
-        <p>Status för scenen, enligt definition i [!DNL Marketo Measure] Programscenmappning.</p>
+        <p>Status för scenen, enligt definition i [!DNL Marketo Measure]-programscenmappningen.</p>
       </td>
       <td>
         <p>Öppna</p>
@@ -11251,19 +11251,19 @@ Lista över stadier som importerats eller definierats i [!DNL Marketo Measure] p
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -11297,7 +11297,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-08-29:29:30 000</p>
+        <p>2018-08-29 22:29:30.000</p>
       </td>
     </tr>
     <tr>
@@ -11381,7 +11381,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>Datum för kontaktytan.</p>
       </td>
       <td>
-        <p>2018-08-27 20:04:40 000</p>
+        <p>2018-08-27 20:04:40.000</p>
       </td>
     </tr>
     <tr>
@@ -11402,7 +11402,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Kanalen som kontaktytan hamnar i, enligt definition i de anpassade kanaldefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till som"Marknadskanal - Sökväg".</p>
+        <p>Kanalen som kontaktytan hamnar i, enligt definition i de anpassade kanaldefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till som"Marknadskanal - Sökväg".</p>
       </td>
       <td>Social.LinkedIn</td>
     </tr>
@@ -11412,7 +11412,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den första kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den första kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</p>
       </td>
       <td>ABC</td>
     </tr>
@@ -11422,7 +11422,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den andra kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den andra kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</p>
       </td>
       <td>
         <p>Ja</p>
@@ -11434,7 +11434,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den tredje kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den tredje kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</p>
       </td>
       <td>
         <p>Övrigt</p>
@@ -11446,7 +11446,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den fjärde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den fjärde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</p>
       </td>
       <td>
         <p>Partner</p>
@@ -11458,7 +11458,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den femte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den femte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</p>
       </td>
       <td></td>
     </tr>
@@ -11468,7 +11468,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den sjätte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den sjätte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</p>
       </td>
       <td></td>
     </tr>
@@ -11477,7 +11477,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>KATEGORI7</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den sjunde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den sjunde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -11485,7 +11485,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>KATEGORI8</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den åttonde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den åttonde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -11493,7 +11493,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>KATEGORI9</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den nionde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den nionde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -11501,7 +11501,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>KATEGORI10</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den tionde kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den tionde kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -11509,7 +11509,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>KATEGORI11</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den elfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den elfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -11517,7 +11517,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>KATEGORI12</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den tolfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den tolfte kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -11525,7 +11525,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>KATEGORI13</p>
       </td>
       <td>varchar</td>
-      <td>Segmentvärdet för den 13:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</td>
+      <td>Segmentvärdet för den 13:e kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</td>
       <td></td>
     </tr>
     <tr>
@@ -11534,7 +11534,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den 14:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den 14:e kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</p>
       </td>
       <td></td>
     </tr>
@@ -11544,7 +11544,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Segmentvärdet för den 15:e kategori som kontaktytan tillhör, enligt definition i segmentdefinitionerna i [!DNL Marketo Measure] App. I CRM kallas det"segment".</p>
+        <p>Segmentvärdet för den 15:e kategorin som kontaktytan tillhör, enligt definition i segmentdefinitionerna i appen [!DNL Marketo Measure]. I CRM kallas det"segment".</p>
       </td>
       <td></td>
     </tr>
@@ -11556,7 +11556,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>
         <p>Från javascript- och IP-adressen upptäckte den webbläsare som användaren var på under sessionen.</p>
       </td>
-      <td>Krom</td>
+      <td>Chrome</td>
     </tr>
     <tr>
       <td>
@@ -11665,7 +11665,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>Datum när formuläret skickades.</p>
       </td>
       <td>
-        <p>2017-06-20 01:06:41 000</p>
+        <p>2017-06-20 01:06:41.000</p>
       </td>
     </tr>
     <tr>
@@ -11706,11 +11706,11 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     </tr>
     <tr>
       <td>
-        <p>MEDEL</p>
+        <p>MEDIUM</p>
       </td>
       <td>varchar</td>
       <td>
-        <p>Används för att definiera mediet som resulterade i kontaktytan. Detta kan antingen tolkas ut från URL:en från utm_medium. Eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "cpc" eller "display".</p>
+        <p>Används för att definiera mediet som resulterade i kontaktytan. Detta kan antingen tolkas ut från URL:en från utm_medium. Eller, om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som "cpc" eller "display".</p>
       </td>
       <td>
         <p>Social</p>
@@ -11722,7 +11722,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Används för att definiera källan som resulterade i kontaktytan. Detta kan tolkas från URL:en från utm_source, vanligtvis inställd som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "Google AdWords" eller "Facebook". Refereras i CRM till"Kontaktpunktskälla".</p>
+        <p>Används för att definiera källan som resulterade i kontaktytan. Det här kan tolkas från URL:en från utm_source, som i allmänhet anges som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som "Google AdWords" eller "Facebook". I CRM kallas det"Touchpoint Source".</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -11746,7 +11746,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Annonsplattform [!DNL Marketo Measure] har kunnat lösa sig från, vanligtvis en av våra integreringspartners.</p>
+        <p>Ad-plattformen [!DNL Marketo Measure] kunde matchas från, vanligtvis en av våra integreringspartners.</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -12311,19 +12311,19 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -12386,19 +12386,19 @@ Sammanställning av URL-adresser från landningssidor, referenssidor och sidvyer
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -12432,7 +12432,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2018-09-05 23:30:53 000</p>
+        <p>2018-09-05 23:30:53.000</p>
       </td>
     </tr>
     <tr>
@@ -12553,7 +12553,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       </td>
       <td>varchar</td>
       <td>
-        <p>Kanalen som kontaktytan hamnar i, enligt definition i de anpassade kanaldefinitionerna i [!DNL Marketo Measure] App. I CRM refereras till som"Marknadskanal - Sökväg".</p>
+        <p>Kanalen som kontaktytan hamnar i, enligt definition i de anpassade kanaldefinitionerna i appen [!DNL Marketo Measure]. I CRM refereras till som"Marknadskanal - Sökväg".</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -12688,7 +12688,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>Datum när formuläret skickades.</p>
       </td>
       <td>
-        <p>2015-06-03 17:49:10 000</p>
+        <p>2015-06-03 17:49:10.000</p>
       </td>
     </tr>
     <tr>
@@ -12729,11 +12729,11 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
     </tr>
     <tr>
       <td>
-        <p>MEDEL</p>
+        <p>MEDIUM</p>
       </td>
       <td>varchar</td>
       <td>
-        <p>Används för att definiera mediet som resulterade i kontaktytan. Detta kan antingen tolkas ut från URL:en från utm_medium. Eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "cpc" eller "display".</p>
+        <p>Används för att definiera mediet som resulterade i kontaktytan. Detta kan antingen tolkas ut från URL:en från utm_medium. Eller, om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som "cpc" eller "display".</p>
       </td>
       <td>
         <p>betald</p>
@@ -12745,7 +12745,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       </td>
       <td>varchar</td>
       <td>
-        <p>Används för att definiera källan som resulterade i kontaktytan. Detta kan tolkas från URL:en från utm_source, vanligtvis inställd som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan tolka en annons, det kan vara värden som "Google AdWords" eller "Facebook". Refereras i CRM till"Kontaktpunktskälla".</p>
+        <p>Används för att definiera källan som resulterade i kontaktytan. Det här kan tolkas från URL:en från utm_source, som i allmänhet anges som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som "Google AdWords" eller "Facebook". I CRM kallas det"Touchpoint Source".</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -12769,7 +12769,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       </td>
       <td>varchar</td>
       <td>
-        <p>Annonsplattform [!DNL Marketo Measure] har kunnat lösa sig från, vanligtvis en av våra integreringspartners.</p>
+        <p>Ad-plattformen [!DNL Marketo Measure] kunde matchas från, vanligtvis en av våra integreringspartners.</p>
       </td>
       <td>
         <p>Google</p>
@@ -13171,26 +13171,26 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
 
 ### BIZ_WEB_HOST_MAPPINGS {#biz-web-host-mappings}
 
-Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID och Munckin ID.
+Mappningstabell för att mappa [!DNL Marketo Measure] sessions-ID till Adobe ECID och Munckin Id.
 
 <table>
   <tbody>
@@ -13205,7 +13205,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
       <td>varchar</td>
       <td>Ett unikt ID för mappningsposten.</td>
       <td>
-        <p>0d643578c0c74753eff91abe668ed328|2020-06-17:19:03:36|0002|0|568668</p>
+        <p>0d643578c0c74753eff91abe668ed328|2020-06-17:19:03:36|002|0|568668</p>
       </td>
     </tr>
     <tr>
@@ -13213,7 +13213,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
         <p>COOKIE_ID</p>
       </td>
       <td>varchar</td>
-      <td>The [!DNL Marketo Measure] inspelat cookie-id.</td>
+      <td>[!DNL Marketo Measure] spelade in cookie-ID.</td>
       <td>0d643578c0c74753eff91abe668ed328</td>
     </tr>
     <tr>
@@ -13229,7 +13229,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
         <p>SESSION_ID</p>
       </td>
       <td>varchar</td>
-      <td>The [!DNL Marketo Measure] Sessions-ID.</td>
+      <td>Sessions-ID [!DNL Marketo Measure].</td>
       <td>2018-08-06:01-35-24-1231230.9bc63c34482f</td>
     </tr>
     <tr>
@@ -13239,7 +13239,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
       <td>timestamp_ntz</td>
       <td>Datum när mappningen registrerades.</td>
       <td>
-        <p>2020-06-17 19:03:36 000</p>
+        <p>2020-06-17 19:03:36.000</p>
       </td>
     </tr>
     <tr>
@@ -13249,7 +13249,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
         <p>Datum när posten senast ändrades.</p>
       </td>
       <td>
-        <p>2020-06-17 19:03:36 000</p>
+        <p>2020-06-17 19:03:36.000</p>
       </td>
     </tr>
     <tr>
@@ -13319,7 +13319,7 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
     <tr>
       <td>MAPPING_TYPE</td>
       <td>varchar</td>
-      <td>Typen av ID som är mappad till [!DNL Marketo Measure] cookie-ID.</td>
+      <td>Den typ av ID som mappas till cookie-ID:t [!DNL Marketo Measure].</td>
       <td>Adobe_orgId_eccid</td>
     </tr>
     <tr>
@@ -13338,19 +13338,19 @@ Mappa tabell till mappning [!DNL Marketo Measure] Sessions-ID till Adobe ECID oc
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten skapades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten senast ändrades i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Datum när posten markerades som borttagen i Snowflake.</td>
-      <td>2020-01-01 01:01:00,000</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -13379,7 +13379,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1,2
 ```
 
-**Hur mycket av de tilldelade intäkterna för varje kanal stängdes under den senaste månaden, för den fullständiga vägattribueringsmodellen?**
+**Hur mycket attributerad intäkt för varje kanal stängdes under den senaste månaden för den fullständiga sökvägsattribueringsmodellen?**
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
@@ -13447,7 +13447,7 @@ group by 1,2
 order by 1
 ```
 
-**Visa alla kontaktytor för Buyer Attribution (BAT) och deras tilldelade intäkter för en enda möjlighet.**
+**Visa alla slutpunkter för Buyer Attribution (BAT) och deras tilldelade intäkter för en enskild affärsmöjlighet.**
 
 >[!NOTE]
 >

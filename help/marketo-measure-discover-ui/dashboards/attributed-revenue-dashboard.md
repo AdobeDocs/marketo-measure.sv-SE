@@ -1,5 +1,5 @@
 ---
-description: Kontrollpanel för attributerade intäkter - [!DNL Marketo Measure] - Produkt
+description: Kontrollpanel för attributerade intäkter - [!DNL Marketo Measure]  - Produkt
 title: Kontrollpanel för attributerade intäkter
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
@@ -16,7 +16,7 @@ Kontrollpanelen för attributerade intäkter ger ett fokuserat perspektiv på de
 
 >[!NOTE]
 >
->Den här instrumentpanelen är i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den nuvarande instrumentpanelen kommer att bli inaktuell efter att vi har gjort en fullständig övergång och säkerställt optimal funktionalitet.
+>Den här instrumentpanelen finns i Beta. Under denna övergångsfas kommer både den nuvarande och den nya kontrollpanelen att vara tillgänglig. Den nuvarande instrumentpanelen kommer att bli inaktuell efter att vi har gjort en fullständig övergång och säkerställt optimal funktionalitet.
 
 **Frågor till styrelsen**:
 
@@ -27,8 +27,8 @@ Kontrollpanelen för attributerade intäkter ger ett fokuserat perspektiv på de
 
 ### KPI-paneler {#kpi-tiles}
 
-* **Attribuerad intäkt**: Det totala inkomstbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor.
-* **Attribuerade erbjudanden**: Antal stängda vinstmöjligheter som har kontaktytor.
+* **Attributerad intäkt**: Det totala intäktsbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor.
+* **Attributerade erbjudanden**: Antalet stängda affärsmöjligheter som har kontaktytor.
 
 ### Diagram över attributerade intäkter per kanal över tid {#attributed-revenue-by-channel-over-time-chart}
 
@@ -37,7 +37,7 @@ Staplat stapeldiagram med totala attributerade intäkter, segmenterade efter kan
 * Använd detaljfunktionerna för att kategorisera data efter månad, kvartal eller år.
 * Håll pekaren över ett stolpsegment eller mellanrummet mellan stolparna för att visa detaljerad information.
 
-**Frågor och svar**:
+**Frågar diagramsvaren**:
 
 * Vilka kanaler genererade de mest avsatta intäkterna varje kvartal?
 * Hur fördelades de avsatta intäkterna per kanal förra månaden?
@@ -79,6 +79,6 @@ Kontrollpanelen är utrustad med följande inställningar och filter:
 
 >[!MORELIKETHIS]
 >
->* [Grunderna i kontrollpanelen](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Grunderna för instrumentpanel](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Synlighetsprincip för instrumentpanelsdata](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

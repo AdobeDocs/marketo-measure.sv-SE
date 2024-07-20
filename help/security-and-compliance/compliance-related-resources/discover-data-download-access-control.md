@@ -1,5 +1,5 @@
 ---
-description: '"[!UICONTROL Discover Data Download] Åtkomstkontroll - Marketo Measure - produktdokumentation'
+description: "[!UICONTROL Discover Data Download] Åtkomstkontroll - Marketo Measure - Produktdokumentation"
 title: "[!UICONTROL Discover Data Download] Åtkomstkontroll"
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Discover Data Download] Åtkomstkontroll {#discover-data-download-access-control}
+# Åtkomstkontroll för [!UICONTROL Discover Data Download] {#discover-data-download-access-control}
 
-[!UICONTROL Discover Data Download] kontrollfunktioner [!DNL Marketo Measure] Administratörer som anger datahämtningsprinciper för Discover-panelerna baserat på användarnas roller. Kontrollen omfattar alla datahämtningsåtgärder på Discover-paneler.
+Kontrollen [!UICONTROL Discover Data Download] gör att [!DNL Marketo Measure]-administratörer kan ange datahämtningsprinciper för Discover-instrumentpaneler baserat på användarnas roller. Kontrollen omfattar alla datahämtningsåtgärder på Discover-paneler.
 
-1. Klicka **[!UICONTROL Data Access]** under [!UICONTROL Security].
+1. Klicka på **[!UICONTROL Data Access]** under [!UICONTROL Security].
 
    ![](assets/discover-data-download-access-control-1.png)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
     </tr>
    </table>
 
-1. Klicka **[!UICONTROL Save]** när det är klart.
+1. Klicka på **[!UICONTROL Save]** när du är klar.
 
    ![](assets/discover-data-download-access-control-3.png)
 

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874501
-description: Sök efter produktdokumentation och självhjälpsartiklar för Adobe Marketo Measure.
+description: Sök efter produktdokumentation och självhjälp för Adobe Marketo Measure.
 title: Marketo Measure produktdokumentation
 exl-id: cc5d46e6-9dc6-493d-a6c4-13c5fe371b9a
 source-git-commit: 20eec290fe756dd3cc5b32f37c06f7692d615978

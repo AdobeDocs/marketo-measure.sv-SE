@@ -15,35 +15,35 @@ ht-degree: 0%
 
 I den här artikeln finns en ordlista med alla Marketo Measure-fält som har lagts till i Salesforce från Marketo Measure baspaket. Du hittar även information om vilket objekt som fältet kan hittas på och hur varje fält fylls i med information.
 
-För en karta över vilket objekt varje Marketo Measure-fält relaterar till [klicka här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+[Klicka här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md) om du vill se vilket objekt varje Marketo Measure-fält relaterar till.
 
-[A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ [K](#k) ・ [L](#l) ・ [M](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ B ・ X ・ Y ・ Z
+[A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ [K](#k) ・ [L](#l) ・ [M ](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
 
 ## A {#a}
 
 **Konto** | Hittade på Buyer Attribution Touchpoint
 
-Det här fältet fylls i med det kontonamn som är kopplat till BAT.
+Det här fältet fylls i med det kontonamn som är associerat med BAT.
 
-**ID för annonskampanj** | Hittade på Buyer Touchpoint, Buyer Attribution Touchpoint
+**Annonskampanj-ID** | Finns på Buyer Touchpoint, Buyer Attribution Touchpoint
 
 Det finns tre sätt att fylla i det här fältet:
 
 `1)` Om kontaktytan kommer från en betald sökåtgärd (antingen AdWords eller BingAds) visas annonskampanj-ID:t från annonsplattformen här.
 
-`2)` Om kontaktytan inte kom från en betald sökning fylls fältet i med hjälp av värdet utm_campaign från landningssidans URL.
+`2)` Om kontaktytan inte kom från en betald sökning fylls fältet i med värdet utm_campaign från landningssidans URL.
 
-Exempel: `http://info.marketomeasure.com/adwords-for-lead-generation?utm_source=Event&utm_medium=booth&utm_campaign=Marketo%20Virtual%20Event%20sep2014`
+t.ex. `http://info.marketomeasure.com/adwords-for-lead-generation?utm_source=Event&utm_medium=booth&utm_campaign=Marketo%20Virtual%20Event%20sep2014`
 
-I det här exemplet skulle annonskampanj-ID visa: __GAId__ Virtuell marknadshändelse sept2014
+I det här exemplet skulle annonskampanj-ID:t visa: __GAId__ Marknadsföringsvirtuell händelse sept2014
 
-`3)` Om kontaktytan kommer från en Salesforce-kampanj offline (en konferens, middag, osv.), kommer annonskampanjens ID att visa Salesforce-kampanj-ID:t
+`3)` Om kontaktytan kommer från en offline-Salesforce-kampanj (en konferens, middag, osv.) visas Salesforce-kampanj-ID:t
 
 Om inget av ovanstående anges är fältet tomt.
 
 **Namn på annonskampanj** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-`1)` Om kontaktytan kommer från betalsökningar (AdWords/Bing Ads) visas annonskampanjens namn från annonsplattformen här.
+`1)` Om kontaktytan kommer från betalsökningen (AdWords/Bing Ads) visas annonskampanjens namn från annonsplattformen här.
 
 `2)` Om kontaktytan inte kom från betald sökning och landningssidans URL innehåller ett värde för utm_campaign, fylls värdet i här.
 
@@ -53,45 +53,45 @@ Om inget av ovanstående anges är fältet tomt.
 
 Om inget av ovanstående anges är fältet tomt.
 
-**Namn på annonskampanj (FT)** | Kontaktpunkt för köpare
+**Namn på annonskampanj (FT)** | Buyer Touchpoint
 
 Det här fältet fylls i på samma sätt som annonskampanjens namn. I det här fältet visas dock namnet på annonskampanjen som genererade första kontaktytan.
 
-**Namn på annonskampanj (LC)** | Kontaktpunkt för köpare
+**Namn på annonskampanj (LC)** | Buyer Touchpoint
 
 Det här fältet fylls i på samma sätt som annonskampanjens namn. I det här fältet visas emellertid namnet på annonskampanjen som genererade kontaktpunkten för att skapa leads.
 
-**Annonsinnehåll** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Lägg till innehåll** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-`1)` Om kontaktytan kommer från betalsökningar (AdWords/Bing Ads) visas hela annonskopian från annonsplattformen i fältet.
+`1)` Om kontaktytan kommer från betalsökningen (AdWords/Bing Ads) visas hela annonskopian från annonsplattformen i fältet.
 
 `2)` Om kontaktytan inte kommer från en betald sökning visas värdet utm_content i landningssidans URL.
 
-`3)` Detta fylls i med ämnesvärdet från den relaterade aktivitet som genererade kontaktpunkten.
+`3)` Detta fylls i med ämnesvärdet från den relaterade aktiviteten som genererade Touchpoint.
 
 Om inget av ovanstående anges är fältet tomt.
 
-**Måladress för annons** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Lägg till mål-URL** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-`1)` Om kontaktytan kommer från en betald sökning visar det här fältet den URL-adress som du är dirigerad till efter att du klickat på annonsen från sökmotorn.
+`1)` Om kontaktytan kommer från en betald sökning visar det här fältet den URL-adress som du omdirigeras till efter att du klickat på annonsen från sökmotorn.
 
 Om kontaktytan inte kommer från en betald sökning är fältet tomt.
 
-**Annonsgrupp-ID** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Lägg till grupp-ID** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-`1)` Om kontaktytan kommer från betald sökning visas annonseringsgrupp-ID från AdWords/Bing Ads här.
+`1)` Om kontaktytan kom från en betald sökning visas annonsgrupps-ID:t från AdWords/Bing Ads här.
 
 Om kontaktytan inte kom från en betald sökning är fältet tomt.
 
-**Namn på annonsgrupp** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Lägg till gruppnamn** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-`1)` Om kontaktytan kommer från betald sökning visas annonseringsgruppnamnet från AdWords/Bing Ads här.
+`1)` Om kontaktytan kom från en betald sökning visas annonsgruppens namn från AdWords/Bing Ads här.
 
 Om kontaktytan inte kom från en betald sökning är fältet tomt.
 
 **Annons-ID** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-`1)` Om kontaktytan kommer från betald sökning visas annonserings-ID från AdWords/Bing Ads här.
+`1)` Om kontaktytan kom från en betald sökning visas annons-ID från AdWords/Bing Ads här.
 
 `2)` Detta fylls i med det externa aktivitets-ID:t om kontaktpunkten genereras från en CRM-aktivitet.
 
@@ -107,7 +107,7 @@ Om du inte använder en anpassad modell kommer det här fältet att vara tomt.
 
 I det här fältet visas den procentuella intäkt som tilldelats en kontaktyta enligt en First Touch Model.
 
-**Attribut % full** | Buyer Attribution Touchpoint
+**Attribution % Full** | Buyer Attribution Touchpoint
 
 I det här fältet visas den procentuella intäkt som tilldelats en kontaktyta enligt en modell för fullständig sökväg.
 
@@ -127,7 +127,7 @@ I det här fältet visas den procentuella intäkt som tilldelats en kontaktyta e
 
 ## B {#b}
 
-**Marketo Measure säljprojektsbelopp** | Salesforce-affärsmöjlighet
+**Marketo Measure-säljprojektsbelopp** | Salesforce-affärsmöjlighet
 
 Om du använder ett anpassat beloppsfält för att rapportera säljprojektsintäkter kan Marketo Measure inte läsa dessa anpassade beloppsfält. Marketo Measure Opportunity Amount är ett dolt fält som används för att skapa ett arbetsflöde som gör att Marketo Measure kan läsa anpassade beloppsfält i säljprojektet.
 
@@ -149,9 +149,9 @@ Om du använder en anpassad attribueringsmodell visas i det här fältet, i deci
 
 Om du inte använder en anpassad modell kommer det här fältet att vara tomt.
 
-**Antal - anpassad modell** | Kontaktpunkt för köpare
+**Antal - anpassad modell** | Buyer Touchpoint
 
-Om du använder en anpassad attribueringsmodell visar det här fältet, i decimalform, den procentandel attribueringskrediter som har tilldelats en kontaktyta enligt de värden som har angetts i din anpassade modell. Eftersom det här fältet gäller Buyer Touchpoint-objektet är det inte en reflexion av intäktskrediten, utan bara attribueringskrediter.
+Om du använder en anpassad attribueringsmodell visar det här fältet, i decimalform, den procentandel attribueringskrediter som har tilldelats en kontaktyta enligt de värden som har angetts i din anpassade modell. Eftersom det här fältet gäller Buyer Touchpoint Object är det inte en reflexion av intäktskrediter, utan bara attribueringskrediter.
 
 Om du inte använder en anpassad modell kommer det här fältet att vara tomt.
 
@@ -159,37 +159,37 @@ Om du inte använder en anpassad modell kommer det här fältet att vara tomt.
 
 I det här fältet visas, i decimalform, den procentuella intäktskrediten som tilldelats en kontaktyta enligt en First Touch Model.
 
-**Antal - första beröring** | Kontaktpunkt för köpare
+**Antal - första beröring** | Buyer Touchpoint
 
 I det här fältet visas, i decimalform, den procentuella attribueringskrediten som tilldelats en kontaktyta enligt en First Touch Model. Om kontaktytan är First Touch blir fältet alltid 1,0 (vilket anger 100 % attribueringskrediter). Om kontaktytan inte är den första kontakten är fältet alltid 0 (vilket anger 0 % attribueringskrediter).
 
-Eftersom det här fältet gäller Buyer Touchpoint-objektet är det inte en reflexion av intäktskrediten, utan bara attribueringskrediter.
+Eftersom det här fältet gäller Buyer Touchpoint Object är det inte en reflexion av intäktskrediter, utan bara attribueringskrediter.
 
 **Antal - fullständig sökväg** | Buyer Attribution Touchpoint
 
 I det här fältet visas, i decimalform, den procentuella intäkt som ges till en kontaktyta enligt en fullständig sökvägsmodell.
 
-**Antal - Lead Creation Touch** | Buyer Attribution Touchpoint
+**Antal - Leadskaparberöring** | Buyer Attribution Touchpoint
 
 I det här fältet visas, i decimalform, den procentuella intäktskrediten som tilldelats en kontaktyta enligt en Lead Creation Model.
 
-**Antal - Lead Creation Touch** | Kontaktpunkt för köpare
+**Antal - Leadskaparberöring** | Buyer Touchpoint
 
 I det här fältet visas, i decimalform, den procentuella attribueringskrediten som tilldelats en kontaktyta enligt en Lead Creation Model. Om kontaktytan Lead Creation (Leadskapandekontakt) är fältet alltid 1.0 (vilket anger 100 % attribueringskrediter). Om kontaktytan Lead Creation (Lead Creation) inte visas är fältet alltid 0 (vilket anger 0 % attribution).
 
-Eftersom det här fältet gäller Buyer Touchpoint-objektet är det inte en reflexion av intäktskrediten, utan bara attribueringskrediter.
+Eftersom det här fältet gäller Buyer Touchpoint Object är det inte en reflexion av intäktskrediter, utan bara attribueringskrediter.
 
 **Antal - U-formad** | Buyer Attribution Touchpoint
 
 I det här fältet visas, i decimalform, den procentuella intäktskrediten som tilldelats en kontaktyta enligt en U-Shaped-modell.
 
-**Antal - U-formad** | Kontaktpunkt för köpare
+**Antal - U-formad** | Buyer Touchpoint
 
 I det här fältet visas, i decimalform, den procentuella attribueringskrediten som tilldelats en kontaktyta enligt en U-Shaped-modell. I den U-formade modellen delas krediten mellan First Touch, Lead Creation Touch och alla mellanliggande formulärinskickade formulär som gjordes mellan First Touch och Lead Creation Touch.
 
-Eftersom det här fältet gäller Buyer Touchpoint-objektet är det inte en reflexion av intäktskrediten, utan bara attribueringskrediter.
+Eftersom det här fältet gäller Buyer Touchpoint Object är det inte en reflexion av intäktskrediter, utan bara attribueringskrediter.
 
-**Antal - W-form** | Buyer Attribution Touchpoint
+**Antal - W-Shaped** | Buyer Attribution Touchpoint
 
 I det här fältet visas, i decimalform, den procentandel kredit som ges till en kontaktyta enligt en W-Shaped-modell.
 
@@ -265,11 +265,11 @@ Om den här kontaktytan inte kom från en betald sökning är fältet tomt.
 
 Om kontaktytan kommer från betalsökningen visas matchningstypen från annonsplattformen (Adwords/Bing) i det här fältet.
 
-**Nyckelord** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Nyckelordstext** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-`1)` Om kontaktytan kommer från en betald sökning visar det här fältet nyckelordstexten från annonsplattformen (Adwords/BingAds) ELLER värdet från parametern _bk i landningssidans URL.
+`1)` Om kontaktytan kommer från en betald sökning visar det här fältet nyckelordstexten från annonsplattformen (Adwords/BingAds) ELLER värdet från parametern _bk i URL:en för landningssidan.
 
-Exempel: `http://info.marketomeasure.com/intro-guide-b2b-marketing-attribution?_bt=12345678&_bk=marketing%20attribution&_bm=p&gclid=ABc123def456ghi789jkl`
+t.ex. `http://info.marketomeasure.com/intro-guide-b2b-marketing-attribution?_bt=12345678&_bk=marketing%20attribution&_bm=p&gclid=ABc123def456ghi789jkl`
 
 `2)` Om kontaktytan inte kommer från en betald sökning visar det här fältet värdet utm_term från landningssidans URL.
 
@@ -281,7 +281,7 @@ Om kontaktytan inte kom från en betald sökning, eller om det inte finns något
 
 ## L {#l}
 
-**Landningssida** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Startsida** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
 I det här fältet visas en förkortad version av URL:en (inga UTM-parametrar) för den första webbsida som besöktes under en webbsession.
 
@@ -289,7 +289,7 @@ I det här fältet visas en förkortad version av URL:en (inga UTM-parametrar) f
 
 I det här fältet visas hela URL-adressen (inklusive UTM-parametrar) för den första webbsidan som besöktes under en webbsession.
 
-**Lead** | Buyer Touchpoint, Marketo Measure Person
+**Lead** | Buyer Touchpoint, Marketo Measure
 
 I det här fältet visas namnet på det lead som en kontaktyta tillhör.
 
@@ -299,7 +299,7 @@ I det här fältet visas namnet på det lead som en kontaktyta tillhör.
 
 **Marknadsföringskanal** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-I det här fältet visas den allmänna gruppen av marknadsföringsaktiviteter eller marknadsföringskanal som kontaktytan tillhör (t.ex. Betald sökning, Direkt, Socialt osv.). Kontaktpunkterna grupperas efter hur kanalerna har konfigurerats i Marketo Measure App. Mer information om marknadsföringskanaler och om hur du skapar kanaler finns i [klicka här](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+I det här fältet visas den allmänna gruppen av marknadsföringsaktiviteter eller marknadsföringskanal som kontaktytan tillhör (t.ex. Betald sökning, Direkt, Socialt osv.). Kontaktpunkterna grupperas efter hur kanalerna har konfigurerats i Marketo Measure App. [Klicka här](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md) om du vill ha mer information om marknadsföringskanaler eller om hur du konfigurerar dina kanaler.
 
 **Marknadsföringskanal - sökväg** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -307,25 +307,25 @@ I det här fältet visas marknadsföringskanalen och den delkanal som en kontakt
 
 ![](assets/1-3.png)
 
-**Medel** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Medium** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
 `1)` Om kontaktytan kommer från en betald sökning visas mediet från Adwords/BingAds här (t.ex. CPC).
 
 `2)` Om kontaktytan inte kommer från en betald sökning visar det här fältet värdet utm_medium från landningssidans URL.
 
-`3)` Om kontaktytan kommer från en offlinekampanj visas fältet&quot;Typ&quot; i Salesforce-kampanjen.
+`3)` Om kontaktytan kommer från en offlinekampanj visas fältet Type i Salesforce-kampanjen.
 
-`4)` Detta fylls i med aktivitetstypvärdet från den relaterade aktivitet som genererade kontaktpunkten.
+`4)` Detta fylls i med aktivitetstypvärdet från den relaterade aktiviteten som genererade kontaktpunkten.
 
-Om inget av ovanstående anges, anger Marketo Measure automatiskt ett mellanvärde.
+Om inget av det ovanstående anges ett Medium-värde automatiskt av Marketo Measure.
 
 [Klicka här om du vill gå tillbaka till sidans överkant](#top)
 
 O
 
-**Möjligheter** | Buyer Attribution Touchpoint
+**Möjlighet** | Buyer Attribution Touchpoint
 
-I det här fältet visas affärsmöjligheten som BAT hör till.
+I det här fältet visas affärsmöjligheten som BAT tillhör.
 
 [Klicka här om du vill gå tillbaka till sidans överkant](#top)
 
@@ -339,7 +339,7 @@ I det här fältet visas vilken typ av dator eller telefon det är och vilken ty
 
 R
 
-**Referentsida** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Referenssida** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
 I det här fältet visas URL-adressen (utan UTM-parametrar) för den sista webbsidan som Lead/Contact var på som dirigerade dem till din webbplats.
 
@@ -383,7 +383,7 @@ I det här fältet visas dollarintäktsbeloppet som tilldelats en kontaktyta enl
 
 S
 
-**Salesforce Campaign** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Salesforce-kampanj** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
 I det här fältet visas Salesforce-kampanjen som kontaktytan tillhör.
 
@@ -399,7 +399,7 @@ I det här fältet visas de segment som kontaktytan tillhör. Detta beror på hu
 
 T
 
-**Kontaktpunktsdatum** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Slutpunktsdatum** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
 `1)` Om kontaktytan kommer från en onlinekälla visar det här fältet datum och tid då kontaktytan inträffade.
 
@@ -407,11 +407,11 @@ T
 
 `3)` Om kontaktytan kommer från en aktivitet, visar det här fältet datum och tid för det fält som markerats som slutpunktsdatum i aktivitetsreglerna.
 
-**Slutpunktsdatum (FT)** | Kontaktpunkt för köpare
+**Slutpunktsdatum (FT)** | Buyer Touchpoint
 
 Det här är samma fält som Touchpoint Date, men i det här fältet visas specifikt datum och tid då den första beröringspunkten inträffade.
 
-**Slutpunktsdatum (LC)** | Kontaktpunkt för köpare
+**Slutpunktsdatum (LC)** | Buyer Touchpoint
 
 Det här är samma fält som Touchpoint Date, men i det här fältet visas specifikt datum och tid då kontaktpunkten för att skapa lead inträffade.
 
@@ -429,7 +429,7 @@ Möjligheter att skapa - Den interaktion som ligger närmast när Opp skapas
 
 Closed - Den interaktion som ligger närmast när Opp stängs (Won eller Lost)
 
-**Kontaktpunktskälla** | Buyer Touchpoint, Buyer Attribution Touchpoint
+**Touchpoint Source** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
 `1)` Om kontaktytan kom från en betald sökning visar det här fältet annonsplattformens namn (AdWords/BingAds)
 
@@ -439,21 +439,21 @@ Closed - Den interaktion som ligger närmast när Opp stängs (Won eller Lost)
 
 `4)` Detta fylls i som CRM-kampanj om kontaktytan genereras från en CRM-kampanj.
 
-`5)` Detta fylls i som CRM-aktivitet om kontaktytan genereras från en CRM-aktivitet.
+`5)` Detta fylls i som CRM-aktivitet om Touchpoint genereras från en CRM-aktivitet.
 
 Om inget av ovanstående anges fylls fältet i som &quot;Web Direct&quot; eller &quot;Web&quot;.
 
-**Kontaktpunktskälla (FT)** | Kontaktpunkt för köpare
+**Touchpoint Source (FT)** | Buyer Touchpoint
 
-Det här är samma fält som Källa för kontaktpunkt, men i det här fältet visas källan för den första beröringspunkten.
+Det här är samma fält som Touchpoint Source, men i det här fältet visas källan för den första beröringspunkten.
 
-**Kontaktpunktskälla (LC)** | Kontaktpunkt för köpare
+**Touchpoint Source (LC)** | Buyer Touchpoint
 
-Det här är samma fält som Källa för kontaktpunkt, men i det här fältet visas källan för kontaktpunkten Skapa lead.
+Det här är samma fält som Touchpoint Source, men i det här fältet visas källan för kontaktpunkten Lead Creation.
 
-**Kontaktpunktstyp** | Hittade på Buyer Touchpoint och Buyer Attribution Touchpoint.
+**Touchpoint-typ** | Finns på Buyer Touchpoint och Buyer Attribution Touchpoint.
 
-I det här fältet visas typen av interaktion för pekpunkten. Det visas som: Webbbesök, Webbformulär eller Webbchatt för JavaScript-kontaktytor. För CRM Campaign-kontaktytor visas det som CRM. Den fylls i med aktivitets- eller händelsetypen för aktivitetens slutpunkter.
+I det här fältet visas typen av interaktion för pekpunkten. Det visas som: Webbbesök, Webbformulär eller Webbchatt för JavaScript kontaktytor. För CRM Campaign-kontaktytor visas det som CRM. Den fylls i med aktivitets- eller händelsetypen för aktivitetens slutpunkter.
 
 [Klicka här om du vill gå tillbaka till sidans överkant](#top)
 

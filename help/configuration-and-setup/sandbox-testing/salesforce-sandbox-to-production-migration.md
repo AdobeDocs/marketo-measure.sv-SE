@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874694
-description: Salesforce Sandbox till produktionsmigrering - [!DNL Marketo Measure]
+description: Salesforce-sandlåda till produktionsmigrering - [!DNL Marketo Measure]
 title: Salesforce-sandlåda till produktionsmigrering
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
@@ -13,20 +13,20 @@ ht-degree: 0%
 
 # Salesforce-sandlåda till produktionsmigrering {#salesforce-sandbox-to-production-migration}
 
-Om du valde att testa [!DNL Marketo Measure] i en [!DNL Salesforce] I sandlådemiljö följer du dessa anvisningar för att migrera till Production när du är klar. Följande instruktioner förutsätter att du redan har hämtat [!DNL Marketo Measure] paketera i din sandlådeorganisation, utföra nödvändiga tester och är redo att skickas [!DNL Marketo Measure] till produktion.
+Om du väljer att testa [!DNL Marketo Measure] i en [!DNL Salesforce] sandlådemiljö följer du de här instruktionerna för att migrera till Production när du är klar. I följande instruktioner antas att du redan har hämtat paketet [!DNL Marketo Measure] till din sandlådeorganisation, utfört nödvändig testning och är redo att överföra [!DNL Marketo Measure] till produktion.
 
-## Steg 1: Installera [!DNL Marketo Measure] Packa in i produktionen [!DNL Salesforce] Instance
+## Steg 1: Installera paketet [!DNL Marketo Measure] i din [!DNL Salesforce]-produktionsinstans
 
-* Installera [!DNL Marketo Measure] paketet i produktionen med &quot;[!UICONTROL All Users]&quot; inställning
+* Installera paketet [!DNL Marketo Measure] i Production med inställningen [!UICONTROL All Users]
 
    * [Baskaket](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
-* Mer information om [!DNL Marketo Measure] relation med [!DNL Salesforce], titta på [den här artikeln](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
-* Lite av [!DNL Salesforce] måste konfigureras. De specifika åtgärdsobjekten beskrivs nedan [Steg 4 nedan](#salesforce-configuration)
+* Mer information om [!DNL Marketo Measure]-relationen med [!DNL Salesforce] finns i [den här artikeln](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
+* Det krävs lite [!DNL Salesforce]-konfiguration. De specifika åtgärdsobjekten beskrivs nedan i [Steg 4 nedan](#salesforce-configuration)
 
-## Steg 2: Ta bort den aktuella CRM-anslutningen för sandlådan i [!DNL Marketo Measure] App {#delete-the-current-sandbox-crm-connection-in-marketo-measure-app}
+## Steg 2: Ta bort den aktuella CRM-anslutningen för sandlådan i appen [!DNL Marketo Measure] {#delete-the-current-sandbox-crm-connection-in-marketo-measure-app}
 
-* Logga in på [!DNL Marketo Measure] program på experience.adobe.com/marketo-measure
+* Logga in på programmet [!DNL Marketo Measure] på experience.adobe.com/marketo-measure
 * Navigera till Mitt konto >[!UICONTROL Settings] >[!UICONTROL Connections]
 * Klicka på papperskorgsikonen bredvid SFDC-anslutningen för att ta bort
 * Du uppmanas att bekräfta borttagningen. Var noga med att läsa igenom uppmaningen och förstå konsekvenserna av borttagningen
@@ -36,13 +36,13 @@ Om du valde att testa [!DNL Marketo Measure] i en [!DNL Salesforce] I sandlådem
    * Skriv namnet på företaget enligt bekräftelsemodellen och klicka på&quot;Jag förstår konsekvenserna, ta bort den här anslutningen&quot;
 * Detta utlöser borttagningsprocessen och tar lite tid att slutföra
 
-## Steg 3: Anslut Production CRM-instansen i [!DNL Marketo Measure] App {#connect-the-production-crm-instance-in-marketo-measure-app}
+## Steg 3: Anslut Production CRM-instansen i appen [!DNL Marketo Measure] {#connect-the-production-crm-instance-in-marketo-measure-app}
 
-* Logga in på [!DNL Marketo Measure] program på experience.adobe.com/marketo-measure
+* Logga in på programmet [!DNL Marketo Measure] på experience.adobe.com/marketo-measure
 * Navigera till [!UICONTROL My Account] >[!UICONTROL Settings] > [!UICONTROL Connections]
 * När borttagningen av sandlådeanslutningen har tagits bort försvinner anslutningen från sidan. I annat fall visas anslutningen med statusen&quot;Pågående borttagning&quot;
-* Klicka på &quot;[!UICONTROL Set up New CRM connection]&quot;
-* I dialogrutan[!UICONTROL Select CRM Connection]&quot; modal dialog, click the &quot;[!UICONTROL Connect]&quot; Åtgärd bredvid [!DNL Salesforce] Plattform, välj[!UICONTROL Production]&quot;, alternativ
+* Klicka på [!UICONTROL Set up New CRM connection]
+* Klicka på åtgärden [!UICONTROL Connect] bredvid plattformen [!DNL Salesforce] i den modala dialogrutan [!UICONTROL Select CRM Connection] och välj alternativet [!UICONTROL Production]
 * Du uppmanas att ange dina inloggningsuppgifter. Se till att du anger inloggningsinformation för produktion
 
 ## Steg 4: Salesforce-konfiguration {#salesforce-configuration}

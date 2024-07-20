@@ -19,13 +19,13 @@ Marketo Measure ger marknadsförarna insikt i vilka marknadsföringssatsningar s
 
 ## Marknadsattribuering {#marketing-attribution-1}
 
-**Marknadsattribuering** är processen att tilldela intäkter till en kontaktyta för marknadsföring. Detta görs genom att spåra en potentiell kunders hela kundresa, från den första interaktionen med företaget till den tidpunkt då erbjudandet upphör. De intäkter som genereras av avtalet tillskrivs de kontaktytor som ledde till försäljningen. Storleken på intäktskrediten till en kontaktyta beror på hur mycket kontaktytan påverkade kundens inköpsbeslut.
+**Marknadsattribuering** är processen att tilldela intäktskrediter till en kontaktyta för marknadsföring. Detta görs genom att spåra en potentiell kunders hela kundresa, från den första interaktionen med företaget till den tidpunkt då erbjudandet upphör. De intäkter som genereras av avtalet tillskrivs de kontaktytor som ledde till försäljningen. Storleken på intäktskrediten till en kontaktyta beror på hur mycket kontaktytan påverkade kundens inköpsbeslut.
 
-**Pekpunkter** hänvisa till den interaktion en potentiell kund/lead har med marknadsföringen online eller offline. Det finns fyra **viktiga kontaktytor** som beaktas vid marknadsattribuering. De återspeglar de olika stegen i kundresan. Dessa viktiga kontaktytor, som också kallas **milstolpekontaktytor**, är: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won deal (CW).
+**Touchpoints** hänvisar till de interaktioner som en potentiell kund/lead har med marknadsföringen online eller offline. Det finns fyra **viktiga kontaktytor** som beaktas vid marknadsattribuering. De återspeglar de olika stegen i kundresan. Dessa viktiga kontaktytor, som också kallas **milstolpar**, är: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won deal (CW).
 
 ![](assets/1.png)
 
-Dessa milstolpar utgör grunden för Marketo Measure **attribueringsmodeller**. Marketo Measure erbjuder sex attribueringsmodeller. Varje modell fokuserar på olika faser i kundresan och erbjuder en allmän struktur för att attribuera intäktskrediter till era marknadsföringskontaktytor. Vilken modell du använder beror på vilka steg av resan du är mest intresserad av att mäta och hur mycket data du vill rapportera om. De attribueringsmodeller som Marketo Measure erbjuder är:
+Dessa milstolpeåtgärder utgör grunden för Marketo Measure **attribueringsmodeller**. Marketo Measure erbjuder sex attribueringsmodeller. Varje modell fokuserar på olika faser i kundresan och erbjuder en allmän struktur för att attribuera intäktskrediter till era marknadsföringskontaktytor. Vilken modell du använder beror på vilka steg av resan du är mest intresserad av att mäta och hur mycket data du vill rapportera om. De attribueringsmodeller som Marketo Measure erbjuder är:
 
 * Första beröring
 * Skapa leads
@@ -36,7 +36,7 @@ Dessa milstolpar utgör grunden för Marketo Measure **attribueringsmodeller**. 
 
 >[!NOTE]
 >
->[Läs mer om respektive attribueringsmodell](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md).
+>[Läs mer om varje attribueringsmodell](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md).
 
 ## Varför attribuering är viktigt {#why-attribution-is-important}
 

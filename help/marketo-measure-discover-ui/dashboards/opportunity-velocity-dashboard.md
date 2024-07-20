@@ -1,8 +1,9 @@
 ---
-description: Snabbkontrollpanel för affärsmöjligheter - [!DNL Marketo Measure] - Produkt
+description: Snabbkontrollpanel för affärsmöjlighet - [!DNL Marketo Measure]  - Produkt
 title: Kontrollpanel för snabbhet i affärsmöjlighet
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Frågor som den här instrumentpanelen besvarar:
 
 ### KPI-panel {#kpi-tile}
 
-* **Avslutade avtalsfart**: Genomsnittligt antal dagar för stängda vinstmöjligheter från den första fasen till stängning.
+* **Avstängd avtalshastighet**: Genomsnittligt antal dagar för stängda vinstmöjligheter från första fasen till avslut.
 
 ### Snabbhet för affärsmöjlighet efter fas {#opportunity-velocity-by-stage}
 

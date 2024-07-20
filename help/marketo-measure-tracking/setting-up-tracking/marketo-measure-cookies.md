@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874590
-description: "[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Cookies"
+description: "[!DNL Marketo Measure] cookies - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] cookies"
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Marketo Measure Cookies {#marketo-measure-cookies}
 
-Läs om de olika [!DNL Marketo Measure] Cookies som läses in på din plats när du använder [!DNL Marketo Measure] JavaScript till landningssidorna. Den här informationen kan vara användbar för webbutvecklingsteamet under implementeringen.
+Lär dig mer om de olika [!DNL Marketo Measure]-cookies som är inlästa på din webbplats när du använder JavaScript [!DNL Marketo Measure] på dina landningssidor. Den här informationen kan vara användbar för webbutvecklingsteamet under implementeringen.
 
 >[!IMPORTANT]
 >
->På grund av integritetsproblem är cookies från tredje part på väg ut. Google Chrome presenterade ett utkast till tredje kvartalet 2024 om borttagning av cookies från tredje part som effektivt markerar slutet på den här typen av spårning. Därför har Adobe ersatt Marketo Measure-funktioner som är beroende av cookies från tredje part, närmare bestämt Cross-Domain Tracking och View-through Attribution, som använder Google/DoubleClick-visningscookie. Inga andra funktioner i Marketo Measure påverkas. Användning av cookies från första part påverkas inte heller. Mot bakgrund av Google tidsplan är det förväntade borttagningsdatumet för de två funktionerna ovan 6/1/2024. Relaterade data som samlats in före detta datum är fortfarande tillgängliga för Adobe-kunder.
+>På grund av integritetsproblem är cookies från tredje part på väg ut. Google Chrome presenterade borttagning av cookies från tredje part under tredje kvartalet 2024 vilket effektivt markerar slutet på den här typen av spårning. Därför har Adobe ersatt Marketo Measure-funktioner som är beroende av cookies från tredje part, närmare bestämt Cross-Domain Tracking och View-through Attribution, som använder Google/DoubleClick-visningscookie. Inga andra funktioner i Marketo Measure påverkas. Användning av cookies från första part påverkas inte heller. Mot bakgrund av Google tidsplan är det förväntade borttagningsdatumet för de två funktionerna ovan 6/1/2024. Relaterade data som samlats in före detta datum är fortfarande tillgängliga för Adobe-kunder.
 
 <table>
 <thead>
@@ -106,7 +106,7 @@ Läs om de olika [!DNL Marketo Measure] Cookies som läses in på din plats när
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Tredje part, domain=.<a href="http://bizibly.com/">bizibly.com</a></td>
+    <td>Tredje part, domain=.<a href="http://bizibly.com/">bizible.com</a></td>
     <td>Mappning mellan Marketo Measure cookie-ID på klientens domän och dess Doubleclick-cookie-ID.</td>
     <td>1 år</td>
     <td>Ja</td>
@@ -116,6 +116,6 @@ Läs om de olika [!DNL Marketo Measure] Cookies som läses in på din plats när
 </tbody>
 </table>
 
-Om en varning om en brandvägg för webbprogram (WAF) utlöses under JavaScript-konfigurationen kan användare antingen inaktivera den WAF-regeln eller tillåtslista cookies, som i följande exempel:
+Om en varning om en brandvägg för webbprogram (WAF) utlöses under JavaScript-installationen kan användare antingen inaktivera den WAF-regeln eller tillåtslista cookies, som i följande exempel:
 
 ![](assets/marketo-measure-cookies-1.png)

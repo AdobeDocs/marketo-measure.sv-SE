@@ -11,16 +11,16 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Resurslista {#marketo-measure-resource-list}
+# Resurslista för [!DNL Marketo Measure] {#marketo-measure-resource-list}
 
-Här är olika länkar till relevanta artiklar/videoklipp som hjälper dig att komma igång med [!DNL Marketo Measure]!
+Här finns olika länkar till relevanta artiklar/videoklipp som hjälper dig att komma igång med [!DNL Marketo Measure]!
 
 ## Artiklar {#articles}
 
 **Allmän kunskap**
 
 * [Vad är marknadsattribuering?](/help/introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
-* [[!DNL Marketo Measure] Attributionsmodeller](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
+* [[!DNL Marketo Measure] attribueringsmodeller](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
 
 **Konfiguration**
 
@@ -37,56 +37,56 @@ Här är olika länkar till relevanta artiklar/videoklipp som hjälper dig att k
 
 **Rapportering**
 
-* [Skapa anpassade rapporttyper med [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (om du måste rapportera anpassade lead-/kontakt-/säljprojektsfält)
-* [Ordlista för [!DNL Marketo Measure] fält](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+* [Skapar anpassade rapporttyper med  [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (om du måste rapportera anpassade lead-/kontakt-/säljprojektsfält)
+* [Ordlista för  [!DNL Marketo Measure] fält](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 **Felsökning**
 
-* [Beviljande [!DNL Marketo Measure] Stöd för åtkomst till SFDC](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
+* [Beviljar  [!DNL Marketo Measure] supportåtkomst till SFDC](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
 * Kontakt: [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}
 
 ## Videor {#videos}
 
-Här är några videofilmer som hjälper dig att komma igång:
+Här är några videor    hjälper dig att komma igång:
 
 * [[!DNL Marketo Measure] Intro Training](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 min)
-* [[!DNL Marketo Measure] Rapportering i SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 min)
+* [[!DNL Marketo Measure] Rapportering i SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minuter)
 
 **[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 minuter)**
 
-Kursen är utformad som en allmän introduktion till de grundläggande koncept som du behöver känna till för att lära dig mer [!DNL Marketo Measure]. Det ger en introduktion till begreppet attribuering, vad [!DNL Marketo Measure] som ett verktyg och det allmänna ramverket som [!DNL Marketo Measure] fungerar.
+Kursserien är utformad som en allmän introduktion till de grundläggande begrepp som du behöver känna till för att kunna hantera [!DNL Marketo Measure]. Det ger en introduktion till begreppet attribuering, vad [!DNL Marketo Measure] gör som ett verktyg och det allmänna ramverket som [!DNL Marketo Measure] arbetar med.
 
 Ämnen som omfattas:
 
 * Vad är Attribution
 * Vad är [!DNL Marketo Measure]
-* [!DNL Marketo Measure] Data
+* [!DNL Marketo Measure] data
 * Pekpunkter
 * Attributionsmodeller
 
 **[[!DNL Marketo Measure] Rapportering i SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minuter)**
 
-Kursen är utformad som en introduktion till [!DNL Marketo Measure] arkivrapporter som har installerats i Salesforce. Dessa rapporter fungerar som grunden för de flesta rapporter du gör med [!DNL Marketo Measure] data.
+Kursserien är utformad som en introduktion till [!DNL Marketo Measure]-aktierapporter som har installerats i Salesforce. Dessa rapporter fungerar som grund för de flesta rapporter som du gör med [!DNL Marketo Measure]-data.
 
 Ämnen som omfattas:
 
 * Leads efter ID-rapport
 * Leads per kanal - rapport
-* Leads/kontakter ([!DNL Marketo Measure] Personer) per ID-rapport
-* Leads/kontakter ([!DNL Marketo Measure] Personer) per kanal - rapport
+* Leads/kontakter ([!DNL Marketo Measure] personer) per ID-rapport
+* Leads/kontakter ([!DNL Marketo Measure] personer) per kanalrapport
 * Affärsmöjligheter per ID-rapport
 * Affärsmöjligheter per kanal - rapport
 
 **[Kanalhantering](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
 
-Kursen omfattar olika sätt att anpassa [!DNL Marketo Measure], vad gäller spårning online och offline. Kursen är mer avancerad och kanske inte är relevant för alla användare.
+Kursen omfattar olika sätt att anpassa [!DNL Marketo Measure], både online och offline. Kursen är mer avancerad och kanske inte är relevant för alla användare.
 
 Ämnen som omfattas:
 
 * Inställningar för onlinekanal
 * Skapa och redigera regler för onlinekanaler
-* Mappning [!DNL Salesforce] Kampanjer mot kanaler
+* Mappar [!DNL Salesforce] kampanjer till kanaler
 * Medlemsfält för kampanj och kampanj
 * Hantering av offlinekanaler
 
-Här är alla [nybörjarvideor om e-learning](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).
+Här är alla [nybörjarvideor för e-utbildning](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).
