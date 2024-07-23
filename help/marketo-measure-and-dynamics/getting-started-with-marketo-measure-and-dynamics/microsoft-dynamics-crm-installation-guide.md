@@ -4,9 +4,9 @@ description: "[!DNL Microsoft Dynamics] Installationshandbok för CRM - Marketo 
 title: "[!DNL Microsoft Dynamics] Installationshandbok för CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ Om din organisation använder Dynamics-säkerhetsroller måste du kontrollera at
 Säkerhetsroller finns här: **[!UICONTROL Settings]** > **[!UICONTROL Security]** > **[!UICONTROL Security Roles]**.
 
 För [!DNL Marketo Measure] anpassade entiteter behöver vi fullständig behörighet för alla våra entiteter.
+
+Kampanjens&quot;Skapa&quot;-behörigheter krävs också, utöver läs- och skrivbehörigheterna för standardenheter.
 
 >[!NOTE]
 >
