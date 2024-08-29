@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för deras företag."
-source-git-commit: 5759615376954806d6f0682378ce4bbc786bc43a
+source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,7 @@ ht-degree: 0%
       + [Anslut [!DNL Marketo Measure] till Salesforce](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Bästa praxis för  [!DNL Marketo Measure] CRM-paket](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce-objekt](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
+      + [Felhantering för CRM-export](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
       + [Hur [!DNL Marketo Measure] och [!DNL Salesforce] interagerar](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] objekt- och fälttaxonomi](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
       + [[!DNL Marketo Measure] fält i  [!DNL Salesforce] standardobjekt](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
@@ -230,7 +231,7 @@ ht-degree: 0%
       + [Sekretessbegäran](miscellaneous/other-related-resources/privacy-requests.md)
       + [Ta bort  [!DNL Marketo Measure] spårningsparametrar från landningssidans URL i Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Övergår till  [!DNL Marketo Measure]  från hel cirkel](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
-   + [Testa](miscellaneous/test.md)
+   + [Test](miscellaneous/test.md)
 + Versionsinformation {#release-notes}
    + [Aktuell versionsinformation](release-notes/current.md)
    + Tidigare versioner {#previous-releases}

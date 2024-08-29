@@ -3,9 +3,9 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure]
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 9d1001306a3e98ca85af5839ad4ea3ff662d1886
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,37 @@ ht-degree: 0%
 # Versionsinformation: 2024 {#release-notes-2024}
 
 Nedan finns alla nya och uppdaterade funktioner för 2024-utgåvorna.
+
+## Q4 Release {#q4-release}
+
+### Förbättrade segmentregler
+
+Nu kan du skapa segment med hjälp av fälten Campaign och Campaign Member, förutom Touchpoint och Kontakt. Den här förbättringen gör att ni kan analysera och sprida era data mer effektivt i Discover.
+
+![Segmentregler för medlemmar](assets/campaign-member.png)
+
+### Uppdatering: Felhanteringsinställning för CRM-export
+
+Vi har lyssnat på din feedback om hur du stoppar jobben och vi introducerar en ny funktion i användargränssnittet. Från och med idag kan du välja om exportjobb ska pausa när fel uppstår. Använd den nya växlingsknappen i **Mitt konto** > **Inställningar** → **CRM** → **Allmänt**. Den här växeln är aktiverad som standard för att förbättra dataintegriteten och synligheten. Om du inte vill använda den här funktionen kan du stänga av den i användargränssnittet, så återupptas exportjobben. Uppdateringen är utformad för att öka tillförlitligheten i datahanteringsprocesserna samtidigt som du får större kontroll.
+
+#### Nyckeldatum och utfasning
+
+Omedelbar växlingstillgänglighet: Växlingsknappen är nu aktiv i användargränssnittet och är aktiverad som standard för att förhindra att data hoppas över under exportjobb. Om du föredrar att exportjobben fortsätter att köras trots att fel påträffas, inaktiverar du växlingsknappen.
+
+Aktivering av jobbpausning den 1 oktober: Från och med 1 oktober 2024 pausas jobbet för att säkerställa att inga data förloras om växlingen är aktiv och ett fel på postnivå påträffas under ett exportjobb. Felen beror vanligtvis på att behörigheter saknas, att anpassade valideringsregler har tillämpats felaktigt eller att arbetsflöden/utlösare inte fungerar som de ska. Du får meddelanden om problemet, och när det har korrigerats återupptas exportjobbet från den punkt där det avbröts. Om du väljer att avbryta jobbpausningen får du fortfarande meddelanden om problem, och när de har korrigerats återexporteras de poster som hoppats över automatiskt.
+
+#### Varför det här spelar någon roll
+
+**Förbättrad dataintegritet och framtidssäkra din integrering:** Genom att pausa jobbet vid det första tecknet i ett problem kan vi förhindra dataförlust och säkerställa att allt är korrekt. Detta möjliggör snabb fellösning, vilket ger bättre dataexportkvalitet och total systemtillförlitlighet.
+
+**Omedelbar synlighet:** Med pulsmeddelanden får du aviseringar om behörighetsfel så att du kan få snabba svar och minimera potentiella konsekvenser för dina åtgärder.
+
+#### Stöd för övergången
+
+För att hjälpa dig att anpassa dig till den här ändringen har vi skapat dokumentation om den nya funktionen och tydliga felbeskrivningar med omfattande felsökningssteg.
+
+* NYTT DOC: Felhantering av inställningar för CRM-export
+* [Felmeddelanden](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Q3-version {#q3-release}
 
