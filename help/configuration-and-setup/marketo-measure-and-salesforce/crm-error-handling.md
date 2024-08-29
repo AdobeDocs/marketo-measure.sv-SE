@@ -2,16 +2,22 @@
 description: Lär dig hur du hanterar fel i CRM-exporter
 title: Felhantering för CRM-export
 feature: Salesforce
-source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
+source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # Felhantering för CRM-export
 
-Inställningen Pausa vid exportfel finns under **Mitt konto** > **Inställningar** > **CRM** > **Allmänt**. Den här funktionen är bara synlig om du har aktiverat funktionen Exportera till CRM. Du kan styra om CRM-exportjobb ska pausa när ett fel på postnivå påträffas.
+Med funktionen Pausa vid exportfel kan du styra om CRM-exportjobb ska pausa när ett fel på postnivå påträffas.
+
+Inställningen finns under **Mitt konto** > **Inställningar** > **CRM** > **Allmänt**.
+
+>[!NOTE]
+>
+>Den här funktionen är bara synlig om du har aktiverat funktionen Exportera till CRM.
 
 När den här funktionen är aktiverad upphör exportjobbet att bearbetas och finns kvar på den post där felet inträffade, tills problemet är löst. Felen beror vanligtvis på att behörigheter saknas, att anpassade valideringsregler har tillämpats felaktigt eller att arbetsflöden/utlösare inte fungerar som de ska. Jobbet kommer att fortsätta att köras som schemalagt och kommer automatiskt att försöka exportera den misslyckade posten igen tills det lyckas.
 
