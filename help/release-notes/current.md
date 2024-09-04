@@ -3,7 +3,7 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure]
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
+source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -28,15 +28,15 @@ Vi har lyssnat på din feedback om hur du stoppar jobben och vi introducerar en 
 
 #### Nyckeldatum och utfasning
 
-Omedelbar växlingstillgänglighet: Växlingsknappen är nu aktiv i användargränssnittet och är aktiverad som standard för att förhindra att data hoppas över under exportjobb. Om du föredrar att exportjobben fortsätter att köras trots att fel påträffas, inaktiverar du växlingsknappen.
+1. **Omedelbar växlingstillgänglighet:** Växlingsknappen finns nu i användargränssnittet och är aktiverad som standard för att förhindra att data hoppas över under exportjobb. Om du föredrar att exportjobben fortsätter att köras trots att fel påträffas, inaktiverar du växlingsknappen.
 
-Aktivering av jobbpausning den 1 oktober: Från och med 1 oktober 2024 pausas jobbet för att säkerställa att inga data förloras om växlingen är aktiv och ett fel på postnivå påträffas under ett exportjobb. Felen beror vanligtvis på att behörigheter saknas, att anpassade valideringsregler har tillämpats felaktigt eller att arbetsflöden/utlösare inte fungerar som de ska. Du får meddelanden om problemet, och när det har korrigerats återupptas exportjobbet från den punkt där det avbröts. Om du väljer att avbryta jobbpausningen får du fortfarande meddelanden om problem, och när de har korrigerats återexporteras de poster som hoppats över automatiskt.
+1. **Aktivering av jobbpausning den 1 oktober:** Med början 1 oktober 2024 pausas jobbet för att säkerställa att inga data går förlorade om växlingen är aktiv och ett fel på postnivå påträffas under ett exportjobb. Felen beror vanligtvis på att behörigheter saknas, att anpassade valideringsregler har tillämpats felaktigt eller att arbetsflöden/utlösare inte fungerar som de ska. Du får meddelanden om problemet, och när det har korrigerats återupptas exportjobbet från den punkt där det avbröts. Om du väljer att avbryta jobbpausningen får du fortfarande meddelanden om problem, och när de har korrigerats återexporteras de poster som hoppats över automatiskt.
 
 #### Varför det här spelar någon roll
 
-**Förbättrad dataintegritet och framtidssäkra din integrering:** Genom att pausa jobbet vid det första tecknet i ett problem kan vi förhindra dataförlust och säkerställa att allt är korrekt. Detta möjliggör snabb fellösning, vilket ger bättre dataexportkvalitet och total systemtillförlitlighet.
+* **Förbättrad dataintegritet och framtidssäkra din integrering:** Genom att pausa jobbet vid det första tecknet i ett problem kan vi förhindra dataförlust och säkerställa att allt är korrekt. Detta möjliggör snabb fellösning, vilket ger bättre dataexportkvalitet och total systemtillförlitlighet.
 
-**Omedelbar synlighet:** Med pulsmeddelanden får du aviseringar om behörighetsfel så att du kan få snabba svar och minimera potentiella konsekvenser för dina åtgärder.
+* **Omedelbar synlighet:** Med pulsmeddelanden får du aviseringar om behörighetsfel så att du kan få snabba svar och minimera potentiella konsekvenser för dina åtgärder.
 
 #### Stöd för övergången
 
