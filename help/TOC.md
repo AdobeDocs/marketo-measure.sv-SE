@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: ”[!DNL Marketo Measure] Användarhandbok”
 user-guide-description: "[!DNL Marketo Measure] ger marknadsförarna insikt i vilka marknadsföringssatsningar som är mest effektiva när det gäller att öka intäkterna för deras företag."
-source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
+source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -220,6 +220,7 @@ ht-degree: 0%
    + [[!DNL Marketo Measure] Ultimate Overview](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
    + [Krav på dataintegritet](marketo-measure-ultimate/data-integrity-requirement.md)
    + [Användarhandbok om implementering](marketo-measure-ultimate/implementation-guide.md)
+   + [Migrering från nivå 1-2 till  [!DNL Marketo Measure] Ultimate](marketo-measure-ultimate/migration-from-tier-to-marketo-measure-ultimate.md)
 + Övrigt {#miscellaneous}
    + Andra relaterade resurser {#other-related-resources}
       + [[!DNL Marketo Measure]-underhåll](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
