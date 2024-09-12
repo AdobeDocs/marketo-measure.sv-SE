@@ -1,19 +1,17 @@
 ---
 description: Lär dig mer om migreringsprocessen när du går från  [!DNL Marketo Measure] nivåindelad prenumeration till [!DNL Marketo Measure] Ultimate.
-hide: true
-hidefromtoc: true
 title: Migrering från nivå till [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
-source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
+source-git-commit: 9c3c3c75a9a505bb078da18e13f210add8699c24
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Migrering från nivå 1-2 till [!DNL Marketo Measure] Ultimate {#migration-from-tier-to-marketo-measure-ultimate}
 
-I den här artikeln beskrivs migreringsprocessen för användare som går från Tier 1- eller Tier 2-prenumerationen till Marketo Measure Ultimate.
+I den här artikeln beskrivs migreringsprocessen för användare som går från Tier 1- eller Tier 2-prenumerationen till [!DNL Marketo Measure] Ultimate.
 
 >[!IMPORTANT]
 >
