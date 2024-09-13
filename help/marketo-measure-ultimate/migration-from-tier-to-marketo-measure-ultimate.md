@@ -2,7 +2,7 @@
 description: Lär dig mer om migreringsprocessen när du går från  [!DNL Marketo Measure] nivåindelad prenumeration till [!DNL Marketo Measure] Ultimate.
 title: Migrering från nivå till [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
-source-git-commit: 9c3c3c75a9a505bb078da18e13f210add8699c24
+source-git-commit: d62eb377a6abe8a01de7ad2aba34b85fb74ad461
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
