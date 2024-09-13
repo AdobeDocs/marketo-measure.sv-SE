@@ -4,9 +4,9 @@ description: Använder ett fält för anpassat intäktsbelopp - [!DNL Marketo Me
 title: Använda fältet Anpassat intäktsbelopp
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Som standard hämtar Buyer Attribution Touchpoints säljprojektsbeloppet från e
 * Belopp (SFDC-standard)
 * [!DNL Marketo Measure] säljprojektsbelopp (anpassat)
 
-Om du använder ett anpassat beloppsfält för dina affärsmöjligheter måste vi konfigurera ett arbetsflöde för att kunna beräkna Buyer Touchpoint intäkt. Detta kräver mer avancerade kunskaper om [!DNL Salesforce], så du kan behöva hjälp av SFDC-administratören.
+Om du använder ett anpassat beloppsfält för dina affärsmöjligheter måste vi konfigurera ett arbetsflöde för att kunna beräkna Buyer Touchpoint intäkt. Detta kräver mer avancerade kunskaper om [!DNL Salesforce], så du kan behöva hjälp av din SFDC-administratör.
 
 Vi behöver följande information:
 
@@ -62,7 +62,7 @@ Följande steg gäller för Salesforce Lightning-användare. Om du fortfarande a
    * Ange en etikett - API-namnet genereras automatiskt
    * Under &quot;How to Find Records to Update and Set their Values&quot; väljer du **[!UICONTROL Use the opportunity record that triggered the flow]**.
    * I avsnittet [!UICONTROL Set Filter Conditions] väljer du **[!UICONTROL Always Update Record]** som ett villkorskrav för att uppdatera posten.
-   * I [!UICONTROL Set Field Values for the Campaign Record], från fältet, väljer du Marketo Measure-säljprojektsbelopp och från-värde. Välj sedan det anpassade mängdfältet.
+   * I fältet [!UICONTROL Set Field Values for the Campaign Record] från väljer du Marketo Measure-säljprojektsbelopp (**bizible2_Bizible_Opportunity_Amount__c**) och från värde. Välj sedan det anpassade mängdfältet.
    * Klicka på **[!UICONTROL Done]**.
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
@@ -77,7 +77,7 @@ Följande steg gäller för Salesforce Lightning-användare. Om du fortfarande a
 
 ## Skapa arbetsflödet i Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
-Följande steg gäller för Salesforce Classic-användare. Om du har bytt till Salesforce Lightning hittar du de stegen [ovan](#create-the-workflow-in-salesforce-lightning).
+Följande steg gäller för Salesforce Classic-användare. Om du har växlat till Salesforce Lightning hittar du de stegen [ovan](#create-the-workflow-in-salesforce-lightning).
 
 1. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Workflow & Approvals]** > **[!UICONTROL Workflow Rules]**.
 
@@ -104,6 +104,6 @@ Följande steg gäller för Salesforce Classic-användare. Om du har bytt till S
 
    När du har slutfört de här stegen måste affärsmöjligheterna uppdateras för att arbetsflödet ska få det nya värdet från fältet [!UICONTROL custom opportunity].
 
-   Detta kan uppnås genom att du kör dina affärsmöjligheter via Data Loader i SFDC. Mer information om hur du använder datainläsaren finns i [den här artikeln](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Detta kan du uppnå genom att köra dina affärsmöjligheter via Data Loader i SFDC. Mer information om hur du använder datainläsaren finns i [den här artikeln](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
 Om det finns några frågor längs vägen går det bra att kontakta kontoteamet (din kontohanterare) eller [[!DNL Marketo] supporten](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
