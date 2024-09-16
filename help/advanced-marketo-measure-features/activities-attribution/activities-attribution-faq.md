@@ -4,9 +4,9 @@ description: Vanliga frågor om aktivitetsattribuering - [!DNL Marketo Measure]
 title: Vanliga frågor om aktivitetsattribut
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Vanliga frågor om aktivitetsattribut {#activities-attribution-faq}
 
 [!DNL Marketo Measure] aktiviteter importerar alla dina aktivitetsposter och genererar kontaktytor för dem, vilket gör att dessa aktiviteter kan få attribueringskrediter. Det vanligaste användningsexemplet är att spåra aktiviteter från säljteamet, eftersom de ofta skapar ett register över telefonsamtal eller e-postmeddelanden som skickas till potentiella kunder. Andra unika saker som kan spåras är innehållsinteraktioner som hämtning av resurser eller videovyer.
+
+>[!AVAILABILITY]
+>
+>Den här funktionen är endast aktiverad för Tier 2-kunder. Om du vill begära en högre kontonivå kontaktar du kontoteamet (din kontohanterare) på Adobe.
 
 **Hur skiljer sig detta från offlinekampanjer?**
 

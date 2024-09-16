@@ -1,21 +1,25 @@
 ---
 unique-page-id: 18874708
-description: Salesforce-aktivitetsattribut - [!DNL Marketo Measure]
-title: Salesforce-aktivitetsattribuering
+description: Attribution för Salesforce-aktiviteter - [!DNL Marketo Measure]
+title: Attribut för Salesforce-aktiviteter
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
 
-# Salesforce-aktivitetsattribuering {#salesforce-activities-attribution}
+# Attribut för Salesforce-aktiviteter {#salesforce-activities-attribution}
 
-Salesforce-integreringen [!DNL Marketo Measure] för Salesforce-aktiviteter inkluderar specifika uppgifts- och händelseposter i din attribueringsmodell. Börja spåra saker som säljmejl eller telefonsamtal som inte fick någon kredit. Gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} om du vill konfigurera din aktivitetsregel. Gå sedan till fliken **[!UICONTROL Settings]** och klicka på fliken **[!UICONTROL Activities]**.
+Integreringen av [!DNL Marketo Measure] Salesforce-aktiviteter inkluderar specifika aktivitets- och händelseposter i din attribueringsmodell. Börja spåra saker som säljmejl eller telefonsamtal som inte fick någon kredit. Gå till [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} om du vill konfigurera din aktivitetsregel. Gå sedan till fliken **[!UICONTROL Settings]** och klicka på fliken **[!UICONTROL Activities]**.
 
 ![](assets/1.png)
+
+>[!AVAILABILITY]
+>
+>Den här funktionen är endast aktiverad för Tier 2-kunder. Om du vill begära en högre kontonivå kontaktar du kontoteamet (din kontohanterare) på Adobe.
 
 Till att börja med introducerar vi ett nytt koncept som kallas [!DNL Marketo Measure]-kampanj. För varje regel som du definierar kommer du att spara posterna i en [!DNL Marketo Measure]-kampanj som du kan namnge. Lägg till flera kampanjer efter behov. Tänk dig att mäta effektiviteten i en utgående försäljningskampanj bredvid en betald mediekampanj!
 
