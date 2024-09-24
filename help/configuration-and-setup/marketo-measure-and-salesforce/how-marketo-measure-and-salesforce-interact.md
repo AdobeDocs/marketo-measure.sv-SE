@@ -4,10 +4,10 @@ description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] interagerar - Mark
 title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] interagerar
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 0%
+source-wordcount: '1314'
+ht-degree: 6%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 0%
 >
 >Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se Bizible i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-Låt oss titta på relationen mellan [!DNL Marketo Measure] och Salesforce på en hög nivå.
+Låt oss titta närmare på relationen mellan [!DNL Marketo Measure] och Salesforce.
 
 ## Salesforce och [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-När [!DNL Marketo Measure]-kontot har skapats och [!DNL Salesforce] har anslutits börjar [!DNL Marketo Measure] överföra marknadsföringsdata till CRM-instansen så länge det [!DNL Marketo Measure] hanterade paketet är installerat och Salesforce-användaren [!DNL Marketo Measure] har redigeringsbehörighet.
+När [!DNL Marketo Measure]-kontot har skapats och [!DNL Salesforce] har anslutits börjar [!DNL Marketo Measure] överföra marknadsföringsdata till CRM-instansen så länge det [!DNL Marketo Measure] hanterade paketet är installerat och [!DNL Marketo Measure] Salesforce-användaren har redigeringsbehörighet.
 
-Om du inte har installerat Salesforce-paketet [!DNL Marketo Measure] skriver [!DNL Marketo Measure] inga data till Salesforce-instansen.
+Om du inte har installerat Salesforce-paketet [!DNL Marketo Measure] skriver [!DNL Marketo Measure] inga data till din Salesforce-instans.
 
 ![](assets/1-3.png)
 
@@ -33,18 +33,21 @@ Som standard exporterar [!DNL Marketo Measure] 200 poster per API-kredit varje g
 
 När du ändrar den här inställningen bör du tänka på att mindre gruppstorlekar förbrukar fler API-krediter från din CRM. Du bör bara minska batchstorleken om du har CPU-timeout eller hög CPU-belastning i CRM.
 
-## Salesforce-anslutna användarbehörigheter {#salesforce-connected-user-permissions}
+## Salesforce-användarbehörigheter {#salesforce-connected-user-permissions}
 
-**Marketo Measure Administrator Permission Set for Dedicated User**: Tillåter SFDC-administratör att utföra CRUD-åtgärder på Marketo Measure-objekt.
+**Marketo Measure Administrator Permission Set for Dedicated User**: Låter SFDC-administratören utföra CRUD-åtgärder på Marketo Measure-objekt.
 
 **Visa och redigera behörighetsgrupp för konverterade leads**: Detta gör att Marketo Measure kan dekorera leads efter att de har konverterats till kontakter.
 
-**Kryssruta för Salesforce-marknadsföringsanvändare**: Tillåter användare att skapa kampanjer och använda guiden för kampanjimport.
-* Ytterligare behörigheter för kampanjen&quot;Skapa&quot; krävs.
+**Kryssruta för användare av Salesforce-marknadsföring**: Tillåter användare att skapa kampanjer och använda guiden för kampanjimport.
+
+* Vi behöver ytterligare behörigheter för Campaign&quot;Create&quot; och&quot;Update&quot; i dina CRM.
+
+* När en kontaktyta skapas från en webbaktivitet måste vi länka den till en kampanj. Eftersom webbaktiviteter inte har motsvarande CRM-kampanjer måste vi skapa en för att skapa den här länken. Detta gäller både lead- och säljkontaktytor. Uppdateringsbehörighet krävs eftersom anropet vi använder är &quot;upsert&quot; - om posten finns uppdaterar vi den, annars skapar vi den. Detta gäller endast kampanjer vi skapar.
 
 **Marketo Measure Standard User**: Ger en användare möjlighet att läsa poster från Marketo Measure-objekt.
 
-## Salesforce-standardobjekt och åtkomst {#salesforce-standard-objects-and-access}
+## Salesforce Standard Objects och Access {#salesforce-standard-objects-and-access}
 
 Här visas [!DNL Salesforce] standardobjekt som [!DNL Marketo Measure] interagerar med och de anpassade fält som vi lägger till i dessa objekt när anslutningen har upprättats och [!DNL Marketo Measure]-paketet har installerats. [!DNL Marketo Measure] skrivs INTE i några vanliga [!DNL Salesforce]-objektfält.
 
@@ -421,7 +424,7 @@ Här visas [!DNL Salesforce] standardobjekt som [!DNL Marketo Measure] interager
  </tbody> 
 </table>
 
-**Kampanj**
+**Campaign**
 
 <table> 
  <colgroup> 
@@ -635,7 +638,7 @@ Här visas [!DNL Salesforce] standardobjekt som [!DNL Marketo Measure] interager
 
 >[!NOTE]
 >
->För att säkerställa precisionen för Marketo Measure-tagning av borttagningshändelser i Salesforce-kontot krävs replikeringsbar behörighet för objekten nedan. Replikerbara behörigheter levereras som standard med följande objekt:
+>För att Marketo Measure ska kunna hantera borttagningshändelser på ditt Salesforce-konto måste du ha replikeringsbar behörighet för objekten nedan. Replikerbara behörigheter levereras som standard med följande objekt:
 >
 >* Konto
 >* Campaign
@@ -649,7 +652,7 @@ Här visas [!DNL Salesforce] standardobjekt som [!DNL Marketo Measure] interager
 
 ## [!DNL Marketo Measure] anpassade objekt i [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-Förutom att skapa anpassade fält på SFDC:s standardobjekt skapas ett par anpassade objekt när [!DNL Marketo Measure]-paketet har installerats. Nedan visas en lista över de här anpassade objekten tillsammans med en tabell som anger de fält som [!DNL Marketo Measure] ska skriva till.
+Förutom att skapa anpassade fält i SFDC Standard Objects skapas ett par anpassade objekt när [!DNL Marketo Measure]-paketet har installerats. Nedan visas en lista över de här anpassade objekten tillsammans med en tabell som anger de fält som [!DNL Marketo Measure] ska skriva till.
 
 **Buyer Touchpoint**
 
