@@ -4,9 +4,9 @@ description: Touchpoint-fält - [!DNL Marketo Measure]
 title: Touchpoint-fält
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
+source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '1951'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Navigera från menyn Inställningar för [!DNL Marketo Measure] till sidan Fält
 
 Om du vill skapa ett beräkningsfält bör du tänka på att det finns tre olika åtgärder som en användare kan utföra: extrahera, mappa till och sammanfoga. De kallas också operatorer för att definiera ett beräkningsfält.
 
-Extraheringar
+### Extraheringar {#extracts}
 
-Operatorn [!UICONTROL extracts] hämtar värdet från ett fält från en annan plats, till exempel ett kampanjfält, ett Lead-fält eller i ett mer avancerat fall, [extrahera anpassade parametrar från landningssidan](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. Sedan placeras det i ett Touchpoint-fält (se [Mappar till exempel](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+Operatorn [!UICONTROL extracts] hämtar värdet från ett fält från en annan plats, till exempel ett kampanjfält, ett Lead-fält eller, i ett mer avancerat fall, extrahera anpassade parametrar från landningssidan. Sedan placeras det i ett Touchpoint-fält.
 
 **Exempel 1**
 
@@ -121,7 +121,7 @@ När landningssidorna blir mer komplicerade och du har flera spårningsparametra
 
 ![](assets/five.png)
 
-**Mappar till**
+### Mappa till {#maps-to}
 
 Operatorn [!UICONTROL maps to] skapar en värdetabell som måste översättas eller klistras in i ett annat värde. Vanligtvis är det ett nyckelvärde där en kod representerar ett eget namn och måste mappas till det egna namnet.
 
@@ -169,7 +169,7 @@ Nu när vi har lärt oss att extrahera och mappa till fält kan vi kombinera des
 
 ![](assets/seven.png)
 
-**Sammanfogningar**
+### Sammanfogningar {#concatenates}
 
 Operatorn [!UICONTROL concatenates] kombinerar värden från flera fält till ett enda fält. Det här är användbart om du vill skapa ett anpassat värde som hämtar data mellan olika fält för att skapa
 
