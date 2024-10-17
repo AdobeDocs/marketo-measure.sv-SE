@@ -3,9 +3,9 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure]
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
+source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,22 @@ ht-degree: 0%
 Nedan finns alla nya och uppdaterade funktioner för 2024-utgåvorna.
 
 ## Q4 Release {#q4-release}
+
+### Nytt beteende för överföring av sessionskanal
+
+Kanalen från föregående session kommer nu att fortsätta om en ny session börjar inom sju dagar efter 30 minuters inaktivitet, vilket endast gäller för direktbesök (ingen hänvisare eller interna referenter). Efter sju dagars inaktivitet blir sessionen som standard Direkt/Annat. Kanaler som inte är direktkanaler åsidosätts inte av tidigare sessionsdata.
+
+Dessutom sammanfogas sessioner med social inloggning (Google, Microsoft eller Apple) till en sammanhängande session, vilket ger en smidigare upplevelse. Utan denna övergång kan sociala inloggningar skapa separata sessioner på grund av skillnader mellan externa referenter.
+
+För nya kunder är överföring av sessionskanal nu standardbeteendet. Befintliga kunder kan aktivera detta genom att aktivera Sessionskanalens överföring under Inställningar → All touch Attribution. Den här inställningen kan inte ångras när den har aktiverats.
+
+Dokumentation: [Definition av Marketo Measure webbsessioner](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+
+### Kontrollpanel för nyckelordens ROI
+
+Den nya Dashboard-panelen för nyckelordsavkastning ger detaljerade insikter om resultatet för betalda sökkampanjer och ger en heltäckande bild av kostnader på nyckelordsnivå, tillskrivna intäkter samt de leads och möjligheter som genereras. Med den här kontrollpanelen kan du utvärdera avkastningen på varje nyckelord för Google Adwords, LinkedIn och Bing Ads, etc.
+
+Dokumentation: [Instrumentpanel för nyckelordsavkastning](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Förbättrade segmentregler
 
@@ -55,7 +71,7 @@ Som vi meddelade förra året kommer vi att [fasa ut våra exportjobb till lead-
 
 Den här förändringen ger två viktiga fördelar:
 
-* **Minskade kostnader för Salesforce API**: Kunderna kan förvänta sig att minska sina kostnader för Salesforce API med ca 10 %.
+* **Minskade Salesforce API-kostnader**: Kunderna kan förvänta sig att minska sina Salesforce API-kostnader med ca 10 %.
 * **Smidig integrering**: Det högsta antalet fel i våra exportjobb är relaterat till dessa processer. Om du tar bort dem kommer integreringen att effektiviseras avsevärt.
 
 **Kontrollpanel för attributerade affärsmöjligheter**
