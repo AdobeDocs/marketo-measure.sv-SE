@@ -4,9 +4,9 @@ description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] interagerar - Mark
 title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] interagerar
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
+source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1281'
 ht-degree: 6%
 
 ---
@@ -188,49 +188,6 @@ Här visas [!DNL Salesforce] standardobjekt som [!DNL Marketo Measure] interager
    <td>x</td> 
    <td> </td> 
   </tr>
- </tbody> 
-</table>
-
-**Fall**
-
-<table> 
- <tbody> 
-  <tr> 
-   <th>Fält</th> 
-   <th>Standard/anpassad</th> 
-   <th>Läs</th> 
-   <th>Skriv</th> 
-  </tr> 
-  <tr> 
-   <td>ID</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>SkapadDatum</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>SenastÄndradDatum</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>AngivenE-post</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td>
-  </tr> 
  </tbody> 
 </table>
 
@@ -466,30 +423,6 @@ Här visas [!DNL Salesforce] standardobjekt som [!DNL Marketo Measure] interager
   </tr> 
   <tr> 
    <td>SenastÄndradDatum</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedContactId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedOpportunityId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsConverted</td> 
    <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
