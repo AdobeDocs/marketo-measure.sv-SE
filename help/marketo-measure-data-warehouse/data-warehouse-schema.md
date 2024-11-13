@@ -4,10 +4,10 @@ description: Data Warehouse Schema - Marketo Measure - Produktdokumentation
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 3ad812a05671f277d3dd3f9bc58e3b2ea3606e71
 workflow-type: tm+mt
 source-wordcount: '21110'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,11 +32,11 @@ Ytterligare _Ads Dimensional Data Model_ ERD visar hur tabeller för annonser so
 
 _Klicka på en bild för att visa dess fullstorleksversion_
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <th>Datans Warehouse datamodell</th> 
-   <th>Annonserar dimensionell datamodell</th> 
+   <th>Datans Warehouse datamodell</th>
+   <th>Annonserar dimensionell datamodell</th>
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
@@ -9479,7 +9479,7 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
       <td>
         <p>Namn på annonsören för placeringen, speciellt för Doubleclick.</p>
       </td>
-      <td>[!DNL Marketo Measure] Analyser</td>
+      <td>[!DNL Marketo Measure] Analytics </td>
     </tr>
     <tr>
       <td>
@@ -10196,7 +10196,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>Namnet på annonskoncern som annonsen löstes från. Detta gäller endast Google Adwords.</p>
       </td>
       <td>
-        <p>Salesforce - Google Analytics</p>
+        <p>SALESFORCE - GOOGLE ANALYTICS</p>
       </td>
     </tr>
     <tr>
@@ -10252,7 +10252,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>Den första raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
-        <p>Integrera Salesforce och Analytics för att</p>
+        <p>Integrera Salesforce &amp; Analytics för att</p>
       </td>
     </tr>
     <tr>
