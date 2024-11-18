@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Rapporteringsguide - [!DNL Marketo Measure]
 title: "[!DNL Marketo Measure] Rapporteringshandbok"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 3119b1754bba49139c1a6756851ada580e09c1ef
 workflow-type: tm+mt
-source-wordcount: '6437'
+source-wordcount: '5602'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 >
 >Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se Bizible i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
-Innan du skapar en [!DNL Marketo Measure]-rapport är det viktigast att bekräfta att dina [!DNL Marketo Measure]-kontoinställningar har granskats och konfigurerats för att säkerställa att data i rapporterna är korrekta och att de återspeglar ditt företags särdrag. Dessutom fungerar rapportprojekt bäst när de följer en strukturerad process. Justin Norris, en [!DNL Marketo Measure]-användare, advokat och partner från [Perkuto](https://perkuto.com/), sammanfattade [hur man närmar sig rapportering i [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
+Innan du skapar en [!DNL Marketo Measure]-rapport är det viktigast att bekräfta att dina [!DNL Marketo Measure]-kontoinställningar har granskats och konfigurerats för att säkerställa att data i rapporterna är korrekta och att de återspeglar ditt företags särdrag. Dessutom fungerar rapportprojekt bäst när de följer en strukturerad process. Justin Norris, en [!DNL Marketo Measure]-användare, advokat och partner från [Perkuto](https://perkuto.com/){target="_blank"}, har gett en expertsammanfattning av [hur man närmar sig rapportering i [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/){target="_blank"}:
 
-**Upprätta mål**:&quot;Den första frågan som ska ställas är&quot;varför mäter vi?&quot; Lori Wizdo från [Forrester Research](https://go.forrester.com/) sammanfattar detta på ett bra sätt i ett [Marketo webbinarium](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/). Enligt henne mäter vi för att bevisa eller validera ett beslut eller värdet av marknadsföring eller för att bli bättre (processförbättring). Vi skulle också vilja tillägga att insikterna från god mätning också ger indata och vägledning i marknadsföringsplaneringsprocessen.
+**Upprätta mål**:&quot;Den första frågan som ska ställas är&quot;varför mäter vi?&quot; Lori Wizdo från [Forrester Research](https://go.forrester.com/) sammanfattar detta på ett bra sätt i ett [Marketo webbinarium](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/){target="_blank"}. Enligt henne mäter vi för att bevisa eller validera ett beslut eller värdet av marknadsföring eller för att bli bättre (processförbättring). Vi skulle också vilja tillägga att insikterna från god mätning också ger indata och vägledning i marknadsföringsplaneringsprocessen.
 
 Innan du börjar är det viktigt att du är tydlig med dina mål, de frågor du försöker svara på eller de problem du försöker lösa. Vilken historia vill du berätta? Vilka beslut kommer att fattas till följd av detta? Alltför ofta är dessa grundläggande faktorer dåligt genomtänkta, vilket leder till frustration för alla inblandade.&quot;
 
@@ -47,7 +47,7 @@ en offlinekampanj eller aktivitet.
 >
 >BAT skapas från BT. Spårningen börjar i princip på individuell nivå via BT. När ett säljprojekt har skapats på ett konto refereras och kan skapa BAT som relaterar till säljprojektet till, så du vill använda det ena eller det andra beroende på vilka frågor du försöker svara på: frågor som relaterar till&quot;personstatistik&quot; (BT rapporter) eller frågor relaterade till&quot;säljprojektsstatistik&quot; (BAT rapporter)
 
-Supportartikel: [Skillnad mellan Buyer Touchpoints och Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
+Supportartikel: [Skillnad mellan Buyer Touchpoints och Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup){target="_blank"}
 
 ## Buyer Touchpoint (BT) {#buyer-touchpoint-bt}
 
@@ -67,7 +67,7 @@ Kontaktpunkter för köpare används för att svara på frågor som rör _person
 
 I första hand måste företagen veta,&quot;var kommer mina leads/kontakter?&quot;. Historiskt sett besvarades detta med ett enda endimensionellt värde (till exempel Lead Source). Som framgår av #1 och #2 ovan vet vi dock att leads kan ha flera kontaktytor under sin resa som lead. Buyer Touchpoint ger oss insikt i de två viktigaste interaktionerna som visar hur en lead genererades: deras First Touch och deras Lead Creation Touch. Kontaktpunkter för köpare är också _flerdimensionella_, vilket innebär att de har mängder av marknadsföringsdata, främst där personen kom från (marknadsföringskanal) och vad personen interagerade med (innehåll).
 
-[attribueringsmodellerna](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) som ger bäst insikt i personbaserade mått är:
+[attribueringsmodellerna](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"} som ger bäst insikt i personbaserade mått är:
 
 * **First Touch** - 100 % attribueringskrediter till Leads First Touch (FT)
 * **Leadskapande** - 100 % attribueringskrediter till Lead&#39;s Lead Creation Touch (LC)
@@ -211,7 +211,7 @@ Granularitetsnivån kan variera beroende på kanal. Det rekommenderade tillväga
 
 Events-chefer kan dock vara mer intresserade av vilka specifika händelser eller vilka typer av händelser som påverkade de flesta ledarna till skapandet:
 
-* Namn på annonskampanj/Salesforce-kampanj = specifik händelse
+* Namn på annonskampanj/Salesforce Campaign = specifik händelse
 * Medium = Campaign &#39;Type&#39;
 
 **PÅMINNELSE**: Ytterligare filter kan behöva läggas till i alla rapportvarianter som beskrivs ovan eller nedan. Dessa filter skulle vara specifika för er organisation och skulle vara något som era marknadsföringsteam eller säljteam skulle kunna ge råd om. Det är inte ovanligt att en organisation kör samma filter i alla rapporter för att säkerställa att rapporten är så ren och korrekt som möjligt. Vanliga exempel:
@@ -398,7 +398,7 @@ Det här tillvägagångssättet för att mäta marknadsföringens påverkan på 
 
 Det finns ett tredje anpassat [!DNL Marketo Measure]-objekt i Salesforce som kan vara mycket användbart när du rapporterar personrelaterade mått: **den [!DNL Marketo Measure] personen (BP)**. BP löser det gamla problemet med att representera information om både leads och kontakter i samma rapport. Den förenar alla BT som är relaterade till en person (en [!DNL Marketo Measure]-persons ID är deras e-postadress). Vare sig de finns som lead eller kontakt fungerar BP som ett bryggobjekt, vilket gör det lättare att rapportera mellan lead och kontakt, och är mycket användbart när det gäller att skapa mer avancerade rapporter om människor.
 
-Personen [!DNL Marketo Measure] relaterar endast till ett av kontaktobjekten, Buyer Touchpoint (BT). Det innebär att det inte kan användas för en säljprojekts- eller intäktsrelaterad mätning. En rapporttyp [!DNL Marketo Measure] person och Buyer Touchpoints är mycket bra för att förstå _totalt engagemang_ eftersom den BT allt om BT relaterar till en lead eller kontakt mer specifikt. Om du till exempel har en Salesforce-kampanj som används för att spåra en händelse, kan du ha kampanjmedlemmar i CRM-kampanjen som antingen finns som Leads ELLER Kontakter. [!DNL Marketo Measure] skapar kontaktytor för kampanjmedlemmarna oavsett, men utan personen [!DNL Marketo Measure] behöver Salesforce-standardrapporter två separata rapporter för att förstå hur många _totalt_ kontaktytor du har från händelsen: en som är Leads med Buyer Touchpoints och en som är Kontakter med Buyer Touchpoints. Några andra [!DNL Marketo Measure] personbaserade användningsexempel för rapportering visas nedan:
+Personen [!DNL Marketo Measure] relaterar endast till ett av kontaktobjekten, Buyer Touchpoint (BT). Det innebär att det inte kan användas för en säljprojekts- eller intäktsrelaterad mätning. En rapporttyp [!DNL Marketo Measure] person och Buyer Touchpoints är mycket bra för att förstå _totalt engagemang_ eftersom den BT allt om BT relaterar till en lead eller kontakt mer specifikt. Om du till exempel har en Salesforce Campaign som används för att spåra en händelse kan du ha kampanjmedlemmar i CRM-kampanjen som antingen finns som leads eller kontakter. [!DNL Marketo Measure] skapar kontaktytor för kampanjmedlemmarna oavsett, men utan personen [!DNL Marketo Measure] krävs det två separata rapporter för Salesforce-standardsrapportering för att förstå hur många _totalt_ kontaktytor du har från händelsen: en som är&quot;Leads with Buyer Touchpoints&quot; och en som är&quot;Kontakter med Buyer Touchpoints&quot;. Några andra [!DNL Marketo Measure] personbaserade användningsexempel för rapportering visas nedan:
 
 **3.1 [!DNL Marketo Measure] Personer som har laddat ned e-böcker eller rapporter (totalt antal nedladdningar)**
 
@@ -498,16 +498,16 @@ Det viktigaste med den här rapporten är att Buyer Touchpoint data också komme
 
 Med tanke på att personen [!DNL Marketo Measure] tillåter oss att rapportera alla kontaktytor i en enda rapport, är det den idealiska rapporttypen som används när vi vill validera dina data. Vi vill försäkra oss om att vi inte missar några kontaktytor som kan avslöja var det till exempel finns ett problem i konfigurationen av dina marknadsföringskanaler (se supportartiklarna nedan för mer information om hur du konfigurerar dina marknadsföringskanaler).
 
-* [Anpassad kanalinställning online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
-* [Anpassad kanalinställning offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+* [Anpassade kanalinställningar online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}
+* [Inställningar för anpassad kanal offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md){target="_blank"}
 
-Kontaktpunktsdata återspeglar i princip vad som har spårats av [!DNL Marketo Measure] och kan granskas för att säkerställa att konfigurationen matchar indata baserat på exempelvis UTM-parametervärden, referenssidor eller kampanjtyper. Om kontaktpunktsdata inte matchar din konfiguration måste något som troligen behöver justeras. Utöver konfigurationen av marknadsföringskanalen kan du titta på kontaktpunktsdata för att avgöra vilka kontaktytor som kan behöva [undertryckas](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) eller [segmenteras](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). Vi rekommenderar att du granskar dina kontaktpunktsdata i en [!DNL Marketo Measure]-rapport för personer och köpare vid slutet av varje månad eller kvartal om det är möjligt. Detta säkerställer att attribueringen blir så korrekt som möjligt. The [!DNL Marketo Measure] 101 | Leads/Kontakter per kanal-rapport som är tillgänglig utan uppdatering är en bra startpunkt. Inkludera följande fält om de inte redan finns med för att granska några av de viktigaste konfigurationsbitarna:
+Kontaktpunktsdata återspeglar i princip vad som har spårats av [!DNL Marketo Measure] och kan granskas för att säkerställa att konfigurationen matchar indata baserat på exempelvis UTM-parametervärden, referenssidor eller kampanjtyper. Om kontaktpunktsdata inte matchar din konfiguration måste något som troligen behöver justeras. Utöver konfigurationen av marknadsföringskanalen kan du titta på kontaktpunktsdata för att avgöra vilka kontaktytor som kan behöva [undertryckas](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) eller [segmenteras](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md){target="_blank"}. Vi rekommenderar att du granskar dina kontaktpunktsdata i en [!DNL Marketo Measure]-rapport för personer och köpare vid slutet av varje månad eller kvartal om det är möjligt. Detta säkerställer att attribueringen blir så korrekt som möjligt. The [!DNL Marketo Measure] 101 | Leads/Kontakter per kanal-rapport som är tillgänglig utan uppdatering är en bra startpunkt. Inkludera följande fält om de inte redan finns med för att granska några av de viktigaste konfigurationsbitarna:
 
 * **Marknadsföringskanal** - Sökväg = Marknadskanal.Subkanal (värden anges i [!DNL Marketo Measure])
 * **Touchpoint Source** = utm_source
 * **Medium** = utm_medium (kontaktpunkter online) eller CRM-kampanjtyp (kontaktpunkter offline)
 * **Referenssida** (använder konfigurationen Onlinekanaler)
-* **Landningssida - Raw** (som används i konfigurationen för onlinekanaler) är även en vanlig inmatning för inaktivering av kontaktyta på fliken &#39;Slutpunktsinställningar&#39; i inställningarna)
+* **Landningssida - Raw** (som används i konfigurationen för onlinekanaler) är också en vanlig inmatning för inaktivering av kontaktyta på fliken &#39;Slutpunktsinställningar&#39; i inställningarna
 * **Formulär-URL** (en vanlig inmatning för inaktivering av kontaktpunkter på fliken &#39;Touchpoint Settings&#39; i dina inställningar)
 
 **BUYER ATTRIBUTION TOUCHPOINT (BAT)**
@@ -522,7 +522,7 @@ BAT primära relationen är säljprojektet, används de för att svara på fråg
 * Hur mycket nya intäkter kan jag tillföra varje marknadsföringskanal?
 * Vilken av mina kampanjer fick störst avkastning förra kvartalet?
 
-[attribueringsmodellerna](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) som ger bästa insikt i säljprojektsbaserade mått är:
+[attribueringsmodellerna](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"} som ger bästa insikt i säljprojektsbaserade mått är:
 
 **W-Shaped** - _Pipeline-modellen_. Tre milstolpekontaktytor ingår i W-Shaped-modellen. I den här modellen tillskrivs kontaktytorna FT, LC och OC 30 % av attribueringskrediten. Återstående 10 % fördelas jämnt på alla mellanliggande kontaktytor som inträffar mellan de tre milstolppunkterna.
 
@@ -704,47 +704,6 @@ Denna rapport skulle i stort sett vara densamma som det första exemplet från B
 
 **PÅMINNELSE**: Det är viktigt att komma ihåg att filtrera efter de specifika affärsmöjligheter som du vill inkludera i BAT-baserad rapportering, särskilt när det gäller Öppna affärsmöjligheter och Försäljning i pipeline jämfört med Avdrag och Avslutade Vinstintäkter. Detta görs vanligtvis via ett &#39;säljprojektsstadiefilter&#39; (filtret &#39;säljprojekt&#39; = sant/falskt kan också vara mycket användbart här).
 
-**5. ROI ([!DNL Marketo Measure] - endast upptäckt)**
-
-Kontrollpanelerna [!DNL Marketo Measure] Discover ger en översikt över dina marknadsföringsprestanda med hjälp av [!DNL Marketo Measure]-attribueringsdata. Dessa aggregerade kontrollpaneler tillhandahåller viktiga marknadsföringsutlägg och ROI-data som inte är tillgängliga i CRM-rapporterna. I den här fördefinierade miljön kan ni se hur marknadsföringen fungerar i linje med era ROI-data, så att ni kan fatta konkreta beslut om marknadsföringen.
-
->[!TIP]
+>[!MORELIKETHIS]
 >
->När du har en fråga som rör avkastning, utgifter eller kostnad är [!DNL Marketo Measure] Discover den bästa platsen för rapportering!
-
-Kontrollpanelerna [!DNL Marketo Measure] för upptäckt består av Buyer Touchpoint- och Buyer Attribution Touchpoints-data samt viktiga CRM-data. Den största skillnaden mellan CRM-rapportering och CRM-rapportering i [!DNL Marketo Measure] Discover är att kontaktpunktsdata i Discover presenteras mer i&quot;aggregerad&quot; form och summeras efter dimension (marknadsföringskanal, kampanj osv.) till skillnad från individuella kontaktytsposter som sedan kan sammanfattas. [!DNL Marketo Measure] Identifiering används för att på en hög nivå förstå vilka av dina ansträngningar som har störst effekt på leads, motsättningar, erbjudanden och hur mycket intäkter som ska tillskrivas dem. När vi har beräknat de tillskrivna intäkterna via de olika attribueringsmodellerna (Full Path rekommenderas för att tilldela stängda egna intäkter/bokningar) kan vi sedan mäta dem mot hur mycket som spenderats i samma dimension (Marknadskanal, Delkanal eller Campaign). Detta ger oss sedan **ROI**.
-
->[!TIP]
->
->En av de viktigaste sakerna att komma ihåg när du rapporterar i Discover är vilken datatyp du använder för att filtrera. Datumtypen anger vilken datauppsättning som [!DNL Marketo Measure] använder i de olika rutorna.
-
-* **Slutpunktsdatum**: Visar relaterade data som hade ett &#39;Slutpunktsdatum&#39; i den angivna tidsramen
-* **Skapad**: Visar relaterade data som hade ett Skapad den i den angivna tidsramen
-* **Stängt datum**: Visar relaterade data som hade stängt den angivna tidsramen
-
-Vid rapportering av avkastning på investeringen i [!DNL Marketo Measure] Discover bör du använda datumtypen = Touchpoint Date. För att fastställa avkastningen för varje investerad dollar måste vi se till att intäkterna återförs till det datum då investeringen gjordes. &#39;Datumtyp&#39; = &quot;Slutpunktsdatum&quot; säkerställer att rapporterna är strukturerade på det här sättet i motsats till när affärsmöjligheten skapades (Skapa datum) eller stängdes (Stängt datum). Ta en närmare titt:
-
-De filter som markeras nedan är avgörande för en rapport med fokus på avkastning i [!DNL Marketo Measure] (troligen kommer du att ställa in dessa filter i panelerna Översikt, CMO eller ROI):
-
-**5.1 | ROI in the &#39;Overview&#39; Board**
-
-![](assets/bizible-reporting-guide-4.png)
-
-Datumintervallet anger inte bara vilken kohort av kontaktytor (efter slutpunktsdatum) som tar emot attribuering, utan också det intervall som representerar&quot;utgiftsrutan&quot; eller kolumnerna.
-[!DNL Marketo Measure] tittar bara på datumintervallet för att avgöra hur mycket som spenderas antingen totalt eller på nivåerna Marknadskanal, Delkanal eller Campaign Se nedan:
-
-![](assets/bizible-reporting-guide-5.png)
-
-Skärmbilden ovan visar marknadsföringsbudgeten för de senaste tre månaderna. I det här exemplet spenderades 12 970 dollar över alla kanaler. Det här numret består av de marknadsföringsutläggsdata som [!DNL Marketo Measure] har från integreringar med dina anslutna annonskonton (Google AdWords, Bing Ads, Facebook Ads, LinkedIn, DoubleClick) och eventuella ytterligare marknadsföringsutgifter som har överförts inom ditt konto eller hämtas automatiskt från en Campaign-post i CRM. Exemplet visar också hur mycket stängd vunnen intäkt som också kan tillskrivas kontaktpunkter som inträffade under samma datumintervall (gröna rutor). Så här beräknas avkastningen på investeringen: intäkter som härrör från kontaktytor som härrör från investeringar i samma datumintervall:
-
-![](assets/bizible-reporting-guide-6.png)
-
-**PÅMINNELSE**: [!DNL Marketo Measure] definierar Intäkter som stängda egna intäkter eller bokningar och definierar Pipeline-intäkter som _öppna/potentiella intäkter från öppna affärsmöjligheter_.
-
-En annan viktig skillnad från ROI-rapporten ovan är&quot;Pipeline Revenue&quot; som finns i den röda rutan. Det innebär att från de 12 970 USD som investerats under de senaste tre hela månaderna tilldelar vi för närvarande 705 199 dollar i sluten vinst, men vi tilldelar även 6 905 532 dollar i öppna, potentiella intäkter (&quot;Pipeline Revenue&quot;) till kontaktytor som skapats från samma investering! Det vi förväntar oss är en del av stängningen av Pipeline Revenue över tiden, som matar in talet Revenue, och därmed skulle avkastningen på investeringen öka med tiden. &#39;Utgiftsvärdet&#39; är fast eftersom vi inte kan lägga mer tid på de senaste tre hela månaderna. Det här är vikten av att använda datumtypen för Touchpoint-datum i alla ROI-rapporter: Den definierar det belopp (**I**)som investerats och ser till att det belopp (**R**)som tilldelats återförs till samma kontaktytor som har hämtats från investeringen (för varje spenderad dollar, hur mycket gjordes?).
-
->[!TIP]
->
->Filtrera in på marknadsföringskanaler, delkanaler och/eller kampanjer där ni vet att marknadsföringsbudgeten är fullständig och korrekt. Exemplet ovan gäller alla marknadsföringskanaler, men om vissa kanaler inte har de relaterade marknadsföringsutgiftsdata överförda kan avkastningen på investeringen bli felaktig. Se exemplet nedan, den här gången i&quot;ROI&quot;-panelen som fokuserar på kampanjer i marknadsföringskanalen i&quot;Betald sökning&quot;, en kanal med mycket detaljerade marknadsföringsutlägg via integreringarna.
-
-![](assets/bizible-reporting-guide-7.png)
+>[Ny handbok för Discover Dashboard](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
