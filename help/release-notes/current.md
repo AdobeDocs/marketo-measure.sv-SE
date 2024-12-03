@@ -3,9 +3,9 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure]
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
+source-git-commit: 9ea72d0e1cf0f754cc8fe844944b93705fb2b12f
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Kanalen från föregående session kommer nu att fortsätta om en ny session bö
 
 Dessutom sammanfogas sessioner med social inloggning (Google, Microsoft eller Apple) till en sammanhängande session, vilket ger en smidigare upplevelse. Utan denna övergång kan sociala inloggningar skapa separata sessioner på grund av skillnader mellan externa referenter.
 
-För nya kunder är överföring av sessionskanal nu standardbeteendet. Befintliga kunder kan aktivera detta genom att aktivera Sessionskanalens överföring under Inställningar → All touch Attribution. Den här inställningen kan inte ångras när den har aktiverats.
+För nya kunder är överföring av sessionskanal nu standardbeteendet. Befintliga kunder kan aktivera detta genom att aktivera Sessionskanalöverföringar under Inställningar > All touch Attribution. Den här inställningen kan inte ångras när den har aktiverats.
 
 Dokumentation: [Definition av Marketo Measure webbsessioner](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
@@ -36,11 +36,11 @@ Dokumentation: [Instrumentpanel för nyckelordsavkastning](https://experiencelea
 
 Nu kan du skapa segment med hjälp av fälten Campaign och Campaign Member, förutom Touchpoint och Kontakt. Den här förbättringen gör att ni kan analysera och sprida era data mer effektivt i Discover.
 
-![Segmentregler för medlemmar](assets/campaign-member.png)
+![Förbättrade segmentregler](assets/mm-q4-release-1.png)
 
 ### Uppdatering: Felhanteringsinställning för CRM-export
 
-Vi har lyssnat på din feedback om hur du stoppar jobben och vi introducerar en ny funktion i användargränssnittet. Från och med idag kan du välja om exportjobb ska pausa när fel uppstår. Använd den nya växlingsknappen i **Mitt konto** > **Inställningar** → **CRM** → **Allmänt**. Den här växeln är aktiverad som standard för att förbättra dataintegriteten och synligheten. Om du inte vill använda den här funktionen kan du stänga av den i användargränssnittet, så återupptas exportjobben. Uppdateringen är utformad för att öka tillförlitligheten i datahanteringsprocesserna samtidigt som du får större kontroll.
+Vi har lyssnat på din feedback om hur du stoppar jobben och vi introducerar en ny funktion i användargränssnittet. Från och med idag kan du välja om exportjobb ska pausa när fel uppstår. Använd den nya växlingsknappen i **Mitt konto** > **Inställningar** > **CRM** > **Allmänt**. Den här växeln är aktiverad som standard för att förbättra dataintegriteten och synligheten. Om du inte vill använda den här funktionen kan du stänga av den i användargränssnittet, så återupptas exportjobben. Uppdateringen är utformad för att öka tillförlitligheten i datahanteringsprocesserna samtidigt som du får större kontroll.
 
 #### Nyckeldatum och utfasning
 
@@ -65,27 +65,27 @@ För att hjälpa dig att anpassa dig till den här ändringen har vi skapat doku
 
 <p>
 
-**Påminnelse: Borttagningar i Salesforce-fält - 14 juni**
+### Påminnelse: Borttagna fält i Salesforce - 14 juni
 
-Som vi meddelade förra året kommer vi att [fasa ut våra exportjobb till lead-/kontaktobjekt](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} för att förenkla vår integrering och eliminera behovet av att exportera till Salesforce-standardobjekt. Du kan hämta samma data från dina Touchpoint-objekt genom att följa stegen [som beskrivs här](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Vi delar också dokumentation om hur du skapar arbetsflöden för att lägga till dessa data i lead-/kontaktobjektet. Utbyggnaden kommer att träda i kraft den 14 juni 2024.
+Som vi meddelade förra året kommer vi att [fasa ut våra exportjobb till lead-/kontaktobjekt](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} för att förenkla vår integrering och eliminera behovet av att exportera till Salesforce standardobjekt. Du kan hämta samma data från dina Touchpoint-objekt genom att följa stegen [som beskrivs här](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Vi delar också dokumentation om hur du skapar arbetsflöden för att lägga till dessa data i lead-/kontaktobjektet. Utbyggnaden kommer att träda i kraft den 14 juni 2024.
 
 Den här förändringen ger två viktiga fördelar:
 
 * **Minskade Salesforce API-kostnader**: Kunderna kan förvänta sig att minska sina Salesforce API-kostnader med ca 10 %.
 * **Smidig integrering**: Det högsta antalet fel i våra exportjobb är relaterat till dessa processer. Om du tar bort dem kommer integreringen att effektiviseras avsevärt.
 
-**Kontrollpanel för attributerade affärsmöjligheter**
+### Kontrollpanel för attributerade affärsmöjligheter
 
 Vi är glada över att kunna presentera den nya [attributerade säljprojektsinstrumentpanelen](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, som ger dig en heltäckande bild av hur dina marknadsföringssatsningar bidrar till både nya och mogna försäljningsmöjligheter. Med den här kontrollpanelen kan du ta reda på detaljerna för alla öppna och stängda affärsmöjligheter som kan hänföras till era strategier, med flexibiliteten att filtrera efter affärsmöjlighetens stadium. Här får ni insikter om vilka kanaler, underkanaler eller kampanjer som rangordnas högst när det gäller tilldelat affärsmöjlighetsbelopp och visar det totala tilldelade affärsmöjlighetsbeloppet tillsammans med antalet tilldelade öppna och stängda affärsmöjligheter.
 
-**Marketo Engage cookie-synkronisering för Marketo Measure Ultimate**
+### Marketo Engage cookie Sync för Marketo Measure Ultimate
 
 Marketo Engage Cookie Sync finns nu för Marketo Measure Ultimate. Så här använder du funktionen:
 
 1. På sidan AEP-scheman redigerar du B2B-personschemat och lägger till fältgruppen &quot;Marketo Engage personinformation&quot;.
 1. När du importerar data till MMU mappar du fältet Kakips-ID från fältgruppen till fältet Kakor från Marketo Engage.
 
-**Boomerang-stadier aktiverade för nivå 2-kunder**
+### Boomerang Stages aktiverat för Tier 2-kunder
 
 Funktionen Boomerang Stage är tidigare bara tillgänglig för Tier 3-kunder och är också tillgänglig för alla Tier 2-kunder från och med den 13 juni 2024. Mer information om den här funktionen finns i dokumentationen nedan.
 
@@ -99,14 +99,14 @@ Funktionen Boomerang Stage är tidigare bara tillgänglig för Tier 3-kunder och
 
 <p>
 
-**Borttagning av Marketo Measure-funktioner som svar på cookie-utfasning från tredje part**
+### Borttagning av Marketo Measure-funktioner som svar på cookie-utfasning från tredje part
 
 Som svar på allt större integritetsproblem fasas cookies från tredje part ut, med Google Chrome 3 2024 som sista ansökningsdatum. Marketo Measure tar bort vissa funktioner som är beroende av cookies från tredje part, särskilt Cross-Domain Tracking och View-through Attribution, som är beroende av Google/DoubleClick-cookie. Den här ändringen påverkar inte andra Marketo Measure-funktioner eller användningen av cookies från första part. Efter Google tidslinje förväntas dessa funktioner bli inaktuella den 1 juni, men data som samlats in före detta datum är fortfarande tillgängliga för kunderna.
 
 * [Anpassa till cookie-borttagning från tredje part i Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Marketo Measure Cookies](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
 
-**Utfasad utrullning av vår utökade felhantering**
+### Avfasad utrullning av vår förbättrade felhantering
 
 Vi introducerar en stegvis utrullning av förbättrad felhantering för exportjobb. Vi börjar med att omedelbart skicka meddelanden i appen om behörighetsfel och övergår till en ny metod där exportjobb pausas vid felpunkten. Ändringen syftar till att förbättra dataintegriteten och synligheten, vilket ger våra användare smidigare och mer tillförlitliga datahanteringsprocesser. För att säkerställa en smidig övergång och minimala störningar i verksamheten genomför vi dessa ändringar i två faser:
 
@@ -125,7 +125,6 @@ _Stöd för övergången_
 
 <br>
 
-**Åtgärd krävs för LinkedIn-integrering**
+### Åtgärd krävs för LinkedIn-integrering
 
 LinkedIn har nyligen släppt en uppdaterad version av sin Lead Sync API. Please reauthenticate the LinkedIn connection in your Marketo Measure instance by May 20 to avoid any störtions.
-
