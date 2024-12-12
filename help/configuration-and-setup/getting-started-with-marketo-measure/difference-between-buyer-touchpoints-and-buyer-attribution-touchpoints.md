@@ -4,7 +4,7 @@ description: Skillnad mellan Buyer Touchpoints och Buyer Attribution Touchpoints
 title: Skillnad mellan Buyer Touchpoints och Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: bdc32fdfe24d57fd7770654f1238896c7b59acf6
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -66,10 +66,10 @@ Vanligtvis använder man Buyer Touchpoint-data för att förstå Top of the Trne
 
 Här är en skärmbild av en BT i [!DNL Salesforce]:
 
-![](assets/1.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-1.png){width="600" zoomable="yes"}
 
 **Hur ser en Buyer Attribution Touchpoint ut i Salesforce?**
 
 Här är en skärmbild av en BAT i [!DNL Salesforce]:
 
-![](assets/2.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-2.png){width="600" zoomable="yes"}
