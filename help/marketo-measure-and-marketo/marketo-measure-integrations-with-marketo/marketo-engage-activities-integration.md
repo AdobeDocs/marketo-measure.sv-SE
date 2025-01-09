@@ -1,10 +1,10 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] aktivitetsintegrering - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] aktivitetsintegrering"
+description: Integrering av [!DNL Marketo Engage] aktiviteter - [!DNL Marketo Measure]
+title: Integrering av [!DNL Marketo Engage] aktiviteter
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Som en del av den övergripande integreringen av [!DNL Marketo Measure] och [!DN
    >
    >Annonsfält som annonsinnehåll eller nyckelord är inte tillgängliga i den här listan eftersom de är reserverade för våra annonsplattformsintegreringar.
 
-## Typ av aktivitet {#activity-types}
+## Typer av aktiviteter {#activity-types}
 
 En del aktivitetstyper ger oss program-ID och programnamn, så det är enkelt att mappa det till Campaign ID och Campaign Name på Buyer Touchpoint. För andra finns det ingen programassociation, så en del av regeldefinitionen kräver att du skapar ett [!DNL Marketo Measure]-kampanjnamn. Nedan finns en lista över varje kategori:
 
@@ -123,7 +123,7 @@ Synkronisera lead till SFDC (19)\
 Konvertera lead (21)\
 Ändra ägare (23)\
 Ta bort från lista (25)\
-SFDC-aktivitet (26)\
+SFDC Activity (26)\
 Mjuk e-postbaserad (27)\
 Ta bort lead från SFDC (29)\
 Sammanfoga leads (32)\
@@ -135,9 +135,9 @@ Skicka varning (38)\
 Skicka e-post för försäljning (39)\
 Open Sales Email (40)\
 Klicka på E-postadress (41)\
-Lägg till i SFDC-kampanj (42)\
-Ta bort från SFDC-kampanj (43)\
-Ändra status i SFDC-kampanj (44)\
+Lägg till i SFDC Campaign (42)\
+Ta bort från SFDC Campaign (43)\
+Ändra status i SFDC Campaign (44)\
 Ta emot e-post för försäljning (45)\
 Begär kampanj (47)\
 E-postförsäljning studsad (48)\
@@ -159,9 +159,9 @@ Anpassad aktivitet (xxx)
 
 ## Kanalmappning {#channel-mapping}
 
-För alla regler från en aktivitetstyp med ett program-ID bestäms Marketo-programkanalen av Programmet. Vi använder programkanalen för att mappa till dina anpassade offlinekanaler, så du måste se till att kanalerna är korrekt konfigurerade [enligt instruktionerna här](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+För alla regler från en aktivitetstyp med ett program-ID bestäms Marketo-programkanalen av Programmet. Vi använder programkanalen för att mappa till dina anpassade offlinekanaler, så du måste se till att kanalerna är korrekt konfigurerade [enligt instruktionerna här](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}.
 
-Och för alla regler från en aktivitetstyp utan program-ID var det första steget att skapa ett kampanjnamn. Använd det här kampanjnamnet för att konfigurera dina anpassade onlinekanaler [som visas här](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Och för alla regler från en aktivitetstyp utan program-ID var det första steget att skapa ett kampanjnamn. Använd det här kampanjnamnet för att konfigurera dina anpassade onlinekanaler [som visas här](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}.
 
 Om kanalerna för dina Marketo-aktiviteter inte är korrekt konfigurerade, kommer troligtvis dina nya kontaktytor att hamna under andra kanaler.
 

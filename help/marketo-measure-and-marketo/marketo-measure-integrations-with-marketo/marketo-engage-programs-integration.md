@@ -1,10 +1,10 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] Programintegrering - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage]-programintegrering"
+description: Integrering av [!DNL Marketo Engage] program - [!DNL Marketo Measure]
+title: Integrering av [!DNL Marketo Engage] program
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Alla lager.
 ## Krav {#requirements}
 
 * Production Marketo, instans
-* Production Salesforce eller Microsoft Dynamics-instans
+* Production Salesforce eller Microsoft Dynamics
 * Valfri betald [!DNL Marketo Measure]-prenumeration
 * Synkronisering av Marketo-användare har aktiverats ([!DNL Marketo Measure] inställningar)
 * Marketo-program har aktiverats ([!DNL Marketo Measure] inställningar)
@@ -57,7 +57,7 @@ Alla lager.
 
 Den färdiga regeln ska se ut ungefär så här:
 
-## Testa {#test}
+## Test {#test}
 
 När du har skapat några regler kanske du vill testa dem för att verifiera att satsen matchar dina program.
 
@@ -99,16 +99,12 @@ Genom dataimporten av Marketo-program laddas kostnaderna automatiskt ned från P
 
 **Fältmappningar**
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
+<table><thead>
   <tr> 
    <th>biz_ad_campaign</th> 
    <th>Marketo</th> 
-  </tr> 
+  </tr></thead>
+<tbody>
   <tr> 
    <td>ID</td> 
    <td>id</td> 
@@ -118,24 +114,60 @@ Genom dataimporten av Marketo-program laddas kostnaderna automatiskt ned från P
    <td>(kontrollera om programmet fortfarande finns via API)</td> 
   </tr> 
   <tr> 
-   <td><p>NAMN</p></td> 
+   <td>NAMN</td> 
    <td>name</td> 
   </tr> 
  </tbody> 
 </table>
 
-| biz_campaign_members | Marketo |
-|---|---|
-| ID | &quot;MarketoProgramMembership&quot;_ProgramId_Lead ID |
-| MODIFIED_DATE | updatedAt |
-| CREATED_DATE | membershipDate |
-| LEAD_ID | ID (listmedlemskap) |
-| LEAD_EMAIL | E-post (lista över medlemskap) |
-| STATUS | progressStatus |
-| HAS_RESPONDED | foundStatus |
-| CAMPAIGN_NAME | programName |
-| CAMPAIGN_ID | programId |
-| CAMPAIGN_TYPE | kanal |
+<table><thead>
+  <tr>
+    <th>biz_campaign_members</th>
+    <th>Marketo</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>ID</td>
+    <td>"MarketoProgramMembership"_ProgramId_Lead ID</td>
+  </tr>
+  <tr>
+    <td>MODIFIED_DATE</td>
+    <td>updatedAt</td>
+  </tr>
+  <tr>
+    <td>CREATED_DATE</td>
+    <td>membershipDate</td>
+  </tr>
+  <tr>
+    <td>LEAD_ID</td>
+    <td>ID (listmedlemskap)</td>
+  </tr>
+  <tr>
+    <td>LEAD_EMAIL</td>
+    <td>E-post (lista över medlemskap)</td>
+  </tr>
+  <tr>
+    <td>STATUS</td>
+    <td>progressStatus</td>
+  </tr>
+  <tr>
+    <td>HAS_RESPONDED</td>
+    <td>foundStatus</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_NAME</td>
+    <td>programName</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_ID</td>
+    <td>programId</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_TYPE</td>
+    <td>kanal</td>
+  </tr>
+</tbody>
+</table>
 
 ## Cookie-mappning {#cookie-mapping}
 

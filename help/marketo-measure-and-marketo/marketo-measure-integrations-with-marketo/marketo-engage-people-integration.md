@@ -1,10 +1,10 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] Personintegrering - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] Personintegrering"
+description: '[!DNL Marketo Engage] Personintegrering - [!DNL Marketo Measure]'
+title: Integrering av [!DNL Marketo Engage] personer
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Tack vare integreringen av Marketo-användare kan [!DNL Marketo Measure] börja 
 * Production Marketo, instans
 * Produktion [!DNL Salesforce] eller [!DNL Microsoft Dynamics] instans
 * Valfri betald [!DNL Marketo Measure]-prenumeration
-* SOLR aktiverat (kontakta [Marketo Support](https://nation.marketo.com/t5/Support/ct-p/Support) för att aktivera detta)
+* SOLR aktiverat (kontakta [Marketo Support](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"} om du vill aktivera detta)
 
 ## Så här fungerar det {#how-it-works}
 
