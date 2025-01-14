@@ -2,9 +2,10 @@
 description: Kontrollpanel för nyckelords-ROI - [!DNL Marketo Measure]  - Produkt
 title: Kontrollpanel för nyckelordens ROI
 feature: Reporting
-source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
+exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
+source-git-commit: f1adf53a9bf3adbc77d52c12dbafb09a28e51178
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -31,10 +32,10 @@ Granska de specifika nyckelorden för att se vilka möjligheter som påverkas av
 
 * **Nyckelord**
 * **Campaign**
-* **Lägg till konto-ID** (kommer snart)
-* **Lägg till kontonamn** (kommer snart)
-* **Lägg till grupp-ID** (kommer snart)
-* **Lägg till gruppnamn** (kommer snart)
+* **Lägg till konto-ID**
+* **Lägg till kontonamn**
+* **Lägg till grupp-ID**
+* **Lägg till gruppnamn**
 * **Kostnad**: Totala kostnader från anslutna datakällor.
 * **Attribuerad intäkt**: Det totala intäktsbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor som stängts inom den filtrerade datumperioden
 * **Realiserad attributerad intäkt**: Det totala intäktsbidraget, baserat på den valda attribueringsmodellen, från affärsmöjligheter med kontaktytor inom den filtrerade datumperioden, oavsett när de stängdes.
@@ -52,10 +53,10 @@ Granska de specifika nyckelorden för att se vilka möjligheter som påverkas av
 
 * **Nyckelord**
 * **Campaign**
-* **Lägg till konto-ID** (kommer snart)
-* **Lägg till kontonamn** (kommer snart)
-* **Lägg till grupp-ID** (kommer snart)
-* **Lägg till gruppnamn** (kommer snart)
+* **Lägg till konto-ID**
+* **Lägg till kontonamn**
+* **Lägg till grupp-ID**
+* **Lägg till gruppnamn**
 * **Kostnad**
 * **Nya leads**: Totalt antal nya leads som genererats, inklusive både rörliga och orörda leads.
 * **Kostnad per ny lead**: Den genomsnittliga kostnaden per ny lead, som härleds från den totala kostnaden dividerat med det totala antalet nya leads.
