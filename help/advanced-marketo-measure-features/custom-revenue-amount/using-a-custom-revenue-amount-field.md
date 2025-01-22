@@ -4,7 +4,7 @@ description: Använder ett fält för anpassat intäktsbelopp - [!DNL Marketo Me
 title: Använda fältet Anpassat intäktsbelopp
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
+source-git-commit: 03342bde87b75ab702eea4c63b581479a7e303c1
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -104,6 +104,6 @@ Följande steg gäller för Salesforce Classic-användare. Om du har växlat til
 
    När du har slutfört de här stegen måste affärsmöjligheterna uppdateras för att arbetsflödet ska få det nya värdet från fältet [!UICONTROL custom opportunity].
 
-   Detta kan du uppnå genom att köra dina affärsmöjligheter via Data Loader i SFDC. Mer information om hur du använder datainläsaren finns i [den här artikeln](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   Detta kan du uppnå genom att köra dina affärsmöjligheter via Data Loader i SFDC. Mer information om hur du använder datainläsaren finns i [den här artikeln](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}.
 
 Om det finns några frågor längs vägen går det bra att kontakta kontoteamet (din kontohanterare) eller [[!DNL Marketo] supporten](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
