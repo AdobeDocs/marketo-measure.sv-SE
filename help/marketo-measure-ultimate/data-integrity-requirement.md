@@ -1,16 +1,16 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate Data Integrity-krav - [!DNL Marketo Measure]'
-title: '[!DNL Marketo Measure] Ultimate Data Integrity Required'
+description: '[!DNL Marketo Measure] Ultimate-dataintegritetskrav - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Ultimate-dataintegritetskrav'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
+source-git-commit: 4f504bd940e2d28603af65b75151d8143cdcbea8
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Ultimat dataintegritetskrav {#marketo-measure-ultimate-data-integrity-requirement}
+# [!DNL Marketo Measure] Ultimate-dataintegritetskrav {#marketo-measure-ultimate-data-integrity-requirement}
 
 [!DNL Marketo Measure] validerar inkommande AEP-datauppsättningar för att säkerställa att data är tillräckliga och konsekventa för attribuering. Om dataintegritetskravet inte uppfylls, kommer datauppsättningen att refuseras av systemet [!DNL Marketo Measure]. I den här artikeln beskrivs dataintegritetskravet, den innehåller frågeexempel för datainspektion och den rekommenderar en lösning för obligatoriska fält med ett null-värde.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
   </tr>
   <tbody>
     <tr>
-      <td colspan="7"><strong>Konto</strong> (konto för Salesforce, Company och/eller namngivet konto för Marketo)</td>
+      <td colspan="7"><strong>Konto</strong> (konto för Salesforce, företag och/eller namngivet konto för Marketo)</td>
     </tr>
     <tr>
       <td rowspan="6">XDM Business Account</td>
@@ -89,7 +89,7 @@ ht-degree: 0%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Campaign</strong> (Campaign för Salesforce, Program för Marketo)</td>
+      <td colspan="7"><strong>Campaign</strong> (Campaign for Salesforce, Program for Marketo)</td>
     </tr>
     <tr>
       <td rowspan="8">XDM Business Campaign</td>
@@ -817,7 +817,7 @@ ht-degree: 0%
       <td>string</td>
       <td></td>
       <td>Ja</td>
-      <td>Exempel - Salesforce</td>
+      <td>Exempel: Salesforce</td>
     </tr>
     <tr>
       <td></td>
@@ -891,7 +891,7 @@ ht-degree: 0%
 
 **Standardvaluta**: I Marketo Measure konverteras alla intäkter och kostnader till en standardvaluta vid rapporteringstidpunkten. Det måste finnas en post med samma datumtäckning för själva målvalutan (t.ex. USD till USD) med konverteringsgraden 1.
 
-**Konverteringsgrader**: Varje par (källvaluta, målvaluta) kan ha flera konverteringsgrader för olika datumperioder. Frekvenserna måste omfatta hela tidsintervallet från 0001-01-01 till 999-12-31, enligt objektet Salesforce DatedConversionRate.
+**Konverteringsgrader**: Varje par (källvaluta, målvaluta) kan ha flera konverteringsgrader för olika datumperioder. Frekvenserna måste omfatta hela tidsintervallet från 0001-01-01 till 999-12-31, enligt Salesforce DatedConversionRate-objektet.
 
 **Datumintervall**:
 * Det finns inga överlappande datumintervall inom en angiven räntesats (källvaluta, målvaluta) (t.ex. 2023-01-01 till 2023-02-01 och 2023-01-01 till 2024-01-01).
@@ -1121,7 +1121,7 @@ Använd händelsetypen Intressant stund för händelsetyper som inte stöds i ta
 
 ## Frågeexempel för datainspektion {#query-examples-for-data-inspection}
 
-Nedan följer en lista med frågeexempel för att inspektera inkapslade datauppsättningar i AEP-sjön. Om du vill använda dem mot dina datauppsättningar ersätter du tabellnamnet i frågeexemplen nedan med det faktiska datatabellnamnet.
+Nedan följer en lista med frågeexempel för att inspektera inkapslade datauppsättningar i AEP datasjön. Om du vill använda dem mot dina datauppsättningar ersätter du tabellnamnet i frågeexemplen nedan med det faktiska datatabellnamnet.
 
 Vi förväntar oss att alla räkningar ska vara 0.
 
@@ -1322,13 +1322,13 @@ select 'addToCampaign campaign instance id', count(*) from marketo_activity wher
 union all
 select 'addToCampaign campaign key', count(*) from marketo_activity where eventType = 'leadOperation.addToCampaign' and leadOperation.addToCampaign.campaignKey.sourceKey is null
 union all
-select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceId is null
+select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceType is null
+select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceType is null
 union all
-select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
+select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
+select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
 ```
 
 ```
