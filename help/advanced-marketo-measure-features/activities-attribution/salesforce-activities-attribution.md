@@ -72,11 +72,11 @@ Du vill förmodligen placera dessa nya kontaktytor i deras lämpliga [marknadsf�
 >
 >börjar med ( Outbound&#42; )
 >
-innehåller ( &#42;Utgående&#42; )
+>innehåller ( &#42;Utgående&#42; )
 >
-slutar med ( &#42;utgående)
+>slutar med ( &#42;utgående)
 >
-Inget jokertecken betyder i princip&quot;är lika med&quot;, så se till att använda dem efter behov.
+>Inget jokertecken betyder i princip&quot;är lika med&quot;, så se till att använda dem efter behov.
 
 | **Operator** | **Använd skiftläge** |
 |---|---|
@@ -93,4 +93,4 @@ Och sist men inte minst har ni möjlighet att ange kostnader för era nya kanale
 
 >[!MORELIKETHIS]
 >
-[Vanliga frågor om aktivitetsattribuering](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>[Vanliga frågor om aktivitetsattribuering](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

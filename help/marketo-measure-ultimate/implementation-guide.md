@@ -56,7 +56,7 @@ Vi rekommenderar att du använder ett autogenereringsverktyg för att skapa tio 
 
 * Steg för att hämta och konfigurera verktyget [finns här](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-För dem med ett _**CDP-berättigande**_: Skapa scheman genom att gå till sidan Källor.
+För dem med ett _&#x200B;**CDP-berättigande**&#x200B;_: Skapa scheman genom att gå till sidan Källor.
 
 * Välj Lägg till data > Använd mallar från en källa
 

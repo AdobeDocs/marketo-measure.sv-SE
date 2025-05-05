@@ -107,7 +107,7 @@ Prova!
 
     a. Använd din nya anpassade inloggnings-URL och försök logga in på  [!DNL Marketo Measure] programmet igen med din identitetsleverantörs autentiseringsuppgifter.
     
-    b. Formatet kommer att se ut som &quot;https://apps.adobe.com/business/[accountName]`
+    b. Formatet kommer att se ut som &quot;https://apps.adobe.com/business/[accountName]&grave;
     
     c. Grattis! Du har konfigurerat enkel inloggning i  [!DNL Marketo Measure] programmet för ditt konto!
 
