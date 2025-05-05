@@ -16,10 +16,10 @@ Det här dokumentet innehåller en översikt över hur du hanterar enskilda data
 
 Du kan skicka enskilda förfrågningar för att få åtkomst till och ta bort konsumentdata från [!DNL Marketo Measure] på två sätt:
 
-* Via [[!DNL Privacy Service] gränssnittet](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* Via **[!DNL Privacy Service]API**. Se dokumentationen [här](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} och API-referensen [här](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Via [[!DNL Privacy Service] gränssnittet](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=sv-SE){target="_blank"}.
+* Via **[!DNL Privacy Service]API**. Se dokumentationen [här](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=sv-SE){target="_blank"} och API-referensen [här](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} har stöd för två typer av förfrågningar: dataåtkomst och borttagning av data.
+[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv-SE){target="_blank"} har stöd för två typer av förfrågningar: dataåtkomst och borttagning av data.
 
 Låt oss se hur du kan skapa förfrågningar om åtkomst och borttagning.
 

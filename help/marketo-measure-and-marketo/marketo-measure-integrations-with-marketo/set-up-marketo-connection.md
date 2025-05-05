@@ -17,7 +17,7 @@ Så här konfigurerar du anslutningen till Marketo.
 
 >[!PREREQUISITES]
 >
->[Skapa endast en API-användarroll](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html){target="_blank"} för anslutningen [!DNL Marketo Measure]/Marketo Engage.
+>[Skapa endast en API-användarroll](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=sv-SE){target="_blank"} för anslutningen [!DNL Marketo Measure]/Marketo Engage.
 
 1. I [!DNL Marketo Measure] klickar du på listrutan **[!UICONTROL My Account]** och väljer **[!UICONTROL Settings]**.
 

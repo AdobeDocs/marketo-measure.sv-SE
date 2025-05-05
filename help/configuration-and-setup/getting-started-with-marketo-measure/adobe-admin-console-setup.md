@@ -18,7 +18,7 @@ Det första steget för att använda [!DNL Marketo Measure] är att skapa och lo
 
 Som produkt i Adobe Suite använder [!DNL Marketo Measure] alla funktioner i Adobe Admin Console för Identity Management. Fler resurser [finns här](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 
-Vi rekommenderar att du granskar de resurser, bästa praxis och alternativ som är tillgängliga för dig för [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+Vi rekommenderar att du granskar de resurser, bästa praxis och alternativ som är tillgängliga för dig för [Identity Management](https://helpx.adobe.com/se/enterprise/using/set-up-identity.html).
 
 Kontakta din [!DNL Marketo Measure]-kontorepresentant om du vill ha hjälp med och granska hur du konfigurerar din Identity Management inom Adobe Admin Console.
 
@@ -47,7 +47,7 @@ Nästa steg är att bevilja åtkomst till programmet [!DNL Marketo Measure] geno
 | Administratörer | det här är administratörer och avancerade användare av programmet [!DNL Marketo Measure] med fullständig möjlighet att uppdatera och hantera [!DNL Marketo Measure]-specifika konfigurationsalternativ |
 | Användare | dessa är standardanvändare av programmet [!DNL Marketo Measure] med skrivskyddad behörighet i programmet [!DNL Marketo Measure] |
 
-När du lägger till en användare i deras respektive grupp visas deras [identitetstyp ](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+När du lägger till en användare i deras respektive grupp visas deras [identitetstyp ](https://helpx.adobe.com/se/enterprise/using/set-up-identity.html).
 
 >[!NOTE]
 >
