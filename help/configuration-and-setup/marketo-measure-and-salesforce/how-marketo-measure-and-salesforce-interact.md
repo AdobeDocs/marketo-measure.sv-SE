@@ -4,9 +4,9 @@ description: Hur [!DNL Marketo Measure] och [!DNL Salesforce] interagerar - Mark
 title: Hur [!DNL Marketo Measure] och [!DNL Salesforce] interagerar
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+source-git-commit: ec5172286951f482905f97268f33f063d1860694
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1287'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Låt oss titta närmare på relationen mellan [!DNL Marketo Measure] och Salesforce.
 
-## Salesforce och [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
+## Salesforce och [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
 När [!DNL Marketo Measure]-kontot har skapats och [!DNL Salesforce] har anslutits börjar [!DNL Marketo Measure] överföra marknadsföringsdata till CRM-instansen så länge det [!DNL Marketo Measure] hanterade paketet är installerat och [!DNL Marketo Measure] Salesforce-användaren har redigeringsbehörighet.
 
@@ -449,7 +449,19 @@ Här visas [!DNL Salesforce] standardobjekt som [!DNL Marketo Measure] interager
    <td>Typ</td> 
    <td>Standard</td> 
    <td>x</td> 
-   <td><br></td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>StartDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>EndDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr>
   <tr> 
    <td>Namn</td> 
@@ -583,7 +595,7 @@ Här visas [!DNL Salesforce] standardobjekt som [!DNL Marketo Measure] interager
 >* Uppgift
 
 
-## [!DNL Marketo Measure] anpassade objekt i [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
+## [!DNL Marketo Measure] anpassade objekt i [!DNL Salesforce]  {#marketo-measure-custom-objects-in-salesforce}
 
 Förutom att skapa anpassade fält i SFDC Standard Objects skapas ett par anpassade objekt när [!DNL Marketo Measure]-paketet har installerats. Nedan visas en lista över de här anpassade objekten tillsammans med en tabell som anger de fält som [!DNL Marketo Measure] ska skriva till.
 
