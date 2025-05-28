@@ -4,9 +4,9 @@ description: Attributmappningsmetod - [!DNL Marketo Measure]
 title: Metod för attribueringsmappning
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
+source-git-commit: 90d0d6481e5b338d08a56f555ca3addea8bdd304
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ Pros: Den här attribueringsmetoden är mycket effektiv för de flesta företag.
 Kon: Om det finns starka SLA för marknadsföring och försäljning som definierar vem som ska få krediter för vad, kan den här metoden vara problematisk. Om man inte använder kontohierarkier för att definiera specifika affärsenheter inom ett större konto (t.ex. IBM) kan dessutom marknadsföringsinteraktioner som är specifika för en affärsenhet spridas över andra affärsenhetsmöjligheter.
 
 ## Mappning av säljprojektskontaktroll {#opportunity-contact-role-mapping}
+
+>[!NOTE]
+>
+>Mappningsmetoder för kontaktroller är bara tillgängliga för dem som använder Salesforce som CRM. Det är inte tillgängligt för Microsoft Dynamics-användare eftersom det saknas ett kontaktroll-objekt i CRM.
 
 De flesta klienter använder mappning av konto-ID, men [!DNL Marketo Measure] kan slå upp till kontaktrollerna (kontakter som är kopplade till säljprojektet) i ett säljprojekt för att dela upp attribueringsprocessen. Det innebär att [!DNL Marketo Measure] bara skickar marknadsföringsinteraktioner som är associerade med kontaktrollerna i affärsmöjligheten som Touchpoints för Buyer-attribuering. Nedan visas en representation av den här processen.
 
