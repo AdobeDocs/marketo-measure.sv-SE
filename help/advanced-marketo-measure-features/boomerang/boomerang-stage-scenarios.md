@@ -4,9 +4,9 @@ description: Scenarier i Boomerang - [!DNL Marketo Measure]
 title: Scenarier i Boomerang
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
+source-git-commit: ce54eb497c55c4ab8da55e9b2803dc59a87c7267
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1499'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Funktionen Boomerang är bara aktiverad för Tier 2- och Tier 3-kunder. Om du vill begära en högre kontonivå kontaktar du kontoteamet (din kontohanterare) på Adobe.
+>Funktionen Boomerang är bara aktiverad för Tier 2- och Tier 3-kunder. Om du vill beställa en högre kontonivå kontaktar du Adobe Account Team (din kontohanterare).
 
 Nedan visas några exempel på scenarier för Boomerang-scenen som ger en förståelse för hur [!DNL Marketo Measure] skapar kontaktytor i varje situation.
 
@@ -79,23 +79,7 @@ SAL-01-kontaktytan (sista) från lead 1 överförs som kontaktyta för affärsm�
 
 När Lead 2 och 3 konverteras till Kontakter skapar [!DNL Marketo Measure] inte en ny OC-kontaktyta eftersom det bara kan finnas en fas där affärsmöjligheten skapas.
 
-**Scenario 2 -[!UICONTROL Three Leads with Opportunity]**
-
-I det här scenariot har en kund valt att spåra **MQL**-, **SQL**- och **SAL**-stadierna med boomerang-kontaktytor.
-
-Alla kontaktytor från Lead 1 ingår i affärsmöjligheten, från FT till SAL-01 (Last). LC-kontaktytan från Lead 2 kommer att ingå som en kontaktyta mellan LC- och MQL-01-kontaktytorna på affärsmöjligheten.
-
-![](assets/5.png)
-
-MQL-01 (sista) från lead 2 blir till slut MQL-04 (sista)-kontaktytan för affärsmöjligheten. Eftersom det här scenariot handlar om flera Leads resor inom ett säljprojekt kan positioneringen och numreringen av Leads kontaktytor ändras när de översätts som kontaktytor i säljprojektet. På samma sätt blir SQL-01 (sista) från Lead 2 SQL-04 (sista) på Opp. Lead 2’s SAL-01 (Last) blir också säljprojektets SAL-02 (Last).
-
-Det finns bara två SAL-kontaktytor i säljprojektet. [!DNL Marketo Measure] försöker inte att tvinga/skapa kontaktytor för scenövergångar om de inte har inträffat.
-
-Lead 3:s kontaktpunktsresa börjar precis innan OC-beröringen sker, men långt efter att Lead 1 och Lead 2 haft sin FT- och LC-beröring. I det här fallet visas FT och LC för lead 3 som en kontaktyta i form av ett säljprojekt. Lead 1 konverteras sedan till en kontakt med ett säljprojekt, vilket anses vara en kontaktperson.
-
-MQL-, SQL- och SAL-kontakterna för lead 3 sker samtidigt, efter OC-beröringen. Eftersom de inträffade efter OC-kontaktytan visas den här kontaktytan som en Form/Middle Touch på säljprojektet i stället för som en övergång på Boomerang-scenen.
-
-**Scenario 2a - webbbesök Boomerang-kontaktytor**
+**Scenario 2 - Webbbesök Boomerang-kontaktpunkter**
 
 I det här scenariot har en kund valt att spåra **MQL**-, **SQL**- och **SAL**-stadierna med boomerang-kontaktytor. Detta scenario är nästan identiskt med det ovanstående, med några få undantag.
 
