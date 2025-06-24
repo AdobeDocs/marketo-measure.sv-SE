@@ -4,9 +4,9 @@ description: Marknadskanaler och delkanaler - [!DNL Marketo Measure]
 title: Marknadsföringskanaler och delkanaler
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Delkanaler är den andra pusselbiten när du köper dina inkommande leads. Delka
 
 Bilden nedan visar ett exempel på en marknadsföringskanal, delkanal och innehåll baserat på en webbsida med följande URL:
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial)*
+`http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial`
 
 I det här fallet är det innehåll som användaren försöker få åtkomst till introduktionshandboken för B2B-marknadsattribuering. [!DNL Marketo Measure] kommer att analysera URL:en som leder till det här innehållet med hjälp av kanalreglerna som har konfigurerats i den här organisationen och använda dem för att&quot;markera&quot; det här leadet i marknadsföringskanalen&quot;Betald social&quot; och delkanalen&quot;LinkedIn&quot;.
 
@@ -68,12 +68,12 @@ Fler exempel...
 
 * Google AdWord
 * BingAds
-* Facebook Ads
+* Facebook-annonser
 * Adroll
 * Dubbelklicka
 * Capterra
 * Drip-kampanjer
-* LinkedIn Ads
+* LinkedIn-annonser
 
 **Innehåll (rapporter, sidadresser, blogginlägg)**
 
