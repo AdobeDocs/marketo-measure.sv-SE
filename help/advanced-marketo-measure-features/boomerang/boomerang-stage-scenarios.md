@@ -4,9 +4,9 @@ description: Scenarier i Boomerang - [!DNL Marketo Measure]
 title: Scenarier i Boomerang
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: ce54eb497c55c4ab8da55e9b2803dc59a87c7267
+source-git-commit: 855ae5abe6f8782ed1883f85be545c11bf86e7ce
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ MQL-01 (sista) från Lead 2 blir den första MQL för affärsmöjligheten. MQL-0
 
 SQL-scenen spåras med anpassade stadier, inte boomerang-stadier. Även om det finns tre förekomster av SQL-steget mellan Lead 1 och Lead 2 inkluderas bara den sista SQL-förekomsten som kontaktyta i säljprojektet.
 
-SAL-01-kontaktytan (sista) från lead 1 överförs som kontaktyta för affärsmöjligheten. Lead 1 konverteras sedan till en kontakt med ett säljprojekt, vilket anses vara en kontaktperson. SAL-01-kontaktytan för lead 2 (sista) skapas som kontaktyta eftersom den här scenövergången inträffade _efter_ OC-beröringen.
+SAL-01-kontaktytan (sista) från lead 1 överförs som kontaktyta för affärsmöjligheten. Lead 1 konverteras sedan till en kontakt med ett säljprojekt, vilket anses vara en kontaktperson. SAL-01-kontaktytan för lead 2 (sista) skapas inte som kontaktyta eftersom den här scenövergången inträffade _efter_ OC-beröringen.
 
 3:s FT-, LC- och MQL-, SQL-, SAL-kontaktytor (orange) inträffade alla efter OC-kontaktytan i säljprojektet. Dessa kontaktytor ingår i säljprojektet, men betraktas som&quot;medelkontaktytor&quot;.
 
