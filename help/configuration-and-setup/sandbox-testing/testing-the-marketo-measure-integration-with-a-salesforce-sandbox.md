@@ -19,7 +19,7 @@ ht-degree: 1%
 
 En av de [!DNL Marketo Measure] viktigaste funktionerna är möjligheten att spåra era digitala marknadsföringssatsningar via åtgärder på din webbplats och sedan överföra dessa data till din produktion [!DNL Salesforce org] via Leads and Contacts. Vanligtvis finns det inga inkommande leads som skapats från din webbplats inom en sandlådeintegrering, så fokus på data kommer att ligga på en helt offline-nivå.
 
-Här anges de två källorna som refereras till för båda testfaserna. [Steg 1-4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&amp;language=en_US&amp;type=5) och [Steg 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Vi rekommenderar att du granskar dessa dokument eftersom de innehåller mer information inom vissa områden.
+Här anges de två källorna som refereras till för båda testfaserna. [Steg 1-4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5) och [Steg 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Vi rekommenderar att du granskar dessa dokument eftersom de innehåller mer information inom vissa områden.
 
 1. Du måste skapa några leads i en CSV-fil så att du kan överföra dem till en kampanj. Så här exporterar du vissa leads via en rapport i Salesforce-produktionen. I annat fall kan du skapa leads i en Excel-fil manuellt och sedan spara den som en CSV-fil för import. Du behöver bara cirka 20 poster. Filen måste ha följande kolumner:
 

@@ -27,7 +27,7 @@ Den hanterade behörighetsgruppen ger en SFDC-administratör möjlighet att skap
 
 * Visa och redigera behörighetsgrupp för konverterade leads
 
-Detta gör att [!DNL Marketo Measure] kan dekorera leads efter att de har konverterats till kontakter. Om den här behörighetsgruppen inte är aktiverad kan det finnas stora luckor i dataspårningen. Mer information finns i [[!DNL Salesforce Trailblazer] community](https://help.salesforce.com/s/articleView?language=en_US&amp;id=leads_view_edit_converted.htm&amp;type=5).
+Detta gör att [!DNL Marketo Measure] kan dekorera leads efter att de har konverterats till kontakter. Om den här behörighetsgruppen inte är aktiverad kan det finnas stora luckor i dataspårningen. Mer information finns i [[!DNL Salesforce Trailblazer] community](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
 
 * Kryssrutan [!DNL Salesforce] för marknadsföringsanvändare
 

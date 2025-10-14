@@ -15,7 +15,7 @@ ht-degree: 0%
 
 När du sammanfogar leads i [!DNL Salesforce] är det alltid bäst att vara försiktig så att inga data går förlorade.
 
-Här är en beskrivning av [hur du sammanfogar leads](https://help.salesforce.com/s/articleView?id=leads_merge.htm&amp;language=en_US&amp;type=5) från [!DNL Salesforce] Support.
+Här är en beskrivning av [hur du sammanfogar leads](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5) från [!DNL Salesforce] Support.
 
 Var [!DNL Marketo Measure] kommer in är när det är dags att markera fält som fylls i i den sammanfogade posten. När du har valt huvudposten kontrollerar du att fälten [!DNL Marketo Measure] har markerats för överföring till den nya posten.
 

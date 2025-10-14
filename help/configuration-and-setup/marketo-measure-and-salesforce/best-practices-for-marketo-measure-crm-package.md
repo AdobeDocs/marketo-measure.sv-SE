@@ -50,11 +50,11 @@ Andra orsaker till det kan utlösa en granskning...
 
 >[!NOTE]
 >
->När du inaktiverar Marketo Measure export av data till Salesforce tas inga befintliga data bort. Om du vill ta bort den följer du stegen i [den här hjälpartikeln för Salesforce](https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
+>När du inaktiverar Marketo Measure export av data till Salesforce tas inga befintliga data bort. Om du vill ta bort den följer du stegen i [den här hjälpartikeln för Salesforce](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [Uppdatera Buyer Touchpoint-paket](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] Behörighetsuppsättningar](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [Dela rapporter och instrumentpanelsmapp](https://help.salesforce.com/s/articleView?language=en_US&amp;id=analytics_share_folder.htm&amp;type=0)
+>* [Dela rapporter och instrumentpanelsmapp](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 >* [Anslut Marketo Measure till Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

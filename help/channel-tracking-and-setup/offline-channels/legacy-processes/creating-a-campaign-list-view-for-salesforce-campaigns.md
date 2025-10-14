@@ -44,4 +44,4 @@ I kampanjlistvyn som kan skapas kan du ha en plats där du kan gå till för att
 
 >[!MORELIKETHIS]
 >
->[Felsöka vanliga problem med infogad redigering i listvyn](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}
+>[Felsöka vanliga problem med infogad redigering i listvyn](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

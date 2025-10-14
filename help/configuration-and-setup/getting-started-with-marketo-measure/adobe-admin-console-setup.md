@@ -47,7 +47,7 @@ Nästa steg är att bevilja åtkomst till programmet [!DNL Marketo Measure] geno
 | Administratörer | det här är administratörer och avancerade användare av programmet [!DNL Marketo Measure] med fullständig möjlighet att uppdatera och hantera [!DNL Marketo Measure]-specifika konfigurationsalternativ |
 | Användare | dessa är standardanvändare av programmet [!DNL Marketo Measure] med skrivskyddad behörighet i programmet [!DNL Marketo Measure] |
 
-När du lägger till en användare i deras respektive grupp visas deras [identitetstyp ](https://helpx.adobe.com/se/enterprise/using/set-up-identity.html).
+När du lägger till en användare i deras respektive grupp visas deras [identitetstyp &#x200B;](https://helpx.adobe.com/se/enterprise/using/set-up-identity.html).
 
 >[!NOTE]
 >

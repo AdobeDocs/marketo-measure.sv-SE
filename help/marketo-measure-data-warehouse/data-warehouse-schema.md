@@ -2307,7 +2307,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. En rå landningssida kommer att innehålla alla frågeparametrar i URL:en. I CRM kallas det"landningssida - Raw".</p>
       </td>
       <td>
-        <p>http://www.adobe.com/blog/uncover-truth?utm_content=2732869&amp;utm_medium=social&amp;utm_source=linkedin</p>
+        <p>http://www.adobe.com/blog/uncover-truth?utm_content=2732869&utm_medium=social&utm_source=linkedin</p>
       </td>
     </tr>
     <tr>
@@ -6664,7 +6664,7 @@ Insamlade formulärinskickat material.
         <p>URL där formuläret skickades, inklusive eventuella frågeparametrar.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOAH Nwdml3YZBZDPF dXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOAH Nwdml3YZBZDPF dXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6918,7 +6918,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>URL där Impression utfördes, inklusive eventuella frågeparametrar.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOAH Nwdml3YZBZDPF dXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOAH Nwdml3YZBZDPF dXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -9333,7 +9333,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
         <p>URL:en som sidvyn kommer från, inklusive eventuella frågeparametrar.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9912,7 +9912,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>URL för sessionens första sidvy, inklusive eventuella frågeparametrar.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -11613,7 +11613,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. En rå landningssida kommer att innehålla alla frågeparametrar i URL:en. I CRM kallas det"landningssida - Raw".</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -12628,7 +12628,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. En rå landningssida kommer att innehålla alla frågeparametrar i URL:en. I CRM kallas det"landningssida - Raw".</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%mät%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%mät%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12676,7 +12676,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i tabellen Attribution_Touchpoints, utan i tabellen Form_Submits. En sida med Raw-formulär kan innehålla frågeparametrar i URL:en. I CRM refereras till"Form URL - Raw".</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -13265,7 +13265,7 @@ Mappningstabell för att mappa [!DNL Marketo Measure] sessions-ID till Adobe ECI
       <td>varchar</td>
       <td>URL för sidvyn, inklusive eventuella frågeparametrar.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
       </td>
     </tr>
     <tr>

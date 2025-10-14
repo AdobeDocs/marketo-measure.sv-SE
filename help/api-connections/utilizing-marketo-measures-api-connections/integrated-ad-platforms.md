@@ -101,7 +101,7 @@ Google URL Builder är standardverktyg för att skapa korrekt formaterade URL:er
 
 **Google-kalkylblad genererat av EpikOne**
 
-Det här kalkylbladet innehåller en formel som automatiskt genererar taggade mål-URL:er. Det här är ett bra verktyg om du behöver tagga ett stort antal länkar. Gå till kalkylbladet [här](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
+Det här kalkylbladet innehåller en formel som automatiskt genererar taggade mål-URL:er. Det här är ett bra verktyg om du behöver tagga ett stort antal länkar. Gå till kalkylbladet [här](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&hl=en){target="_blank"}.
 
 **Rafflecopter Link Tagging Tool**
 

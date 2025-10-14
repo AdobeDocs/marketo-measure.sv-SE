@@ -64,7 +64,7 @@ Glöm inte att ange olika regler för aktiviteter eller händelser. Du måste ve
 
 ![](assets/5.png)
 
-Du vill förmodligen placera dessa nya kontaktytor i deras lämpliga [marknadsföringskanal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. Det gör du genom att definiera kanalen med den nya Campaign-mappningen som precis skapades.
+Du vill förmodligen placera dessa nya kontaktytor i deras lämpliga [marknadsföringskanal](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. Det gör du genom att definiera kanalen med den nya Campaign-mappningen som precis skapades.
 
 >[!TIP]
 >
@@ -87,7 +87,7 @@ Du vill förmodligen placera dessa nya kontaktytor i deras lämpliga [marknadsf�
 
 ![](assets/6.png)
 
-Och sist men inte minst har ni möjlighet att ange kostnader för era nya kanaler. Med [Utgiftsöverföring för marknadsföring](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} kan du ange din utgift på kanalnivå, delkanalsnivå eller kampanjnivå. Med dina nya [!DNL Marketo Measure]-kampanjer kan du lägga till de relaterade kostnaderna per månad och sedan se avkastningen för varje kampanj!
+Och sist men inte minst har ni möjlighet att ange kostnader för era nya kanaler. Med [Utgiftsöverföring för marknadsföring](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} kan du ange din utgift på kanalnivå, delkanalsnivå eller kampanjnivå. Med dina nya [!DNL Marketo Measure]-kampanjer kan du lägga till de relaterade kostnaderna per månad och sedan se avkastningen för varje kampanj!
 
 ![](assets/7.png)
 

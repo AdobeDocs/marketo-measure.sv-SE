@@ -26,7 +26,7 @@ När tillägget [!DNL Marketo Measure] installeras och konfigureras i Adobe Laun
 >* [Adobe - startöversikt](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=sv-SE){target="_blank"}
 >* [Översikt över tillägget för Adobe-start](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=sv-SE){target="_blank"}
 
-1. Skapa en egenskap enligt stegen [ i den här artikeln](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=sv-SE#go-to-the-data-collection-interface){target="_blank"}.
+1. Skapa en egenskap enligt stegen [&#x200B; i den här artikeln](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=sv-SE#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Klicka på den egenskap som du skapade.
 
