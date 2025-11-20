@@ -24,13 +24,13 @@ Dessutom sammanfogas sessioner med social inloggning (Google, Microsoft eller Ap
 
 För nya kunder är överföring av sessionskanal nu standardbeteendet. Befintliga kunder kan aktivera detta genom att aktivera Sessionskanalöverföringar under Inställningar > All touch Attribution. Den här inställningen kan inte ångras när den har aktiverats.
 
-Dokumentation: [Definition av Marketo Measure webbsessioner](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+Dokumentation: [Definition av Marketo Measure webbsessioner](https://experienceleague.adobe.com/sv/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### Kontrollpanel för nyckelordens ROI
 
 Den nya Dashboard-panelen för nyckelordsavkastning ger detaljerade insikter om resultatet för betalda sökkampanjer och ger en heltäckande bild av kostnader på nyckelordsnivå, tillskrivna intäkter samt de leads och möjligheter som genereras. Den här kontrollpanelen hjälper dig att utvärdera avkastningen på varje nyckelord för Google Adwords, LinkedIn, Bing Ads osv.
 
-Dokumentation: [Instrumentpanel för nyckelordsavkastning](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+Dokumentation: [Instrumentpanel för nyckelordsavkastning](https://experienceleague.adobe.com/sv/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Förbättrade segmentregler
 
