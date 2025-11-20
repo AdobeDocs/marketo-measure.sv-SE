@@ -24,13 +24,13 @@ Dessutom sammanfogas sessioner med social inloggning (Google, Microsoft eller Ap
 
 För nya kunder är överföring av sessionskanal nu standardbeteendet. Befintliga kunder kan aktivera detta genom att aktivera Sessionskanalöverföringar under Inställningar > All touch Attribution. Den här inställningen kan inte ångras när den har aktiverats.
 
-Dokumentation: [Definition av Marketo Measure webbsessioner](https://experienceleague.adobe.com/sv/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+Dokumentation: [Definition av Marketo Measure webbsessioner](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### Kontrollpanel för nyckelordens ROI
 
-Den nya Dashboard-panelen för nyckelordsavkastning ger detaljerade insikter om resultatet för betalda sökkampanjer och ger en heltäckande bild av kostnader på nyckelordsnivå, tillskrivna intäkter samt de leads och möjligheter som genereras. Med den här kontrollpanelen kan du utvärdera avkastningen på varje nyckelord för Google Adwords, LinkedIn och Bing Ads, etc.
+Den nya Dashboard-panelen för nyckelordsavkastning ger detaljerade insikter om resultatet för betalda sökkampanjer och ger en heltäckande bild av kostnader på nyckelordsnivå, tillskrivna intäkter samt de leads och möjligheter som genereras. Den här kontrollpanelen hjälper dig att utvärdera avkastningen på varje nyckelord för Google Adwords, LinkedIn, Bing Ads osv.
 
-Dokumentation: [Instrumentpanel för nyckelordsavkastning](https://experienceleague.adobe.com/sv/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+Dokumentation: [Instrumentpanel för nyckelordsavkastning](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Förbättrade segmentregler
 
@@ -78,11 +78,11 @@ Den här förändringen ger två viktiga fördelar:
 
 Vi är glada över att kunna presentera den nya [attributerade säljprojektsinstrumentpanelen](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, som ger dig en heltäckande bild av hur dina marknadsföringssatsningar bidrar till både nya och mogna försäljningsmöjligheter. Med den här kontrollpanelen kan du ta reda på detaljerna för alla öppna och stängda affärsmöjligheter som kan hänföras till era strategier, med flexibiliteten att filtrera efter affärsmöjlighetens stadium. Här får ni insikter om vilka kanaler, underkanaler eller kampanjer som rangordnas högst när det gäller tilldelat affärsmöjlighetsbelopp och visar det totala tilldelade affärsmöjlighetsbeloppet tillsammans med antalet tilldelade öppna och stängda affärsmöjligheter.
 
-### Marketo Engage cookie Sync för Marketo Measure Ultimate
+### Marketo Engage Cookie-synkronisering för Marketo Measure Ultimate
 
 Marketo Engage Cookie Sync finns nu för Marketo Measure Ultimate. Så här använder du funktionen:
 
-1. På sidan AEP-scheman redigerar du B2B-personschemat och lägger till fältgruppen &quot;Marketo Engage personinformation&quot;.
+1. På sidan AEP Schemas redigerar du B2B-personschemat och lägger till fältgruppen &quot;Marketo Engage personinformation&quot;.
 1. När du importerar data till MMU mappar du fältet Kakips-ID från fältgruppen till fältet Kakor från Marketo Engage.
 
 ### Boomerang Stages aktiverat för Tier 2-kunder
@@ -127,4 +127,4 @@ _Stöd för övergången_
 
 ### Åtgärd krävs för LinkedIn-integrering
 
-LinkedIn har nyligen släppt en uppdaterad version av sin Lead Sync API. Please reauthenticate the LinkedIn connection in your Marketo Measure instance by May 20 to avoid any störtions.
+LinkedIn har nyligen släppt en uppdaterad version av sin Lead Sync API. Please reauthenticate the LinkedIn connection in your Marketo Measure instance by May 20 to avoid any ruptions.
