@@ -96,7 +96,7 @@ Lär dig mer om de olika [!DNL Marketo Measure]-cookies som är inlästa på din
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Tredje part, domain=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
+    <td>Tredje part, domain=.<a href="https://business.adobe.com/se/products/marketo/bizible.html">bizible.com</a></td>
     <td>Universellt användar-ID för att identifiera en användare i flera domäner.</td>
     <td>1 år</td>
     <td>Ja</td>

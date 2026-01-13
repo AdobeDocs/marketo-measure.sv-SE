@@ -33,4 +33,4 @@ Den här rapporten visar dock antalet kontaktytor som rör James. I rapporten se
 Om du vill förstå antalet kontakter kan du sedan använda fälten Antal - första beröring, Antal - Lead - Skapa Touch eller Antal - U-Shaped för att förstå hur många kontakter som har haft marknadsföringsinteraktioner.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Självstudiekurser: Stock SFDC-rapporter](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Stock SFDC-rapporter](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

@@ -71,5 +71,5 @@ När du skapar den här kampanjen klickar du på fältet [!UICONTROL Enable Buye
 När ett av dessa val har valts kommer [!DNL Marketo Measure] att tilldela varje kampanjmedlem en kontaktpunkt om tillämpligt. Lead eller kontakt som läggs till i kampanjen _måste_ ha en e-postadress kopplad till sin post för att [!DNL Marketo Measure] ska kunna skapa en kontaktyta. Utan en e-postadress kommer [!DNL Marketo Measure] inte att tilldela kampanjmedlemmen någon kontaktyta.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Självstudiekurser: Mappa offlinekanaler](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
->[[!DNL Marketo Measure] Självstudiekurser: Kampanjobjektfält &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Mappa offlinekanaler](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Kampanjobjektfält &#x200B;](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

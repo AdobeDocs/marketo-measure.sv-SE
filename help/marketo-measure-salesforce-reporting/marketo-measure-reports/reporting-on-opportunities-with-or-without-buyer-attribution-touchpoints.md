@@ -39,4 +39,4 @@ Skapa en ny rapporttyp som inkluderar alla affärsmöjligheter med eller utan ko
    ![&#x200B; 1](assets/4-1.jpg)
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Självstudiekurser: Ytterligare SFDC-rapporter](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Självstudiekurser: Ytterligare SFDC-rapporter](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

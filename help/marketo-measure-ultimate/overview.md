@@ -110,5 +110,5 @@ Attribution Touchpoints skrivs inte till CRM eftersom Ultimate inte har någon d
 * Det finns ingen migreringsväg för befintliga Tier 1/2/3-användare. Kräver en ny implementering, men vi hjälper dig att migrera spårade webbaktivitetsdata från den befintliga instansen.
 
 >[!MORELIKETHIS]
-> [Marketo Measure Ultimate-mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
-> [VIDEO: Marketo Measure Ultimate - översikt](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+> [Marketo Measure Ultimate-mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=sv-SE){target="_blank"}
+> [VIDEO: Marketo Measure Ultimate - översikt](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

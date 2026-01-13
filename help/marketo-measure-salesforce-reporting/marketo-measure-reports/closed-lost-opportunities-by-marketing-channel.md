@@ -46,4 +46,4 @@ ht-degree: 0%
    Detta är en rapport över affärsmöjligheter som sammanfattas av marknadsföringskanalen som mäter stängda förlorade affärsmöjligheter i alla kanaler. I den här rapporten kan du förstå vilka kanaler som kan vara underpresterande. Lägg in eventuella filter och fält som du vill rapportera om.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Självstudiekurser: Ytterligare SFDC-rapporter](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Självstudiekurser: Ytterligare SFDC-rapporter](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

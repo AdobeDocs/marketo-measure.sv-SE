@@ -122,5 +122,5 @@ För att komma runt det här problemet skapade [!DNL Marketo Measure] ett [!DNL 
 >Kom ihåg att den här utlösaren inte spårar några kampanjmedlemmar som har tagits bort tidigare, så det här fungerar bara framåt. Om du behöver ta bort ett stort antal kontaktytor för tidigare kampanjmedlemmar kontaktar du [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Självstudiekurser: Kampanjobjektfält](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
->[[!DNL Marketo Measure] Självstudiekurser: Mappa offlinekanaler &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Kampanjobjektfält](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Mappa offlinekanaler &#x200B;](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

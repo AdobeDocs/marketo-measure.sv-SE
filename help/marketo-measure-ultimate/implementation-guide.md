@@ -37,7 +37,7 @@ Läs mer om [Marketo Measure Ultimate](/help/marketo-measure-ultimate/overview.m
 ## Scheman och datauppsättningar {#schemas-and-datasets}
 
 >[!NOTE]
->Kolla in [Byggblock för ett schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} om du vill ha en översikt över scheman, klasser och fältgrupper.
+>Kolla in [Byggblock för ett schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=sv-SE#building-blocks-of-a-schema){target="_blank"} om du vill ha en översikt över scheman, klasser och fältgrupper.
 
 **XDM-schema = klass + schemafältgrupp&#42;**
 
@@ -48,13 +48,13 @@ Läs mer om [Marketo Measure Ultimate](/help/marketo-measure-ultimate/overview.m
 
 ![Schemastrukturdiagram som visar klass- och fältgruppsrelationer](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[Datauppsättningsöversikt](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}: Alla data som har importerats till AEP lagras i Data Lake som datauppsättningar. En datauppsättning är en lagrings- och hanteringskonstruktion för en datamängd, vanligtvis en tabell, som innehåller ett schema (kolumner) och fält (rader).
+[Datauppsättningsöversikt](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=sv-SE){target="_blank"}: Alla data som har importerats till AEP lagras i Data Lake som datauppsättningar. En datauppsättning är en lagrings- och hanteringskonstruktion för en datamängd, vanligtvis en tabell, som innehåller ett schema (kolumner) och fält (rader).
 
 ## Skapa ett schema {#creating-a-schema}
 
 Vi rekommenderar att du använder ett autogenereringsverktyg för att skapa tio standardscheman för B2B.
 
-* Steg för att hämta och konfigurera verktyget [finns här](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
+* Steg för att hämta och konfigurera verktyget [finns här](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=sv-SE#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
 För dem med ett _&#x200B;**CDP-berättigande**&#x200B;_: Skapa scheman genom att gå till sidan Källor.
 
@@ -71,7 +71,7 @@ För dem med ett _&#x200B;**CDP-berättigande**&#x200B;_: Skapa scheman genom at
 >[!IMPORTANT]
 >När du lägger till en ny datauppsättning rekommenderar vi att du skapar ett flöde i stället för att använda en befintlig.
 
-[Dataflöden - översikt](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
+[Dataflöden - översikt](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=sv-SE){target="_blank"}
 
 **Steg för att skapa ett dataflöde:**
 
@@ -85,7 +85,7 @@ För dem med ett _&#x200B;**CDP-berättigande**&#x200B;_: Skapa scheman genom at
    > Om du mappar en schematyp till en annan, görs det automatiskt.
    > Du kan också importera mappning från ett annat flöde i systemet.
    > Du kan mappa ett Source-fält till flera målfält, men inte tvärtom.
-   > Du kan skapa beräknade fält ([Förmappningsfunktioner för dataprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
+   > Du kan skapa beräknade fält ([Förmappningsfunktioner för dataprep](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=sv-SE){target="_blank"}).
 
    >[!CAUTION]
    > Du kan redigera ett dataflöde, men data fylls inte i i efterhand när en mappning ändras.
@@ -111,7 +111,7 @@ Alternativ 1: Om du vill köra frågor direkt från användargränssnittet går 
 
 ![Fliken Frågor i Datahantering visar frågegränssnittet](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Alternativ 2: [Hämta och använd PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (snabbare och mer tillförlitligt).
+Alternativ 2: [Hämta och använd PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html?lang=sv-SE){target="_blank"} (snabbare och mer tillförlitligt).
 
 ## Aktivera datauppsättning för Marketo Measure {#activate-dataset-for-marketo-measure}
 

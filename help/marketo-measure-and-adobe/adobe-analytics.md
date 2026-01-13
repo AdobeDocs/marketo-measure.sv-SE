@@ -20,7 +20,7 @@ Tack vare integreringen av B2B-kundattribut kan gemensamma användare av [!DNL M
 
 ## Konfigurera integreringen {#configuring-the-integration}
 
-1. Skapa ett nytt kundattribut Data Source i din Experience Cloud-konsol. Detaljerade instruktioner [finns här](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html).
+1. Skapa ett nytt kundattribut Data Source i din Experience Cloud-konsol. Detaljerade instruktioner [finns här](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=sv-SE).
 
    Observera följande information som behövs i de senare stegen:
 
@@ -34,11 +34,11 @@ Tack vare integreringen av B2B-kundattribut kan gemensamma användare av [!DNL M
 
    Ange ditt Adobe IMS-organisations-ID. Detta ID visas i det nedre högra hörnet av din Adobe Experience Cloud Admin Console. Mer hjälp om hur du hittar detta ID finns i Adobe Account Team (din kontoansvarige).
 
-1. När du har skapat anslutningen i ditt [!DNL Marketo Measure]-konto måste du gå tillbaka till din Experience Cloud-konsol för att [verifiera schemat](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). Du behöver inte bekymra dig om FTP-filöverföringen. [!DNL Marketo Measure] har automatiserat den delen åt dig. Gå till schemaskärmen Visa/redigera för det kundattribut Source du skapade i steg 1 och tala om för Adobe vilka datatyper som finns för vart och ett av de attribut som [!DNL Marketo Measure] har överfört åt dig. Du kan också skapa nya visningsvänliga namn för de överförda attributen om du vill.
+1. När du har skapat anslutningen i ditt [!DNL Marketo Measure]-konto måste du gå tillbaka till din Experience Cloud-konsol för att [verifiera schemat](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=sv-SE). Du behöver inte bekymra dig om FTP-filöverföringen. [!DNL Marketo Measure] har automatiserat den delen åt dig. Gå till schemaskärmen Visa/redigera för det kundattribut Source du skapade i steg 1 och tala om för Adobe vilka datatyper som finns för vart och ett av de attribut som [!DNL Marketo Measure] har överfört åt dig. Du kan också skapa nya visningsvänliga namn för de överförda attributen om du vill.
 
    Om du har valt att synkronisera attribut från CRM-kontoobjektet rekommenderar vi att du väljer nya visningsnamn för dem, eftersom [!DNL Marketo Measure] bara fyller i API-nivånamnen för dessa attribut, som vanligtvis inte är rapporteringsvänliga.
 
-1. Det sista steget är att konfigurera attributprenumerationer för de Experience Cloud-program som du vill använda attributen i. Du kan konfigurera prenumerationer för [!DNL Adobe Analytics] eller [!DNL Adobe Target].  Mer information om hur du gör [finns här](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html).
+1. Det sista steget är att konfigurera attributprenumerationer för de Experience Cloud-program som du vill använda attributen i. Du kan konfigurera prenumerationer för [!DNL Adobe Analytics] eller [!DNL Adobe Target].  Mer information om hur du gör [finns här](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html?lang=sv-SE).
 
 ## Attributbeskrivningar {#attribute-descriptions}
 

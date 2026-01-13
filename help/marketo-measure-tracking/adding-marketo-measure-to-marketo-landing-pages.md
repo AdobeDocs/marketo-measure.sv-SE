@@ -41,4 +41,4 @@ Exempel i skärmbild nedan
 
 * Det är troligt att du använder flera mallsidor för landningssidor. Se till att du lägger till koden i alla mallar som har formulär.
 
-* Ibland när du redigerar mallen för landningssidor måste du omgodkänna de sidor som landningssidan används av. I den här artikeln förklaras [hur du masserar godkännande](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
+* Ibland när du redigerar mallen för landningssidor måste du omgodkänna de sidor som landningssidan används av. I den här artikeln förklaras [hur du masserar godkännande](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=sv-SE){target="_blank"}.

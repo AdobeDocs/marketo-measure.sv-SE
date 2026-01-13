@@ -34,4 +34,4 @@ Den här rapporten visar antalet möjligheter som genererats av era marknadsför
    Detta är en rapport över affärsmöjligheter som sammanfattas av Marketing Channel. Rapporten fokuserar på alla motsättningar, men kan filtreras baserat på fas/typ av affärsmöjlighet. Dessutom kan du lägga till i fält som du vill rapportera om.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Självstudiekurser: Stock SFDC-rapporter](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Stock SFDC-rapporter](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
