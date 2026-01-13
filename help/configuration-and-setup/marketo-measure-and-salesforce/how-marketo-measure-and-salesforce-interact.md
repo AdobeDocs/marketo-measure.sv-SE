@@ -24,7 +24,7 @@ När [!DNL Marketo Measure]-kontot har skapats och [!DNL Salesforce] har ansluti
 
 Om du inte har installerat Salesforce-paketet [!DNL Marketo Measure] skriver [!DNL Marketo Measure] inga data till din Salesforce-instans.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 Som standard exporterar [!DNL Marketo Measure] 200 poster per API-kredit varje gång ett jobb skickar data till din CRM. För de flesta kunder ger detta den optimala balansen mellan API-krediter som används av [!DNL Marketo Measure] och CPU-resurskrav i CRM. För kunder med komplexa CRM-konfigurationer, till exempel arbetsflöden och utlösare, kan en mindre gruppstorlek vara användbar för att förbättra CRM-prestanda. Därför tillåter [!DNL Marketo Measure] kunder att konfigurera CRM-exportens batchstorlek. Den här inställningen är tillgänglig på sidan [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] i webbprogrammet [!DNL Marketo Measure] och kunderna kan välja mellan gruppstorlekar på 200 (standard), 100, 50 eller 25.
 

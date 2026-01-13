@@ -21,7 +21,7 @@ När det finns flera möjligheter under ett konto delar de olika möjligheterna 
 
 Till exempel har kontot nedan två affärsmöjligheter. Den första möjligheten har bara en kontaktyta. Denna kontaktyta omfattar kontaktytan för FT, LC och OC (Opportunity Creation). Den andra affärsmöjligheten har samma FT &amp; LC som den första affärsmöjligheten, men OC-kontaktytan är annorlunda. Dessutom har den andra affärsmöjligheten ytterligare kontaktytor som inte är associerade med den första affärsmöjligheten, eftersom de inträffar efter den första affärsmöjlighetens stängningsdatum.
 
-![Konto med två möjligheter som delar FT- och LC-kontaktytor ](assets/1.jpg)
+![Konto med två möjligheter som delar FT- och LC-kontaktytor &#x200B;](assets/1.jpg)
 
 ## Hur hjälper det här? {#how-does-this-help}
 

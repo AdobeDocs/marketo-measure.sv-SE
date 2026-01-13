@@ -36,7 +36,7 @@ Varför är detta viktigt? Tänk dig att ert företag sponsrade en monter på en
 
 Ditt överföringsdatum skulle vara tre veckor senare än konferensdatumet. Om du vill åtgärda den här skillnaden kan du använda knappen [!UICONTROL Bulk Update Touchpoint Date] för att ange rätt datum. Knappen visas i bilden nedan.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 I det här fallet fyller den upp-datumet med tre veckor. Det här steget bör utföras innan du ställer in fältet [!UICONTROL Enable Buyer Touchpoints].
 
@@ -47,17 +47,17 @@ Du kan också uppdatera datumen för alla kampanjmedlemmar i en befintlig kampan
 >[!CAUTION]
 >Se till att du uppdaterar slutpunktsdatumet _före_ när du aktiverar slutpunkter för alla kampanjmedlemmar.
 
-![ 3](assets/2-3.png)
+![&#x200B; 3](assets/2-3.png)
 
 ## Så här skapar du en Campaign och synkroniserar kontaktytor för köpare {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
 Om du vill skapa en kampanj i [!DNL Salesforce] går du till fliken [!UICONTROL Campaigns] och väljer [!UICONTROL New] enligt bilden nedan. Beroende på hur [!DNL Salesforce] är konfigurerat kan du behöva lägga till kampanjer i det övre fältet genom att klicka på plusikonen (+).
 
-![ 3](assets/3-3.png)
+![&#x200B; 3](assets/3-3.png)
 
 När du skapar den här kampanjen klickar du på fältet [!UICONTROL Enable Buyer Touchpoints] och väljer något av följande alternativ i listan:
 
-![ 3](assets/4-3.png)
+![&#x200B; 3](assets/4-3.png)
 
 * **Inkludera alla kampanjmedlemmar**
    * Det här alternativet gör att [!DNL Marketo Measure] kan tilldela en kontaktyta till varje kampanjmedlem.
@@ -72,4 +72,4 @@ När ett av dessa val har valts kommer [!DNL Marketo Measure] att tilldela varje
 
 >[!MORELIKETHIS]
 >[[!DNL Marketo Measure] Självstudiekurser: Mappa offlinekanaler](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
->[[!DNL Marketo Measure] Självstudiekurser: Kampanjobjektfält ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Kampanjobjektfält &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

@@ -54,5 +54,5 @@ Andra orsaker till det kan utlösa en granskning...
 >[!MORELIKETHIS]
 > [Uppdatera Buyer Touchpoint-paket](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
 > [[!DNL Marketo Measure] Behörighetsuppsättningar](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
-> [Dela rapporter och instrumentpanelsmapp ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [Dela rapporter och instrumentpanelsmapp &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 > [Anslut Marketo Measure till Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

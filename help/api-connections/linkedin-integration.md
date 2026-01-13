@@ -66,7 +66,7 @@ De typer av annonsformat för sponsrat innehåll som stöds av [!DNL Marketo Mea
 
 [!DNL Marketo Measure] stöder inte Sponsored Messaging, Text Ads eller Dynamic Ads.
 
-![LinkedIn-annonstyper med stöd för Single Image Ads, Video Ads och Carousel med Forms Lead Gen ](assets/one.png)
+![LinkedIn-annonstyper med stöd för Single Image Ads, Video Ads och Carousel med Forms Lead Gen &#x200B;](assets/one.png)
 
 >[!TIP]
 >För alla kampanjer/utgifter som kommer från en icke-finansierad innehållskälla (till exempel Campaign-typen &quot;Text Ad&quot; eller &quot;Sponsored InMail&quot;), stöder [!DNL Marketo Measure] _inte_ i sig spårning av dessa kampanjtyper. Om du vill spåra utgifter för kampanjer som dessa tillsammans med dina&quot;Sponsored Content&quot;-utgifter måste du använda vår Marketing Spend CSV för att manuellt logga dessa utgifter.

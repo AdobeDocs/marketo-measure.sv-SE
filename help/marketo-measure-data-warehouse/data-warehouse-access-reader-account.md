@@ -23,7 +23,7 @@ Om du vill få tillgång till ditt Snowflake datalager måste du navigera till d
 
 1. Klicka på **[!UICONTROL Data Warehouse]** under Säkerhet på den vänstra menyn.
 
-   ![Sidlisten Inställningar med alternativet Data Warehouse under avsnittet Säkerhet ](assets/data-warehouse-access-reader-account-2.png)
+   ![Sidlisten Inställningar med alternativet Data Warehouse under avsnittet Säkerhet &#x200B;](assets/data-warehouse-access-reader-account-2.png)
 
 1. Den här sidan har länken till ditt Snowflake datalager och ditt användarnamn.
 

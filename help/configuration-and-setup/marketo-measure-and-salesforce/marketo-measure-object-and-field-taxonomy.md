@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Nedan visas ett flödesschema som representerar hur [!DNL Marketo Measure] anpassade objekt relaterar till [!DNL Salesforce] standardobjekt.
 
-![ 2](assets/1-2.png)
+![&#x200B; 2](assets/1-2.png)
 
 [Klicka här](assets/bizible-object-and-field-taxonomy-graph-full.png) om du vill visa bilden i full storlek.
 

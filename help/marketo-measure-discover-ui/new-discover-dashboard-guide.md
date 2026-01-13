@@ -505,5 +505,5 @@ I takt med att vi fortsätter att sträva efter att förbättra din upplevelse s
 
 >[!MORELIKETHIS]
 >[Grunderna för instrumentpanel](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
->[Synlighetsprincip för instrumentpanelsdata ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>[Synlighetsprincip för instrumentpanelsdata &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

@@ -111,7 +111,7 @@ a. Klient-ID är ID:t från steg 7 i avsnittet ovan. Om du inte skrev ned det vi
 
 b. Klienthemlighet är den programhemlighet som skapas i Azure Portal för ditt program under Certifikat och hemligheter.
 
-![Sidan Certifikat och hemligheter med klienthemlighet ](assets/creating-2e.png)
+![Sidan Certifikat och hemligheter med klienthemlighet &#x200B;](assets/creating-2e.png)
 
 c. Program-ID-URI är URL:en för mål-webb-API:t (skyddad resurs). Om du vill hitta app-ID-URL:en klickar du på [!DNL Azure Active Directory] på Azure-portalen, klickar på Programregistreringar, öppnar programmets inställningssida och klickar sedan på Egenskaper. Det kan också vara en extern resurs som `https://graph.microsoft.com`. Detta är vanligtvis Dynamics-instansens URL.
 

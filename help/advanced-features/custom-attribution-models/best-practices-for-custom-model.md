@@ -69,5 +69,5 @@ Andra orsaker till detta kan utlösa en granskning av din anpassade modell är .
 
 >[!MORELIKETHIS]
 > [Anpassad attributmodell och inställning](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
-> [Aktivera spårning av fälthistorik för den anpassade modellen ](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
-> [Maskininlärningsmodell ](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)
+> [Aktivera spårning av fälthistorik för den anpassade modellen &#x200B;](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+> [Maskininlärningsmodell &#x200B;](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

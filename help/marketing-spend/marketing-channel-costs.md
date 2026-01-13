@@ -83,7 +83,7 @@ Gå till menyn **[!UICONTROL My Account]**, klicka på **[!UICONTROL Settings]**
 
 Navigera till höger på skärmen och klicka på **[!UICONTROL Download Current Costs].** Med det här alternativet kan du hämta ett kalkylblad i CSV-format.
 
-![Alternativet Hämta aktuella kostnader på sidan Marketing Spend ](assets/2.png)
+![Alternativet Hämta aktuella kostnader på sidan Marketing Spend &#x200B;](assets/2.png)
 
 **Steg 3: Öppna CSV-filen och gör ändringar**
 

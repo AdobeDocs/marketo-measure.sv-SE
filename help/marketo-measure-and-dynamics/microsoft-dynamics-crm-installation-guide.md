@@ -34,7 +34,7 @@ För anslutning och autentisering stöder [!DNL Marketo Measure] följande Activ
 
 **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Solutions]** > **[!UICONTROL Import]** (knapp) > **[!UICONTROL Choose File]**.
 
-![Importskärmen för Dynamics CRM-lösningar med importknappen ](assets/1.png)
+![Importskärmen för Dynamics CRM-lösningar med importknappen &#x200B;](assets/1.png)
 
 >[!NOTE]
 >Följande två skärmbilder kan skilja sig något från dina, eftersom de togs under en uppgradering.

@@ -42,7 +42,7 @@ Kunder kan rapportera alla Marketo-personer och CRM-personer i [!DNL Marketo Mea
 
 När du rapporterar om leads (personer) i [!DNL Marketo Measure Discover] ser du summan av dina Marketo- och CRM-leads. Om du bara vill rapportera om Marketo-användare eller endast CRM-leads, vill du skapa en segmentkategori för källan och sedan skapa segmentregler för Marketo och CRM med hjälp av fältet Source System för att definiera regeln. När du har skapat dina segment visas den Source-kategori som du kan använda för att filtrera över dina [!DNL Marketo Measure Discover]-instrumentpaneler.
 
-![Marketo Measure Discover-instrumentpanel som visar summor för Marketo och CRM ](assets/bizible-discover-1.png)
+![Marketo Measure Discover-instrumentpanel som visar summor för Marketo och CRM &#x200B;](assets/bizible-discover-1.png)
 
 ![Upptäck filter som markerar Source systemsegment](assets/bizible-discover-2.png)
 

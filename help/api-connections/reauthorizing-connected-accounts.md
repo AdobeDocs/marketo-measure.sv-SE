@@ -19,7 +19,7 @@ Om annonsplattformen kopplas från kan [!DNL Marketo Measure] inte hämta kostna
 
 Om din CRM-plattform kopplas från kan [!DNL Marketo Measure] inte uppdatera [!DNL Marketo Measure]-data eller överföra nya kontaktytor till din organisation. När CRM-anslutningen har återupprättats skickar [!DNL Marketo Measure] alla data som missats när kontot kopplades från.
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 ## Återauktoriserar frånkopplade konton {#re-authorizing-disconnected-accounts}
 

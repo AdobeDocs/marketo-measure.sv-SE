@@ -63,7 +63,7 @@ Diagram över tidsserielinje som visar jämförelsen mellan Realiserad och Enkel
 * Hur är den realiserade avkastningen jämfört med den enkla avkastningen under specifika tidsperioder?
 * Hur hänger trenden för realiserad avkastning på investerat kapital samman med några betydande marknadsföringshändelser under samma period?
 
-![Realiserad kontra enkel avkastningstrendlinje ](assets/roi-dashboard-3.png)
+![Realiserad kontra enkel avkastningstrendlinje &#x200B;](assets/roi-dashboard-3.png)
 
 ### Diagram över kostnad över tid {#cost-over-time-graph}
 
@@ -141,5 +141,5 @@ Kontrollpanelen är utrustad med följande inställningar och filter:
 
 >[!MORELIKETHIS]
 > [Grunderna för instrumentpanel](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Synlighetsprincip för instrumentpanelsdata ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+> [Synlighetsprincip för instrumentpanelsdata &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

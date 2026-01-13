@@ -22,7 +22,7 @@ Hur ser det här ut i [!DNL Marketo Measure]-rapportering?
 
 _Exempelrapport: [!DNL Marketo Measure] Personer med Buyer Touchpoints._
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 För person-ID:t [!DNL Marketo Measure] på kelsey@adobe.com kan du se att det finns både en lead och en kontakt med den e-postadressen. I den här rapporten rapporteras 2 First Touches, två Touches för leadskapande och två PostLC-interaktioner. Dessa dubblettposter delar information om kontaktpunkter och kontaktpunkter, vilket kan leda till slutsatsen att de är två olika personer trots att de är samma person.
 

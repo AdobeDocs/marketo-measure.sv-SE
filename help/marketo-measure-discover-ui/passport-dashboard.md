@@ -54,4 +54,4 @@ Kontrollpanelen är utrustad med följande inställningar och filter:
 
 >[!MORELIKETHIS]
 > [Grunderna för instrumentpanel](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Synlighetsprincip för instrumentpanelsdata ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+> [Synlighetsprincip för instrumentpanelsdata &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

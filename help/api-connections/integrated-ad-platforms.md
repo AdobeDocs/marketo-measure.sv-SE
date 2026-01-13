@@ -152,7 +152,7 @@ Innan du aktiverar automatisk taggning med [!DNL Facebook Ads] är det viktigt a
 
 Observera att du när som helst kan ansluta ditt [!DNL Facebook]-konto till [!DNL Marketo Measure]-appen och inga data går förlorade. Det är bara när automatisk taggning är aktiverat som prestandahistoriken rensas.
 
-Mer information om hur du exporterar [ annonsrapporter finns i ](https://www.facebook.com/business/help/393890194130036){target="_blank"}den här artikeln[!DNL Facebook] från Facebook.
+Mer information om hur du exporterar [&#x200B; annonsrapporter finns i &#x200B;](https://www.facebook.com/business/help/393890194130036){target="_blank"}den här artikeln[!DNL Facebook] från Facebook.
 
 ## LinkedIn Sponsrat innehåll {#linkedin-sponsored-content}
 

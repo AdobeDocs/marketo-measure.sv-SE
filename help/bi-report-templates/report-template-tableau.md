@@ -21,7 +21,7 @@ Du kan komma åt rapportmallen [!DNL Tableau] [här](https://github.com/adobe/Ma
 
 Du måste uppdatera befintliga anslutningsdata till din specifika anslutningsinformation för Snowflake. Klicka på knappen [!UICONTROL Edit Connection] och följ stegen som beskrivs i avsnittet [[!UICONTROL Data Connection]](#data-connection) i den här dokumentationen.
 
-![Tablet-arbetsboken med knappen Redigera anslutning ](assets/marketo-measure-report-template-tableau-1.png)
+![Tablet-arbetsboken med knappen Redigera anslutning &#x200B;](assets/marketo-measure-report-template-tableau-1.png)
 
 ## Dataanslutning {#data-connection}
 

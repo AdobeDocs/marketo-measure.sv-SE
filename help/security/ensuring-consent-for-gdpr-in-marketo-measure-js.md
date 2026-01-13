@@ -49,7 +49,7 @@ Alternativ 2 - Ersätt standardskripttaggen [!DNL bizible.js] med:
 
 Detta anger för [!DNL bizible.js] att inte spåra förrän samtycke har erhållits, vilket kan göras med följande JS-API:
 
-*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || {_queue: [], Push: function (o, p) { this._queue.push({ typ: o, data: p }); };*
+*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || &lbrace;_queue: [], Push: function (o, p) { this._queue.push({ typ: o, data: p }); };*
 
 *Bizibel. Push(&#39;Consent&#39;, true);*
 

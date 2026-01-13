@@ -25,11 +25,11 @@ När du har loggat in på ditt [!DNL Pardot]-konto följer du stegen nedan.
 
 1. Välj **[!UICONTROL Layout Template]**.
 
-   ![ 3](assets/1-3.png)
+   ![&#x200B; 3](assets/1-3.png)
 
 1. Kontrollera lämplig layoutmall och klicka på **[!UICONTROL Edit]** till höger.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. Kopiera och klistra in JavaScript-koden [!DNL Marketo Measure] precis före den avslutande rubriktaggen på din HTML-sida.
 

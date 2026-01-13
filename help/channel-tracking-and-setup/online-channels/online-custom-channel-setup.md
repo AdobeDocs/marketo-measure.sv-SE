@@ -32,7 +32,7 @@ Tänk på följande:
 
 Det första steget är att hämta det anpassade kanalkalkylbladet från appen [!DNL Marketo Measure]. Gå till **Inställningar** på fliken **Mitt konto** och välj **Online**. Du kan antingen välja **Hämta ursprunglig mall** eller **Hämta aktuella regler**.
 
-![Sidan Inställningar som visar konfigurationen för onlinekanalen med alternativen Hämta ursprunglig mall och Hämta aktuella regler ](assets/1.png)
+![Sidan Inställningar som visar konfigurationen för onlinekanalen med alternativen Hämta ursprunglig mall och Hämta aktuella regler &#x200B;](assets/1.png)
 
 Kalkylbladet har sju kolumner:
 

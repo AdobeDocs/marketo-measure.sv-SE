@@ -31,7 +31,7 @@ Ikonerna som ser ut som papper visar att en sidvy har inträffat under sessionen
 
 Ikonen som ser ut som en bägare signalerar att ett A/B-testexperiment har utförts. Vi integrerar nu med Optimizely och VWO. Med den här integreringen kan vi driva på det experiment och den variation som användaren såg på sitt eget seminarium.
 
-![Ikoner för Idéer-sessionslista som markerar A/B-testbägare ](assets/3.png)
+![Ikoner för Idéer-sessionslista som markerar A/B-testbägare &#x200B;](assets/3.png)
 
 Om du klickar på en specifik session (du kan göra detta genom att klicka på det faktiska datumet för sessionen eller i den övre delen av de grupperade sessionerna) kan du se sessionsinformationen. I varje session ser du alla sidor som användaren såg beställda per datum och tid.
 

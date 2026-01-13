@@ -51,6 +51,6 @@ Förutom en årlig översyn kan vissa organisatoriska förändringar signalera a
 
 >[!MORELIKETHIS]
 > [Använda ett fält för anpassade intäktsbelopp](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
-> [Använder datainläsaren för att uppdatera fält för anpassat belopp ](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+> [Använder datainläsaren för att uppdatera fält för anpassat belopp &#x200B;](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 > [Översikt över flervaluta](/help/advanced-features/multi-currency/overview.md)
-> [Inställningar för flera valutor ](/help/advanced-features/multi-currency/settings.md)
+> [Inställningar för flera valutor &#x200B;](/help/advanced-features/multi-currency/settings.md)

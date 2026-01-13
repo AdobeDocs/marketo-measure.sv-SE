@@ -55,7 +55,7 @@ Marketo Measure godkänner följande värden: E-postadress, Salesforce lead-ID e
    <td><p>Pardot</p></td>
    <td><p>%%email%% </p><p>eller</p><p>%%user_crm_id%%</p></td>
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td>
-   <td><p>https://help.salesforce.com/s/articleView?language=en_US&amp;id=pardot_variable_tags_reference.htm&amp;type=5</p></td>
+   <td><p>https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5</p></td>
   </tr>
   <tr>
    <td><p>Hubspot</p></td>

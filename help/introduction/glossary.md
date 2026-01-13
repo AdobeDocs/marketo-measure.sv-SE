@@ -17,7 +17,7 @@ I den här artikeln finns en ordlista med alla Marketo Measure-fält som har lag
 
 [Klicka här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md) om du vill se vilket objekt varje Marketo Measure-fält relaterar till.
 
-[A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ [K](#k) ・ [L](#l) ・ [M ](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
+[A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ [K](#k) ・ [L](#l) ・ [M &#x200B;](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
 
 ## A {#a}
 
@@ -305,7 +305,7 @@ I det här fältet visas den allmänna gruppen av marknadsföringsaktiviteter el
 
 I det här fältet visas marknadsföringskanalen och den delkanal som en kontaktyta tillhör. I exemplet nedan är Marketing Channel - Path Social.Linkedin, där marknadsföringskanalen är Social och underkanalen är LinkedIn.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 **Medium** | Buyer Touchpoint, Buyer Attribution Touchpoint
 

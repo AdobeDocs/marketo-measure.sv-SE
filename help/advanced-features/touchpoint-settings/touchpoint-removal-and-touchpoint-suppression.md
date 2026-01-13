@@ -34,7 +34,7 @@ Börja med att lägga till en regel och markera fältet som definierar dina vill
 
 Välj i en lista över operatorer som ska relatera till nästa uppsättning värden, som du lägger till i nästa kolumn.
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 >[!TIP]
 >Om du vill lägga till flera värden i ett fält använder du operatorn&quot;matchar alla&quot; med kommatecken som avgränsar varje värde.

@@ -52,4 +52,4 @@ Andra orsaker till att det kan utlösa en granskning av dina aktivitetsregler ä
 
 >[!MORELIKETHIS]
 > [Aktivitetsattribut](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [Vanliga frågor om attribut för försäljningsaktiviteter ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+> [Vanliga frågor om attribut för försäljningsaktiviteter &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

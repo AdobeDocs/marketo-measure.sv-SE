@@ -19,15 +19,15 @@ Den här rapporten visar antalet möjligheter som genererats av era marknadsför
 
 1. I snabbsökningstypen i Bizible Attribution väljer du rapporttypen **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** och väljer **[!UICONTROL Create]**.
 
-   ![ 2](assets/1-2.jpg)
+   ![&#x200B; 2](assets/1-2.jpg)
 
 1. Visa **[!UICONTROL All Bizible Attribution Touchpoints]** och justera datumfältet enligt den tidsram som du vill rapportera om med början från rapportens övre del. I vårt exempel tittar vi på All Time. Ändra dessutom rapportformatet från [!UICONTROL Tabular] till **[!UICONTROL Summary]**.
 
-   ![ 2](assets/2-2.jpg)
+   ![&#x200B; 2](assets/2-2.jpg)
 
 1. Nu ska vi lägga till fält i rapporten. I snabbsökningen till vänster skriver du&quot;Marknadskanal&quot; och lägger till den i sammanfattningsgrupperingen i rapporten.
 
-   ![ 2](assets/3-2.jpg)
+   ![&#x200B; 2](assets/3-2.jpg)
 
 1. Kör rapporten och analysera den!
 

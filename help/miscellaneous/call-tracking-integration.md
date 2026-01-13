@@ -39,7 +39,7 @@ När en besökare kommer till din webbplats och ringer ett telefonsamtal är det
 
 Nedan visas ett exempel på en Task-post med [!DNL BizibleId] ifylld.
 
-![Exempel på Salesforce-uppgiftspost som visar fältet BizibleId ifyllt med värdet ](assets/3.png)
+![Exempel på Salesforce-uppgiftspost som visar fältet BizibleId ifyllt med värdet &#x200B;](assets/3.png)
 
 När [!DNL Marketo Measure] hittar en Task-post med ett känt [!DNL BizibleId]-värde ifyllt kan [!DNL Marketo Measure] mappa användaren till en webbsession med samma [!DNL BizibleId] och tilldela sessionen till ett telefonsamtal i stället för ett webbbesök.
 

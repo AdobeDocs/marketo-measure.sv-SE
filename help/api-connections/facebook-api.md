@@ -44,7 +44,7 @@ När det gäller konfiguration finns det sju steg att slutföra i appen [!DNL Ma
 >[!NOTE]
 >Om du aktiverar automatisk taggning återställer vi konverteringshistoriken och det sociala beviset för alla annonser som vi taggar. Vi rekommenderar att [exporterar dessa data som en CSV](https://www.facebook.com/business/help/205067636197240) innan du aktiverar automatisk taggning.
 
-![ 2](assets/2-2.png)
+![&#x200B; 2](assets/2-2.png)
 
 När du har aktiverat integreringen börjar [!DNL Marketo Measure] hämta annonskostnad till [!DNL Marketo Measure Marketing ROI]-instrumentpanelen.
 

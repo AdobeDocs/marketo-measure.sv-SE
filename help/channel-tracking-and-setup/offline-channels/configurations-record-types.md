@@ -19,7 +19,7 @@ Om din SFDC-organisation använder flera kampanjposttyper måste plocklistevärd
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Record Types]**.
 
-   ![Lista över posttyper för Salesforce Campaign ](assets/1.jpg)
+   ![Lista över posttyper för Salesforce Campaign &#x200B;](assets/1.jpg)
 
 1. Välj kampanjposttyper genom att klicka på knappen **[!UICONTROL Record Type Label]**, inte på knappen [!UICONTROL edit].
 

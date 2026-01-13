@@ -32,11 +32,11 @@ Vi rekommenderar att du lägger till fälten [!DNL Marketo Measure] i din SFDC C
 
 1. Klicka på **[!UICONTROL Edit]** bredvid sidlayouten som du vill uppdatera.
 
-   ![Lista över kampanjsidlayouter med knappen Redigera bredvid layoutnamnet ](assets/2-1.jpg)
+   ![Lista över kampanjsidlayouter med knappen Redigera bredvid layoutnamnet &#x200B;](assets/2-1.jpg)
 
 1. Markera fältet [!UICONTROL fields] i alternativet **[!UICONTROL Enable Buyer Touchpoints]** och dra det dit du vill på sidan. Lägg sedan till fälten **[!UICONTROL Touchpoint Start Date]** och **[!UICONTROL Touchpoint End Date]**.
 
-   ![Sidlayoutredigeraren visar fältet Aktivera slutpunkter för köpare med fälten Startdatum och Slutdatum för slutpunkt ](assets/3-2.png)
+   ![Sidlayoutredigeraren visar fältet Aktivera slutpunkter för köpare med fälten Startdatum och Slutdatum för slutpunkt &#x200B;](assets/3-2.png)
 
 1. Klicka sedan på alternativet [!UICONTROL Buttons] längst upp på sidan på snabbsökningsmenyn.
 

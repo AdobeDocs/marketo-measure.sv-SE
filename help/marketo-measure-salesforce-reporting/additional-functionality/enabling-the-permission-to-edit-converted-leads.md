@@ -17,16 +17,16 @@ Lär dig hur du aktiverar behörighet att redigera konverterade lead-poster i [!
 
 1. Gå till [!UICONTROL Setup] och expandera gruppen [!UICONTROL Manage Users] för att välja profiler.
 
-   ![ 2](assets/1-2.png)
+   ![&#x200B; 2](assets/1-2.png)
 
 1. Välj profilen för den användare som vi är anslutna via.
 
 1. Sök efter behörighet att visa och redigera konverterade leads.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. Markera kryssrutan för att aktivera behörighet att visa och redigera konverterade leads.
 
-   ![ 1](assets/3-1.png)
+   ![&#x200B; 1](assets/3-1.png)
 
 Och du är klar!

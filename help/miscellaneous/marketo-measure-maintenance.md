@@ -42,7 +42,7 @@ Referera till [den här artikeln](/help/channel-tracking-and-setup/online-channe
 
 **Utvärdera inställningar för inaktivering av kontaktpunkter (1x/kvartal)**
 
-Om du ser många kontaktytor som du inte vill ta hänsyn till i din attribueringsartikel (från t.ex. [!DNL Login] eller [!DNL Unsubscribe forms], en karriärsida eller en intern app) kanske du vill utvärdera dina befintliga inställningar för inaktivering av kontaktytor. En gång i kvartalet kan du identifiera grupper av kontaktytor som skapar onödigt brus och uppdatera din undertryckningslogik på lämpligt sätt. [Här är en användbar artikel ](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) med handledningar.
+Om du ser många kontaktytor som du inte vill ta hänsyn till i din attribueringsartikel (från t.ex. [!DNL Login] eller [!DNL Unsubscribe forms], en karriärsida eller en intern app) kanske du vill utvärdera dina befintliga inställningar för inaktivering av kontaktytor. En gång i kvartalet kan du identifiera grupper av kontaktytor som skapar onödigt brus och uppdatera din undertryckningslogik på lämpligt sätt. [Här är en användbar artikel &#x200B;](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) med handledningar.
 
 **Granska anpassad scenmappning för precision (1x/kvartal) (om tillämpligt)**
 

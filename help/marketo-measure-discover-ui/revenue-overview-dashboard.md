@@ -51,7 +51,7 @@ I det här cirkeldiagrammet visas tydligt din attribueringstäckning genom att d
 
 * Hur stor var den procentuella intäktstäckning som vi lade på vårt marknadsföringsarbete förra året?
 
-![Diagram över attribueringstäckning, som delas mellan tilldelningar och icke-tillskrivna intäkter ](assets/revenue-overview-dashboard-2.png)
+![Diagram över attribueringstäckning, som delas mellan tilldelningar och icke-tillskrivna intäkter &#x200B;](assets/revenue-overview-dashboard-2.png)
 
 ## Filterruta {#filter-pane}
 
@@ -61,4 +61,4 @@ Kontrollpanelen är utrustad med följande inställningar och filter:
 
 >[!MORELIKETHIS]
 > [Grunderna för instrumentpanel](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Synlighetsprincip för instrumentpanelsdata ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+> [Synlighetsprincip för instrumentpanelsdata &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

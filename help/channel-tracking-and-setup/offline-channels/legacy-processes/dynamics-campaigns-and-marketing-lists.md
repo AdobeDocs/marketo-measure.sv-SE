@@ -30,7 +30,7 @@ När leads eller kontakter läggs till direkt i en kampanj anges de som en svars
 
 Om du vill inkludera dessa poster i kontaktytan finns det ett fåtal alternativ för vilka typer av kampanjsvar som ska synkroniseras. På Campaign-posten ska det finnas ett anpassat fält från den installerade lösningen med etiketten [!UICONTROL Enable Buyer Touchpoints]. Om du inte ser detta måste fältet läggas till via Formulärredigeraren.
 
-![Kampanjpost med det anpassade fältet Aktivera Buyer Touchpoints ](assets/2.png)
+![Kampanjpost med det anpassade fältet Aktivera Buyer Touchpoints &#x200B;](assets/2.png)
 
 Du kan välja att ta med alla poster som har ett kampanjsvar i Campaign, eller bara de som har svaret&quot;Intresserad&quot;, eller som standard, kan du inte inkludera kampanjsvaren alls. Du kan antingen lämna fältet tomt eller välja att exkludera det explicit.
 

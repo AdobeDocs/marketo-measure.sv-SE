@@ -25,7 +25,7 @@ När du har slutfört installationen och börjat använda rapporter kommer inte 
 
 1. Klicka på rapporterna som är markerade nedan med ett orange X för att få rapportlistan att se likadan ut som bilden nedan.
 
-   ![ 4](assets/1-4.png)
+   ![&#x200B; 4](assets/1-4.png)
 
 >[!MORELIKETHIS]
 >[Salesforce - Dölj oanvända rapporttyper](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

@@ -42,7 +42,7 @@ Det finns två nya fält som förbättrar dina rapporteringsfunktioner:
       * V2_EXT-fråga:
          * bizible2_ext_Ad_Content_FT__c contains Outreach
 
-![Exempelrapportfilter med fältet V2_EXT Ad Content FT ](assets/package-consolidation-1.png)
+![Exempelrapportfilter med fältet V2_EXT Ad Content FT &#x200B;](assets/package-consolidation-1.png)
 
 * Motsvarande fråga i det konsoliderade paketet:
    * bizible2_Touchpoint_Position__c innehåller FT AND

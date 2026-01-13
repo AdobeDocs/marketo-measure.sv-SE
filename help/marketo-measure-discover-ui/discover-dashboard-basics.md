@@ -105,4 +105,4 @@ Om du väljer ett värde eller en axeletikett i en visualisering filtreras andra
 
 Verktygstips innehåller extra information om de data som visas. Håll muspekaren över ett visuellt element och ett sammanhangsberoende verktygstips visas med insikter eller förklaringar om den specifika datapunkten.
 
-![Hovringsverktygstips som visar sammanhangsberoende data på en instrumentpanel ](assets/discover-dashboard-basics-13.gif)
+![Hovringsverktygstips som visar sammanhangsberoende data på en instrumentpanel &#x200B;](assets/discover-dashboard-basics-13.gif)

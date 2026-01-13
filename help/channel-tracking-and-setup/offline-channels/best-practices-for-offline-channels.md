@@ -71,10 +71,10 @@ Om ditt team nyligen har använt något av ovanstående rekommenderar [!DNL Mark
 
 >[!MORELIKETHIS]
 > [Inställningar för offlinekanal](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
-> [Synkronisering av anpassad kampanj - appsynkronisering ](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
-> [Synkroniserar offlinekampanjer - CRM-synkronisering ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
-> [Offlinekampanj- och kampanjmedlemmar - CRM-synkronisering ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
-> [Kampanjsynkroniseringsdatum - CRM-synkronisering ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
-> [Konfigurationer för flera kampanjposttyper ](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md)
-> [Skapar en kampanjlistvy ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-> [Synkroniserar historikdata ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+> [Synkronisering av anpassad kampanj - appsynkronisering &#x200B;](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
+> [Synkroniserar offlinekampanjer - CRM-synkronisering &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+> [Offlinekampanj- och kampanjmedlemmar - CRM-synkronisering &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+> [Kampanjsynkroniseringsdatum - CRM-synkronisering &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+> [Konfigurationer för flera kampanjposttyper &#x200B;](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md)
+> [Skapar en kampanjlistvy &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+> [Synkroniserar historikdata &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

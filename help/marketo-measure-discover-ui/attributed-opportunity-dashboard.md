@@ -64,7 +64,7 @@ Trädvyn möjliggör en mer interaktiv och detaljerad datautforskning, vilket g�
 
 Klicka på en gren för att gå djupare in i det efterföljande hierarkilagret.
 
-![Vyhierarki för attributerade affärsmöjlighetens belopp ](assets/attributed-opportunity-dashboard-3.png)
+![Vyhierarki för attributerade affärsmöjlighetens belopp &#x200B;](assets/attributed-opportunity-dashboard-3.png)
 
 ### Filterruta
 

@@ -21,11 +21,11 @@ När tillägget [!DNL Marketo Measure] installeras och konfigureras i Adobe Laun
 
 >[!PREREQUISITES]
 >Klicka på följande länkar för att lära dig mer om Adobe Launch och dess tillägg:
-> [[!DNL Marketo Measure] Tillägg ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+> [[!DNL Marketo Measure] Tillägg &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
 > [Adobe Launch Overview](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
 > [Adobe Launch Extension Overview](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. Skapa en egenskap enligt stegen [ i den här artikeln](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
+1. Skapa en egenskap enligt stegen [&#x200B; i den här artikeln](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Klicka på den egenskap som du skapade.
 
@@ -61,7 +61,7 @@ När tillägget [!DNL Marketo Measure] installeras och konfigureras i Adobe Laun
 
 1. Välj **[!UICONTROL Core]** i listrutan Tillägg. Välj sedan **[!UICONTROL Library Loaded (Page Top)]** i listrutan Händelsetyp. Om du inte ger evenemanget ett namn används ett standardnamn. Klicka på **[!UICONTROL Keep Changes]** när du är klar.
 
-   ![Dialogrutan Händelsekonfiguration med Core-tillägg och biblioteksinläst händelsetyp ](assets/marketo-measure-integrations-9.png)
+   ![Dialogrutan Händelsekonfiguration med Core-tillägg och biblioteksinläst händelsetyp &#x200B;](assets/marketo-measure-integrations-9.png)
 
 1. Klicka på knappen **[!UICONTROL Add]** under Åtgärder.
 
