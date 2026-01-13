@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874596
 description: Anpassad kanalkonfiguration online - [!DNL Marketo Measure]
 title: Anpassad kanalinställning online
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
+
 
 # Anpassad kanalinställning online {#online-custom-channel-setup}
 
@@ -32,15 +32,15 @@ Tänk på följande:
 
 Det första steget är att hämta det anpassade kanalkalkylbladet från appen [!DNL Marketo Measure]. Gå till **Inställningar** på fliken **Mitt konto** och välj **Online**. Du kan antingen välja **Hämta ursprunglig mall** eller **Hämta aktuella regler**.
 
-![](assets/1.png)
+![Sidan Inställningar som visar konfigurationen för onlinekanalen med alternativen Hämta ursprunglig mall och Hämta aktuella regler ](assets/1.png)
 
 Kalkylbladet har sju kolumner:
 
-![](assets/2.png)
+![Anpassat kanalkalkylblad med sju kolumner: Channel, Subchannel, Campaign, Medium, Source, Landing Page och Reference Website](assets/2.png)
 
 * **Kanal:** lägger till olika marknadsföringskanaler här
 * **Delkanal:** lägger till motsvarande delkanaler här
-* **Kampanj:** Lägg till kampanjnamn här, oavsett om värdet kommer från UTM-program eller Salesforce-kampanjer för aktivitetsfunktionen [!DNL Marketo Measure]
+* **Kampanj:** Lägg till kampanjnamn här, oavsett om värdet kommer från UTM-program eller Salesforce Campaigns för aktivitetsfunktionen [!DNL Marketo Measure]
 * **Medium:**, medelkolumnen representerar värdet för parametern utm_medium
 * **Source:** källkolumnen representerar värdet för parametern utm_source
 * **Landningssida:** lägg till landningssida här
@@ -50,11 +50,11 @@ Den åttonde kolumnen anger vilka regler som du inte kan ta bort från kalkylbla
 
 Raderna representerar regler och den ordning i vilken [!DNL Marketo Measure] prioriterar data. Den första raden har prioritet över den andra raden, den andra raden har prioritet över den tredje raden och så vidare. När [!DNL Marketo Measure] avgör vilken marknadsföringskanal och underkanal som kontaktytorna ska bucklas in i, läses uppifrån och ned, från vänster till höger, tills en rad som uppfyller villkoren för kontaktytan hittas. (Om en kontaktyta har en `utm_source=Facebook` blockeras kontaktytan i Social.Facebook-kanalen på grund av regel 15 i skärmbilden).
 
-![](assets/3.png)
+![Kalkylblad med kanalregler som visar prioritetsordning högst upp-ned med Social.Exempel på Facebook-regel markerat](assets/3.png)
 
 [!DNL Marketo Measure] innehåller 12 standardkanaler som du kan använda. De här kanalerna korrelerar till plattformar som [!DNL Marketo Measure] är helt integrerad med. Oavsett om du använder dem eller inte ska du inte ta bort dem. Om du använder någon av dessa plattformar, till exempel Bing Ads, men föredrar att använda en annan namnkonvention för kanalen eller underkanalen, kan du uppdatera namnet. Ett exempel visas i bilden nedan.
 
-![](assets/4.png)
+![Standardkanalregler som visar 12 integrerade plattformar med anpassningsbara kanal- och delkanalsnamn](assets/4.png)
 
 Reglernas struktur är också viktig. Reglerna kan se ut som upprepad information och data som saknas, men strukturen är avsiktlig. För korrekt datasortering är det nödvändigt att mappa varje enskild källa till rätt kanal separat, även källor som delar delkanaler och kanaler. Ju mer detaljerade och detaljerade reglerna är, desto mer insiktsfulla blir resultaten. Det är i princip bäst att skriva en detaljerad regel för varje marknadsföringsarbete som du vill spåra.
 
@@ -62,13 +62,13 @@ Tänk på följande situation: du har andra annonser som du inte vill spåra av 
 
 Varje parameter eller komponent i regeln mappas separat till kanalen. Om [!DNL Marketo Measure] till exempel har [!DNL Facebook] data att sortera söker den efter regler som är relaterade till [!DNL Facebook]. Den skannas uppifrån och ned. I exemplet nedan skulle [!DNL Marketo Measure] förstå att för den första [!DNL Facebook]-underkanalen behöver den bara läsa källparametern för att släppa data i den regelns bucket.
 
-![](assets/5.png)
+![Exempel på Facebook-kanalregler visar flera rader med olika parametrar mappade till delkanaler](assets/5.png)
 
-Nästa regel frågar bara efter parametern medium, så alla data med den parametern blockeras i den här kanalen. Till sist för [!DNL Facebook] placeras alla data som kommer från Facebook-URL:en i den sista Facebook-bucket.
+Nästa regel frågar bara efter parametern medium, så alla data med den parametern blockeras i den här kanalen. Till sist för [!DNL Facebook] placeras alla data som kommer från Facebooks URL i den sista Facebook-haken.
 
 Standardkanalen Övrigt finns för att hämta data som inte uppfyller några regelvillkor. Observera att vissa av bucketerna i den andra kanalen innehåller asterisker (&#42;). Dessa asterisker representerar jokertecken som fungerar som en&quot;catch-all&quot;.
 
-![](assets/6.png)
+![Andra kanalregler som visar asterisker med jokertecken som&quot;catch-all&quot;-bucket för omatchade data](assets/6.png)
 
 På grund av att logiken [!DNL Marketo Measure] fungerar uppifrån och ned bör jokerteckendlinjen, som anges med en asterisk (&#42;), placeras i slutet av regelbladet. Alla data som inte fångas eller sorteras av de andra reglerna läggs till i jokertecknet.
 

@@ -1,25 +1,25 @@
 ---
-unique-page-id: 18874584
-description: "[!DNL Marketo Measure] Objekt och fälttaxonomi - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Objekt och fälttaxonomi"
+description: '[!DNL Marketo Measure] Objekt- och fälttaxonomi - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] objekt- och fälttaxonomi'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
+
 
 # [!DNL Marketo Measure] objekt- och fälttaxonomi {#marketo-measure-object-and-field-taxonomy}
 
 Nedan visas ett flödesschema som representerar hur [!DNL Marketo Measure] anpassade objekt relaterar till [!DNL Salesforce] standardobjekt.
 
-![](assets/1-2.png)
+![ 2](assets/1-2.png)
 
 [Klicka här](assets/bizible-object-and-field-taxonomy-graph-full.png) om du vill visa bilden i full storlek.
 
-Definitioner av [!DNL Marketo Measure]-fälten som finns i varje objekt [finns här](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+Definitioner av [!DNL Marketo Measure]-fälten som finns i varje objekt [finns här](/help/glossary.md).
 
 ## Vanliga frågor och svar {#faq}
 

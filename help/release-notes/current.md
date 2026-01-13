@@ -3,12 +3,13 @@ description: Aktuell versionsinformation - [!DNL Marketo Measure]
 title: Aktuell versionsinformation
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9ea72d0e1cf0f754cc8fe844944b93705fb2b12f
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
+
 
 # Versionsinformation: 2024 {#release-notes-2024}
 
@@ -24,13 +25,13 @@ Dessutom sammanfogas sessioner med social inloggning (Google, Microsoft eller Ap
 
 För nya kunder är överföring av sessionskanal nu standardbeteendet. Befintliga kunder kan aktivera detta genom att aktivera Sessionskanalöverföringar under Inställningar > All touch Attribution. Den här inställningen kan inte ångras när den har aktiverats.
 
-Dokumentation: [Definition av Marketo Measure webbsessioner](https://experienceleague.adobe.com/sv/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+Dokumentation: [Definition av Marketo Measure webbsessioner](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### Kontrollpanel för nyckelordens ROI
 
 Den nya Dashboard-panelen för nyckelordsavkastning ger detaljerade insikter om resultatet för betalda sökkampanjer och ger en heltäckande bild av kostnader på nyckelordsnivå, tillskrivna intäkter samt de leads och möjligheter som genereras. Den här kontrollpanelen hjälper dig att utvärdera avkastningen på varje nyckelord för Google Adwords, LinkedIn, Bing Ads osv.
 
-Dokumentation: [Instrumentpanel för nyckelordsavkastning](https://experienceleague.adobe.com/sv/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+Dokumentation: [Instrumentpanel för nyckelordsavkastning](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Förbättrade segmentregler
 
@@ -63,8 +64,6 @@ För att hjälpa dig att anpassa dig till den här ändringen har vi skapat doku
 
 ## Q3-version {#q3-release}
 
-<p>
-
 ### Påminnelse: Borttagna fält i Salesforce - 14 juni
 
 Som vi meddelade förra året kommer vi att [fasa ut våra exportjobb till lead-/kontaktobjekt](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} för att förenkla vår integrering och eliminera behovet av att exportera till Salesforce standardobjekt. Du kan hämta samma data från dina Touchpoint-objekt genom att följa stegen [som beskrivs här](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Vi delar också dokumentation om hur du skapar arbetsflöden för att lägga till dessa data i lead-/kontaktobjektet. Utbyggnaden kommer att träda i kraft den 14 juni 2024.
@@ -76,7 +75,7 @@ Den här förändringen ger två viktiga fördelar:
 
 ### Kontrollpanel för attributerade affärsmöjligheter
 
-Vi är glada över att kunna presentera den nya [attributerade säljprojektsinstrumentpanelen](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, som ger dig en heltäckande bild av hur dina marknadsföringssatsningar bidrar till både nya och mogna försäljningsmöjligheter. Med den här kontrollpanelen kan du ta reda på detaljerna för alla öppna och stängda affärsmöjligheter som kan hänföras till era strategier, med flexibiliteten att filtrera efter affärsmöjlighetens stadium. Här får ni insikter om vilka kanaler, underkanaler eller kampanjer som rangordnas högst när det gäller tilldelat affärsmöjlighetsbelopp och visar det totala tilldelade affärsmöjlighetsbeloppet tillsammans med antalet tilldelade öppna och stängda affärsmöjligheter.
+Vi är glada att kunna presentera den nya [attributerade kontrollpanelen för säljprojekt](/help/marketo-measure-discover-ui/attributed-opportunity-dashboard.md){target="_blank"}, som ger dig en heltäckande bild av hur dina marknadsföringssatsningar bidrar till både nya och mogna försäljningsmöjligheter. Med den här kontrollpanelen kan du ta reda på detaljerna för alla öppna och stängda affärsmöjligheter som kan hänföras till era strategier, med flexibiliteten att filtrera efter affärsmöjlighetens stadium. Här får ni insikter om vilka kanaler, underkanaler eller kampanjer som rangordnas högst när det gäller tilldelat affärsmöjlighetsbelopp och visar det totala tilldelade affärsmöjlighetsbeloppet tillsammans med antalet tilldelade öppna och stängda affärsmöjligheter.
 
 ### Marketo Engage Cookie-synkronisering för Marketo Measure Ultimate
 
@@ -89,22 +88,18 @@ Marketo Engage Cookie Sync finns nu för Marketo Measure Ultimate. Så här anv�
 
 Funktionen Boomerang Stage är tidigare bara tillgänglig för Tier 3-kunder och är också tillgänglig för alla Tier 2-kunder från och med den 13 juni 2024. Mer information om den här funktionen finns i dokumentationen nedan.
 
-* [Boomerang-scener och kontaktpunkter](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
-* [Konfigurerar bokmärken](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
-* [Scenarier i Boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
-
-<p>
+* [Boomerang-scener och kontaktpunkter](/help/advanced-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Konfigurerar bokmärken](/help/advanced-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [Scenarier i Boomerang](/help/advanced-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 ## Q2-release {#q2-release}
-
-<p>
 
 ### Borttagning av Marketo Measure-funktioner som svar på cookie-utfasning från tredje part
 
 Som svar på allt större integritetsproblem fasas cookies från tredje part ut, med Google Chrome 3 2024 som sista ansökningsdatum. Marketo Measure tar bort vissa funktioner som är beroende av cookies från tredje part, särskilt Cross-Domain Tracking och View-through Attribution, som är beroende av Google/DoubleClick-cookie. Den här ändringen påverkar inte andra Marketo Measure-funktioner eller användningen av cookies från första part. Efter Google tidslinje förväntas dessa funktioner bli inaktuella den 1 juni, men data som samlats in före detta datum är fortfarande tillgängliga för kunderna.
 
 * [Anpassa till cookie-borttagning från tredje part i Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
-* [Marketo Measure Cookies](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
+* [Marketo Measure Cookies](/help/marketo-measure-tracking/marketo-measure-cookies.md){target="_blank"}
 
 ### Avfasad utrullning av vår förbättrade felhantering
 
@@ -122,8 +117,6 @@ Omedelbar synlighet: Införandet av pulsmeddelanden gör det möjligt att snabbt
 _Stöd för övergången_
 
 [Vi har skapat dokumentation](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} med tydliga felbeskrivningar och omfattande felsökningssteg som hjälper dig att anpassa dig till den här ändringen.
-
-<br>
 
 ### Åtgärd krävs för LinkedIn-integrering
 

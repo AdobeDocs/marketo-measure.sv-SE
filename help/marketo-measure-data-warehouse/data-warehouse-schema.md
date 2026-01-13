@@ -1,32 +1,30 @@
 ---
-unique-page-id: 35586140
-description: Data Warehouse Schema - Marketo Measure - Produktdokumentation
+description: Data Warehouse Schema
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: e9861f8032475d3e60a3bb3ebf67dfee520bbb75
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: '21106'
 ht-degree: 1%
 
 ---
+
 
 # Data Warehouse Schema {#data-warehouse-schema}
 
 Med Data Warehouse kan ni spåra så mycket ni vill, rapportera om era attribueringsdata var ni vill och koppla in dem i andra datauppsättningar.
 
 >[!IMPORTANT]
->
->* Rader med ett värde för _DELETED_DATE behålls i 7 dagar och tas sedan bort från Snowflake.
->* De tidszoner som används i Snowflake följer UTC (Coordinated Universal Time).
+> Rader med värdet _DELETED_DATE behålls i 7 dagar och tas sedan bort från Snowflake.
+> De tidszoner som används i Snowflake följer UTC (Coordinated Universal Time).
 
 >[!NOTE]
->
 >[Klicka här](#sample-queries) om du vill visa exempelfrågor längst ned i den här artikeln.
 
 ## Entitetsrelationsdiagram {#entity-relationship-diagrams}
 
-Datamodellen _Data Warehouse_ visar hur data i datalagret ska flöda och länkas tillsammans. Det här diagrammet innehåller inte alla tabeller som är tillgängliga i datalagret eftersom vissa av dem representerar mappningstabeller, vyer av andra tabeller som redan finns eller borttagna tabeller som vi inte rekommenderar att du använder fler. Se de detaljerade beskrivningarna av tabeller och kolumner som finns i datalagret nedan. Många av dessa tabeller innehåller deformerade fält, men det här diagrammet är den rekommenderade datamodellen, som i stället utnyttjar data från dimensionella tabeller.
+_Data Warehouse datamodell_ ERD visar hur data i datalagret ska flöda och länkas tillsammans. Det här diagrammet innehåller inte alla tabeller som är tillgängliga i datalagret eftersom vissa av dem representerar mappningstabeller, vyer av andra tabeller som redan finns eller borttagna tabeller som vi inte rekommenderar att du använder fler. Se de detaljerade beskrivningarna av tabeller och kolumner som finns i datalagret nedan. Många av dessa tabeller innehåller deformerade fält, men det här diagrammet är den rekommenderade datamodellen, som i stället utnyttjar data från dimensionella tabeller.
 
 Ytterligare _Ads Dimensional Data Model_ ERD visar hur tabeller för annonser som är specifika dimensioner kan länkas tillbaka till tabellerna i huvuddatamodellen på bästa sätt. Även om annonsdimensionerna även är denormaliserade i andra tabeller representerar detta den rekommenderade modellen för att förena de här dimensionerna.
 
@@ -35,14 +33,14 @@ _Klicka på en bild för att visa dess fullstorleksversion_
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <th>Datans Warehouse datamodell</th>
+   <th>Data Warehouse datamodell</th>
    <th>Annonserar dimensionell datamodell</th>
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
-   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
-  </tr> 
- </tbody> 
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td>
+  </tr>
+ </tbody>
 </table>
 
 ## Vyer {#views}
@@ -134,7 +132,7 @@ Konton som importerats från källsystemet.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
@@ -218,7 +216,7 @@ Mappningstabell mellan kända lead-/kontaktadresser och konton. Tabellen är tom
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -334,7 +332,7 @@ Aktiviteter som importerats från ett källsystem eller ett anslutet annonskonto
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -521,7 +519,7 @@ Annonser som importerats från anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -676,7 +674,7 @@ Annonsörer importerade från alla anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -1060,7 +1058,7 @@ Annonskonton som importerats från alla anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -1376,7 +1374,7 @@ Kampanjer som importerats från anslutna annonskonton, källsystem, utm och sjä
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -1577,7 +1575,7 @@ Lägg till Forms som importerats från alla anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
@@ -1903,7 +1901,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -1972,7 +1970,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -2016,7 +2014,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för affärsmöjligheten som BAT är kopplad till.</p>
+        <p>ID för affärsmöjligheten som BAT tilldelas.</p>
       </td>
       <td>
         <p>0060Z00000lFHtOQAW</p>
@@ -2026,7 +2024,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       <td>CONTACT_ID</td>
       <td>varchar</td>
       <td>
-        <p>ID för kontakten som är associerad med BAT.</p>
+        <p>ID för den kontakt som är associerad med BAT.</p>
       </td>
       <td>
         <p>0030Z00003K5bpKQAR</p>
@@ -2035,7 +2033,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     <tr>
       <td>E-POST</td>
       <td>varchar</td>
-      <td>E-postadress som är associerad med BAT.</td>
+      <td>E-postadress som är kopplad till BAT.</td>
       <td>person@adobe.com</td>
     </tr>
     <tr>
@@ -2056,7 +2054,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för den användarkontaktyta som genererade BAT.</p>
+        <p>ID för användarkontaktpunkten som genererade BAT.</p>
       </td>
       <td>
         <p>person@adobe.com_00v1B00003ZbWzHQAV</p>
@@ -2307,7 +2305,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. En rå landningssida kommer att innehålla alla frågeparametrar i URL:en. I CRM kallas det"landningssida - Raw".</p>
       </td>
       <td>
-        <p>http://www.adobe.com/blog/uncover-truth?utm_content=2732869&utm_medium=social&utm_source=linkedin</p>
+        <p>http://www.adobe.com/blog/uncover-truth?utm_content=2732869&amp;utm_medium=social&amp;utm_source=linkedin</p>
       </td>
     </tr>
     <tr>
@@ -2424,7 +2422,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Används för att definiera källan som resulterade i kontaktytan. Det här kan tolkas från URL:en från utm_source, som i allmänhet anges som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som "Google AdWords" eller "Facebook". I CRM kallas det"Touchpoint Source".</p>
+        <p>Används för att definiera källan som resulterade i kontaktytan. Det här kan tolkas från URL:en från utm_source, som vanligtvis anges som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som t.ex. Google AdWords eller Facebook. I CRM kallas det"Touchpoint Source".</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -2604,7 +2602,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
+        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
       </td>
       <td>
         <p>dc.6114.8882972.25272734.492579576</p>
@@ -2616,7 +2614,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
+        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
       </td>
       <td>
         <p>Webbinarium - marginallist</p>
@@ -2628,7 +2626,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för Creative-objektet från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>ID för Creative från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>aw.6601259029.317738075.23105327435.182716179597</p>
@@ -2640,7 +2638,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på det Creative-objekt från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>Namn på Creative från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>B2B Marketing Attribution</p>
@@ -2664,7 +2662,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Den andra raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>Creative andra rad från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>Läs om hur attribuering mäter avkastningen genom att koppla marknadsföringsaktiviteter till intäkter</p>
@@ -3027,7 +3025,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -3035,7 +3033,7 @@ Annonsgrupper som importerats från alla anslutna annonskonton.
 
 ### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
-Data som genereras från integrering med Attribution AI. Dessa fält är bara ifyllda för Marketo Measure Ultimate-kunder.
+Data som genereras från AI-integreringen för attribuering. Dessa fält är bara ifyllda för Marketo Measure Ultimate-kunder.
 
 <table>
 <thead>
@@ -3068,7 +3066,7 @@ Data som genereras från integrering med Attribution AI. Dessa fält är bara if
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>ursprungligt MM-händelse-ID för konverteringshändelsen 
+    <td>ursprungligt MM-händelse-ID för konverteringshändelsen
     <br>mappar till en användarkontaktyta eller en scenövergång</td>
     <td>00U0Z0000pCZmyUAG</td>
   </tr>
@@ -3439,7 +3437,7 @@ Kampanjmedlemmar importerade från källsystemet. Det här registret är tomt om
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -3697,7 +3695,7 @@ Kontakter som har importerats från källsystemet.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
@@ -3799,7 +3797,7 @@ Valutakonverteringsgrader som importerats från källsystemet.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -4077,7 +4075,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på den Creative som hämtats från annonsanslutningen.</p>
+        <p>Namn på den Creative som hämtats från annonsanslutningen.</p>
       </td>
       <td>
         <p>Gartner Magic Quadrant 2019</p>
@@ -4091,7 +4089,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
         <p>boolesk</p>
       </td>
       <td>
-        <p>Anger om raden innehåller Kostnad som kan summeras av Creative Cloud. (d.v.s. för att få Creative Cost, summerar rader där kolumnen är lika med true.)</p>
+        <p>Anger om raden innehåller Kostnad som kan summeras av Creative. (d.v.s. för att få Creative Cost, summerar du rader där den här kolumnen är lika med true.)</p>
       </td>
       <td>
         <p>false</p>
@@ -4324,7 +4322,7 @@ Kostnadsdata som importerats från anslutna annonskonton eller självrapporterad
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -4346,7 +4344,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
        <td>ID</td>
       <td>varchar</td>
       <td>
-        <p>Ett unikt ID för den kreativa.</p>
+        <p>Ett unikt ID för Creative.</p>
       </td>
       <td>
         <p>ba.3284209.132855866.4556709270.10426699711</p>
@@ -4357,7 +4355,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>DISPLAY_ID</p>
       </td>
       <td>varchar</td>
-      <td>Creative-ID:t från källsystemet.</td>
+      <td>Creative-id:t från källsystemet.</td>
       <td>
         <p>10426699711</p>
       </td>
@@ -4368,7 +4366,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för annonskontot som Creative Cloud importerades från.</p>
+        <p>ID för annonskontot som Creative importerades från.</p>
       </td>
       <td>fb.106851586409075</td>
     </tr>
@@ -4378,7 +4376,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Namn på annonskontot som Creative Cloud importerades från.</p>
+        <p>Namn på annonskontot som Creative importerades från.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -4390,7 +4388,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id för Advertiser for the Creative, specifikt för Doubleclick.</p>
+        <p>ID för Advertiser för Creative, speciellt för Doubleclick.</p>
       </td>
       <td>
         <p>300181641</p>
@@ -4402,7 +4400,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Namn på Advertiser for the Creative, speciellt for Doubleclick.</p>
+        <p>Namn på Advertiser för Creative, speciellt för Doubleclick.</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Marknadsföringsanalys</p>
@@ -4414,7 +4412,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för annonsgruppen för Creative Cloud.</p>
+        <p>ID för annonskoncern för Creative.</p>
       </td>
       <td>fb.106851586409075.6052044288804.6052044290004</td>
     </tr>
@@ -4424,7 +4422,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på annonsgruppen för Creative Cloud.</p>
+        <p>Namn på annonskoncern för Creative.</p>
       </td>
       <td>Annonsuppsättning för annons B</td>
     </tr>
@@ -4434,7 +4432,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Id för Campaign for the Creative.</p>
+        <p>ID för Campaign för Creative.</p>
       </td>
       <td>
         <p>ba.3284209.132855866</p>
@@ -4446,7 +4444,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på Campaign for the Creative.</p>
+        <p>Namn på Campaign för Creative.</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -4460,7 +4458,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Huruvida Creative-programmet fortfarande är aktivt i källsystemet eller inte.</p>
+        <p>Huruvida Creative fortfarande är aktivt i källsystemet eller inte.</p>
       </td>
       <td>
         <p>true</p>
@@ -4474,7 +4472,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Anger om Creative Cloud har tagits bort eller inte i källsystemet.</p>
+        <p>Anger om Creative har tagits bort i källsystemet eller inte.</p>
       </td>
       <td>
         <p>false</p>
@@ -4508,7 +4506,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på den kreativa, från källsystemet.</p>
+        <p>Namn på Creative från källsystemet.</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -4522,7 +4520,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>boolesk</p>
       </td>
       <td>
-        <p>Om Creative-objektet behöver uppdateras för [!DNL Marketo Measure]-taggning eller inte.</p>
+        <p>Om Creative behöver uppdateras för [!DNL Marketo Measure]-taggning eller inte.</p>
         <p>(Diagnostikfält, används av intern bearbetning.)</p>
       </td>
       <td>
@@ -4546,7 +4544,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>Huvudobjektet eller entiteten för det här registret. I det här fallet"Creative".</p>
       </td>
       <td>
-        <p>Kreativ</p>
+        <p>Creative</p>
       </td>
     </tr>
     <tr>
@@ -4555,7 +4553,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på annonsleverantören för Creative Cloud.</p>
+        <p>Namn på annonseringsprovidern för Creative.</p>
       </td>
       <td>
         <p>BingAds</p>
@@ -4580,7 +4578,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Den förkortade och egna URL:en som visas i Creative Cloud.</p>
+        <p>Den förkortade och egna URL som visas på Creative.</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -4613,7 +4611,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
         <p>URL_SHORTENED</p>
       </td>
       <td>varchar</td>
-      <td>Den förkortade och egna URL:en som visas i Creative Cloud. (Används endast för LinkedIn Ads.)</td>
+      <td>Den förkortade och egna URL som visas på Creative. (Används endast för LinkedIn-annonser.)</td>
       <td></td>
     </tr>
     <tr>
@@ -4622,7 +4620,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Typen av kreativ, som kan vara Text eller Display</p>
+        <p>Typen av Creative, som kan vara Text eller Display</p>
       </td>
       <td>
         <p>Text</p>
@@ -4720,7 +4718,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
       </td>
       <td>varchar</td>
       <td>
-        <p>Resurs-ID. (Används endast för LinkedIn Ads.)</p>
+        <p>Resurs-ID. (Används endast för LinkedIn-annonser.)</p>
       </td>
       <td>
         <p>urn:li:share:6376987561897848832</p>
@@ -4751,7 +4749,7 @@ Kreatörer som har importerats från alla anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -4926,7 +4924,7 @@ Händelser som importerats från källsystemet. Det här registret kommer att va
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5089,7 +5087,7 @@ Uppgifter som importerats från källsystemet. Det här registret fylls i om Akt
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5190,7 +5188,7 @@ Tabell över alla ISO-valutor.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5329,7 +5327,7 @@ AB-tester har registrerats. Det här registret kommer att vara tomt om AB-tester
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5440,7 +5438,7 @@ Webbhändelser som har spelats in med anpassade händelser i JavaScript. Den hä
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5675,7 +5673,7 @@ Landningssidor som hämtats från alla anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5780,7 +5778,7 @@ Mappningstabell för e-postadresser och besökar-ID.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -5788,11 +5786,10 @@ Mappningstabell för e-postadresser och besökar-ID.
 
 ### BIZ_FACTS {#biz-facts}
 
-Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT) och Cost data. Används internt som stöd för [!DNL Marketo Measure]-rapportering.
+Unions innehåller Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT) och Cost Data. Används internt som stöd för [!DNL Marketo Measure]-rapportering.
 
 >[!IMPORTANT]
->
->Marketo Measure kommer att ta bort denna tabell i mitten av 2024. Om du vill skapa den på din sida kör du [den här SQL-frågan](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure kommer att ta bort denna tabell i mitten av 2024. Om du vill skapa den på din sida kör du [den här SQL-frågan](/help/data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
@@ -6472,7 +6469,7 @@ Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpo
         <p>boolesk</p>
       </td>
       <td>
-        <p>Anger om raden innehåller Kostnad som kan summeras av Creative Cloud. (d.v.s. för att få Creative Cost, summerar rader där kolumnen är lika med true.)</p>
+        <p>Anger om raden innehåller Kostnad som kan summeras av Creative. (d.v.s. för att få Creative Cost, summerar du rader där den här kolumnen är lika med true.)</p>
       </td>
       <td>
         <p>false</p>
@@ -6555,7 +6552,7 @@ Förena Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpo
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -6664,7 +6661,7 @@ Insamlade formulärinskickat material.
         <p>URL där formuläret skickades, inklusive eventuella frågeparametrar.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOAH Nwdml3YZBZDPF dXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOAH Nwdml3YZBZDPF dXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6824,7 +6821,7 @@ Insamlade formulärinskickat material.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -6918,7 +6915,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       <td>
         <p>URL där Impression utfördes, inklusive eventuella frågeparametrar.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOAH Nwdml3YZBZDPF dXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOAH Nwdml3YZBZDPF dXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -7210,7 +7207,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
+        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
       </td>
       <td>
         <p>68035923</p>
@@ -7222,7 +7219,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
+        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
       </td>
       <td>
         <p>centurylink_banner_98121</p>
@@ -7234,7 +7231,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       </td>
       <td>varchar</td>
       <td>
-        <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
+        <p>Förväntades vara null eftersom det inte finns någon Creative i dubbelklickningshierarkin för Impressions.</p>
       </td>
       <td>
         <p>null</p>
@@ -7246,7 +7243,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       </td>
       <td>varchar</td>
       <td>
-        <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
+        <p>Förväntades vara null eftersom det inte finns någon Creative i dubbelklickningshierarkin för Impressions.</p>
       </td>
       <td>null</td>
     </tr>
@@ -7256,7 +7253,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       </td>
       <td>varchar</td>
       <td>
-        <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
+        <p>Förväntades vara null eftersom det inte finns någon Creative i dubbelklickningshierarkin för Impressions.</p>
       </td>
       <td>null</td>
     </tr>
@@ -7266,7 +7263,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       </td>
       <td>varchar</td>
       <td>
-        <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
+        <p>Förväntades vara null eftersom det inte finns någon Creative i dubbelklickningshierarkin för Impressions.</p>
       </td>
       <td>null</td>
     </tr>
@@ -7276,7 +7273,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       </td>
       <td>varchar</td>
       <td>
-        <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
+        <p>Förväntades vara null eftersom det inte finns någon Creative i dubbelklickningshierarkin för Impressions.</p>
       </td>
       <td>null</td>
     </tr>
@@ -7286,7 +7283,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
       </td>
       <td>varchar</td>
       <td>
-        <p>Förväntades vara null eftersom det inte finns något Creative-värde i Dubbelklicka-hierarkin för Impressions.</p>
+        <p>Förväntades vara null eftersom det inte finns någon Creative i dubbelklickningshierarkin för Impressions.</p>
       </td>
       <td>null</td>
     </tr>
@@ -7465,7 +7462,7 @@ Impressioner avfyrade och inspelade. Den här tabellen kräver en DoubleClick-an
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -7830,7 +7827,7 @@ Nyckelord som importerats från alla anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -8049,7 +8046,7 @@ Landningssidor som importerats från alla anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -8342,7 +8339,7 @@ Leads som importerats från källsystemet.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -8583,7 +8580,7 @@ Scenövergångar för Leads eller Kontakter.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -8864,7 +8861,7 @@ Möjligheter som importerats från källsystemet.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
@@ -8956,7 +8953,7 @@ Scenövergångar för affärsmöjligheter.
         <p>ID för den Buyer Attribution Touchpoint som är knuten till övergången.</p>
       </td>
       <td>
-        <p>BAT2_0060Z00000nEgjlQAC_0030Z0003IjojKQAR_2018-06-01:19-51-38-1685390.beed ec556e7757</p>
+        <p>BAT2_0060Z00000nEgjlQAC_0030Z0003IjojKQAR_2018-06-01:19-51-38-1685390.beec556e7757</p>
       </td>
     </tr>
     <tr>
@@ -9124,7 +9121,7 @@ Scenövergångar för affärsmöjligheter.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9333,7 +9330,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
         <p>URL:en som sidvyn kommer från, inklusive eventuella frågeparametrar.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9405,7 +9402,7 @@ Sidvyer som samlats in från webbbesök. Flera sidvyer kan bestå av en enda ses
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9629,19 +9626,19 @@ Tabell som lagrar alla placeringar som hämtats från anslutna annonskonton, ett
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake skapade datumet för inspelningen</td>
+      <td>Datum då posten skapades av Snowflake</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake modifierat datumet för inspelningen</td>
+      <td>Snowflake ändrade postdatum</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake har raderat posten om den har tagits bort</td>
+      <td>Snowflake raderade datum för posten om den har tagits bort</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9710,7 +9707,7 @@ Segmentvärden som definierats i programmet [!DNL Marketo Measure].
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9789,7 +9786,7 @@ Kopplar namnet på det anpassade segmentet till dess kategorivärde. (Detta mapp
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9912,7 +9909,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
         <p>URL för sessionens första sidvy, inklusive eventuella frågeparametrar.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -10205,7 +10202,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för annonsen som lösts från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
+        <p>ID för annonsen som lösts från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
       </td>
       <td>aw.6601259029.321586235.23182235435</td>
     </tr>
@@ -10215,7 +10212,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på annonsen som lösts från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
+        <p>Namnet på annonsen som lösts från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
       </td>
       <td>Vinter-kampanj - grön</td>
     </tr>
@@ -10225,7 +10222,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för den Creative som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>ID för Creative som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>aw.6601259029.321586235.23182235435.8358988035</p>
@@ -10237,7 +10234,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på den Creative-fil som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>Namnet på den Creative som annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>Integrera GA och Salesforce</p>
@@ -10261,7 +10258,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
       </td>
       <td>varchar</td>
       <td>
-        <p>Den andra raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>Creative andra rad från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>Optimera för intäkter. Lär dig hur.</p>
@@ -10548,7 +10545,7 @@ Sessioner som har bearbetats från sidvyer. Flera sidvyer kan bestå av en sessi
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -10790,7 +10787,7 @@ Webbplatser som importerats från anslutna annonskonton.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -11067,19 +11064,19 @@ Webbplatslänkar från anslutna annonskonton.
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake skapade datumet för inspelningen</td>
+      <td>Datum då posten skapades av Snowflake</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake modifierat datumet för inspelningen</td>
+      <td>Snowflake ändrade postdatum</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake har raderat posten om den har tagits bort</td>
+      <td>Snowflake raderade datum för posten om den har tagits bort</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -11262,7 +11259,7 @@ Lista över stadier som importerats eller definierats i programmet [!DNL Marketo
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -11305,7 +11302,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>E-POST</p>
       </td>
       <td>varchar</td>
-      <td>E-postadress som är associerad med BT.</td>
+      <td>E-postadress som är kopplad till BT.</td>
       <td>
         <p>person@adobe.com</p>
       </td>
@@ -11314,7 +11311,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       <td>CONTACT_ID</td>
       <td>varchar</td>
       <td>
-        <p>ID för kontakten som är associerad med BT.</p>
+        <p>ID för den kontakt som är associerad med BT.</p>
       </td>
       <td>0030Z00003K5bpKQAR</td>
     </tr>
@@ -11360,7 +11357,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för den användarkontaktyta som genererade BT.</p>
+        <p>ID för användarkontaktpunkten som genererade BT.</p>
       </td>
       <td>
         <p>person@adobe.com_2018-08-29:18-14-53-8102030.10df92cbb414</p>
@@ -11613,7 +11610,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. En rå landningssida kommer att innehålla alla frågeparametrar i URL:en. I CRM kallas det"landningssida - Raw".</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -11722,7 +11719,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Används för att definiera källan som resulterade i kontaktytan. Det här kan tolkas från URL:en från utm_source, som i allmänhet anges som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som "Google AdWords" eller "Facebook". I CRM kallas det"Touchpoint Source".</p>
+        <p>Används för att definiera källan som resulterade i kontaktytan. Det här kan tolkas från URL:en från utm_source, som vanligtvis anges som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som t.ex. Google AdWords eller Facebook. I CRM kallas det"Touchpoint Source".</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -11898,7 +11895,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
+        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
       </td>
       <td>dc.6114.8882972.25272734.492579576</td>
     </tr>
@@ -11908,7 +11905,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
+        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
       </td>
       <td>Webbinarium - marginallist</td>
     </tr>
@@ -11918,7 +11915,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för Creative-objektet från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>ID för Creative från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>li.502664737.138949954.66452504</p>
@@ -11930,7 +11927,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på det Creative-objekt från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>Namn på Creative från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>lisu03151846</p>
@@ -11954,7 +11951,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
       </td>
       <td>varchar</td>
       <td>
-        <p>Den andra raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>Creative andra rad från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>Ladda ned den definitiva guiden för marknadsföring i pipeline: https://lnkd.in/e9xYj5M</p>
@@ -12160,7 +12157,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en w-formad beröring (se Is_First_Touch, Is_Lead_Creation_Touch och Is_Opp_Creation_Touch). Förväntas vara 0 eftersom det här är en BT.</p>
+        <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en w-formad beröring (se Is_First_Touch, Is_Lead_Creation_Touch och Is_Opp_Creation_Touch). Förväntas vara 0 eftersom detta är en BT.</p>
       </td>
       <td>
         <p>0</p>
@@ -12174,7 +12171,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en fullständig banmodell (se Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Förväntas vara 0 eftersom det här är en BT.</p>
+        <p>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en fullständig banmodell (se Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Förväntas vara 0 eftersom detta är en BT.</p>
       </td>
       <td>
         <p>0</p>
@@ -12183,7 +12180,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     <tr>
       <td>CUSTOM_MODEL_PERCENTAGE</td>
       <td>number(22,19)</td>
-      <td>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en anpassad modell (se Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Förväntas vara 0 eftersom det här är en BT.</p>
+      <td>Den beräknade procentandelen som tilldelats den här kontaktytan eftersom den ingår i en anpassad modell (se Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Förväntas vara 0 eftersom detta är en BT.</p>
       </td>
       <td>0</td>
     </tr>
@@ -12322,7 +12319,7 @@ Buyer Touchpoints, alla kontaktytor som är kopplade till en lead eller kontakt.
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -12397,7 +12394,7 @@ Sammanställning av URL-adresser från landningssidor, referenssidor och sidvyer
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -12628,7 +12625,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>Den första landningssidan i sessionen som resulterade i en kontaktyta. En rå landningssida kommer att innehålla alla frågeparametrar i URL:en. I CRM kallas det"landningssida - Raw".</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%mät%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%mät%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12676,7 +12673,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
         <p>Det första formuläret som spelats in i en session som resulterade i en kontaktyta. Efterföljande formuläröverföringar visas inte i tabellen Attribution_Touchpoints, utan i tabellen Form_Submits. En sida med Raw-formulär kan innehålla frågeparametrar i URL:en. I CRM refereras till"Form URL - Raw".</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -12745,7 +12742,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       </td>
       <td>varchar</td>
       <td>
-        <p>Används för att definiera källan som resulterade i kontaktytan. Det här kan tolkas från URL:en från utm_source, som i allmänhet anges som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som "Google AdWords" eller "Facebook". I CRM kallas det"Touchpoint Source".</p>
+        <p>Används för att definiera källan som resulterade i kontaktytan. Det här kan tolkas från URL:en från utm_source, som vanligtvis anges som CRM Campaign om den synkroniserades från CRM, eller om [!DNL Marketo Measure] kan matcha en annons, kan det vara värden som t.ex. Google AdWords eller Facebook. I CRM kallas det"Touchpoint Source".</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -12925,7 +12922,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
+        <p>ID för annonsen från annonskontot som annonsen löstes från. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
       </td>
       <td>dc.6114.8882972.25272734.492579576</td>
     </tr>
@@ -12935,7 +12932,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (displayannonser).</p>
+        <p>Namnet på annonsen från annonskontot där annonsen löstes. Detta gäller för Doubleclick Campaign Manager och Facebook (display).</p>
       </td>
       <td>Webbinarium - marginallist</td>
     </tr>
@@ -12945,7 +12942,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       </td>
       <td>varchar</td>
       <td>
-        <p>ID för Creative-objektet från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>ID för Creative från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>aw.6601259029.208548635.1675016675.195329631298</p>
@@ -12957,7 +12954,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       </td>
       <td>varchar</td>
       <td>
-        <p>Namnet på det Creative-objekt från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>Namn på Creative från annonskontot där annonsen löstes. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure] Officiell webbplats</p>
@@ -12981,7 +12978,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
       </td>
       <td>varchar</td>
       <td>
-        <p>Den andra raden i Creative från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
+        <p>Creative andra rad från sökannonsen, hämtad från annonskontot där annonsen löstes från. Detta gäller Google AdWords och Bing Ads (sökning).</p>
       </td>
       <td>
         <p>Läs varför över 250 företag väljer [!DNL Marketo Measure] för marknadsattribuering. Hämta en demo!</p>
@@ -13182,7 +13179,7 @@ Alla kontaktpunkter som skapats från en händelse som är kopplad till ett e-po
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -13265,7 +13262,7 @@ Mappningstabell för att mappa [!DNL Marketo Measure] sessions-ID till Adobe ECI
       <td>varchar</td>
       <td>URL för sidvyn, inklusive eventuella frågeparametrar.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>
@@ -13320,7 +13317,7 @@ Mappningstabell för att mappa [!DNL Marketo Measure] sessions-ID till Adobe ECI
       <td>MAPPING_TYPE</td>
       <td>varchar</td>
       <td>Den typ av ID som mappas till cookie-ID:t [!DNL Marketo Measure].</td>
-      <td>Adobe_orgId_eccid</td>
+      <td>Adobe_OrgId_Ecid</td>
     </tr>
     <tr>
       <td>MAPPING_ORD_ID</td>
@@ -13331,7 +13328,7 @@ Mappningstabell för att mappa [!DNL Marketo Measure] sessions-ID till Adobe ECI
     <tr>
       <td>MAPPING_COOKIE_ID</td>
       <td>varchar</td>
-      <td>Adobe ECID för angivet Org ID.</td>
+      <td>Adobe ECID för angivet Org Id.</td>
       <td>09860926390077352923264316157493772857</td>
     </tr>
     <tr>
@@ -13349,7 +13346,7 @@ Mappningstabell för att mappa [!DNL Marketo Measure] sessions-ID till Adobe ECI
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Datum när posten markerades som borttagen i Snowflake.</td>
+      <td>Datum då posten markerades som borttagen i Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -13361,7 +13358,7 @@ Mappningstabell för att mappa [!DNL Marketo Measure] sessions-ID till Adobe ECI
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,trim(split(ch.name,'.')[1])  as subchannel
       ,count(bt.id)                 as buyer_touchpoint_count
@@ -13383,7 +13380,7 @@ group by 1,2
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,sum(opp.amount*(bat.full_path_percentage/100))   as attributed_revenue
   from biz_user_touchpoints         ut
@@ -13447,10 +13444,9 @@ group by 1,2
 order by 1
 ```
 
-**Visa alla slutpunkter för Buyer Attribution (BAT) och deras tilldelade intäkter för en enskild affärsmöjlighet.**
+**Visa alla kontaktpunkter för Buyer Attribution (BAT) och deras tilldelade intäkter för en enskild affärsmöjlighet.**
 
 >[!NOTE]
->
 >Den här frågan returnerar tilldelad intäkt för w-formmodellen. Ändra modellen genom att uppdatera fältet i beräkningen av tillskrivna intäkter.
 
 ```

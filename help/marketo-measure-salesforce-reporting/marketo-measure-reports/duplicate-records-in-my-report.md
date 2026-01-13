@@ -1,20 +1,19 @@
 ---
-unique-page-id: 18874634
 description: Duplicera poster i min rapport - [!DNL Marketo Measure]
 title: Duplicera poster i min rapport
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
+
 # Duplicera poster i min rapport {#duplicate-records-in-my-report}
 
 >[!NOTE]
->
 >Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se [!DNL Bizible] i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 När du dykar upp i [!DNL Marketo Measure] rapporter i [!DNL Salesforce] kan du börja hitta dubblettposter i dina rapporter. Den här känslan kommer troligen att uppstå när du granskar [!DNL Marketo Measure] färdiga rapporter.
@@ -25,7 +24,7 @@ Låt oss ta följande rapport som exempel:
 
 Det här är en **Kontakt med Buyer Touchpoints** -rapport. Återigen innebär det att vi tittar på antalet kontaktytor som är kopplade till en enskild kontakt.
 
-![](assets/1.gif)
+![Kontakter med Buyer Touchpoints-rapport som visar flera poster per kontakt](assets/1.gif)
 
 Som du ser ser ser det ut som om det finns tre James Williams-kontakter i rapporten, och därför kanske du tänker &quot;dubbletter!&quot;
 
@@ -34,5 +33,4 @@ Den här rapporten visar dock antalet kontaktytor som rör James. I rapporten se
 Om du vill förstå antalet kontakter kan du sedan använda fälten Antal - första beröring, Antal - Lead - Skapa Touch eller Antal - U-Shaped för att förstå hur många kontakter som har haft marknadsföringsinteraktioner.
 
 >[!MORELIKETHIS]
->
->[[!DNL Marketo Measure] Tutorials: Stock SFDC-rapporter](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Stock SFDC-rapporter](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

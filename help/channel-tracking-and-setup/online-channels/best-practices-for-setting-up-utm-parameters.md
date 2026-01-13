@@ -1,21 +1,21 @@
 ---
-unique-page-id: 18874732
 description: Bästa tillvägagångssätt för att konfigurera UTM-parametrar - [!DNL Marketo Measure]
 title: Metodtips för att konfigurera UTM-parametrar
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
+
 # Metodtips för att konfigurera UTM-parametrar {#best-practices-for-setting-up-utm-parameters}
 
 UTM-parametrar är ett bra sätt att segmentera och minska era marknadsföringsdata. [!DNL Marketo Measure] använder och hämtar alla UTM-parametrar för att fylla i fält i Salesforce och i appen [!DNL Marketo Measure]. Med den här informationen kan du få en detaljerad förståelse för var era leads, affärsmöjligheter och avslutade/vunna avtal kommer ifrån.
 
-Du kan använda [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} för att konfigurera UTM-parametrar och lägga till dem i länkarna i dina marknadsföringsaktiviteter. Använd det här [Google-kalkylbladet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} om du vill ha ett enklare sätt att spåra alla UTM-länkar.
+Du kan använda [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} för att konfigurera UTM-parametrar och lägga till dem i länkarna i dina marknadsföringssatsningar. Använd det här [Google-kalkylbladet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} om du vill ha ett enklare sätt att spåra alla UTM-länkar.
 
 ## Högnivåvärden för varje parameter {#high-level-values-for-each-parameter}
 
@@ -69,4 +69,4 @@ fakewebsite.com/
 
 Observera att termer/kanal inte dupliceras och utm_term används inte i det här fallet.
 
-Om du har några frågor kan du kontakta kontoteamet (din kontohanterare) eller [Marketo support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Om du har frågor kan du kontakta Adobe Account Team (din kontohanterare) eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

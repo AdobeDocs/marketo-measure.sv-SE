@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874734
 description: Bästa praxis för sammanslagning av leads - [!DNL Marketo Measure]
 title: Metodtips för att sammanfoga leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
+
 
 # Metodtips för att sammanfoga leads {#best-practices-for-merging-leads}
 
@@ -23,6 +23,6 @@ Om det finns flera poster med [!DNL Marketo Measure] data kontrollerar du att hu
 
 Därifrån ska du vara fri att sammanfoga Leads och [!DNL Marketo Measure] data överförs till den nya posten.
 
-Om du har några frågor går det bra att kontakta kontoteamet (din kontohanterare) eller [Marketo support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Om du har några frågor kan du kontakta Adobe Account Team (din kontoansvarige) eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-![](assets/1.jpg)
+![Dialogrutan Salesforce Merge Leads med Marketo Measure-fält bevarade](assets/1.jpg)

@@ -1,17 +1,17 @@
 ---
-unique-page-id: 18874694
-description: Salesforce-sandlåda till produktionsmigrering - [!DNL Marketo Measure]
-title: Salesforce-sandlåda till produktionsmigrering
+description: Salesforce Sandbox to Production Migration - [!DNL Marketo Measure]
+title: Salesforce Sandbox to Production Migration
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
-# Salesforce-sandlåda till produktionsmigrering {#salesforce-sandbox-to-production-migration}
+
+# Salesforce Sandbox to Production Migration {#salesforce-sandbox-to-production-migration}
 
 Om du väljer att testa [!DNL Marketo Measure] i en [!DNL Salesforce] sandlådemiljö följer du de här instruktionerna för att migrera till Production när du är klar. I följande instruktioner antas att du redan har hämtat paketet [!DNL Marketo Measure] till din sandlådeorganisation, utfört nödvändig testning och är redo att överföra [!DNL Marketo Measure] till produktion.
 
@@ -28,10 +28,10 @@ Om du väljer att testa [!DNL Marketo Measure] i en [!DNL Salesforce] sandlådem
 
 * Logga in på programmet [!DNL Marketo Measure] på experience.adobe.com/marketo-measure
 * Navigera till Mitt konto >[!UICONTROL Settings] >[!UICONTROL Connections]
-* Klicka på papperskorgsikonen bredvid SFDC-anslutningen för att ta bort
+* Klicka på papperskorgsikonen bredvid din SFDC-anslutning för att ta bort
 * Du uppmanas att bekräfta borttagningen. Var noga med att läsa igenom uppmaningen och förstå konsekvenserna av borttagningen
 
-  ![](assets/salesforce-sandbox-to-production-migration-1.png)
+  ![Marketo Measure-anslutningssidan bekräftar borttagning av en Salesforce-sandlåda](assets/salesforce-sandbox-to-production-migration-1.png)
 
    * Skriv namnet på företaget enligt bekräftelsemodellen och klicka på&quot;Jag förstår konsekvenserna, ta bort den här anslutningen&quot;
 * Detta utlöser borttagningsprocessen och tar lite tid att slutföra
@@ -42,7 +42,7 @@ Om du väljer att testa [!DNL Marketo Measure] i en [!DNL Salesforce] sandlådem
 * Navigera till [!UICONTROL My Account] >[!UICONTROL Settings] > [!UICONTROL Connections]
 * När borttagningen av sandlådeanslutningen har tagits bort försvinner anslutningen från sidan. I annat fall visas anslutningen med statusen&quot;Pågående borttagning&quot;
 * Klicka på [!UICONTROL Set up New CRM connection]
-* Klicka på åtgärden [!UICONTROL Connect] bredvid plattformen [!DNL Salesforce] i den modala dialogrutan [!UICONTROL Select CRM Connection] och välj alternativet [!UICONTROL Production]
+* Klicka på åtgärden [!UICONTROL Select CRM Connection] bredvid plattformen [!UICONTROL Connect] i den modala dialogrutan [!DNL Salesforce] och välj alternativet [!UICONTROL Production]
 * Du uppmanas att ange dina inloggningsuppgifter. Se till att du anger inloggningsinformation för produktion
 
 ## Steg 4: Salesforce-konfiguration {#salesforce-configuration}
@@ -55,4 +55,4 @@ Om du väljer att testa [!DNL Marketo Measure] i en [!DNL Salesforce] sandlådem
 
 [Dölja onödiga rapporttyper](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 
-[Anpassat arbetsflöde om tillämpligt](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+[Anpassat arbetsflöde om tillämpligt](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)

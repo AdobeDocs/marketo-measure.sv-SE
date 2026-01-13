@@ -3,12 +3,13 @@ description: Felmeddelanden - [!DNL Marketo Measure]
 title: Felmeddelanden
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 20f886a0c6f448956ad2fda2d21a25f8d9a5a6af
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
+
 
 # Felmeddelanden {#error-notifications}
 
@@ -16,7 +17,7 @@ Nedan visas en lista med fel som du kan få via meddelanden i appen eller e-post
 
 Om du vill visa det fullständiga meddelandemeddelandet i [!DNL Marketo Measure] klickar du på **Visa alla** längst ned på fliken Meddelanden.
 
-![](assets/error-notifications-1.png)
+![Meddelandepanelen i Marketo Measure visar fellistan och länken Visa alla](assets/error-notifications-1.png)
 
 <table>
   <tbody>
@@ -30,7 +31,7 @@ Om du vill visa det fullständiga meddelandemeddelandet i [!DNL Marketo Measure]
       <td>API_DISABLED</td>
       <td>Ett fel uppstod vid CRM-import: API_DISABLED: API-anrop har inaktiverats för den här användaren</td>
       <td>API-behörigheten har inaktiverats för Marketo Measure-användaren.</td>
-      <td>Läs följande Salesforce-dokumentation om <a href="https://help.salesforce.com/s/articleView?language=en_US&id=sf.branded_apps_commun_api_permset.htm&type=5">hur du aktiverar API-åtkomst</a>.</td>
+      <td>Läs följande Salesforce-dokumentation om <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">hur du aktiverar API-åtkomst</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -79,7 +80,7 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
       Behörigheter saknas för objektet.</td>
       <td>Granska utlösarkod som gör att infogningen/uppdateringen misslyckas. Mer information om utlösare finns i följande Salesforce-dokumentation:
         <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&type=5">Apex-utlösare</a>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5">Apex-utlösare</a>
           </li>
           <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">Flödesutlösare</a>
           </li>
@@ -91,16 +92,16 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
     <tr>
       <td>DUPLICATES_DETECTED</td>
       <td>Ett fel uppstod vid CRM-export: DUPLICATES_DETECTED : Enhetstyp 'Contact': CRM-felkod: DUPLICATES_DETECTED, CRM-felmeddelande: Du skapar en dubblettpost. Vi rekommenderar att du använder en befintlig post i stället., RecordId: 0123456</td>
-      <td>Posten som importeras till Salesforce-organisationen finns redan.</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">Inaktivera inställningen Duplicera regel </a> så att dubbletter tillåts.
+      <td>Posten som importeras till Salesforce Org finns redan.</td>
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Inaktivera inställningen Duplicera regel </a> så att dubbletter tillåts.
           <p>
           Undanta den dedikerade Marketo Measure-användaren från <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">anpassade verifieringsregler</a>.</td>
     </tr>
     <tr>
       <td>DUPLICATE_VALUE</td>
       <td>Ett fel uppstod vid CRM-export: DUPLICATE_VALUE : Enhetstyp Lead: CRM-felkod: DUPLICATE_VALUE, CRM-felmeddelande: dubblettvärde hittades: Email_Unique__c-dubblettvärde i post med ID: 123, RecordId: 456</td>
-      <td>Fältet som importeras till Salesforce-organisationen tillåter inte dubblettvärden.</td>
-      <td>Avmarkera <a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">"Unik kryssruta"</a> i Salesforce.
+      <td>Fältet som importeras till Salesforce Org tillåter inte dubbla värden.</td>
+      <td>Avmarkera <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"Unik kryssruta"</a> i Salesforce.
           <p>
           Undanta den dedikerade Marketo Measure-användaren från <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">anpassade verifieringsregler</a>.</td>
     </tr>
@@ -120,16 +121,16 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
       <td>Ett fel uppstod vid CRM-export: FIELD_FILTER_VALIDATION_EXCEPTION : Enhetstyp Lead: CRM-felkod: FIELD_FILTER_VALIDATION_EXCEPTION, fält: User_C, CRM-felmeddelande: Värdet finns inte eller matchar inte filtervillkoren. Välj en användare med rollen"Account Executive, Inside Sales"; RecordId: 0123456</td>
       <td>Den ändrade posten uppfyller inte längre uppslagsfiltren som har definierats för objektet.</td>
-      <td>Sök efter filter för det objekt som Marketo Measure försöker ändra. Läs <a href="https://help.salesforce.com/s/articleView?id=000384756&type=1">den här Salesforce-artikeln</a> om du vill veta mer om hur du söker efter filter för ett objekt.</td>
+      <td>Sök efter filter för det objekt som Marketo Measure försöker ändra. Läs <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">den här Salesforce-artikeln</a> om du vill veta mer om hur du söker efter filter för ett objekt.</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
       <td>Ett fel uppstod vid CRM-export: FIELD_INTEGRITY_EXCEPTION : Enhetstypen Lead: CRM-felkod: FIELD_INTEGRITY_EXCEPTION, fält: Land, CRM-felmeddelande: Det finns ett problem med det här landet, även om det kan se korrekt ut. Välj ett land/territorium i listan över giltiga länder.: Land, post-ID: 0123456</td>
       <td>Postens förväntade typ matchar inte.</td>
-      <td>Det vanligaste fallet med detta är inte att följa namngivningsstandarder för delstat/land som angetts i Salesforce-organisationen eftersom fälten Delstat/Land har standardiserats så att endast vissa plocklistevärden accepteras. Du kan åtgärda problemet genom att:
+      <td>Det vanligaste fallet är inte att följa de namngivningsstandarder för delstat/land som angetts i Salesforce-organisationen eftersom fälten Delstat/Land har standardiserats så att endast vissa värden för plocklistor accepteras. Du kan åtgärda problemet genom att:
         <ul>
           <li>Uppdatera posten så att den följer organisationens godkända värden för det fältet. Kontakta SFDC-administratören för att få en lista över godkända värden.</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&type=5">Inaktivera väljarlistorna Delstat/Land</a>.
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">Inaktivera väljarlistorna Delstat/Land</a>.
           </li>
         </ul>
       </td>
@@ -138,13 +139,13 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>Ett fel uppstod vid CRM-export: INACTIVE_OWNER_OR_USER : Enhetstyp 'Contact': CRM-felkod: INACTIVE_OWNER_OR_USER, CRM-felmeddelande: åtgärden utfördes med den inaktiva användaren [1234] som ägare av kontakten, RecordId: 0123456</td>
       <td>Marketo Measure saknar behörigheten Uppdatera poster med inaktiva ägare.</td>
-      <td>Bevilja Marketo Measure behörighet <a href="https://help.salesforce.com/s/articleView?id=000386699&type=1">Uppdatera poster med inaktiva ägare</a>.</td>
+      <td>Bevilja Marketo Measure behörighet <a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">Uppdatera poster med inaktiva ägare</a>.</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
       <td>Ett fel uppstod vid CRM-export: INSUFFICIENT_ACCESS_OR_READONLY : Enhetstyp 'Konto': CRM-felkod: INSUFFICIENT_ACCESS_OR_READONLY, CRM-felmeddelande: Otillräcklig behörighet för objekt-ID: [123], RecordId: 456</td>
       <td>Marketo Measure saknar behörighet för ett objekt eller fält, eller så är objektet skrivskyddat.</td>
-      <td>Mer information om vilka behörigheter Marketo Measure kräver finns i följande <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience League-artikel</a>.</td>
+      <td>Läs följande <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience League-artikel</a> om du vill ha mer information om vilka behörigheter Marketo Measure behöver.</td>
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
@@ -156,7 +157,7 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
             <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Marketo Measure-integreringar med Adobe Analytics</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=sv-SE">Skapa en kundattributkälla och överför datafilen</a>
+            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html">Skapa en kundattributkälla och överför datafilen</a>
           </li>
         </ul>
       </td>
@@ -179,7 +180,7 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Ett fel uppstod vid CRM-export: MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Marketo Measure saknar behörigheten Visa/redigera konverterade leads</td>
-      <td>Mer information om hur du aktiverar den här behörigheten i CRM<br/> finns i följande Experience League-dokument.
+      <td>Se följande Experience League-dokument om du behöver hjälp med att aktivera den här behörigheten i din CRM<br/>
           <a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md">Aktivera behörighet att redigera konverterade leads</a></td>
     </tr>
     <tr>
@@ -189,7 +190,7 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
       <td>Marketo Measure saknar läsbehörighet för ett obligatoriskt fält.</td>
       <td>Läs följande hjälpartiklar för mer information om vilka behörigheter Marketo Measure kräver:
         <ul>
-          <li><a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Dynamics</a>
+          <li><a href="/help/marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Dynamics</a>
           </li>
           <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce</a>
           </li>
@@ -199,8 +200,8 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
     <tr>
       <td>MISSING_ISREPLICATEABLE_PERMISSION</td>
       <td>Ett fel uppstod vid CRM-import: Saknad_ISREPLICATEABLE_PERMISSION: Vi saknar IsReplicable-behörighet för Campaign</td>
-      <td>Den här behörigheten krävs för Salesforce-objekt för att vi ska kunna synkronisera dina Marketo Measure- och Salesforce-objekt.</td>
-      <td>Kontakta Salesforce-support om du behöver hjälp med att ange replikeringsbar behörighet för objekt.</td>
+      <td>Detta tillstånd krävs för Salesforce-objekt för att vi ska kunna synkronisera din Marketo Measure och Salesforce.</td>
+      <td>Kontakta Salesforce support om du behöver hjälp med att ange replikeringsbar behörighet för objekt.</td>
     </tr>
     <tr>
       <td>MISSING_OBJECT_READ_PERMISSION</td>
@@ -208,7 +209,7 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
       <td>Marketo Measure saknar läsbehörighet för ett obligatoriskt objekt.</td>
       <td rowspan="2">Läs följande hjälpartiklar för mer information om vilka behörigheter Marketo Measure kräver:
           <ul>
-            <li><a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Dynamics</a>
+            <li><a href="/help/marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Dynamics</a>
             </li>
             <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce</a>
             </li>
@@ -255,13 +256,13 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
       <td>Posten som uppdateras uppfyller inte en valideringsregel som angetts i Salesforce-organisationen.</td>
       <td>Undanta den dedikerade Marketo Measure-användaren från <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">anpassade verifieringsregler</a>.
       <p>
-      Uppdatera dina <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&type=5">valideringsregler</a>.</td>
+      Uppdatera dina <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">valideringsregler</a>.</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>
       <td>Ett fel uppstod vid CRM-export: RESTRICT_PICKLIST_VALUES_ENABLED : Entitetstyp 'Campaign': CRM-felkod: INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST, Fält: Areas_of_Interest__c, CRM-felmeddelande: felaktigt värde för begränsat listfält: Okänt</td>
       <td>När 'Begränsa plocklistan till de värden som definieras i värdeuppsättningen' är aktiverat i plocklistefältets inställning, eller så är det värde som infogas i fältet inte tillgängligt i objektets posttyp.</td>
-      <td>Inaktivera inställningen för begränsad lista i Salesforce-organisationen.
+      <td>Inaktivera inställningen för begränsad lista i Salesforce Org.
           <p>
           Undanta den dedikerade Marketo Measure-användaren från <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">anpassade verifieringsregler</a>.
       </td>
@@ -287,9 +288,9 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
         <ul>
           <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md">God praxis</a>
           </li>
-          <li><a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md">Dynamics</a>
+          <li><a href="/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md">Dynamics</a>
           </li>
-          <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md">Salesforce</a>
+          <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md">Salesforce</a>
           </li>
         </ul>
       </td>

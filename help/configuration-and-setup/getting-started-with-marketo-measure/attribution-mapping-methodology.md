@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874716
 description: Attributmappningsmetod - [!DNL Marketo Measure]
 title: Metod för attribueringsmappning
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 90d0d6481e5b338d08a56f555ca3addea8bdd304
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
+
 
 # Metod för attribueringsmappning {#attribution-mapping-methodology}
 
@@ -19,7 +19,7 @@ Metoden för attribueringsmappning är processen att hitta vissa objekt i CRM (k
 
 [!DNL Marketo Measure] tillhandahåller mappning av konto-ID. Det innebär att [!DNL Marketo Measure] tittar på marknadsföringsinformationen för kontot och dess kontakter för att skapa attribueringsslutpunkter som är associerade med affärsmöjligheten. Nedan visas en enkel representation av den processen.
 
-![](assets/1-1.png)
+![ 1](assets/1-1.png)
 
 Tänk på att **inte alla** kontaktytor från dina kontakter överförs till säljprojektet som attribueringsslutpunkter. Affärsmöjlighetens tidslinje (dess första pekdatum - slutdatum) avgör om en kontaktyta räknas som en påverkare av affärsmöjligheten. Om en kontaktyta på kontakt A inträffade efter att affärsmöjligheten stängdes, Won/Lost, kommer [!DNL Marketo Measure] inte att skicka kontaktytan till affärsmöjligheten. Den här tidslinjeproceduren följs för alla andra attribueringsobjektmappningar.
 
@@ -35,7 +35,7 @@ Kon: Om det finns starka SLA för marknadsföring och försäljning som definier
 
 De flesta klienter använder mappning av konto-ID, men [!DNL Marketo Measure] kan slå upp till kontaktrollerna (kontakter som är kopplade till säljprojektet) i ett säljprojekt för att dela upp attribueringsprocessen. Det innebär att [!DNL Marketo Measure] bara skickar marknadsföringsinteraktioner som är associerade med kontaktrollerna i affärsmöjligheten som Touchpoints för Buyer-attribuering. Nedan visas en representation av den här processen.
 
-![](assets/2-1.png)
+![ 1](assets/2-1.png)
 
 Pros: Om ditt team har en väldefinierad process för kontaktroller kan den här typen av attribueringsmappning vara idealisk för dig. Det hjälper till att anpassa försäljning och marknadsföring lite mer eftersom alla skulle förstå hur attribueringen bryts ned. Den här processen är också användbar när organisationer riktar sig till flera olika affärsenheter inom ett stort företag och när de säljer olika produkter samtidigt.
 
@@ -45,7 +45,7 @@ Kon: Men om det inte finns någon process för kontaktroll förlorar marknadsfö
 
 Förutom att bara titta på kontaktrollerna för affärsmöjligheten kan [!DNL Marketo Measure] fokusera ännu mer på att bara titta på de primära kontakterna för en affärsmöjlighet. Med den här konfigurationen i åtanke hämtar [!DNL Marketo Measure] bara den kontaktyta för marknadsföring som är associerad med de primära kontakterna för en affärsmöjlighet och överför informationen till attribueringsberättelsen för den specifika affärsmöjligheten. Se bilden nedan.
 
-![](assets/3.png)
+![Diagram över attribueringsmappning med enbart primära kontaktroller](assets/3.png)
 
 Pros: Om ditt team bara är intresserade av att förstå hur marknadsföringen påverkar kontakter som är inställda som&quot;primära&quot; för affärsmöjligheten passar den här typen av mappning bäst.
 

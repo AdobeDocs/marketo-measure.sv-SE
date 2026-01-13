@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874682
 description: Marknadskanaler och delkanaler - [!DNL Marketo Measure]
 title: Marknadsföringskanaler och delkanaler
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
+
 
 # Marknadsföringskanaler och delkanaler {#marketing-channels-and-subchannels}
 
@@ -49,7 +49,7 @@ Bilden nedan visar ett exempel på en marknadsföringskanal, delkanal och inneh�
 
 I det här fallet är det innehåll som användaren försöker få åtkomst till introduktionshandboken för B2B-marknadsattribuering. [!DNL Marketo Measure] kommer att analysera URL:en som leder till det här innehållet med hjälp av kanalreglerna som har konfigurerats i den här organisationen och använda dem för att&quot;markera&quot; det här leadet i marknadsföringskanalen&quot;Betald social&quot; och delkanalen&quot;LinkedIn&quot;.
 
-![](assets/1.jpg)
+![Diagram som länkar marknadsföringskanal, delkanal och innehåll från en taggad URL](assets/1.jpg)
 
 Fler exempel...
 

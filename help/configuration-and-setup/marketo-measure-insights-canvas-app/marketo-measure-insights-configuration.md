@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874769
-description: "[!DNL Marketo Measure] Insights-konfiguration - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Insights-konfiguration"
+description: '[!DNL Marketo Measure] Insights-konfiguration - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Insights-konfiguration'
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
+
 
 # [!DNL Marketo Measure] Insights-konfiguration {#marketo-measure-insights-configuration}
 
@@ -21,10 +21,10 @@ ht-degree: 0%
 
 1. Under avsnittet [!UICONTROL OAuth]-profiler ändrar du inställningen Tillåtna användare till&quot;Godkända användare är förauktoriserade&quot;. Ett popup-fönster visas. Klicka på **[!UICONTROL OK]** och sedan på **[!UICONTROL Save]**.
 
-   ![](assets/1-1.png)
+   ![ 1](assets/1-1.png)
 
 1. När sidan har sparats kan du klicka på knappen **[!UICONTROL Manage Profiles]**.
 
-   ![](assets/2-1.png)
+   ![ 1](assets/2-1.png)
 
 1. Markera alla profiler som ska ha tillgång till [!DNL Marketo Measure]-insikter och klicka på **[!UICONTROL Save]**.

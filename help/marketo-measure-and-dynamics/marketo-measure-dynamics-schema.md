@@ -1,0 +1,1509 @@
+---
+description: '[!DNL Marketo Measure] Dynamics-schema - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Dynamics-schema'
+exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
+feature: Microsoft Dynamics
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+workflow-type: tm+mt
+source-wordcount: '1084'
+ht-degree: 5%
+
+---
+
+
+# [!DNL Marketo Measure] Dynamics-schema {#marketo-measure-dynamics-schema}
+
+>[!NOTE]
+>Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se Bizible i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
+
+Nedan visas det Dynamics-schema som krävs för att komma igång med [!DNL Marketo Measure]. Alla entiteter och fält visas tillsammans med nödvändig läs- och/eller skrivåtkomst.
+
+## Kontaktpunkter för köpare {#buyer-touchpoints}
+
+Buyer Touchpoint är en anpassad [!DNL Marketo Measure]-entitet som kapslar in marknadsföringsinteraktioner för Kontakter och Leads.
+
+## Buyer Touchpoint Relationships {#buyer-touchpoint-relationships}
+
+Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Touchpoint på hög nivå.
+
+## Buyer Touchpoint {#buyer-touchpoint}
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Campaign_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Campaign_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Content</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Destination_URL</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Group_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Group_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Bizible_TouchpointId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Browser</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_CampaignId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_ContactId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Count_First_Touch</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Count_Lead_Conversion_Touch</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Count_U_Shaped</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Form_URL</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Form_URL_Raw</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Geo_City</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Geo_Country</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Geo_Region</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Keyword_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Keyword_MatchType</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Keyword_Text</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Landing_Page</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Landing_Page_Raw</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_LeadId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Marketing_Channel</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Marketing_Channel_Path</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Medium</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Placement_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Placement_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Platform</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Referrer_Page</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Referrer_Page_Raw</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Search_Phase</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Segment</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Site_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Site_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Date</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Position</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Source</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Type</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_UniqueId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Account</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
+
+Buyer Attribution Touchpoint är en anpassad [!DNL Marketo Measure]-entitet som kapslar in marknadsföringens påverkan på affärsmöjligheter.
+
+## Buyer Attribution Touchpoint Relationships {#buyer-attribution-touchpoint-relationships}
+
+Bilden visar relationerna mellan Dynamics Stock-enheterna och Buyer Attribution Touchpoint på hög nivå.
+
+## Kontaktpunkter för Buyer Attribution {#buyer-attribution-touchpoints}
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>bizible2_AccountId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Campaign_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Campaign_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Content</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Destination_URL</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Group_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Group_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Ad_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Attribution_Custom_Model</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Attribution_Custom_Model_2</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Attribution_First_Touch</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Attribution_Lead_Conversion_Touch</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Attribution_U_Shaped</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Attribution_W_Shaped</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Bizible_Attribution_TouchpointId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Browser</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_CampaignId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_ContactId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Count_Custom_Model</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Count_Custom_Model_2</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Count_First_Touch</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Count_Lead_Creation_Touch</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Count_U_Shaped</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Count_W_Shaped</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Form_URL</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Form_URL_Raw</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Geo_City</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Geo_Country</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Geo_Region</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Keyword_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Keyword_MatchType</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Keyword_Text</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Landing_Page</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Landing_Page_Raw</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Marketing_Channel</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Marketing_Channel_Path</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Medium</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_OpportunityId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Placement_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Placement_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Platform</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Referrer_Page</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Referrer_Page_Raw</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Revenue_Custom_Model</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Revenue_Custom_Model_2</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_revenue_custom_model_2_Base</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_revenue_custom_model_Base</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Revenue_First_Touch</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_revenue_first_touch_Base</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Revenue_Lead_Conversion_Touch</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_revenue_lead_conversion_Base</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Revenue_U_Shaped</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_revenue_u_shaped_Base</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Revenue_W_Shaped</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_revenue_w_shaped_Base</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Search_Phase</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Segment</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Site_Id</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Site_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Date</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Position</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Source</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Type</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_UniqueId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## [!DNL Marketo Measure] AB-tester {#marketo-measure-ab-tests}
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>bizible2_Bizible_ABTestId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_BizibleId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_ContactId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_DateReported</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Experiment</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_ExperimentId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_LeadId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_OpportunityId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_UserId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Variation</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_VariationId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## [!DNL Marketo Measure] händelser {#marketo-measure-events}
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>bizible2_Bizible_EventId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_BizibleId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_ContactId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_DateReported</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_EventName</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_EventValue</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_LeadId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_OpportunityId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## [!DNL Marketo Measure]-historik {#marketo-measure-history}
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>bizible2_Bizible_HistoryId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Entity_Type</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_EntityId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_EntityLogicalName</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Name</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## Dynamics Standard-entiteter {#dynamics-standard-entities}
+
+Den här listan innehåller Dynamics Standard-entiteter som [!DNL Marketo Measure] interagerar med och anpassade fält som vi lägger till i dessa entiteter.
+
+**Lead**
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>löv</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>e-postadress1</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>statcode</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>statuskod</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>skapad</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>modifiedon</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>kontaktlig</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>kvalificeramöjlighetID</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>websiteurl</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>företagsnamn</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Account</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_BizibleId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+**Kontakt**
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>kontaktlig</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>e-postadress1</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>kontotid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>skapad</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>modifiedon</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>bizible2_BizibleId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+**Konto**
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>kontotid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>websiteurl</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>skapad</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>modifiedon</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Engagement_Score</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+**Möjlighet**
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>opportunityid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>kontotid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>skapad</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>modifiedon</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>statcode</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>statecodename</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>salesstage</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>salesstagecode</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>uppskattat closedat</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>verkligt värde</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Bizible_Opportunity_Amount</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_bizible_opportunity_amount_Base</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+**Campaign**
+
+Kampanjens&quot;Skapa&quot;-behörigheter krävs också, utöver läs-/skrivbehörigheterna nedan.
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>kampanjgnid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>typkod</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>typekodename</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>skapad</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>modifiedon</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Bizible_Attribution_SyncType</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Marketing_Lists_Sync</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_UniqueId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_End_Date</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Start_Date</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+**Kampanjsvar**
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>aktivityid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>activityTytypcode</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>activityTyecodename</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>skapad</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>modifiedon</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>svarskod</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>responsecodename</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>kund</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>om objekttid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Bizible_Touchpoint_Date</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Status_Date</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Status_Contact</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Status_Leade</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Touchpoint_Status_Opportunity</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+**Lista**
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>listid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>createdfromCode</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>medlemstyp</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>skapad</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>modifiedon</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Bizible_Touchpoint_Date</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+**ListMember**
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>listid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>entityid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>listemid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>skapad</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>modifiedon</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+ </tbody>
+</table>
+
+**Telefonsamtal**
+
+<table>
+ <tbody>
+  <tr>
+   <th><p>Schemanamn</p></th>
+   <th><p>Standard/anpassad</p></th>
+   <th><p>Läs</p></th>
+   <th><p>Skriv</p></th>
+  </tr>
+  <tr>
+   <td><p>aktivityid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>activityTytypcode</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>activityTyecodename</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>skapad</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>modifiedon</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>kund</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>om objekttid</p></td>
+   <td><p>Standard</p></td>
+   <td><p>x</p></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><p>bizible2_Bizible_Touchpoint_Date</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+  <tr>
+   <td><p>bizible2_BizibleId</p></td>
+   <td><p>Egen</p></td>
+   <td><p>x</p></td>
+   <td><p>x</p></td>
+  </tr>
+ </tbody>
+</table>
+
+[] = Endast äldre V1-kunder

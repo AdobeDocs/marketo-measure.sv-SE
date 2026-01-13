@@ -1,20 +1,19 @@
 ---
-unique-page-id: 18874572
 description: Duplicera poster och [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Duplicera poster och [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
+
 # Duplicera poster och [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
->
 >Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se Bizible i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 [!DNL Marketo Measure] använder e-postadressen som en unik identifierare när data matchas mot en relaterad lead eller kontakt i CRM. När [!DNL Marketo Measure] hittar flera leads eller kontakter med samma e-postadress, visas samma data på alla poster. Effekten av detta uppstår när du rapporterar om leads eller kontakter med [!DNL Marketo Measure] och kan felaktigt öka antalet unika personer som har Buyer Touchpoints.
@@ -23,7 +22,7 @@ Hur ser det här ut i [!DNL Marketo Measure]-rapportering?
 
 _Exempelrapport: [!DNL Marketo Measure] Personer med Buyer Touchpoints._
 
-![](assets/1-1.png)
+![ 1](assets/1-1.png)
 
 För person-ID:t [!DNL Marketo Measure] på kelsey@adobe.com kan du se att det finns både en lead och en kontakt med den e-postadressen. I den här rapporten rapporteras 2 First Touches, två Touches för leadskapande och två PostLC-interaktioner. Dessa dubblettposter delar information om kontaktpunkter och kontaktpunkter, vilket kan leda till slutsatsen att de är två olika personer trots att de är samma person.
 

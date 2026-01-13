@@ -3,17 +3,17 @@ description: Bästa praxis för [!DNL Marketo Measure] CRM-paket - [!DNL Marketo
 title: Bästa praxis för  [!DNL Marketo Measure] CRM-paket
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
+
 # Bästa praxis för CRM-paket [!DNL Marketo Measure] {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
->
 >Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se Bizible i CRM. Den uppdateras och omprofileringen kommer snart att återspeglas i CRM.
 
 ## Översikt {#overview}
@@ -49,12 +49,10 @@ Andra orsaker till det kan utlösa en granskning...
 * Kontrollera att du har den senaste versionen av Buyer Touchpoints Package installerad i [!DNL Salesforce]
 
 >[!NOTE]
->
->När du inaktiverar Marketo Measure export av data till Salesforce tas inga befintliga data bort. Om du vill ta bort den följer du stegen i [den här hjälpartikeln för Salesforce](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
+>När du inaktiverar Marketo Measure export av data till Salesforce tas inga befintliga data bort. Följ stegen i [den här Salesforce-hjälpartikeln](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"} för att ta bort den.
 
 >[!MORELIKETHIS]
->
->* [Uppdatera Buyer Touchpoint-paket](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
->* [[!DNL Marketo Measure] Behörighetsuppsättningar](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [Dela rapporter och instrumentpanelsmapp](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
->* [Anslut Marketo Measure till Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+> [Uppdatera Buyer Touchpoint-paket](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
+> [[!DNL Marketo Measure] Behörighetsuppsättningar](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+> [Dela rapporter och instrumentpanelsmapp ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [Anslut Marketo Measure till Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

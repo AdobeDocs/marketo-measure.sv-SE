@@ -1,24 +1,25 @@
 ---
 description: Förklaring av Touchpoint-positioner och generering över BT och BAT - [!DNL Marketo Measure]
-title: Förklaring av Touchpoint-positioner och generering över BT och  [!DNL BATs]
+title: Förklaring av Touchpoint-positioner och generering över BT:er och  [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
 
 ---
 
-# Förklaring av Touchpoint-positioner och generering över BT och [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
+
+# Förklaring av Touchpoint-positioner och generering över BT:er och [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
 **Generering av positionering och flöde för kontaktpunkter via köparresan**
 
 Att förstå Buyer Touchpoint-positioner och hur de aktiveras är avgörande för att kunna rapportera med [!DNL Marketo Measure]-data. Ni vill ha en tydlig förståelse för vad era potentiella kunder gjorde när de rörde sig genom köparens resa och i sin tur hur det kommer att se ut i kontaktpunktsinformationen. Om du vill ha mer kontext om det här avsnittet rekommenderar vi att du läser artikeln [[!UICONTROL Touchpoint Generation & Mapping]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md).
 
-[!DNL Marketo Measure] har en rad olika Touchpoint-positioner som aktiveras av olika steg i köparens resa. Vid rapportering av [!DNL Marketo Measure]-data finns det två uppsättningar Touchpoint-data, Buyer Touchpoints (BT) och Buyer Attribution Touchpoints (BAT). Du kan lägga märke till att dessa datauppsättningar har lite olika positioner eftersom de relaterar till olika objekt. Om du vill ha mer kontext om det här avsnittet rekommenderar vi att du läser artikeln [Differens mellan Buyer Touchpoints (BT) och Buyer Attribution Touchpoints (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md).
+[!DNL Marketo Measure] har en rad olika Touchpoint-positioner som aktiveras av olika steg i köparens resa. Vid rapportering av [!DNL Marketo Measure]-data finns det två uppsättningar Touchpoint-data, Buyer Touchpoints (BT) och Buyer Attribution Touchpoints (BAT). Du kan lägga märke till att dessa datauppsättningar har lite olika positioner eftersom de relaterar till olika objekt. Om du vill ha mer kontext om det här avsnittet rekommenderar vi att du läser artikeln [Differens mellan Buyer Touchpoints (BT) &amp; Buyer Attribution Touchpoints (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md).
 
-**Kontaktpunkter för köpare (BT)**: Dessa är de kontaktytor som är kopplade till en enskild person och deras resa och är unika för den personen. Följande rapporter är inbyggda i Buyer Touchpoint-data.
+**Buyer Touchpoints (BT)**: Dessa är de kontaktytor som är kopplade till en enskild person och deras resa och är unika för den personen. Följande rapporter är inbyggda i Buyer Touchpoint-data.
 
 * [!DNL Marketo Measure] 101: Leads efter ID
 * [!DNL Marketo Measure] 101: Leads efter kanal
@@ -27,72 +28,72 @@ Att förstå Buyer Touchpoint-positioner och hur de aktiveras är avgörande fö
 
 Nedan beskrivs Buyer Touchpoint ståndpunkter som beskriver var en individ befinner sig på sin resa och vilka åtgärder de vidtagit för att tjäna denna tjänst.
 
-<table> 
+<table>
  <tbody>
   <tr>
-   <th>Buyer Touchpoint (BT)</th> 
-   <th>Kontaktpunktstyp (åtgärd som kan utlösa kontaktyta)</th> 
-   <th>Beskrivning av kontaktyta</th> 
+   <th>Buyer Touchpoint-position (BT)</th>
+   <th>Kontaktpunktstyp (åtgärd som kan utlösa kontaktyta)</th>
+   <th>Beskrivning av kontaktyta</th>
   </tr>
   <tr>
-   <td>Första beröring (FT)</td> 
-   <td>Webbbesök</td> 
-   <td>Den första marknadsföringsinteraktionen som en individ har med ert varumärke</td> 
+   <td>Första beröring (FT)</td>
+   <td>Webbbesök</td>
+   <td>Den första marknadsföringsinteraktionen som en individ har med ert varumärke</td>
   </tr>
   <tr>
-   <td>Skapa leads (LC)</td> 
-   <td>Formulärfyllning <strong>ELLER</strong>, kampanj-/programinkludering</td> 
-   <td>Det första formuläret fyller i en individ (vanligtvis en formulärinlämning men kan även vara en Campaign/Program-inkludering)</td> 
+   <td>Skapa leads (LC)</td>
+   <td>Formulärfyllning <strong>ELLER</strong>, kampanj-/programinkludering</td>
+   <td>Det första formuläret fyller i en individ (vanligtvis en formulärinlämning men kan även vara en Campaign/Program-inkludering)</td>
   </tr>
   <tr>
-   <td>Post LC</td> 
-   <td>Formulärfyllning <strong>ELLER</strong>, kampanj-/programinkludering</td> 
-   <td>Alla formulär som en enskild person fyller i efter sin LC (eller ett senare Kampanj-/programtillägg)</td> 
+   <td>Post LC</td>
+   <td>Formulärfyllning <strong>ELLER</strong>, kampanj-/programinkludering</td>
+   <td>Alla formulär som en enskild person fyller i efter sin LC (eller ett senare Kampanj-/programtillägg)</td>
   </tr>
  </tbody>
 </table>
 
-**Slutpunkter för Buyer-attribuering (BAT)**: Dessa är de kontaktytor som är kopplade till ett säljprojekt och dess resa. Dessa kontaktytor är kopplade till intäkterna eftersom de är kopplade till säljprojektet och dess kontakter. Följande rapporter är inbyggda i Buyer Attribution Touchpoint-data.
+**Buyer Attribution Touchpoints (BATS)**: Detta är de kontaktytor som är kopplade till ett säljprojekt och dess resa. Dessa kontaktytor är kopplade till intäkterna eftersom de är kopplade till säljprojektet och dess kontakter. Följande rapporter är inbyggda i Buyer Attribution Touchpoint-data.
 
 * [!DNL Marketo Measure] 101: Affärsmöjligheter efter ID
 * [!DNL Marketo Measure] 101: Affärsmöjligheter efter ID-kanal
 
-<table> 
+<table>
  <tbody>
   <tr>
-   <th>Buyer Attribution Touchpoint (BAT)</th> 
-   <th>Kontaktpunktstyp (åtgärd som kan utlösa kontaktyta)</th> 
-   <th>Beskrivning av kontaktyta</th> 
+   <th>Buyer Attribution Touchpoint-position (BAT)</th>
+   <th>Kontaktpunktstyp (åtgärd som kan utlösa kontaktyta)</th>
+   <th>Beskrivning av kontaktyta</th>
   </tr>
   <tr>
-   <td>Första beröring (FT)</td> 
-   <td>Webbbesök</td> 
-   <td>Den första marknadsföringsinteraktionen som en kontakt hade med ert varumärke</td> 
+   <td>Första beröring (FT)</td>
+   <td>Webbbesök</td>
+   <td>Den första marknadsföringsinteraktionen som en kontakt hade med ert varumärke</td>
   </tr>
   <tr>
-   <td>Skapa leads (LC)</td> 
-   <td>Formulärfyllning <strong>ELLER</strong>, kampanj-/programinkludering</td> 
-   <td>Den första formulärfyllningen som en kontakt hade (vanligtvis en formulärinlämning men kan också vara en Campaign/Program-inkludering)</td> 
+   <td>Skapa leads (LC)</td>
+   <td>Formulärfyllning <strong>ELLER</strong>, kampanj-/programinkludering</td>
+   <td>Den första formulärfyllningen som en kontakt hade (vanligtvis en formulärinlämning men kan också vara en Campaign/Program-inkludering)</td>
   </tr>
   <tr>
-   <td>Skapande av affärsmöjlighet</td> 
-   <td>Formulärfyllning <strong>ELLER</strong>, webbbesök <strong>ELLER</strong>, kampanj-/programinkludering</td> 
-   <td>Marknadsföringsinteraktionen närmast när Opp skapas</td> 
-  </tr> 
-  <tr>
-   <td>Stängd vunnen/förlorad</td> 
-   <td>Formulärfyllning <strong>ELLER</strong>, webbbesök <strong>ELLER</strong>, kampanj-/programinkludering</td> 
-   <td>Marknadsföringsinteraktionen närmast när Opp stängs (Won eller Lost)</td> 
+   <td>Skapande av affärsmöjlighet</td>
+   <td>Formulärfyllning <strong>ELLER</strong>, webbbesök <strong>ELLER</strong>, kampanj-/programinkludering</td>
+   <td>Marknadsföringsinteraktionen närmast när Opp skapas</td>
   </tr>
   <tr>
-   <td>Mittpekningar</td> 
-   <td>Formulärfyllning <strong>ELLER</strong>, kampanj-/programinkludering</td> 
-   <td>När en kontakt fyller i ett onlineformulär och det inte sammanfaller med en milstolpe-kontaktyta</td> 
+   <td>Stängd vunnen/förlorad</td>
+   <td>Formulärfyllning <strong>ELLER</strong>, webbbesök <strong>ELLER</strong>, kampanj-/programinkludering</td>
+   <td>Marknadsföringsinteraktionen närmast när Opp stängs (Won eller Lost)</td>
+  </tr>
+  <tr>
+   <td>Mittpekningar</td>
+   <td>Formulärfyllning <strong>ELLER</strong>, kampanj-/programinkludering</td>
+   <td>När en kontakt fyller i ett onlineformulär och det inte sammanfaller med en milstolpe-kontaktyta</td>
   </tr>
  </tbody>
 </table>
 
-[!DNL Marketo Measure] har dessa två uppsättningar Touchpoint-data för att skapa en tydlig förståelse för en enskild persons resa och möjligheterna. Dessa två datauppsättningar för kontaktpunkter ger dig en tydlig karta över vad som hände uppifrån och ned på tratten.
+[!DNL Marketo Measure] har dessa två uppsättningar Touchpoint-data för att skapa en tydlig förståelse för en enskild persons resa och möjligheterna. Dessa två datauppsättningar för kontaktpunkter ger dig en tydlig karta över vad som hände uppifrån och ned på funnel.
 
 I följande exempel visas dataflödet från Buyer Touchpoints (BT) till Buyer Attribution Touchpoints (BAT). I det här exemplet är både person A och person B en del av samma möjlighet som har ett Skapat den 3 juli 2020 och ett stängningsdatum den 5 juni 2020.
 

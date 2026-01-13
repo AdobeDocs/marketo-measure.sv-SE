@@ -1,14 +1,15 @@
 ---
-description: Data Warehouse Access - Direct Share - produktdokumentation
+description: Data Warehouse Access - direktdelning
 title: Data Warehouse Access - direktdelning
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: bff10626589aba8c3dfe995dabde6eac1fc7809f
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
+
 
 # Data Warehouse Access - direktdelning {#data-warehouse-access-direct-share}
 
@@ -28,14 +29,13 @@ För att [!DNL Marketo Measure] ska kunna konfigurera en direkt resurs till data
 
 Öppna avsnittet **Inställningar** i Marketo Measure-appen och navigera till sidan **Data Warehouse** . I avsnittet **Direktdelning** anger du ditt [Snowflake-konto-ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} i rutan och klickar på **Anslut**.
 
-![](assets/data-warehouse-access-direct-share-1.png)
+![Marketo Measure Data Warehouse-inställningar visar Snowflake Direct Share-formulär](assets/data-warehouse-access-direct-share-1.png)
 
 ## Åtkomst till resursen {#accessing-the-share}
 
 När resursen har skapats för det konto-ID som anges måste du slutföra [konfigurationsstegen](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} i din Snowflake-instans för att komma åt data.
 
 >[!NOTE]
->
 >Du kan välja valfritt databasnamn. Du kan tilldela behörigheter till vilken roll du vill, så länge den finns i din Snowflake-instans.
 
 * Använd rollen Kontoadministratör

@@ -1,22 +1,21 @@
 ---
-unique-page-id: 18874718
 description: Skapar en kampanjlistvy för  [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]
 title: Skapar en kampanjlistvy för  [!DNL Salesforce] kampanjer
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
+
 # Skapar en kampanjlistvy för [!DNL Salesforce] kampanjer {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Lär dig hur du skapar en listvy för kampanjer som du vill synkronisera med Buyer Touchpoints.
 
 >[!NOTE]
->
 >Den här artikeln handlar om en föråldrad process. Vi uppmuntrar användare att använda den [nya, förbättrade processen i appen](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 I kampanjlistvyn som kan skapas kan du ha en plats där du kan gå till för att visa och hantera fälten Typ och Aktivera Buyer Touchpoints för att se till att alla dina [!DNL Salesforce]-kampanjer som informerar dina offlinemarknadsföringskanaler är korrekt konfigurerade.
@@ -43,5 +42,4 @@ I kampanjlistvyn som kan skapas kan du ha en plats där du kan gå till för att
    * Se till att du har behörighet till fälten
 
 >[!MORELIKETHIS]
->
 >[Felsöka vanliga problem med infogad redigering i listvyn](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

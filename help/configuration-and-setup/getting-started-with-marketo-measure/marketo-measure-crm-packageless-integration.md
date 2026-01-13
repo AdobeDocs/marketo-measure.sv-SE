@@ -1,15 +1,15 @@
 ---
-unique-page-id: 37356027
-description: "[!DNL Marketo Measure] CRM-paketlös integrering - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] CRM Packagless-integrering"
+description: '[!DNL Marketo Measure] CRM-paketlös integrering - [!DNL Marketo Measure]'
+title: Integrering utan CRM-paket för [!DNL Marketo Measure]
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
 
 ---
+
 
 # Integrering utan CRM-paket för [!DNL Marketo Measure] {#marketo-measure-crm-packageless-integration}
 
@@ -31,12 +31,11 @@ För att alla data ska kunna hämtas korrekt från din CRM behöver vi följande
 
 I guiderna nedan hoppar du över stegen för att installera [!DNL Salesforce]-paketet eller [!DNL Microsoft Dynamics] hanterad lösning och följer bara behörighets- och integreringsinstruktionerna.
 
-[!DNL Salesforce] kunder klickar [här](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md).
+[!DNL Salesforce] kunder klickar [här](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md).
 
-[!DNL Microsoft Dynamics] kunder klickar [här](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
+[!DNL Microsoft Dynamics] kunder klickar [här](/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
 När du är klar med dessa steg bör integreringen fungera. Kontakta din [!DNL Marketo Measure]-representant eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om du får problem.
 
 >[!NOTE]
->
 >Om du börjar med den [!DNL Marketo Measure] CRM-paketlösa integreringen kan du installera Salesforce-paketet eller Microsoft Dynamics Managed Solution senare.

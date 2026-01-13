@@ -1,22 +1,21 @@
 ---
-unique-page-id: 18874600
 description: Synkroniserar offlinekampanjer - [!DNL Marketo Measure]
 title: Synkronisera offlinekampanjer
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
+
 
 # Synkronisera offlinekampanjer {#syncing-offline-campaigns}
 
 Det kan vara svårt att spåra offlinekampanjer korrekt och förstå hur de står sig jämfört med era digitala marknadsföringssatsningar. Med [!DNL Marketo Measure] kan du spåra och tilldela kontaktytor till offlinekampanjer i [!DNL Salesforce], även i situationer när en [!DNL Salesforce]-kampanj inte skapas förrän några veckor efter händelsen.
 
 >[!NOTE]
->
 >Den här artikeln handlar om en föråldrad process. Vi uppmuntrar användare att använda den [nya, förbättrade processen i appen](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Innan du synkroniserar {#before-you-sync}
@@ -37,7 +36,7 @@ Varför är detta viktigt? Tänk dig att ert företag sponsrade en monter på en
 
 Ditt överföringsdatum skulle vara tre veckor senare än konferensdatumet. Om du vill åtgärda den här skillnaden kan du använda knappen [!UICONTROL Bulk Update Touchpoint Date] för att ange rätt datum. Knappen visas i bilden nedan.
 
-![](assets/1-3.png)
+![ 3](assets/1-3.png)
 
 I det här fallet fyller den upp-datumet med tre veckor. Det här steget bör utföras innan du ställer in fältet [!UICONTROL Enable Buyer Touchpoints].
 
@@ -46,20 +45,19 @@ Sammanfattningsvis, om du använder knappen [!UICONTROL Bulk Update Touchpoint D
 Du kan också uppdatera datumen för alla kampanjmedlemmar i en befintlig kampanj. När du gör det ska du kontrollera att datumet för kontaktpunkten är datumet för medlemmens interaktion. Klicka på Uppdatera Buyer Touchpoint-datum gruppvis, filtrera listan med kampanjmedlemmar efter behov och lägg till samma datum som händelsen ägde rum i alternativet [!UICONTROL Select Date] ovanför listan med kampanjmedlemmar.
 
 >[!CAUTION]
->
 >Se till att du uppdaterar slutpunktsdatumet _före_ när du aktiverar slutpunkter för alla kampanjmedlemmar.
 
-![](assets/2-3.png)
+![ 3](assets/2-3.png)
 
 ## Så här skapar du en Campaign och synkroniserar kontaktytor för köpare {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
 Om du vill skapa en kampanj i [!DNL Salesforce] går du till fliken [!UICONTROL Campaigns] och väljer [!UICONTROL New] enligt bilden nedan. Beroende på hur [!DNL Salesforce] är konfigurerat kan du behöva lägga till kampanjer i det övre fältet genom att klicka på plusikonen (+).
 
-![](assets/3-3.png)
+![ 3](assets/3-3.png)
 
 När du skapar den här kampanjen klickar du på fältet [!UICONTROL Enable Buyer Touchpoints] och väljer något av följande alternativ i listan:
 
-![](assets/4-3.png)
+![ 3](assets/4-3.png)
 
 * **Inkludera alla kampanjmedlemmar**
    * Det här alternativet gör att [!DNL Marketo Measure] kan tilldela en kontaktyta till varje kampanjmedlem.
@@ -73,7 +71,5 @@ När du skapar den här kampanjen klickar du på fältet [!UICONTROL Enable Buye
 När ett av dessa val har valts kommer [!DNL Marketo Measure] att tilldela varje kampanjmedlem en kontaktpunkt om tillämpligt. Lead eller kontakt som läggs till i kampanjen _måste_ ha en e-postadress kopplad till sin post för att [!DNL Marketo Measure] ska kunna skapa en kontaktyta. Utan en e-postadress kommer [!DNL Marketo Measure] inte att tilldela kampanjmedlemmen någon kontaktyta.
 
 >[!MORELIKETHIS]
->
->[[!DNL Marketo Measure] Tutorials: Mappa offlinekanaler](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
->
->[[!DNL Marketo Measure] Tutorials: Kampanjobjektfält](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Mappa offlinekanaler](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Kampanjobjektfält ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

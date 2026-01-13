@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874598
 description: Inställningar för anpassad offlinekanal - [!DNL Marketo Measure]
 title: Anpassad kanalinställning offline
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
+
 
 # Anpassad kanalinställning offline {#offline-custom-channel-setup}
 
@@ -19,7 +19,7 @@ Jämfört med hur [!DNL Marketo Measure] hanterar regler för onlinekanaler komm
 
 Kalkylbladet har tre kolumner:
 
-![](assets/1-2.png)
+![Kalkylbladsmall med tre kolumner för Salesforce Campaign-typen, Kanal och Delkanal](assets/1-2.png)
 
 **[!UICONTROL Salesforce]kampanjtyp** - lägg till kampanjtyper som identifieras i [!DNL Salesforce] här
 
@@ -33,13 +33,13 @@ Kalkylbladet har tre kolumner:
 
 [!DNL Marketo Measure] offlinekanallogik bestäms av Campaign-objektet, särskilt [!DNL Salesforce] Campaign-typen. Varje offlineåtgärd måste ha en [!DNL Salesforce]-kampanjtyp, till exempel middag eller bildspel, eftersom [!DNL Marketo Measure] förlitar sig på det här fältet för att förstå vilken kanal och underkanal som ska mappas till.
 
-SFDC-kampanjtyperna visas på fliken Offlinekanal, som listas under [!DNL Salesforce] Kampanjtyp. Observera att [!DNL Marketo Measure] bara kan importera SFDC-kampanjtyper för kampanjer som har associerade Buyer.
+Kampanjtyperna för SFDC visas på fliken Offlinekanal, som listas under [!DNL Salesforce] Kampanjtyp. Observera att [!DNL Marketo Measure] bara kan importera SFDC Campaign-typer för kampanjer som har associerade Buyer-kontaktytor.
 
-![](assets/2-2.png)
+![Fliken Offlinekanaler som visar Salesforce Campaign-typlistan](assets/2-2.png)
 
 Här kan du skapa kanalmappning/delkanalsmappning i appen [!DNL Marketo Measure]. Detta innebär sannolikt att nya kanaler och underkanaler skapas i appen [!DNL Marketo Measure], vilket görs i appens avsnitt Skapa kanaler, som visas i bilden nedan. Nya kanaler och underkanaler måste skapas för att [!DNL Marketo Measure] ska förstå var pekpunkterna ska skickas. Du kan bestämma hur du vill att kampanjtyperna ska mappas.
 
-![](assets/3-2.png)
+![Avsnittet Skapa kanaler visar gränssnitt för att skapa nya kanaler och delkanaler](assets/3-2.png)
 
 ## Exempel på kanalmappning {#channel-mapping-example}
 
@@ -49,11 +49,11 @@ Nu vill du göra samma sak med konferensen i juni. Eftersom det här är en konf
 
 Nedan visas ett exempel på logik som [!DNL Marketo Measure] inte kan läsa:
 
-![](assets/4-2.png)
+![Felaktig kanalmappning som visar samma kampanjtyp mappad till olika underkanaler](assets/4-2.png)
 
 I scenariot ovan vill du skapa en unik kampanjtyp eftersom du inte kan mappa samma kampanjtyp till två olika underkanaler. I stället vill du konfigurera unika typer som följande:
 
-![](assets/5-2.png)
+![Korrigera kanalmappning som visar unika kampanjtyper för olika underkanaler](assets/5-2.png)
 
 Alla befintliga kampanjtyper måste inkluderas i din kanalkarta och&quot;NULL&quot; ska läggas till som kanal.
 
@@ -61,30 +61,26 @@ Ta tid till att gå in i [!DNL Salesforce] för att fastställa antalet och type
 
 Läs mer om [synkronisering av offlinekampanjer [!DNL Salesforce] med [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
 
-## Hantera SFDC-kampanjer för onlinemarknadsföring {#handling-sfdc-campaigns-for-online-marketing-efforts}
+## Hantera SFDC Campaigns för onlinemarknadsföringsaktiviteter {#handling-sfdc-campaigns-for-online-marketing-efforts}
 
 Det är vanligt att marknadsföringsteamen skapar [!DNL Salesforce]-kampanjer för att spåra olika digitala marknadsföringssatsningar. Det finns inga problem med denna praxis, men det är viktigt att behandla dessa kampanjer annorlunda än verkliga offlinekampanjer, som direktreklam eller konferenser, till exempel. Kampanjer som är relaterade till digitala händelser (interaktioner som sker på din webbplats) ska inte synkroniseras med [!DNL Marketo Measure]. Synkronisering av de här kampanjerna resulterar i duplicering av kontaktpunkter eftersom JavaScript [!DNL Marketo Measure] redan håller på att spåra onlineaktiviteter.
 
 Ett annat tips för att hantera kampanjer för onlineaktiviteter är att mappa kampanjtypen [!DNL Salesforce] till NULL. Om du vill göra det skapar du först en kanal i appen [!DNL Marketo Measure] med namnet NULL, vilket visas i bilden nedan. Detta finns i appen [!DNL Marketo Measure] under avsnittet **Skapa kanaler**. Detta är praktiskt om en kampanj som inte ska synkroniseras av misstag synkroniseras. Det är enkelt att hitta kampanjen och korrigera synkroniseringsstatusen genom att titta på allt som är inramat under NULL.
 
-![](assets/6-2.png)
+![Avsnittet Skapa kanaler visar NULL-kanalskapande för onlinekampanjer](assets/6-2.png)
 
 ## Ange dina regler för offlinekanal i appen {#entering-your-offline-channel-rules-to-the-app}
 
 När du har redigerat och uppdaterat kalkylbladet med dina anpassade regler är nästa steg att återskapa den här kanalmappningen i appen [!DNL Marketo Measure] - du kommer egentligen inte att överföra ett kalkylblad för offlinekanaler. I stället anger du informationen i listrutorna enligt bilden nedan. Det här hittas genom att klicka på **[!UICONTROL Offline Channels]** under avsnittet **[!UICONTROL Channels]**.
 
-![](assets/7-2.png)
+![Gränssnitt för offlinekanaler med listrutor för att ange kanalmappningsregler](assets/7-2.png)
 
 >[!TIP]
->
 >Vill du ta reda på när _när_ en [!DNL Salesforce] kampanjtyp hämtas till kanalmappningen [!DNL Marketo Measure]? Gå till **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. Du kan sedan se vilka värden som finns i listan och vilka som är inaktiva. Inaktiva typer visas inte som en valbar typ i avsnittet [!UICONTROL Offline Channels]. Observera att den här processen kan ta var som helst från några minuter upp till 48 timmar.
 
 Klicka på **[!UICONTROL Save]** när du är klar och [!DNL Marketo Measure] överför ändringarna och bearbetar om data.
 
 >[!MORELIKETHIS]
->
->* [[!DNL Marketo Measure] Tutorials: Mappa offlinekanaler](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
->
->* [[!DNL Marketo Measure] Tutorials: Synkroniserar offlinekampanjer](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
->
->* [Integrering av Marketo Engage-program](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
+> [[!DNL Marketo Measure] Självstudiekurser: Mappa offlinekanaler](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+> [[!DNL Marketo Measure] Självstudiekurser: Synkroniserar offlinekampanjer ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+> [Integrering av Marketo Engage-program](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

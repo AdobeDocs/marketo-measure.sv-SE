@@ -3,12 +3,13 @@ description: Bästa praxis för offlinekanaler - [!DNL Marketo Measure]
 title: Bästa praxis för offlinekanaler
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 0%
 
 ---
+
 
 # Bästa praxis för offlinekanaler {#best-practices-for-offline-channels}
 
@@ -69,12 +70,11 @@ Om du gör några ändringar i din kampanjhantering eller dina processer måste 
 Om ditt team nyligen har använt något av ovanstående rekommenderar [!DNL Marketo Measure] att du granskar din offlinekanalsmappning och offlinekampanjer för att göra lämpliga ändringar och se till att de synkroniseras korrekt.
 
 >[!MORELIKETHIS]
->
->* [Inställningar för offlinekanal](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
->* [Anpassad kampanjsynkronisering - appsynkronisering](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Synkroniserar offlinekampanjer - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
->* [Offlinekampanj- och kampanjmedlemmar - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
->* [Kampanjsynkroniseringsdatum - CRM-synkronisering](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
->* [Konfigurationer för flera kampanjposttyper](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Skapa en kampanjlistvy](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Synkroniserar historiska data](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+> [Inställningar för offlinekanal](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+> [Synkronisering av anpassad kampanj - appsynkronisering ](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
+> [Synkroniserar offlinekampanjer - CRM-synkronisering ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+> [Offlinekampanj- och kampanjmedlemmar - CRM-synkronisering ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+> [Kampanjsynkroniseringsdatum - CRM-synkronisering ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+> [Konfigurationer för flera kampanjposttyper ](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md)
+> [Skapar en kampanjlistvy ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+> [Synkroniserar historikdata ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

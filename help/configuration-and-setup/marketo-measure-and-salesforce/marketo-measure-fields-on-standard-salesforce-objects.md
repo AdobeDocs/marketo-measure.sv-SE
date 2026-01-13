@@ -1,20 +1,19 @@
 ---
-unique-page-id: 18874574
-description: "[!DNL Marketo Measure] fält i  [!DNL Salesforce] Standard-objekt - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] fält i  [!DNL Salesforce] standardobjekt"
+description: '[!DNL Marketo Measure] fält i  [!DNL Salesforce] Standard-objekt - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] fält i  [!DNL Salesforce] standardobjekt'
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 0%
 
 ---
 
+
 # [!DNL Marketo Measure] fält i [!DNL Salesforce] standardobjekt {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
->
 >Du kan se instruktioner som anger [!DNL Marketo Measure] i dokumentationen, men ändå se Bizible i CRM. Vi arbetar för att få den uppdaterade versionen och omprofileringen kommer snart att återspeglas i CRM.
 
 Lär dig mer om de olika [!DNL Marketo Measure] fälten som läggs till i [!DNL Salesforce] standardobjekt.

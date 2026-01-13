@@ -3,12 +3,13 @@ description: '[!DNL Salesforce] Paketkonsolidering - [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] Paketkonsolidering'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
+
 
 # [!DNL Salesforce] Paketkonsolidering {#salesforce-package-consolidation}
 
@@ -24,12 +25,12 @@ Det nya konsoliderade V2-paketet innehåller alla funktioner och funktioner som 
 
 Det finns två nya fält som förbättrar dina rapporteringsfunktioner:
 
-* form_name: Detta fält är nu tillgängligt i BT-/BAT-objekt och gör att användare kan skapa rapporter baserade på formulärnamn.
+* form_name: Detta fält är nu tillgängligt i BT/BAT-objekt och gör att användare kan skapa rapporter baserade på formulärnamn.
 * user_touchpoint_id: Det här fältet gör att användare kan skapa rapporter med unika användarkontaktpunkter (`bizible2__User_Touchpoint_V2__c` i Salesforce).
 
 ## Support och övergångar {#support-and-transition}
 
-[Supportteamet](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} kan besvara alla frågor och hjälpa till att säkerställa en smidig övergång till det nya konsoliderade paketet.
+[Supportteamet](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} är tillgängligt för att svara på eventuella frågor och hjälpa till att säkerställa en smidig övergång till det nya konsoliderade paketet.
 
 ## Nödvändiga åtgärder {#retired-actions}
 
@@ -41,13 +42,13 @@ Det finns två nya fält som förbättrar dina rapporteringsfunktioner:
       * V2_EXT-fråga:
          * bizible2_ext_Ad_Content_FT__c contains Outreach
 
-![](assets/package-consolidation-1.png)
+![Exempelrapportfilter med fältet V2_EXT Ad Content FT ](assets/package-consolidation-1.png)
 
 * Motsvarande fråga i det konsoliderade paketet:
    * bizible2_Touchpoint_Position__c innehåller FT AND
    * bizible2_Ad_Content__c contains Outreach
 
-![](assets/salesforce-package-consolidation-2.png)
+![Likvärdigt rapportfilter med konsoliderade kontaktpunktsfält](assets/salesforce-package-consolidation-2.png)
 
 ## Vanliga frågor och svar {#faq}
 
@@ -57,7 +58,7 @@ Du behöver inte avinstallera paketet innan du installerar det konsoliderade pak
 
 **Hur kan jag fylla i data från mina aktuella paket i bakgrunden?**
 
-Du kan arkivera en biljett [med support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} för att fylla i och bearbeta BT/BAT data för att fylla i fält för kontaktpunkts-ID och formulär-ID.
+Du kan arkivera en biljett [med support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} för att fylla i och bearbeta BT/BAT-data för att fylla i fält för kontaktpunkts-ID och formulär-ID.
 
 **Kommer fälten i V1- och V2_EXT-paket att vara tillgängliga i det konsoliderade paketet?**
 
