@@ -95,7 +95,7 @@ Kontrollera logikreglerna i bladet. Varje rad ska innehålla en kanal och en av 
 
 Om du till exempel vill ange Facebook som underkanal och social som kanal ska regeln skrivas så här:&quot;Social.Facebook&quot;. Om du vill spåra en offlinehändelse bör kanalsyntaxen vara:&quot;Events.Big Conference&quot;. Exempel visas i bilden nedan:
 
-![Om du till exempel vill ange Facebook som underkanal och social som ](assets/spend-management-2.png)
+![Om du till exempel vill ange Facebook som underkanal och social som &#x200B;](assets/spend-management-2.png)
 
 _Ytterligare information_:
 

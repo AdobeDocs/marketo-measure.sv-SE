@@ -36,7 +36,7 @@ Avkastningsoptimeringen ger marknadsförarna en detaljerad bild av avkastningen 
 * **Enkel avkastning på investering**: Attribuerad intäkt dividerat med kostnader i den filtrerade datumperioden.
 * **Realiserad avkastning på investerat kapital**: Realiserad tilldelad intäkt dividerad med kostnader i den filtrerade datumperioden.
 
-![Realiserad avkastning på investerat kapital: Realiserad intäkt fördelad på kostnader i det filtrerade datumet ](assets/roi-dashboard-9.png)
+![Realiserad avkastning på investerat kapital: Realiserad intäkt fördelad på kostnader i det filtrerade datumet &#x200B;](assets/roi-dashboard-9.png)
 
 ### Kostnad och intäkter per kanal, diagram {#cost-and-revenue-by-channel-graph}
 

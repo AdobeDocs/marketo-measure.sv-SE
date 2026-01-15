@@ -41,7 +41,7 @@ Sida vid sida-diagram över tidsserier i liggande format kontrasterar Totala int
 * Hur stor procent av våra intäkter från augusti 2022 kan tillskrivas våra marknadsföringsinitiativ?
 * Hur balanserar de avskrivna intäkterna i tredje kvartalet förra året mot det fjärde kvartalet?
 
-![Hur ökar de tilldelade intäkterna i tredje kvartalet förra året ](assets/revenue-dashboard-1.png)
+![Hur ökar de tilldelade intäkterna i tredje kvartalet förra året &#x200B;](assets/revenue-dashboard-1.png)
 
 ### Attributionstäckningsdiagram {#attribution-coverage-chart}
 

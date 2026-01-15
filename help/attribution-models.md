@@ -44,7 +44,7 @@ Första beröringsmodellen fokuserar bara på den första interaktionen som en l
 
 Säg att Kate besöker `www.adobe.com` för första gången via en annons och tittar på ett whitepaper. Adwords-kanalen skulle få 100 % av attribueringskrediten från den affärsmöjligheten.
 
-![Säg att Kate besöker www.adobe.com för första gången via en annons ](assets/overview-resources-9.png)
+![Säg att Kate besöker www.adobe.com för första gången via en annons &#x200B;](assets/overview-resources-9.png)
 
 **Leadgenereringsmodell**
 

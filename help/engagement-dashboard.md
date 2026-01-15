@@ -53,7 +53,7 @@ Frågor om diagramsvaren:
 * Hur har antalet kontaktytor och Kontakter utvecklats över tiden?
 * Hur skiljer sig kontaktytorna per person från ett kvartal per månad till nästa?
 
-![Hur skiljer sig kontaktytorna per person från en fjärdedel/månad till ](assets/engagement-dashboard-1.png)?
+![Hur skiljer sig kontaktytorna per person från en fjärdedel/månad till &#x200B;](assets/engagement-dashboard-1.png)?
 
 ### Kontaktpunkter/Personer som berörs av kanal {#touchpoints-people-touched-by-channel}
 
@@ -67,7 +67,7 @@ Frågor om diagramsvaren:
 * Vilken kanal/underkanal/kampanj drev mest engagemang?
 * Hur är antalet kontaktytor jämfört med personer som berörts inom en viss kanal/underkanal/kampanj?
 
-![Hur många kontaktytor jämfört med personer som berörts i en ](assets/engagement-dashboard-2.png)
+![Hur många kontaktytor jämfört med personer som berörts i en &#x200B;](assets/engagement-dashboard-2.png)
 
 ## Filterruta {#filter-pane}
 

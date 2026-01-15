@@ -24,4 +24,4 @@ Därifrån ska du vara fri att sammanfoga Leads och [!DNL Marketo Measure] data 
 
 Om du har några frågor kan du kontakta Adobe Account Team (din kontoansvarige) eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-![Om du har några frågor går det bra att kontakta ](assets/additional-functionality-8.jpg)
+![Om du har några frågor går det bra att kontakta &#x200B;](assets/additional-functionality-8.jpg)

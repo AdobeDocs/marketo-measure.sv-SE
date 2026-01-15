@@ -50,11 +50,11 @@ Steg 4 - Lägg till filterregler.
 * Klicka på plustecknet för att lägga till ett segment
 * Ange ett segmentnamn. Du kan till exempel ha ett segment för Nytt företag, Partners, Förnyelse eller Merförsäljning
 
-![Ange ett segmentnamn. Du kan till exempel ha ett segment för ](assets/custom-segmentation-2.png)
+![Ange ett segmentnamn. Du kan till exempel ha ett segment för &#x200B;](assets/custom-segmentation-2.png)
 
 * Klicka på plusikonen för att visa regelinmatningsfälten. Alternativen i listrutan Fält hämtar fält direkt från CRM
 
-![Klicka på plusikonen för att visa regelinmatningsfälten. Alternativen ](assets/custom-segmentation-3.png)
+![Klicka på plusikonen för att visa regelinmatningsfälten. Alternativen &#x200B;](assets/custom-segmentation-3.png)
 
 >[!NOTE]
 >

@@ -44,7 +44,7 @@ Med den anpassade attributmodellen [!DNL Marketo Measure] kan användare välja 
 
    I exemplet nedan definieras en anpassad MQL-fas med hjälp av ett datumfält. Regeln anger helt enkelt att om fältet MQL-datum inte är tomt ska det betraktas som en MQL och inkluderas i den anpassade modellen. Det är också viktigt att sortera de anpassade faserna när de har skapats så att de följer utvecklingen i din säljcykel.
 
-   ![I exemplet nedan definieras en anpassad MQL-scen med en ](assets/custom-models-10.png)
+   ![I exemplet nedan definieras en anpassad MQL-scen med en &#x200B;](assets/custom-models-10.png)
 
    >[!CAUTION]
    >
@@ -66,7 +66,7 @@ Om ett anpassat fält används i din anpassade modell MÅSTE du aktivera spårni
 
 När attribueringsprocenten har sparats och bearbetats uppdateras kontaktytorna och får sina nya faser och positioner. Kontaktpunkten som inträffade senast, före en övergång till en fas, får krediter för den fasen (se nedan). Även den anpassade viktningen och intäkterna fördelas på nytt.
 
-![När attribueringsprocenten har sparats och bearbetats blir kontaktytorna ](assets/custom-models-3.png)
+![När attribueringsprocenten har sparats och bearbetats blir kontaktytorna &#x200B;](assets/custom-models-3.png)
 
 ## Skillnaden mellan Funnel-scener och anpassade modellfaser {#the-difference-between-funnel-stages-and-custom-model-stages}
 

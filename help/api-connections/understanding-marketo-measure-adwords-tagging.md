@@ -60,7 +60,7 @@ Det finns två spårningsmallar som [!DNL Marketo Measure] rekommenderar. Använ
 
 1. Klicka på **[!UICONTROL All campaigns]** och sedan på **[!UICONTROL Settings]** i det expanderande fönstret.
 
-   ![1. Klicka på Alla kampanjer och sedan på Inställningar i den expanderande ](assets/utilizing-connections-13.png)
+   ![1. Klicka på Alla kampanjer och sedan på Inställningar i den expanderande &#x200B;](assets/utilizing-connections-13.png)
 
 1. Klicka på **[!UICONTROL Account Settings]** överst och sedan på **[!UICONTROL Tracking Template]**. Ange spårningsmallen [!DNL Marketo Measure].
 
@@ -72,7 +72,7 @@ Det finns två spårningsmallar som [!DNL Marketo Measure] rekommenderar. Använ
 
 1. Klicka på **[!UICONTROL All campaigns]** och sedan på **[!UICONTROL Campaigns]** i det expanderande fönstret.
 
-   ![1. Klicka på Alla kampanjer och sedan på Campaigns i den expanderande ](assets/utilizing-connections-12.png)
+   ![1. Klicka på Alla kampanjer och sedan på Campaigns i den expanderande &#x200B;](assets/utilizing-connections-12.png)
 
 1. Välj alla tillämpliga kampanjer eller **[!UICONTROL Select All]**, klicka på **[!UICONTROL Edit]** och klicka sedan på **[!UICONTROL Change Tracking Templates]**.
 
@@ -84,7 +84,7 @@ Det finns två spårningsmallar som [!DNL Marketo Measure] rekommenderar. Använ
 
 1. Klicka på **[!UICONTROL All campaigns]** och sedan på **[!UICONTROL Ad Groups]** i det expanderande fönstret.
 
-   ![1. Klicka på Alla kampanjer och sedan på Lägg till grupper i ](assets/api-connections-01.png)
+   ![1. Klicka på Alla kampanjer och sedan på Lägg till grupper i &#x200B;](assets/api-connections-01.png)
 
 1. Välj alla tillämpliga annonsgrupper eller välj Alla, klicka på **[!UICONTROL Edit]** och sedan på **[!UICONTROL Change Tracking Templates]**.
 

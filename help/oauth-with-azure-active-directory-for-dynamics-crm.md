@@ -27,7 +27,7 @@ Den här konfigurationen är avsedd för nya [!DNL Marketo Measure]-kunder som a
 
 1. Välj Azure AD-klientorganisation genom att klicka på ditt konto i det övre högra hörnet på sidan, följt av att klicka på navigeringen Byt katalog och sedan välja lämplig klientorganisation. Hoppa över det här steget om du bara har en Azure AD-klientorganisation under ditt konto eller om du redan har valt lämplig Azure AD-klientorganisation.
 
-   ![1. Välj Azure AD-klientorganisation genom att klicka på ditt konto i ](assets/bizible-taxonomy-1.png)
+   ![1. Välj Azure AD-klientorganisation genom att klicka på ditt konto i &#x200B;](assets/bizible-taxonomy-1.png)
 
 1. Sök efter [!DNL Azure Active Directory] i sökfältet och klicka på namnet som du vill öppna.
 
@@ -60,7 +60,7 @@ c. Ange omdirigerings-URI. För webbprogram är detta den grundläggande URL:en 
 
 1. Navigera till fliken API-behörigheter och kontrollera att rätt behörigheter har tilldelats programmet.
 
-   ![1. Navigera till fliken API-behörigheter och kontrollera att ](assets/microsoft-guide-6.png)
+   ![1. Navigera till fliken API-behörigheter och kontrollera att &#x200B;](assets/microsoft-guide-6.png)
 
 1. Här anger du [!UICONTROL enterprise] i sökrutan och klickar på **[!UICONTROL Enterprise Applications]**.
 
@@ -70,7 +70,7 @@ c. Ange omdirigerings-URI. För webbprogram är detta den grundläggande URL:en 
 
 1. Klicka på **[!UICONTROL Grant Admin Consent for (instance name)]** på fliken Behörigheter.
 
-   ![1. På fliken Behörigheter klickar du på Bevilja administratörsgodkännande för (instans ](assets/microsoft-guide-8.png))
+   ![1. På fliken Behörigheter klickar du på Bevilja administratörsgodkännande för (instans &#x200B;](assets/microsoft-guide-8.png))
 
 1. Klicka på **[!UICONTROL Accept]**.
 
@@ -78,7 +78,7 @@ c. Ange omdirigerings-URI. För webbprogram är detta den grundläggande URL:en 
 
 1. På fliken [!UICONTROL Users and Groups] kontrollerar du att giltiga &quot;Användare och grupper&quot; har tilldelats programmet.
 
-   ![1. På fliken Användare och grupper kontrollerar du att ](assets/microsoft-guide-10.png)
+   ![1. På fliken Användare och grupper kontrollerar du att &#x200B;](assets/microsoft-guide-10.png)
 
 ## Skapa en programanvändare {#creating-an-application-user}
 
@@ -114,7 +114,7 @@ a. Klient-ID är ID:t från steg 7 i avsnittet ovan. Om du inte skrev ned det vi
 
 b. Klienthemlighet är den programhemlighet som skapas i Azure Portal för ditt program under Certifikat och hemligheter.
 
-![b. Klienthemlighet är den programhemlighet som skapas i Azure Portal ](assets/microsoft-guide-11.png)
+![b. Klienthemlighet är den programhemlighet som skapas i Azure Portal &#x200B;](assets/microsoft-guide-11.png)
 
 c. Program-ID-URI är URL:en för mål-webb-API:t (skyddad resurs). Om du vill hitta app-ID-URL:en klickar du på [!DNL Azure Active Directory] på Azure-portalen, klickar på Programregistreringar, öppnar programmets inställningssida och klickar sedan på Egenskaper. Det kan också vara en extern resurs som `https://graph.microsoft.com`. Detta är vanligtvis Dynamics-instansens URL.
 
@@ -128,6 +128,6 @@ c. Program-ID-URI är URL:en för mål-webb-API:t (skyddad resurs). Om du vill h
 
 1. När användaren klickar på nyckeln visas ett popup-fönster där du uppmanas att ange klient-ID, klienthemlighet och URI för program-ID, som liknar registreringsflödet.
 
-   ![1. När du klickar på tangenten visas ett popup-fönster och du är ](assets/microsoft-guide-12.png)
+   ![1. När du klickar på tangenten visas ett popup-fönster och du är &#x200B;](assets/microsoft-guide-12.png)
 
 1. När du har klickat på **[!UICONTROL Submit]** uppmanas du att logga in med [!DNL Azure Active Directory]. När autentiseringen är klar auktoriseras ditt Dynamics-konto på nytt inom [!DNL Marketo Measure].

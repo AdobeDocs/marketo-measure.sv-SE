@@ -23,7 +23,7 @@ Lär dig hur du skapar anpassade [!DNL Marketo Measure] [!DNL Salesforce]-rappor
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]**.
 
-   ![1. Gå till Konfigurera rapporttyper för bygge ](assets/new-types-1.png)
+   ![1. Gå till Konfigurera rapporttyper för bygge &#x200B;](assets/new-types-1.png)
 
 1. Definiera den anpassade rapporttypen.
 
@@ -46,7 +46,7 @@ Lär dig hur du skapar anpassade [!DNL Marketo Measure] [!DNL Salesforce]-rappor
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]**.
 
-   ![1. Gå till Konfigurera rapporttyper för bygge ](assets/new-types-12.png)
+   ![1. Gå till Konfigurera rapporttyper för bygge &#x200B;](assets/new-types-12.png)
 
 1. Definiera den anpassade rapporttypen.
 
@@ -69,7 +69,7 @@ Lär dig hur du skapar anpassade [!DNL Marketo Measure] [!DNL Salesforce]-rappor
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]**.
 
-   ![1. Gå till Konfigurera rapporttyper för bygge ](assets/new-types-8.png)
+   ![1. Gå till Konfigurera rapporttyper för bygge &#x200B;](assets/new-types-8.png)
 
 1. Definiera den anpassade rapporttypen.
 
@@ -92,8 +92,8 @@ Lär dig hur du skapar anpassade [!DNL Marketo Measure] [!DNL Salesforce]-rappor
 
 1. När du har skapat rapporterna omdirigeras du till en översikt över rapporttypen. Klicka på **[!UICONTROL Edit Layout]**.
 
-   ![1. När du har skapat rapporterna omdirigeras du till en ](assets/new-types-2.png)
+   ![1. När du har skapat rapporterna omdirigeras du till en &#x200B;](assets/new-types-2.png)
 
 1. Kontrollera att de anpassade fält som du vill lägga till i rapporten visas i avsnittet Egenskaper för fältlayout. Om det finns andra fält som du vill lägga till använder du alternativet [!UICONTROL Add fields related via lookup].
 
-   ![1. Kontrollera att de anpassade fält du vill lägga till i ](assets/new-types-3.png)
+   ![1. Kontrollera att de anpassade fält du vill lägga till i &#x200B;](assets/new-types-3.png)

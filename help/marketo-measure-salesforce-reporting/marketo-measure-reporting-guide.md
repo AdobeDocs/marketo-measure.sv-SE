@@ -726,7 +726,7 @@ De filter som markeras nedan är avgörande för en rapport med fokus på avkast
 
 **5.1 | ROI in the &#39;Overview&#39; Board**
 
-![5.1 | ROI in the &#39;Overview&#39; Board ](assets/bizible-guide-1.png)
+![5.1 | ROI in the &#39;Overview&#39; Board &#x200B;](assets/bizible-guide-1.png)
 
 Datumintervallet anger inte bara vilken kohort av kontaktytor (efter slutpunktsdatum) som tar emot attribuering, utan också det intervall som representerar&quot;utgiftsrutan&quot; eller kolumnerna.
 [!DNL Marketo Measure] tittar bara på datumintervallet för att avgöra hur mycket som spenderas antingen totalt eller på nivåerna Marknadskanal, Delkanal eller Campaign Se nedan:

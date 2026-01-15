@@ -38,7 +38,7 @@ Frågor om diagramsvaren:
 >
 >Stegen före Skapa säljprojekt använder det senaste kontaktpunktsdatumet som indatadatum för övergången.
 
-![Steg före Skapa säljprojekt kommer att använda det senaste slutpunktsdatumet som ](assets/lead-dashboard-1.png)
+![Steg före Skapa säljprojekt kommer att använda det senaste slutpunktsdatumet som &#x200B;](assets/lead-dashboard-1.png)
 
 ### Snabbhet för affärsmöjlighet över tid {#opportunity-velocity-over-time}
 

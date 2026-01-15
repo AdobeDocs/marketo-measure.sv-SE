@@ -46,7 +46,7 @@ Läs mer om [Marketo Measure Ultimate](/help/migration-from-tier-to-marketo-meas
 
 &#42; _Ett schema består av en klass och noll eller flera schemafältgrupper. Det innebär att du kan skapa ett datauppsättningsschema utan att använda fältgrupper._
 
-![&amp;42; Ett schema består av en klass och noll eller flera schemafält ](assets/marketo-guide-1.png)
+![&42; Ett schema består av en klass och noll eller flera schemafält &#x200B;](assets/marketo-guide-1.png)
 
 [Datauppsättningsöversikt](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: Alla data som har importerats till AEP lagras i Data Lake som datauppsättningar. En datauppsättning är en lagrings- och hanteringskonstruktion för en datamängd, vanligtvis en tabell, som innehåller ett schema (kolumner) och fält (rader).
 
@@ -56,7 +56,7 @@ Vi rekommenderar att du använder ett autogenereringsverktyg för att skapa tio 
 
 * Steg för att hämta och konfigurera verktyget [finns här](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-För dem med ett _**CDP-berättigande**_: Skapa scheman genom att gå till sidan Källor.
+För dem med ett _&#x200B;**CDP-berättigande**&#x200B;_: Skapa scheman genom att gå till sidan Källor.
 
 * Välj Lägg till data > Använd mallar från en källa
 
@@ -113,7 +113,7 @@ Källor > Dataflöden för att kontrollera dataflödenas status
 
 Alternativ 1: Om du vill köra frågor direkt från användargränssnittet går du till fliken Frågor under Datahantering.
 
-![Alternativ 1: Om du vill köra frågor direkt från användargränssnittet går du till frågorna ](assets/marketo-guide-4.png)
+![Alternativ 1: Om du vill köra frågor direkt från användargränssnittet går du till frågorna &#x200B;](assets/marketo-guide-4.png)
 
 Alternativ 2: [Hämta och använd PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (snabbare och mer tillförlitligt).
 

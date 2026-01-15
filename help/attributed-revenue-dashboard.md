@@ -59,7 +59,7 @@ Totala tillskrivna intäkter segmenterade efter kanal, delkanal och kampanj, pre
 * Tabellvyn ger tydliga och välorganiserade insikter i fördelningen av de tilldelade intäkterna. Användarna kan snabbt identifiera resultatmönster och identifiera slagkraftiga marknadsföringsstrategier genom att kategorisera data i kanaler, delkanaler och kampanjer.
 * Klicka på plusikonen bredvid varje kanal för att visa uppdelningen efter subkanal och kampanj.
 
-![Klicka på plustecknet bredvid varje kanal för att visa detaljerna i ](assets/attributed-dashboard-5.png)
+![Klicka på plustecknet bredvid varje kanal för att visa detaljerna i &#x200B;](assets/attributed-dashboard-5.png)
 
 **Trädvy**
 

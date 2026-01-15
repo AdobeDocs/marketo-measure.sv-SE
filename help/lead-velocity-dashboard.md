@@ -32,7 +32,7 @@ Frågor om diagramsvaren:
 * Vilken försäljningsfas har vanligtvis längst varaktighet för leads/kontakter?
 * Hur lång tid har du tillbringat i&quot;första beröringsfasen&quot; jämfört med&quot;MQL&quot;-steget?
 
-![Hur lång tid som har tillbringats i fasen &quot;First touch&quot; jämfört med ](assets/lead-dashboard-1.png)
+![Hur lång tid som har tillbringats i fasen &quot;First touch&quot; jämfört med &#x200B;](assets/lead-dashboard-1.png)
 
 ### Snabbhet för lead/kontakt över tid {#lead-contact-velocity-over-time}
 

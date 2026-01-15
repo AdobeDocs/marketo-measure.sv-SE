@@ -32,7 +32,7 @@ Skapa en ny rapporttyp som inkluderar alla affärsmöjligheter med eller utan ko
    * Använd samma namn för rapporttypen Namn. I beskrivningsinmatningen,&quot;Opportunity with or without Buyer Attribution Touchpoints&quot;.
    * Spara rapporten i [!UICONTROL Other] och ange rapporten till [!UICONTROL Deployed].
 
-   ![Spara rapporten i rutan Annat och ange rapporten som ](assets/bizible-guide-3.png)
+   ![Spara rapporten i rutan Annat och ange rapporten som &#x200B;](assets/bizible-guide-3.png)
 
 1. Därifrån kommer du att länka säljprojektsobjektet till Buyer Attribution Touchpoints-objektet. Se till att du väljer knappen &quot;&#39;A&#39; records may or may not have related &#39;B&#39; records.&quot; Klicka på **[!UICONTROL Save]** när du är klar.
 

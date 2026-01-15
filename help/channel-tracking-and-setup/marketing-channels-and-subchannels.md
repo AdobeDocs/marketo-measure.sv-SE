@@ -45,11 +45,11 @@ Delkanaler är den andra pusselbiten när du köper dina inkommande leads. Delka
 
 Bilden nedan visar ett exempel på en marknadsföringskanal, delkanal och innehåll baserat på en webbsida med följande URL:
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
 I det här fallet är det innehåll som användaren försöker få åtkomst till introduktionshandboken för B2B-marknadsattribuering. [!DNL Marketo Measure] kommer att analysera URL:en som leder till det här innehållet med hjälp av kanalreglerna som har konfigurerats i den här organisationen och använda dem för att&quot;markera&quot; det här leadet i marknadsföringskanalen&quot;Betald social&quot; och delkanalen&quot;LinkedIn&quot;.
 
-![I det här fallet är innehållet som användaren försöker få åtkomst till ](assets/online-channels-1.png)
+![I det här fallet är innehållet som användaren försöker få åtkomst till &#x200B;](assets/online-channels-1.png)
 
 Fler exempel...
 

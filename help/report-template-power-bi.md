@@ -95,13 +95,13 @@ För att förenkla datamodellen och ta bort överflödiga och onödiga data har 
 
 Tabellerna och kolumnerna har bytt namn för att göra dem mer användarvänliga och för att standardisera namnkonventioner. Om du vill visa kolumnnamnsändringarna går du till steget &quot;Kolumner som har bytt namn&quot; efter steget &quot;Andra kolumner har tagits bort&quot; i en tabell.
 
-![Tabeller och kolumner har bytt namn för att göra dem mer användarvänliga och ](assets/marketo-bi-5.png)
+![Tabeller och kolumner har bytt namn för att göra dem mer användarvänliga och &#x200B;](assets/marketo-bi-5.png)
 
 ### Bytt namn på segment {#renamed-segments}
 
 Eftersom segmentnamn är anpassningsbara har de generiska kolumnnamn i Snowflake datalager. [!DNL BIZ_SEGMENT_NAMES] är en mappningstabell som listar det generiska segmentnamnet och dess mappade anpassade segmentnamn, som definieras i segmentavsnittet i [!DNL Marketo Measure]-gränssnittet. Tabellen Segmentnamn används för att byta namn på segmentkolumnerna i tabellerna Lead Touchpoint och Attribution Touchpoint. Om det inte finns något anpassat segment kvarstår det generiska segmentnamnet.
 
-![Eftersom segmentnamn kan anpassas har de generiska kolumnnamn i ](assets/marketo-bi-4.png)
+![Eftersom segmentnamn kan anpassas har de generiska kolumnnamn i &#x200B;](assets/marketo-bi-4.png)
 
 ### Skiftlägeskänslig ID-konvertering {#case-sensitive-id-conversion}
 

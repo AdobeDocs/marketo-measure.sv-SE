@@ -49,7 +49,7 @@ Startdatumet kan användas om en befintlig kampanj används för att spåra lead
 
 Om du använde [!DNL Marketo Measure] innan du använde en plattform för marknadsföringsautomatisering som spårade Leads digitala interaktioner (skickade IE-formulär) och sedan överförde dessa leads till en [!DNL Saleforce] -kampanj, kan du använda fältet Slutdatum för slutdatum för pekpunkt. Du angav slutdatumet för slutpunkten som ditt startdatum med [!DNL Marketo Measure] och aktiverade slutpunkter för köpare. Därefter skapas varje leads digitala interaktion som en slutpunkt. Anledningen till att du anger slutdatumet för slutpunkten till ditt startdatum med [!DNL Marketo Measure] är att vi kommer att spåra dessa digitala interaktioner via vårt javascript.
 
-![Om du använde en marknadsföringsautomatiseringsplattform innan du använde Marketo Measure ](assets/dynamics-lists-2.png)
+![Om du använde en marknadsföringsautomatiseringsplattform innan du använde Marketo Measure &#x200B;](assets/dynamics-lists-2.png)
 
 ## Kampanjmedlemmar {#campaign-members}
 
@@ -59,7 +59,7 @@ Kampanjmedlemmar är kapslade under [!UICONTROL Campaigns] och är relaterade ti
 
 Om det här alternativet är aktiverat skickar [!DNL Marketo Measure] ett statusvärde till Campaign-medlemmen i fyra olika fält som ingår i det installerade paketet: Touchpoint-status (lead), Touchpoint-status (kontakt), Touchpoint-status (säljprojekt) och Touchpoint-statusdatum. Detta hjälper kunderna att granska om en kontaktyta har skapats som Buyer Touchpoint eller Buyer Attribution Touchpoint, beroende på vilket objekt den hör till. Slutpunktens statusdatum är helt enkelt det sista datumet då statusen uppdaterades för Campaign-medlemmen.
 
-![Om det här alternativet är aktiverat kommer Marketo Measure att överföra ett statusvärde till ](assets/dynamics-lists-3.png)
+![Om det här alternativet är aktiverat kommer Marketo Measure att överföra ett statusvärde till &#x200B;](assets/dynamics-lists-3.png)
 
 ## Buyer Touchpoint Date {#buyer-touchpoint-date}
 
@@ -100,7 +100,7 @@ Börja med att söka efter posterna och filtrera dem som du vill ange ett Buyer 
 >
 >Det finns en sökning som inte fungerar, vilket visas i exemplet nedan. Gränssnittet stöder inte sökning efter Buyer Touchpoint-datum som är null (sökningen nedan fungerar inte):
 
-![Det finns en sökning som inte fungerar, vilket visas i ](assets/legacy-processes-10.png)
+![Det finns en sökning som inte fungerar, vilket visas i &#x200B;](assets/legacy-processes-10.png)
 
 Om du inte behöver använda sökningen och bara vill använda datumen för alla Campaign-medlemsposter använder du kryssrutan [!UICONTROL Include All Records] (se skärmbild nedan), som kontrollerar alla poster på alla sidor.
 

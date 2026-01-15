@@ -20,10 +20,10 @@ ht-degree: 1%
 
 1. Under avsnittet [!UICONTROL OAuth]-profiler ändrar du inställningen Tillåtna användare till&quot;Godkända användare är förauktoriserade&quot;. Ett popup-fönster visas. Klicka på **[!UICONTROL OK]** och sedan på **[!UICONTROL Save]**.
 
-   ![1. Ändra inställningen ](assets/marketo-app-1.png) för Tillåtna användare under OAuth-profilavsnittet
+   ![1. Ändra inställningen &#x200B;](assets/marketo-app-1.png) för Tillåtna användare under OAuth-profilavsnittet
 
 1. När sidan har sparats kan du klicka på knappen **[!UICONTROL Manage Profiles]**.
 
-   ![1. När sidan har sparats kan du klicka på ](assets/marketo-app-2.png)
+   ![1. När sidan har sparats kan du klicka på &#x200B;](assets/marketo-app-2.png)
 
 1. Markera alla profiler som ska ha tillgång till [!DNL Marketo Measure]-insikter och klicka på **[!UICONTROL Save]**.

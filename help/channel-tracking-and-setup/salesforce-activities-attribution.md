@@ -39,7 +39,7 @@ När kampanjnamnet [!DNL Marketo Measure] har angetts är det dags att konfigure
 
 Reglerna fungerar som ett filter som anger vilka poster som är berättigade till attribuering. Tänk dig att du skapar en rapport i CRM med liknande logik för att generera rapporten. Du kan använda en kombination av och/eller programsatser och olika operatorer som `matches any`, `contains`, `starts with`, `ends with`, `is equal to`. Definiera `and`-programsatser i en boxed-regel eller `or`-lagerprogramsatser utanför rutan.
 
-![Reglerna fungerar som ett filter som anger vilka poster som är ](assets/activities-attribution-12.png)
+![Reglerna fungerar som ett filter som anger vilka poster som är &#x200B;](assets/activities-attribution-12.png)
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Du vill förmodligen placera dessa nya kontaktytor i deras lämpliga [marknadsf�
 | Matchar alla | Flera värden - exakt matchning |
 | Matchar alla (innehåller) | Flera värden - &#42;värde&#42;, &#42;värde, &#42;värde&#42; |
 
-![| Matchar alla (innehåller) | Flera värden - &amp;42;värde&amp;42;, &amp;42;värde, &amp;42;värde&amp;42; |](assets/activities-attribution-8.png)
+![| Matchar alla (innehåller) | Flera värden - &42;värde&42;, &42;värde, &42;värde&42; |](assets/activities-attribution-8.png)
 
 Och sist men inte minst har ni möjlighet att ange kostnader för era nya kanaler. Med [Utgiftsöverföring för marknadsföring](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} kan du ange din utgift på kanalnivå, delkanalsnivå eller kampanjnivå. Med dina nya [!DNL Marketo Measure]-kampanjer kan du lägga till de relaterade kostnaderna per månad och sedan se avkastningen för varje kampanj!
 

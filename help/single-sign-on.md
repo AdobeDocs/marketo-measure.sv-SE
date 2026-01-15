@@ -30,7 +30,7 @@ SAML (Security assertion markup language) för enkel inloggning (single sign-on)
 
 Navigera till Inställningar > Säkerhet > Autentisering i programmet [!DNL Marketo Measure] för att komma igång. Växla sedan inloggningstypen till Anpassad enkel inloggning för att se konfigurationsalternativen. Ändringarna börjar inte gälla förrän du testar autentiseringen och klickar på knappen **[!UICONTROL Save]** längst ned på sidan.
 
-![Om du vill komma igång går du till sidan för säkerhetsautentisering av inställningar i ](assets/compliance-resources-1.png)
+![Om du vill komma igång går du till sidan för säkerhetsautentisering av inställningar i &#x200B;](assets/compliance-resources-1.png)
 
 ## Process {#process}
 
@@ -72,7 +72,7 @@ Ange och mappa inställningarna för användarattributet till respektive förnam
     
     b. Tips! Om du testar din SAML-konfiguration nu kommer vi att analysera attributen E-post, Förnamn och Efternamn som du kan använda för det här avsnittet.
 
-![b. Tips! Om du testar din SAML-konfiguration nu tolkas ](assets/discover-control-1.png)
+![b. Tips! Om du testar din SAML-konfiguration nu tolkas &#x200B;](assets/discover-control-1.png)
 
 Konfigurera och mappa dina användarrollsinställningar till respektive roller eller grupper som klassificerats från din IdP.
 
@@ -86,7 +86,7 @@ Konfigurera och mappa dina användarrollsinställningar till respektive roller e
     
     c. Om flera roller eller grupper ska mappas till en roll anger du varje värde avgränsat med kommatecken.
 
-![c. Om flera roller eller grupper ska mappas till en roll ](assets/discover-control-2.png)
+![c. Om flera roller eller grupper ska mappas till en roll &#x200B;](assets/discover-control-2.png)
 
 Testa konfigurationen för enkel inloggning
 
@@ -94,7 +94,7 @@ Testa konfigurationen för enkel inloggning
     
     b. Om ett felmeddelande visas följer du meddelandet och försöker igen.
 
-![b. Om ett felmeddelande visas följer du meddelandet och försöker ](assets/discover-control-3.png)
+![b. Om ett felmeddelande visas följer du meddelandet och försöker &#x200B;](assets/discover-control-3.png)
 
 Spara dina inställningar och instruera dina kollegor att använda [!UICONTROL Single Sign On] med din nya anpassade inloggnings-URL.
 
@@ -106,11 +106,11 @@ Prova!
 
     a. Använd din nya anpassade inloggnings-URL och försök logga in på  [!DNL Marketo Measure] programmet igen med din identitetsleverantörs autentiseringsuppgifter.
     
-    b. Formatet kommer att se ut som &quot;https://apps.adobe.com/business/[accountName]`
+    b. Formatet kommer att se ut som &quot;https://apps.adobe.com/business/[accountName]&grave;
     
     c. Grattis! Du har konfigurerat enkel inloggning i  [!DNL Marketo Measure] programmet för ditt konto!
 
-![c. Grattis! Du har konfigurerat enkel inloggning i ](assets/discover-control-3.png)
+![c. Grattis! Du har konfigurerat enkel inloggning i &#x200B;](assets/discover-control-3.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Använd namnet på varje säkerhetsroll för [!DNL Dynamics]-roller. Alla säker
 
 När Anpassad enkel inloggning har konfigurerats uppdateras sidan [!UICONTROL Users] så att endast externa användare som har lagts till med Google-inloggningar visas. Eftersom alla användare med åtkomst definieras via SSO-konfigurationen, visas ytterligare externa användare här.
 
-![När anpassad enkel inloggning har konfigurerats är sidan Användare ](assets/discover-control-3.png)
+![När anpassad enkel inloggning har konfigurerats är sidan Användare &#x200B;](assets/discover-control-3.png)
 
 Endast giltiga [!DNL Google]-konton kan läggas till och måste ha en användarroll definierad.
 

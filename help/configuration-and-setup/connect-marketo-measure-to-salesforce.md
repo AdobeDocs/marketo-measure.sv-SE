@@ -22,7 +22,7 @@ Den här artikeln innehåller en översikt över hur du ansluter ditt [!DNL Sale
 
 1. Klicka på **[!UICONTROL Connections]** under avsnittet [!UICONTROL Integrations] i kolumnen med inställningsalternativ till vänster.
 
-   ![1. Klicka på ](assets/bizible-full-1.png) i kolumnen med inställningsalternativ till vänster
+   ![1. Klicka på &#x200B;](assets/bizible-full-1.png) i kolumnen med inställningsalternativ till vänster
 
 1. Klicka på **[!UICONTROL Set Up New CRM Connection]** under CRM-avsnittet i Anslutningar.
 

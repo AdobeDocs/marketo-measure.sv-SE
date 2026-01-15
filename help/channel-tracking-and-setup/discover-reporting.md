@@ -14,4 +14,4 @@ ht-degree: 0%
 
 Inom [!UICONTROL User Settings] kan användare ändra valutan från standardvalutan till någon av de företagsvalutor som anges. Detta ändrar visningen av belopp som exempelvis Kostnad, Inkomster och Försäljningsförlopp tillsammans med valutakoden på tre bokstäver.
 
-![I användarinställningarna kan användare ändra ](assets/multi-currency-1.png)
+![I användarinställningarna kan användare ändra &#x200B;](assets/multi-currency-1.png)

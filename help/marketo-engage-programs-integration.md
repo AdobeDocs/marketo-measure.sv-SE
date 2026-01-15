@@ -32,27 +32,27 @@ Alla lager.
 
 1. Om du vill börja konfigurera regler för Marketo-program går du till **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Programs]**. Klicka på ikonen **+** för att börja skapa din första regel.
 
-   ![1. Om du vill börja konfigurera regler för Marketo-program går du till ](assets/marketo-engage-programs-01.png)
+   ![1. Om du vill börja konfigurera regler för Marketo-program går du till &#x200B;](assets/marketo-engage-programs-01.png)
 
-   ![1. Om du vill börja konfigurera regler för Marketo-program går du till ](assets/marketo-engage-programs-06.png)
+   ![1. Om du vill börja konfigurera regler för Marketo-program går du till &#x200B;](assets/marketo-engage-programs-06.png)
 
 1. Du kan också ange ett namn för regeln om det gör det lättare att hålla reda på dem. först markerar du fältet för att definiera regeln i listan över fält för program- och programmedlemskap. Fortsätt att skapa regeln genom att markera operatorn och det förväntade värdet som ska kontrolleras.
 
-   ![1. Du kan ange ett namn för regeln om den är ](assets/marketo-engage-programs-07.png)
+   ![1. Du kan ange ett namn för regeln om den är &#x200B;](assets/marketo-engage-programs-07.png)
 
 1. Lägg till en annan programsats i samma ruta för att ställa in ett &quot;och&quot;-villkor i regeln eller klicka på +-ikonen utanför rutan för att ställa in en &quot;eller&quot;-programsats.
 
-   ![1. Lägg till ytterligare en programsats i samma ruta för att konfigurera en ](assets/bizible-discover-1.png)
+   ![1. Lägg till ytterligare en programsats i samma ruta för att konfigurera en &#x200B;](assets/bizible-discover-1.png)
 
 1. Välj vilket datum eller datum/tid-fält som ska användas för att mappa till slutpunktsdatumet. Om du vill visa en lista med värden som är tillgängliga från Marketo anger du klammerparentesen `{` så visas de tillgängliga fälten.
 
-   ![1. Välj vilket datum eller datum/tid-fält som ska användas för att mappa ](assets/marketo-engage-programs-02.png)
+   ![1. Välj vilket datum eller datum/tid-fält som ska användas för att mappa &#x200B;](assets/marketo-engage-programs-02.png)
 
    >[!NOTE]
    >
    >Om din regel vill hämta aktivitetsdatumet, eller det datum då en programmedlem uppnådde en viss status, vill du använda aktivitetsintegrationen [!DNL Marketo Engage] och ställa in en regel för aktivitetstypen Ändra status i progression.
 
-   ![Om din regel vill hämta aktivitetsdatumet eller datumet ](assets/bizible-discover-2.png)
+   ![Om din regel vill hämta aktivitetsdatumet eller datumet &#x200B;](assets/bizible-discover-2.png)
 
 Den färdiga regeln ska se ut ungefär så här:
 
@@ -62,11 +62,11 @@ När du har skapat några regler kanske du vill testa dem för att verifiera att
 
 1. Om du vill köra ett test klickar du på knappen **[!UICONTROL TEST]** så som visas nedan.
 
-   ![1. Om du vill köra ett test klickar du på knappen TEST så som visas ](assets/marketo-engage-programs-03.png)
+   ![1. Om du vill köra ett test klickar du på knappen TEST så som visas &#x200B;](assets/marketo-engage-programs-03.png)
 
 1. En modal visas där du kan ange program-ID från Marketo.
 
-   ![1. En modal visas där du kan gå in i programmet ](assets/marketo-engage-programs-04.png)
+   ![1. En modal visas där du kan gå in i programmet &#x200B;](assets/marketo-engage-programs-04.png)
 
    När du anger ID:t och klickar på knappen [!UICONTROL Test] går vår regelmotor igenom varje regel och avgör om programmet passar in i någon av reglerna eller inte. I exemplet nedan ser du att Program 1002, som kallas [!DNL Marketo Measure] Ebook, har fem programmedlemmar och är berättigade på grund av den regel som visas.
 
@@ -88,7 +88,7 @@ I listan över Marketo-programkanaler vill du mappa värdena till de [!DNL Marke
 
 1. Markera först den kanal som ska mappas till värdet och välj sedan delkanalen om du vill. Klicka **[!UICONTROL Save]** längst ned när du är klar.
 
-   ![1. Välj först den kanal som ska mappas till värdet och sedan ](assets/marketo-engage-programs-08.png)
+   ![1. Välj först den kanal som ska mappas till värdet och sedan &#x200B;](assets/marketo-engage-programs-08.png)
 
 ## Programkostnader {#program-costs}
 

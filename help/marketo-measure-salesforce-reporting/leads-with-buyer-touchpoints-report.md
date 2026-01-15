@@ -28,10 +28,10 @@ När det gäller [!DNL Marketo Measure] har du tillgång till många rapporterin
 
 1. Ange det primära objektet som&quot;Leads&quot; och i indata&quot;Leads with Buyer Touchpoints - Inclusive&quot; i&quot;Report Type Label&quot;. Lagra rapporten i kategorin Leads och ändra distributionsstatusen till **[!UICONTROL Deployed]**. Välj sedan **[!UICONTROL Next]**.
 
-   ![1. Ange det primära objektet som Leads och inom rapporttypen ](assets/marketo-reports-18.jpg)
+   ![1. Ange det primära objektet som Leads och inom rapporttypen &#x200B;](assets/marketo-reports-18.jpg)
 
 1. För objektrelationerna väljer du objektet **[!DNL Marketo Measure]Personer** som det sekundära objektet. Välj relationen A till B som &quot;Varje &#39;A&#39;-post måste ha minst en relaterad &#39;B&#39;-post.&quot; Därifrån relaterar du&quot;Buyer Touchpoint&quot;-objektet och väljer samma relation mellan B- och C-objekten.
 
-   ![1. För objektrelationerna väljer du Marketo Measure People-objektet ](assets/bizible-guide-2.png)
+   ![1. För objektrelationerna väljer du Marketo Measure People-objektet &#x200B;](assets/bizible-guide-2.png)
 
 1. Spara och börja skapa rapporter!

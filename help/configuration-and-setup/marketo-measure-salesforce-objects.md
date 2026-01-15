@@ -36,7 +36,7 @@ Objektet [!UICONTROL Buyer Touchpoint] (BT) berättar om en individs marknadsfö
 
 BT-objektet är synligt på lead- och kontaktsidor som en **relaterad lista** (se bilden nedan).
 
-![BT-objektet är synligt på lead- och kontaktsidor som en ](assets/bizible-taxonomy-1.png)
+![BT-objektet är synligt på lead- och kontaktsidor som en &#x200B;](assets/bizible-taxonomy-1.png)
 
 I BT Related List visas alla kontaktytor som tillhör lead eller kontakt. I listan finns anpassade [!DNL Marketo Measure] fält som ger mer information om varje kontaktyta. Om du klickar på Buyer Touchpoint ID-numret dirigeras du till Buyer Touchpoint-informationssidan, som innehåller ännu mer information om kontaktytan, som den första webbsidan som den lead/kontakt som besöktes under den webbsessionen (**landningssida**).
 

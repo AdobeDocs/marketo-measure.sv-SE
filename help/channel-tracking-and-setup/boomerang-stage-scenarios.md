@@ -48,7 +48,7 @@ Lead 1 konverteras sedan till en kontakt med ett säljprojekt, vilket anses vara
 
 Detta scenario använder samma kriterier som scenario 2. En kund har valt att endast spåra SQL-scenen med boomerang-kontaktytor. MQL och SAL spåras fortfarande, men med funktionen [!DNL Marketo Measure] för anpassad scen.
 
-![Det här scenariot använder samma villkor som scenario 2. En kund har ](assets/boomerang-stages-20.png)
+![Det här scenariot använder samma villkor som scenario 2. En kund har &#x200B;](assets/boomerang-stages-20.png)
 
 I det här scenariot kommer Lead aldrig att gå över till SAL-stadiet. Den konverteras till en kontakt innan den når SAL-stadiet, i stort sett&quot;hoppar över&quot; SAL-stadiet. I den här situationen antar [!DNL Marketo Measure] att SAL sker med OC-kontaktytan och att både SAL- och OC-positionen visas på samma kontaktyta.
 
@@ -84,7 +84,7 @@ I det här scenariot har en kund valt att spåra **MQL**-, **SQL**- och **SAL**-
 
 Alla kontaktytor från Lead 1 ingår i affärsmöjligheten, från FT till SAL-01 (Last). LC-kontaktytan från Lead 2 kommer att ingå som en kontaktyta mellan LC- och MQL-01-kontaktytorna på affärsmöjligheten.
 
-![Alla kontaktytor från lead 1 inkluderas i affärsmöjligheten från ](assets/boomerang-stages-22.png)
+![Alla kontaktytor från lead 1 inkluderas i affärsmöjligheten från &#x200B;](assets/boomerang-stages-22.png)
 
 MQL-01 (sista) från lead 2 blir till slut MQL-04 (sista)-kontaktytan för affärsmöjligheten. Eftersom det här scenariot handlar om flera Leads resor inom ett säljprojekt kan positioneringen och numreringen av Leads kontaktytor ändras när de översätts som kontaktytor i säljprojektet. På samma sätt blir SQL-01 (sista) från Lead 2 SQL-04 (sista) på Opp. Lead 2’s SAL-01 (Last) blir också säljprojektets SAL-02 (Last).
 

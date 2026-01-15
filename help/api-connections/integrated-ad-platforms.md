@@ -21,7 +21,7 @@ Innan vi börjar gå igenom detaljerna för varje plattform går vi igenom hur d
 
 Som visas i bilden nedan visas en knapp för att skapa nya annonsanslutningar.
 
-![Som visas i bilden nedan visas en knapp till ](assets/bizible-guide-1.png)
+![Som visas i bilden nedan visas en knapp till &#x200B;](assets/bizible-guide-1.png)
 
 När du har klickat på knappen [!UICONTROL Set up New Ads Connection] öppnas ett fönster (visas nedan) med fyra och [!UICONTROL connect]-jontyper. Klicka på Anslut så visas ett annat fönster där du tillfrågas om inloggningsuppgifter. Ange autentiseringsuppgifterna och klicka på [!UICONTROL authorize] för att ansluta kontot till [!DNL Marketo Measure].
 
@@ -60,11 +60,11 @@ När du har en spårningsmall på plats följer du instruktionerna nedan för at
 
 1. Klicka på pennikonen bredvid det Adwords-konto som ska ha [!DNL Marketo Measure] automatisk taggning aktiverad.
 
-   ![1. Klicka på pennikonen bredvid det Adwords-konto som ska ](assets/utilizing-connections-9.png)
+   ![1. Klicka på pennikonen bredvid det Adwords-konto som ska &#x200B;](assets/utilizing-connections-9.png)
 
 1. I det övre högra hörnet växlar du **[!UICONTROL Autotagging]** till **[!UICONTROL Yes]**. Klicka på **[!UICONTROL Learn More]** längst ned på sidan för att utöka textrutan och klicka på **[!UICONTROL Save]**. Konfigurationen av automatisk taggning är klar.
 
-   ![1. I det övre högra hörnet växlar du till ](assets/utilizing-connections-10.png) för automatisk taggning
+   ![1. I det övre högra hörnet växlar du till &#x200B;](assets/utilizing-connections-10.png) för automatisk taggning
 
 ## Konfigurera en spårningsmall i AdWords med [!DNL Marketo Measure] parametrar {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
@@ -154,7 +154,7 @@ Innan du aktiverar automatisk taggning med [!DNL Facebook Ads] är det viktigt a
 
 Observera att du när som helst kan ansluta ditt [!DNL Facebook]-konto till [!DNL Marketo Measure]-appen och inga data går förlorade. Det är bara när automatisk taggning är aktiverat som prestandahistoriken rensas.
 
-Mer information om hur du exporterar [ annonsrapporter finns i ](https://www.facebook.com/business/help/393890194130036){target="_blank"}den här artikeln[!DNL Facebook] från Facebook.
+Mer information om hur du exporterar [&#x200B; annonsrapporter finns i &#x200B;](https://www.facebook.com/business/help/393890194130036){target="_blank"}den här artikeln[!DNL Facebook] från Facebook.
 
 ## LinkedIn Sponsrat innehåll {#linkedin-sponsored-content}
 

@@ -31,15 +31,15 @@ Följande steg gäller för Salesforce Lightning-användare. Om du fortfarande a
 
 1. I installationsprogrammet skriver du Flöden i snabbsökningsrutan och väljer **[!UICONTROL Flows]** för att starta Flow Builder. Klicka på knappen **[!UICONTROL New Flow]** i den högra panelen.
 
-   ![1. I installationsprogrammet skriver du &quot;Flöden&quot; i snabbsökningsrutan och väljer ](assets/custom-amount-1.png)
+   ![1. I installationsprogrammet skriver du &quot;Flöden&quot; i snabbsökningsrutan och väljer &#x200B;](assets/custom-amount-1.png)
 
 1. Markera **[!UICONTROL Record-Triggered Flow]** och klicka på **[!UICONTROL Create]** längst ned till höger.
 
-   ![1. Välj Postutlöst flöde och klicka på Skapa längst ned ](assets/custom-amount-10.png)
+   ![1. Välj Postutlöst flöde och klicka på Skapa längst ned &#x200B;](assets/custom-amount-10.png)
 
 1. Välj objektet säljprojekt i fönstret Konfigurera start. Välj [!UICONTROL Configure Trigger] i avsnittet **[!UICONTROL A record is created or updated]**.
 
-   ![1. Välj objektet säljprojekt i fönstret Konfigurera start. Från ](assets/custom-amount-11.png)
+   ![1. Välj objektet säljprojekt i fönstret Konfigurera start. Från &#x200B;](assets/custom-amount-11.png)
 
 1. Välj [!UICONTROL Condition Requirements] under **[!UICONTROL Custom Condition Logic Is Met]** i avsnittet Ange anmälningsvillkor.
    * Välj ditt anpassade beloppsfält från sökfältet.
@@ -50,11 +50,11 @@ Följande steg gäller för Salesforce Lightning-användare. Om du fortfarande a
 
 1. Välj **[!UICONTROL Fast Field Updates]** under Optimera flödet för. Klicka på **[!UICONTROL Done]** längst ned till höger.
 
-   ![1. Välj Snabbfält ](assets/custom-amount-13.png) under Optimera flödet för
+   ![1. Välj Snabbfält &#x200B;](assets/custom-amount-13.png) under Optimera flödet för
 
 1. Om du vill lägga till elementet klickar du på plusikonen (+) och väljer **[!UICONTROL Update Triggering Record]**.
 
-   ![1. Om du vill lägga till elementet klickar du på plusikonen (+) och väljer ](assets/custom-amount-14.png)
+   ![1. Om du vill lägga till elementet klickar du på plusikonen (+) och väljer &#x200B;](assets/custom-amount-14.png)
 
 1. Ange följande i fönstret Ny uppdatering av poster:
 
@@ -68,7 +68,7 @@ Följande steg gäller för Salesforce Lightning-användare. Om du fortfarande a
 
 1. Klicka på **[!UICONTROL Save]**. Ett popup-fönster visas. Skriv Flow Label i fönstret Save the Flow (Flow API Name will be generated automatically). Klicka på **[!UICONTROL Save]** igen.
 
-   ![1. Klicka på Spara. Ett popup-fönster visas. Skriv Flow Label i ](assets/custom-amount-2.png)
+   ![1. Klicka på Spara. Ett popup-fönster visas. Skriv Flow Label i &#x200B;](assets/custom-amount-2.png)
 
 1. Klicka på knappen **[!UICONTROL Activate]** för att aktivera flödet.
 
@@ -93,7 +93,7 @@ Följande steg gäller för Salesforce Classic-användare. Om du har växlat til
    ![1. Konfigurera arbetsflödet. Ange regelnamnet Uppdatera Marketo](assets/custom-amount-7.png)
 
 1. Lägg till en arbetsflödesåtgärd. Ange den här listan till [!UICONTROL New Field Update].
-   ![1. Lägg till en arbetsflödesåtgärd. Ange den här listan till Nytt fält ](assets/custom-amount-8.png)
+   ![1. Lägg till en arbetsflödesåtgärd. Ange den här listan till Nytt fält &#x200B;](assets/custom-amount-8.png)
 
 1. Här fyller du i fältinformation. I fältet Namn rekommenderar vi att du använder följande namn: [!DNL Marketo Measure] Opp Amount. &quot;Unikt namn&quot; fylls i automatiskt baserat på fältet &quot;Namn&quot;. Välj [!DNL Marketo Measure]-säljprojektsbelopp i listan Fält att uppdatera. När du har markerat fältet markerar du rutan &quot;Utvärdera arbetsflödesregler igen efter fältändring&quot;. Välj &quot;Använd en formel för att ange det nya värdet&quot; i rutan &quot;Ange nytt fältvärde&quot;. Släpp API-namnet för det anpassade beloppsfältet i den tomma rutan. Klicka på **[!UICONTROL Save]**.
 

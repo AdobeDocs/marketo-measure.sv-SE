@@ -16,7 +16,7 @@ Lär dig hur du aktiverar behörighet att redigera konverterade lead-poster i [!
 
 1. Gå till [!UICONTROL Setup] och expandera gruppen [!UICONTROL Manage Users] för att välja profiler.
 
-   ![1. Gå till Konfigurera och expandera gruppen Hantera användare ](assets/additional-functionality-1.png)
+   ![1. Gå till Konfigurera och expandera gruppen Hantera användare &#x200B;](assets/additional-functionality-1.png)
 
 1. Välj profilen för den användare som vi är anslutna via.
 

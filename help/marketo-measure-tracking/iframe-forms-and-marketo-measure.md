@@ -20,6 +20,6 @@ I många fall ser vi att IFrame hanteras av en leverantör av marknadsföringsau
 
 Vi rekommenderar att du placerar JavaScript i huvudet på IFrame och därifrån bifogar vi automatiskt formulären inom ramen.
 
-![Vi rekommenderar att du placerar JavaScript i huvudet på ](assets/adding-pages-1.png)
+![Vi rekommenderar att du placerar JavaScript i huvudet på &#x200B;](assets/adding-pages-1.png)
 
 Om du har några frågor om hur du lägger till JavaScript i IFrame-formulär kan du kontakta Adobe Account Team (din kontohanterare) eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

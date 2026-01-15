@@ -20,4 +20,4 @@ Om det finns [säkerhetsinställningar för sessioner](https://help.salesforce.c
 
 Om du vill lägga till [!DNL Marketo Measure] IP-adresser i de betrodda IP-intervallen i Salesforce klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL Security Controls]** > **[!UICONTROL Network Access]** > **[!UICONTROL New]**.
 
-![Så här lägger du till Marketo Measure IP-adresser i de betrodda IP-intervallen i ](assets/compliance-resources-1.png)
+![Så här lägger du till Marketo Measure IP-adresser i de betrodda IP-intervallen i &#x200B;](assets/compliance-resources-1.png)

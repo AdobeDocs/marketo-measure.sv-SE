@@ -24,7 +24,7 @@ När du har slutfört installationen och börjat använda rapporter kommer inte 
 
 1. Klicka på rapporterna som är markerade nedan med ett orange X för att få rapportlistan att se likadan ut som bilden nedan.
 
-   ![1. Klicka på rapporterna som är markerade nedan med ett orange X för att skapa ](assets/bizible-full-1.png)
+   ![1. Klicka på rapporterna som är markerade nedan med ett orange X för att skapa &#x200B;](assets/bizible-full-1.png)
 
 >[!MORELIKETHIS]
 >

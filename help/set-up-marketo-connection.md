@@ -20,7 +20,7 @@ Så här konfigurerar du anslutningen till Marketo.
 
 1. I [!DNL Marketo Measure] klickar du på listrutan **[!UICONTROL My Account]** och väljer **[!UICONTROL Settings]**.
 
-   ![1. I Marketo Measure klickar du på listrutan Mitt konto och ](assets/set-connection-7.png)
+   ![1. I Marketo Measure klickar du på listrutan Mitt konto och &#x200B;](assets/set-connection-7.png)
 
 1. Klicka på [!UICONTROL Integrations] under **[!UICONTROL Connections]**.
 
@@ -40,7 +40,7 @@ Så här konfigurerar du anslutningen till Marketo.
 
 1. I Marketo Engage väljer du **LaunchPoint** i trädet till vänster. Hitta den anpassade tjänst som du vill ansluta till Marketo Measure och klicka på **Visa information**.
 
-   ![1. I Marketo Engage väljer du LaunchPoint i trädet på ](assets/set-connection-4.png)
+   ![1. I Marketo Engage väljer du LaunchPoint i trädet på &#x200B;](assets/set-connection-4.png)
 
 1. Markera och spara klient-ID och klienthemlighet. Klicka på **Stäng**.
 
@@ -48,7 +48,7 @@ Så här konfigurerar du anslutningen till Marketo.
 
 1. Fyll i fälten i [!DNL Marketo Measure] med de data du har samlat in.
 
-   ![1. I Marketo Measure fyller du i fälten med data ](assets/set-connection-1.png)
+   ![1. I Marketo Measure fyller du i fälten med data &#x200B;](assets/set-connection-1.png)
 
 1. När du har angett värdena klickar du på **[!UICONTROL Authenticate]**. Ditt Marketo Engage-konto är anslutet till [!DNL Marketo Measure].
 

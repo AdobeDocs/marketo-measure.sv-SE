@@ -48,7 +48,7 @@ Du kan också uppdatera datumen för alla kampanjmedlemmar i en befintlig kampan
 >
 >Se till att du uppdaterar slutpunktsdatumet _före_ när du aktiverar slutpunkter för alla kampanjmedlemmar.
 
-![Uppdatera slutpunktsdatumet innan du aktiverar slutpunkter för ](assets/dynamics-lists-10.png)
+![Uppdatera slutpunktsdatumet innan du aktiverar slutpunkter för &#x200B;](assets/dynamics-lists-10.png)
 
 ## Så här skapar du en Campaign och synkroniserar kontaktytor för köpare {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
@@ -58,7 +58,7 @@ Om du vill skapa en kampanj i [!DNL Salesforce] går du till fliken [!UICONTROL 
 
 När du skapar den här kampanjen klickar du på fältet [!UICONTROL Enable Buyer Touchpoints] och väljer något av följande alternativ i listan:
 
-![När du skapar den här kampanjen klickar du på&quot;Enable Buyer Touchpoints&quot; ](assets/dynamics-lists-3.png)
+![När du skapar den här kampanjen klickar du på&quot;Enable Buyer Touchpoints&quot; &#x200B;](assets/dynamics-lists-3.png)
 
 * **Inkludera alla kampanjmedlemmar**
    * Det här alternativet gör att [!DNL Marketo Measure] kan tilldela en kontaktyta till varje kampanjmedlem.

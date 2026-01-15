@@ -47,7 +47,7 @@ Marknadsförarna förväntas hämta sina B2B-data (till exempel konto, säljproj
 
 [!DNL Marketo Measure Ultimate] anger standardvalutan till USD tills användaren ändrar den. Om du anger en ny standardvaluta uppdateras data utan ombearbetning. Så länge den valda valutan finns som mål-ISO-kod behöver du inte skicka konverteringsgrader.
 
-![Marketo Measure Ultimate ställer in standardvalutan till USD fram till ](assets/marketo-overview-7.png)
+![Marketo Measure Ultimate ställer in standardvalutan till USD fram till &#x200B;](assets/marketo-overview-7.png)
 
 **[!DNL Marketo Measure Ultimate]Sandbox**
 
@@ -92,7 +92,7 @@ Regelvillkoren är datauppsättningsspecifika. Stage Mapping-regler måste skapa
 
 Inget val för funnel jämfört med boomerang jämfört med anpassad modell. Alla faser väljs för funnel, boomerang och anpassad modell. Det finns en gräns för hur många steg vi stöder: 15 anpassade plus 6 inbyggda steg.
 
-![Inget val för funnel jämfört med boomerang jämfört med anpassad modell. Alla faser är ](assets/marketo-overview-4.png)
+![Inget val för funnel jämfört med boomerang jämfört med anpassad modell. Alla faser är &#x200B;](assets/marketo-overview-4.png)
 
 Kontaktpunktsregler för kampanjmedlemmar och Touchpoint-regler för aktivitet är datauppsättningsspecifika.
 

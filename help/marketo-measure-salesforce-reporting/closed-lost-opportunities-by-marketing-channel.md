@@ -20,7 +20,7 @@ ht-degree: 2%
 
 1. I snabbsökningstypen i &quot;Bizible Attribution&quot; och välj rapporttypen **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** och välj sedan **[!UICONTROL Create]**.
 
-   ![1. I snabbsökningstypen i Bizible Attribution och välj ](assets/bizible-guide-2.png)
+   ![1. I snabbsökningstypen i Bizible Attribution och välj &#x200B;](assets/bizible-guide-2.png)
 
 1. Visa [!UICONTROL All Bizible Attribution Touchpoints] och justera datumfältet enligt den tidsram som du vill rapportera om med början från rapportens övre del. I vårt exempel tittar vi på All Time. Ändra dessutom rapportformatet från Tabell till Sammanfattning.
 
@@ -30,15 +30,15 @@ ht-degree: 2%
 
 1. Nu ska vi lägga till fält i rapporten. I snabbsökningen till vänster skriver du&quot;Marknadskanal&quot; och lägger till den i sammanfattningsgrupperingen i rapporten.
 
-   ![1. Nu ska vi lägga till fält i rapporten. I ](assets/bizible-guide-4.png)
+   ![1. Nu ska vi lägga till fält i rapporten. I &#x200B;](assets/bizible-guide-4.png)
 
 1. Sedan ska vi lägga till ett filter som bara tittar på Closed Lost Opps. I snabbsökningen till vänster söker du efter fältet &quot;Scen&quot; och drar det till filterområdet.
 
-   ![1. Därefter lägger vi till ett filter som bara ska titta på ](assets/marketo-reports-16.jpg)
+   ![1. Därefter lägger vi till ett filter som bara ska titta på &#x200B;](assets/marketo-reports-16.jpg)
 
 1. Därifrån väljer du förstoringsglaset för att kunna välja vilka steg du vill använda för&quot;Closed Lost&quot;. I det här fallet använder vi standardnamnet&quot;Closed Lost&quot;.
 
-   ![1. Därifrån väljer du förstoringsglaset för att välja ](assets/bizible-guide-5.png)
+   ![1. Därifrån väljer du förstoringsglaset för att välja &#x200B;](assets/bizible-guide-5.png)
 
 1. Kör rapporten nu!
 

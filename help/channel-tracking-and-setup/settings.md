@@ -20,4 +20,4 @@ Det finns två separata funktionsbitar kopplade till den här funktionen, som fi
 
 Under din [!UICONTROL User Settings] i programmet [!DNL Marketo Measure] visas företagsvaluta och alla valutor som stöds som hämtats från CRM. Eftersom alla dessa värden hämtas från CRM är dessa fält skrivskyddade och kan inte ändras. Instrumentpanelsvalutan är standardvaluta för varje gång en instrumentpanel läses in. Du kan komma tillbaka och ändra valutan efter behov.
 
-![Under dina användarinställningar i Marketo Measure-programmet ](assets/multi-currency-1.png)
+![Under dina användarinställningar i Marketo Measure-programmet &#x200B;](assets/multi-currency-1.png)

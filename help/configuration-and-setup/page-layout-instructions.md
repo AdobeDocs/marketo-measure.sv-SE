@@ -36,13 +36,13 @@ Vi rekommenderar att du lägger till fälten [!DNL Marketo Measure] i din SFDC C
 
 1. Markera fältet [!UICONTROL fields] i alternativet **[!UICONTROL Enable Buyer Touchpoints]** och dra det dit du vill på sidan. Lägg sedan till fälten **[!UICONTROL Touchpoint Start Date]** och **[!UICONTROL Touchpoint End Date]**.
 
-   ![1. Välj Aktivera slutpunkter för köpare ](assets/bizible-full-1.png) i fältalternativet
+   ![1. Välj Aktivera slutpunkter för köpare &#x200B;](assets/bizible-full-1.png) i fältalternativet
 
 1. Klicka sedan på alternativet [!UICONTROL Buttons] längst upp på sidan på snabbsökningsmenyn.
 
 1. Dra knappen **[!UICONTROL Bulk Update Touchpoint Date]** till det anpassade knappavsnittet.
 
-   ![1. Dra knappen Datum för gruppuppdatering till din anpassade ](assets/bizible-taxonomy-1.png)
+   ![1. Dra knappen Datum för gruppuppdatering till din anpassade &#x200B;](assets/bizible-taxonomy-1.png)
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -64,7 +64,7 @@ Vi rekommenderar att du lägger till fälten [!DNL Marketo Measure] i din SFDC C
 
 1. Dra **[!UICONTROL Marketo Measure Lead Related List]** VisualForce-sidan till sidlayoutavsnittet.
 
-   ![1. Dra Marketo Measure Lead Related List VisualForce-sidan till ](assets/connect-salesforce-1.png)
+   ![1. Dra Marketo Measure Lead Related List VisualForce-sidan till &#x200B;](assets/connect-salesforce-1.png)
 
 1. Klicka på växeln på sidan [!DNL VisualForce] och ändra höjden till 100 och aktivera rullningslister.
 

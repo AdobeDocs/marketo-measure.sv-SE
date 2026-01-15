@@ -56,7 +56,7 @@ Tabellvyn ger tydliga och välorganiserade insikter i fördelningen av tilldelat
 
 Klicka på ikonen **+** bredvid varje kanal om du vill visa uppdelningen efter subkanal och kampanj.
 
-![Klicka på ikonen + bredvid varje kanal för att visa detaljerna i ](assets/attributed-dashboard-1.png)
+![Klicka på ikonen + bredvid varje kanal för att visa detaljerna i &#x200B;](assets/attributed-dashboard-1.png)
 
 #### Trädvy {#tree-view}
 

@@ -71,10 +71,10 @@ Om ditt team nyligen har använt något av ovanstående rekommenderar [!DNL Mark
 
 >[!MORELIKETHIS]
 > [Inställningar för offlinekanal](/help/channel-tracking-and-setup/offline-custom-channel-setup.md)
-> [Synkronisering av anpassad kampanj - appsynkronisering ](/help/channel-tracking-and-setup/custom-campaign-sync.md)
-> [Synkroniserar offlinekampanjer - CRM-synkronisering ](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)
-> [Offlinekampanj- och kampanjmedlemmar - CRM-synkronisering ](/help/channel-tracking-and-setup/campaigns-and-campaign-members.md)
-> [Kampanjsynkroniseringsdatum - CRM-synkronisering ](/help/channel-tracking-and-setup/campaign-sync-dates.md)
-> [Konfigurationer för flera kampanjposttyper ](/help/channel-tracking-and-setup/configurations-record-types.md)
-> [Skapar en kampanjlistvy ](/help/channel-tracking-and-setup/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-> [Synkroniserar historikdata ](/help/channel-tracking-and-setup/syncing-historical-data.md)
+> [Synkronisering av anpassad kampanj - appsynkronisering &#x200B;](/help/channel-tracking-and-setup/custom-campaign-sync.md)
+> [Synkroniserar offlinekampanjer - CRM-synkronisering &#x200B;](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)
+> [Offlinekampanj- och kampanjmedlemmar - CRM-synkronisering &#x200B;](/help/channel-tracking-and-setup/campaigns-and-campaign-members.md)
+> [Kampanjsynkroniseringsdatum - CRM-synkronisering &#x200B;](/help/channel-tracking-and-setup/campaign-sync-dates.md)
+> [Konfigurationer för flera kampanjposttyper &#x200B;](/help/channel-tracking-and-setup/configurations-record-types.md)
+> [Skapar en kampanjlistvy &#x200B;](/help/channel-tracking-and-setup/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+> [Synkroniserar historikdata &#x200B;](/help/channel-tracking-and-setup/syncing-historical-data.md)

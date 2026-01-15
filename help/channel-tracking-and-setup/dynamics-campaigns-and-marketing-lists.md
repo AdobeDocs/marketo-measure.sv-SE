@@ -52,7 +52,7 @@ Slutpunktsdatumet för en kampanj är vanligtvis det datum då kampanjsvaret lad
 
 Ett vanligt exempel som används i det här fältet är för händelser där en lista med badge-sökningar från en händelse läggs till i CRM-dagarna efter att händelsen inträffade, så att användaren faktiskt kan ändra Buyer Touchpoint Date tillbaka till när händelsen inträffade.
 
-![Ett vanligt exempel med det här fältet är för händelser där en lista ](assets/dynamics-lists-4.png)
+![Ett vanligt exempel med det här fältet är för händelser där en lista &#x200B;](assets/dynamics-lists-4.png)
 
 ## Marknadsföringslistor {#marketing-lists}
 
@@ -60,7 +60,7 @@ Marknadsföringslistor är ett annat sätt att inkludera leads eller kontakter i
 
 [!DNL Marketo Measure] har bara stöd för statiska marknadsföringslistor. Vi stöder inte dynamiska marknadsföringslistor eftersom vår bearbetning kräver att vi kontrollerar en posts ändrade datum, men eftersom en dynamisk lista ändras ofta finns det inget ändrat datum för [!DNL Marketo Measure] att kontrollera mot. Detta kräver en konstant nedladdning av hela datauppsättningen under hela dagen.
 
-![Marketo Measure har bara stöd för statiska marknadsföringslistor. Vi stöder inte ](assets/dynamics-lists-5.png)
+![Marketo Measure har bara stöd för statiska marknadsföringslistor. Vi stöder inte &#x200B;](assets/dynamics-lists-5.png)
 
 Skärmbilden ovan är en marknadsföringslista för leads. Marknadsföringslistor är kopplade till kampanjer och kan associeras med flera kampanjer. Såvida du inte bara skapar en marknadsföringslista för en kampanj rekommenderar [!DNL Marketo Measure] inte att kunderna använder marknadsföringslistor för att spåra sina kampanjer. Det är osannolikt att samma exakta lista över leads/kontakter skulle vara berättigad till kontaktytor i flera kampanjer.
 

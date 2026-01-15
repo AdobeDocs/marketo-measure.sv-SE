@@ -26,7 +26,7 @@ Historiskt sett, när kunder är med på [!DNL Marketo Measure] och om vi inte h
 
 Navigera från menyn Inställningar för [!DNL Marketo Measure] till sidan Fält för slutpunkt. Därifrån kan du aktivera funktionen genom att välja **Yes** under **Enable Calculated Fields**. När funktionen är aktiverad kan du skapa Touchpoint-fält.
 
-![Navigera till Touchpoint-fält från inställningsmenyn i Marketo Measure ](assets/touchpoint-fields-1.png)
+![Navigera till Touchpoint-fält från inställningsmenyn i Marketo Measure &#x200B;](assets/touchpoint-fields-1.png)
 
 ## Använda {#how-to}
 
@@ -51,7 +51,7 @@ Mål: Använd värdet för ett anpassat fält och placera det i Touchpoint-objek
    * **)** markerar slutet av extraheringen
    * **.&#42;** meddelar oss att vi extraherar den fullständiga strängen
 
-![.&amp;42; meddelar oss att vi extraherar den fullständiga strängen ](assets/touchpoint-fields-10.png)
+![.&42; meddelar oss att vi extraherar den fullständiga strängen &#x200B;](assets/touchpoint-fields-10.png)
 
 **Exempel nr 2**
 
@@ -71,7 +71,7 @@ Ett vanligt användningsfall som den här funktionen aktiverar är att hämta v�
    * **+** extraherar parameterns fullständiga värde utan teckenbegränsning
    * Observera att du använder ett snedstreck och inte ett omvänt snedstreck
 
-![Observera att du använder ett snedstreck och inte ett ](assets/touchpoint-fields-11.png)
+![Observera att du använder ett snedstreck och inte ett &#x200B;](assets/touchpoint-fields-11.png)
 
 **Exempel nr 3**
 
@@ -184,17 +184,17 @@ Nu när värdena från URL:en har tolkats och finns på pekpunkten visas de nya 
 
 I den här produktversionen finns möjligheten att skapa segment med hjälp av Touchpoint-fält. Det gick inte att skapa segment med kontaktpunktsfält tidigare.
 
-![Möjligheten att skapa segment med hjälp av Touchpoint-fält är tillgänglig med ](assets/touchpoint-fields-5.png)
+![Möjligheten att skapa segment med hjälp av Touchpoint-fält är tillgänglig med &#x200B;](assets/touchpoint-fields-5.png)
 
 För att göra det enklare att bygga ut segment är det nu möjligt att skapa dynamiska segment från de Touchpoint-fält som skapades. Om du till exempel har skapat ett Touchpoint-fält som tolkade en geografisk region, i stället för att skapa ett segment för varje möjlig region, kan du skapa ett segment och vi skapar segment för varje instans som ett nytt värde visas. Detta är mycket praktiskt om ett attribut som postnummer måste tolkas och användas som ett segment!
 
 Din installation ser ut ungefär som skärmbilden nedan. Segmentnamnet hämtar dynamiskt värdet i Touchpoint-fältet med klammerparenteserna för att söka efter fältet.
 
-![Din konfiguration ser ut ungefär som skärmbilden nedan. Segmentnamnet ](assets/touchpoint-fields-6.png)
+![Din konfiguration ser ut ungefär som skärmbilden nedan. Segmentnamnet &#x200B;](assets/touchpoint-fields-6.png)
 
 Regeln refererar till samma Touchpoint-fält och söker efter värden som inte är lika med null.
 
-![Regeln refererar till samma Touchpoint-fält och söker efter värden som ](assets/touchpoint-fields-7.png)
+![Regeln refererar till samma Touchpoint-fält och söker efter värden som &#x200B;](assets/touchpoint-fields-7.png)
 
 ## Vanliga frågor och svar {#faq}
 

@@ -27,15 +27,15 @@ Som en del av den övergripande integreringen av [!DNL Marketo Measure] och [!DN
 
 1. Om du vill börja konfigurera Marketo-aktiviteter går du till **Mitt konto** > **Inställningar** > **Aktiviteter**.
 
-   ![1. Navigera till Mina kontoinställningar ](assets/marketo-engage-activities-01.png) för att börja konfigurera Marketo-aktiviteter
+   ![1. Navigera till Mina kontoinställningar &#x200B;](assets/marketo-engage-activities-01.png) för att börja konfigurera Marketo-aktiviteter
 
-   ![1. Navigera till Mina kontoinställningar ](assets/marketo-engage-activities-02.png) för att börja konfigurera Marketo-aktiviteter
+   ![1. Navigera till Mina kontoinställningar &#x200B;](assets/marketo-engage-activities-02.png) för att börja konfigurera Marketo-aktiviteter
 
    Det första som krävs är att välja en lista med aktivitetstyper som du tänker bygga regler på. Det behövs inget stort antal aktivitetstyper, men vi rekommenderar att du inte överbelastar dina kontaktytor och tonar ned vikten av viktiga milstolpar. Därför behöver du kanske inte fler än fem aktivitetstyper för att spåra relevanta åtaganden.
 
 1. Klicka på listrutan under [!UICONTROL Select Activities Types] för att börja välja de olika typerna.
 
-   ![1. Klicka på listrutan under Välj aktivitetstyper för att börja ](assets/marketo-engage-activities-03.png)
+   ![1. Klicka på listrutan under Välj aktivitetstyper för att börja &#x200B;](assets/marketo-engage-activities-03.png)
 
 1. När du har valt alla aktiviteter du behöver kan du se dem i din [!UICONTROL Selected Activities List] och under [!UICONTROL Define Rules].
 

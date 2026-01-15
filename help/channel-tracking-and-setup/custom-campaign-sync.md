@@ -44,7 +44,7 @@ I dag, med det installerade [!DNL Marketo Measure]-paketet, kan du ange vilka ka
 
 1. Klicka på bockmarkeringen och lägg sedan till ytterligare regler för ytterligare kampanjer efter behov.
 
-   ![1. Klicka på bockmarkeringen och lägg sedan till ytterligare regler för ytterligare kampanjer som ](assets/offline-channels-12.png)
+   ![1. Klicka på bockmarkeringen och lägg sedan till ytterligare regler för ytterligare kampanjer som &#x200B;](assets/offline-channels-12.png)
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Du kan enkelt kontrollera Buyer Touchpoints och Buyer Attribution Touchpoint-pos
 
 1. Funktionen Kampanjsynkronisering innehåller en testfunktion så att du kan kontrollera om reglerna som du har skapat verkligen uppfyller Campaign-villkoren. Börja med att klicka på knappen [!UICONTROL Test]. Reglerna måste sparas innan du kan börja testa.
 
-   ![1. Funktionen för kampanjsynkronisering har en testfunktion så att ](assets/offline-channels-15.jpg)
+   ![1. Funktionen för kampanjsynkronisering har en testfunktion så att &#x200B;](assets/offline-channels-15.jpg)
 
    Ett popup-fönster visas där du kan ange ett kampanj-ID (15 eller 18 tecken från CRM) att testa. Poängen är att ange det kampanj-ID från CRM som du försökte synkronisera för att se till att det matchar regeln som du skapade.
 
@@ -76,8 +76,8 @@ Du kan enkelt kontrollera Buyer Touchpoints och Buyer Attribution Touchpoint-pos
 
 1. När du har klickat på [!UICONTROL Test] ser du namnet på Campaign och antalet Campaign-medlemmar som är berättigade till kontaktytor. En tabell visas nedan som visar alla regler som matchar ditt kampanj-ID. Endast matchningarna visas.
 
-   ![1. När du har klickat på Testa visas namnet på ](assets/offline-channels-17.png)
+   ![1. När du har klickat på Testa visas namnet på &#x200B;](assets/offline-channels-17.png)
 
 1. Du kan också klicka på medlemsantalet för att visa en lista över de leads och kontakter och deras ID:n som ingår i kampanjregelns berättigande. Detta är bara en exempeluppsättning som visas upp till 50 så att du kan få en uppfattning om vilka poster som är kvalificerade.
 
-   ![1. Du kan också klicka på medlemsantalet för att visa en lista ](assets/offline-channels-18.jpg)
+   ![1. Du kan också klicka på medlemsantalet för att visa en lista &#x200B;](assets/offline-channels-18.jpg)

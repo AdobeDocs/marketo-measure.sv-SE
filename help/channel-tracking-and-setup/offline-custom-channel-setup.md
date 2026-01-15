@@ -35,11 +35,11 @@ Kalkylbladet har tre kolumner:
 
 Kampanjtyperna för SFDC visas på fliken Offlinekanal, som listas under [!DNL Salesforce] Kampanjtyp. Observera att [!DNL Marketo Measure] bara kan importera SFDC Campaign-typer för kampanjer som har associerade Buyer-kontaktytor.
 
-![Kampanjtyperna för SFDC visas på fliken Offlinekanal i listan ](assets/offline-channels-10.jpg)
+![Kampanjtyperna för SFDC visas på fliken Offlinekanal i listan &#x200B;](assets/offline-channels-10.jpg)
 
 Här kan du skapa kanalmappning/delkanalsmappning i appen [!DNL Marketo Measure]. Detta innebär sannolikt att nya kanaler och underkanaler skapas i appen [!DNL Marketo Measure], vilket görs i appens avsnitt Skapa kanaler, som visas i bilden nedan. Nya kanaler och underkanaler måste skapas för att [!DNL Marketo Measure] ska förstå var pekpunkterna ska skickas. Du kan bestämma hur du vill att kampanjtyperna ska mappas.
 
-![Här kan du skapa kanalmappning/delkanalsmappning i ](assets/offline-channels-11.png)
+![Här kan du skapa kanalmappning/delkanalsmappning i &#x200B;](assets/offline-channels-11.png)
 
 ## Exempel på kanalmappning {#channel-mapping-example}
 
@@ -67,13 +67,13 @@ Det är vanligt att marknadsföringsteamen skapar [!DNL Salesforce]-kampanjer f�
 
 Ett annat tips för att hantera kampanjer för onlineaktiviteter är att mappa kampanjtypen [!DNL Salesforce] till NULL. Om du vill göra det skapar du först en kanal i appen [!DNL Marketo Measure] med namnet NULL, vilket visas i bilden nedan. Detta finns i appen [!DNL Marketo Measure] under avsnittet **Skapa kanaler**. Detta är praktiskt om en kampanj som inte ska synkroniseras av misstag synkroniseras. Det är enkelt att hitta kampanjen och korrigera synkroniseringsstatusen genom att titta på allt som är inramat under NULL.
 
-![Ett annat tips för att hantera kampanjer för onlineaktiviteter är att mappa ](assets/offline-channels-14.png)
+![Ett annat tips för att hantera kampanjer för onlineaktiviteter är att mappa &#x200B;](assets/offline-channels-14.png)
 
 ## Ange dina regler för offlinekanal i appen {#entering-your-offline-channel-rules-to-the-app}
 
 När du har redigerat och uppdaterat kalkylbladet med dina anpassade regler är nästa steg att återskapa den här kanalmappningen i appen [!DNL Marketo Measure] - du kommer egentligen inte att överföra ett kalkylblad för offlinekanaler. I stället anger du informationen i listrutorna enligt bilden nedan. Det här hittas genom att klicka på **[!UICONTROL Offline Channels]** under avsnittet **[!UICONTROL Channels]**.
 
-![När du har redigerat och uppdaterat kalkylbladet med dina anpassade regler, ](assets/offline-channels-20.png)
+![När du har redigerat och uppdaterat kalkylbladet med dina anpassade regler, &#x200B;](assets/offline-channels-20.png)
 
 >[!TIP]
 >

@@ -21,16 +21,16 @@ På varje kontrollpanel finns ett antal filter som följs av följande kontrolle
 
 | Namn | Beskrivning |
 | --- | --- |
-| Växla filter | Växla filterrutan öppen eller stängd. ![| — | — |](assets/discover-basics-9.png) |
-| Sökfält | Använd sökningen högst upp i filterrutan för att söka efter ett visst filter. Varje filter har också ett eget sökfält. ![| — | — |](assets/discover-basics-10.png) |
-| Knappen Rensa filter | Om du vill ta bort ett filter klickar du på suddgummiikonen längst upp till höger på varje filter. ![| — | — |](assets/discover-basics-11.png) |
-| Knappen Använd | Klicka för att bekräfta och implementera dina filterändringar på kontrollpanelen. ![| — | — |](assets/discover-3a-1.png) |
+| Växla filter | Växla filterrutan öppen eller stängd. |||||||||||||||||||||||||![ — | — |] (apng) |
+| Sökfält | Använd sökningen högst upp i filterrutan för att söka efter ett visst filter. Varje filter har också ett eget sökfält. ||||||||||||||||||||||||||![ — | — |] (apng) |
+| Knappen Rensa filter | Om du vill ta bort ett filter klickar du på suddgummiikonen längst upp till höger på varje filter. ||||||||||||||||||||||||||![ — | — |] (apng) |
+| Knappen Använd | Klicka för att bekräfta och implementera dina filterändringar på kontrollpanelen. |||||||||||||||||||||![ — | — |] (apng) |
 
 ## Filter på visuell {#filters-on-visual}
 
 Hovra över det övre högra hörnet av en visuell bild för att se en skrivskyddad lista över använda filter.
 
-![Håll pekaren över en visuell hörn i det övre högra hörnet om du vill se en skrivskyddad lista över ](assets/discover-3b-1.png)
+![Håll pekaren över en visuell hörn i det övre högra hörnet om du vill se en skrivskyddad lista över &#x200B;](assets/discover-3b-1.png)
 
 ## Rapportfunktioner {#report-capabilities}
 
@@ -38,7 +38,7 @@ Hovra över det övre högra hörnet av en visuell bild för att se en skrivskyd
 
 * Hovra över en visuell vy för att identifiera om den har en hierarki. Om det finns detaljkontrollalternativ i åtgärdsfältet visas detta.
 
-![Håll pekaren över en visuell vy för att identifiera om den har en hierarki. ](assets/discover-basics-7.png)
+![Håll pekaren över en visuell vy för att identifiera om den har en hierarki. &#x200B;](assets/discover-basics-7.png)
 
 * Aktivera detaljfunktionen genom att klicka på den nedåtriktade pilen som är markerad med en grå bakgrund. Om du vill återgå använder du ikonen för detaljgranskning.
 
@@ -60,7 +60,7 @@ Använd den gaffelliknande ikonen om du vill lägga till ytterligare en hierarki
 
 Om du vill utforska de data som ligger bakom det visuella objektet högerklickar du på det visuella elementet och väljer alternativet Detaljerad.
 
-![Om du vill utforska data bakom det visuella objektet högerklickar du på det visuella elementet och ](assets/discover-basics-13.gif)
+![Om du vill utforska data bakom det visuella objektet högerklickar du på det visuella elementet och &#x200B;](assets/discover-basics-13.gif)
 
 ### Exportera data {#export-data}
 
@@ -71,7 +71,7 @@ Om du vill exportera underliggande data från en visuell bild håller du pekaren
 
 Om du vill zooma in på en viss visuell sida eller ruta håller du pekaren över det övre högra hörnet och väljer knappen &quot;Fokus&quot;.
 
-![Om du vill zooma in en viss visuell eller rutas håller du pekaren över ](assets/discover-basics-5.gif)
+![Om du vill zooma in en viss visuell eller rutas håller du pekaren över &#x200B;](assets/discover-basics-5.gif)
 
 ### Korsfiltrering {#cross-filtering}
 
@@ -83,4 +83,4 @@ Om du väljer ett värde eller en axeletikett i en visualisering filtreras andra
 
 Verktygstips innehåller extra information om de data som visas. Håll muspekaren över ett visuellt element och ett sammanhangsberoende verktygstips visas med insikter eller förklaringar om den specifika datapunkten.
 
-![Verktygstips innehåller extra information om de data som visas. Hovra över en visuell ](assets/discover-basics-4.gif)
+![Verktygstips innehåller extra information om de data som visas. Hovra över en visuell &#x200B;](assets/discover-basics-4.gif)

@@ -18,7 +18,7 @@ Om du vill få tillgång till ditt Snowflake datalager måste du navigera till d
 
 1. I [!DNL Marketo Measure], överst på sidan, klickar du på **[!UICONTROL My Account]** > **[!UICONTROL Settings]**.
 
-   ![1. Klicka ](assets/data-account-7.png) överst på sidan i Marketo Measure
+   ![1. Klicka &#x200B;](assets/data-account-7.png) överst på sidan i Marketo Measure
 
 1. Klicka på **[!UICONTROL Data Warehouse]** under Säkerhet på den vänstra menyn.
 
@@ -26,7 +26,7 @@ Om du vill få tillgång till ditt Snowflake datalager måste du navigera till d
 
 1. Den här sidan har länken till ditt Snowflake datalager och ditt användarnamn.
 
-   ![1. Den här sidan har länken till ditt Snowflake datalager och ](assets/data-account-9.png)
+   ![1. Den här sidan har länken till ditt Snowflake datalager och &#x200B;](assets/data-account-9.png)
 
    >[!NOTE]
    >
@@ -38,11 +38,11 @@ Om du vill få tillgång till ditt Snowflake datalager måste du navigera till d
 
 1. När du är inloggad klickar du på **[!UICONTROL Worksheets]** överst på sidan.
 
-   ![1. När du är inloggad klickar du på Kalkylblad överst i ](assets/data-account-6.png)
+   ![1. När du är inloggad klickar du på Kalkylblad överst i &#x200B;](assets/data-account-6.png)
 
 1. Databasobjekten BIZIBLE_ROI_V3 finns till vänster på skärmen. Ange lagerställe, databas och schema i listrutan längst upp i frågefönstret. Det ska bara finnas ett alternativ för varje. Nu kan du köra frågor i Snowflake frågeredigerare.
 
-   ![1. Databasobjekten BIZIBLEROIV3 finns till vänster om ](assets/data-account-4.png)
+   ![1. Databasobjekten BIZIBLEROIV3 finns till vänster om &#x200B;](assets/data-account-4.png)
 
 ## Återställ lösenordet {#reset-your-password}
 
@@ -53,9 +53,9 @@ Om du vill få tillgång till ditt Snowflake datalager måste du navigera till d
 >* Om du återställer lösenordet återställs det för alla [!DNL Marketo Measure] användare i organisationen, inte bara för den användare som är inloggad för tillfället.
 >* Vi visar bara det tillfälliga lösenordet i användargränssnittet. Inget e-postmeddelande skickas.
 
-![Det tillfälliga lösenordet visas bara i användargränssnittet. Ett e-postmeddelande ](assets/data-account-3.png)
+![Det tillfälliga lösenordet visas bara i användargränssnittet. Ett e-postmeddelande &#x200B;](assets/data-account-3.png)
 
-![Det tillfälliga lösenordet visas bara i användargränssnittet. Ett e-postmeddelande ](assets/data-account-1.png)
+![Det tillfälliga lösenordet visas bara i användargränssnittet. Ett e-postmeddelande &#x200B;](assets/data-account-1.png)
 
 ## Ansluta till Snowflake via tredjepartsverktyg {#connecting-to-snowflake-via-third-party-tools}
 
@@ -76,4 +76,4 @@ Du måste ange några uppgifter för att kunna koppla ditt Snowflake datalager t
 * **Namn på lagerställe** (krävs inte alltid)
    * Det är lagerstället som kör frågor i Snowflake. Det är den beräknade resursen. Lagerställets namn visas på informationssidan för Data Warehouse i [!DNL Marketo Measure].
 
-  ![Lagerstället är det som kör frågor i Snowflake. Det är den beräknade ](assets/data-account-2.png)
+  ![Lagerstället är det som kör frågor i Snowflake. Det är den beräknade &#x200B;](assets/data-account-2.png)

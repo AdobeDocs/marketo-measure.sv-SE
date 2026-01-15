@@ -40,7 +40,7 @@ Lägg märke till följande funktioner, utöver det uppdaterade utseendet och k�
 
 Sök efter supportartiklar, skicka in biljetter, lämna feedback inifrån programmet [!DNL Marketo Measure].
 
-![Sök efter supportartiklar, skicka biljetter, lämna feedback inifrån ](assets/unified-overview-5.png)
+![Sök efter supportartiklar, skicka biljetter, lämna feedback inifrån &#x200B;](assets/unified-overview-5.png)
 
 **Programväxlare**
 

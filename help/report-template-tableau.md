@@ -30,7 +30,7 @@ Du måste skapa en dataanslutning till din Snowflake-instans. För detta behöve
 
 Du måste också ange ett inledande SQL-kommando. Detta stöder användning av anpassade frågor i den här datamodellen. Kommandot som ska anges är &quot;Använd schema `<your schema name>`&quot;. Du kan hitta schemanamnet på sidan [!UICONTROL data warehouse connections], se den dokumentation som det hänvisas till ovan.
 
-![Du måste också ange ett inledande SQL-kommando. Detta stöder ](assets/marketo-tableau-6.png)
+![Du måste också ange ett inledande SQL-kommando. Detta stöder &#x200B;](assets/marketo-tableau-6.png)
 
 ### Anpassade SQL-frågor {#custom-sql-queries}
 
@@ -100,11 +100,11 @@ Kolumnen [!UICONTROL CATEGORY] listar kategorinumret och kolumnen SEGMENT_NAME h
 
 Namn kan uppdateras på två sätt. Det första alternativet är att uppdatera den anpassade SQL:en. I det här exemplet har kategorierna 1-6 bytt namn baserat på mappningen från tabellen Segmentnamn.
 
-![Namn kan uppdateras på två sätt. Det första alternativet är ](assets/marketo-tableau-14.png)
+![Namn kan uppdateras på två sätt. Det första alternativet är &#x200B;](assets/marketo-tableau-14.png)
 
 Det andra alternativet är att byta namn på kolumnerna direkt i tabellen [!DNL Tableau].
 
-![Det andra alternativet är att byta namn på kolumnerna direkt i ](assets/marketo-tableau-9.png)
+![Det andra alternativet är att byta namn på kolumnerna direkt i &#x200B;](assets/marketo-tableau-9.png)
 
 ## Datamodell {#data-model}
 

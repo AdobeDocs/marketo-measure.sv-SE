@@ -32,7 +32,7 @@ Tänk på följande:
 
 Det första steget är att hämta det anpassade kanalkalkylbladet från appen [!DNL Marketo Measure]. Gå till **Inställningar** på fliken **Mitt konto** och välj **Online**. Du kan antingen välja **Hämta ursprunglig mall** eller **Hämta aktuella regler**.
 
-![Det första steget är att hämta det anpassade kanalkalkylbladet från ](assets/online-channels-1.png)
+![Det första steget är att hämta det anpassade kanalkalkylbladet från &#x200B;](assets/online-channels-1.png)
 
 Kalkylbladet har sju kolumner:
 
@@ -62,13 +62,13 @@ Tänk på följande situation: du har andra annonser som du inte vill spåra av 
 
 Varje parameter eller komponent i regeln mappas separat till kanalen. Om [!DNL Marketo Measure] till exempel har [!DNL Facebook] data att sortera söker den efter regler som är relaterade till [!DNL Facebook]. Den skannas uppifrån och ned. I exemplet nedan skulle [!DNL Marketo Measure] förstå att för den första [!DNL Facebook]-underkanalen behöver den bara läsa källparametern för att släppa data i den regelns bucket.
 
-![Varje parameter eller komponent i regeln mappas separat till ](assets/online-channels-5.png)
+![Varje parameter eller komponent i regeln mappas separat till &#x200B;](assets/online-channels-5.png)
 
 Nästa regel frågar bara efter parametern medium, så alla data med den parametern blockeras i den här kanalen. Till sist för [!DNL Facebook] placeras alla data som kommer från Facebooks URL i den sista Facebook-haken.
 
 Standardkanalen Övrigt finns för att hämta data som inte uppfyller några regelvillkor. Observera att vissa av bucketerna i den andra kanalen innehåller asterisker (&#42;). Dessa asterisker representerar jokertecken som fungerar som en&quot;catch-all&quot;.
 
-![Standardkanalen Annan finns för att fånga upp data som inte uppfyller ](assets/online-channels-6.jpg)
+![Standardkanalen Annan finns för att fånga upp data som inte uppfyller &#x200B;](assets/online-channels-6.jpg)
 
 På grund av att logiken [!DNL Marketo Measure] fungerar uppifrån och ned bör jokerteckendlinjen, som anges med en asterisk (&#42;), placeras i slutet av regelbladet. Alla data som inte fångas eller sorteras av de andra reglerna läggs till i jokertecknet.
 

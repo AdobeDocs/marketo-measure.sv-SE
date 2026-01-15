@@ -66,7 +66,7 @@ Se till att du har en konversation med ditt webbteam så att de vet att [!DNL Ma
 
 Om en [!DNL Web Application Firewall (WAF)]-varning utlöses under JavaScript-konfigurationen kan användare antingen inaktivera den WAF-regeln eller tillåtslista cookies, som i följande exempel:
 
-![Om en brandväggsvarning för webbprogram (WAF) utlöses under ](assets/adding-script-1.png)
+![Om en brandväggsvarning för webbprogram (WAF) utlöses under &#x200B;](assets/adding-script-1.png)
 
 ## Forms to Pay Extra Attention To {#forms-to-pay-extra-attention-to}
 

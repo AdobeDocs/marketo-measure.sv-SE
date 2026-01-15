@@ -18,6 +18,6 @@ Bearbetningssystemet [!DNL Marketo Measure] registrerar inte att en kontaktyta h
 
 När en kontaktyta tas bort skapas ett hål i attribueringsinformationen. Vanligtvis visas detta i attribueringens kontaktytor för ett säljprojekt. I bilden nedan hade kontaktytan som skulle ha fått frågan om att skapa säljprojekt tagits bort. Därför saknas OC-kontaktytan och attribueringsprocenten för Opp kommer inte att öka till 100 %.
 
-![När en kontaktyta tas bort skapas ett hål i attributet ](assets/touchpoint-settings-10.png)
+![När en kontaktyta tas bort skapas ett hål i attributet &#x200B;](assets/touchpoint-settings-10.png)
 
 Om kontaktytor har tagits bort från din SFDC kan du kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} för att begära en återimport av dina data.

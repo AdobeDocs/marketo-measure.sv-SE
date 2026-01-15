@@ -18,7 +18,7 @@ Vår integrering med [!DNL CallTrackingMetrics] är avsedd att sammanfoga en web
 
 &quot;Anropsspårning&quot; är i allmänhet en produkt från företag som [!DNL CallTrackingMetrics], [!DNL DiaglogTech], [!DNL Invoca] eller [!DNL CallRail], för att nämna några. Unika telefonnummer visas för användarna baserat på de olika marknadsföringskanalerna eller kampanjerna som de kommer från. På så sätt kan marknadsförarna se hur dessa kanaler eller kampanjer fungerar.
 
-![&quot;Anropsspårning&quot; är i allmänhet en produkt från företag som ](assets/other-resources-6.png)
+![&quot;Anropsspårning&quot; är i allmänhet en produkt från företag som &#x200B;](assets/other-resources-6.png)
 
 ## Före och efter {#before-and-after}
 
@@ -26,7 +26,7 @@ Titta i flödesdiagrammet nedan för att se hur [!DNL Marketo Measure] används 
 
 Med integreringen ser du att webbsessionen faktiskt var knuten till ett telefonsamtal. Nästa formulärfyllning blir en PostLC-kontakt och spåras fortfarande som en del av resan.
 
-![Med integreringen kan du se att webbsessionen faktiskt var ](assets/other-resources-4.png)
+![Med integreringen kan du se att webbsessionen faktiskt var &#x200B;](assets/other-resources-4.png)
 
 ## Så här fungerar det {#how-it-works}
 
@@ -48,7 +48,7 @@ När [!DNL Marketo Measure] kan importera/hämta aktiviteten bearbetar vi den in
 
 [!UICONTROL Touchpoint]-typen &quot;Call&quot; hämtas från aktiviteten från skärmbilden ovan, som också fylls i av CallTrackingMetrics när aktiviteten skapas.
 
-![Kontaktpunktstypen &quot;Call&quot; hämtas från aktiviteten från ](assets/marketo-engage-activities-01.png)
+![Kontaktpunktstypen &quot;Call&quot; hämtas från aktiviteten från &#x200B;](assets/marketo-engage-activities-01.png)
 
 ## Rapportering {#reporting}
 

@@ -28,7 +28,7 @@ När du har loggat in på ditt [!DNL Pardot]-konto följer du stegen nedan.
 
 1. Kontrollera lämplig layoutmall och klicka på **[!UICONTROL Edit]** till höger.
 
-   ![1. Bestäm lämplig layoutmall och klicka på Redigera till ](assets/adding-pages-1.png)
+   ![1. Bestäm lämplig layoutmall och klicka på Redigera till &#x200B;](assets/adding-pages-1.png)
 
 1. Kopiera och klistra in JavaScript-koden [!DNL Marketo Measure] precis före den avslutande rubriktaggen på din HTML-sida.
 

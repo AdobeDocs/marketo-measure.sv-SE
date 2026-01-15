@@ -78,11 +78,11 @@ Om du vill börja använda de offentliga arbetsförmedlingarna måste du lägga 
 1. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Accounts]** > **[!UICONTROL Page Layout]**. Markera sedan den sidlayout som du vill redigera.
 1. Gå till [!UICONTROL Fields] och flytta fältet Predictive Engagement Score till ditt kontoinformationsavsnitt.
 
-   ![1. Gå till Fält och flytta fältet Predictive Engagement Score ](assets/account-marketing-3.png)
+   ![1. Gå till Fält och flytta fältet Predictive Engagement Score &#x200B;](assets/account-marketing-3.png)
 
 1. Till sist går du till [!UICONTROL Related Lists] och flyttar den relaterade listan Leads till din sidlayout.
 
-   ![1. Till sist går du till Relaterade listor och flyttar Leads-relaterade ](assets/account-marketing-4.jpg)
+   ![1. Till sist går du till Relaterade listor och flyttar Leads-relaterade &#x200B;](assets/account-marketing-4.jpg)
 
 1. Gå sedan till **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Leads]** > **[!UICONTROL Page Layout]** och välj de sidlayouter som du vill redigera.
 1. Klicka på **[!UICONTROL Fields]** och lägg till fältet [!UICONTROL Account] där du ser plats på sidan.

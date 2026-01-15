@@ -28,7 +28,7 @@ För att kunna rapportera om kontakter med Buyer Touchpoints som inte är koppla
 
 1. Ange [!UICONTROL Primary Object] som [!UICONTROL Contacts]. Ange etiketten för rapporttypen som&quot;Kontakter med Buyer Touchpoints&quot;. Använd samma namn för rapporttypen Namn. I beskrivningen anges&quot;Kontakter med Buyer Touchpoints&quot;. Spara rapporten i [!UICONTROL Other] och ange rapporten till [!UICONTROL Deployed].
 
-   ![1. Ange det primära objektet som &quot;Kontakter&quot;. Namnge rapporten ](assets/new-types-11.png)
+   ![1. Ange det primära objektet som &quot;Kontakter&quot;. Namnge rapporten &#x200B;](assets/new-types-11.png)
 
 1. Därifrån kommer du att länka Kontaktobjektet till Buyer Touchpoints-objektet. Se till att du väljer knappen &quot;Varje A-post måste ha minst en relaterad B-post.&quot;
 

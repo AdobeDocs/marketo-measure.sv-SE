@@ -22,14 +22,14 @@ Om din SFDC-organisation använder flera kampanjposttyper måste plocklistevärd
 
 1. Välj kampanjposttyper genom att klicka på knappen **[!UICONTROL Record Type Label]**, inte på knappen [!UICONTROL edit].
 
-   ![1. Välj kampanjposttyper genom att klicka på posttypen ](assets/offline-channels-15.jpg)
+   ![1. Välj kampanjposttyper genom att klicka på posttypen &#x200B;](assets/offline-channels-15.jpg)
 
 1. Här visas de tillgängliga plocklistorna för den posttypen. Välj **[!UICONTROL Edit]** bredvid fältet Aktivera slutpunkter för köpare.
 
-   ![1. Här visas de tillgängliga plocklistorna för ](assets/offline-channels-18.jpg)
+   ![1. Här visas de tillgängliga plocklistorna för &#x200B;](assets/offline-channels-18.jpg)
 
 1. Lägg till alla tre värdena från grupperingen&quot;Tillgängliga värden&quot; i grupperingen&quot;Valda värden&quot;.
 
-   ![1. Lägg till alla tre värdena från grupperingen &quot;Tillgängliga värden&quot; i ](assets/offline-channels-10.jpg)
+   ![1. Lägg till alla tre värdena från grupperingen &quot;Tillgängliga värden&quot; i &#x200B;](assets/offline-channels-10.jpg)
 
 1. Ange standardvärdet som Ingen och klicka på **[!UICONTROL Save]**. Upprepa för alla ytterligare typer av kampanjposter.

@@ -314,7 +314,7 @@ LinkedIn kräver att alla annonser som skapas eller ändras genomgår den normal
 
 Båda. Integrationen [!DNL Marketo Measure] gör att vi kan tagga mål-URL:en från klickbilden i annonsen, men den förkortade URL:en i annonsbeskrivningen uppdateras automatiskt.
 
-![Båda. Tack vare Marketo Measure-integreringen kan vi tagga målet ](assets/select-type-1.png)
+![Båda. Tack vare Marketo Measure-integreringen kan vi tagga målet &#x200B;](assets/select-type-1.png)
 
 **Jag har anslutit mitt [!DNL LinkedIn ads]-konto. Varför taggar inte [!DNL Marketo Measure] mina länkar?**
 

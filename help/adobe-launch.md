@@ -26,7 +26,7 @@ När tillägget [!DNL Marketo Measure] installeras och konfigureras i Adobe Laun
 >* [Adobe Launch Overview](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
 >* [Adobe Launch Extension - översikt](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. Skapa en egenskap enligt stegen [ i den här artikeln](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
+1. Skapa en egenskap enligt stegen [&#x200B; i den här artikeln](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Klicka på den egenskap som du skapade.
 
@@ -46,7 +46,7 @@ När tillägget [!DNL Marketo Measure] installeras och konfigureras i Adobe Laun
 
 1. I fältet Bizible AccountId anger du webbplatsens URL (till exempel `adobe.com`).
 
-   ![1. I fältet Bizible AccountId skriver du in URL:en för ](assets/marketo-launch-6.png)
+   ![1. I fältet Bizible AccountId skriver du in URL:en för &#x200B;](assets/marketo-launch-6.png)
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -62,7 +62,7 @@ När tillägget [!DNL Marketo Measure] installeras och konfigureras i Adobe Laun
 
 1. Välj **[!UICONTROL Core]** i listrutan Tillägg. Välj sedan **[!UICONTROL Library Loaded (Page Top)]** i listrutan Händelsetyp. Om du inte ger evenemanget ett namn används ett standardnamn. Klicka på **[!UICONTROL Keep Changes]** när du är klar.
 
-   ![1. Välj Core (kärna) i listrutan Extension. I händelsen ](assets/marketo-launch-1.png)
+   ![1. Välj Core (kärna) i listrutan Extension. I händelsen &#x200B;](assets/marketo-launch-1.png)
 
 1. Klicka på knappen **[!UICONTROL Add]** under Åtgärder.
 
@@ -70,7 +70,7 @@ När tillägget [!DNL Marketo Measure] installeras och konfigureras i Adobe Laun
 
 1. Välj **[!UICONTROL Bizible Analytics]** i listrutan Tillägg. Välj sedan **[!UICONTROL Initialize]** i listrutan Åtgärdstyp. Om du inte ger funktionsmakrot ett namn används ett standardnamn. Klicka på **[!UICONTROL Keep Changes]** när du är klar.
 
-   ![1. I listrutan Tillägg väljer du Bizible Analytics. Sedan i åtgärden ](assets/marketo-launch-4.png)
+   ![1. I listrutan Tillägg väljer du Bizible Analytics. Sedan i åtgärden &#x200B;](assets/marketo-launch-4.png)
 
 1. Klicka på **[!UICONTROL Save]**.
 

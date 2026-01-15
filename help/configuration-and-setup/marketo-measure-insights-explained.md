@@ -18,7 +18,7 @@ När någon spåras av JavaScript:n [!DNL Marketo Measure] och fyller i ett form
 
 Först ser du i mitten av dina insikter hur många sessioner personen har haft på din webbplats. Du kan bläddra bland sessionerna och navigera när du vill.
 
-![Först ser du i mitten av dina insikter numret ](assets/marketo-app-1.png)
+![Först ser du i mitten av dina insikter numret &#x200B;](assets/marketo-app-1.png)
 
 Om du klickar på&quot;Alla&quot; i den övre delen av dina insikter kan du se hur alla sessioner har lagts samman. Där förstår du datumen för de enskilda sessionerna, vilken kanal eller källa som ledde till dem och en uppsättning ikoner som specificerar mer information.
 
@@ -30,7 +30,7 @@ Ikonerna som ser ut som papper visar att en sidvy har inträffat under sessionen
 
 Ikonen som ser ut som en bägare signalerar att ett A/B-testexperiment har utförts. Vi integrerar nu med Optimizely och VWO. Med den här integreringen kan vi driva på det experiment och den variation som användaren såg på sitt eget seminarium.
 
-![Ikonen som ser ut som en bägare signalerar att ett A/B-test ](assets/marketo-app-3.png)
+![Ikonen som ser ut som en bägare signalerar att ett A/B-test &#x200B;](assets/marketo-app-3.png)
 
 Om du klickar på en specifik session (du kan göra detta genom att klicka på det faktiska datumet för sessionen eller i den övre delen av de grupperade sessionerna) kan du se sessionsinformationen. I varje session ser du alla sidor som användaren såg beställda per datum och tid.
 
