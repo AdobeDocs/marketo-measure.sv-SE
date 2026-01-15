@@ -46,4 +46,4 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Självstudiekurser: Ytterligare SFDC-rapporter](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Självstudiekurser: Ytterligare SFDC-rapporter](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

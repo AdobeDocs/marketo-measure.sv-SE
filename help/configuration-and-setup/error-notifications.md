@@ -156,7 +156,7 @@ Salesforce-dokumentation om flödesutlösare <a href="https://admin.salesforce.c
             <a href="/help/adobe-analytics.md">Marketo Measure-integreringar med Adobe Analytics</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html">Skapa en kundattributkälla och överför datafilen</a>
+            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=sv-SE">Skapa en kundattributkälla och överför datafilen</a>
           </li>
         </ul>
       </td>

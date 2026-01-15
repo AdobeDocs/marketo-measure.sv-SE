@@ -22,11 +22,11 @@ När tillägget [!DNL Marketo Measure] installeras och konfigureras i Adobe Laun
 >
 >Klicka på följande länkar för att lära dig mer om Adobe Launch och dess tillägg:
 >
->* [[!DNL Marketo Measure] Tillägg](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
->* [Adobe Launch Overview](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
->* [Adobe Launch Extension - översikt](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+>* [[!DNL Marketo Measure] Tillägg](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=sv-SE#catalog){target="_blank"}
+>* [Adobe Launch Overview](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=sv-SE){target="_blank"}
+>* [Adobe Launch Extension - översikt](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=sv-SE){target="_blank"}
 
-1. Skapa en egenskap enligt stegen [&#x200B; i den här artikeln](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
+1. Skapa en egenskap enligt stegen [&#x200B; i den här artikeln](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=sv-SE#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Klicka på den egenskap som du skapade.
 

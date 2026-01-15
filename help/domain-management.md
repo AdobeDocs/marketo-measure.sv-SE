@@ -21,7 +21,7 @@ IMS-användare med åtkomst till Adobe Admin Console kan lägga till och valider
 
 ![IMS-användare med åtkomst till Adobe Admin Console kan lägga till och](assets/domain-management-4.png)
 
-Instruktioner om hur du lägger till domäner finns i [Admin Console-dokumentationen](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). När en domän har lagts till måste den vara [länkad till en katalog](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
+Instruktioner om hur du lägger till domäner finns i [Admin Console-dokumentationen](https://helpx.adobe.com/se/enterprise/using/add-domains-directories.html). När en domän har lagts till måste den vara [länkad till en katalog](https://helpx.adobe.com/se/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Hantera domäner i [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 

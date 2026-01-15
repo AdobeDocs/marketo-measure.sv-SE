@@ -32,7 +32,7 @@ Marketo Measure godkänner följande värden: E-postadress, Salesforce lead-ID e
 
 | Marknadsföringsautomatisering | Token / Tagg / Makro | Exempel | Stödmaterial |
 | --- | --- | --- | --- |
-| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [Översikt över token](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html) |
+| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [Översikt över token](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=sv-SE) |
 | Pardot | %%email%% eller %%user_crm_id%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Referens för punktvariabelmärkord](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
 | Hubspot | (infogat via Redigeraren) | n/a | [HubSpot-anpassning av innehåll](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
 | Aktiv-på | (infogat via Message Composer) | n/a | [Aktiv-på-anpassa e-postinnehåll](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
