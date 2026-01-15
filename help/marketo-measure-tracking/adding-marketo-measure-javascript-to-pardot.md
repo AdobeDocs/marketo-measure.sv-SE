@@ -1,15 +1,14 @@
 ---
-description: Lägger till [!DNL Marketo Measure] JavaScript i [!DNL Pardot] - [!DNL Marketo Measure]
+description: Lägger till [!DNL Marketo Measure] JavaScript i [!DNL Pardot] riktlinjer för Marketo Measure-användare
 title: Lägger till [!DNL Marketo Measure] JavaScript i [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 1%
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
-
 
 # Lägger till [!DNL Marketo Measure] JavaScript i [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
@@ -25,11 +24,11 @@ När du har loggat in på ditt [!DNL Pardot]-konto följer du stegen nedan.
 
 1. Välj **[!UICONTROL Layout Template]**.
 
-   ![&#x200B; 3](assets/1-3.png)
+   ![1. Välj layoutmall.](assets/adding-providers-4.png)
 
 1. Kontrollera lämplig layoutmall och klicka på **[!UICONTROL Edit]** till höger.
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![1. Bestäm lämplig layoutmall och klicka på Redigera till ](assets/adding-pages-1.png)
 
 1. Kopiera och klistra in JavaScript-koden [!DNL Marketo Measure] precis före den avslutande rubriktaggen på din HTML-sida.
 

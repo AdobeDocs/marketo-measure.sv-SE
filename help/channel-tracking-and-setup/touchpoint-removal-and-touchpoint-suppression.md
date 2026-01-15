@@ -1,0 +1,77 @@
+---
+description: Guide för borttagning av pekpunkter och inaktivering av pekpunkter för Marketo Measure-användare
+title: Borttagning av pekpunkter och inaktivering av pekpunkter
+exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
+feature: Touchpoints
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 0%
+
+---
+
+# Borttagning av pekpunkter och inaktivering av pekpunkter {#touchpoint-removal-and-touchpoint-suppression}
+
+Lär dig hur du tar bort eller inaktiverar kontaktpunkter som uppfyller specifika villkor i CRM. Detta kan vara praktiskt om du vill frigöra dataminne om du har [!DNL Salesforce] lagringsgränser för data.
+
+Det finns en viktig skillnad mellan reglerna för borttagning av pekpunkter och reglerna för inaktivering av pekpunkter:
+
+* Ta bort kontaktpunkter - [!DNL Marketo Measure] tömmer (dvs. tar bort) alla kontaktpunkter i CRM som uppfyller regelvillkoren. Data _kan_ rapporteras på [!DNL Marketo Measure] ROI Dashboard, men inte längre i CRM.
+* Inaktivering av pekpunkter - Liknar borttagning av pekpunkter, men det går inte att rapportera data på ROI-instrumentpanelen.
+
+Innan du börjar skapa regler för borttagning/inaktivering av slutpunkter är det en bra idé att dela implementeringsplanen med marknadsförings- och säljteamet. Du bör redan ha en uppfattning om vilka typer eller värden du vill ta bort. Några vanliga användningsområden är:
+
+* Ta bort kontaktpunkter från stängda förlorade affärsmöjligheter
+* Ta bort kontaktpunkter från mycket gamla leads
+* Ta bort kontaktpunkter från okvalificerade leads
+
+När reglerna har sparats rensar [!DNL Marketo Measure] och distribuerar om din attribueringsmodell. Detta innebär att milstolparna och positionerna kommer att förändras och kanalens attribueringskrediter kommer att ändras! Detta ändrar dina data, så kontakta din Success Manager om du behöver hjälp.
+
+`1)` Det finns två avsnitt för inställningar för borttagning/inaktivering. Du kan ställa in den för Buyer Touchpoints (Leads and Contacts) eller Buyer Attribution Touchpoints (Kontakter, Affärsmöjligheter och Konton).
+
+Börja med att lägga till en regel och markera fältet som definierar dina villkor.
+
+Välj i en lista över operatorer som ska relatera till nästa uppsättning värden, som du lägger till i nästa kolumn.
+
+![Välj i en lista över operatorer som ska relatera till nästa](assets/touchpoint-settings-10.png)
+
+>[!TIP]
+>
+>Om du vill lägga till flera värden i ett fält använder du operatorn&quot;matchar alla&quot; med kommatecken som avgränsar varje värde.
+
+>[!TIP]
+>
+>Om du vill ta hänsyn till ett tomt eller NULL-värde i ett fält lämnar du rutan [!UICONTROL Value] tom. Detta tar hänsyn till scenarier som att utvärdera mot en kontaktyta utan formulär-URL.
+
+>[!NOTE]
+>
+>Formelfält kan inte användas i reglerna och visas inte i plocklistan. Eftersom formler beräknas i bakgrunden och inte ändrar en post, kan [!DNL Marketo Measure] inte identifiera om en post passar in i en regel eller inte.
+
+`2)` Lägg till regler i samma grupp för att använda AND-logik i din sats.
+Du kan också lägga till nya programsatser utanför gruppen för att använda &quot;OR&quot;-logiken i programsatsen.
+
+![Eller lägg till nya programsatser utanför gruppen för att använda &quot;OR&quot;-logik](assets/touchpoint-settings-11.png)
+
+`3)` Om reglerna blir komplicerade och du behöver återskapa grupper och göra små ändringar i varje sats, använder du alternativet [!UICONTROL Clone] för att göra det enklare.
+
+![3) Om reglerna blir komplicerade och du måste återskapa grupper](assets/touchpoint-settings-6.png)
+
+Om du gör ett misstag, oroa dig inte. Du kan också ta bort enskilda rader i programsatsen eller hela grupper.
+
+![Om du gör ett misstag, oroa dig inte. Du kan ta bort enskilda rader](assets/touchpoint-settings-7.png)
+
+`4)` Konfigurera regler för Buyer Attribution Touchpoints om du vill att de ska tillämpas på båda objekten. Tack vare vår flexibilitet kan du ange regler för ett eller båda objekt och du kan välja att ställa in dem för båda om de är tillämpliga.
+
+![4) Ange regler för Touchpoints för Buyer-attribut om du vill](assets/touchpoint-settings-8.png)
+
+Slutför genom att [!UICONTROL Save and Process] dina regler. Om du gör många ändringar måste du spara ändringarna under tiden. [!DNL Marketo Measure] börjar inte ta bort dina Touchpoints förrän du klickar
+[!UICONTROL **Spara och bearbeta**] .
+
+| **Operator** | **Använd skiftläge** |
+|---|---|
+| Är lika med | Enskilt värde - exakt matchning |
+| Innehåller | Enskilt värde - innehåller värde |
+| Matchar alla | Flera värden - exakt matchning |
+| Matchar alla (innehåller) | Flera värden - &#42;värde&#42;, &#42;värde, &#42;värde&#42; |
+
+För kunder som använder Dynamics och som vill ställa in undertryckningsregler baserade på status och/eller statskod krävs följande formatering när regeln konfigureras: `[Object].Statecode` är lika med eller inte lika med `[Status Value]`. Om till exempel statskoden i Dynamics har värdet 1 för en kontakt och statusen är Inaktiv och du vill inaktivera alla sådana kontakter, skulle följande format vara felaktigt för din Suppression-regel: Contact.StatusCode är lika med 1. I stället vill du använda följande format - eftersom statskod och status fungerar som ett par läser [!DNL Marketo Measure] värdet från Status i vår fråga: Contact.StatusCode är lika med Inactive.

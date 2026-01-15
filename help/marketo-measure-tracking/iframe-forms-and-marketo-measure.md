@@ -1,15 +1,14 @@
 ---
-description: IFrame Forms och [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: IFrame Forms och [!DNL Marketo Measure] riktlinjer för Marketo Measure-användare
 title: IFrame Forms och [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
 
 # IFrame Forms och [!DNL Marketo Measure] {#iframe-forms-and-marketo-measure}
 
@@ -21,6 +20,6 @@ I många fall ser vi att IFrame hanteras av en leverantör av marknadsföringsau
 
 Vi rekommenderar att du placerar JavaScript i huvudet på IFrame och därifrån bifogar vi automatiskt formulären inom ramen.
 
-![HTML-kod](assets/1-1.png)
+![Vi rekommenderar att du placerar JavaScript i huvudet på ](assets/adding-pages-1.png)
 
 Om du har några frågor om hur du lägger till JavaScript i IFrame-formulär kan du kontakta Adobe Account Team (din kontohanterare) eller [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

@@ -1,15 +1,14 @@
 ---
-description: LinkedIn-integrering - [!DNL Marketo Measure]
+description: LinkedIn Integration Guide för Marketo Measure-användare
 title: LinkedIn-integrering
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2694'
 ht-degree: 0%
 
 ---
-
 
 # LinkedIn-integrering {#linkedin-integration}
 
@@ -27,7 +26,7 @@ Tillgängligt för alla användare.
 
 ## Krav {#requirements}
 
-**Roller för kampanjhanteraren**
+### Roller för Campaign Manager
 
 För att [!DNL Marketo Measure] ska kunna hämta kostnadsdata för annonser och annonser måste du ha en av följande roller i Campaign Manager:
 
@@ -37,7 +36,7 @@ För att [!DNL Marketo Measure] ska kunna hämta kostnadsdata för annonser och 
 
 Läs mer: [Användarroller och -funktioner i Campaign Manager](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
 
-**Roller för betald medieadministratör**
+### Roller för betald medieadministratör
 
 För att [!DNL Marketo Measure] ska kunna skapa/uppdatera sponsrade Creative-objekt måste du ha någon av följande roller för betald mediaadministratör:
 
@@ -48,7 +47,7 @@ Läs mer: [LinkedIn Page Admin Roles](https://www.linkedin.com/help/linkedin/ans
 
 Det finns andra [!DNL LinkedIn]-roller som vi **inte** behöver för vår integrering. De här rollerna är ofta felaktiga för de roller som krävs, så observera att det är en skillnad!
 
-**Roller för sidadministration**
+### Roller för sidadministration
 
 För att [!DNL Marketo Measure] ska kunna hämta/integrera leads från lead-genereringsformulär måste du ha följande roll för sidadministration:
 
@@ -60,29 +59,31 @@ Läs mer: [LinkedIn Page Admin Roles](https://www.linkedin.com/help/linkedin/ans
 
 [!DNL Marketo Measure] kommer att stödja:
 
-**Sponsrat innehåll:** Sponsrat innehåll gör att du kan leverera innehåll till medlemmarna i [!DNL LinkedIn]-flödet utöver dem som följer ditt företag. Sponsrat innehåll kan riktas mot en viss målgrupp och kan hjälpa annonsörer att nå [!DNL LinkedIn]-medlemmar oavsett var och när de interagerar på [!DNL LinkedIn]-plattformen på datorn, mobilen och surfplattan. Sponsrat innehåll med Lead Gen Forms stöds.
+Sponsrat innehåll gör att du kan leverera innehåll till [!DNL LinkedIn]-flödet med medlemmar utöver de som följer ditt företag. Sponsrat innehåll kan riktas mot en viss målgrupp och kan hjälpa annonsörer att nå [!DNL LinkedIn]-medlemmar oavsett var och när de interagerar på [!DNL LinkedIn]-plattformen på datorn, mobilen och surfplattan. Sponsrat innehåll med Lead Gen Forms stöds.
 
 De typer av annonsformat för sponsrat innehåll som stöds av [!DNL Marketo Measure] är Single Image Ads och Video Ads (via Lead Gen Forms). På grund av schemats komplexitet stöder vi inte Carousel-annonser.
 
 [!DNL Marketo Measure] stöder inte Sponsored Messaging, Text Ads eller Dynamic Ads.
 
-![LinkedIn-annonstyper med stöd för Single Image Ads, Video Ads och Carousel med Forms Lead Gen &#x200B;](assets/one.png)
+![Marketo Measure stöder inte Sponsored Messaging, Text Ads eller Dynamic](assets/bizible-guide-1.png)
 
 >[!TIP]
+>
 >För alla kampanjer/utgifter som kommer från en icke-finansierad innehållskälla (till exempel Campaign-typen &quot;Text Ad&quot; eller &quot;Sponsored InMail&quot;), stöder [!DNL Marketo Measure] _inte_ i sig spårning av dessa kampanjtyper. Om du vill spåra utgifter för kampanjer som dessa tillsammans med dina&quot;Sponsored Content&quot;-utgifter måste du använda vår Marketing Spend CSV för att manuellt logga dessa utgifter.
 
 ## Så här fungerar det: Sponsrat innehåll {#how-it-works-sponsored-content}
 
 >[!NOTE]
+>
 >Den här funktionsinställningen måste aktiveras innan du kan använda den första gången genom att gå till [!DNL Marketo Measure] [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Ads] > [!UICONTROL Enable LinkedIn Lead Gen Forms].
 
-**[!DNL LinkedIn's]Unika krav för automatisk taggning**
+### [!DNL LinkedIn's] unika krav för automatisk taggning
 
 [!DNL Marketo Measure] kan hjälpa dig att spåra din [!DNL LinkedIn]-kampanjprestanda genom att tagga dina landningssidor automatiskt.
 
 [!DNL Marketo Measure] söker efter kreatörer med en unik LinkedIn-resurs och lägger till en `?_bl={creativeId}`-parameter i slutet av den.
 
-**Kopierar resurser**
+### Kopierar resurser
 
 Med den här [!DNL Marketo Measure/LinkedIn]-integreringen frågar vi om kunderna inte kopierar/klonar/duplicerar befintliga Creative-objekt. Om resurser hittas och bara används på en Creative kan [!DNL Marketo Measure] tagga delningen som den är utan att behöva återskapa några Creative- eller Shares-objekt och all annonshistorik (visningar, klickningar, delningar) finns kvar.
 
@@ -90,13 +91,13 @@ Så snart en resurs har delats av flera Creative-medlemmar måste [!DNL Marketo 
 
 Om du går framåt rekommenderar [!DNL Marketo Measure] att du inte duplicerar några [!DNL LinkedIn]-resurser och behåller alla kreativa och delade resurser så unika som möjligt så att vi enkelt kan lägga till vår spårning utan att behöva radera annonshistoriken.
 
-**Förkortade URL:er**
+### Förkortade URL:er
 
 Orsaken till det extra steget är att LinkedIn tillåter att mål-URL:er är en förkortad URL (bit.ly, goog.le osv.), vilket innebär att [!DNL Marketo Measure] inte kan se den långa, lösta URL:en och [!DNL Marketo Measure] måste lägga till spårningsparametrar i en matchad URL. För att komma runt det problemet letar [!DNL Marketo Measure] efter förkortade URL:er innan en annons återskapas, expanderar URL:en, skapar sedan den nya annonsen med den matchade URL:en och alla dess parametrar så att [!DNL Marketo Measure] kan lägga till taggar. Om du skapar en ny annons raderas annonshistoriken (visningar, klickningar, delningar), vilket innebär att du måste ha behörighet att tagga förkortade URL:er.
 
 Om du använder förkortade URL:er i stor utsträckning kan detta få allvarliga konsekvenser för dina kreatörer. Vi rekommenderar att du inte längre använder förkortade URL:er så att [!DNL Marketo Measure] kan tagga landningssidorna utan att behöva skapa nya annonser och radera annonshistorik.
 
-**Processen**
+### Processen
 
 Låt oss börja med några exempel. Säg att vi har...
 
@@ -105,7 +106,7 @@ Creative B: Share 234\
 Creative C: Share 234\
 Creative D: Share 234
 
-![Bild som visar fyra användare med tillhörande resurser före processen för automatisk taggning](assets/two.png)
+![Creative D : Share 234](../assets/marketo-engage-activities-05.png)
 
 `1)` [!DNL Marketo Measure] kommer först att genomsöka alla kampanjer, kreativa aktiviteter och resurser med statusen Aktiv. [!DNL Marketo Measure] taggar inte pausade, arkiverade eller annullerade annonser. Om en annons pausades och sedan anges till [!UICONTROL active] taggas den när den är aktiv igen. Om vi kan hitta en unik resurs, vilket innebär att den inte används i flera olika Creative-program eller kampanjer (t.ex. Creative A: Dela 123), lägger [!DNL Marketo Measure] till den anpassade parametern `>> ?_bl={creativeId}` i delnings-URL:en.
 
@@ -118,19 +119,16 @@ Creative D: Share 234
 `5)` [!DNL Marketo Measure] måste regelbundet kontrollera att resurser inte delas och om de gör det kommer vi att starta om processen i steg 2 ovan.
 
 >[!NOTE]
+>
 >Om vi implementerar detta kommer våra kunder att förlora annonshistoriken för Creative B: Share 234, Creative C: Share 234 och Creative D: Share 234 eftersom det nu återskapas med Creative E: Share 345, Share F: Share 456 och Creative G: Share 567.
 
-![Bild som visar nya kreatörer med unika resurser som skapats efter automatisk taggning och arkiveringsprocess](assets/three.png)
+![Om du implementerar det här innebär det att våra kunder förlorar annonshistoriken](assets/api-connections-01.png)
 
 ## Så här fungerar det: Lead Gen Forms {#how-it-works-lead-gen-forms}
-
-**[!DNL LinkedIn's]Unika krav för automatisk taggning**
 
 [!DNL Marketo Measure] kan hjälpa dig att spåra din [!DNL LinkedIn]-kampanjprestanda genom att tagga dina landningssidor automatiskt.
 
 [!DNL Marketo Measure] söker efter kreatörer med en unik LinkedIn-resurs och lägger till en `?_bl={creativeId}`-parameter i slutet av den.
-
-**Processen**
 
 Genom [!DNL LinkedIn's] API:t för annonseringsformulär och API:t för formulärsvar kan vi samla in formuläröverföringsdata för ett annonskonto och koppla e-postadressen till ett lead från CRM eller Marketo.
 
@@ -139,9 +137,9 @@ LinkedIn-formulär kan innehålla flera e-postadresser. När vi hämtar formulä
 Oavsett status för Campaign eller Creative resulterar alla formulärsvar i en kontaktyta. [!DNL Marketo Measure] har en 90-dagars uppslagsbegränsning, så [!DNL Marketo Measure] kan inte komma åt formulärsvar som är äldre än 90 dagar, men ju längre [!DNL Marketo Measure] - och [!DNL LinkedIn]-integreringen är aktiverad, desto fler Lead Gen-kontaktytor visas via [!DNL Marketo Measure].
 
 >[!NOTE]
+>
 >LinkedIn-kostnader hämtas fortfarande som en del av Sponsored Content Campaigns.
 
-**Spåra Lead Gen Forms i CRM eller Marketo**
 
 Innan [!DNL Marketo Measure] och LinkedIn Lead Gen Forms Integration fanns var det vanligt att kunderna skickade in formulär till ett Marketo-program och/eller CRM Campaign för att spåra formulären och få attribuering för dessa aktiviteter. När inställningen Lead Gen Forms är aktiverad vill vi se till att dessa formulärinskickade formulär inte räknas två gånger. Kontrollera följande:
 
@@ -150,6 +148,7 @@ Innan [!DNL Marketo Measure] och LinkedIn Lead Gen Forms Integration fanns var d
 * Uppdatera alla relaterade CRM-kampanjregler
 
 >[!NOTE]
+>
 >LinkedIn API har en 90-dagars uppslagsbegränsning, så om du använder Marketo- eller CRM-regler bör du ange slutdatumet för regeln till 90 dagar före det datum då du aktiverade integreringen i [!DNL Marketo Measure].
 
 ## Kontaktpunktsinformation {#touchpoint-details}
@@ -263,7 +262,7 @@ Eftersom [!DNL Marketo Measure] är direkt integrerat med [!DNL LinkedIn] hämta
 
 Precis som med andra annonseringsintegreringar har [!DNL Marketo Measure] definierat en regel för marknadsföringskanaler för att placera alla [!DNL LinkedIn]-kampanjer, kreativa aktiviteter och kostnader. För att kunna använda regeln måste kunden infoga en ny rad för sina [!DNL LinkedIn]-insatser. Det kan vara en ny eller befintlig kanal. I kolumnen Referens använder du definitionen &quot;[[!DNL LinkedIn] Betald]&quot; som [!DNL Marketo Measure] har definierat som en kontaktyta med en [!DNL Marketo Measure] -tagg.
 
-![Regelkonfiguration för marknadsföringskanal som visar kanaldefinitionen LinkedIn Paid med referenskolumnen](assets/four.png)
+![Precis som med andra annonsintegreringar har Marketo Measure definierat en marknadsföring](../assets/marketo-engage-activities-01.png)
 
 ## [!DNL Marketo Measure] Upptäck {#marketo-measure-discover}
 
@@ -315,7 +314,7 @@ LinkedIn kräver att alla annonser som skapas eller ändras genomgår den normal
 
 Båda. Integrationen [!DNL Marketo Measure] gör att vi kan tagga mål-URL:en från klickbilden i annonsen, men den förkortade URL:en i annonsbeskrivningen uppdateras automatiskt.
 
-![LinkedIn och visar både mål-URL och förkortad URL i en beskrivning som taggas](assets/five.png)
+![Båda. Tack vare Marketo Measure-integreringen kan vi tagga målet ](assets/select-type-1.png)
 
 **Jag har anslutit mitt [!DNL LinkedIn ads]-konto. Varför taggar inte [!DNL Marketo Measure] mina länkar?**
 
@@ -325,7 +324,7 @@ Den anslutna [!DNL LinkedIn]-användaren måste ha rätt redigeringsåtkomst, vi
 
 Resurs-ID:t anges inte i en [!DNL LinkedIn]-rapport, så det finns inget tydligt och tydligt sätt att söka efter mappningar av typen creative-to-share. Om du misstänker att en kreatör kan vara en kopia kan du kontrollera manuellt genom att öppna annonsen i din [!DNL LinkedIn] Campaign Manager. Detta öppnar annonsen på en ny flik och du hittar resurs-ID:t i URL:en.
 
-![LinkedIn Campaign Manager visar och öppnas på en ny flik med resurs-ID synligt i URL:en](assets/six.png)
+![Resurs-ID:t finns inte i en LinkedIn-rapport, så](assets/linkedin-integration-02.png)
 
 ## Lead Gen Forms - frågor och svar {#lead-gen-forms-faq}
 

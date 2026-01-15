@@ -1,15 +1,14 @@
 ---
-description: Förstå [!DNL Marketo Measure] AdWords-taggning - [!DNL Marketo Measure]
+description: Om  [!DNL Marketo Measure] AdWords Tagging-vägledning för Marketo Measure-användare
 title: Om  [!DNL Marketo Measure] AdWords-taggning
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 0%
+source-wordcount: '630'
+ht-degree: 1%
 
 ---
-
 
 # Om [!DNL Marketo Measure] AdWords-taggning {#understanding-marketo-measure-adwords-tagging}
 
@@ -61,11 +60,11 @@ Det finns två spårningsmallar som [!DNL Marketo Measure] rekommenderar. Använ
 
 1. Klicka på **[!UICONTROL All campaigns]** och sedan på **[!UICONTROL Settings]** i det expanderande fönstret.
 
-   ![Google AdWords-navigering som visar menyn Alla kampanjer med alternativet Inställningar](assets/1.png)
+   ![1. Klicka på Alla kampanjer och sedan på Inställningar i den expanderande ](assets/utilizing-connections-13.png)
 
 1. Klicka på **[!UICONTROL Account Settings]** överst och sedan på **[!UICONTROL Tracking Template]**. Ange spårningsmallen [!DNL Marketo Measure].
 
-   ![Sidan Kontoinställningar med fältet Spårningsmall för att ange Marketo Measure-parametrar](assets/2-1.png)
+   ![1. Klicka på Kontoinställningar högst upp och sedan spåra](assets/bizible-guide-1.png)
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -73,11 +72,11 @@ Det finns två spårningsmallar som [!DNL Marketo Measure] rekommenderar. Använ
 
 1. Klicka på **[!UICONTROL All campaigns]** och sedan på **[!UICONTROL Campaigns]** i det expanderande fönstret.
 
-   ![Google AdWords-navigering som visar menyn Alla kampanjer med alternativet Kampanjer](assets/3.png)
+   ![1. Klicka på Alla kampanjer och sedan på Campaigns i den expanderande ](assets/utilizing-connections-12.png)
 
 1. Välj alla tillämpliga kampanjer eller **[!UICONTROL Select All]**, klicka på **[!UICONTROL Edit]** och klicka sedan på **[!UICONTROL Change Tracking Templates]**.
 
-   ![Kampanjmarkeringssida med Redigera-menyn som visar alternativet för ändringsspårningsmallar](assets/4-1.png)
+   ![1. Välj alla tillämpliga kampanjer eller välj Alla, klicka på Redigera,](../assets/marketo-engage-activities-05.png)
 
 1. Ange spårningsmallen [!DNL Marketo Measure] och klicka på **[!UICONTROL Apply]**.
 
@@ -85,13 +84,13 @@ Det finns två spårningsmallar som [!DNL Marketo Measure] rekommenderar. Använ
 
 1. Klicka på **[!UICONTROL All campaigns]** och sedan på **[!UICONTROL Ad Groups]** i det expanderande fönstret.
 
-   ![Google AdWords-navigering som visar menyn Alla kampanjer med alternativet Annonsgrupper](assets/5-1.png)
+   ![1. Klicka på Alla kampanjer och sedan på Lägg till grupper i ](assets/api-connections-01.png)
 
 1. Välj alla tillämpliga annonsgrupper eller välj Alla, klicka på **[!UICONTROL Edit]** och sedan på **[!UICONTROL Change Tracking Templates]**.
 
 1. Ange spårningsmallen [!DNL Marketo Measure] och klicka på **[!UICONTROL Apply]**.
 
-   ![Lägg till gruppmarkeringssida med Redigera-menyn som visar alternativet Ändra spårningsmallar och knappen Använd](assets/6-1.png)
+   ![1. Ange spårningsmallen för Marketo Measure och klicka på Använd.](../assets/marketo-engage-activities-01.png)
 
 ## Vanliga frågor och svar {#faq}
 
@@ -112,6 +111,7 @@ A: 4 timmar
 S: Vi kan inte hämta enskilda kreativa detaljer för dynamiska sökannonser, men om autotagging är aktiverat kan vi ändå få det kreativa ID:t och de intäktsgivande attributen.
 
 >[!NOTE]
+>
 >När ändringarna är klara är du klar. Du kan kontakta [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} om du har frågor under installationen.
 
 [Klicka här](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} för instruktioner från Google om hur du skapar spårningsmallar på kontonivå.

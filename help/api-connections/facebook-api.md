@@ -3,13 +3,13 @@ description: '[!DNL Facebook] API - [!DNL Marketo Measure]'
 title: '[!DNL Facebook] API'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
-
 
 # [!DNL Facebook] API {#facebook-api}
 
@@ -30,6 +30,7 @@ När det gäller konfiguration finns det sju steg att slutföra i appen [!DNL Ma
 1. Välj **[!UICONTROL Set Up New Ads Connection]** så visas ett popup-fönster. Välj **[!UICONTROL Facebook]** och logga in med dina inloggningsuppgifter för Facebook.
 
    >[!NOTE]
+   >
    >Personen som ansluter [!DNL Facebook Ads]-kontot måste vara en administratör inom [!DNL Facebook Ads]-kontot.
 
 1. När [!DNL Marketo Measure] är ansluten till ditt Facebook-konto klickar du på pennikonen bredvid kontot.
@@ -37,20 +38,21 @@ När det gäller konfiguration finns det sju steg att slutföra i appen [!DNL Ma
 
 ## Ansluter kontot {#connecting-the-account}
 
-![Konfigurera en ny Facebook-annonsanslutning i Marketo Measure](assets/1.gif)
+![Ansluter kontot {connecting-the-account}](assets/utilizing-connections-2.gif)
 
 ## Aktivera automatisk taggning {#enabling-autotagging}
 
 >[!NOTE]
+>
 >Om du aktiverar automatisk taggning återställer vi konverteringshistoriken och det sociala beviset för alla annonser som vi taggar. Vi rekommenderar att [exporterar dessa data som en CSV](https://www.facebook.com/business/help/205067636197240) innan du aktiverar automatisk taggning.
 
-![&#x200B; 2](assets/2-2.png)
+![Om du aktiverar automatisk taggning återställer vi konverteringshistoriken och det sociala korrekturet](assets/bizible-guide-1.png)
 
 När du har aktiverat integreringen börjar [!DNL Marketo Measure] hämta annonskostnad till [!DNL Marketo Measure Marketing ROI]-instrumentpanelen.
 
 För att integreringen ska fungera på rätt sätt måste du aktivera automatisk taggning på ditt [!DNL Facebook]-konto. Detta gör att vårt system kan lägga till en _bf-parameter för alla annonslänkar. Den här processen lägger till den nya parametern ovanpå andra spårningsparametrar som du redan har lagt till i dina [!DNL Facebook]-annonser.
 
-![Aktiverar automatisk taggning i Facebook-anslutningsinställningarna](assets/3.gif)
+![För att integreringen ska fungera på rätt sätt måste du aktivera automatisk taggning på din](../assets/marketo-engage-activities-05.png)
 
 ## Fältmappning {#field-mapping}
 

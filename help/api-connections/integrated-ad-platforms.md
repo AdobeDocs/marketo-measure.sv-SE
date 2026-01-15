@@ -1,15 +1,15 @@
 ---
-description: Integrerade annonsplattformar - [!DNL Marketo Measure]
+description: Integrerad guide för annonsplattformar för Marketo Measure
 title: Integrerade annonsplattformar
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
-
 
 # Integrerade annonsplattformar {#integrated-ad-platforms}
 
@@ -21,11 +21,11 @@ Innan vi börjar gå igenom detaljerna för varje plattform går vi igenom hur d
 
 Som visas i bilden nedan visas en knapp för att skapa nya annonsanslutningar.
 
-![Sidan Anslutningar med knappen Konfigurera ny annonsanslutning](assets/2.png)
+![Som visas i bilden nedan visas en knapp till ](assets/bizible-guide-1.png)
 
 När du har klickat på knappen [!UICONTROL Set up New Ads Connection] öppnas ett fönster (visas nedan) med fyra och [!UICONTROL connect]-jontyper. Klicka på Anslut så visas ett annat fönster där du tillfrågas om inloggningsuppgifter. Ange autentiseringsuppgifterna och klicka på [!UICONTROL authorize] för att ansluta kontot till [!DNL Marketo Measure].
 
-![Marketo Measure annonserar anslutningsspärrar med tillgängliga kontotyper](assets/select-account-type.png)
+![När du har klickat på knappen Konfigurera ny annonsanslutning visas en](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWord {#google-adwords}
 
@@ -56,15 +56,15 @@ När du har en spårningsmall på plats följer du instruktionerna nedan för at
 
 1. Gå till [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections].
 
-   ![Anslutningslista med befintliga annonskonton](assets/4.png)
+   ![1. Gå till Integreringar för Mina kontoinställningar.](assets/utilizing-connections-8.png)
 
 1. Klicka på pennikonen bredvid det Adwords-konto som ska ha [!DNL Marketo Measure] automatisk taggning aktiverad.
 
-   ![Lägg till kontoinställningspanelen med växlingsknappen Automatisk taggning](assets/5.png)
+   ![1. Klicka på pennikonen bredvid det Adwords-konto som ska ](assets/utilizing-connections-9.png)
 
 1. I det övre högra hörnet växlar du **[!UICONTROL Autotagging]** till **[!UICONTROL Yes]**. Klicka på **[!UICONTROL Learn More]** längst ned på sidan för att utöka textrutan och klicka på **[!UICONTROL Save]**. Konfigurationen av automatisk taggning är klar.
 
-   ![Bekräftelsemodal automatisk taggning i Marketo Measure](assets/6.png)
+   ![1. I det övre högra hörnet växlar du till ](assets/utilizing-connections-10.png) för automatisk taggning
 
 ## Konfigurera en spårningsmall i AdWords med [!DNL Marketo Measure] parametrar {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
@@ -88,6 +88,7 @@ Kom ihåg att du bör lägga till spårningsmallar på [!UICONTROL Account]-, [!
    För att förhindra att fel uppstår när du taggar dina URL:er manuellt rekommenderar vi att du genererar UTM-parametrarna automatiskt. Det behöver inte innebära automatisk taggning med AdWords- eller [!DNL Marketo Measure]-parametrar. Det finns flera verktyg som förenklar processen genom att parametrarna för URL:en genereras automatiskt baserat på den information du anger.
 
    >[!TIP]
+   >
    >Om du får ett felmeddelande om att spårningsmallen är ogiltig kan du försöka rensa webbläsarens cache och försöka igen. Detta löser ofta problemet.
 
 ## Generera UTM-taggar automatiskt för [!DNL Google AdWords] {#how-to-automatically-generate-utm-tags-for-google-adwords}
@@ -122,6 +123,7 @@ Vår integrering har stöd för följande annonstyper:
 * Mobil annons
 * Utökad textannons
 
+
 Funktionen för automatisk taggning i Bing Ads lägger till följande UTM-parametrar:
 
 * Utm_källa
@@ -152,7 +154,7 @@ Innan du aktiverar automatisk taggning med [!DNL Facebook Ads] är det viktigt a
 
 Observera att du när som helst kan ansluta ditt [!DNL Facebook]-konto till [!DNL Marketo Measure]-appen och inga data går förlorade. Det är bara när automatisk taggning är aktiverat som prestandahistoriken rensas.
 
-Mer information om hur du exporterar [&#x200B; annonsrapporter finns i &#x200B;](https://www.facebook.com/business/help/393890194130036){target="_blank"}den här artikeln[!DNL Facebook] från Facebook.
+Mer information om hur du exporterar [ annonsrapporter finns i ](https://www.facebook.com/business/help/393890194130036){target="_blank"}den här artikeln[!DNL Facebook] från Facebook.
 
 ## LinkedIn Sponsrat innehåll {#linkedin-sponsored-content}
 

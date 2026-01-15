@@ -1,15 +1,14 @@
 ---
-description: Lägger till [!DNL Marketo Measure] skript i ljuslådan Forms - [!DNL Marketo Measure]
+description: Lägga till [!DNL Marketo Measure] skript i Forms-vägledningen för ljuslådeanvändare för Marketo Measure
 title: Lägger till [!DNL Marketo Measure] skript i ljuslådan Forms
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
-
 
 # Lägger till [!DNL Marketo Measure] skript i ljuslådan Forms {#adding-marketo-measure-script-to-lightbox-forms}
 
@@ -21,11 +20,11 @@ Eftersom ett formulär i en ljuslåda i stort sett är ett formulär i en iFrame
 
 Först letar du reda på iFrame som formuläret [!UICONTROL lightbox] finns i.
 
-![Hitta iFrame-versionen av ljuslådeformuläret i sidkällan](assets/1.png)
+![Leta först reda på iFrame som ljuslådeformuläret finns i.](assets/adding-providers-8.png)
 
 Placera sedan [!DNL Marketo Measure] JavaScript i iFrame.
 
-![Marketo Measure-skript i ljuslådan iFrame](assets/2.png)
+![Placera sedan Marketo Measure JavaScript i iFrame.](assets/adding-providers-5.png)
 
 När JavaScript har lagts till spåras formulärinskickat material enligt följande:
 

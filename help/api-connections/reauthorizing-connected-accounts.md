@@ -1,15 +1,15 @@
 ---
-description: Återauktoriserar anslutna konton - [!DNL Marketo Measure]
+description: Vägledning om omauktorisering av anslutna konton för Marketo Measure-användare
 title: Återauktoriserar anslutna konton
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
-
 
 # Återauktoriserar anslutna konton {#reauthorizing-connected-accounts}
 
@@ -19,7 +19,7 @@ Om annonsplattformen kopplas från kan [!DNL Marketo Measure] inte hämta kostna
 
 Om din CRM-plattform kopplas från kan [!DNL Marketo Measure] inte uppdatera [!DNL Marketo Measure]-data eller överföra nya kontaktytor till din organisation. När CRM-anslutningen har återupprättats skickar [!DNL Marketo Measure] alla data som missats när kontot kopplades från.
 
-![&#x200B; 1](assets/1-1.png)
+![Om din CRM-plattform kopplas från blir Marketo Measure inte](assets/utilizing-connections-7.png)
 
 ## Återauktoriserar frånkopplade konton {#re-authorizing-disconnected-accounts}
 

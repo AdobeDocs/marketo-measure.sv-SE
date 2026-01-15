@@ -1,22 +1,23 @@
 ---
-description: Lägger till [!DNL Marketo Measure] skript - [!DNL Marketo Measure]
+description: Lägga till [!DNL Marketo Measure] skriptvägledning för Marketo Measure-användare
 title: Lägger till [!DNL Marketo Measure] skript
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
-
 
 # Lägger till [!DNL Marketo Measure] skript {#adding-marketo-measure-script}
 
 [!DNL Marketo Measure] JavaScript som du vill spåra av [!DNL Marketo Measure] bör läggas till i alla webbegenskaper så snart som möjligt. När JavaScript har distribuerats börjar [!DNL Marketo Measure] samla in dina digitala data. I den här artikeln beskrivs metoderna för att distribuera [!DNL Marketo Measure] JavaScript och andra överväganden.
 
 >[!NOTE]
->Kontrollera att du har [gjort anspråk på alla lämpliga domäner i  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} förutom att distribuera [!DNL Marketo Measure] JavaScript.
+>
+>Kontrollera att du har [gjort anspråk på alla lämpliga domäner i  [!DNL Adobe Admin Console]](/help/domain-management.md){target="_blank"} förutom att distribuera [!DNL Marketo Measure] JavaScript.
 
 När du börjar med [!DNL Marketo Measure] finns det två sätt att lägga till JavaScript [!DNL Marketo Measure] på din webbplats:
 
@@ -32,7 +33,8 @@ Vi rekommenderar starkt att du kodar [!DNL Marketo Measure] JavaScript för dina
 Om du hårdkodar JavaScript i `<head>` på sidorna ser du till att skriptet [!DNL Marketo Measure] läses in först och att hänvisningsinformationen inte missas. JavaScript [!DNL Marketo Measure] läses in asynkront. Vid hårdkodning måste JavaScript läggas till manuellt i Marketing Automation.
 
 >[!TIP]
->Lär dig hur du kontrollerar att skriptet är [GDPR-kompatibelt](/help/security/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
+>
+>Lär dig hur du kontrollerar att skriptet är GDPR-kompatibelt.
 
 ## Tag Management Systems {#tag-management-systems}
 
@@ -64,7 +66,7 @@ Se till att du har en konversation med ditt webbteam så att de vet att [!DNL Ma
 
 Om en [!DNL Web Application Firewall (WAF)]-varning utlöses under JavaScript-konfigurationen kan användare antingen inaktivera den WAF-regeln eller tillåtslista cookies, som i följande exempel:
 
-![Exempel på WAF-varningsmeddelande för Marketo Measure-skriptet](assets/adding-marketo-measure-script-1.png)
+![Om en brandväggsvarning för webbprogram (WAF) utlöses under ](assets/adding-script-1.png)
 
 ## Forms to Pay Extra Attention To {#forms-to-pay-extra-attention-to}
 
@@ -79,6 +81,7 @@ Om en [!DNL Web Application Firewall (WAF)]-varning utlöses under JavaScript-ko
 * Lösning: Lägg till undantagskod i inloggningsformuläret för konto/kund/partner.
 
 >[!NOTE]
+>
 >Vi rekommenderar att du skapar en kontaktyta för att skapa ett konto eller en testversion.
 
 **Ladda ned resurs**

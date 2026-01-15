@@ -1,11 +1,11 @@
 ---
-description: Översikt över integreringsbehörigheter - [!DNL Marketo Measure]
+description: Översikt över integreringsbehörigheter för Marketo Measure-användare
 title: Översikt över integreringsbehörigheter
 feature: APIs, Integration
 exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1291'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ I den här guiden beskrivs de nödvändiga behörigheterna för smidig integreri
 <tbody>
   <tr>
     <td>Salesforce</td>
-    <td>Systemdata för B2B  
+    <td>Systemdata för B2B
 </td>
     <td>Marketo Measure spårar:
     <p>
@@ -61,7 +61,7 @@ Kontaktpunkter som skapats och andra data skrivs in i anpassade bizibla fält p�
     <p>
     <b>Salesforce standardfältbehörigheter</b>
     <br>
-    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md"> Salesforce standardobjekt och åtkomst </a>
+    <a href="/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md"> Salesforce standardobjekt och åtkomst </a>
     <p>
     <b>Salesforce anpassade fältbehörigheter</b>
     <br>
@@ -108,7 +108,7 @@ För anpassade Marketo Measure-enheter behöver vi fullständig behörighet för
 <p>
 <b>Dynamics Standard-fältbehörigheter</b>
 <br>
-<a href="/help/marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics-schema </a>
+<a href="/help/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics-schema </a>
 <p>
 <b>Dynamics, anpassade fältbehörigheter</b>
 <br>
@@ -211,16 +211,16 @@ Marketo Measure spårar kampanjer, annonsgrupper, kreatörer, webbplatslänkar o
   <tr>
     <td>Marketo Engage</td>
     <td>Systemdata för B2B</td>
-    <td>Tack vare integreringen med Marketo kan Marketo Measure samla in Marketo aktiviteter, människor, program och programmedlemskap. Dessutom spårar Marketo Measure Marketo cookies (Munchkin ID) för att länka Marketo webbaktiviteter till Marketo Measure lead-kontaktytor, <a href="/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#cookie-mapping">enligt beskrivningen här</a>:
+    <td>Tack vare integreringen med Marketo kan Marketo Measure samla in Marketo aktiviteter, människor, program och programmedlemskap. Dessutom spårar Marketo Measure Marketo cookies (Munchkin ID) för att länka Marketo webbaktiviteter till Marketo Measure lead-kontaktytor, <a href="/help/marketo-engage-programs-integration.md#cookie-mapping">enligt beskrivningen här</a>:
     <p>
     <i>Som ett resultat av Marketo Measure-integreringen med Marketo mappas och synkroniseras Marketo Measure cookie-ID:t med Marketo Munchkin-ID:t. Detta hjälper till att stänga luckan för att attribuera den anonyma första beröringen till en webbsession i stället för att tilldela både FT- och LC-beröringen till en Marketo-aktivitet.</i>
     </td>
-    <td>Kunden måste skapa en dedikerad Marketo Engage API-användare och ange autentiseringsuppgifterna för Marketo Measure. Ingen ytterligare behörighetskonfiguration krävs. <a href="/help/marketo-measure-and-marketo/set-up-marketo-connection.md#configuring-the-integration">Läs mer</a>.</td>
+    <td>Kunden måste skapa en dedikerad Marketo Engage API-användare och ange autentiseringsuppgifterna för Marketo Measure. Ingen ytterligare behörighetskonfiguration krävs. <a href="/help/set-up-marketo-connection.md#configuring-the-integration">Läs mer</a>.</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
     <td>Systemdata för B2B</td>
-    <td>Tack vare integreringen av B2B-kundattribut kan båda användare av Marketo Measure och Adobe Analytics berika sina Adobe Analytics-användarprofiler med värdefull metadata som härleds från Marketo Measure attribueringsmotor och genom synkroniseringsmöjligheterna med CRM (Microsoft Dynamics och Salesforce). <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Läs mer</a>.</td>
+    <td>Tack vare integreringen av B2B-kundattribut kan båda användare av Marketo Measure och Adobe Analytics berika sina Adobe Analytics-användarprofiler med värdefull metadata som härleds från Marketo Measure attribueringsmotor och genom synkroniseringsmöjligheterna med CRM (Microsoft Dynamics och Salesforce). <a href="/help/adobe-analytics.md">Läs mer</a>.</td>
     <td>Kunden måste förse Marketo Measure med autentiseringsuppgifter för Alias ID och FTP-server till en plats där data överförs till deras Analytics-instans.
     <p>
     Observera följande information eftersom du behöver den för några av de senare stegen i processen:
@@ -228,7 +228,7 @@ Marketo Measure spårar kampanjer, annonsgrupper, kreatörer, webbplatslänkar o
     <li>Alias-ID, som kan vara vilket värde som helst. Vi rekommenderar"marketomeasure_id"</li>
     <li>FTP-serverns värdnamn och autentiseringsuppgifter (användarnamn och lösenord)</li>
     <p>
-    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">Läs mer</a></td>
+    <a href="/help/adobe-analytics.md#configuring-the-integration">Läs mer</a></td>
   </tr>
   <tr>
     <td>Bizible Javascript</td>
@@ -240,4 +240,4 @@ Marketo Measure spårar kampanjer, annonsgrupper, kreatörer, webbplatslänkar o
 </table>
 
 >[!MORELIKETHIS]
->[Felmeddelanden](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[Felmeddelanden](/help/configuration-and-setup/error-notifications.md){target="_blank"}
