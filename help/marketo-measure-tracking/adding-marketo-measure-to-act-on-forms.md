@@ -1,15 +1,14 @@
 ---
-description: Lägger till [!DNL Marketo Measure] i Active-On Forms - [!DNL Marketo Measure]
+description: Lägger till  [!DNL Marketo Measure] i handboken för Active On Forms för Marketo Measure-användare
 title: Lägger till [!DNL Marketo Measure] i Active-On Forms
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # Lägger till [!DNL Marketo Measure] i Act-On Forms {#adding-marketo-measure-to-act-on-forms}
 
@@ -23,5 +22,7 @@ ht-degree: 0%
 `script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
 >[!NOTE]
+>
 >Det kan redan finnas andra spårningskod i det här området, till exempel en [!DNL Google Analytics]-kod. Se till att separera dem med ett semikolon `;` och ett enda mellanslag, som:
->`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>*; **<script async="true" type="someothercode" src="someotherfile.js" ></script>`
+>
+>`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>**; **<script async="true" type="someothercode" src="someotherfile.js" ></script>`

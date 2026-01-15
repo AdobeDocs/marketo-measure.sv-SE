@@ -1,15 +1,15 @@
 ---
-description: Exkluderar [!DNL Marketo Measure] från specifik Forms - [!DNL Marketo Measure]
+description: Utesluter [!DNL Marketo Measure] från Forms särskilda riktlinjer för Marketo Measure-användare
 title: Exkluderar [!DNL Marketo Measure] från specifika Forms
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # Exkluderar [!DNL Marketo Measure] från specifik Forms {#excluding-marketo-measure-from-specific-forms}
 

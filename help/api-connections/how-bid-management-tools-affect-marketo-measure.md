@@ -1,15 +1,14 @@
 ---
-description: Så här påverkar hanteringsverktygen för bud  [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Hur stödhanteringsverktygen påverkar [!DNL Marketo Measure] vägledningen för Marketo Measure-användare
 title: Så här påverkar hanteringsverktygen för bud  [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
-
 
 # Så här påverkar hanteringsverktygen för bud [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
@@ -31,6 +30,7 @@ Konfigurera en spårningsmall enligt följande:
       * `{lpurl}&_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
    * Om INGEN av dina annons-URL:er har ett &quot;?&quot; Använd den här URL:en i dem:
       * `{lpurl}?_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
+
 
 ## För [!DNL Bing Ads]-konton {#for-bing-ads-accounts}
 

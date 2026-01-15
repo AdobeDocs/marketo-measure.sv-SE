@@ -1,15 +1,15 @@
 ---
-description: Lägger till [!DNL Marketo Measure] skript via [!DNL Google Tag Manager] - [!DNL Marketo Measure]
+description: Lägga till [!DNL Marketo Measure] skript via [!DNL Google Tag Manager] vägledning för Marketo Measure-användare
 title: Lägger till [!DNL Marketo Measure] skript via [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # Lägger till [!DNL Marketo Measure] skript via [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 
@@ -18,6 +18,7 @@ När du installerar [!DNL Marketo Measure] JavaScript rekommenderar vi att du [h
 Om du bestämmer dig för att lägga till vårt skript via GTM ska du ställa in [!DNL Marketo Measure]-skriptet till högsta prioritet i den inledande ordningen och se till att det inte finns några synkrona skript framför [!DNL Marketo Measure] -taggen för att minska eventuella effekter från GTM-latens.
 
 >[!NOTE]
+>
 >Läs den här [supportartikeln från Google](https://support.google.com/tagmanager/answer/2772421?hl=en){target="_blank"} om du vill veta mer.
 
 ## Lägga till [!DNL Marketo Measure] JS via [!DNL Google Tag Manager] {#how-to-add-marketo-measure-js-via-google-tag-manager}

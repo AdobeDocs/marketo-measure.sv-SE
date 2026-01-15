@@ -1,15 +1,14 @@
 ---
-description: Definition av  [!DNL Marketo Measure] webbsessioner - [!DNL Marketo Measure]
+description: Definition av  [!DNL Marketo Measure] Web Sessions-vägledning för Marketo Measure-användare
 title: Definition av  [!DNL Marketo Measure] webbsessioner
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
-
 
 # Definition av [!DNL Marketo Measure] webbsessioner {#definition-of-marketo-measure-web-sessions}
 
@@ -30,29 +29,13 @@ Det finns några saker som avgör när en session avslutas och när en ny sessio
 
 ## Tidsbaserad förfallotid {#time-based-expiration}
 
-### Äldre beteende {#legacy-behavior}
-
 **Hur länge varar en session?**
 
-[!UICONTROL Marketo Measure] sessioner avslutas efter 30 minuters inaktivitet på webbplatsen. Exempel:
+[!DNL Marketo Measure] sessioner avslutas efter 30 minuters inaktivitet på webbplatsen. Exempel:
 
 När Haley besöker adobe.com påbörjas en session. Hon utforskar webbplatsen i några minuter och tar sedan några steg bort från datorn, men lämnar webbplatsen öppen. Efter 30 minuters inaktivitet avslutas sessionen.
 
-För närvarande behandlar [!UICONTROL Marketo Measure] bara sidnavigering och formuläröverföringar som aktivitet. Att bläddra genom webbsidan eller hovra över ett element på sidan anses inte vara en aktivitet. Så om Haley besöker adobe.com för att läsa ett blogginlägg, och det tar en timme att läsa, avslutas hennes webbsession efter 30 minuter även om hon bläddrar igenom innehållet på sidan.
-
-### Nytt beteende {#new-behavior}
-
-För nya användare är detta standardbeteendet.
-
-Befintliga användare kan använda det nya beteendet genom att aktivera växlingen under **Inställningar** > **All touch Attribution** > **Sessionskanalöverföring**. Den här inställningen kan inte ångras när den har aktiverats.
-
-När en ny session skapas efter 30 minuters inaktivitet överförs den föregående sessionens kanal om den nya sessionen börjar inom sju dagar. Överföringen gäller endast för direktbesök (varken referenter eller interna referenter). Om inaktiviteten överstiger sju dagar används kanalen för den nya sessionen som standard för Direkt/Annan. Om Haley till exempel besöker landingpage.com från Google, är inaktiv i över 30 minuter och återkommer inom sju dagar, behåller den nya sessionen Google-kanalen. Om samma användare däremot ändrar sidan genom en annan kanal åsidosätts inte den andra kanalen av den tidigare Google-kanalen.
-
-Endast kanalen överförs, exklusive kampanj- eller referensinformation. Detta beror på att kanalklassificeringen hanteras av Marketo Measure, medan andra datapunkter samlas in separat.
-
-**Inloggning via sociala medier**
-
-När en besökare använder social inloggning via Google, Microsoft eller Apple sammanfogas sessionen till en kontinuerlig session. Om en besökare till exempel får plats på en sida från LinkedIn, slutför en social Google-inloggning och når en tacksida, räknas allt som en enda session. Om inte överföringskanalen för sessionskanalen aktiveras skulle social inloggning skapa separata sessioner på grund av den externa referenten.
+För närvarande behandlar [!DNL Marketo Measure] bara sidnavigering och formuläröverföringar som aktivitet. Att bläddra genom webbsidan eller hovra över ett element på sidan anses inte vara en aktivitet. Så om Haley besöker adobe.com för att läsa ett blogginlägg, och det tar en timme att läsa, avslutas hennes webbsession efter 30 minuter även om hon bläddrar igenom innehållet på sidan.
 
 ## Kanalbaserad förfallotid {#channel-based-expiration}
 
