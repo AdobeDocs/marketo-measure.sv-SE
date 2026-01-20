@@ -50,9 +50,9 @@ Här finns olika länkar till relevanta artiklar/videoklipp som hjälper dig att
 Här är några videor    hjälper dig att komma igång:
 
 * [[!DNL Marketo Measure] Intro Training](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 min)
-* [[!DNL Marketo Measure] Rapportering i SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minuter)
+* [[!DNL Marketo Measure] Rapportering i SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=sv-SE) (30-45 minuter)
 
-**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 minuter)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=sv-SE) (~30 minuter)**
 
 Kursserien är utformad som en allmän introduktion till de grundläggande begrepp som du behöver känna till för att kunna hantera [!DNL Marketo Measure]. Det ger en introduktion till begreppet attribuering, vad [!DNL Marketo Measure] gör som ett verktyg och det allmänna ramverket som [!DNL Marketo Measure] arbetar med.
 
@@ -64,7 +64,7 @@ Kursserien är utformad som en allmän introduktion till de grundläggande begre
 * Pekpunkter
 * Attributionsmodeller
 
-**[[!DNL Marketo Measure] Rapportering i SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minuter)**
+**[[!DNL Marketo Measure] Rapportering i SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=sv-SE) (30-45 minuter)**
 
 Kursen är utformad som en introduktion till [!DNL Marketo Measure]-arkivrapporterna som har installerats i Salesforce. Dessa rapporter fungerar som grund för de flesta rapporter som du gör med [!DNL Marketo Measure]-data.
 
@@ -77,7 +77,7 @@ Kursen är utformad som en introduktion till [!DNL Marketo Measure]-arkivrapport
 * Affärsmöjligheter per ID-rapport
 * Affärsmöjligheter per kanal - rapport
 
-**[Kanalhantering](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
+**[Kanalhantering](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=sv-SE)**
 
 Kursen omfattar olika sätt att anpassa [!DNL Marketo Measure], både online och offline. Kursen är mer avancerad och kanske inte är relevant för alla användare.
 
@@ -89,4 +89,4 @@ Kursen omfattar olika sätt att anpassa [!DNL Marketo Measure], både online och
 * Medlemsfält för kampanj och kampanj
 * Hantering av offlinekanaler
 
-Här är alla [nybörjarvideor för e-utbildning](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).
+Här är alla [nybörjarvideor för e-utbildning](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=sv-SE).

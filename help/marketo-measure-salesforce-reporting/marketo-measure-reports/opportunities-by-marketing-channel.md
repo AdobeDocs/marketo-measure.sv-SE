@@ -35,4 +35,4 @@ Den här rapporten visar antalet möjligheter som genererats av era marknadsför
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Självstudiekurser: Stock SFDC-rapporter](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Självstudiekurser: Stock SFDC-rapporter](https://experienceleague.adobe.com/sv/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
