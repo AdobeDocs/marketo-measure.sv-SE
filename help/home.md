@@ -1,30 +1,34 @@
 ---
-description: Produktdokumentation och självhjälp för Adobe Marketo Measure.
+unique-page-id: 18874501
+description: Sök efter produktdokumentation och självhjälp för Adobe Marketo Measure.
 title: Marketo Measure produktdokumentation
 exl-id: cc5d46e6-9dc6-493d-a6c4-13c5fe371b9a
-source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
+source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '81'
 ht-degree: 2%
 
 ---
 
-# Marketo Measure Documentation
+# Marketo Measure hjälpdokumentation
 
-![Marketo Measure-dokumentation](/help/assets/marketo-measure-banner.jpg)
+![banner](/help/assets/marketo-measure-banner.jpg)
 
 Marketo Measure (tidigare Bizible) förenar beteendedata och annonsdata med säljresultat och maskininlärning så att ni kan fatta rätt marknadsföringsbeslut.
 
 ## Komma igång
 
-* [Marknadsattribuering](/help/marketing-attribution.md)
-* [Marketo Measure attribueringsmodeller](/help/attribution-models.md)
-* [Marketo Measure Framework](/help/marketo-measure-framework.md)
-* [Ordlista för Marketo Measure-fält](/help/glossary.md)
+* [Marknadsattribuering](/help/introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
+
+* [Marketo Measure attribueringsmodeller](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
+
+* [Marketo Measure Framework](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-framework.md)
+
+* [Ordlista för Marketo Measure-fält](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 ## Populära artiklar
 
-* [Lägga till Marketo Measure Script](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
-* [Skillnad mellan Buyer Touchpoints och Buyer Attribution Touchpoints](/help/configuration-and-setup/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
-* [Anpassad kanalinställning online](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
-* [Anpassad kanalinställning offline](/help/channel-tracking-and-setup/offline-custom-channel-setup.md)
+* [Lägga till Marketo Measure Script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+* [Skillnad mellan Buyer Touchpoints och Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+* [Anpassad kanalinställning online](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+* [Anpassad kanalinställning offline](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)

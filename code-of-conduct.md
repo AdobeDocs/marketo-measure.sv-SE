@@ -1,5 +1,5 @@
 ---
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -8,6 +8,7 @@ ht-degree: 0%
 # Adobe uppförandekod
 
 ## Vår redovisning
+
 
 För att främja en öppen och välkommen miljö
 som bidrar till och underhåller engagerar sig i att delta i vårt projekt, och
