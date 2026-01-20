@@ -35,7 +35,7 @@ Så här öppnar och tilldelar du behörighetsuppsättningar i Salesforce:
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Administratör</strong></span></td> 
-   <td><span>Ger en SFDC-administratör möjlighet att skapa, läsa, skriva och ta bort poster från [!DNL Marketo Measure]-objekt. Den licens under vilken [!DNL Marketo Measure] skickar data till SFDC bör ha den här behörighetsuppsättningen aktiverad. Vi rekommenderar även att den här licensen kan redigera konverterade leads i scenarier där lead konverteras innan [!DNL Marketo Measure] använder data för posten. Detta garanterar att rapporteringen mellan Salesforce och [!DNL Marketo Measure] är korrekt. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">Läs mer här</a>.</span></td> 
+   <td><span>Ger en SFDC-administratör möjlighet att skapa, läsa, skriva och ta bort poster från [!DNL Marketo Measure]-objekt. Den licens under vilken [!DNL Marketo Measure] skickar data till SFDC bör ha den här behörighetsuppsättningen aktiverad. Vi rekommenderar även att den här licensen kan redigera konverterade leads i scenarier där lead konverteras innan [!DNL Marketo Measure] använder data för posten. Detta garanterar att rapporteringen mellan Salesforce och [!DNL Marketo Measure] är korrekt. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&type=5&release=206&language=en_us">Läs mer här</a>.</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Marknadsförare</strong></span></td> 
